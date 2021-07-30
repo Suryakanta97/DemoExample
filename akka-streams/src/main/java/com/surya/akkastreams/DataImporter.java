@@ -1,4 +1,4 @@
-package com.baeldung.akkastreams;
+package com.surya.akkastreams;
 
 
 import akka.Done;

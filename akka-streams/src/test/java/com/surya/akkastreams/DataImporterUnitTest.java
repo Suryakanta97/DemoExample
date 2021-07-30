@@ -1,4 +1,4 @@
-package com.baeldung.akkastreams;
+package com.surya.akkastreams;
 
 import akka.NotUsed;
 import akka.actor.ActorSystem;
@@ -7,6 +7,8 @@ import akka.stream.javadsl.Flow;
 import akka.stream.javadsl.Source;
 import akka.stream.testkit.javadsl.TestSink;
 import org.junit.Test;
+
+import com.surya.akkastreams.DataImporter;
 
 
 public class DataImporterUnitTest {
