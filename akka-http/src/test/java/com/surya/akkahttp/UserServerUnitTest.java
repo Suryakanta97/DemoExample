@@ -1,4 +1,4 @@
-package com.baeldung.akkahttp;
+package com.surya.akkahttp;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
@@ -10,6 +10,9 @@ import akka.http.javadsl.testkit.TestRoute;
 
 import org.junit.Ignore;
 import org.junit.Test;
+
+import com.surya.akkahttp.UserActor;
+import com.surya.akkahttp.UserServer;
 
 public class UserServerUnitTest extends JUnitRouteTest {
 

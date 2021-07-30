@@ -1,11 +1,12 @@
-package com.baeldung.akkahttp;
+package com.surya.akkahttp;
+
+import com.surya.akkahttp.UserMessages.ActionPerformed;
+import com.surya.akkahttp.UserMessages.CreateUserMessage;
+import com.surya.akkahttp.UserMessages.GetUserMessage;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;
 import akka.japi.pf.FI;
-import com.baeldung.akkahttp.UserMessages.ActionPerformed;
-import com.baeldung.akkahttp.UserMessages.CreateUserMessage;
-import com.baeldung.akkahttp.UserMessages.GetUserMessage;
 
 
 class UserActor extends AbstractActor {

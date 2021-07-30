@@ -1,8 +1,12 @@
-package com.baeldung.akkahttp;
+package com.surya.akkahttp;
 
 import java.util.Optional;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.TimeUnit;
+
+import com.surya.akkahttp.UserMessages.ActionPerformed;
+import com.surya.akkahttp.UserMessages.CreateUserMessage;
+import com.surya.akkahttp.UserMessages.GetUserMessage;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
@@ -12,9 +16,6 @@ import akka.http.javadsl.server.HttpApp;
 import akka.http.javadsl.server.Route;
 import akka.pattern.PatternsCS;
 import akka.util.Timeout;
-import com.baeldung.akkahttp.UserMessages.ActionPerformed;
-import com.baeldung.akkahttp.UserMessages.CreateUserMessage;
-import com.baeldung.akkahttp.UserMessages.GetUserMessage;
 import scala.concurrent.duration.Duration;
 import static akka.http.javadsl.server.PathMatchers.*;
 

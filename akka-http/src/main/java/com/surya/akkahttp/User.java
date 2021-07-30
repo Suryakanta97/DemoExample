@@ -1,4 +1,4 @@
-package com.baeldung.akkahttp;
+package com.surya.akkahttp;
 
 public class User {
 

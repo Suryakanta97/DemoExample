@@ -1,4 +1,4 @@
-package com.baeldung.akkahttp;
+package com.surya.akkahttp;
 
 import java.util.ArrayList;
 import java.util.List;
