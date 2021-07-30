@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.twopointertechnique;
+package com.surya.algorithms.twopointertechnique;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.twopointertechnique;
+package com.surya.algorithms.twopointertechnique;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.kmeans;
+package com.surya.algorithms.kmeans;
 
 import java.util.Map;
 import java.util.Objects;

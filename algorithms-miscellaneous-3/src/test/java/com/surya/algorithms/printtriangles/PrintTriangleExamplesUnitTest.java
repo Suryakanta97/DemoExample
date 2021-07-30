@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.printtriangles;
+package com.surya.algorithms.printtriangles;
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;

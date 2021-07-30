@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.checksortedlist;
+package com.surya.algorithms.checksortedlist;
 
 import static org.apache.commons.collections4.CollectionUtils.isEmpty;
 

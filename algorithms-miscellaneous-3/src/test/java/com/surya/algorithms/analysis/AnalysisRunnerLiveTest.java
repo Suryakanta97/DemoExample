@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.analysis;
+package com.surya.algorithms.analysis;
 
 import org.junit.Test;
 

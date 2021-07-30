@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.graphcycledetection.domain;
+package com.surya.algorithms.graphcycledetection.domain;
 
 import java.util.ArrayList;
 import java.util.List;

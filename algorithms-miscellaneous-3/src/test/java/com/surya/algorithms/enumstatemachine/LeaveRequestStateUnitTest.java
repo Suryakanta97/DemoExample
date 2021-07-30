@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.enumstatemachine;
+package com.surya.algorithms.enumstatemachine;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package com.baeldung.folding;
+package com.surya.folding;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;

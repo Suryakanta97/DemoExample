@@ -1,4 +1,4 @@
-package com.baeldung.folding;
+package com.surya.folding;
 
 /**
  * Code snippet for article "A Guide to the Folding Technique".

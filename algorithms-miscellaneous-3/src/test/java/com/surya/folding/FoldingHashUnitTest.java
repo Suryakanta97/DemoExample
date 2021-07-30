@@ -1,4 +1,4 @@
-package com.baeldung.folding;
+package com.surya.folding;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package com.baeldung.counter;
+package com.surya.counter;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Fork;
 import org.openjdk.jmh.annotations.Mode;
 
-import com.baeldung.counter.CounterUtil.MutableInteger;
+import com.surya.counter.CounterUtil.MutableInteger;
 
 @Fork(value = 1, warmups = 3)
 @BenchmarkMode(Mode.All)

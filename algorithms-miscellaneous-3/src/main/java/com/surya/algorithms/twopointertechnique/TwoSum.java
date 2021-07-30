@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.twopointertechnique;
+package com.surya.algorithms.twopointertechnique;
 
 public class TwoSum {
 

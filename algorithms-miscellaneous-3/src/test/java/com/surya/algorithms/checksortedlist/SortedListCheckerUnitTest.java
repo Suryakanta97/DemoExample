@@ -1,9 +1,9 @@
-package com.baeldung.algorithms.checksortedlist;
+package com.surya.algorithms.checksortedlist;
 
-import static com.baeldung.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingComparators;
-import static com.baeldung.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingIterativeApproach;
-import static com.baeldung.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingOrderingClass;
-import static com.baeldung.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingRecursion;
+import static com.surya.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingComparators;
+import static com.surya.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingIterativeApproach;
+import static com.surya.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingOrderingClass;
+import static com.surya.algorithms.checksortedlist.SortedListChecker.checkIfSortedUsingRecursion;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 

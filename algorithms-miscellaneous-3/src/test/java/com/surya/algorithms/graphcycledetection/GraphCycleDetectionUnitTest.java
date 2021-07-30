@@ -1,12 +1,12 @@
-package com.baeldung.algorithms.graphcycledetection;
+package com.surya.algorithms.graphcycledetection;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.baeldung.algorithms.graphcycledetection.domain.Graph;
-import com.baeldung.algorithms.graphcycledetection.domain.Vertex;
+import com.surya.algorithms.graphcycledetection.domain.Graph;
+import com.surya.algorithms.graphcycledetection.domain.Vertex;
 
 public class GraphCycleDetectionUnitTest {
 

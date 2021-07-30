@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.kmeans;
+package com.surya.algorithms.kmeans;
 
 import java.io.IOException;
 import java.util.Collections;

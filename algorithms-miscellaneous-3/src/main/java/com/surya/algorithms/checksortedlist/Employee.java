@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.checksortedlist;
+package com.surya.algorithms.checksortedlist;
 
 public class Employee {
 

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.enumstatemachine;
+package com.surya.algorithms.enumstatemachine;
 
 public enum LeaveRequestState {
 

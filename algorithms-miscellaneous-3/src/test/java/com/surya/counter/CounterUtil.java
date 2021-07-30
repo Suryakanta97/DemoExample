@@ -1,4 +1,4 @@
-package com.baeldung.counter;
+package com.surya.counter;
 
 import java.util.Map;
 import java.util.stream.Collectors;
