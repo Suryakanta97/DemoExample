@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.slope_one;
+package com.surya.algorithms.slope_one;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

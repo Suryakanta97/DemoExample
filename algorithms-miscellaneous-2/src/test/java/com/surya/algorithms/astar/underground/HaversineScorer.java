@@ -1,6 +1,6 @@
-package com.baeldung.algorithms.astar.underground;
+package com.surya.algorithms.astar.underground;
 
-import com.baeldung.algorithms.astar.Scorer;
+import com.surya.algorithms.astar.Scorer;
 
 public class HaversineScorer implements Scorer<Station> {
     @Override

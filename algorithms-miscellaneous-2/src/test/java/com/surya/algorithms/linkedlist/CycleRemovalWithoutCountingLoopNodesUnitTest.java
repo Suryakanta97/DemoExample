@@ -1,9 +1,13 @@
-package com.baeldung.algorithms.linkedlist;
+package com.surya.algorithms.linkedlist;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+
+import com.surya.algorithms.linkedlist.CycleDetectionByFastAndSlowIterators;
+import com.surya.algorithms.linkedlist.CycleRemovalWithoutCountingLoopNodes;
+import com.surya.algorithms.linkedlist.Node;
 
 @RunWith(value = Parameterized.class)
 public class CycleRemovalWithoutCountingLoopNodesUnitTest extends CycleDetectionTestBase {

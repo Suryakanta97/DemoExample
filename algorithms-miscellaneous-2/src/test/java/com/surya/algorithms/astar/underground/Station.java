@@ -1,8 +1,8 @@
-package com.baeldung.algorithms.astar.underground;
+package com.surya.algorithms.astar.underground;
 
 import java.util.StringJoiner;
 
-import com.baeldung.algorithms.astar.GraphNode;
+import com.surya.algorithms.astar.GraphNode;
 
 public class Station implements GraphNode {
     private final String id;

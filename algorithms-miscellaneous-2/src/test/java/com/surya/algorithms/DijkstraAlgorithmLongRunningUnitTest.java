@@ -1,10 +1,10 @@
-package com.baeldung.algorithms;
+package com.surya.algorithms;
 
 import org.junit.Test;
 
-import com.baeldung.algorithms.ga.dijkstra.Dijkstra;
-import com.baeldung.algorithms.ga.dijkstra.Graph;
-import com.baeldung.algorithms.ga.dijkstra.Node;
+import com.surya.algorithms.ga.dijkstra.Dijkstra;
+import com.surya.algorithms.ga.dijkstra.Graph;
+import com.surya.algorithms.ga.dijkstra.Node;
 
 import java.util.Arrays;
 import java.util.List;

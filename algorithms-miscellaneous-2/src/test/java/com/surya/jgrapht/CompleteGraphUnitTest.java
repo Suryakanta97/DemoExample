@@ -1,4 +1,4 @@
-package com.baeldung.jgrapht;
+package com.surya.jgrapht;
 
 import static org.junit.Assert.assertEquals;
 

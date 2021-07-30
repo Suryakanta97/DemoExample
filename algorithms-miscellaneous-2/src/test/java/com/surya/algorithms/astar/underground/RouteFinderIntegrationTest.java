@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.astar.underground;
+package com.surya.algorithms.astar.underground;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -8,10 +8,11 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.baeldung.algorithms.astar.Graph;
-import com.baeldung.algorithms.astar.RouteFinder;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.surya.algorithms.astar.Graph;
+import com.surya.algorithms.astar.RouteFinder;
 
 public class RouteFinderIntegrationTest {
 

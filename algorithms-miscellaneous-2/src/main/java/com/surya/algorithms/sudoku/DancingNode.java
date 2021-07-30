@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.sudoku;
+package com.surya.algorithms.sudoku;
 
 class DancingNode {
     DancingNode L, R, U, D;

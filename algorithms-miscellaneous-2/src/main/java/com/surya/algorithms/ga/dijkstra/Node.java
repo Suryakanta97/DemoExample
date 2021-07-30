@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.ga.dijkstra;
+package com.surya.algorithms.ga.dijkstra;
 
 import java.util.HashMap;
 import java.util.LinkedList;

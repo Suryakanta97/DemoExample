@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.editdistance;
+package com.surya.algorithms.editdistance;
 
 public class EditDistanceRecursive extends EditDistanceBase {
 

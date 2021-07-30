@@ -1,9 +1,11 @@
-package com.baeldung.algorithms.linkedlist;
+package com.surya.algorithms.linkedlist;
 
 import java.util.Arrays;
 import java.util.Collection;
 
 import org.junit.runners.Parameterized.Parameters;
+
+import com.surya.algorithms.linkedlist.Node;
 
 public class CycleDetectionTestBase {
 

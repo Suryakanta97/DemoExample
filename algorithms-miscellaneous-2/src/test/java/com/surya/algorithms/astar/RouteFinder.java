@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.astar;
+package com.surya.algorithms.astar;
 
 import java.util.ArrayList;
 import java.util.HashMap;

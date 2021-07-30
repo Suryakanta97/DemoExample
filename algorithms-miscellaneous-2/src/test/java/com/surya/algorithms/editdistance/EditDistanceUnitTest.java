@@ -1,8 +1,11 @@
-package com.baeldung.algorithms.editdistance;
+package com.surya.algorithms.editdistance;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+
+import com.surya.algorithms.editdistance.EditDistanceDynamicProgramming;
+import com.surya.algorithms.editdistance.EditDistanceRecursive;
 
 import static org.junit.Assert.assertEquals;
 
