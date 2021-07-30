@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.ga.ant_colony;
+package com.surya.algorithms.ga.ant_colony;
 
 public class Ant {
 

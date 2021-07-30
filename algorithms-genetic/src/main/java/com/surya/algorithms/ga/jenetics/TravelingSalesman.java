@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.ga.jenetics;
+package com.surya.algorithms.ga.jenetics;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.abs;

@@ -1,10 +1,10 @@
-package com.baeldung.algorithms;
+package com.surya.algorithms;
 
 import java.util.Scanner;
 
-import com.baeldung.algorithms.ga.annealing.SimulatedAnnealing;
-import com.baeldung.algorithms.ga.ant_colony.AntColonyOptimization;
-import com.baeldung.algorithms.ga.binary.SimpleGeneticAlgorithm;
+import com.surya.algorithms.ga.annealing.SimulatedAnnealing;
+import com.surya.algorithms.ga.ant_colony.AntColonyOptimization;
+import com.surya.algorithms.ga.binary.SimpleGeneticAlgorithm;
 
 public class RunAlgorithm {
 
