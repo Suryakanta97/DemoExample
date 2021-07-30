@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.reversingtree;
+package com.surya.algorithms.reversingtree;
 
 public class TreeNode {
 

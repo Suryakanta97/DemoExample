@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.maximumsubarray;
+package com.surya.algorithms.maximumsubarray;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

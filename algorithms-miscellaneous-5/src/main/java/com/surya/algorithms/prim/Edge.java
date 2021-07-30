@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.prim;
+package com.surya.algorithms.prim;
 
 public class Edge {
 

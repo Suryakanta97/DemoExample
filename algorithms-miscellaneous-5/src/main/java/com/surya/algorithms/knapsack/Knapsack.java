@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.knapsack;
+package com.surya.algorithms.knapsack;
 
 public class Knapsack {
 

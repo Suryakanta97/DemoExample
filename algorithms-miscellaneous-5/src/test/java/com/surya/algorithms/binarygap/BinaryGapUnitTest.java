@@ -1,6 +1,6 @@
-package com.baeldung.algorithms.binarygap;
+package com.surya.algorithms.binarygap;
 
-import static com.baeldung.algorithms.binarygap.BinaryGap.calculateBinaryGap;
+import static com.surya.algorithms.binarygap.BinaryGap.calculateBinaryGap;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.maximumsubarray;
+package com.surya.algorithms.maximumsubarray;
 
 import org.junit.jupiter.api.Test;
 

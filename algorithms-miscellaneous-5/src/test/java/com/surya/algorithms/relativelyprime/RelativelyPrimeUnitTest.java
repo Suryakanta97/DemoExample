@@ -1,8 +1,8 @@
-package com.baeldung.algorithms.relativelyprime;
+package com.surya.algorithms.relativelyprime;
 
 import org.junit.Test;
 
-import static com.baeldung.algorithms.relativelyprime.RelativelyPrime.*;
+import static com.surya.algorithms.relativelyprime.RelativelyPrime.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class RelativelyPrimeUnitTest {

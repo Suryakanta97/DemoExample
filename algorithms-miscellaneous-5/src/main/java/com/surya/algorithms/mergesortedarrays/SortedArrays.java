@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.mergesortedarrays;
+package com.surya.algorithms.mergesortedarrays;
 
 public class SortedArrays {
 

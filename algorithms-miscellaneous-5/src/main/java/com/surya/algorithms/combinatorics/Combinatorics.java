@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.combinatorics;
+package com.surya.algorithms.combinatorics;
 
 import java.util.*;
 

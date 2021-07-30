@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.prim;
+package com.surya.algorithms.prim;
 
 import java.util.Iterator;
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.baeldung.algorithms.mergesortedarrays;
+package com.surya.algorithms.mergesortedarrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.algorithms.mergesortedarrays.SortedArrays;
+import com.surya.algorithms.mergesortedarrays.SortedArrays;
 
 public class SortedArraysUnitTest {
 

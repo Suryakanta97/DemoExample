@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.integerstreammedian;
+package com.surya.algorithms.integerstreammedian;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

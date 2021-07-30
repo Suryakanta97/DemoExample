@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.balancedbinarytree;
+package com.surya.algorithms.balancedbinarytree;
 
 public class Tree {
     private final int value;

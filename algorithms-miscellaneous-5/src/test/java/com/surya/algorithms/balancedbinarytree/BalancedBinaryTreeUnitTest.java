@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.balancedbinarytree;
+package com.surya.algorithms.balancedbinarytree;
 
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;

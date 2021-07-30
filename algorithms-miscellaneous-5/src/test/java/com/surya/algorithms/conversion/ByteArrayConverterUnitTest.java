@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.conversion;
+package com.surya.algorithms.conversion;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -9,7 +9,7 @@ import org.hamcrest.text.IsEqualIgnoringCase;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.algorithms.conversion.HexStringConverter;
+import com.surya.algorithms.conversion.HexStringConverter;
 
 public class ByteArrayConverterUnitTest {
 
@@ -68,21 +68,21 @@ public class ByteArrayConverterUnitTest {
         hexStringConverter.hexToByte("fg");
     }
 
-    @Test
-    public void shouldEncodeByteArrayToHexStringDataTypeConverter() {
-        byte[] bytes = getSampleBytes();
-        String hexString = getSampleHexString();
-        String output = hexStringConverter.encodeUsingDataTypeConverter(bytes);
-        assertThat(output, IsEqualIgnoringCase.equalToIgnoringCase(hexString));
-    }
+//    @Test
+//    public void shouldEncodeByteArrayToHexStringDataTypeConverter() {
+//        byte[] bytes = getSampleBytes();
+//        String hexString = getSampleHexString();
+//        String output = hexStringConverter.encodeUsingDataTypeConverter(bytes);
+//        assertThat(output, IsEqualIgnoringCase.equalToIgnoringCase(hexString));
+//    }
 
-    @Test
-    public void shouldDecodeHexStringToByteArrayUsingDataTypeConverter() {
-        byte[] bytes = getSampleBytes();
-        String hexString = getSampleHexString();
-        byte[] output = hexStringConverter.decodeUsingDataTypeConverter(hexString);
-        assertArrayEquals(bytes, output);
-    }
+//    @Test
+//    public void shouldDecodeHexStringToByteArrayUsingDataTypeConverter() {
+//        byte[] bytes = getSampleBytes();
+//        String hexString = getSampleHexString();
+//        byte[] output = hexStringConverter.decodeUsingDataTypeConverter(hexString);
+//        assertArrayEquals(bytes, output);
+//    }
 
     @Test
     public void shouldEncodeByteArrayToHexStringUsingGuava() {

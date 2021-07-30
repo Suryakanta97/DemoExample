@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.binarygap;
+package com.surya.algorithms.binarygap;
 
 public class BinaryGap {
     static int calculateBinaryGap(int n) {

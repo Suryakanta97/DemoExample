@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.knapsack;
+package com.surya.algorithms.knapsack;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
