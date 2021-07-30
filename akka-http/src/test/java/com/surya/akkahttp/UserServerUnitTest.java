@@ -1,5 +1,7 @@
 package com.surya.akkahttp;
 
+import org.junit.Test;
+
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.http.javadsl.model.ContentTypes;
@@ -8,11 +10,6 @@ import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.testkit.JUnitRouteTest;
 import akka.http.javadsl.testkit.TestRoute;
 
-import org.junit.Ignore;
-import org.junit.Test;
-
-import com.surya.akkahttp.UserActor;
-import com.surya.akkahttp.UserServer;
 
 public class UserServerUnitTest extends JUnitRouteTest {
 
@@ -22,7 +19,6 @@ public class UserServerUnitTest extends JUnitRouteTest {
 
   TestRoute appRoute = testRoute(new UserServer(userActorRef).routes());
 
-  @Ignore
   @Test
   public void whenRequest_thenActorResponds() {
 
