@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.hillclimbing;
+package com.surya.algorithms.hillclimbing;
 
 import java.util.ArrayList;
 import java.util.List;

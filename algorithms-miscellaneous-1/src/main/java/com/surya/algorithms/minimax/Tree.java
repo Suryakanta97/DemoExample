@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.minimax;
+package com.surya.algorithms.minimax;
 
 public class Tree {
     private Node root;

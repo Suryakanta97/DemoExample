@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.kthlargest;
+package com.surya.algorithms.kthlargest;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,7 +1,8 @@
-package com.baeldung.algorithms;
+package com.surya.algorithms;
 
-import com.baeldung.algorithms.automata.*;
 import org.junit.Test;
+
+import com.surya.algorithms.automata.*;
 
 import static org.junit.Assert.assertTrue;
 

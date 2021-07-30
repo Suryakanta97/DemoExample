@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.minimax;
+package com.surya.algorithms.minimax;
 
 import java.util.Comparator;
 import java.util.List;

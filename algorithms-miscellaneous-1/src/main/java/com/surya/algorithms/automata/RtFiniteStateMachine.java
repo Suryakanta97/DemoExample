@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.automata;
+package com.surya.algorithms.automata;
 
 /**
  * Default implementation of a finite state machine.

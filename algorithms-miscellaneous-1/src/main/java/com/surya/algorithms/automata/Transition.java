@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.automata;
+package com.surya.algorithms.automata;
 
 /**
  * Transition in a finite State machine.

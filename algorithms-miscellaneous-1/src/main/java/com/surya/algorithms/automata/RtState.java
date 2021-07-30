@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.automata;
+package com.surya.algorithms.automata;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,11 @@
-package com.baeldung.algorithms.kthlargest;
+package com.surya.algorithms.kthlargest;
 
 import static org.assertj.core.api.Assertions.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.surya.algorithms.kthlargest.FindKthLargest;
 
 public class FindKthLargestUnitTest {
 

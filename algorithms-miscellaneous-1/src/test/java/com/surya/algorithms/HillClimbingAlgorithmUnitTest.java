@@ -1,9 +1,10 @@
-package com.baeldung.algorithms;
+package com.surya.algorithms;
 
-import com.baeldung.algorithms.hillclimbing.HillClimbing;
-import com.baeldung.algorithms.hillclimbing.State;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.surya.algorithms.hillclimbing.HillClimbing;
+import com.surya.algorithms.hillclimbing.State;
 
 import java.util.ArrayList;
 import java.util.List;

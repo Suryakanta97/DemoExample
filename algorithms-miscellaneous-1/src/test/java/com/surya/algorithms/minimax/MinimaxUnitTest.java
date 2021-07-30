@@ -1,11 +1,12 @@
-package com.baeldung.algorithms.minimax;
+package com.surya.algorithms.minimax;
 
 import org.junit.Before;
 import org.junit.Test;
 
+import com.surya.algorithms.minimax.MiniMax;
+import com.surya.algorithms.minimax.Tree;
+
 import static org.junit.Assert.*;
-import com.baeldung.algorithms.minimax.MiniMax;
-import com.baeldung.algorithms.minimax.Tree;
 
 public class MinimaxUnitTest {
     private Tree gameTree;
