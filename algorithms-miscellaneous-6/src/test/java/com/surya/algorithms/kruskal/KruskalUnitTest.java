@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.kruskal;
+package com.surya.algorithms.kruskal;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -9,7 +9,7 @@ import org.junit.Test;
 import com.google.common.graph.MutableValueGraph;
 import com.google.common.graph.ValueGraph;
 import com.google.common.graph.ValueGraphBuilder;
-import com.baeldung.algorithms.kruskal.Kruskal;
+import com.surya.algorithms.kruskal.Kruskal;
 
 public class KruskalUnitTest {
 

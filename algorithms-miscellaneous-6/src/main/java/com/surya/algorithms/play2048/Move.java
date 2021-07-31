@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.play2048;
+package com.surya.algorithms.play2048;
 
 public enum Move {
     UP,

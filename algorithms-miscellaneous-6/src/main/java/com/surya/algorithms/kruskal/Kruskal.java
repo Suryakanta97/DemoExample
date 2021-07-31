@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.kruskal;
+package com.surya.algorithms.kruskal;
 
 import com.google.common.graph.EndpointPair;
 import com.google.common.graph.MutableValueGraph;

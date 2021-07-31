@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.boruvka;
+package com.surya.algorithms.boruvka;
 
 import com.google.common.graph.EndpointPair;
 import com.google.common.graph.MutableValueGraph;

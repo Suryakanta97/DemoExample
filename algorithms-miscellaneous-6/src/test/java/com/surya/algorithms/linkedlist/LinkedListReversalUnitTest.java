@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.linkedlist;
+package com.surya.algorithms.linkedlist;
 
 import org.junit.Test;
 

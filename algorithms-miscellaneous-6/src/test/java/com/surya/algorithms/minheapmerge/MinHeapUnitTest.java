@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.minheapmerge;
+package com.surya.algorithms.minheapmerge;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.gradientdescent;
+package com.surya.algorithms.gradientdescent;
 
 import java.util.function.Function;
 

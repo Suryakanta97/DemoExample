@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.minheapmerge;
+package com.surya.algorithms.minheapmerge;
 
 public class HeapNode {
 

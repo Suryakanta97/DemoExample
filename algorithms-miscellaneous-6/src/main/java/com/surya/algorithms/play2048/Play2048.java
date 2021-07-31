@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.play2048;
+package com.surya.algorithms.play2048;
 
 public class Play2048 {
     private static final int SIZE = 4;

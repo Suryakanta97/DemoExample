@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.balancedbrackets;
+package com.surya.algorithms.balancedbrackets;
 
 public class BalancedBracketsUsingString {
 

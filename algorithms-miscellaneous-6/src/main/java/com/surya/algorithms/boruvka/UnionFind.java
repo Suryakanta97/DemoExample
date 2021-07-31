@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.boruvka;
+package com.surya.algorithms.boruvka;
 
 public class UnionFind {
     private int[] parents;

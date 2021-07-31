@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.kruskal;
+package com.surya.algorithms.kruskal;
 
 public class DisjointSetInfo {
 

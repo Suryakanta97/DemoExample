@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.boruvka;
+package com.surya.algorithms.boruvka;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

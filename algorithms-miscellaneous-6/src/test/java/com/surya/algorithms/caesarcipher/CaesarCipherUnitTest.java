@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.caesarcipher;
+package com.surya.algorithms.caesarcipher;
 
 import org.junit.jupiter.api.Test;
 

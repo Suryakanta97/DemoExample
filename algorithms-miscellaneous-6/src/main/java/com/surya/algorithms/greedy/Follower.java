@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.greedy;
+package com.surya.algorithms.greedy;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.topkelements;
+package com.surya.algorithms.topkelements;
 
 import org.junit.Test;
 
