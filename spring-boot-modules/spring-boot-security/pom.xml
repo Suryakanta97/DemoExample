@@ -9,7 +9,7 @@
     <description>Spring Boot Security Auto-Configuration</description>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -80,7 +80,7 @@
     </build>
 
     <properties>
-        <start-class>com.baeldung.springbootsecurity.basic_auth.SpringBootSecurityApplication</start-class>
+        <start-class>com.surya.springbootsecurity.basic_auth.SpringBootSecurityApplication</start-class>
         <spring-security-oauth2.version>2.4.0.RELEASE</spring-security-oauth2.version>
         <spring-security-oauth2-autoconfigure.version>2.2.2.RELEASE</spring-security-oauth2-autoconfigure.version>
     </properties>

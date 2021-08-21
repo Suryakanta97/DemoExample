@@ -8,7 +8,7 @@
     <name>spring-boot-with-custom-parent</name>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>

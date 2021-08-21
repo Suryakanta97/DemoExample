@@ -9,7 +9,7 @@
     <description>Module For Spring Boot MVC</description>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -106,7 +106,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.springbootmvc.SpringBootMvcApplication</mainClass>
+                    <mainClass>com.surya.springbootmvc.SpringBootMvcApplication</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
@@ -118,7 +118,7 @@
         <!-- ROME for RSS -->
         <rome.version>1.10.0</rome.version>
         <javax.faces.version>2.3.7</javax.faces.version>
-        <start-class>com.baeldung.springbootmvc.SpringBootMvcApplication</start-class>
+        <start-class>com.surya.springbootmvc.SpringBootMvcApplication</start-class>
     </properties>
 
 </project>

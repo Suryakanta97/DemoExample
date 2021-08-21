@@ -8,7 +8,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -229,7 +229,7 @@
 
     <properties>
         <!-- The main class to start by executing java -jar -->
-        <start-class>com.baeldung.graphql.DemoApplication</start-class>
+        <start-class>com.surya.graphql.DemoApplication</start-class>
         <tomee-servlet-api.version>8.5.11</tomee-servlet-api.version>
         <togglz.version>2.4.1.Final</togglz.version>
         <rome.version>1.9.0</rome.version>

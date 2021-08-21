@@ -7,7 +7,7 @@
 
     <parent>
         <artifactId>spring-boot-modules</artifactId>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
@@ -75,8 +75,8 @@
                                 ${project.basedir}/src/main/resources/petstore.yml
                             </inputSpec>
                             <generatorName>spring</generatorName>
-                            <apiPackage>com.baeldung.openapi.api</apiPackage>
-                            <modelPackage>com.baeldung.openapi.model</modelPackage>
+                            <apiPackage>com.surya.openapi.api</apiPackage>
+                            <modelPackage>com.surya.openapi.model</modelPackage>
                             <supportingFilesToGenerate>
                                 ApiUtil.java
                             </supportingFilesToGenerate>
