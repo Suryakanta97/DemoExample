@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.string;
+package com.surya.algorithms.string;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

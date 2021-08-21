@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.spring.ejb</groupId>
+    <groupId>com.surya.spring.ejb</groupId>
     <artifactId>spring-ejb</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>spring-ejb</name>
@@ -11,7 +11,7 @@
     <description>Spring EJB Tutorial</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -27,7 +27,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.baeldung.spring.ejb</groupId>
+                <groupId>com.surya.spring.ejb</groupId>
                 <artifactId>spring-ejb-remote</artifactId>
                 <version>${spring-ejb-remote.version}</version>
                 <type>ejb</type>

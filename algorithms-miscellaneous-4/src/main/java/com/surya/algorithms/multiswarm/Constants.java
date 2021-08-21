@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.multiswarm;
+package com.surya.algorithms.multiswarm;
 
 /**
  * Constants used by the Multi-swarm optimization algorithms.

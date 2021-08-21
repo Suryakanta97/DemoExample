@@ -9,7 +9,7 @@
     <description>This is simple boot application for Spring boot dynamodb test</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -172,7 +172,7 @@
 
     <properties>
         <!-- The main class to start by executing java -jar -->
-        <start-class>com.baeldung.Application</start-class>
+        <start-class>com.surya.Application</start-class>
         <spring.version>4.3.4.RELEASE</spring.version>
         <httpclient.version>4.5.2</httpclient.version>
         <spring-data-dynamodb.version>5.1.0</spring-data-dynamodb.version>

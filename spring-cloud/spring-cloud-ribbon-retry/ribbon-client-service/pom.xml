@@ -6,7 +6,7 @@
     <artifactId>ribbon-client-service</artifactId>
 
     <parent>
-        <groupId>com.baeldung.spring.cloud</groupId>
+        <groupId>com.surya.spring.cloud</groupId>
         <artifactId>spring-cloud-ribbon-retry</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -25,7 +25,7 @@
             <artifactId>spring-retry</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.baeldung.spring.cloud</groupId>
+            <groupId>com.surya.spring.cloud</groupId>
             <artifactId>ribbon-weather-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>test</scope>

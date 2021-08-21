@@ -1,10 +1,10 @@
-package com.baeldung.algorithms.string;
+package com.surya.algorithms.string;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.baeldung.algorithms.string.LongestSubstringNonRepeatingCharacters.getUniqueCharacterSubstring;
-import static com.baeldung.algorithms.string.LongestSubstringNonRepeatingCharacters.getUniqueCharacterSubstringBruteForce;
+import static com.surya.algorithms.string.LongestSubstringNonRepeatingCharacters.getUniqueCharacterSubstring;
+import static com.surya.algorithms.string.LongestSubstringNonRepeatingCharacters.getUniqueCharacterSubstringBruteForce;
 
 public class LongestSubstringNonRepeatingCharactersUnitTest {
 

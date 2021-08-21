@@ -7,7 +7,7 @@
     <name>server</name>
 
     <parent>
-        <groupId>com.baeldung.spring.cloud</groupId>
+        <groupId>com.surya.spring.cloud</groupId>
         <artifactId>spring-cloud-config</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

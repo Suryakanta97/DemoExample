@@ -8,7 +8,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung.wildfly</groupId>
+        <groupId>com.surya.wildfly</groupId>
         <artifactId>wildfly</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -23,19 +23,19 @@
         </dependency>
         <!-- Dependency for JPA module -->
         <dependency>
-            <groupId>com.baeldung.wildfly</groupId>
+            <groupId>com.surya.wildfly</groupId>
             <artifactId>wildfly-jpa</artifactId>
             <version>${wildlfy.version}</version>
         </dependency>
         <!-- Dependency for EJB interface module -->
         <dependency>
-            <groupId>com.baeldung.wildfly</groupId>
+            <groupId>com.surya.wildfly</groupId>
             <artifactId>wildfly-ejb-interfaces</artifactId>
             <version>${wildlfy.version}</version>
         </dependency>
         <!-- Dependency for EJB interface module -->
         <dependency>
-            <groupId>com.baeldung.wildfly</groupId>
+            <groupId>com.surya.wildfly</groupId>
             <artifactId>wildfly-ejb</artifactId>
             <version>${wildlfy.version}</version>
         </dependency>

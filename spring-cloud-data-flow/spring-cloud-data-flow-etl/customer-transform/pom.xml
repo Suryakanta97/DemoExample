@@ -9,7 +9,7 @@
     <description>Example transform ETL step</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>spring-cloud-data-flow-etl</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

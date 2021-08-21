@@ -7,7 +7,7 @@
     <name>spring-core-4</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-spring-5</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-spring-5</relativePath>

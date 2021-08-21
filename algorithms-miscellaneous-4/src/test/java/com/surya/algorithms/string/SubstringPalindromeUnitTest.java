@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.string;
+package com.surya.algorithms.string;
 
 import static org.junit.Assert.assertEquals;
 import java.util.HashSet;

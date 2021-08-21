@@ -7,7 +7,7 @@
     <name>wildfly-jpa</name>
 
     <parent>
-        <groupId>com.baeldung.wildfly</groupId>
+        <groupId>com.surya.wildfly</groupId>
         <artifactId>wildfly</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

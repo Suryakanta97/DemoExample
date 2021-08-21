@@ -10,7 +10,7 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>spring-cloud-data-flow-stream-processing</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

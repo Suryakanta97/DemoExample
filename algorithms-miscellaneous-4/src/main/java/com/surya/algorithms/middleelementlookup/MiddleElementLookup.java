@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.middleelementlookup;
+package com.surya.algorithms.middleelementlookup;
 
 import java.util.LinkedList;
 import java.util.Optional;

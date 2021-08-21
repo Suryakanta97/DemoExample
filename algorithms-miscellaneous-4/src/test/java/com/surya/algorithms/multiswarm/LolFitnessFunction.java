@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.multiswarm;
+package com.surya.algorithms.multiswarm;
 
 /**
  * Specific fitness function implementation to solve the League of Legends

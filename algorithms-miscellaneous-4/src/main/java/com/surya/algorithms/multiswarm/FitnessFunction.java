@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.multiswarm;
+package com.surya.algorithms.multiswarm;
 
 /**
  * Interface for a fitness function, used to decouple the main algorithm logic

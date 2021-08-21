@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.middleelementlookup;
+package com.surya.algorithms.middleelementlookup;
 
 public class Node {
     private Node next;

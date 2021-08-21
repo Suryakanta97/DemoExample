@@ -3,14 +3,14 @@
     xmlns="http://maven.apache.org/POM/4.0.0"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.customerservice</groupId>
+    <groupId>com.surya.customerservice</groupId>
     <artifactId>customer-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>customer-service</name>
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../../parent-boot-2</relativePath>
@@ -40,7 +40,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.baeldung.orderservice</groupId>
+            <groupId>com.surya.orderservice</groupId>
             <artifactId>order-client</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>

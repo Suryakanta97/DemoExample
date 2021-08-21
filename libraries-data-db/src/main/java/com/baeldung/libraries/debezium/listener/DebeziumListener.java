@@ -11,6 +11,7 @@ import org.apache.commons.lang3.tuple.Pair;
 import org.apache.kafka.connect.data.Field;
 import org.apache.kafka.connect.data.Struct;
 import org.apache.kafka.connect.source.SourceRecord;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -24,14 +25,16 @@ import static io.debezium.data.Envelope.FieldName.*;
 import static io.debezium.data.Envelope.Operation;
 import static java.util.stream.Collectors.toMap;
 
-@Slf4j
+
 @Component
+@Slf4j
 public class DebeziumListener {
 
     private final Executor executor = Executors.newSingleThreadExecutor();
     private final CustomerService customerService;
     private final DebeziumEngine<RecordChangeEvent<SourceRecord>> debeziumEngine;
-
+    Logger log = Logger.getLogger(DebeziumListener.class);
+    
     public DebeziumListener(Configuration customerConnectorConfiguration, CustomerService customerService) {
 
         this.debeziumEngine = DebeziumEngine.create(ChangeEventFormat.of(Connect.class))
@@ -63,7 +66,7 @@ public class DebeziumListener {
                     .collect(toMap(Pair::getKey, Pair::getValue));
 
                 this.customerService.replicateData(payload, operation);
-                log.info("Updated Data: {} with Operation: {}", payload, operation.name());
+               log.info("Updated Data: {} with Operation: {}");
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.permutation;
+package com.surya.algorithms.permutation;
 
 import java.util.Arrays;
 import java.util.Collections;

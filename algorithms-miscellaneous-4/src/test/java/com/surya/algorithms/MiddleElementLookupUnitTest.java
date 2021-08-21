@@ -1,7 +1,7 @@
-package com.baeldung.algorithms;
+package com.surya.algorithms;
 
-import com.baeldung.algorithms.middleelementlookup.MiddleElementLookup;
-import com.baeldung.algorithms.middleelementlookup.Node;
+import com.surya.algorithms.middleelementlookup.MiddleElementLookup;
+import com.surya.algorithms.middleelementlookup.Node;
 import org.junit.Test;
 
 import java.util.LinkedList;

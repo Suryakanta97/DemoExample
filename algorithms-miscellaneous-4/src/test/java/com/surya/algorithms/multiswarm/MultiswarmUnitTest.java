@@ -1,10 +1,10 @@
-package com.baeldung.algorithms.multiswarm;
+package com.surya.algorithms.multiswarm;
 
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 
-import com.baeldung.algorithms.support.MayFailRule;
+import com.surya.algorithms.support.MayFailRule;
 
 /**
  * Test for {@link Multiswarm}.

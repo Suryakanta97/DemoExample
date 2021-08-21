@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.string;
+package com.surya.algorithms.string;
 
 public class EnglishAlphabetLetters {
 

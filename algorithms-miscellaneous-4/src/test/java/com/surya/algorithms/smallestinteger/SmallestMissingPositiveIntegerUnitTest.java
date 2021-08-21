@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.smallestinteger;
+package com.surya.algorithms.smallestinteger;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.support;
+package com.surya.algorithms.support;
 
 import org.junit.Rule;
 import org.junit.rules.TestRule;

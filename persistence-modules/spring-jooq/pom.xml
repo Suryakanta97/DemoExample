@@ -7,7 +7,7 @@
     <name>spring-jooq</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -147,7 +147,7 @@
                             </jdbc>
                             <generator>
                                 <target>
-                                    <packageName>com.baeldung.jooq.introduction.db</packageName>
+                                    <packageName>com.surya.jooq.introduction.db</packageName>
                                     <directory>src/main/java</directory>
                                 </target>
                                 <database>
