@@ -8,7 +8,7 @@
     <url>http://maven.apache.org</url>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parallel-tests-junit</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

@@ -6,7 +6,7 @@
     <name>testing-libraries-2</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>testing-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -93,8 +93,8 @@
                 <version>${jacoco.version}</version>
                 <configuration>
                     <excludes>
-                        <exclude>com/baeldung/**/ExcludedPOJO.class</exclude>
-                        <exclude>com/baeldung/**/*DTO.*</exclude>
+                        <exclude>com/surya/**/ExcludedPOJO.class</exclude>
+                        <exclude>com/surya/**/*DTO.*</exclude>
                         <exclude>**/config/*</exclude>
                     </excludes>
                 </configuration>

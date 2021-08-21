@@ -9,7 +9,7 @@
 
     <parent>
         <artifactId>parent-modules</artifactId>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 

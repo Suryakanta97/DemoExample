@@ -7,13 +7,13 @@
 
     <parent>
         <artifactId>version-collision</artifactId>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.surya</groupId>
             <artifactId>project-a</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <!-- uncomment to exclude guava transitive artifact from module -->
@@ -25,7 +25,7 @@
             <!-- </exclusions> -->
         </dependency>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.surya</groupId>
             <artifactId>project-b</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
