@@ -1,11 +1,12 @@
-package com.baeldung;
+package com.surya;
 
 
-import com.baeldung.model.Employee;
-import com.baeldung.model.Role;
 import org.javalite.activejdbc.Base;
 import org.javalite.activejdbc.LazyList;
 import org.javalite.activejdbc.Model;
+
+import com.surya.model.Employee;
+import com.surya.model.Role;
 
 public class ActiveJDBCApp
 {

@@ -1,9 +1,10 @@
-package com.baeldung;
+package com.surya;
 
-import com.baeldung.model.Employee;
-import com.baeldung.model.Role;
 import org.javalite.activejdbc.test.DBSpec;
 import org.junit.Test;
+
+import com.surya.model.Employee;
+import com.surya.model.Role;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.baeldung.model;
+package com.surya.model;
 
 
 import org.javalite.activejdbc.Model;
