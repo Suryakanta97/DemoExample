@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.archaius.additionalsources.config;
+package com.surya.spring.cloud.archaius.additionalsources.config;
 
 import java.io.IOException;
 import java.net.URL;

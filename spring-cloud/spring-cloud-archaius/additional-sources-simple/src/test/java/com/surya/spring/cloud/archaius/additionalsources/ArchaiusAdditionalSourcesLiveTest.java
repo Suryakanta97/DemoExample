@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.archaius.additionalsources;
+package com.surya.spring.cloud.archaius.additionalsources;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -26,10 +26,10 @@ public class ArchaiusAdditionalSourcesLiveTest {
 
     private static Map<String, String> createExpectedArchaiusProperties() {
         Map<String, String> map = new HashMap<>();
-        map.put("baeldung.archaius.properties.one", "one FROM:other-config.properties");
-        map.put("baeldung.archaius.properties.two", "two FROM:application.properties");
-        map.put("baeldung.archaius.properties.three", "three FROM:config.properties");
-        map.put("baeldung.archaius.properties.four", "four FROM:other-config.properties");
+        map.put("surya.archaius.properties.one", "one FROM:other-config.properties");
+        map.put("surya.archaius.properties.two", "two FROM:application.properties");
+        map.put("surya.archaius.properties.three", "three FROM:config.properties");
+        map.put("surya.archaius.properties.four", "four FROM:other-config.properties");
         return map;
     }
 

@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.archaius.additionalsources;
+package com.surya.spring.cloud.archaius.additionalsources;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

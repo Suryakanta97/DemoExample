@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.archaius.additionalsources;
+package com.surya.spring.cloud.archaius.additionalsources;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

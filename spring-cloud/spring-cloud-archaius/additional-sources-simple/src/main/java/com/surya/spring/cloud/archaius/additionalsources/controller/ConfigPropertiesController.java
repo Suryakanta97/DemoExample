@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.archaius.additionalsources.controller;
+package com.surya.spring.cloud.archaius.additionalsources.controller;
 
 import java.util.HashMap;
 import java.util.Map;
