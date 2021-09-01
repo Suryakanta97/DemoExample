@@ -1,4 +1,4 @@
-package com.baeldung.antlr.log.model;
+package com.surya.antlr.log.model;
 
 
 import java.time.LocalDateTime;

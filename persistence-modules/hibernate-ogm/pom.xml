@@ -8,7 +8,7 @@
     <name>hibernate-ogm</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>persistence-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>

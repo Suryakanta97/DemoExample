@@ -1,11 +1,14 @@
-package com.baeldung.antlr;
+package com.surya.antlr;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-import com.baeldung.antlr.log.LogListener;
-import com.baeldung.antlr.log.model.LogLevel;
-import com.baeldung.antlr.log.model.LogEntry;
+import com.baeldung.antlr.LogLexer;
+import com.baeldung.antlr.LogParser;
+import com.surya.antlr.log.LogListener;
+import com.surya.antlr.log.model.LogEntry;
+import com.surya.antlr.log.model.LogLevel;
+
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;

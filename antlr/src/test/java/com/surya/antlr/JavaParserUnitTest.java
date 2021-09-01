@@ -1,11 +1,15 @@
-package com.baeldung.antlr;
+package com.surya.antlr;
 
-import com.baeldung.antlr.java.UppercaseMethodListener;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 import org.junit.Test;
+
+import com.baeldung.antlr.Java8Lexer;
+import com.baeldung.antlr.Java8Parser;
+import com.surya.antlr.java.UppercaseMethodListener;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 

@@ -1,9 +1,9 @@
-package com.baeldung.antlr.log;
+package com.surya.antlr.log;
 
 import com.baeldung.antlr.LogBaseListener;
 import com.baeldung.antlr.LogParser;
-import com.baeldung.antlr.log.model.LogLevel;
-import com.baeldung.antlr.log.model.LogEntry;
+import com.surya.antlr.log.model.LogEntry;
+import com.surya.antlr.log.model.LogLevel;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

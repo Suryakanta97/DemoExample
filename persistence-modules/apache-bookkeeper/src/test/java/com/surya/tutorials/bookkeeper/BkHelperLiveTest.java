@@ -1,4 +1,4 @@
-package com.baeldung.tutorials.bookkeeper;
+package com.surya.tutorials.bookkeeper;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -24,6 +24,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
+import com.surya.tutorials.bookkeeper.BkHelper;
 
 class BkHelperLiveTest extends BkHelper {
     private static BookKeeper bk;

@@ -10,7 +10,7 @@
     <description>Hibernate tutorial illustrating the use of named parameters</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>persistence-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
