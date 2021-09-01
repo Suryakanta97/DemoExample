@@ -7,7 +7,7 @@
     <name>cxf-aegis</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>apache-cxf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

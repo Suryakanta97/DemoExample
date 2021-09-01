@@ -1,0 +1,5 @@
+<mappings xmlns:ns="http://courserepo.surya.com">
+    <mapping name="ns:surya">
+        <property name="greeting" style="attribute"/>
+    </mapping>
+</mappings>

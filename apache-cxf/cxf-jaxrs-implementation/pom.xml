@@ -7,7 +7,7 @@
     <name>cxf-jaxrs-implementation</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>apache-cxf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -42,7 +42,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.cxf.jaxrs.implementation.RestfulServer</mainClass>
+                    <mainClass>com.surya.cxf.jaxrs.implementation.RestfulServer</mainClass>
                 </configuration>
             </plugin>
         </plugins>

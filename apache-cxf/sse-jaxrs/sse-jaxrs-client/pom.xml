@@ -7,7 +7,7 @@
     <name>sse-jaxrs-client</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>sse-jaxrs</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -37,7 +37,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.baeldung.sse.jaxrs.client.SseClientApp</mainClass>
+                            <mainClass>com.surya.sse.jaxrs.client.SseClientApp</mainClass>
                         </configuration>
                     </execution>
                     <execution>
@@ -46,7 +46,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.baeldung.sse.jaxrs.client.SseClientBroadcastApp</mainClass>
+                            <mainClass>com.surya.sse.jaxrs.client.SseClientBroadcastApp</mainClass>
                         </configuration>
                     </execution>
                 </executions>

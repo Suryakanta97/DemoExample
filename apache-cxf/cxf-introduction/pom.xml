@@ -7,7 +7,7 @@
     <name>cxf-introduction</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>apache-cxf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -31,7 +31,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.cxf.introduction.Server</mainClass>
+                    <mainClass>com.surya.cxf.introduction.Server</mainClass>
                 </configuration>
             </plugin>
         </plugins>
