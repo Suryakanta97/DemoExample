@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.inoutsort;
+package com.surya.algorithms.inoutsort;
 
 public class InOutSort {
 

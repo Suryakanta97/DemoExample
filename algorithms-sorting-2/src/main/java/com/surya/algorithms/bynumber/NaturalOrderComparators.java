@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.bynumber;
+package com.surya.algorithms.bynumber;
 
 import java.util.Comparator;
 

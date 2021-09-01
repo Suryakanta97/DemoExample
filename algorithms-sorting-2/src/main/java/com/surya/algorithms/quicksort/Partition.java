@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.quicksort;
+package com.surya.algorithms.quicksort;
 
 public class Partition {
     private int left;

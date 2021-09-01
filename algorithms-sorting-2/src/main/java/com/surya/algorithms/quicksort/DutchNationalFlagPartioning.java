@@ -1,7 +1,7 @@
-package com.baeldung.algorithms.quicksort;
+package com.surya.algorithms.quicksort;
 
-import static com.baeldung.algorithms.quicksort.SortingUtils.compare;
-import static com.baeldung.algorithms.quicksort.SortingUtils.swap;
+import static com.surya.algorithms.quicksort.SortingUtils.compare;
+import static com.surya.algorithms.quicksort.SortingUtils.swap;
 
 public class DutchNationalFlagPartioning {
 

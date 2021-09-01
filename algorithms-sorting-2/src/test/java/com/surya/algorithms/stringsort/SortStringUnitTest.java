@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.stringsort;
+package com.surya.algorithms.stringsort;
 
 import org.junit.jupiter.api.Test;
 

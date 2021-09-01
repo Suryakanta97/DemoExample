@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.inoutsort;
+package com.surya.algorithms.inoutsort;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertArrayEquals;

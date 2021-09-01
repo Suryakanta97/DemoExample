@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.quicksort;
+package com.surya.algorithms.quicksort;
 
 import org.junit.Assert;
 import org.junit.Test;
