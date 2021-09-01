@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.surya;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

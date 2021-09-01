@@ -1,6 +1,6 @@
-package com.baeldung.annotation;
+package com.surya.annotation;
 
-import com.baeldung.annotation.processor.BuilderProperty;
+import com.surya.annotation.processor.BuilderProperty;
 
 public class Person {
 

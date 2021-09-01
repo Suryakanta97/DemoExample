@@ -1,6 +1,8 @@
-package com.baeldung.annotation;
+package com.surya.annotation;
 
 import org.junit.Test;
+
+import com.surya.annotation.Person;
 
 import static org.junit.Assert.assertEquals;
 
