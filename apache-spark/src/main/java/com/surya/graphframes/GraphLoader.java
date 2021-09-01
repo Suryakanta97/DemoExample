@@ -1,4 +1,4 @@
-package com.baeldung.graphframes;
+package com.surya.graphframes;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;

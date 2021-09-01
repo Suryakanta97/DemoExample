@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud;
+package com.surya.spring.cloud;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;

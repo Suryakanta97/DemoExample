@@ -1,4 +1,4 @@
-package com.baeldung.differences.rdd;
+package com.surya.differences.rdd;
 
 import static org.apache.spark.sql.functions.col;
 import static org.junit.Assert.assertEquals;

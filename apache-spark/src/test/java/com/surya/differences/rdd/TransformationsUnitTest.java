@@ -1,4 +1,4 @@
-package com.baeldung.differences.rdd;
+package com.surya.differences.rdd;
 
 
 import static org.junit.Assert.assertEquals;

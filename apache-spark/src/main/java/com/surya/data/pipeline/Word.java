@@ -1,4 +1,4 @@
-package com.baeldung.data.pipeline;
+package com.surya.data.pipeline;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.baeldung.ml;
+package com.surya.ml;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.baeldung.differences.dataframe.dataset.rdd;
+package com.surya.differences.dataframe.dataset.rdd;
 
 
 public class TouristData {

@@ -1,4 +1,4 @@
-package com.baeldung.differences.rdd;
+package com.surya.differences.rdd;
 
 import static org.apache.spark.sql.functions.col;
 import static org.apache.spark.sql.functions.sum;
@@ -14,7 +14,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.differences.dataframe.dataset.rdd.TouristData;
+import com.surya.differences.dataframe.dataset.rdd.TouristData;
 
 public class DatasetUnitTest {
     private static SparkSession session;

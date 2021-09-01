@@ -1,4 +1,4 @@
-package com.baeldung.graphframes;
+package com.surya.graphframes;
 
 import java.io.Serializable;
 

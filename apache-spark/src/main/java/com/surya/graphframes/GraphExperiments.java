@@ -1,4 +1,4 @@
-package com.baeldung.graphframes;
+package com.surya.graphframes;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;

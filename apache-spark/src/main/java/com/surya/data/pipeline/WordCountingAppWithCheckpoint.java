@@ -1,4 +1,4 @@
-package com.baeldung.data.pipeline;
+package com.surya.data.pipeline;
 
 import static com.datastax.spark.connector.japi.CassandraJavaUtil.javaFunctions;
 import static com.datastax.spark.connector.japi.CassandraJavaUtil.mapToRow;
