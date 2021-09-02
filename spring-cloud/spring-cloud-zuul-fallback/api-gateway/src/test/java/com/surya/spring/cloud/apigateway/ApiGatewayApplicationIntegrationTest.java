@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.apigateway;
+package com.surya.spring.cloud.apigateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

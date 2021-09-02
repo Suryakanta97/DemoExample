@@ -1,4 +1,4 @@
-package com.baeldung.jspec;
+package com.surya.jspec;
 
 public abstract class Animal {
 

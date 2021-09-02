@@ -1,4 +1,4 @@
-package com.baeldung.truth;
+package com.surya.truth;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
@@ -6,9 +6,12 @@ import com.google.common.collect.Range;
 import com.google.common.collect.Table;
 import com.google.common.collect.TreeBasedTable;
 import com.google.common.collect.TreeMultiset;
-import static com.baeldung.truth.UserSubject.*;
+import com.surya.truth.User;
+
 import static com.google.common.truth.Truth.*;
 import static com.google.common.truth.Truth8.*;
+import static com.surya.truth.UserSubject.*;
+
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.Comparator;

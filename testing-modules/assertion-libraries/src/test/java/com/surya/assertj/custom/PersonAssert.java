@@ -1,6 +1,8 @@
-package com.baeldung.assertj.custom;
+package com.surya.assertj.custom;
 
 import org.assertj.core.api.AbstractAssert;
+
+import com.surya.assertj.custom.Person;
 
 public class PersonAssert extends AbstractAssert<PersonAssert, Person> {
 

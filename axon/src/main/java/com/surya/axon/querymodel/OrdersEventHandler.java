@@ -1,14 +1,14 @@
-package com.baeldung.axon.querymodel;
+package com.surya.axon.querymodel;
 
-import com.baeldung.axon.coreapi.events.OrderConfirmedEvent;
-import com.baeldung.axon.coreapi.events.OrderCreatedEvent;
-import com.baeldung.axon.coreapi.events.OrderShippedEvent;
-import com.baeldung.axon.coreapi.events.ProductAddedEvent;
-import com.baeldung.axon.coreapi.events.ProductCountDecrementedEvent;
-import com.baeldung.axon.coreapi.events.ProductCountIncrementedEvent;
-import com.baeldung.axon.coreapi.events.ProductRemovedEvent;
-import com.baeldung.axon.coreapi.queries.FindAllOrderedProductsQuery;
-import com.baeldung.axon.coreapi.queries.Order;
+import com.surya.axon.coreapi.events.OrderConfirmedEvent;
+import com.surya.axon.coreapi.events.OrderCreatedEvent;
+import com.surya.axon.coreapi.events.OrderShippedEvent;
+import com.surya.axon.coreapi.events.ProductAddedEvent;
+import com.surya.axon.coreapi.events.ProductCountDecrementedEvent;
+import com.surya.axon.coreapi.events.ProductCountIncrementedEvent;
+import com.surya.axon.coreapi.events.ProductRemovedEvent;
+import com.surya.axon.coreapi.queries.FindAllOrderedProductsQuery;
+import com.surya.axon.coreapi.queries.Order;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.queryhandling.QueryHandler;

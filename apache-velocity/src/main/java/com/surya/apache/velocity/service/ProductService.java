@@ -1,6 +1,6 @@
-package com.baeldung.apache.velocity.service;
+package com.surya.apache.velocity.service;
 
-import com.baeldung.apache.velocity.model.Product;
+import com.surya.apache.velocity.model.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

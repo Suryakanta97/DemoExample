@@ -1,4 +1,4 @@
-package com.baeldung.jspec;
+package com.surya.jspec;
 
 import java.util.Arrays;
 import java.util.HashSet;

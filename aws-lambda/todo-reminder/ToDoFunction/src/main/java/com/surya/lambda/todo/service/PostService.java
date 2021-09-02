@@ -1,8 +1,8 @@
-package com.baeldung.lambda.todo.service;
+package com.surya.lambda.todo.service;
 
-import com.baeldung.lambda.todo.api.PostApi;
-import com.baeldung.lambda.todo.api.PostItem;
-import com.baeldung.lambda.todo.api.ToDoItem;
+import com.surya.lambda.todo.api.PostApi;
+import com.surya.lambda.todo.api.PostItem;
+import com.surya.lambda.todo.api.ToDoItem;
 import com.google.inject.Inject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

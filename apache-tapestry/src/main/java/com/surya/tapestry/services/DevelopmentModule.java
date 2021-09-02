@@ -1,4 +1,4 @@
-package com.baeldung.tapestry.services;
+package com.surya.tapestry.services;
 
 import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.ioc.MappedConfiguration;

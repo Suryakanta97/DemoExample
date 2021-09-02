@@ -1,6 +1,6 @@
-package com.baeldung.lambda.todo.service;
+package com.surya.lambda.todo.service;
 
-import com.baeldung.lambda.todo.config.Config;
+import com.surya.lambda.todo.config.Config;
 import org.junit.Rule;
 import org.junit.Test;
 import uk.org.webcompere.systemstubs.rules.SystemOutRule;

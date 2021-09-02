@@ -1,11 +1,13 @@
-package com.baeldung.assertj.custom;
+package com.surya.assertj.custom;
 
-import static com.baeldung.assertj.custom.Assertions.assertThat;
+import static com.surya.assertj.custom.Assertions.assertThat;
 import static org.junit.Assert.fail;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
+import com.surya.assertj.custom.Person;
 
 public class AssertJCustomAssertionsUnitTest {
     @Rule

@@ -1,8 +1,8 @@
-package com.baeldung.thrift;
+package com.surya.thrift;
 
-import com.baeldung.thrift.impl.CrossPlatformResource;
-import com.baeldung.thrift.impl.CrossPlatformService;
-import com.baeldung.thrift.impl.InvalidOperationException;
+import com.surya.thrift.impl.CrossPlatformResource;
+import com.surya.thrift.impl.CrossPlatformService;
+import com.surya.thrift.impl.InvalidOperationException;
 
 import org.apache.thrift.TException;
 

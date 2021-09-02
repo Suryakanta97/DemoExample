@@ -1,4 +1,4 @@
-package com.baeldung.lambda.todo.config;
+package com.surya.lambda.todo.config;
 
 public class Credentials {
     private String username;

@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.apigateway.fallback;
+package com.surya.spring.cloud.apigateway.fallback;
 
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpStatus;

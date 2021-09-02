@@ -1,4 +1,6 @@
-package com.baeldung.assertj.custom;
+package com.surya.assertj.custom;
+
+import com.surya.assertj.custom.Person;
 
 public class Assertions {
     public static PersonAssert assertThat(Person actual) {

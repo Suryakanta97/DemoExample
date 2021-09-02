@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring;
+package com.surya.atomikos.spring;
 
 import java.sql.Connection;
 import java.sql.Statement;

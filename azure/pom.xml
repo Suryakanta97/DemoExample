@@ -10,7 +10,7 @@
     <description>Demo project for Spring Boot on Azure</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-boot-2</relativePath>
@@ -74,9 +74,9 @@
                     <authentication>
                         <serverId>azure-auth</serverId>
                     </authentication>
-                    <resourceGroup>baeldung-group</resourceGroup>
-                    <appName>baeldung-webapp</appName>
-                    <appServicePlanName>baeldung-plan</appServicePlanName>
+                    <resourceGroup>surya-group</resourceGroup>
+                    <appName>surya-webapp</appName>
+                    <appServicePlanName>surya-plan</appServicePlanName>
                     <javaVersion>{java.version}</javaVersion>
                     <!--<javaWebContainer>tomcat 8.5</javaWebContainer> -->
                     <!--<region>japanwest</region> -->
@@ -118,7 +118,7 @@
     </build>
 
     <properties>
-        <azure.containerRegistry>baeldungadr</azure.containerRegistry>
+        <azure.containerRegistry>suryaadr</azure.containerRegistry>
         <docker.image.prefix>${azure.containerRegistry}.azurecr.io</docker.image.prefix>
         <docker-maven-plugin.version>1.1.0</docker-maven-plugin.version>
         <azure-webapp-maven-plugin.version>1.1.0</azure-webapp-maven-plugin.version>

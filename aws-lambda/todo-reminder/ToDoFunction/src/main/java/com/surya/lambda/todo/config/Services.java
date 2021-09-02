@@ -1,7 +1,7 @@
-package com.baeldung.lambda.todo.config;
+package com.surya.lambda.todo.config;
 
-import com.baeldung.lambda.todo.api.PostApi;
-import com.baeldung.lambda.todo.api.ToDoApi;
+import com.surya.lambda.todo.api.PostApi;
+import com.surya.lambda.todo.api.ToDoApi;
 import com.google.inject.AbstractModule;
 import feign.Feign;
 import feign.auth.BasicAuthRequestInterceptor;

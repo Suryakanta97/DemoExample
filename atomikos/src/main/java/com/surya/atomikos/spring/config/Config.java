@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring.config;
+package com.surya.atomikos.spring.config;
 
 import java.util.Properties;
 
@@ -11,7 +11,7 @@ import org.springframework.transaction.jta.JtaTransactionManager;
 
 import com.atomikos.icatch.jta.UserTransactionManager;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
-import com.baeldung.atomikos.spring.Application;
+import com.surya.atomikos.spring.Application;
 
 @Configuration
 @EnableTransactionManagement

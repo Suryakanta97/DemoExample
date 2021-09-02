@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring.jpa.config;
+package com.surya.atomikos.spring.jpa.config;
 
 import javax.transaction.SystemException;
 
@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.jta.JtaTransactionManager;
 
 import com.atomikos.icatch.jta.UserTransactionManager;
-import com.baeldung.atomikos.spring.jpa.Application;
+import com.surya.atomikos.spring.jpa.Application;
 
 @Configuration
 @EnableTransactionManagement

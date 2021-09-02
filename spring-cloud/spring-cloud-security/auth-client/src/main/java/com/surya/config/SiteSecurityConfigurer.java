@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;

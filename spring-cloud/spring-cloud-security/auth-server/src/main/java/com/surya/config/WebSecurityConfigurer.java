@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

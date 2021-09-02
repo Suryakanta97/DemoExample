@@ -1,4 +1,4 @@
-package com.baeldung.tapestry.pages;
+package com.surya.tapestry.pages;
 
 
 import org.apache.tapestry5.Block;

@@ -1,4 +1,4 @@
-package com.baeldung.application;
+package com.surya.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.baeldung.library.service.EvenOddService;
+import com.surya.library.service.EvenOddService;
 
-@SpringBootApplication(scanBasePackages = "com.baeldung")
+@SpringBootApplication(scanBasePackages = "com.surya")
 @RestController
 public class EvenOddApplication {
  

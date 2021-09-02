@@ -1,4 +1,4 @@
-package com.baeldung.tapestry.pages;
+package com.surya.tapestry.pages;
 
 import java.util.Date;
 

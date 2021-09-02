@@ -1,4 +1,4 @@
-package com.baeldung.jspec;
+package com.surya.jspec;
 
 import static org.javalite.test.jspec.JSpec.$;
 import static org.javalite.test.jspec.JSpec.a;

@@ -15,7 +15,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ShippingFunction
-      Handler: com.baeldung.lambda.shipping.App::handleRequest
+      Handler: com.surya.lambda.shipping.App::handleRequest
       Runtime: java8
       MemorySize: 512
       Environment:

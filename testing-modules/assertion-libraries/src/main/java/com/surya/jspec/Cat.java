@@ -1,4 +1,4 @@
-package com.baeldung.jspec;
+package com.surya.jspec;
 
 public class Cat extends Animal {
 

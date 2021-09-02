@@ -1,4 +1,4 @@
-package com.baeldung.tapestry.services;
+package com.surya.tapestry.services;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.baeldung.lambda.shipping;
+package com.surya.lambda.shipping;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;

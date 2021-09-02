@@ -1,4 +1,4 @@
-package com.baeldung.lambda.apigateway.model;
+package com.surya.lambda.apigateway.model;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

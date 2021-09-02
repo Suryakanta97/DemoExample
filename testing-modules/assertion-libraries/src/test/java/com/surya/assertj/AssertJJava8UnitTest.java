@@ -1,4 +1,4 @@
-package com.baeldung.assertj;
+package com.surya.assertj;
 
 import org.junit.Test;
 

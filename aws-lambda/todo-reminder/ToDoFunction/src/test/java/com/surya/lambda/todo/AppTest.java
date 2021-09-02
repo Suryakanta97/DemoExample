@@ -1,7 +1,7 @@
-package com.baeldung.lambda.todo;
+package com.surya.lambda.todo;
 
 import com.amazonaws.services.lambda.runtime.Context;
-import com.baeldung.lambda.todo.config.Config;
+import com.surya.lambda.todo.config.Config;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

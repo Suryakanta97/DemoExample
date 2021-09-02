@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.direct;
+package com.surya.atomikos.direct;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -17,6 +17,7 @@ import org.junit.Test;
 
 import com.atomikos.icatch.jta.UserTransactionImp;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
+import com.surya.atomikos.direct.Application;
 
 public class ApplicationUnitTest {
 

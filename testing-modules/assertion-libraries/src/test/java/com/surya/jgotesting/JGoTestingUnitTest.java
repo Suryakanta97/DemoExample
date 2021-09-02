@@ -1,4 +1,4 @@
-package com.baeldung.testing.jgotesting;
+package com.surya.jgotesting;
 
 import java.io.File;
 import static org.hamcrest.Matchers.equalToIgnoringCase;

@@ -1,7 +1,7 @@
-package com.baeldung.lambda.todo.config;
+package com.surya.lambda.todo.config;
 
-import com.baeldung.lambda.todo.service.PostService;
-import com.baeldung.lambda.todo.service.ToDoReaderService;
+import com.surya.lambda.todo.service.PostService;
+import com.surya.lambda.todo.service.ToDoReaderService;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import org.slf4j.Logger;

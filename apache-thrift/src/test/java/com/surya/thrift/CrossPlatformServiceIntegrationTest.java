@@ -1,4 +1,4 @@
-package com.baeldung.thrift;
+package com.surya.thrift;
 
 import org.apache.thrift.transport.TTransportException;
 import org.junit.After;

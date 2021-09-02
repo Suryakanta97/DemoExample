@@ -1,4 +1,4 @@
-package com.baeldung.service.personservice;
+package com.surya.service.personservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

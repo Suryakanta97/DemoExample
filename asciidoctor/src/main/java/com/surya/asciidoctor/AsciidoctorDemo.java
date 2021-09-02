@@ -1,4 +1,4 @@
-package com.baeldung.asciidoctor;
+package com.surya.asciidoctor;
 
 import static org.asciidoctor.Asciidoctor.Factory.create;
 import static org.asciidoctor.OptionsBuilder.options;

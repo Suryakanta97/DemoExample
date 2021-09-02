@@ -1,4 +1,4 @@
-package com.baeldung.axon.coreapi.queries;
+package com.surya.axon.coreapi.queries;
 
 import java.util.HashMap;
 import java.util.Map;

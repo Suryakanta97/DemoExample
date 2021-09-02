@@ -1,4 +1,4 @@
-package com.baeldung.springboot.azure;
+package com.surya.springboot.azure;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

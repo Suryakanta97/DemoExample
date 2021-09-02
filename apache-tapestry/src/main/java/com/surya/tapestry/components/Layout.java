@@ -1,4 +1,4 @@
-package com.baeldung.tapestry.components;
+package com.surya.tapestry.components;
 
 import org.apache.tapestry5.BindingConstants;
 import org.apache.tapestry5.annotations.Parameter;

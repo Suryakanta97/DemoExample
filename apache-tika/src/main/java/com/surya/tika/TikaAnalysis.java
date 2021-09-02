@@ -1,4 +1,4 @@
-package com.baeldung.tika;
+package com.surya.tika;
 
 import java.io.IOException;
 import java.io.InputStream;

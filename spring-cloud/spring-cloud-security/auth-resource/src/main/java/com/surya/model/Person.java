@@ -1,4 +1,4 @@
-package com.baeldung.model;
+package com.surya.model;
 
 public class Person {
 

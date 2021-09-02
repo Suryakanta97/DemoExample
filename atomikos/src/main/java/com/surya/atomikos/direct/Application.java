@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.direct;
+package com.surya.atomikos.direct;
 
 import java.sql.Connection;
 import java.sql.Statement;

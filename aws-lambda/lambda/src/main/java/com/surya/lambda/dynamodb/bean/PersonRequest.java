@@ -1,4 +1,4 @@
-package com.baeldung.lambda.dynamodb.bean;
+package com.surya.lambda.dynamodb.bean;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,4 +1,4 @@
-package com.baeldung.lambda.todo;
+package com.surya.lambda.todo;
 
 import java.io.*;
 import java.net.URL;
@@ -11,8 +11,8 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
-import com.baeldung.lambda.todo.config.ExecutionContext;
-import com.baeldung.lambda.todo.service.PostService;
+import com.surya.lambda.todo.config.ExecutionContext;
+import com.surya.lambda.todo.service.PostService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

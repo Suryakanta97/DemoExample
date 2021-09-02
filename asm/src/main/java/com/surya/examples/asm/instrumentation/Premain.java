@@ -1,6 +1,6 @@
-package com.baeldung.examples.asm.instrumentation;
+package com.surya.examples.asm.instrumentation;
 
-import com.baeldung.examples.asm.CustomClassWriter;
+import com.surya.examples.asm.CustomClassWriter;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.lang.instrument.Instrumentation;
@@ -8,7 +8,7 @@ import java.security.ProtectionDomain;
 
 /**
  *
- * @author baeldung
+ * @author surya
  */
 public class Premain {
 

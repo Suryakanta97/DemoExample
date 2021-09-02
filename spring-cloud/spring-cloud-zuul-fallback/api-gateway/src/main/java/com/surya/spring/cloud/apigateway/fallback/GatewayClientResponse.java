@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.apigateway.fallback;
+package com.surya.spring.cloud.apigateway.fallback;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

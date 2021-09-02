@@ -1,5 +1,5 @@
-namespace cpp com.baeldung.thrift.impl
-namespace java com.baeldung.thrift.impl
+namespace cpp com.surya.thrift.impl
+namespace java com.surya.thrift.impl
 
 exception InvalidOperationException {
     1: i32 code,

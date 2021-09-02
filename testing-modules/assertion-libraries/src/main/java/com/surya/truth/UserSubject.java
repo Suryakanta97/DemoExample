@@ -1,4 +1,4 @@
-package com.baeldung.truth;
+package com.surya.truth;
 
 import com.google.common.truth.ComparableSubject;
 import com.google.common.truth.FailureStrategy;

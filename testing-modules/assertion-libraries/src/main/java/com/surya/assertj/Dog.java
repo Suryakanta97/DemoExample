@@ -1,4 +1,4 @@
-package com.baeldung.assertj;
+package com.surya.assertj;
 
 public class Dog {
     private String name;

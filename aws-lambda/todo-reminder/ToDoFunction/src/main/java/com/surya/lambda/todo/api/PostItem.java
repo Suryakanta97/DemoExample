@@ -1,4 +1,4 @@
-package com.baeldung.lambda.todo.api;
+package com.surya.lambda.todo.api;
 
 public class PostItem {
     private String title;

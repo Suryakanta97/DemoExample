@@ -1,4 +1,4 @@
-package com.baeldung.assertj.custom;
+package com.surya.assertj.custom;
 
 import java.util.ArrayList;
 import java.util.List;

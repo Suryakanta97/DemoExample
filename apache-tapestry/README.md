@@ -1,3 +1,3 @@
 ### Relevant Articles
 
-- [Intro to Apache Tapestry](https://www.baeldung.com/apache-tapestry)
+- [Intro to Apache Tapestry](https://www.surya.com/apache-tapestry)

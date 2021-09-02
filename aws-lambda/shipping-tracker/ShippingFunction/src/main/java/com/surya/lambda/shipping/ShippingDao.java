@@ -1,4 +1,4 @@
-package com.baeldung.lambda.shipping;
+package com.surya.lambda.shipping;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;

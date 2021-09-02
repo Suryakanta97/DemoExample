@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.apigateway.fallback;
+package com.surya.spring.cloud.apigateway.fallback;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,6 +11,7 @@ import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.netflix.hystrix.exception.HystrixTimeoutException;
+import com.surya.spring.cloud.apigateway.fallback.WeatherServiceFallback;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

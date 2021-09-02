@@ -1,4 +1,4 @@
-package com.baeldung.jspec;
+package com.surya.jspec;
 
 import static org.javalite.test.jspec.JSpec.$;
 import static org.javalite.test.jspec.JSpec.expect;
@@ -8,6 +8,11 @@ import java.util.Set;
 
 import org.javalite.test.jspec.DifferenceExpectation;
 import org.junit.Test;
+
+import com.surya.jspec.Animal;
+import com.surya.jspec.Cage;
+import com.surya.jspec.Cat;
+import com.surya.jspec.Dog;
 
 public class CageUnitTest {
 

@@ -1,4 +1,4 @@
-package com.baeldung.lambda.shipping;
+package com.surya.lambda.shipping;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;

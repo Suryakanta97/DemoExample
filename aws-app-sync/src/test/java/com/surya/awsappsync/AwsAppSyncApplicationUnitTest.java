@@ -1,4 +1,4 @@
-package com.baeldung.awsappsync;
+package com.surya.awsappsync;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

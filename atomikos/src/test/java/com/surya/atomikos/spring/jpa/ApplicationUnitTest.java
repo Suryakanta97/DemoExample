@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring.jpa;
+package com.surya.atomikos.spring.jpa;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -13,12 +13,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.baeldung.atomikos.spring.jpa.config.Config;
-import com.baeldung.atomikos.spring.jpa.inventory.Inventory;
-import com.baeldung.atomikos.spring.jpa.inventory.InventoryConfig;
-import com.baeldung.atomikos.spring.jpa.inventory.InventoryRepository;
-import com.baeldung.atomikos.spring.jpa.order.OrderConfig;
-import com.baeldung.atomikos.spring.jpa.order.OrderRepository;
+import com.surya.atomikos.spring.jpa.Application;
+import com.surya.atomikos.spring.jpa.config.Config;
+import com.surya.atomikos.spring.jpa.inventory.Inventory;
+import com.surya.atomikos.spring.jpa.inventory.InventoryConfig;
+import com.surya.atomikos.spring.jpa.inventory.InventoryRepository;
+import com.surya.atomikos.spring.jpa.order.OrderConfig;
+import com.surya.atomikos.spring.jpa.order.OrderRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { Config.class, InventoryConfig.class, OrderConfig.class })

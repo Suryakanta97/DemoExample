@@ -1,8 +1,8 @@
-package com.baeldung.lambda.todo.service;
+package com.surya.lambda.todo.service;
 
-import com.baeldung.lambda.todo.api.ToDoApi;
-import com.baeldung.lambda.todo.api.ToDoItem;
-import com.baeldung.lambda.todo.config.Config;
+import com.surya.lambda.todo.api.ToDoApi;
+import com.surya.lambda.todo.api.ToDoItem;
+import com.surya.lambda.todo.config.Config;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

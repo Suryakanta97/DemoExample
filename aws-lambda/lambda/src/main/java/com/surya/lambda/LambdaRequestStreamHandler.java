@@ -1,4 +1,4 @@
-package com.baeldung.lambda;
+package com.surya.lambda;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;

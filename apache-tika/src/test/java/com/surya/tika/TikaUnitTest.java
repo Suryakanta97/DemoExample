@@ -1,4 +1,4 @@
-package com.baeldung.tika;
+package com.surya.tika;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
@@ -11,6 +11,8 @@ import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;
 import org.junit.Test;
 import org.xml.sax.SAXException;
+
+import com.surya.tika.TikaAnalysis;
 
 public class TikaUnitTest {
     @Test

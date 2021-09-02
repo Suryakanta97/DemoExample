@@ -1,4 +1,4 @@
-package com.baeldung.springboot.azure;
+package com.surya.springboot.azure;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

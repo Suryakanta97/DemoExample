@@ -1,8 +1,11 @@
-package com.baeldung.assertj;
+package com.surya.assertj;
 
 import org.assertj.core.util.Maps;
 import org.junit.Ignore;
 import org.junit.Test;
+
+import com.surya.assertj.Dog;
+import com.surya.assertj.Person;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

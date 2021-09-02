@@ -1,12 +1,12 @@
-package com.baeldung.axon.commandmodel.order;
+package com.surya.axon.commandmodel.order;
 
-import com.baeldung.axon.coreapi.commands.DecrementProductCountCommand;
-import com.baeldung.axon.coreapi.commands.IncrementProductCountCommand;
-import com.baeldung.axon.coreapi.events.OrderConfirmedEvent;
-import com.baeldung.axon.coreapi.events.ProductCountDecrementedEvent;
-import com.baeldung.axon.coreapi.events.ProductCountIncrementedEvent;
-import com.baeldung.axon.coreapi.events.ProductRemovedEvent;
-import com.baeldung.axon.coreapi.exceptions.OrderAlreadyConfirmedException;
+import com.surya.axon.coreapi.commands.DecrementProductCountCommand;
+import com.surya.axon.coreapi.commands.IncrementProductCountCommand;
+import com.surya.axon.coreapi.events.OrderConfirmedEvent;
+import com.surya.axon.coreapi.events.ProductCountDecrementedEvent;
+import com.surya.axon.coreapi.events.ProductCountIncrementedEvent;
+import com.surya.axon.coreapi.events.ProductRemovedEvent;
+import com.surya.axon.coreapi.exceptions.OrderAlreadyConfirmedException;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.EntityId;

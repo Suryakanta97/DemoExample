@@ -1,4 +1,4 @@
-package com.baeldung.examples.asm;
+package com.surya.examples.asm;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -18,7 +18,7 @@ import org.objectweb.asm.util.TraceClassVisitor;
 
 /**
  *
- * @author baeldung
+ * @author surya
  * @param <String>
  */
 public class CustomClassWriter {

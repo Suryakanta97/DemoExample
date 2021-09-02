@@ -1,7 +1,9 @@
-package com.baeldung.asciidoctor;
+package com.surya.asciidoctor;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.surya.asciidoctor.AsciidoctorDemo;
 
 public class AsciidoctorDemoIntegrationTest {
 

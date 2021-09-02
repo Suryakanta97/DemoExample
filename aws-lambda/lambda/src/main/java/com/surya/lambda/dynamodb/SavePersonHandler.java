@@ -1,4 +1,4 @@
-package com.baeldung.lambda.dynamodb;
+package com.surya.lambda.dynamodb;
 
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
@@ -10,8 +10,8 @@ import com.amazonaws.services.dynamodbv2.document.spec.PutItemSpec;
 import com.amazonaws.services.dynamodbv2.model.ConditionalCheckFailedException;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import com.baeldung.lambda.dynamodb.bean.PersonRequest;
-import com.baeldung.lambda.dynamodb.bean.PersonResponse;
+import com.surya.lambda.dynamodb.bean.PersonRequest;
+import com.surya.lambda.dynamodb.bean.PersonResponse;
 
 public class SavePersonHandler implements RequestHandler<PersonRequest, PersonResponse> {
 

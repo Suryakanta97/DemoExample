@@ -1,4 +1,4 @@
-package com.baeldung.truth;
+package com.surya.truth;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,13 +1,13 @@
-package com.baeldung.axon.gui;
+package com.surya.axon.gui;
 
-import com.baeldung.axon.coreapi.commands.AddProductCommand;
-import com.baeldung.axon.coreapi.commands.ConfirmOrderCommand;
-import com.baeldung.axon.coreapi.commands.CreateOrderCommand;
-import com.baeldung.axon.coreapi.commands.DecrementProductCountCommand;
-import com.baeldung.axon.coreapi.commands.IncrementProductCountCommand;
-import com.baeldung.axon.coreapi.commands.ShipOrderCommand;
-import com.baeldung.axon.coreapi.queries.FindAllOrderedProductsQuery;
-import com.baeldung.axon.coreapi.queries.Order;
+import com.surya.axon.coreapi.commands.AddProductCommand;
+import com.surya.axon.coreapi.commands.ConfirmOrderCommand;
+import com.surya.axon.coreapi.commands.CreateOrderCommand;
+import com.surya.axon.coreapi.commands.DecrementProductCountCommand;
+import com.surya.axon.coreapi.commands.IncrementProductCountCommand;
+import com.surya.axon.coreapi.commands.ShipOrderCommand;
+import com.surya.axon.coreapi.queries.FindAllOrderedProductsQuery;
+import com.surya.axon.coreapi.queries.Order;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;

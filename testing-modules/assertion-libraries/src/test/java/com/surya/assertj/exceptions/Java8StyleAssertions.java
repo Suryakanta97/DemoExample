@@ -1,4 +1,4 @@
-package com.baeldung.assertj.exceptions;
+package com.surya.assertj.exceptions;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,6 +1,6 @@
-package com.baeldung.thrift;
+package com.surya.thrift;
 
-import com.baeldung.thrift.impl.CrossPlatformService;
+import com.surya.thrift.impl.CrossPlatformService;
 
 import org.apache.thrift.TException;
 import org.apache.thrift.protocol.TBinaryProtocol;

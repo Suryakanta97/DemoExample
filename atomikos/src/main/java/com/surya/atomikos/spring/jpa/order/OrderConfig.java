@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring.jpa.order;
+package com.surya.atomikos.spring.jpa.order;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package com.baeldung.axon.coreapi.commands;
+package com.surya.axon.coreapi.commands;
 
 import java.util.Objects;
 

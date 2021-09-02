@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring.jpa.inventory;
+package com.surya.atomikos.spring.jpa.inventory;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

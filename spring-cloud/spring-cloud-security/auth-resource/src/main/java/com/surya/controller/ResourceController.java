@@ -1,4 +1,4 @@
-package com.baeldung.controller;
+package com.surya.controller;
 
 import java.security.Principal;
 import org.springframework.web.bind.annotation.RequestMapping;

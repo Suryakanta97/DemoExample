@@ -1,4 +1,4 @@
-package com.baeldung.awsappsync;
+package com.surya.awsappsync;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;

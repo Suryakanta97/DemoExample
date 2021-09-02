@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring;
+package com.surya.atomikos.spring;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -18,7 +18,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.baeldung.atomikos.spring.config.Config;
+import com.surya.atomikos.spring.Application;
+import com.surya.atomikos.spring.config.Config;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { Config.class })

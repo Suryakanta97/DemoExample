@@ -1,4 +1,4 @@
-package com.baeldung.assertj;
+package com.surya.assertj;
 
 import static org.assertj.core.api.Assertions.allOf;
 import static org.assertj.core.api.Assertions.anyOf;
@@ -11,6 +11,8 @@ import java.util.List;
 
 import org.assertj.core.api.Condition;
 import org.junit.Test;
+
+import com.surya.assertj.Member;
 
 public class AssertJConditionUnitTest {
     private Condition<Member> senior = new Condition<>(m -> m.getAge() >= 60, "senior");

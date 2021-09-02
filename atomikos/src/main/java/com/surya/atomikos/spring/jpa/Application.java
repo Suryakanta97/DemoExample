@@ -1,4 +1,4 @@
-package com.baeldung.atomikos.spring.jpa;
+package com.surya.atomikos.spring.jpa;
 
 import java.util.Set;
 import java.util.UUID;
@@ -11,10 +11,10 @@ import javax.validation.ValidatorFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.baeldung.atomikos.spring.jpa.inventory.Inventory;
-import com.baeldung.atomikos.spring.jpa.inventory.InventoryRepository;
-import com.baeldung.atomikos.spring.jpa.order.Order;
-import com.baeldung.atomikos.spring.jpa.order.OrderRepository;
+import com.surya.atomikos.spring.jpa.inventory.Inventory;
+import com.surya.atomikos.spring.jpa.inventory.InventoryRepository;
+import com.surya.atomikos.spring.jpa.order.Order;
+import com.surya.atomikos.spring.jpa.order.OrderRepository;
 
 public class Application {
 

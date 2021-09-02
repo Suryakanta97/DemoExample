@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [AWS AppSync With Spring Boot](https://www.baeldung.com/aws-appsync-spring)
+- [AWS AppSync With Spring Boot](https://www.surya.com/aws-appsync-spring)
