@@ -7,14 +7,14 @@
     <name>bazelapp</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>bazel</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.surya</groupId>
             <artifactId>bazelgreeting</artifactId>
             <version>${bazelgreeting.version}</version>
         </dependency>
