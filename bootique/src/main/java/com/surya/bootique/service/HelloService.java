@@ -1,4 +1,4 @@
-package com.baeldung.bootique.service;
+package com.surya.bootique.service;
 
 public interface HelloService {
 

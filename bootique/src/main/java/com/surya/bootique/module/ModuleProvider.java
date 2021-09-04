@@ -1,4 +1,4 @@
-package com.baeldung.bootique.module;
+package com.surya.bootique.module;
 
 import com.google.inject.Module;
 import io.bootique.BQModuleProvider;

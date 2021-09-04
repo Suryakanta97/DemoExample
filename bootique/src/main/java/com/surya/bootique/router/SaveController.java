@@ -1,6 +1,6 @@
-package com.baeldung.bootique.router;
+package com.surya.bootique.router;
 
-import com.baeldung.bootique.service.HelloService;
+import com.surya.bootique.service.HelloService;
 import com.google.inject.Inject;
 
 import javax.ws.rs.POST;

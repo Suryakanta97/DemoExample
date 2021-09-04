@@ -1,6 +1,6 @@
-package com.baeldung.bootique.service.impl;
+package com.surya.bootique.service.impl;
 
-import com.baeldung.bootique.service.HelloService;
+import com.surya.bootique.service.HelloService;
 
 public class HelloServiceImpl implements HelloService {
 

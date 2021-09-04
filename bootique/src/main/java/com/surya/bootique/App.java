@@ -1,8 +1,8 @@
-package com.baeldung.bootique;
+package com.surya.bootique;
 
-import com.baeldung.bootique.module.ModuleBinder;
-import com.baeldung.bootique.router.IndexController;
-import com.baeldung.bootique.router.SaveController;
+import com.surya.bootique.module.ModuleBinder;
+import com.surya.bootique.router.IndexController;
+import com.surya.bootique.router.SaveController;
 import com.google.inject.Module;
 import io.bootique.Bootique;
 import io.bootique.jersey.JerseyModule;

@@ -1,6 +1,6 @@
-package com.baeldung.bootique;
+package com.surya.bootique;
 
-import com.baeldung.bootique.service.HelloService;
+import com.surya.bootique.service.HelloService;
 import io.bootique.BQRuntime;
 import io.bootique.test.junit.BQDaemonTestFactory;
 import io.bootique.test.junit.BQTestFactory;

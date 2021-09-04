@@ -1,7 +1,7 @@
-package com.baeldung.bootique.module;
+package com.surya.bootique.module;
 
-import com.baeldung.bootique.service.HelloService;
-import com.baeldung.bootique.service.impl.HelloServiceImpl;
+import com.surya.bootique.service.HelloService;
+import com.surya.bootique.service.impl.HelloServiceImpl;
 import com.google.inject.Binder;
 import com.google.inject.Module;
 

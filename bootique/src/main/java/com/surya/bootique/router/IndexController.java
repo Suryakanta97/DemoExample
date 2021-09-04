@@ -1,4 +1,4 @@
-package com.baeldung.bootique.router;
+package com.surya.bootique.router;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -8,7 +8,7 @@ public class IndexController {
 
     @GET
     public String index() {
-        return "Hello, baeldung!";
+        return "Hello, surya!";
     }
 
 }
