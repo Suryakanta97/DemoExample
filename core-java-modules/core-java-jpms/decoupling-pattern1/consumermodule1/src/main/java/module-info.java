@@ -1,3 +1,3 @@
-module com.baeldung.consumermodule {
-    requires com.baeldung.servicemodule;
+module com.surya.consumermodule {
+    requires com.surya.servicemodule;
 }

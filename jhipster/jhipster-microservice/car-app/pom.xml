@@ -4,7 +4,7 @@
 
     <parent>
         <artifactId>jhipster-microservice</artifactId>
-        <groupId>com.baeldung.jhipster</groupId>
+        <groupId>com.surya.jhipster</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <groupId>com.car.app</groupId>
