@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.baeldung.core-java-modules</groupId>
+        <groupId>com.surya.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -45,13 +45,13 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
                     <executable>java</executable>
-                    <mainClass>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</mainClass>
+                    <mainClass>com.surya.outofmemoryerror.OutOfMemoryGCLimitExceed</mainClass>
                     <arguments>
                         <argument>-Xmx300m</argument>
                         <argument>-XX:+UseParallelGC</argument>
                         <argument>-classpath</argument>
                         <classpath />
-                        <argument>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
+                        <argument>com.surya.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
                     </arguments>
                 </configuration>
             </plugin>

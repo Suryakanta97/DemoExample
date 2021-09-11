@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.baeldung.core-java-modules</groupId>
+        <groupId>com.surya.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../</relativePath>

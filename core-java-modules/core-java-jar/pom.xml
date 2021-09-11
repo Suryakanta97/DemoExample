@@ -8,7 +8,7 @@
     <name>core-java-jar</name>
     <packaging>jar</packaging>
     <parent>
-        <groupId>com.baeldung.core-java-modules</groupId>
+        <groupId>com.surya.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -97,7 +97,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
-                            <mainClass>com.baeldung.executable.ExecutableMavenJar</mainClass>
+                            <mainClass>com.surya.executable.ExecutableMavenJar</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -115,7 +115,7 @@
                             <archiveBaseDirectory>${project.basedir}</archiveBaseDirectory>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.baeldung.executable.ExecutableMavenJar</mainClass>
+                                    <mainClass>com.surya.executable.ExecutableMavenJar</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -139,7 +139,7 @@
                             <transformers>
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.baeldung.executable.ExecutableMavenJar</mainClass>
+                                    <mainClass>com.surya.executable.ExecutableMavenJar</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
@@ -153,7 +153,7 @@
                 <executions>
                     <execution>
                         <configuration>
-                            <mainClass>com.baeldung.executable.ExecutableMavenJar</mainClass>
+                            <mainClass>com.surya.executable.ExecutableMavenJar</mainClass>
                             <attachToBuild>true</attachToBuild>
                             <filename>${project.build.finalName}-onejar.${project.packaging}</filename>
                         </configuration>
@@ -174,7 +174,7 @@
                         </goals>
                         <configuration>
                             <classifier>spring-boot</classifier>
-                            <mainClass>com.baeldung.executable.ExecutableMavenJar</mainClass>
+                            <mainClass>com.surya.executable.ExecutableMavenJar</mainClass>
                         </configuration>
                     </execution>
                 </executions>
@@ -184,13 +184,13 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
                     <executable>java</executable>
-                    <mainClass>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</mainClass>
+                    <mainClass>com.surya.outofmemoryerror.OutOfMemoryGCLimitExceed</mainClass>
                     <arguments>
                         <argument>-Xmx300m</argument>
                         <argument>-XX:+UseParallelGC</argument>
                         <argument>-classpath</argument>
                         <classpath />
-                        <argument>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
+                        <argument>com.surya.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
                     </arguments>
                 </configuration>
             </plugin>
@@ -289,8 +289,8 @@
                                     </archive>
 
                                     <includes>
-                                        <include>com/baeldung/instrumentation/application/AgentLoader.class</include>
-                                        <include>com/baeldung/instrumentation/application/Launcher.class</include>
+                                        <include>com/surya/instrumentation/application/AgentLoader.class</include>
+                                        <include>com/surya/instrumentation/application/Launcher.class</include>
                                     </includes>
                                 </configuration>
                             </execution>
@@ -323,9 +323,9 @@
                                     </archive>
 
                                     <includes>
-                                        <include>com/baeldung/instrumentation/application/MyAtm.class</include>
-                                        <include>com/baeldung/instrumentation/application/MyAtmApplication.class</include>
-                                        <include>com/baeldung/instrumentation/application/Launcher.class</include>
+                                        <include>com/surya/instrumentation/application/MyAtm.class</include>
+                                        <include>com/surya/instrumentation/application/MyAtmApplication.class</include>
+                                        <include>com/surya/instrumentation/application/Launcher.class</include>
                                     </includes>
                                 </configuration>
                             </execution>
@@ -358,8 +358,8 @@
                                     </archive>
 
                                     <includes>
-                                        <include>com/baeldung/instrumentation/agent/AtmTransformer.class</include>
-                                        <include>com/baeldung/instrumentation/agent/MyInstrumentationAgent.class</include>
+                                        <include>com/surya/instrumentation/agent/AtmTransformer.class</include>
+                                        <include>com/surya/instrumentation/agent/MyInstrumentationAgent.class</include>
                                     </includes>
                                 </configuration>
                             </execution>

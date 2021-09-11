@@ -4,8 +4,8 @@ This module contains articles about Project Jigsaw and the Java Platform Module 
 
 ### Relevant Articles:
 
-- [Introduction to Project Jigsaw](http://www.baeldung.com/project-jigsaw-java-modularity)
-- [A Guide to Java 9 Modularity](https://www.baeldung.com/java-9-modularity)
-- [Java 9 java.lang.Module API](https://www.baeldung.com/java-9-module-api)
+- [Introduction to Project Jigsaw](http://www.surya.com/project-jigsaw-java-modularity)
+- [A Guide to Java 9 Modularity](https://www.surya.com/java-9-modularity)
+- [Java 9 java.lang.Module API](https://www.surya.com/java-9-module-api)
 
 

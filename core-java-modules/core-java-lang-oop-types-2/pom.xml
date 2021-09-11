@@ -8,7 +8,7 @@
 
     <parent>
         <artifactId>core-java-modules</artifactId>
-        <groupId>com.baeldung.core-java-modules</groupId>
+        <groupId>com.surya.core-java-modules</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
