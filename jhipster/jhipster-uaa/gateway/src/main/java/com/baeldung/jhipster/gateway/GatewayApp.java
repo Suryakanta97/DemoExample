@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.gateway;
+package com.surya.jhipster.gateway;
 
-import com.baeldung.jhipster.gateway.config.ApplicationProperties;
-import com.baeldung.jhipster.gateway.config.DefaultProfileUtil;
+import com.surya.jhipster.gateway.config.ApplicationProperties;
+import com.surya.jhipster.gateway.config.DefaultProfileUtil;
 
 import io.github.jhipster.config.JHipsterConstants;
 

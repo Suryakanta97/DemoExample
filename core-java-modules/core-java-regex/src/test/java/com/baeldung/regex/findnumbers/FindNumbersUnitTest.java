@@ -1,4 +1,4 @@
-package com.baeldung.regex.findnumbers;
+package com.surya.regex.findnumbers;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

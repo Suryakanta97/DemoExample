@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.domain;
+package com.surya.jhipster.gateway.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.envers.Audited;

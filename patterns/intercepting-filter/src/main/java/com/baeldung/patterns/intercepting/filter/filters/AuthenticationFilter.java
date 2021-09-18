@@ -1,7 +1,7 @@
-package com.baeldung.patterns.intercepting.filter.filters;
+package com.surya.patterns.intercepting.filter.filters;
 
-import com.baeldung.patterns.intercepting.filter.commands.FrontCommand;
-import com.baeldung.patterns.intercepting.filter.commands.LoginCommand;
+import com.surya.patterns.intercepting.filter.commands.FrontCommand;
+import com.surya.patterns.intercepting.filter.commands.LoginCommand;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

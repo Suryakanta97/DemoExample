@@ -1,4 +1,4 @@
-package com.baeldung.biginteger;
+package com.surya.biginteger;
 
 import org.junit.jupiter.api.Test;
 

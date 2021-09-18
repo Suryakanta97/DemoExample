@@ -1,4 +1,4 @@
-package com.baeldung.avltree;
+package com.surya.avltree;
 
 import org.junit.Assert;
 import org.junit.Test;

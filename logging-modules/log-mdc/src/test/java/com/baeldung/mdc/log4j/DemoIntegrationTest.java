@@ -1,4 +1,4 @@
-package com.baeldung.mdc.log4j;
+package com.surya.mdc.log4j;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -6,8 +6,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 
-import com.baeldung.mdc.TransactionFactory;
-import com.baeldung.mdc.Transfer;
+import com.surya.mdc.TransactionFactory;
+import com.surya.mdc.Transfer;
 
 public class DemoIntegrationTest {
 

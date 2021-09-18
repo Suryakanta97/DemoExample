@@ -1,4 +1,4 @@
-package com.baeldung.micronaut.helloworld.client;
+package com.surya.micronaut.helloworld.client;
 
 import io.micronaut.context.ApplicationContext;
 import io.micronaut.runtime.server.EmbeddedServer;

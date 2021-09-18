@@ -1,4 +1,4 @@
-package com.baeldung.oroperators;
+package com.surya.oroperators;
 
 import org.junit.Test;
 

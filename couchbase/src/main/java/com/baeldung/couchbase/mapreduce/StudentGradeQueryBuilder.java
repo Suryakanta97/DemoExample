@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.mapreduce;
+package com.surya.couchbase.mapreduce;
 
 import com.couchbase.client.deps.com.fasterxml.jackson.databind.ObjectMapper;
 import com.couchbase.client.java.document.json.JsonArray;

@@ -1,4 +1,4 @@
-package com.baeldung.json;
+package com.surya.json;
 
 import javax.json.*;
 import javax.json.stream.JsonGenerator;

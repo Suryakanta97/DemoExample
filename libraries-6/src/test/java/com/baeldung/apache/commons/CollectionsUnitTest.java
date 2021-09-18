@@ -1,4 +1,4 @@
-package com.baeldung.apache.commons;
+package com.surya.apache.commons;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

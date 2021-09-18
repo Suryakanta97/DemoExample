@@ -1,4 +1,4 @@
-package com.baeldung.stringtoint;
+package com.surya.stringtoint;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

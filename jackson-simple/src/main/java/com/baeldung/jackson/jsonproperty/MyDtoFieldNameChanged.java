@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonproperty;
+package com.surya.jackson.jsonproperty;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,6 +1,6 @@
-package com.baeldung.gson.primitives;
+package com.surya.gson.primitives;
 
-import com.baeldung.gson.primitives.models.*;
+import com.surya.gson.primitives.models.*;
 import com.google.gson.*;
 import org.junit.Test;
 

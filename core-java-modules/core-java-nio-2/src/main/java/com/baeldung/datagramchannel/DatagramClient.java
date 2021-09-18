@@ -1,4 +1,4 @@
-package com.baeldung.datagramchannel;
+package com.surya.datagramchannel;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -21,7 +21,7 @@ public class DatagramClient {
 
     public static void main(String[] args) throws IOException {
         DatagramChannel client = startClient();
-        String msg = "Hello, this is a Baeldung's DatagramChannel based UDP client!";
+        String msg = "Hello, this is a surya's DatagramChannel based UDP client!";
         InetSocketAddress serverAddress = new InetSocketAddress("localhost", 7001);
         
         sendMessage(client, msg, serverAddress);

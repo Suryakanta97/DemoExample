@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.config;
+package com.surya.jersey.server.config;
 
 import javax.ws.rs.ApplicationPath;
 
@@ -8,7 +8,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 public class ServerConfig extends ResourceConfig {
 
     public ServerConfig() {
-        packages("com.baeldung.jersey.server");
+        packages("com.surya.jersey.server");
     }
 
 }

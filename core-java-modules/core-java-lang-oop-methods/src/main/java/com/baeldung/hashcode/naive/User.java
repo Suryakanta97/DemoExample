@@ -1,4 +1,4 @@
-package com.baeldung.hashcode.naive;
+package com.surya.hashcode.naive;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

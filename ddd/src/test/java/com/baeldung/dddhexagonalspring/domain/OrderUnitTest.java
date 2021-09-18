@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.domain;
+package com.surya.dddhexagonalspring.domain;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,14 +1,14 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "com.baeldung.jhipster.quotes",
+      "packageName": "com.surya.jhipster.quotes",
       "nativeLanguage": "en"
     },
     "jhipsterVersion": "5.4.2",
     "applicationType": "microservice",
     "baseName": "quotes",
-    "packageName": "com.baeldung.jhipster.quotes",
-    "packageFolder": "com/baeldung/jhipster/quotes",
+    "packageName": "com.surya.jhipster.quotes",
+    "packageFolder": "com/surya/jhipster/quotes",
     "serverPort": "8081",
     "authenticationType": "uaa",
     "uaaBaseName": "uaa",

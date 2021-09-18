@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung.kubernetes.intro;
+package com.surya.kubernetes.intro;
 
 
 import io.kubernetes.client.openapi.ApiClient;

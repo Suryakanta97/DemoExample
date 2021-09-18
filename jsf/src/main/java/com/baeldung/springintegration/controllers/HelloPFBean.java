@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.controllers;
+package com.surya.springintegration.controllers;
 
 import java.util.ArrayList;
 import java.util.List;

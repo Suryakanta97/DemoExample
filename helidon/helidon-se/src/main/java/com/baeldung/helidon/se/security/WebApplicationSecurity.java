@@ -1,4 +1,4 @@
-package com.baeldung.helidon.se.security;
+package com.surya.helidon.se.security;
 
 import io.helidon.config.Config;
 import io.helidon.security.Security;

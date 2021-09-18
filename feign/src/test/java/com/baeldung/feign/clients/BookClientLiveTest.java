@@ -1,8 +1,8 @@
-package com.baeldung.feign.clients;
+package com.surya.feign.clients;
 
-import com.baeldung.feign.BookControllerFeignClientBuilder;
-import com.baeldung.feign.models.Book;
-import com.baeldung.feign.models.BookResource;
+import com.surya.feign.BookControllerFeignClientBuilder;
+import com.surya.feign.models.Book;
+import com.surya.feign.models.BookResource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Consumes https://github.com/Baeldung/spring-hypermedia-api
+ * Consumes https://github.com/surya/spring-hypermedia-api
  */
 @Slf4j
 public class BookClientLiveTest {

@@ -1,4 +1,4 @@
 /**
  * Audit specific code.
  */
-package com.baeldung.jhipster.quotes.config.audit;
+package com.surya.jhipster.quotes.config.audit;

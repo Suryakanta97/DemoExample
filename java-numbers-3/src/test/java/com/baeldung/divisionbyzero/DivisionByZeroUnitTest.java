@@ -1,4 +1,4 @@
-package com.baeldung.divisionbyzero;
+package com.surya.divisionbyzero;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.surya.servlets;
 
 import javax.servlet.annotation.WebServlet;
 import org.apache.commons.fileupload.FileItem;
@@ -13,7 +13,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import static com.baeldung.Constants.*;
+import static com.surya.Constants.*;
 
 @WebServlet(
     name = "UploadServlet",

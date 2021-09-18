@@ -1,4 +1,4 @@
-package com.baeldung.text;
+package com.surya.text;
 
 import org.apache.commons.text.translate.UnicodeEscaper;
 import org.junit.Assert;

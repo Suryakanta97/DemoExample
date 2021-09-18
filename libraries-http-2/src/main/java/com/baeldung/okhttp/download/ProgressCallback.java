@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.download;
+package com.surya.okhttp.download;
 
 public interface ProgressCallback {
 

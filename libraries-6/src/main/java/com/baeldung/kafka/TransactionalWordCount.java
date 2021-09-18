@@ -1,4 +1,4 @@
-package com.baeldung.kafka;
+package com.surya.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;

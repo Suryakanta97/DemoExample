@@ -1,4 +1,4 @@
-package com.baeldung.gson.deserialization;
+package com.surya.gson.deserialization;
 
 import java.lang.reflect.Type;
 

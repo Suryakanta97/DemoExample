@@ -1,4 +1,4 @@
-package com.baeldung.bridge;
+package com.surya.bridge;
 
 public interface Color {
     String fill();

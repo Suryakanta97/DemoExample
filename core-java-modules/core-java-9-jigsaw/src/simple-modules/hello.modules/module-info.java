@@ -1,4 +1,4 @@
 module hello.modules {
-    exports com.baeldung.modules.hello;
-    provides com.baeldung.modules.hello.HelloInterface with com.baeldung.modules.hello.HelloModules;
+    exports com.surya.modules.hello;
+    provides com.surya.modules.hello.HelloInterface with com.surya.modules.hello.HelloModules;
 }

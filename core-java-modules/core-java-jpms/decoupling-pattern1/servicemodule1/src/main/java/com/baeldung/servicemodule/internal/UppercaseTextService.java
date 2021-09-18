@@ -1,6 +1,6 @@
-package com.baeldung.servicemodule.internal;
+package com.surya.servicemodule.internal;
 
-import com.baeldung.servicemodule.external.TextService;
+import com.surya.servicemodule.external.TextService;
 
 public class UppercaseTextService implements TextService {
     

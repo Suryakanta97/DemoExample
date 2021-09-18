@@ -1,4 +1,4 @@
-package com.baeldung.serenity.pageobjects;
+package com.surya.serenity.pageobjects;
 
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;

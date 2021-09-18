@@ -1,4 +1,4 @@
-package com.baeldung.crdt;
+package com.surya.crdt;
 
 import com.netopyr.wurmloch.crdt.GCounter;
 import com.netopyr.wurmloch.crdt.GSet;

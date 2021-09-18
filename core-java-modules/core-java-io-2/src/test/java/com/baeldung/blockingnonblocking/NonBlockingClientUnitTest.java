@@ -1,4 +1,4 @@
-package com.baeldung.blockingnonblocking;
+package com.surya.blockingnonblocking;
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.junit.Before;

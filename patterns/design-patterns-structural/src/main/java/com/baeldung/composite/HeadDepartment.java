@@ -1,4 +1,4 @@
-package com.baeldung.composite;
+package com.surya.composite;
 
 import java.util.ArrayList;
 import java.util.List;

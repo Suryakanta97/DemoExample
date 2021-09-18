@@ -1,4 +1,4 @@
-package com.baeldung.googlehttpclientguide;
+package com.surya.googlehttpclientguide;
 
 import com.google.api.client.http.HttpBackOffUnsuccessfulResponseHandler;
 import com.google.api.client.http.HttpRequest;

@@ -1,4 +1,4 @@
-package com.baeldung.cipher;
+package com.surya.cipher;
 
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;

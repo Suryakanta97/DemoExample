@@ -1,4 +1,4 @@
-package com.baeldung.dubbo.remote;
+package com.surya.dubbo.remote;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 

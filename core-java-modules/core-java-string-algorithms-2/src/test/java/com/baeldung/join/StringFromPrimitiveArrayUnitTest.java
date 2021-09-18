@@ -1,4 +1,4 @@
-package com.baeldung.join;
+package com.surya.join;
 
 import com.google.common.base.Joiner;
 import com.google.common.primitives.Chars;

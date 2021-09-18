@@ -1,4 +1,4 @@
-package com.baeldung.url;
+package com.surya.url;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

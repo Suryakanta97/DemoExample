@@ -1,4 +1,4 @@
-package com.baeldung.retrofitguide;
+package com.surya.retrofitguide;
 
 import java.util.List;
 import retrofit2.Call;

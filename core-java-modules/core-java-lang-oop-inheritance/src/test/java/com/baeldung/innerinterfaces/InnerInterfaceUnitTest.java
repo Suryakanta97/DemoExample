@@ -1,7 +1,7 @@
-package com.baeldung.innerinterfaces;
+package com.surya.innerinterfaces;
 
-import com.baeldung.innerinterfaces.CommaSeparatedCustomers;
-import com.baeldung.innerinterfaces.Customer;
+import com.surya.innerinterfaces.CommaSeparatedCustomers;
+import com.surya.innerinterfaces.Customer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;

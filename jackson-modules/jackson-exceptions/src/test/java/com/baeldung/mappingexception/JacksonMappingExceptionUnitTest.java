@@ -1,4 +1,4 @@
-package com.baeldung.mappingexception;
+package com.surya.mappingexception;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;

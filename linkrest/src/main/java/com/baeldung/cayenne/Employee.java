@@ -1,6 +1,6 @@
-package com.baeldung.cayenne;
+package com.surya.cayenne;
 
-import com.baeldung.cayenne.auto._Employee;
+import com.surya.cayenne.auto._Employee;
 
 public class Employee extends _Employee {
 

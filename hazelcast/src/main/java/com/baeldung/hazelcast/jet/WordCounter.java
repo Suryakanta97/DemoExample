@@ -1,4 +1,4 @@
-package com.baeldung.hazelcast.jet;
+package com.surya.hazelcast.jet;
 
 import com.hazelcast.jet.Jet;
 import com.hazelcast.jet.JetInstance;

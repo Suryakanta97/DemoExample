@@ -1,4 +1,4 @@
-package com.baeldung.randomstrings;
+package com.surya.randomstrings;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;

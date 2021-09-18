@@ -1,4 +1,4 @@
-package com.baeldung.smack;
+package com.surya.smack;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.chat2.Chat;
@@ -18,7 +18,7 @@ public class StanzaThread implements Runnable {
         XMPPTCPConnectionConfiguration config = null;
         try {
             config = XMPPTCPConnectionConfiguration.builder()
-                    .setUsernameAndPassword("baeldung2","baeldung2")
+                    .setUsernameAndPassword("surya2","surya2")
                     .setXmppDomain("jabb3r.org")
                     .setHost("jabb3r.org")
                     .build();
@@ -29,7 +29,7 @@ public class StanzaThread implements Runnable {
 
             ChatManager chatManager = ChatManager.getInstanceFor(connection);
 
-            Chat chat = chatManager.chatWith(JidCreate.from("baeldung@jabb3r.org").asEntityBareJidOrThrow());
+            Chat chat = chatManager.chatWith(JidCreate.from("surya@jabb3r.org").asEntityBareJidOrThrow());
 
             chat.send("Hello!");
 

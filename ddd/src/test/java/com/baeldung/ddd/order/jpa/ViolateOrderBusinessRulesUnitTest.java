@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.jpa;
+package com.surya.ddd.order.jpa;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

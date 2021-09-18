@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.combination;
+package com.surya.algorithms.combination;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

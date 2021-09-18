@@ -1,4 +1,4 @@
-package com.baeldung.micronaut.helloworld.server;
+package com.surya.micronaut.helloworld.server;
 
 import io.micronaut.runtime.Micronaut;
 

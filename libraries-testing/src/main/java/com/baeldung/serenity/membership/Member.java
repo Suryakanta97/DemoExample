@@ -1,8 +1,8 @@
-package com.baeldung.serenity.membership;
+package com.surya.serenity.membership;
 
-import static com.baeldung.serenity.membership.MemberGrade.Bronze;
-import static com.baeldung.serenity.membership.MemberGrade.Gold;
-import static com.baeldung.serenity.membership.MemberGrade.Silver;
+import static com.surya.serenity.membership.MemberGrade.Bronze;
+import static com.surya.serenity.membership.MemberGrade.Gold;
+import static com.surya.serenity.membership.MemberGrade.Silver;
 
 /**
  * @author aiet

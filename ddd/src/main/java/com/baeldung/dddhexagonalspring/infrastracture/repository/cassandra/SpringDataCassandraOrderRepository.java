@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.infrastracture.repository.cassandra;
+package com.surya.dddhexagonalspring.infrastracture.repository.cassandra;
 
 import java.util.UUID;
 

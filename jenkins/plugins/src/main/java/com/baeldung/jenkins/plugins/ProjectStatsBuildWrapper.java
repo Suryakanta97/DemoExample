@@ -1,4 +1,4 @@
-package com.baeldung.jenkins.plugins;
+package com.surya.jenkins.plugins;
 
 import hudson.Extension;
 import hudson.FilePath;

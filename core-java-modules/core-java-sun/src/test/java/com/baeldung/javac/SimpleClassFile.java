@@ -1,4 +1,4 @@
-package com.baeldung.javac;
+package com.surya.javac;
 
 import javax.tools.SimpleJavaFileObject;
 import java.io.ByteArrayOutputStream;

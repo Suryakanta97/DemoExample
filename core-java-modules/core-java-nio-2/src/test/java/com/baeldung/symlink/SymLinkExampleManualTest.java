@@ -1,4 +1,4 @@
-package com.baeldung.symlink;
+package com.surya.symlink;
 
 import org.junit.Test;
 

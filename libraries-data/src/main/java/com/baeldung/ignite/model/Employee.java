@@ -1,4 +1,4 @@
-package com.baeldung.ignite.model;
+package com.surya.ignite.model;
 
 
 public class Employee {

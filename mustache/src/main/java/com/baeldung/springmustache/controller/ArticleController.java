@@ -1,6 +1,6 @@
-package com.baeldung.springmustache.controller;
+package com.surya.springmustache.controller;
 
-import com.baeldung.springmustache.model.Article;
+import com.surya.springmustache.model.Article;
 import org.fluttercode.datafactory.impl.DataFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

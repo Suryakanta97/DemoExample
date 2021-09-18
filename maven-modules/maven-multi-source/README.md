@@ -4,4 +4,4 @@ This module contains articles about how to use multiple source directories with 
 
 ### Relevant Articles
 
-- [Maven Project with Multiple Source Directories](https://www.baeldung.com/maven-project-multiple-src-directories)
+- [Maven Project with Multiple Source Directories](https://www.surya.com/maven-project-multiple-src-directories)

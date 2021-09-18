@@ -1,4 +1,4 @@
-package com.baeldung.neuroph;
+package com.surya.neuroph;
 
 import org.junit.After;
 import org.junit.Before;

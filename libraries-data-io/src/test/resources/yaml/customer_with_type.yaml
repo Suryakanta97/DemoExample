@@ -1,4 +1,4 @@
-!!com.baeldung.libraries.snakeyaml.Customer
+!!com.surya.libraries.snakeyaml.Customer
 firstName: "John"
 lastName: "Doe"
 age: 20

@@ -12,7 +12,7 @@ import com.surya.Outer;
 
 public class OuterUnitTest {
 
-    private static final String NEST_HOST_NAME = "com.baeldung.Outer";
+    private static final String NEST_HOST_NAME = "com.surya.Outer";
 
     @Test
     public void whenGetNestHostFromOuter_thenGetNestHost() {
@@ -42,7 +42,7 @@ public class OuterUnitTest {
 
         is(nestMembers.size()).equals(2);
 
-        assertTrue(nestMembers.contains("com.baeldung.Outer"));
-        assertTrue(nestMembers.contains("com.baeldung.Outer$Inner"));
+        assertTrue(nestMembers.contains("com.surya.Outer"));
+        assertTrue(nestMembers.contains("com.surya.Outer$Inner"));
     }
 }

@@ -1,4 +1,4 @@
-package com.baeldung.commandlinearguments;
+package com.surya.commandlinearguments;
 
 public class CliExample {
 

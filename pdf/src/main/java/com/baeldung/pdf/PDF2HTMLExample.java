@@ -1,4 +1,4 @@
-package com.baeldung.pdf;
+package com.surya.pdf;
 
 import java.io.File;
 import java.io.FileInputStream;

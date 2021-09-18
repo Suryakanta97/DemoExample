@@ -1,9 +1,9 @@
-package com.baeldung.dddhexagonalspring.infrastracture.configuration;
+package com.surya.dddhexagonalspring.infrastracture.configuration;
 
-import com.baeldung.dddhexagonalspring.DomainLayerApplication;
-import com.baeldung.dddhexagonalspring.domain.repository.OrderRepository;
-import com.baeldung.dddhexagonalspring.domain.service.DomainOrderService;
-import com.baeldung.dddhexagonalspring.domain.service.OrderService;
+import com.surya.dddhexagonalspring.DomainLayerApplication;
+import com.surya.dddhexagonalspring.domain.repository.OrderRepository;
+import com.surya.dddhexagonalspring.domain.service.DomainOrderService;
+import com.surya.dddhexagonalspring.domain.service.OrderService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

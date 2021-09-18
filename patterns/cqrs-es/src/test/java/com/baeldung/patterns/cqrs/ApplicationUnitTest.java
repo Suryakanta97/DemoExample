@@ -1,4 +1,4 @@
-package com.baeldung.patterns.cqrs;
+package com.surya.patterns.cqrs;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,18 +9,18 @@ import java.util.stream.Stream;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.patterns.cqrs.aggregates.UserAggregate;
-import com.baeldung.patterns.cqrs.commands.CreateUserCommand;
-import com.baeldung.patterns.cqrs.commands.UpdateUserCommand;
-import com.baeldung.patterns.cqrs.projections.UserProjection;
-import com.baeldung.patterns.cqrs.projectors.UserProjector;
-import com.baeldung.patterns.cqrs.queries.AddressByRegionQuery;
-import com.baeldung.patterns.cqrs.queries.ContactByTypeQuery;
-import com.baeldung.patterns.cqrs.repository.UserReadRepository;
-import com.baeldung.patterns.cqrs.repository.UserWriteRepository;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.User;
+import com.surya.patterns.cqrs.aggregates.UserAggregate;
+import com.surya.patterns.cqrs.commands.CreateUserCommand;
+import com.surya.patterns.cqrs.commands.UpdateUserCommand;
+import com.surya.patterns.cqrs.projections.UserProjection;
+import com.surya.patterns.cqrs.projectors.UserProjector;
+import com.surya.patterns.cqrs.queries.AddressByRegionQuery;
+import com.surya.patterns.cqrs.queries.ContactByTypeQuery;
+import com.surya.patterns.cqrs.repository.UserReadRepository;
+import com.surya.patterns.cqrs.repository.UserWriteRepository;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.User;
 
 public class ApplicationUnitTest {
 

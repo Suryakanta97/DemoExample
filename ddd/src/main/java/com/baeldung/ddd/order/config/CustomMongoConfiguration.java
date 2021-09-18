@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.config;
+package com.surya.ddd.order.config;
 
 import org.bson.Document;
 import org.joda.money.CurrencyUnit;

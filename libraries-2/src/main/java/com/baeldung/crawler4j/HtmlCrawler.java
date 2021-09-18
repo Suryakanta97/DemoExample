@@ -1,4 +1,4 @@
-package com.baeldung.crawler4j;
+package com.surya.crawler4j;
 
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -22,7 +22,7 @@ public class HtmlCrawler extends WebCrawler {
     public boolean shouldVisit(Page referringPage, WebURL url) {
         String urlString = url.getURL().toLowerCase();
         return !EXCLUSIONS.matcher(urlString).matches() 
-            && urlString.startsWith("https://www.baeldung.com/");
+            && urlString.startsWith("https://www.surya.com/");
     }
 
     @Override

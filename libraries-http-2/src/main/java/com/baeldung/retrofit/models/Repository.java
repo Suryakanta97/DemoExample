@@ -1,4 +1,4 @@
-package com.baeldung.retrofit.models;
+package com.surya.retrofit.models;
 
 public class Repository {
 

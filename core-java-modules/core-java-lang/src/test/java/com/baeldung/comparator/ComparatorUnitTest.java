@@ -1,4 +1,4 @@
-package com.baeldung.comparator;
+package com.surya.comparator;
 
 import static org.junit.Assert.assertEquals;
 

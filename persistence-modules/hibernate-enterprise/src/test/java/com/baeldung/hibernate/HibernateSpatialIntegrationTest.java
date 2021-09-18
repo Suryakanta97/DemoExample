@@ -1,4 +1,4 @@
-package com.baeldung.hibernate;
+package com.surya.hibernate;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
@@ -17,8 +17,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.hibernate.pojo.PointEntity;
-import com.baeldung.hibernate.pojo.PolygonEntity;
+import com.surya.hibernate.pojo.PointEntity;
+import com.surya.hibernate.pojo.PolygonEntity;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.Point;

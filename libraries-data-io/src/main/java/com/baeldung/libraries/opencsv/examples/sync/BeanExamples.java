@@ -1,9 +1,9 @@
-package com.baeldung.libraries.opencsv.examples.sync;
+package com.surya.libraries.opencsv.examples.sync;
 
-import com.baeldung.libraries.opencsv.beans.CsvBean;
-import com.baeldung.libraries.opencsv.beans.WriteExampleBean;
-import com.baeldung.libraries.opencsv.helpers.Helpers;
-import com.baeldung.libraries.opencsv.pojos.CsvTransfer;
+import com.surya.libraries.opencsv.beans.CsvBean;
+import com.surya.libraries.opencsv.beans.WriteExampleBean;
+import com.surya.libraries.opencsv.helpers.Helpers;
+import com.surya.libraries.opencsv.pojos.CsvTransfer;
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.*;
 

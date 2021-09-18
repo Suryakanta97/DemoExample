@@ -1,4 +1,4 @@
-package com.baeldung.regex;
+package com.surya.regex;
 
 import static org.junit.Assert.*;
 

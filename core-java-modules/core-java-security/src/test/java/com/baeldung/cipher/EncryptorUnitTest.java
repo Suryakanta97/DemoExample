@@ -1,4 +1,4 @@
-package com.baeldung.cipher;
+package com.surya.cipher;
 
 
 import org.junit.Before;

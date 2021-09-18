@@ -1,4 +1,4 @@
-package com.baeldung.minmaxheap;
+package com.surya.minmaxheap;
 
 import org.junit.Assert;
 import org.junit.Test;

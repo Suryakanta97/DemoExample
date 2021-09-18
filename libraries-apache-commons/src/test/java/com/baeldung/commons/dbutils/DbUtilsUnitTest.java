@@ -1,4 +1,4 @@
-package com.baeldung.commons.dbutils;
+package com.surya.commons.dbutils;
 
 import org.apache.commons.dbutils.AsyncQueryRunner;
 import org.apache.commons.dbutils.DbUtils;

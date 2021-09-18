@@ -1,4 +1,4 @@
-package com.baeldung.fileparser;
+package com.surya.fileparser;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

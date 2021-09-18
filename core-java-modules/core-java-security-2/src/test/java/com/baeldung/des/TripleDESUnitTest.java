@@ -1,4 +1,4 @@
-package com.baeldung.des;
+package com.surya.des;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -21,7 +21,7 @@ public class TripleDESUnitTest {
         byte[] secretKey = "9mng65v8jf4lxn93nabf981m".getBytes();
         byte[] iv = "a76nb5h9".getBytes();
 
-        String secretMessage = "Baeldung secret message";
+        String secretMessage = "surya secret message";
 
         SecretKeySpec secretKeySpec = new SecretKeySpec(secretKey, "DESede");
         IvParameterSpec ivSpec = new IvParameterSpec(iv);

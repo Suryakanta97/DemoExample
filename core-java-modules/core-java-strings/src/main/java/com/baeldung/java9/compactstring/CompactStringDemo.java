@@ -1,4 +1,4 @@
-package com.baeldung.java9.compactstring;
+package com.surya.java9.compactstring;
 
 import java.util.List;
 import java.util.stream.IntStream;

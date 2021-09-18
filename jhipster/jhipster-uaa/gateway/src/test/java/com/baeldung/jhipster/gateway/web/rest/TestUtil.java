@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.web.rest;
+package com.surya.jhipster.gateway.web.rest;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;

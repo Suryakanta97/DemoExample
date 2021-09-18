@@ -1,4 +1,4 @@
-package com.baeldung.sealed.alternative;
+package com.surya.sealed.alternative;
 
 public class Vehicles {
 

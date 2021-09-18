@@ -1,4 +1,4 @@
-package com.baeldung.checksums;
+package com.surya.checksums;
 
 
 import org.junit.Before;

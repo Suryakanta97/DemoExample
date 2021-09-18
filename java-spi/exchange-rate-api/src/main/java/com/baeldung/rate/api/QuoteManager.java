@@ -1,4 +1,4 @@
-package com.baeldung.rate.api;
+package com.surya.rate.api;
 
 import java.time.LocalDate;
 import java.util.List;

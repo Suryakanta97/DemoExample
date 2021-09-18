@@ -1,4 +1,4 @@
-package com.baeldung.google.cloud.storage;
+package com.surya.google.cloud.storage;
 
 import com.google.api.gax.paging.Page;
 import com.google.auth.Credentials;
@@ -27,10 +27,10 @@ public class GoogleCloudStorage {
         // Use this variation to read the Google authorization JSON from the resources directory with a path
         // and a project name.
         GoogleCloudStorage googleCloudStorage =
-            new GoogleCloudStorage("google-cloud/src/main/resources/google_auth.json", "baeldung-cloud-tutorial");
+            new GoogleCloudStorage("google-cloud/src/main/resources/google_auth.json", "surya-cloud-tutorial");
 
         // Bucket require globally unique names, so you'll probably need to change this
-        Bucket bucket = googleCloudStorage.getBucket("baeldung-1-bucket");
+        Bucket bucket = googleCloudStorage.getBucket("surya-1-bucket");
 
         // Save a simple string
         BlobId blobId = googleCloudStorage.saveString("my-first-blob", "Hi there!", bucket);

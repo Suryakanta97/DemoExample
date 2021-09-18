@@ -1,4 +1,4 @@
-package com.baeldung.tostring;
+package com.surya.tostring;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

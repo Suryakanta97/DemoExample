@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.surya.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.baeldung.model.Employee;
+import com.surya.model.Employee;
 import com.google.gson.Gson;
 
 

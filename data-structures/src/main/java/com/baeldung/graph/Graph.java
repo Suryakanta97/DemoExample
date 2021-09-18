@@ -1,4 +1,4 @@
-package com.baeldung.graph;
+package com.surya.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;

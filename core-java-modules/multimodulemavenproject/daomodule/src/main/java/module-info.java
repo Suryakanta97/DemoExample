@@ -1,3 +1,3 @@
-module com.baeldung.daomodule {
-    exports com.baeldung.daomodule;
+module com.surya.daomodule {
+    exports com.surya.daomodule;
 }

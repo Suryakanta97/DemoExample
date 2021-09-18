@@ -1,4 +1,4 @@
-package com.baeldung.nth.root.calculator;
+package com.surya.nth.root.calculator;
 
 public class NthRootCalculator {
 

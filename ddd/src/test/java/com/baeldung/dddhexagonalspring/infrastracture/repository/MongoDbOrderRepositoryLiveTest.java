@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.infrastracture.repository;
+package com.surya.dddhexagonalspring.infrastracture.repository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -13,10 +13,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
-import com.baeldung.dddhexagonalspring.domain.Order;
-import com.baeldung.dddhexagonalspring.domain.Product;
-import com.baeldung.dddhexagonalspring.domain.repository.OrderRepository;
-import com.baeldung.dddhexagonalspring.infrastracture.repository.mongo.SpringDataMongoOrderRepository;
+import com.surya.dddhexagonalspring.domain.Order;
+import com.surya.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.repository.OrderRepository;
+import com.surya.dddhexagonalspring.infrastracture.repository.mongo.SpringDataMongoOrderRepository;
 
 /*
  To run this test we need to run the databases first.

@@ -1,4 +1,4 @@
-package com.baeldung.isinstancevsisassignablefrom;
+package com.surya.isinstancevsisassignablefrom;
 
 public interface Shape {
 

@@ -1,9 +1,9 @@
-package com.baeldung.doublecolon;
+package com.surya.doublecolon;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.doublecolon.function.ComputerPredicate;
+import com.surya.doublecolon.function.ComputerPredicate;
 
 public class ComputerUtils {
 

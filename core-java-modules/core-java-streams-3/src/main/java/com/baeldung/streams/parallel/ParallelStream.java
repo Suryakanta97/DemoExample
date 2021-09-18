@@ -1,4 +1,4 @@
-package com.baeldung.streams.parallel;
+package com.surya.streams.parallel;
 
 import java.util.Arrays;
 import java.util.List;

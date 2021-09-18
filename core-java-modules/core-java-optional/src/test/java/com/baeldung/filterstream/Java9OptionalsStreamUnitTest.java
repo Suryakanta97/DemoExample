@@ -1,4 +1,4 @@
-package com.baeldung.filterstream;
+package com.surya.filterstream;
 
 import static org.junit.Assert.assertEquals;
 

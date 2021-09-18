@@ -1,6 +1,6 @@
-package com.baeldung.controller;
+package com.surya.controller;
 
-import com.baeldung.model.Response;
+import com.surya.model.Response;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

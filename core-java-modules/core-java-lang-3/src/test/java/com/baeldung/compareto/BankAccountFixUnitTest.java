@@ -1,4 +1,4 @@
-package com.baeldung.compareto;
+package com.surya.compareto;
 
 import org.junit.jupiter.api.Test;
 

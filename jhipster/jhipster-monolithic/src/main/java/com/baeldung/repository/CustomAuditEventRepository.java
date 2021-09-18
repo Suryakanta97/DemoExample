@@ -1,8 +1,8 @@
-package com.baeldung.repository;
+package com.surya.repository;
 
-import com.baeldung.config.Constants;
-import com.baeldung.config.audit.AuditEventConverter;
-import com.baeldung.domain.PersistentAuditEvent;
+import com.surya.config.Constants;
+import com.surya.config.audit.AuditEventConverter;
+import com.surya.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.boot.actuate.audit.AuditEventRepository;

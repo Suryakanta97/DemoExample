@@ -1,4 +1,4 @@
-package com.baeldung.relationships.aggregation;
+package com.surya.relationships.aggregation;
 
 import java.util.List;
 

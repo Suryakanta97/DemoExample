@@ -1,4 +1,4 @@
-package com.baeldung.arquillan;
+package com.surya.arquillan;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -14,12 +14,12 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.baeldung.arquillian.CapsConvertor;
-import com.baeldung.arquillian.CapsService;
-import com.baeldung.arquillian.Car;
-import com.baeldung.arquillian.CarEJB;
-import com.baeldung.arquillian.Component;
-import com.baeldung.arquillian.ConvertToLowerCase;
+import com.surya.arquillian.CapsConvertor;
+import com.surya.arquillian.CapsService;
+import com.surya.arquillian.Car;
+import com.surya.arquillian.CarEJB;
+import com.surya.arquillian.Component;
+import com.surya.arquillian.ConvertToLowerCase;
 
 @RunWith(Arquillian.class)
 public class ArquillianLiveTest {

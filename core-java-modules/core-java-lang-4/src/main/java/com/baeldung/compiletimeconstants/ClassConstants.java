@@ -1,4 +1,4 @@
-package com.baeldung.compiletimeconstants;
+package com.surya.compiletimeconstants;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

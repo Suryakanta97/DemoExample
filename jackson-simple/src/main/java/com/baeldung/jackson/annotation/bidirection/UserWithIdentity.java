@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.bidirection;
+package com.surya.jackson.annotation.bidirection;
 
 import java.util.ArrayList;
 import java.util.List;

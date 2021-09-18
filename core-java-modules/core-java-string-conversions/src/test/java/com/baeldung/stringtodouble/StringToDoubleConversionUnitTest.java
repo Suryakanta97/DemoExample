@@ -1,4 +1,4 @@
-package com.baeldung.stringtodouble;
+package com.surya.stringtodouble;
 
 import static org.junit.Assert.assertEquals;
 

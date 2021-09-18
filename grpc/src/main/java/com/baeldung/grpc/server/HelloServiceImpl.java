@@ -1,8 +1,8 @@
-package com.baeldung.grpc.server;
+package com.surya.grpc.server;
 
-import com.baeldung.grpc.HelloRequest;
-import com.baeldung.grpc.HelloResponse;
-import com.baeldung.grpc.HelloServiceGrpc.HelloServiceImplBase;
+import com.surya.grpc.HelloRequest;
+import com.surya.grpc.HelloResponse;
+import com.surya.grpc.HelloServiceGrpc.HelloServiceImplBase;
 
 import io.grpc.stub.StreamObserver;
 

@@ -1,4 +1,4 @@
-package com.baeldung.staticmodifier;
+package com.surya.staticmodifier;
 
 import static org.junit.Assert.*;
 

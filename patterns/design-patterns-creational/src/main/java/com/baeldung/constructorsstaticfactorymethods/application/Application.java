@@ -1,6 +1,6 @@
-package com.baeldung.constructorsstaticfactorymethods.application;
+package com.surya.constructorsstaticfactorymethods.application;
 
-import com.baeldung.constructorsstaticfactorymethods.entities.User;
+import com.surya.constructorsstaticfactorymethods.entities.User;
  
 public class Application {
 

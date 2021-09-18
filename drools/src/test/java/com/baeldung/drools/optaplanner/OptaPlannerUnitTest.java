@@ -1,4 +1,4 @@
-package com.baeldung.drools.optaplanner;
+package com.surya.drools.optaplanner;
 
 import java.util.Arrays;
 

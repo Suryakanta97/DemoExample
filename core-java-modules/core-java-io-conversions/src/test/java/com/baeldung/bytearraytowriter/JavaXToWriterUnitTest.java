@@ -1,4 +1,4 @@
-package com.baeldung.bytearraytowriter;
+package com.surya.bytearraytowriter;
 
 import com.google.common.io.CharSink;
 import org.apache.commons.io.output.StringBuilderWriter;

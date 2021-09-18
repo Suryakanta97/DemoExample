@@ -1,6 +1,6 @@
-package com.baeldung.examples.guice;
+package com.surya.examples.guice;
 
-import com.baeldung.examples.common.AccountService;
+import com.surya.examples.common.AccountService;
 import com.google.inject.Inject;
 
 public class GuiceUserService {

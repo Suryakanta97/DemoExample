@@ -1,7 +1,7 @@
-package com.baeldung.libraries.ebean.app;
+package com.surya.libraries.ebean.app;
 
-import com.baeldung.libraries.ebean.model.Address;
-import com.baeldung.libraries.ebean.model.Customer;
+import com.surya.libraries.ebean.model.Address;
+import com.surya.libraries.ebean.model.Customer;
 import io.ebean.Ebean;
 import io.ebean.EbeanServer;
 import io.ebean.annotation.Transactional;

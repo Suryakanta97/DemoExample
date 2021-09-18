@@ -1,7 +1,7 @@
-package com.baeldung.mybatis.utils;
+package com.surya.mybatis.utils;
 
-import com.baeldung.mybatis.mapper.AddressMapper;
-import com.baeldung.mybatis.mapper.PersonMapper;
+import com.surya.mybatis.mapper.AddressMapper;
+import com.surya.mybatis.mapper.PersonMapper;
 import org.apache.ibatis.datasource.pooled.PooledDataSource;
 import org.apache.ibatis.jdbc.SQL;
 import org.apache.ibatis.mapping.Environment;

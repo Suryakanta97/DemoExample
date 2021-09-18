@@ -1,7 +1,7 @@
-package com.baeldung.netflix.mantis.job;
+package com.surya.netflix.mantis.job;
 
-import com.baeldung.netflix.mantis.model.LogEvent;
-import com.baeldung.netflix.mantis.sink.LogSink;
+import com.surya.netflix.mantis.model.LogEvent;
+import com.surya.netflix.mantis.sink.LogSink;
 import io.mantisrx.runtime.Context;
 import io.mantisrx.runtime.PortRequest;
 import org.junit.jupiter.api.BeforeAll;

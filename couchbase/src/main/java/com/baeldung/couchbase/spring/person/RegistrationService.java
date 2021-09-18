@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.person;
+package com.surya.couchbase.spring.person;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

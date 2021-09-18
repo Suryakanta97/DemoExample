@@ -1,4 +1,4 @@
-package com.baeldung.jackson.csv;
+package com.surya.jackson.csv;
 
 import static org.junit.Assert.assertEquals;
 

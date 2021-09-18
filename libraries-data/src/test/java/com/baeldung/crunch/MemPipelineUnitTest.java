@@ -1,4 +1,4 @@
-package com.baeldung.crunch;
+package com.surya.crunch;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;

@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;

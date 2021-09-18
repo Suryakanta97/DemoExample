@@ -3,9 +3,9 @@
  * as described in Section 3 of "Programmatic Configuration with Log4j 2"
  **/
 
-package com.baeldung.logging.log4j2.simpleconfigurator;
+package com.surya.logging.log4j2.simpleconfigurator;
 
-import com.baeldung.logging.log4j2.Log4j2BaseIntegrationTest;
+import com.surya.logging.log4j2.Log4j2BaseIntegrationTest;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.core.appender.ConsoleAppender;
 import org.apache.logging.log4j.core.config.Configurator;

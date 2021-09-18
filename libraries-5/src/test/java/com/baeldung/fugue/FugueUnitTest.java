@@ -1,4 +1,4 @@
-package com.baeldung.fugue;
+package com.surya.fugue;
 
 import io.atlassian.fugue.*;
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package com.baeldung.sasl;
+package com.surya.sasl;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -59,12 +59,12 @@ public class SaslUnitTest {
         String qop = (String) saslClient.getNegotiatedProperty(Sasl.QOP);
         assertEquals("auth-conf", qop);
 
-        byte[] outgoing = "Baeldung".getBytes();
+        byte[] outgoing = "surya".getBytes();
         byte[] secureOutgoing = saslClient.wrap(outgoing, 0, outgoing.length);
 
         byte[] secureIncoming = secureOutgoing;
         byte[] incoming = saslServer.unwrap(secureIncoming, 0, secureIncoming.length);
-        assertEquals("Baeldung", new String(incoming, StandardCharsets.UTF_8));
+        assertEquals("surya", new String(incoming, StandardCharsets.UTF_8));
     }
 
     @After

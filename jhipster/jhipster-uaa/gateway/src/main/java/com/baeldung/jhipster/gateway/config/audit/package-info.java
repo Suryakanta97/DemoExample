@@ -1,4 +1,4 @@
 /**
  * Audit specific code.
  */
-package com.baeldung.jhipster.gateway.config.audit;
+package com.surya.jhipster.gateway.config.audit;

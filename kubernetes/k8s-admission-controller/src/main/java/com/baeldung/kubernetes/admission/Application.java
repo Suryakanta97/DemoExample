@@ -1,10 +1,10 @@
-package com.baeldung.kubernetes.admission;
+package com.surya.kubernetes.admission;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-import com.baeldung.kubernetes.admission.config.AdmissionControllerProperties;
+import com.surya.kubernetes.admission.config.AdmissionControllerProperties;
 
 @SpringBootApplication
 @EnableConfigurationProperties(AdmissionControllerProperties.class)

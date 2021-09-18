@@ -1,4 +1,4 @@
-package com.baeldung.jackson.unknownproperties;
+package com.surya.jackson.unknownproperties;
 
 public class MyDto {
 

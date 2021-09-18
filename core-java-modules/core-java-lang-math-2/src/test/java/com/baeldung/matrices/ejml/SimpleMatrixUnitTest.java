@@ -1,4 +1,4 @@
-package com.baeldung.matrices.ejml;
+package com.surya.matrices.ejml;
 
 import org.ejml.simple.SimpleMatrix;
 import org.junit.jupiter.api.Test;

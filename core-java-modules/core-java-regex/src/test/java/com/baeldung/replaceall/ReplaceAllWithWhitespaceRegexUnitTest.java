@@ -1,4 +1,4 @@
-package com.baeldung.replaceall;
+package com.surya.replaceall;
 
 import org.junit.Test;
 

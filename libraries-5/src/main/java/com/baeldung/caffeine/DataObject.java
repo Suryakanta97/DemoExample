@@ -1,4 +1,4 @@
-package com.baeldung.caffeine;
+package com.surya.caffeine;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.baeldung.reducingIfElse;
+package com.surya.reducingIfElse;
 
 import java.util.ArrayList;
 import java.util.List;

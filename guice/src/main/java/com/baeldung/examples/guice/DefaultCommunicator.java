@@ -1,13 +1,13 @@
 
-package com.baeldung.examples.guice;
+package com.surya.examples.guice;
 
-import com.baeldung.examples.guice.marker.Communicator;
+import com.surya.examples.guice.marker.Communicator;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
 /**
  *
- * @author baeldung
+ * @author surya
  */
 public class DefaultCommunicator implements Communicator {
 

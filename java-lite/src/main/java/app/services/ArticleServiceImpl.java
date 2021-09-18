@@ -13,16 +13,16 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     public Article search(String keyword) {
-        Article ar = new Article("Article with " + keyword, "baeldung", "1250", Instant.now()
+        Article ar = new Article("Article with " + keyword, "surya", "1250", Instant.now()
             .toString());
         return ar;
     }
 
     private List<Article> fetchArticles() {
-        Article ar1 = new Article("Introduction to ActiveWeb", "baeldung", "1650", Instant.now()
+        Article ar1 = new Article("Introduction to ActiveWeb", "surya", "1650", Instant.now()
             .toString());
 
-        Article ar = new Article("Introduction to Mule", "baeldung", "1650", Instant.now()
+        Article ar = new Article("Introduction to Mule", "surya", "1650", Instant.now()
             .toString());
         List<Article> articles = new ArrayList<Article>();
         articles.add(ar);

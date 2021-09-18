@@ -1,14 +1,14 @@
-package com.baeldung.patterns.cqrs.projections;
+package com.surya.patterns.cqrs.projections;
 
 import java.util.Set;
 
-import com.baeldung.patterns.cqrs.queries.AddressByRegionQuery;
-import com.baeldung.patterns.cqrs.queries.ContactByTypeQuery;
-import com.baeldung.patterns.cqrs.repository.UserReadRepository;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.UserAddress;
-import com.baeldung.patterns.domain.UserContact;
+import com.surya.patterns.cqrs.queries.AddressByRegionQuery;
+import com.surya.patterns.cqrs.queries.ContactByTypeQuery;
+import com.surya.patterns.cqrs.repository.UserReadRepository;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.UserAddress;
+import com.surya.patterns.domain.UserContact;
 
 public class UserProjection {
 

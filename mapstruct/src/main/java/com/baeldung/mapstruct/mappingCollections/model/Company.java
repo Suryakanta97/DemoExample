@@ -1,4 +1,4 @@
-package com.baeldung.mapstruct.mappingCollections.model;
+package com.surya.mapstruct.mappingCollections.model;
 
 import java.util.List;
 

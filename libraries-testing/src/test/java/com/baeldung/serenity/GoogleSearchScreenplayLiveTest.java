@@ -1,8 +1,8 @@
-package com.baeldung.serenity;
+package com.surya.serenity;
 
-import com.baeldung.serenity.screenplay.GoogleSearchResults;
-import com.baeldung.serenity.screenplay.SearchForKeyword;
-import com.baeldung.serenity.screenplay.StartWith;
+import com.surya.serenity.screenplay.GoogleSearchResults;
+import com.surya.serenity.screenplay.SearchForKeyword;
+import com.surya.serenity.screenplay.StartWith;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -33,12 +33,12 @@ public class GoogleSearchScreenplayLiveTest {
     }
 
     @Test
-    public void whenGoogleBaeldungThenShouldSeeEugen() {
+    public void whenGooglesuryaThenShouldSeeEugen() {
         givenThat(kitty).wasAbleTo(StartWith.googleSearchPage());
 
-        when(kitty).attemptsTo(SearchForKeyword.of("baeldung"));
+        when(kitty).attemptsTo(SearchForKeyword.of("surya"));
 
-        then(kitty).should(seeThat(GoogleSearchResults.displayed(), hasItem(containsString("Eugen (Baeldung)"))));
+        then(kitty).should(seeThat(GoogleSearchResults.displayed(), hasItem(containsString("Eugen (surya)"))));
     }
 
 }

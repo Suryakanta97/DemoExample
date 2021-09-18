@@ -1,4 +1,4 @@
-package com.baeldung.disruptor;
+package com.surya.disruptor;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

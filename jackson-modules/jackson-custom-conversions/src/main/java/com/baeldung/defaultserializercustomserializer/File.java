@@ -1,4 +1,4 @@
-package com.baeldung.defaultserializercustomserializer;
+package com.surya.defaultserializercustomserializer;
 
 public class File {
 

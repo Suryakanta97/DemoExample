@@ -1,4 +1,4 @@
-package com.baeldung.database;
+package com.surya.database;
 public class DataConnection {
 
     public static String temp(){

@@ -1,4 +1,4 @@
-package com.baeldung.guava.ratelimiter;
+package com.surya.guava.ratelimiter;
 
 
 import com.google.common.util.concurrent.RateLimiter;

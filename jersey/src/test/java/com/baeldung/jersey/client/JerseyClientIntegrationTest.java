@@ -1,4 +1,4 @@
-package com.baeldung.jersey.client;
+package com.surya.jersey.client;
 
 import javax.ws.rs.core.Response;
 

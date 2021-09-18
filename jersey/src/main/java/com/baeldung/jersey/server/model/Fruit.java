@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.model;
+package com.surya.jersey.server.model;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;

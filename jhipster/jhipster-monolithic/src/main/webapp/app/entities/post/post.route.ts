@@ -18,14 +18,14 @@ export const postRoute: Routes = [
     component: PostComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.post.home.title'
+        pageTitle: 'suryaApp.post.home.title'
     }
   }, {
     path: 'post/:id',
     component: PostDetailComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.post.home.title'
+        pageTitle: 'suryaApp.post.home.title'
     }
   }
 ];
@@ -36,7 +36,7 @@ export const postPopupRoute: Routes = [
     component: PostPopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.post.home.title'
+        pageTitle: 'suryaApp.post.home.title'
     },
     outlet: 'popup'
   },
@@ -45,7 +45,7 @@ export const postPopupRoute: Routes = [
     component: PostPopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.post.home.title'
+        pageTitle: 'suryaApp.post.home.title'
     },
     outlet: 'popup'
   },
@@ -54,7 +54,7 @@ export const postPopupRoute: Routes = [
     component: PostDeletePopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.post.home.title'
+        pageTitle: 'suryaApp.post.home.title'
     },
     outlet: 'popup'
   }

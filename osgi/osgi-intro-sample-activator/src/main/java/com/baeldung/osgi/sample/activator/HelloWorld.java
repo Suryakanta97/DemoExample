@@ -1,4 +1,4 @@
-package com.baeldung.osgi.sample.activator;
+package com.surya.osgi.sample.activator;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;

@@ -4,4 +4,4 @@ This module contains articles about LinkRest.
 
 ### Relevant articles:
 
-- [Guide to LinkRest](https://www.baeldung.com/linkrest)
+- [Guide to LinkRest](https://www.surya.com/linkrest)

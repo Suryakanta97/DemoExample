@@ -1,4 +1,4 @@
-package com.baeldung.vehicle;
+package com.surya.vehicle;
 
 public class Car {
 

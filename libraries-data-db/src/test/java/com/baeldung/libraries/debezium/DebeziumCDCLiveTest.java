@@ -1,6 +1,6 @@
-package com.baeldung.libraries.debezium;
+package com.surya.libraries.debezium;
 
-import com.baeldung.libraries.debezium.repository.CustomerRepository;
+import com.surya.libraries.debezium.repository.CustomerRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

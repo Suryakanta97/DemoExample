@@ -1,4 +1,4 @@
-package com.baeldung.probability;
+package com.surya.probability;
 
 import org.assertj.core.data.Offset;
 import org.junit.Test;

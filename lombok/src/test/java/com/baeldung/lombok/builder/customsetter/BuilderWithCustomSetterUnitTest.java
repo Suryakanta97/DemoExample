@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder.customsetter;
+package com.surya.lombok.builder.customsetter;
 
 import java.io.File;
 

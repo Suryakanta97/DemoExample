@@ -1,4 +1,4 @@
-package com.baeldung.stream.sum;
+package com.surya.stream.sum;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

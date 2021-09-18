@@ -1,4 +1,4 @@
-package com.baeldung.commons.lang3;
+package com.surya.commons.lang3;
 
 public class SampleObject {
 

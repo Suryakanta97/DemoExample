@@ -1,10 +1,10 @@
-package com.baeldung.gson.deserialization;
+package com.surya.gson.deserialization;
 
 import java.text.ParseException;
 
-import com.baeldung.gson.entities.Movie;
-import com.baeldung.gson.serialization.ActorGsonDeserializer;
-import com.baeldung.gson.entities.ActorGson;
+import com.surya.gson.entities.Movie;
+import com.surya.gson.serialization.ActorGsonDeserializer;
+import com.surya.gson.entities.ActorGson;
 import org.junit.Assert;
 import org.junit.Test;
 

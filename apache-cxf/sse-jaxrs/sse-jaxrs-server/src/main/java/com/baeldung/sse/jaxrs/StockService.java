@@ -1,4 +1,4 @@
-package com.baeldung.sse.jaxrs;
+package com.surya.sse.jaxrs;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.Initialized;

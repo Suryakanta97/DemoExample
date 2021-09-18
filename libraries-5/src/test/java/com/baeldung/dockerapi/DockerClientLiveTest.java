@@ -1,4 +1,4 @@
-package com.baeldung.dockerapi;
+package com.surya.dockerapi;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.core.DefaultDockerClientConfig;

@@ -1,4 +1,4 @@
-package com.baeldung.creational.abstractfactory;
+package com.surya.creational.abstractfactory;
 
 import static org.junit.Assert.*;
 

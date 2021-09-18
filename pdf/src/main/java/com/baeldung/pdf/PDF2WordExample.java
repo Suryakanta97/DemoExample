@@ -1,4 +1,4 @@
-package com.baeldung.pdf;
+package com.surya.pdf;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

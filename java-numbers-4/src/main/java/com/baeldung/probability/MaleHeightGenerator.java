@@ -1,4 +1,4 @@
-package com.baeldung.probability;
+package com.surya.probability;
 
 import org.apache.commons.math3.distribution.NormalDistribution;
 

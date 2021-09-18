@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.joincolumn;
+package com.surya.hibernate.joincolumn;
 
 import java.util.List;
 import javax.persistence.Entity;

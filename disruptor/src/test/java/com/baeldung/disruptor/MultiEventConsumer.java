@@ -1,4 +1,4 @@
-package com.baeldung.disruptor;
+package com.surya.disruptor;
 
 import static org.junit.Assert.assertEquals;
 

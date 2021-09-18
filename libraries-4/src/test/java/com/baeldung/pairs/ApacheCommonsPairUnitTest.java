@@ -1,4 +1,4 @@
-package com.baeldung.pairs;
+package com.surya.pairs;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.MutablePair;

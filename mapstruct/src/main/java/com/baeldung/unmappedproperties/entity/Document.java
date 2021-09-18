@@ -1,4 +1,4 @@
-package com.baeldung.unmappedproperties.entity;
+package com.surya.unmappedproperties.entity;
 
 import java.util.Date;
 

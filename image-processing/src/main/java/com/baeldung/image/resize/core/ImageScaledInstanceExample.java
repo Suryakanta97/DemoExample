@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.core;
+package com.surya.image.resize.core;
 
 import java.awt.Image;
 import java.awt.image.BufferedImage;

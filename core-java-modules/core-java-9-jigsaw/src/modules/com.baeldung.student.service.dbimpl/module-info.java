@@ -1,5 +1,5 @@
-module com.baeldung.student.service.dbimpl{
-    requires transitive com.baeldung.student.service;
-    exports com.baeldung.student.service.dbimpl;
+module com.surya.student.service.dbimpl{
+    requires transitive com.surya.student.service;
+    exports com.surya.student.service.dbimpl;
     requires java.logging;
 }

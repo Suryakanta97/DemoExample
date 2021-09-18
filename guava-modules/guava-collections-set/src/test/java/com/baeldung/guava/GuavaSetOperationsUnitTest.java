@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
 import com.google.common.base.Function;
 import com.google.common.base.Joiner;

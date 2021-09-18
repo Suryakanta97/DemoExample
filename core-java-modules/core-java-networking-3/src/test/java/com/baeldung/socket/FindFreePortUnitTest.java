@@ -1,4 +1,4 @@
-package com.baeldung.socket;
+package com.surya.socket;
 
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;

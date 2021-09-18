@@ -1,4 +1,4 @@
-package com.baeldung.springmustache.model;
+package com.surya.springmustache.model;
 
 public class Article {
     private String title;

@@ -1,4 +1,4 @@
-<%@ page import="com.baeldung.patterns.intercepting.filter.data.Order" %>
+<%@ page import="com.surya.patterns.intercepting.filter.data.Order" %>
 <% if (session != null && session.getAttribute("order") != null) { %>
     <% Order order = ((Order) session.getAttribute("order")); %>
     <% if (order != null && order.getItems().size() > 0) { %>

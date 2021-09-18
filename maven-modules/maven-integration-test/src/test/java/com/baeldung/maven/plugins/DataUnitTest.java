@@ -1,10 +1,10 @@
-package com.baeldung.maven.plugins;
+package com.surya.maven.plugins;
 
 import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import com.baeldung.maven.plugins.Data;
+import com.surya.maven.plugins.Data;
 
 public class DataUnitTest {
     @Test

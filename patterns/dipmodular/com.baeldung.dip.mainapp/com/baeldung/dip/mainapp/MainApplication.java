@@ -1,8 +1,8 @@
-package com.baeldung.dip.mainapp;
+package com.surya.dip.mainapp;
 
-import com.baeldung.dip.daoimplementations.MapCustomerDao;
-import com.baeldung.dip.entities.Customer;
-import com.baeldung.dip.services.CustomerService;
+import com.surya.dip.daoimplementations.MapCustomerDao;
+import com.surya.dip.entities.Customer;
+import com.surya.dip.services.CustomerService;
 import java.util.HashMap;
 
 public class MainApplication {

@@ -1,4 +1,4 @@
-package com.baeldung.core.packages.domain;
+package com.surya.core.packages.domain;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package com.baeldung.loops;
+package com.surya.loops;
 
 import java.util.ArrayList;
 import java.util.HashMap;

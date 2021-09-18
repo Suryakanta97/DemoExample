@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.timeout;
+package com.surya.okhttp.timeout;
 
 import okhttp3.*;
 import org.junit.Test;

@@ -1,13 +1,13 @@
-package com.baeldung.keyword;
+package com.surya.keyword;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.keyword.Circle;
-import com.baeldung.keyword.Ring;
-import com.baeldung.keyword.Round;
-import com.baeldung.keyword.Shape;
-import com.baeldung.keyword.Triangle;
+import com.surya.keyword.Circle;
+import com.surya.keyword.Ring;
+import com.surya.keyword.Round;
+import com.surya.keyword.Shape;
+import com.surya.keyword.Triangle;
 
 public class InstanceOfUnitTest {
 

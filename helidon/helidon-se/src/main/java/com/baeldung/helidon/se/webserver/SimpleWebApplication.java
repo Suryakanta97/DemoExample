@@ -1,4 +1,4 @@
-package com.baeldung.helidon.se.webserver;
+package com.surya.helidon.se.webserver;
 
 import io.helidon.webserver.Routing;
 import io.helidon.webserver.ServerConfiguration;

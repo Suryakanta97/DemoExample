@@ -1,4 +1,4 @@
-package com.baeldung.deserialization.vulnerabilities;
+package com.surya.deserialization.vulnerabilities;
 
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;

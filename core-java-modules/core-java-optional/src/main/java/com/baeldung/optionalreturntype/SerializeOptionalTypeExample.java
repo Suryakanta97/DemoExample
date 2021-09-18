@@ -1,4 +1,4 @@
-package com.baeldung.optionalreturntype;
+package com.surya.optionalreturntype;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -9,13 +9,13 @@ public class SerializeOptionalTypeExample {
     public static void main(String[] args) {
         User user1 = new User();
         user1.setUserId(1l);
-        user1.setFirstName("baeldung");
+        user1.setFirstName("surya");
 
         serializeObject(user1, "user1.ser");
 
         UserOptionalField user2 = new UserOptionalField();
         user2.setUserId(1l);
-        user2.setFirstName(Optional.of("baeldung"));
+        user2.setFirstName(Optional.of("surya"));
 
         serializeObject(user2, "user2.ser");
 

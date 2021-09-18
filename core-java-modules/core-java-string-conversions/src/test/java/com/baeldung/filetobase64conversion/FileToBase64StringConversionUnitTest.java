@@ -1,4 +1,4 @@
-package com.baeldung.filetobase64conversion;
+package com.surya.filetobase64conversion;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;

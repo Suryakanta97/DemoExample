@@ -1,4 +1,4 @@
-package com.baeldung.jsonld.serialization.hydrajsonld;
+package com.surya.jsonld.serialization.hydrajsonld;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -7,7 +7,7 @@
     <name>maven-enforcer</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>maven-plugins</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -20,7 +20,7 @@
                 <version>3.0.0-M2</version>
                 <!--<dependencies> -->
                 <!--<dependency> -->
-                <!--<groupId>com.baeldung</groupId> -->
+                <!--<groupId>com.surya</groupId> -->
                 <!--<artifactId>custom-rule</artifactId> -->
                 <!--<version>1.0</version> -->
                 <!--</dependency> -->
@@ -55,7 +55,7 @@
                                     <level>WARN</level>
                                 </requireActiveProfile>
                                 <!--other rules -->
-                                <!--<myCustomRule implementation="com.baeldung.enforcer.MyCustomRule"/> -->
+                                <!--<myCustomRule implementation="com.surya.enforcer.MyCustomRule"/> -->
                             </rules>
                         </configuration>
                     </execution>

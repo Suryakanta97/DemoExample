@@ -1,8 +1,8 @@
-package com.baeldung.iterationcounter;
+package com.surya.iterationcounter;
 
 import org.junit.Test;
 
-import static com.baeldung.iterationcounter.IterationCounter.*;
+import static com.surya.iterationcounter.IterationCounter.*;
 import static org.assertj.core.api.Assertions.*;
 
 public class IterationCounterUnitTest {

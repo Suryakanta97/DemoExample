@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.security.oauth2;
+package com.surya.jhipster.gateway.security.oauth2;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package com.baeldung.scanner;
+package com.surya.scanner;
 
 import lombok.extern.log4j.Log4j;
 import org.apache.log4j.LogManager;

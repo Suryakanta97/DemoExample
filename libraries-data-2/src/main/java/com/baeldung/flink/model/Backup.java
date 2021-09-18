@@ -1,4 +1,4 @@
-package com.baeldung.flink.model;
+package com.surya.flink.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

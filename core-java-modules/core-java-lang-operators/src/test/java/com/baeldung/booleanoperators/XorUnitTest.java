@@ -1,4 +1,4 @@
-package com.baeldung.booleanoperators;
+package com.surya.booleanoperators;
 
 import org.junit.jupiter.api.Test;
 

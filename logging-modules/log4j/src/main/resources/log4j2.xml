@@ -8,7 +8,7 @@
         </Console>
 
         # File appender
-        <File name="fout" fileName="log4j/target/baeldung-log4j2.log"
+        <File name="fout" fileName="log4j/target/surya-log4j2.log"
             immediateFlush="false" append="false">
             # Pattern of log message for file appender
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
@@ -63,9 +63,9 @@
 
     <Loggers>
         # Override log level for specified package
-        <Logger name="com.baeldung.log4j2" level="TRACE"/>
+        <Logger name="com.surya.log4j2" level="TRACE"/>
 
-        <Logger name="com.baeldung.log4j2.Log4j2RollingExample"
+        <Logger name="com.surya.log4j2.Log4j2RollingExample"
             level="TRACE">
             <AppenderRef ref="roll-by-size"/>
             <AppenderRef ref="roll-by-time"/>

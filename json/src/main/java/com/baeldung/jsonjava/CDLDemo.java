@@ -1,4 +1,4 @@
-package com.baeldung.jsonjava;
+package com.surya.jsonjava;
 
 import org.json.CDL;
 import org.json.JSONArray;

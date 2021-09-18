@@ -1,4 +1,4 @@
-package com.baeldung.domain;
+package com.surya.domain;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;

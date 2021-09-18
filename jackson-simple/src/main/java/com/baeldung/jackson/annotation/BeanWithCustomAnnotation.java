@@ -1,10 +1,10 @@
-package com.baeldung.jackson.annotation;
+package com.surya.jackson.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.Date;
 
-import com.baeldung.jackson.annotation.BeanWithCustomAnnotation.CustomAnnotation;
+import com.surya.jackson.annotation.BeanWithCustomAnnotation.CustomAnnotation;
 
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.annotation.JsonInclude;

@@ -1,4 +1,4 @@
-package com.baeldung.reflection.exception.invocationtarget;
+package com.surya.reflection.exception.invocationtarget;
 
 public class InvocationTargetExample {
     public int divideByZeroExample() {

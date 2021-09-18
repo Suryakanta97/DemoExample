@@ -1,8 +1,8 @@
-package com.baeldung.jcommander.usagebilling.service;
+package com.surya.jcommander.usagebilling.service;
 
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesRequest;
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesResponse;
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesResponse.LineItem;
+import com.surya.jcommander.usagebilling.model.CurrentChargesRequest;
+import com.surya.jcommander.usagebilling.model.CurrentChargesResponse;
+import com.surya.jcommander.usagebilling.model.CurrentChargesResponse.LineItem;
 
 import java.math.BigDecimal;
 import java.util.List;

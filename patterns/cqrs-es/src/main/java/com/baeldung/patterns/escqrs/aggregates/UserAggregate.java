@@ -1,23 +1,23 @@
-package com.baeldung.patterns.escqrs.aggregates;
+package com.surya.patterns.escqrs.aggregates;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.baeldung.patterns.cqrs.commands.CreateUserCommand;
-import com.baeldung.patterns.cqrs.commands.UpdateUserCommand;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.User;
-import com.baeldung.patterns.es.events.Event;
-import com.baeldung.patterns.es.events.UserAddressAddedEvent;
-import com.baeldung.patterns.es.events.UserAddressRemovedEvent;
-import com.baeldung.patterns.es.events.UserContactAddedEvent;
-import com.baeldung.patterns.es.events.UserContactRemovedEvent;
-import com.baeldung.patterns.es.events.UserCreatedEvent;
-import com.baeldung.patterns.es.repository.EventStore;
-import com.baeldung.patterns.es.service.UserUtility;
+import com.surya.patterns.cqrs.commands.CreateUserCommand;
+import com.surya.patterns.cqrs.commands.UpdateUserCommand;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.User;
+import com.surya.patterns.es.events.Event;
+import com.surya.patterns.es.events.UserAddressAddedEvent;
+import com.surya.patterns.es.events.UserAddressRemovedEvent;
+import com.surya.patterns.es.events.UserContactAddedEvent;
+import com.surya.patterns.es.events.UserContactRemovedEvent;
+import com.surya.patterns.es.events.UserCreatedEvent;
+import com.surya.patterns.es.repository.EventStore;
+import com.surya.patterns.es.service.UserUtility;
 
 public class UserAggregate {
 

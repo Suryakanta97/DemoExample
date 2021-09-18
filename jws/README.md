@@ -4,4 +4,4 @@ This module contains articles about Java Web Start.
 
 ### Relevant articles
 
-- [A Guide to the Java Web Start](https://www.baeldung.com/java-web-start)
+- [A Guide to the Java Web Start](https://www.surya.com/java-web-start)

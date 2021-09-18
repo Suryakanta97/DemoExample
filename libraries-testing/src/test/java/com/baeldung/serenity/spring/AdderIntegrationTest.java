@@ -1,4 +1,4 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import net.serenitybdd.jbehave.SerenityStory;

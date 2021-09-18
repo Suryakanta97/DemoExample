@@ -1,4 +1,4 @@
-package com.baeldung.hibernate;
+package com.surya.hibernate;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.service.ServiceRegistry;
 
-import com.baeldung.hibernate.joincolumn.Email;
-import com.baeldung.hibernate.joincolumn.Office;
-import com.baeldung.hibernate.joincolumn.OfficeAddress;
+import com.surya.hibernate.joincolumn.Email;
+import com.surya.hibernate.joincolumn.Office;
+import com.surya.hibernate.joincolumn.OfficeAddress;
 
 public class HibernateUtil {
     private static String PROPERTY_FILE_NAME;
@@ -37,8 +37,8 @@ public class HibernateUtil {
     private static SessionFactory makeSessionFactory(ServiceRegistry serviceRegistry) {
         MetadataSources metadataSources = new MetadataSources(serviceRegistry);
 
-        metadataSources.addPackage("com.baeldung.hibernate.pojo");
-        metadataSources.addAnnotatedClass(com.baeldung.hibernate.joincolumn.OfficialEmployee.class);
+        metadataSources.addPackage("com.surya.hibernate.pojo");
+        metadataSources.addAnnotatedClass(com.surya.hibernate.joincolumn.OfficialEmployee.class);
         metadataSources.addAnnotatedClass(Email.class);
         metadataSources.addAnnotatedClass(Office.class);
         metadataSources.addAnnotatedClass(OfficeAddress.class);

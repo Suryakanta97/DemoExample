@@ -1,1 +1,1 @@
-java --module-path mods -m com.baeldung.httpclient/com.baeldung.httpclient.HttpClientExample
+java --module-path mods -m com.surya.httpclient/com.surya.httpclient.HttpClientExample

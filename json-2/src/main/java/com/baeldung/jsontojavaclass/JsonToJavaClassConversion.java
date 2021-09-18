@@ -1,4 +1,4 @@
-package com.baeldung.jsontojavaclass;
+package com.surya.jsontojavaclass;
 
 import java.io.File;
 import java.io.IOException;

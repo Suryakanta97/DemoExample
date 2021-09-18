@@ -1,8 +1,8 @@
-package com.baeldung.drools.rules
+package com.surya.drools.rules
 
-import com.baeldung.drools.model.Fact;
+import com.surya.drools.model.Fact;
 
-global com.baeldung.drools.model.Result result;
+global com.surya.drools.model.Result result;
 
 dialect  "mvel"
 

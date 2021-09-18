@@ -1,4 +1,4 @@
-package com.baeldung.matrices.nd4j;
+package com.surya.matrices.nd4j;
 
 import org.junit.jupiter.api.Test;
 import org.nd4j.linalg.api.ndarray.INDArray;

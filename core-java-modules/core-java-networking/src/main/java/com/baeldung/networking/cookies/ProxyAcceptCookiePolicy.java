@@ -1,4 +1,4 @@
-package com.baeldung.networking.cookies;
+package com.surya.networking.cookies;
 
 import java.net.*;
 

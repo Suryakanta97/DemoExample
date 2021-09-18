@@ -1,4 +1,4 @@
-package com.baeldung.constantspatterns;
+package com.surya.constantspatterns;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

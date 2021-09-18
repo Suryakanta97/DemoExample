@@ -1,4 +1,4 @@
-package com.baeldung.download;
+package com.surya.download;
 
 import org.junit.After;
 import org.junit.BeforeClass;
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FileDownloadIntegrationTest {
     
-    static String FILE_URL = "https://s3.amazonaws.com/baeldung.com/Do+JSON+with+Jackson+by+Baeldung.pdf";
+    static String FILE_URL = "https://s3.amazonaws.com/surya.com/Do+JSON+with+Jackson+by+surya.pdf";
     static String FILE_NAME = "file.dat";
     static String FILE_MD5_HASH = "c959feb066b37f5c4f0e0f45bbbb4f86";
     

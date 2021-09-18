@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;

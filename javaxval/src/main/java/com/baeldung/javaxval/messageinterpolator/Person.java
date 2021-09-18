@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.messageinterpolator;
+package com.surya.javaxval.messageinterpolator;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;

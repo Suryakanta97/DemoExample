@@ -1,4 +1,4 @@
-package com.baeldung.kafka.consumer;
+package com.surya.kafka.consumer;
 
 class CountryPopulation {
 

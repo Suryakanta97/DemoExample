@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.security;
+package com.surya.jhipster.quotes.security;
 
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.mock.web.MockHttpServletRequest;

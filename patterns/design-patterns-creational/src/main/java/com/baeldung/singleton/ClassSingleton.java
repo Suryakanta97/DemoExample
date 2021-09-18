@@ -1,4 +1,4 @@
-package com.baeldung.singleton;
+package com.surya.singleton;
 
 public class ClassSingleton {
 

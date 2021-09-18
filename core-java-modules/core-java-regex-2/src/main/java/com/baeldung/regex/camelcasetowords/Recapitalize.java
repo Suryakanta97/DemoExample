@@ -1,4 +1,4 @@
-package com.baeldung.regex.camelcasetowords;
+package com.surya.regex.camelcasetowords;
 
 import java.util.ArrayList;
 import java.util.List;

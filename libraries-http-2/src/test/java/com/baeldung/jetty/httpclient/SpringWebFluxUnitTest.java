@@ -1,4 +1,4 @@
-package com.baeldung.jetty.httpclient;
+package com.surya.jetty.httpclient;
 
 import org.eclipse.jetty.client.HttpClient;
 import static org.junit.jupiter.api.Assertions.*;

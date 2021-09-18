@@ -1,4 +1,4 @@
-package com.baeldung.passwordhashing;
+package com.surya.passwordhashing;
 
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;

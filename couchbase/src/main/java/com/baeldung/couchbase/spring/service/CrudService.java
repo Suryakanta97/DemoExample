@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.service;
+package com.surya.couchbase.spring.service;
 
 public interface CrudService<T> {
 

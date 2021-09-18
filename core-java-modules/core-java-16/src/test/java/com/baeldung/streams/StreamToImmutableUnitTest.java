@@ -1,4 +1,4 @@
-package com.baeldung.streams;
+package com.surya.streams;
 
 import java.util.List;
 import java.util.stream.Stream;

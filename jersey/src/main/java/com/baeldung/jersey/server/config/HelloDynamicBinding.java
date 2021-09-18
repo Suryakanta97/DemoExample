@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.config;
+package com.surya.jersey.server.config;
 
 import javax.ws.rs.container.DynamicFeature;
 import javax.ws.rs.container.ResourceInfo;
@@ -8,8 +8,8 @@ import javax.ws.rs.ext.Provider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.jersey.server.Greetings;
-import com.baeldung.jersey.server.filter.ResponseServerFilter;
+import com.surya.jersey.server.Greetings;
+import com.surya.jersey.server.filter.ResponseServerFilter;
 
 @Provider
 public class HelloDynamicBinding implements DynamicFeature {

@@ -1,4 +1,4 @@
-package com.baeldung.basicsyntax;
+package com.surya.basicsyntax;
 
 public class SimpleAddition {
 

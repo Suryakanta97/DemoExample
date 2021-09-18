@@ -1,4 +1,4 @@
-package com.baeldung.lombok.getter;
+package com.surya.lombok.getter;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package com.baeldung.stringtobytearray;
+package com.surya.stringtobytearray;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

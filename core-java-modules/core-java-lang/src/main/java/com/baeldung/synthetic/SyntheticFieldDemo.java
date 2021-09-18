@@ -1,4 +1,4 @@
-package com.baeldung.synthetic;
+package com.surya.synthetic;
 
 /**
  * Wrapper for a class which contains a synthetic field reference to the outer

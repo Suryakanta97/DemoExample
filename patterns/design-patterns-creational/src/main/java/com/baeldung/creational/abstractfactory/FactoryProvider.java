@@ -1,4 +1,4 @@
-package com.baeldung.creational.abstractfactory;
+package com.surya.creational.abstractfactory;
 
 public class FactoryProvider {
     public static AbstractFactory getFactory(String choice){

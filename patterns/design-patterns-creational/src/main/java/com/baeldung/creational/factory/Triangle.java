@@ -1,4 +1,4 @@
-package com.baeldung.creational.factory;
+package com.surya.creational.factory;
 
 public class Triangle implements Polygon {
 

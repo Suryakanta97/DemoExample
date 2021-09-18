@@ -3,7 +3,7 @@
   the configuration factory, as described in Section 3 of 
   "Programmatic Configuration with Log4j 2"
 **/
-package com.baeldung.logging.log4j2.simpleconfiguration;
+package com.surya.logging.log4j2.simpleconfiguration;
 
 import java.io.IOException;
 import java.net.URI;

@@ -1,4 +1,4 @@
-package com.baeldung.mapdb;
+package com.surya.mapdb;
 
 import org.junit.Test;
 import org.mapdb.DB;
@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentMap;
 
 import static junit.framework.Assert.assertEquals;
 
-public class HelloBaeldungUnitTest {
+public class HellosuryaUnitTest {
 
     @Test
     public void givenInMemoryDBInstantiateCorrectly_whenDataSavedAndRetrieved_checkRetrievalCorrect() {
@@ -17,7 +17,7 @@ public class HelloBaeldungUnitTest {
         DB db = DBMaker.memoryDB().make();
 
         String welcomeMessageKey = "Welcome Message";
-        String welcomeMessageString = "Hello Baeldung!";
+        String welcomeMessageString = "Hello surya!";
 
         HTreeMap myMap = db.hashMap("myMap").createOrOpen();
         myMap.put(welcomeMessageKey, welcomeMessageString);
@@ -35,7 +35,7 @@ public class HelloBaeldungUnitTest {
         DB db = DBMaker.fileDB("file.db").make();
 
         String welcomeMessageKey = "Welcome Message";
-        String welcomeMessageString = "Hello Baeldung!";
+        String welcomeMessageString = "Hello surya!";
 
         HTreeMap myMap = db.hashMap("myMap").createOrOpen();
         myMap.put(welcomeMessageKey, welcomeMessageString);

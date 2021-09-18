@@ -1,4 +1,4 @@
-package com.baeldung.libraries.opencsv.beans;
+package com.surya.libraries.opencsv.beans;
 
 import com.opencsv.bean.CsvBindByName;
 

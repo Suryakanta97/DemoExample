@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.largestpowerof2;
+package com.surya.algorithms.largestpowerof2;
 
 import org.nd4j.linalg.io.Assert;
 

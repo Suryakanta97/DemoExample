@@ -1,7 +1,7 @@
-package com.baeldung.drools.service;
+package com.surya.drools.service;
 
-import com.baeldung.drools.model.Applicant;
-import com.baeldung.drools.model.SuggestedRole;
+import com.surya.drools.model.Applicant;
+import com.surya.drools.model.SuggestedRole;
 import org.junit.Before;
 import org.junit.Test;
 

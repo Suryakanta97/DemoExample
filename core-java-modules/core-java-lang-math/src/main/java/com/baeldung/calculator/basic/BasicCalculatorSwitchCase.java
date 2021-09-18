@@ -1,4 +1,4 @@
-package com.baeldung.calculator.basic;
+package com.surya.calculator.basic;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

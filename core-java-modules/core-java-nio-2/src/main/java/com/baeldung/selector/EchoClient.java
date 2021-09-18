@@ -1,4 +1,4 @@
-package com.baeldung.selector;
+package com.surya.selector;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

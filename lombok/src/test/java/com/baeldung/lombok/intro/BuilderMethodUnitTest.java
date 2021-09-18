@@ -1,4 +1,4 @@
-package com.baeldung.lombok.intro;
+package com.surya.lombok.intro;
 
 import org.junit.jupiter.api.Test;
 

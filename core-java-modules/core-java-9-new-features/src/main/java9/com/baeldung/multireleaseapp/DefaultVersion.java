@@ -1,4 +1,4 @@
-package com.baeldung.multireleaseapp;
+package com.surya.multireleaseapp;
 
 public class DefaultVersion implements Version {
 

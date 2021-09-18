@@ -1,4 +1,4 @@
-package com.baeldung.switchExpression;
+package com.surya.switchExpression;
 
 import org.junit.Assert;
 import org.junit.Test;

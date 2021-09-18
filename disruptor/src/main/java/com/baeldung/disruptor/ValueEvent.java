@@ -1,4 +1,4 @@
-package com.baeldung.disruptor;
+package com.surya.disruptor;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

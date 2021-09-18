@@ -1,9 +1,9 @@
-package com.baeldung.guava.memoizer;
+package com.surya.guava.memoizer;
 
 import com.google.common.base.Suppliers;
-import com.baeldung.guava.memoizer.CostlySupplier;
-import com.baeldung.guava.memoizer.Factorial;
-import com.baeldung.guava.memoizer.FibonacciSequence;
+import com.surya.guava.memoizer.CostlySupplier;
+import com.surya.guava.memoizer.Factorial;
+import com.surya.guava.memoizer.FibonacciSequence;
 import org.junit.Test;
 
 import java.math.BigInteger;

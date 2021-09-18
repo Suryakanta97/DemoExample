@@ -1,4 +1,4 @@
-package com.baeldung.dip.entities;
+package com.surya.dip.entities;
 
 public class Customer {
 

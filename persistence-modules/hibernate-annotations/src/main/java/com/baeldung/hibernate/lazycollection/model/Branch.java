@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.lazycollection.model;
+package com.surya.hibernate.lazycollection.model;
 
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;

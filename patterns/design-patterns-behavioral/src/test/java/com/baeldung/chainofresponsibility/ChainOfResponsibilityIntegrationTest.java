@@ -1,4 +1,4 @@
-package com.baeldung.chainofresponsibility;
+package com.surya.chainofresponsibility;
 
 import static org.junit.Assert.assertTrue;
 

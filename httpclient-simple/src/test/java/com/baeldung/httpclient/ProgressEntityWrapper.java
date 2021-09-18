@@ -1,4 +1,4 @@
-package com.baeldung.httpclient;
+package com.surya.httpclient;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

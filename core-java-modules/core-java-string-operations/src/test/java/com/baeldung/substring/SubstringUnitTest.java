@@ -1,4 +1,4 @@
-package com.baeldung.substring;
+package com.surya.substring;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

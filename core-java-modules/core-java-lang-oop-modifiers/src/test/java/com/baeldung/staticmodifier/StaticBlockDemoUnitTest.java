@@ -1,4 +1,4 @@
-package com.baeldung.staticmodifier;
+package com.surya.staticmodifier;
 
 import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
 import static org.junit.Assert.assertThat;

@@ -1,12 +1,12 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 
-import com.baeldung.dto.CustomerDto;
-import com.baeldung.entity.Customer;
+import com.surya.dto.CustomerDto;
+import com.surya.entity.Customer;
 
 public class CustomerDtoMapperUnitTest {
 

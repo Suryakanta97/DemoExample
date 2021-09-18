@@ -1,4 +1,4 @@
-package com.baeldung.logging.slf4j;
+package com.surya.logging.slf4j;
 
 public class Slf4jLoggerFinder extends System.LoggerFinder {
     @Override

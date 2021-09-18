@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
 import com.google.common.base.CharMatcher;
 import org.junit.Test;

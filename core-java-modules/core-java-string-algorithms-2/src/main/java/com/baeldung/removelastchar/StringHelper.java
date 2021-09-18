@@ -1,4 +1,4 @@
-package com.baeldung.removelastchar;
+package com.surya.removelastchar;
 
 import java.util.Optional;
 

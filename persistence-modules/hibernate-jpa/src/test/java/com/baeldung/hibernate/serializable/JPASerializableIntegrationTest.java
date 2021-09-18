@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.serializable;
+package com.surya.hibernate.serializable;
 
 import org.junit.After;
 import org.junit.Before;
@@ -18,7 +18,7 @@ public class JPASerializableIntegrationTest {
 
     @Before
     public void setUp() throws IOException {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.baeldung.hibernate.serializable.h2_persistence_unit");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.surya.hibernate.serializable.h2_persistence_unit");
         entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
     }

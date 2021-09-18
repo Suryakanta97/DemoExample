@@ -1,9 +1,9 @@
-package com.baeldung.service.dto;
+package com.surya.service.dto;
 
-import com.baeldung.config.Constants;
+import com.surya.config.Constants;
 
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
+import com.surya.domain.Authority;
+import com.surya.domain.User;
 
 import org.hibernate.validator.constraints.Email;
 

@@ -1,4 +1,4 @@
-package com.baeldung.kubernetes.admission.service;
+package com.surya.kubernetes.admission.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,8 +12,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-import com.baeldung.kubernetes.admission.config.AdmissionControllerProperties;
-import com.baeldung.kubernetes.admission.dto.AdmissionReviewResponse;
+import com.surya.kubernetes.admission.config.AdmissionControllerProperties;
+import com.surya.kubernetes.admission.dto.AdmissionReviewResponse;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;

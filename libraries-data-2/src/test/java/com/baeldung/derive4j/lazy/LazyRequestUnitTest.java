@@ -1,4 +1,4 @@
-package com.baeldung.derive4j.lazy;
+package com.surya.derive4j.lazy;
 
 import org.junit.Assert;
 import org.junit.Test;

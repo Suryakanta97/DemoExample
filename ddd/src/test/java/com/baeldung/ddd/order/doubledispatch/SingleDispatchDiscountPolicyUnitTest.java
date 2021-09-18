@@ -1,11 +1,11 @@
-package com.baeldung.ddd.order.doubledispatch;
+package com.surya.ddd.order.doubledispatch;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.ddd.order.OrderFixtureUtils;
+import com.surya.ddd.order.OrderFixtureUtils;
 
 public class SingleDispatchDiscountPolicyUnitTest {
     // @formatter:off

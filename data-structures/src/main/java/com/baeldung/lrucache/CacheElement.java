@@ -1,4 +1,4 @@
-package com.baeldung.lrucache;
+package com.surya.lrucache;
 
 /**
  * Created by arash on 09.07.21.

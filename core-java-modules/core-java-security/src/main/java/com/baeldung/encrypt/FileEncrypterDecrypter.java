@@ -1,4 +1,4 @@
-package com.baeldung.encrypt;
+package com.surya.encrypt;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;

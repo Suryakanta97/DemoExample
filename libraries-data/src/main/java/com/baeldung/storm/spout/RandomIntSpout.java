@@ -1,4 +1,4 @@
-package com.baeldung.storm.spout;
+package com.surya.storm.spout;
 
 import org.apache.storm.spout.SpoutOutputCollector;
 import org.apache.storm.task.TopologyContext;

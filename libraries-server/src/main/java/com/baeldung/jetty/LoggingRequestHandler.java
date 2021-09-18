@@ -1,4 +1,4 @@
-package com.baeldung.jetty;
+package com.surya.jetty;
 
 import java.io.IOException;
 

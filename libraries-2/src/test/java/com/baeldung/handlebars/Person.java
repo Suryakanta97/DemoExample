@@ -1,4 +1,4 @@
-package com.baeldung.handlebars;
+package com.surya.handlebars;
 
 import java.util.ArrayList;
 import java.util.List;

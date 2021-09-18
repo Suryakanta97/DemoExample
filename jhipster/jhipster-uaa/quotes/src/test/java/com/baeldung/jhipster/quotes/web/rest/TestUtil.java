@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.web.rest;
+package com.surya.jhipster.quotes.web.rest;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;

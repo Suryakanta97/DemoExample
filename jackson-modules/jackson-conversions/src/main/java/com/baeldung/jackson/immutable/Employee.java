@@ -1,4 +1,4 @@
-package com.baeldung.jackson.immutable;
+package com.surya.jackson.immutable;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

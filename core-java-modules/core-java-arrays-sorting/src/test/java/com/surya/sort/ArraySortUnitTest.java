@@ -36,7 +36,7 @@ public class ArraySortUnitTest {
     }
 
     private void createStringArray() {
-        strings = new String[]{"learning", "java", "with", "baeldung"};
+        strings = new String[]{"learning", "java", "with", "surya"};
     }
 
     @Test
@@ -57,14 +57,14 @@ public class ArraySortUnitTest {
     public void givenStringArray_whenSortingAscending_thenCorrectlySorted() {
         Arrays.sort(strings);
 
-        assertArrayEquals(new String[]{"baeldung", "java", "learning", "with"}, strings);
+        assertArrayEquals(new String[]{"surya", "java", "learning", "with"}, strings);
     }
 
     @Test
     public void givenStringArray_whenSortingDescending_thenCorrectlySorted() {
         Arrays.sort(strings, Comparator.reverseOrder());
 
-        assertArrayEquals(new String[]{"with", "learning", "java", "baeldung"}, strings);
+        assertArrayEquals(new String[]{"with", "learning", "java", "surya"}, strings);
     }
 
     @Test

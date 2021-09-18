@@ -1,4 +1,4 @@
-package com.baeldung.javers;
+package com.surya.javers;
 
 import java.util.List;
 

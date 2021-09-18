@@ -1,7 +1,7 @@
-package com.baeldung.patterns.front.controller.commands;
+package com.surya.patterns.front.controller.commands;
 
-import com.baeldung.patterns.front.controller.data.Book;
-import com.baeldung.patterns.front.controller.data.BookshelfImpl;
+import com.surya.patterns.front.controller.data.Book;
+import com.surya.patterns.front.controller.data.BookshelfImpl;
 
 import javax.servlet.ServletException;
 import java.io.IOException;

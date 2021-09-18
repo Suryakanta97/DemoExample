@@ -1,6 +1,6 @@
-package com.baeldung.enums;
+package com.surya.enums;
 
-import com.baeldung.enums.Pizza.PizzaStatusEnum;
+import com.surya.enums.Pizza.PizzaStatusEnum;
 import org.junit.Test;
 
 import java.util.ArrayList;

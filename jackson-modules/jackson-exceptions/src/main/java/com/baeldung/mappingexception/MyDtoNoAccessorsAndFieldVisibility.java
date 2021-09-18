@@ -1,4 +1,4 @@
-package com.baeldung.mappingexception;
+package com.surya.mappingexception;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;

@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;
 
 import org.junit.Test;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

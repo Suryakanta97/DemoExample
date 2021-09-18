@@ -1,4 +1,4 @@
-package com.baeldung.ignite.spring.dto;
+package com.surya.ignite.spring.dto;
 
 import org.apache.ignite.cache.query.annotations.QuerySqlField;
 

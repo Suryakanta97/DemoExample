@@ -1,4 +1,4 @@
-package com.baeldung.freebuilder.builder;
+package com.surya.freebuilder.builder;
 
 public class Employee {
 

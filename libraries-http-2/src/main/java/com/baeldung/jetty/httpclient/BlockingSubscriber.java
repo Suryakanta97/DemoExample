@@ -1,4 +1,4 @@
-package com.baeldung.jetty.httpclient;
+package com.surya.jetty.httpclient;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;

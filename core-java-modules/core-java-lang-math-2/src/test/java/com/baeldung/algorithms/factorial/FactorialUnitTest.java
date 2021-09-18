@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.factorial;
+package com.surya.algorithms.factorial;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

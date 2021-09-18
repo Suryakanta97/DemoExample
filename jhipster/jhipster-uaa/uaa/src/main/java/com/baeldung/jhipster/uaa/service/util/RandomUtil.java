@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.service.util;
+package com.surya.jhipster.uaa.service.util;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

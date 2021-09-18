@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.web.rest;
+package com.surya.jhipster.gateway.web.rest;
 
-import com.baeldung.jhipster.gateway.web.rest.vm.LoggerVM;
+import com.surya.jhipster.gateway.web.rest.vm.LoggerVM;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.LoggerContext;

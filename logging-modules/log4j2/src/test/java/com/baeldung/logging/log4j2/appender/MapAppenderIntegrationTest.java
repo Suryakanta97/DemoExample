@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2.appender;
+package com.surya.logging.log4j2.appender;
 
 import static org.junit.Assert.assertEquals;
 

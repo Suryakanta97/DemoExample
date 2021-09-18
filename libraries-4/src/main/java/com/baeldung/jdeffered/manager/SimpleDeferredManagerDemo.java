@@ -1,4 +1,4 @@
-package com.baeldung.jdeffered.manager;
+package com.surya.jdeffered.manager;
 
 import org.jdeferred.DeferredManager;
 import org.jdeferred.impl.DefaultDeferredManager;

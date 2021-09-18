@@ -1,4 +1,4 @@
-package com.baeldung.freebuilder;
+package com.surya.freebuilder;
 
 import org.inferred.freebuilder.FreeBuilder;
 

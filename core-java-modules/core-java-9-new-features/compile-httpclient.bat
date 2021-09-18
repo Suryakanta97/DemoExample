@@ -1,3 +1,3 @@
-javac --module-path mods -d mods/com.baeldung.httpclient^
- src/modules/com.baeldung.httpclient/module-info.java^
- src/modules/com.baeldung.httpclient/com/baeldung/httpclient/HttpClientExample.java
+javac --module-path mods -d mods/com.surya.httpclient^
+ src/modules/com.surya.httpclient/module-info.java^
+ src/modules/com.surya.httpclient/com/surya/httpclient/HttpClientExample.java

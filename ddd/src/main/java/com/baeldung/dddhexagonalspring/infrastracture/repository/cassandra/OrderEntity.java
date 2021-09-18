@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.infrastracture.repository.cassandra;
+package com.surya.dddhexagonalspring.infrastracture.repository.cassandra;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.stream.Collectors;
 
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 
-import com.baeldung.dddhexagonalspring.domain.Order;
-import com.baeldung.dddhexagonalspring.domain.OrderItem;
-import com.baeldung.dddhexagonalspring.domain.OrderStatus;
-import com.baeldung.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.Order;
+import com.surya.dddhexagonalspring.domain.OrderItem;
+import com.surya.dddhexagonalspring.domain.OrderStatus;
+import com.surya.dddhexagonalspring.domain.Product;
 
 public class OrderEntity {
 

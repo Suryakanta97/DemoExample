@@ -1,4 +1,4 @@
-package com.baeldung.synthetic;
+package com.surya.synthetic;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

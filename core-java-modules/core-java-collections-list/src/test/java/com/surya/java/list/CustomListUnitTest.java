@@ -42,10 +42,10 @@ public class CustomListUnitTest {
      @Test
      public void givenListWithAnElement_whenGet_thenThatElementIsReturned() {
          List<Object> list = new CustomList<>();
-         list.add("baeldung");
+         list.add("surya");
          Object element = list.get(0);
       
-         assertEquals("baeldung", element);
+         assertEquals("surya", element);
      }
      
      @Test
@@ -59,12 +59,12 @@ public class CustomListUnitTest {
      @Test
      public void givenListWithAnElement_whenAnotherIsAdded_thenGetReturnsBoth() {
          List<Object> list = new CustomList<>();
-         list.add("baeldung");
+         list.add("surya");
          list.add(".com");
          Object element1 = list.get(0);
          Object element2 = list.get(1);
 
-         assertEquals("baeldung", element1);
+         assertEquals("surya", element1);
          assertEquals(".com", element2);
      }
     
@@ -90,21 +90,21 @@ public class CustomListUnitTest {
     @Test(expected = UnsupportedOperationException.class)
     public void whenRemoveAtSpecifiedIndex_thenExceptionIsThrown() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         list.remove(0);
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public void whenRemoveSpecifiedElement_thenExceptionIsThrown() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
-        list.remove("baeldung");
+        list.add("surya");
+        list.remove("surya");
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public void whenRemoveAll_thenExceptionIsThrown() {
         Collection<Object> collection = new ArrayList<>();
-        collection.add("baeldung");
+        collection.add("surya");
         List<Object> list = new CustomList<>();
         list.removeAll(collection);
     }
@@ -112,9 +112,9 @@ public class CustomListUnitTest {
     @Test(expected = UnsupportedOperationException.class)
     public void whenRetainAll_thenExceptionIsThrown() {
         Collection<Object> collection = new ArrayList<>();
-        collection.add("baeldung");
+        collection.add("surya");
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         list.retainAll(collection);
     }
 
@@ -128,17 +128,17 @@ public class CustomListUnitTest {
     @Test
     public void givenListWithAnElement_whenContains_thenTrueIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
 
-        assertTrue(list.contains("baeldung"));
+        assertTrue(list.contains("surya"));
     }
 
     @Test
     public void givenListWithAnElement_whenContainsAll_thenTrueIsReturned() {
         Collection<Object> collection = new ArrayList<>();
-        collection.add("baeldung");
+        collection.add("surya");
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
 
         assertTrue(list.containsAll(collection));
     }
@@ -146,13 +146,13 @@ public class CustomListUnitTest {
     @Test
     public void givenList_whenContainsAll_thenEitherTrueOrFalseIsReturned() {
         Collection<Object> collection1 = new ArrayList<>();
-        collection1.add("baeldung");
+        collection1.add("surya");
         collection1.add(".com");
         Collection<Object> collection2 = new ArrayList<>();
-        collection2.add("baeldung");
+        collection2.add("surya");
 
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
 
         assertFalse(list.containsAll(collection1));
         assertTrue(list.containsAll(collection2));
@@ -161,17 +161,17 @@ public class CustomListUnitTest {
     @Test
     public void givenList_whenSet_thenOldElementIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         Object element = list.set(0, null);
 
-        assertEquals("baeldung", element);
+        assertEquals("surya", element);
         assertNull(list.get(0));
     }
 
     @Test
     public void givenList_whenClear_thenAllElementsAreRemoved() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         list.clear();
 
         assertTrue(list.isEmpty());
@@ -180,15 +180,15 @@ public class CustomListUnitTest {
     @Test
     public void givenList_whenIndexOf_thenIndexZeroIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
 
-        assertEquals(0, list.indexOf("baeldung"));
+        assertEquals(0, list.indexOf("surya"));
     }
 
     @Test
     public void givenList_whenIndexOf_thenPositiveIndexOrMinusOneIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         list.add(".com");
         list.add(".com");
 
@@ -199,35 +199,35 @@ public class CustomListUnitTest {
     @Test
     public void whenLastIndexOf_thenIndexZeroIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
 
-        assertEquals(0, list.lastIndexOf("baeldung"));
+        assertEquals(0, list.lastIndexOf("surya"));
     }
 
     @Test
     public void whenLastIndexOf_thenPositiveIndexOrMinusOneIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
-        list.add("baeldung");
+        list.add("surya");
+        list.add("surya");
         list.add(".com");
 
-        assertEquals(1, list.lastIndexOf("baeldung"));
+        assertEquals(1, list.lastIndexOf("surya"));
         assertEquals(-1, list.indexOf("com"));
     }
 
     @Test
     public void whenSubListZeroToOne_thenListContainingFirstElementIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         List<Object> subList = list.subList(0, 1);
 
-        assertEquals("baeldung", subList.get(0));
+        assertEquals("surya", subList.get(0));
     }
 
     @Test
     public void whenSubListOneToTwo_thenListContainingSecondElementIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         list.add(".");
         list.add("com");
         List<Object> subList = list.subList(1, 2);
@@ -239,57 +239,57 @@ public class CustomListUnitTest {
     @Test
     public void givenListWithElements_whenToArray_thenArrayContainsThose() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         list.add(".com");
         Object[] array = list.toArray();
 
-        assertArrayEquals(new Object[] { "baeldung", ".com" }, array);
+        assertArrayEquals(new Object[] { "surya", ".com" }, array);
     }
 
     @Test
     public void givenListWithAnElement_whenToArray_thenInputArrayIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         String[] input = new String[1];
         String[] output = list.toArray(input);
 
-        assertArrayEquals(new String[] { "baeldung" }, input);
+        assertArrayEquals(new String[] { "surya" }, input);
     }
 
     @Test
     public void whenToArrayIsCalledWithEmptyInputArray_thenNewArrayIsReturned() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         String[] input = {};
         String[] output = list.toArray(input);
 
-        assertArrayEquals(new String[] { "baeldung" }, output);
+        assertArrayEquals(new String[] { "surya" }, output);
     }
 
     @Test
     public void whenToArrayIsCalledWithLargerInput_thenOutputHasTrailingNull() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         String[] input = new String[2];
         String[] output = list.toArray(input);
 
-        assertArrayEquals(new String[] { "baeldung", null }, output);
+        assertArrayEquals(new String[] { "surya", null }, output);
     }
 
     @Test
     public void givenListWithOneElement_whenIterator_thenThisElementIsNext() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         Iterator<Object> iterator = list.iterator();
 
         assertTrue(iterator.hasNext());
-        assertEquals("baeldung", iterator.next());
+        assertEquals("surya", iterator.next());
     }
 
     @Test
     public void whenIteratorHasNextIsCalledTwice_thenTheSecondReturnsFalse() {
         List<Object> list = new CustomList<>();
-        list.add("baeldung");
+        list.add("surya");
         Iterator<Object> iterator = list.iterator();
 
         iterator.next();

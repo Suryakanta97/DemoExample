@@ -1,4 +1,4 @@
-package com.baeldung.emptystringoptional;
+package com.surya.emptystringoptional;
 
 import com.google.common.base.Strings;
 import org.junit.Assert;

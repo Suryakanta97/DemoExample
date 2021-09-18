@@ -1,4 +1,4 @@
-package com.baeldung.formatNumber;
+package com.surya.formatNumber;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

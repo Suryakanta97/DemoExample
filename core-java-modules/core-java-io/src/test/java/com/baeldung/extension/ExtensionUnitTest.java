@@ -1,4 +1,4 @@
-package com.baeldung.extension;
+package com.surya.extension;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -25,7 +25,7 @@ public class ExtensionUnitTest {
     @Test
     public void getExtension_whenGuava_thenExtensionIsTrue() {
         String expectedExtension = "class";
-        String actualExtension = extension.getExtensionByGuava("baeldung/Demo.class");
+        String actualExtension = extension.getExtensionByGuava("surya/Demo.class");
         Assert.assertEquals(expectedExtension, actualExtension);
     }
 }

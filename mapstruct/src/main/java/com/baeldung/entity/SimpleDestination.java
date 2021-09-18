@@ -1,4 +1,4 @@
-package com.baeldung.entity;
+package com.surya.entity;
 
 public class SimpleDestination {
 

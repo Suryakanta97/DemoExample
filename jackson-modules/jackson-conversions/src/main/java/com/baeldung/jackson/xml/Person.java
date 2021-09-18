@@ -1,4 +1,4 @@
-package com.baeldung.jackson.xml;
+package com.surya.jackson.xml;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 

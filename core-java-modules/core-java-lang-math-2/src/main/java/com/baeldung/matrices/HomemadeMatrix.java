@@ -1,4 +1,4 @@
-package com.baeldung.matrices;
+package com.surya.matrices;
 
 public class HomemadeMatrix {
     public static double[][] multiplyMatrices(double[][] firstMatrix, double[][] secondMatrix) {

@@ -1,4 +1,4 @@
-package com.baeldung.drools.optaplanner;
+package com.surya.drools.optaplanner;
 
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;

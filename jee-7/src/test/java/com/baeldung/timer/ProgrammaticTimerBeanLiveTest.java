@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;

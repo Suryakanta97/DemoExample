@@ -1,4 +1,4 @@
-package com.baeldung.titlecase;
+package com.surya.titlecase;
 
 import org.junit.Assert;
 import org.junit.Test;

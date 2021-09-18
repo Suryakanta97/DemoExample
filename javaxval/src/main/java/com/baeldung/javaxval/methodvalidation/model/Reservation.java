@@ -1,12 +1,12 @@
-package com.baeldung.javaxval.methodvalidation.model;
+package com.surya.javaxval.methodvalidation.model;
 
 import java.time.LocalDate;
 
 import javax.validation.Valid;
 import javax.validation.constraints.Positive;
 
-import com.baeldung.javaxval.methodvalidation.constraints.ValidReservation;
-import com.baeldung.javaxval.methodvalidation.constraints.ConsistentDateParameters;
+import com.surya.javaxval.methodvalidation.constraints.ValidReservation;
+import com.surya.javaxval.methodvalidation.constraints.ConsistentDateParameters;
 import org.springframework.validation.annotation.Validated;
 
 @Validated

@@ -1,4 +1,4 @@
-package com.baeldung.suanshu;
+package com.surya.suanshu;
 
 import com.numericalmethod.suanshu.algebra.linear.matrix.doubles.Matrix;
 import com.numericalmethod.suanshu.algebra.linear.matrix.doubles.matrixtype.dense.DenseMatrix;

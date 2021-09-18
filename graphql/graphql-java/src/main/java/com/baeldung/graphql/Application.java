@@ -1,8 +1,8 @@
-package com.baeldung.graphql;
+package com.surya.graphql;
 
 import ratpack.server.RatpackServer;
 
-import com.baeldung.graphql.handler.UserHandler;
+import com.surya.graphql.handler.UserHandler;
 
 public class Application {
     public static void main(String[] args) throws Exception {

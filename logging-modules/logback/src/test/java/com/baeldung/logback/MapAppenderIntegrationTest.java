@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.spi.ILoggingEvent;

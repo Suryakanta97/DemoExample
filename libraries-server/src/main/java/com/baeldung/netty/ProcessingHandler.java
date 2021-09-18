@@ -1,4 +1,4 @@
-package com.baeldung.netty;
+package com.surya.netty;
 
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;

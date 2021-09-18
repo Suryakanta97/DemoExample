@@ -1,8 +1,8 @@
-package com.baeldung.jmapper;
+package com.surya.jmapper;
 
-import com.baeldung.jmapper.relational.User;
-import com.baeldung.jmapper.relational.UserDto1;
-import com.baeldung.jmapper.relational.UserDto2;
+import com.surya.jmapper.relational.User;
+import com.surya.jmapper.relational.UserDto1;
+import com.surya.jmapper.relational.UserDto2;
 import com.googlecode.jmapper.RelationalJMapper;
 import com.googlecode.jmapper.api.JMapperAPI;
 import org.junit.Test;

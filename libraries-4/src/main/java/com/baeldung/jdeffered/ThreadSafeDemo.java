@@ -1,4 +1,4 @@
-package com.baeldung.jdeffered;
+package com.surya.jdeffered;
 
 import org.jdeferred.Deferred;
 import org.jdeferred.DeferredManager;
@@ -30,7 +30,7 @@ public class ThreadSafeDemo {
             e.printStackTrace();
         }
 
-        deferred.resolve("Hello Baeldung");
+        deferred.resolve("Hello surya");
     }
 
 }

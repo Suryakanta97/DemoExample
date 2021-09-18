@@ -1,4 +1,4 @@
-package com.baeldung.javers;
+package com.surya.javers;
 
 public class Address {
     private String country;

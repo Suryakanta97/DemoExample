@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.domain;
+package com.surya.jhipster.uaa.domain;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;

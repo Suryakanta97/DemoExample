@@ -44,14 +44,14 @@ public class TreeMapVsHashMapUnitTest {
     @Test
     public void givenHashMapAndTreeMap_whenputDuplicates_thenOnlyUnique() {
         Map<Integer, String> treeMap = new HashMap<>();
-        treeMap.put(1, "Baeldung");
-        treeMap.put(1, "Baeldung");
+        treeMap.put(1, "surya");
+        treeMap.put(1, "surya");
 
         Assert.assertTrue(treeMap.size() == 1);
 
         Map<Integer, String> treeMap2 = new TreeMap<>();
-        treeMap2.put(1, "Baeldung");
-        treeMap2.put(1, "Baeldung");
+        treeMap2.put(1, "surya");
+        treeMap2.put(1, "surya");
 
         Assert.assertTrue(treeMap2.size() == 1);
     }

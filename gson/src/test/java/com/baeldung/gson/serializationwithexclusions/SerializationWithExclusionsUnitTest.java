@@ -1,4 +1,4 @@
-package com.baeldung.gson.serializationwithexclusions;
+package com.surya.gson.serializationwithexclusions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

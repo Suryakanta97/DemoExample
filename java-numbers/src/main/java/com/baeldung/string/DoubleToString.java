@@ -1,4 +1,4 @@
-package com.baeldung.string;
+package com.surya.string;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

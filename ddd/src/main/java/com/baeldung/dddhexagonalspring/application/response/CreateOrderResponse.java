@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.application.response;
+package com.surya.dddhexagonalspring.application.response;
 
 import java.util.UUID;
 

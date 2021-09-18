@@ -1,4 +1,4 @@
-package com.baeldung.boolsize;
+package com.surya.boolsize;
 
 class BooleanWrapper {
     private boolean value;

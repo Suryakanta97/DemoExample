@@ -1,4 +1,4 @@
-package com.baeldung.guava.partition;
+package com.surya.guava.partition;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;

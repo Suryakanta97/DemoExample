@@ -1,4 +1,4 @@
-package com.baeldung.gson.primitives.models;
+package com.surya.gson.primitives.models;
 
 public class InfinityValuesExample {
     public float negativeInfinity;

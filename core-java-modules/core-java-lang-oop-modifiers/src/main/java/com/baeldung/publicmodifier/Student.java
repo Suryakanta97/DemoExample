@@ -1,4 +1,4 @@
-package com.baeldung.publicmodifier;
+package com.surya.publicmodifier;
 
 import java.math.BigDecimal;
 import java.sql.Connection;

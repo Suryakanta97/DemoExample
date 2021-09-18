@@ -1,6 +1,6 @@
-package com.baeldung.command.command;
+package com.surya.command.command;
 
-import com.baeldung.command.receiver.TextFile;
+import com.surya.command.receiver.TextFile;
 
 public class OpenTextFileOperation implements TextFileOperation {
 

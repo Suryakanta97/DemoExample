@@ -1,4 +1,4 @@
-package com.baeldung.retrofit.basic;
+package com.surya.retrofit.basic;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.fail;
@@ -9,9 +9,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.retrofit.basic.GitHubBasicApi;
-import com.baeldung.retrofit.models.Contributor;
-import com.baeldung.retrofit.models.Repository;
+import com.surya.retrofit.basic.GitHubBasicApi;
+import com.surya.retrofit.models.Contributor;
+import com.surya.retrofit.models.Repository;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

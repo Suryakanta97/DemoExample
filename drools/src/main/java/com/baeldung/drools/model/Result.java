@@ -1,4 +1,4 @@
-package com.baeldung.drools.model;
+package com.surya.drools.model;
 
 import java.util.ArrayList;
 import java.util.List;

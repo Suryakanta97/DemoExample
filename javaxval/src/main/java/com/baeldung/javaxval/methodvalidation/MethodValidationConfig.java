@@ -1,9 +1,9 @@
-package com.baeldung.javaxval.methodvalidation;
+package com.surya.javaxval.methodvalidation;
 
 import java.time.LocalDate;
 
-import com.baeldung.javaxval.methodvalidation.model.Customer;
-import com.baeldung.javaxval.methodvalidation.model.Reservation;
+import com.surya.javaxval.methodvalidation.model.Customer;
+import com.surya.javaxval.methodvalidation.model.Reservation;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.validation.beanvalidation.MethodValidationPostProcessor;
 
 @Configuration
-@ComponentScan({ "com.baeldung.javaxval.methodvalidation.model" })
+@ComponentScan({ "com.surya.javaxval.methodvalidation.model" })
 public class MethodValidationConfig {
 
     @Bean

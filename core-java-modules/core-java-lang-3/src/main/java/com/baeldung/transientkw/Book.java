@@ -1,4 +1,4 @@
-package com.baeldung.transientkw;
+package com.surya.transientkw;
 
 import java.io.Serializable;
 

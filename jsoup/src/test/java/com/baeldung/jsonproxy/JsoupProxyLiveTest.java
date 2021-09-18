@@ -1,4 +1,4 @@
-package com.baeldung.jsonproxy;
+package com.surya.jsonproxy;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

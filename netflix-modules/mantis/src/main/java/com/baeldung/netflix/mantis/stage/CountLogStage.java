@@ -1,7 +1,7 @@
-package com.baeldung.netflix.mantis.stage;
+package com.surya.netflix.mantis.stage;
 
-import com.baeldung.netflix.mantis.model.LogAggregate;
-import com.baeldung.netflix.mantis.model.LogEvent;
+import com.surya.netflix.mantis.model.LogAggregate;
+import com.surya.netflix.mantis.model.LogEvent;
 import io.mantisrx.common.MantisGroup;
 import io.mantisrx.runtime.Context;
 import io.mantisrx.runtime.GroupToScalar;

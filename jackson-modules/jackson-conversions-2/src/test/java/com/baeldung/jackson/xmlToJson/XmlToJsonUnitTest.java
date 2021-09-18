@@ -1,4 +1,4 @@
-package com.baeldung.jackson.xmlToJson;
+package com.surya.jackson.xmlToJson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

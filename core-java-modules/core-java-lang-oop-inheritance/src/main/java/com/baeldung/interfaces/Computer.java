@@ -1,4 +1,4 @@
-package com.baeldung.interfaces;
+package com.surya.interfaces;
 
 public class Computer implements Electronic {
 

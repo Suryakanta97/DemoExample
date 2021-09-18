@@ -1,7 +1,7 @@
-package com.baeldung.jackson.annotation.dtos;
+package com.surya.jackson.annotation.dtos;
 
-import com.baeldung.jackson.annotation.deserialization.ItemDeserializerOnClass;
-import com.baeldung.jackson.annotation.serialization.ItemSerializerOnClass;
+import com.surya.jackson.annotation.deserialization.ItemDeserializerOnClass;
+import com.surya.jackson.annotation.serialization.ItemSerializerOnClass;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

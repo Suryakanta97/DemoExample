@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.web.filter;
+package com.surya.jhipster.gateway.web.filter;
 
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2AuthenticationService;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2AuthenticationService;
 
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

@@ -1,6 +1,6 @@
-package com.baeldung.service;
+package com.surya.service;
 
-import com.baeldung.model.Student;
+import com.surya.model.Student;
 
 import java.util.Optional;
 

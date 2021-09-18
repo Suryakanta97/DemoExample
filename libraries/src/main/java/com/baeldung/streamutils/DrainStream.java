@@ -1,4 +1,4 @@
-package com.baeldung.streamutils;
+package com.surya.streamutils;
 
 import java.io.InputStream;
 

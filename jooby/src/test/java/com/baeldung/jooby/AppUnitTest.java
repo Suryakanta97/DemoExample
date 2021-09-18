@@ -1,4 +1,4 @@
-package com.baeldung.jooby;
+package com.surya.jooby;
 
 import static org.junit.Assert.assertEquals;
 

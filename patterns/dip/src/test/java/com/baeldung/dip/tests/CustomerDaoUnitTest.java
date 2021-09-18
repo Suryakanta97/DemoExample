@@ -1,8 +1,8 @@
-package com.baeldung.dip.tests;
+package com.surya.dip.tests;
 
-import com.baeldung.dip.daoimplementations.SimpleCustomerDao;
-import com.baeldung.dip.daointerfaces.CustomerDao;
-import com.baeldung.dip.entities.Customer;
+import com.surya.dip.daoimplementations.SimpleCustomerDao;
+import com.surya.dip.daointerfaces.CustomerDao;
+import com.surya.dip.entities.Customer;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.List;

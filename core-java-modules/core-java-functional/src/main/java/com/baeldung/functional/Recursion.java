@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.surya.functional;
 
 public class Recursion {
 

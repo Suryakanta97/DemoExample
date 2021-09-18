@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.mongo;
+package com.surya.ddd.order.mongo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -13,9 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
-import com.baeldung.ddd.order.Order;
-import com.baeldung.ddd.order.OrderLine;
-import com.baeldung.ddd.order.Product;
+import com.surya.ddd.order.Order;
+import com.surya.ddd.order.OrderLine;
+import com.surya.ddd.order.Product;
 
 /*
  To run this test we need to run the databases first.

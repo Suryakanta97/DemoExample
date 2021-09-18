@@ -1,4 +1,4 @@
-package com.baeldung.jackson.xml;
+package com.surya.jackson.xml;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package com.baeldung.model;
+package com.surya.model;
 
 import javafx.beans.property.*;
 

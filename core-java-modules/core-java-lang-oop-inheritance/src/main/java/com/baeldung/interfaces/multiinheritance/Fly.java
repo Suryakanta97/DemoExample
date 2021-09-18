@@ -1,4 +1,4 @@
-package com.baeldung.interfaces.multiinheritance;
+package com.surya.interfaces.multiinheritance;
 
 public interface Fly {
 

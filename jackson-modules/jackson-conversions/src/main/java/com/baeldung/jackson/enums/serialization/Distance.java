@@ -1,6 +1,6 @@
-package com.baeldung.jackson.enums.serialization;
+package com.surya.jackson.enums.serialization;
 
-import com.baeldung.jackson.enums.serialization.DistanceSerializer;
+import com.surya.jackson.enums.serialization.DistanceSerializer;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**

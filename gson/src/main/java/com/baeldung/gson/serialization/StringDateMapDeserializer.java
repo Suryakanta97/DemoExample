@@ -1,4 +1,4 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
 import java.lang.reflect.Type;
 import java.text.ParseException;

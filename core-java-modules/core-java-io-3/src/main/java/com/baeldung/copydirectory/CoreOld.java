@@ -1,4 +1,4 @@
-package com.baeldung.copydirectory;
+package com.surya.copydirectory;
 
 import java.io.File;
 import java.io.FileInputStream;

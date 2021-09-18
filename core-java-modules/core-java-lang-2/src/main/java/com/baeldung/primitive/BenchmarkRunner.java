@@ -1,4 +1,4 @@
-package com.baeldung.primitive;
+package com.surya.primitive;
 
 public class BenchmarkRunner {
 

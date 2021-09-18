@@ -1,4 +1,4 @@
-package com.baeldung.java9.process;
+package com.surya.java9.process;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertTrue;
@@ -19,7 +19,7 @@ class ProcessUnderstandingUnitTest {
     @Test
     public void givenSubProcess_whenEncounteringError_thenErrorStreamNotNull() throws IOException {
         Process process = Runtime.getRuntime()
-            .exec("javac -cp src src\\main\\java\\com\\baeldung\\java9\\process\\ProcessCompilationError.java");
+            .exec("javac -cp src src\\main\\java\\com\\surya\\java9\\process\\ProcessCompilationError.java");
         BufferedReader error = new BufferedReader(new InputStreamReader(process.getErrorStream()));
         String errorString = error.readLine();
         assertNotNull(errorString);
@@ -93,12 +93,12 @@ class ProcessUnderstandingUnitTest {
     public void givenSourceProgram_whenReadingInputStream_thenFirstLineEquals3() throws IOException, InterruptedException {
 
         Runtime.getRuntime()
-                .exec("javac -cp src src/main/java/com/baeldung/java9/process/OutputStreamExample.java"
+                .exec("javac -cp src src/main/java/com/surya/java9/process/OutputStreamExample.java"
                         .replace("/", File.separator))
                 .waitFor(5, TimeUnit.SECONDS);
 
         Process process = Runtime.getRuntime()
-                .exec("java -cp src/main/java com.baeldung.java9.process.OutputStreamExample"
+                .exec("java -cp src/main/java com.surya.java9.process.OutputStreamExample"
                 .replace("/", File.separator));
 
         process.waitFor(5, TimeUnit.SECONDS);

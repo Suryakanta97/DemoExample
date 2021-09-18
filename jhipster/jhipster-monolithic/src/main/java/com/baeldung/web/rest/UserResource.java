@@ -1,16 +1,16 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.config.Constants;
+import com.surya.config.Constants;
 import com.codahale.metrics.annotation.Timed;
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.AuthoritiesConstants;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.service.dto.UserDTO;
-import com.baeldung.web.rest.vm.ManagedUserVM;
-import com.baeldung.web.rest.util.HeaderUtil;
-import com.baeldung.web.rest.util.PaginationUtil;
+import com.surya.domain.User;
+import com.surya.repository.UserRepository;
+import com.surya.security.AuthoritiesConstants;
+import com.surya.service.MailService;
+import com.surya.service.UserService;
+import com.surya.service.dto.UserDTO;
+import com.surya.web.rest.vm.ManagedUserVM;
+import com.surya.web.rest.util.HeaderUtil;
+import com.surya.web.rest.util.PaginationUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 import io.swagger.annotations.ApiParam;
 

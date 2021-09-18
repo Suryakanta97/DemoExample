@@ -1,4 +1,4 @@
-package com.baeldung.mesos.schedulers;
+package com.surya.mesos.schedulers;
 
 import com.google.protobuf.ByteString;
 import org.apache.mesos.Protos;

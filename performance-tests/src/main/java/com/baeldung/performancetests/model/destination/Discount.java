@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
 import com.google.common.base.Objects;
 import com.googlecode.jmapper.annotations.JGlobalMap;
@@ -22,9 +22,9 @@ public class Discount {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null) return false;
-        if (o.getClass() == com.baeldung.performancetests.model.source.Discount.class) {
-            com.baeldung.performancetests.model.source.Discount discount =
-              (com.baeldung.performancetests.model.source.Discount) o;
+        if (o.getClass() == com.surya.performancetests.model.source.Discount.class) {
+            com.surya.performancetests.model.source.Discount discount =
+              (com.surya.performancetests.model.source.Discount) o;
             return Objects.equal(startTime, discount.getStartTime()) &&
               Objects.equal(endTime, discount.getEndTime()) &&
               Objects.equal(discountPrice, discount.getDiscountPrice());

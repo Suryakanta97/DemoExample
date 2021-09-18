@@ -1,4 +1,4 @@
-package com.baeldung.rmi;
+package com.surya.rmi;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;

@@ -1,4 +1,4 @@
-package com.baeldung.reduce.entities;
+package com.surya.reduce.entities;
 
 public class User {
 

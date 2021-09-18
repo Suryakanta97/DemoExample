@@ -1,4 +1,4 @@
-package com.baeldung.securitymanager;
+package com.surya.securitymanager;
 
 import org.junit.After;
 import org.junit.Before;

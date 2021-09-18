@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Optional Dependency in Maven](https://www.baeldung.com/maven-optional-dependency)
+- [Optional Dependency in Maven](https://www.surya.com/maven-optional-dependency)

@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;
 
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.mock.web.MockHttpServletRequest;

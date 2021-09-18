@@ -1,4 +1,4 @@
-package com.baeldung.commons.collections.collectionutils;
+package com.surya.commons.collections.collectionutils;
 
 public class Address {
 

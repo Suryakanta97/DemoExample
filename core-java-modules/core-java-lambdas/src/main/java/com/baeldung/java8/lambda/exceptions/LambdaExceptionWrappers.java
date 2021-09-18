@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.exceptions;
+package com.surya.java8.lambda.exceptions;
 
 import java.util.function.Consumer;
 

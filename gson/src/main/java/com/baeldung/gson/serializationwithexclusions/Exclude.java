@@ -1,4 +1,4 @@
-package com.baeldung.gson.serializationwithexclusions;
+package com.surya.gson.serializationwithexclusions;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

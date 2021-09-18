@@ -1,4 +1,4 @@
-package com.baeldung.regex.lookaround;
+package com.surya.regex.lookaround;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

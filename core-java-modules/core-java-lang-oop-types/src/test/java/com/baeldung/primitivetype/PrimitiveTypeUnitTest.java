@@ -1,4 +1,4 @@
-package com.baeldung.primitivetype;
+package com.surya.primitivetype;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

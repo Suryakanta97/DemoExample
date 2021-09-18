@@ -1,4 +1,4 @@
-package com.baeldung.jctools;
+package com.surya.jctools;
 
 import org.assertj.core.api.Assertions;
 import org.jctools.queues.SpscArrayQueue;

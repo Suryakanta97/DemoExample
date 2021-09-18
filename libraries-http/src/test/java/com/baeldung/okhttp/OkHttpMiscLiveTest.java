@@ -1,6 +1,6 @@
-package com.baeldung.okhttp;
+package com.surya.okhttp;
 
-import static com.baeldung.client.Consts.APPLICATION_PORT;
+import static com.surya.client.Consts.APPLICATION_PORT;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.internedstrings;
+package com.surya.memoryleaks.internedstrings;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

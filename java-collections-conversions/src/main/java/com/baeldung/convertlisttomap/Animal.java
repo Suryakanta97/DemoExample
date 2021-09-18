@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.surya.convertlisttomap;
 
 public class Animal {
     private int id;

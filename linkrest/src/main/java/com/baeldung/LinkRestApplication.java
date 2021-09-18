@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.surya;
 
 
 import javax.ws.rs.ApplicationPath;
@@ -18,7 +18,7 @@ public class LinkRestApplication extends ResourceConfig {
                 .build();
         LinkRestRuntime lrRuntime = LinkRestBuilder.build(cayenneRuntime);
         super.register(lrRuntime);
-        packages("com.baeldung.linkrest.apis");
+        packages("com.surya.linkrest.apis");
     }
 
 }

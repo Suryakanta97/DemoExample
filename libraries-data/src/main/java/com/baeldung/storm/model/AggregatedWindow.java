@@ -1,4 +1,4 @@
-package com.baeldung.storm.model;
+package com.surya.storm.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 

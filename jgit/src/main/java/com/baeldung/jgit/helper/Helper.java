@@ -1,5 +1,5 @@
 
-package com.baeldung.jgit.helper;
+package com.surya.jgit.helper;
 
 import java.io.File;
 import java.io.IOException;

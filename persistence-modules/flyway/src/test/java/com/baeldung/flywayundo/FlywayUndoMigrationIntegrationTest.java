@@ -1,4 +1,4 @@
-package com.baeldung.flywayundo;
+package com.surya.flywayundo;
 
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.MigrationInfo;

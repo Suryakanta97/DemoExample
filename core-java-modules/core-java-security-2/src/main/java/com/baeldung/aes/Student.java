@@ -1,4 +1,4 @@
-package com.baeldung.aes;
+package com.surya.aes;
 
 import java.io.Serializable;
 import java.util.Objects;

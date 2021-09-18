@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.baeldung.logging.log4j2.plugins;
+package com.surya.logging.log4j2.plugins;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.core.Appender;

@@ -1,4 +1,4 @@
-package com.baeldung.drools.model;
+package com.surya.drools.model;
 
 public class Customer {
 

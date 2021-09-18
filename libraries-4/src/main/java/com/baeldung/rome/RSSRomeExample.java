@@ -1,4 +1,4 @@
-package com.baeldung.rome;
+package com.surya.rome;
 
 import com.sun.syndication.feed.synd.*;
 import com.sun.syndication.io.FeedException;

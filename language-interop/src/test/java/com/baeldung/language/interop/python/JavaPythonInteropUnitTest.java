@@ -1,4 +1,4 @@
-package com.baeldung.language.interop.python;
+package com.surya.language.interop.python;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.empty;
@@ -49,7 +49,7 @@ public class JavaPythonInteropUnitTest {
         List<String> results = readProcessOutput(process.getInputStream());
 
         assertThat("Results should not be empty", results, is(not(empty())));
-        assertThat("Results should contain output of script: ", results, hasItem(containsString("Hello Baeldung Readers!!")));
+        assertThat("Results should contain output of script: ", results, hasItem(containsString("Hello surya Readers!!")));
 
         int exitCode = process.waitFor();
         assertEquals("No errors should be detected", 0, exitCode);
@@ -64,7 +64,7 @@ public class JavaPythonInteropUnitTest {
         ScriptEngineManager manager = new ScriptEngineManager();
         ScriptEngine engine = manager.getEngineByName("python");
         engine.eval(new FileReader(resolvePythonScriptPath("hello.py")), context);
-        assertEquals("Should contain script output: ", "Hello Baeldung Readers!!", output.toString()
+        assertEquals("Should contain script output: ", "Hello surya Readers!!", output.toString()
             .trim());
     }
 
@@ -74,8 +74,8 @@ public class JavaPythonInteropUnitTest {
             StringWriter output = new StringWriter();
             pyInterp.setOut(output);
 
-            pyInterp.exec("print('Hello Baeldung Readers!!')");
-            assertEquals("Should contain script output: ", "Hello Baeldung Readers!!", output.toString()
+            pyInterp.exec("print('Hello surya Readers!!')");
+            assertEquals("Should contain script output: ", "Hello surya Readers!!", output.toString()
                 .trim());
         }
     }
@@ -112,7 +112,7 @@ public class JavaPythonInteropUnitTest {
 
         int exitCode = executor.execute(cmdLine);
         assertEquals("No errors should be detected", 0, exitCode);
-        assertEquals("Should contain script output: ", "Hello Baeldung Readers!!", outputStream.toString()
+        assertEquals("Should contain script output: ", "Hello surya Readers!!", outputStream.toString()
             .trim());
     }
 

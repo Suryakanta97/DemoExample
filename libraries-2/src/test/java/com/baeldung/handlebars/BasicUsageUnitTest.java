@@ -1,4 +1,4 @@
-package com.baeldung.handlebars;
+package com.surya.handlebars;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -23,9 +23,9 @@ public class BasicUsageUnitTest {
         Handlebars handlebars = new Handlebars();
         Template template = handlebars.compileInline("Hi {{this}}!");
 
-        String templateString = template.apply("Baeldung");
+        String templateString = template.apply("surya");
 
-        assertThat(templateString).isEqualTo("Hi Baeldung!");
+        assertThat(templateString).isEqualTo("Hi surya!");
     }
 
     @Test
@@ -33,11 +33,11 @@ public class BasicUsageUnitTest {
         Handlebars handlebars = new Handlebars();
         Template template = handlebars.compileInline("Hi {{name}}!");
         Map<String, String> parameterMap = new HashMap<>();
-        parameterMap.put("name", "Baeldung");
+        parameterMap.put("name", "surya");
 
         String templateString = template.apply(parameterMap);
 
-        assertThat(templateString).isEqualTo("Hi Baeldung!");
+        assertThat(templateString).isEqualTo("Hi surya!");
     }
 
     @Test
@@ -45,11 +45,11 @@ public class BasicUsageUnitTest {
         Handlebars handlebars = new Handlebars();
         Template template = handlebars.compileInline("Hi {{name}}!");
         Person person = new Person();
-        person.setName("Baeldung");
+        person.setName("surya");
 
         String templateString = template.apply(person);
 
-        assertThat(templateString).isEqualTo("Hi Baeldung!");
+        assertThat(templateString).isEqualTo("Hi surya!");
     }
 
     @Test
@@ -57,23 +57,23 @@ public class BasicUsageUnitTest {
         Handlebars handlebars = new Handlebars();
         Template template = handlebars.compileInline("Hi {{name}}! This is {{topic}}.");
         Map<String, String> parameterMap = new HashMap<>();
-        parameterMap.put("name", "Baeldung");
+        parameterMap.put("name", "surya");
         parameterMap.put("topic", "Handlebars");
 
         String templateString = template.apply(parameterMap);
 
-        assertThat(templateString).isEqualTo("Hi Baeldung! This is Handlebars.");
+        assertThat(templateString).isEqualTo("Hi surya! This is Handlebars.");
     }
 
     @Test
     public void whenNoLoaderIsGiven_ThenSearchesClasspath() throws IOException {
         Handlebars handlebars = new Handlebars();
         Template template = handlebars.compile("greeting");
-        Person person = getPerson("Baeldung");
+        Person person = getPerson("surya");
 
         String templateString = template.apply(person);
 
-        assertThat(templateString).isEqualTo("Hi Baeldung!");
+        assertThat(templateString).isEqualTo("Hi surya!");
     }
 
     @Test
@@ -81,11 +81,11 @@ public class BasicUsageUnitTest {
         TemplateLoader loader = new ClassPathTemplateLoader("/handlebars", ".html");
         Handlebars handlebars = new Handlebars(loader);
         Template template = handlebars.compile("greeting");
-        Person person = getPerson("Baeldung");
+        Person person = getPerson("surya");
 
         String templateString = template.apply(person);
 
-        assertThat(templateString).isEqualTo("Hi Baeldung!");
+        assertThat(templateString).isEqualTo("Hi surya!");
     }
 
     @Test
@@ -94,11 +94,11 @@ public class BasicUsageUnitTest {
         TemplateLoader secondLoader = new ClassPathTemplateLoader("/templates", ".html");
         Handlebars handlebars = new Handlebars().with(firstLoader, secondLoader);
         Template template = handlebars.compile("greeting");
-        Person person = getPerson("Baeldung");
+        Person person = getPerson("surya");
 
         String templateString = template.apply(person);
 
-        assertThat(templateString).isEqualTo("Hi Baeldung!");
+        assertThat(templateString).isEqualTo("Hi surya!");
     }
 
     private Person getPerson(String name) {

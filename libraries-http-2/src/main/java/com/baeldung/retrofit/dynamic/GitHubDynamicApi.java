@@ -1,7 +1,7 @@
-package com.baeldung.retrofit.dynamic;
+package com.surya.retrofit.dynamic;
 
-import com.baeldung.retrofit.models.Contributor;
-import com.baeldung.retrofit.models.Repository;
+import com.surya.retrofit.models.Contributor;
+import com.surya.retrofit.models.Repository;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

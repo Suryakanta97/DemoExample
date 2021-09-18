@@ -1,4 +1,4 @@
-package com.baeldung.polymorphism;
+package com.surya.polymorphism;
 
 import static org.junit.Assert.*;
 

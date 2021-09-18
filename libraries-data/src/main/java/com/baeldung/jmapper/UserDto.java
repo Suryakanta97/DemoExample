@@ -1,4 +1,4 @@
-package com.baeldung.jmapper;
+package com.surya.jmapper;
 
 import com.googlecode.jmapper.annotations.JMap;
 import com.googlecode.jmapper.annotations.JMapConversion;

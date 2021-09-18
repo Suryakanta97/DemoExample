@@ -1,7 +1,7 @@
-package com.baeldung.client;
+package com.surya.client;
 
-import com.baeldung.shared.MessageService;
-import com.baeldung.shared.MessageServiceAsync;
+import com.surya.shared.MessageService;
+import com.surya.shared.MessageServiceAsync;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;

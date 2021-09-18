@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.doubledispatch;
+package com.surya.ddd.order.doubledispatch;
 
 public class FlatDiscountPolicy implements DiscountPolicy {
     @Override

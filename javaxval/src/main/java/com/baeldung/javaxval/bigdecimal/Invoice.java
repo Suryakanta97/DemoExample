@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.bigdecimal;
+package com.surya.javaxval.bigdecimal;
 
 import java.math.BigDecimal;
 

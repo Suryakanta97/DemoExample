@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jacksonvsgson;
+package com.surya.jackson.jacksonvsgson;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

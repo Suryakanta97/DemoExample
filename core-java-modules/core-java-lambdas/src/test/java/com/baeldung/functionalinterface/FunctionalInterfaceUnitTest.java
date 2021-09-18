@@ -1,4 +1,4 @@
-package com.baeldung.functionalinterface;
+package com.surya.functionalinterface;
 
 import com.google.common.util.concurrent.Uninterruptibles;
 import org.junit.Test;

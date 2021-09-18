@@ -1,4 +1,4 @@
-package com.baeldung.creational.builder;
+package com.surya.creational.builder;
 
 import static org.junit.Assert.assertEquals;
 

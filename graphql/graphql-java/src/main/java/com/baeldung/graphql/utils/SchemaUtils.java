@@ -1,4 +1,4 @@
-package com.baeldung.graphql.utils;
+package com.surya.graphql.utils;
 
 public class SchemaUtils {
     public static final String USER = "user";

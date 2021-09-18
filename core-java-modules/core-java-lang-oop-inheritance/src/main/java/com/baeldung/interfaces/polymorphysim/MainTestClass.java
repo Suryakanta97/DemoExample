@@ -1,4 +1,4 @@
-package com.baeldung.interfaces.polymorphysim;
+package com.surya.interfaces.polymorphysim;
 
 import java.util.ArrayList;
 import java.util.List;

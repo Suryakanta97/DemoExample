@@ -1,4 +1,4 @@
-package com.baeldung.jetty.http2;
+package com.surya.jetty.http2;
 
 import java.io.IOException;
 import java.io.InputStream;

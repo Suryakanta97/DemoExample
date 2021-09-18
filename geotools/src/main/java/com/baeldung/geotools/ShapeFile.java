@@ -1,4 +1,4 @@
-package com.baeldung.geotools;
+package com.surya.geotools;
 
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.GeometryFactory;

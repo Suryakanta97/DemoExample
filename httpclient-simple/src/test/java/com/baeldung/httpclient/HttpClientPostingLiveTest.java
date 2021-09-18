@@ -1,4 +1,4 @@
-package com.baeldung.httpclient;
+package com.surya.httpclient;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

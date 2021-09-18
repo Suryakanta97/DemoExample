@@ -1,6 +1,6 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
-import com.baeldung.serenity.spring.steps.AdderSteps;
+import com.surya.serenity.spring.steps.AdderSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.junit.spring.integration.SpringIntegrationMethodRule;
 import net.thucydides.core.annotations.Steps;

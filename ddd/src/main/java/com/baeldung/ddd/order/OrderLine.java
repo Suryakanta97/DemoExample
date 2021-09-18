@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order;
+package com.surya.ddd.order;
 
 import org.joda.money.Money;
 

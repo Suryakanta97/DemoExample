@@ -1,4 +1,4 @@
-package com.baeldung.jackson.node;
+package com.surya.jackson.node;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
@@ -24,13 +24,13 @@ public class NodeOperationUnitTest {
 
     @Test
     public void givenAnObject_whenConvertingIntoNode_thenCorrect() {
-        final NodeBean fromValue = new NodeBean(2016, "baeldung.com");
+        final NodeBean fromValue = new NodeBean(2016, "surya.com");
 
         final JsonNode node = mapper.valueToTree(fromValue);
 
         assertEquals(2016, node.get("id")
             .intValue());
-        assertEquals("baeldung.com", node.get("name")
+        assertEquals("surya.com", node.get("name")
             .textValue());
     }
 
@@ -41,7 +41,7 @@ public class NodeOperationUnitTest {
 
         final JsonNode node = mapper.createObjectNode();
         ((ObjectNode) node).put("id", 2016);
-        ((ObjectNode) node).put("name", "baeldung.com");
+        ((ObjectNode) node).put("name", "surya.com");
 
         try (FileWriter outputStream = new FileWriter(pathToTestFile)) {
             mapper.writeValue(outputStream, node);
@@ -53,7 +53,7 @@ public class NodeOperationUnitTest {
         final String textContentOfTestFile = new String(characterBuffer);
 
         assertThat(textContentOfTestFile, containsString("2016"));
-        assertThat(textContentOfTestFile, containsString("baeldung.com"));
+        assertThat(textContentOfTestFile, containsString("surya.com"));
 
         Files.delete(Paths.get(pathToTestFile));
     }
@@ -62,12 +62,12 @@ public class NodeOperationUnitTest {
     public void givenANode_whenConvertingIntoAnObject_thenCorrect() throws JsonProcessingException {
         final JsonNode node = mapper.createObjectNode();
         ((ObjectNode) node).put("id", 2016);
-        ((ObjectNode) node).put("name", "baeldung.com");
+        ((ObjectNode) node).put("name", "surya.com");
 
         final NodeBean toValue = mapper.treeToValue(node, NodeBean.class);
 
         assertEquals(2016, toValue.getId());
-        assertEquals("baeldung.com", toValue.getName());
+        assertEquals("surya.com", toValue.getName());
     }
 
     @Test

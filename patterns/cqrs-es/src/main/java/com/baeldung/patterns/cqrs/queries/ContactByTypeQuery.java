@@ -1,4 +1,4 @@
-package com.baeldung.patterns.cqrs.queries;
+package com.surya.patterns.cqrs.queries;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

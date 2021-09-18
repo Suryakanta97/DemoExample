@@ -1,4 +1,4 @@
-package com.baeldung.jackson.field;
+package com.surya.jackson.field;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;

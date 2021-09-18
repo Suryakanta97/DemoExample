@@ -5,7 +5,7 @@ metadata:
   labels: 
     app: nginx 
   annotations:
-    com.baeldung/wait-for-it: "www.google.com:80"
+    com.surya/wait-for-it: "www.google.com:80"
 spec: 
   replicas: 1 
   selector: 

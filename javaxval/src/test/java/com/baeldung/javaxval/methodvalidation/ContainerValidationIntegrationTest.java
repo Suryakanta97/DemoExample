@@ -1,13 +1,13 @@
-package com.baeldung.javaxval.methodvalidation;
+package com.surya.javaxval.methodvalidation;
 
 import java.time.LocalDate;
 import java.util.List;
 
 import javax.validation.ConstraintViolationException;
 
-import com.baeldung.javaxval.methodvalidation.model.Customer;
-import com.baeldung.javaxval.methodvalidation.model.Reservation;
-import com.baeldung.javaxval.methodvalidation.model.ReservationManagement;
+import com.surya.javaxval.methodvalidation.model.Customer;
+import com.surya.javaxval.methodvalidation.model.Reservation;
+import com.surya.javaxval.methodvalidation.model.ReservationManagement;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

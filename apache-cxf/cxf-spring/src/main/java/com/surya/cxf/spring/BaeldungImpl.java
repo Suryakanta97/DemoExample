@@ -1,9 +1,9 @@
-package com.baeldung.cxf.spring;
+package com.surya.cxf.spring;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.baeldung.cxf.spring.Baeldung")
-public class BaeldungImpl implements Baeldung {
+@WebService(endpointInterface = "com.surya.cxf.spring.surya")
+public class suryaImpl implements surya {
     private int counter;
 
     public String hello(String name) {

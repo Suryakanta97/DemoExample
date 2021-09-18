@@ -1,6 +1,6 @@
-package com.baeldung.student.service;
+package com.surya.student.service;
 
-import com.baeldung.student.model.Student;
+import com.surya.student.model.Student;
 
 public interface StudentService {
 

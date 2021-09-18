@@ -1,6 +1,6 @@
-package com.baeldung.scribejava.controller;
+package com.surya.scribejava.controller;
 
-import com.baeldung.scribejava.service.MyService;
+import com.surya.scribejava.service.MyService;
 import com.github.scribejava.core.model.OAuth2AccessToken;
 import com.github.scribejava.core.model.OAuthRequest;
 import com.github.scribejava.core.model.Response;

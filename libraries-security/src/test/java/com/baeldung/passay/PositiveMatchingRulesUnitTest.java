@@ -1,4 +1,4 @@
-package com.baeldung.passay;
+package com.surya.passay;
 
 import org.junit.Test;
 import org.passay.AllowedCharacterRule;

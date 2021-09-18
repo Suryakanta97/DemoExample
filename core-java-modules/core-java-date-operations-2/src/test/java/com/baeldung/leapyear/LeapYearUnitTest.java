@@ -1,4 +1,4 @@
-package com.baeldung.leapyear;
+package com.surya.leapyear;
 
 import java.time.LocalDate;
 import java.time.Year;

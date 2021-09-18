@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.surya.servlets;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import com.baeldung.model.Employee;
+import com.surya.model.Employee;
 import com.google.gson.Gson;
 
 

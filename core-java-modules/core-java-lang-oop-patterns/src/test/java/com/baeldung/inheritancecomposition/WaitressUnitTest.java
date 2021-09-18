@@ -1,6 +1,6 @@
-package com.baeldung.inheritancecomposition;
+package com.surya.inheritancecomposition;
 
-import com.baeldung.inheritancecomposition.model.Waitress;
+import com.surya.inheritancecomposition.model.Waitress;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

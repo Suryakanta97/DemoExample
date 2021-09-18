@@ -1,4 +1,4 @@
-package com.baeldung.sealed.classes;
+package com.surya.sealed.classes;
 
 public non-sealed class Car extends Vehicle implements Service {
 

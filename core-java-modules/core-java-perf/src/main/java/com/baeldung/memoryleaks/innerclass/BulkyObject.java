@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.innerclass;
+package com.surya.memoryleaks.innerclass;
 
 import java.nio.charset.Charset;
 import java.util.Random;

@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxws.client;
+package com.surya.jaxws.client;
 
 import java.util.List;
 import javax.jws.WebMethod;
@@ -19,7 +19,7 @@ import javax.xml.ws.ResponseWrapper;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "EmployeeService", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/")
+@WebService(name = "EmployeeService", targetNamespace = "http://bottomup.server.jaxws.surya.com/")
 @XmlSeeAlso({
     ObjectFactory.class
 })
@@ -30,15 +30,15 @@ public interface EmployeeService {
      * 
      * @param arg0
      * @return
-     *     returns com.baeldung.jaxws.client.Employee
+     *     returns com.surya.jaxws.client.Employee
      * @throws EmployeeNotFound_Exception
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getEmployee", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.GetEmployee")
-    @ResponseWrapper(localName = "getEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.GetEmployeeResponse")
-    @Action(input = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/getEmployeeRequest", output = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/getEmployeeResponse", fault = {
-        @FaultAction(className = EmployeeNotFound_Exception.class, value = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/getEmployee/Fault/EmployeeNotFound")
+    @RequestWrapper(localName = "getEmployee", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.GetEmployee")
+    @ResponseWrapper(localName = "getEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.GetEmployeeResponse")
+    @Action(input = "http://bottomup.server.jaxws.surya.com/EmployeeService/getEmployeeRequest", output = "http://bottomup.server.jaxws.surya.com/EmployeeService/getEmployeeResponse", fault = {
+        @FaultAction(className = EmployeeNotFound_Exception.class, value = "http://bottomup.server.jaxws.surya.com/EmployeeService/getEmployee/Fault/EmployeeNotFound")
     })
     public Employee getEmployee(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -51,15 +51,15 @@ public interface EmployeeService {
      * @param arg1
      * @param arg0
      * @return
-     *     returns com.baeldung.jaxws.client.Employee
+     *     returns com.surya.jaxws.client.Employee
      * @throws EmployeeNotFound_Exception
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "updateEmployee", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.UpdateEmployee")
-    @ResponseWrapper(localName = "updateEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.UpdateEmployeeResponse")
-    @Action(input = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/updateEmployeeRequest", output = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/updateEmployeeResponse", fault = {
-        @FaultAction(className = EmployeeNotFound_Exception.class, value = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/updateEmployee/Fault/EmployeeNotFound")
+    @RequestWrapper(localName = "updateEmployee", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.UpdateEmployee")
+    @ResponseWrapper(localName = "updateEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.UpdateEmployeeResponse")
+    @Action(input = "http://bottomup.server.jaxws.surya.com/EmployeeService/updateEmployeeRequest", output = "http://bottomup.server.jaxws.surya.com/EmployeeService/updateEmployeeResponse", fault = {
+        @FaultAction(className = EmployeeNotFound_Exception.class, value = "http://bottomup.server.jaxws.surya.com/EmployeeService/updateEmployee/Fault/EmployeeNotFound")
     })
     public Employee updateEmployee(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -72,13 +72,13 @@ public interface EmployeeService {
     /**
      * 
      * @return
-     *     returns java.util.List<com.baeldung.jaxws.client.Employee>
+     *     returns java.util.List<com.surya.jaxws.client.Employee>
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getAllEmployees", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.GetAllEmployees")
-    @ResponseWrapper(localName = "getAllEmployeesResponse", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.GetAllEmployeesResponse")
-    @Action(input = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/getAllEmployeesRequest", output = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/getAllEmployeesResponse")
+    @RequestWrapper(localName = "getAllEmployees", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.GetAllEmployees")
+    @ResponseWrapper(localName = "getAllEmployeesResponse", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.GetAllEmployeesResponse")
+    @Action(input = "http://bottomup.server.jaxws.surya.com/EmployeeService/getAllEmployeesRequest", output = "http://bottomup.server.jaxws.surya.com/EmployeeService/getAllEmployeesResponse")
     public List<Employee> getAllEmployees();
 
     /**
@@ -90,10 +90,10 @@ public interface EmployeeService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "deleteEmployee", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.DeleteEmployee")
-    @ResponseWrapper(localName = "deleteEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.DeleteEmployeeResponse")
-    @Action(input = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/deleteEmployeeRequest", output = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/deleteEmployeeResponse", fault = {
-        @FaultAction(className = EmployeeNotFound_Exception.class, value = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/deleteEmployee/Fault/EmployeeNotFound")
+    @RequestWrapper(localName = "deleteEmployee", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.DeleteEmployee")
+    @ResponseWrapper(localName = "deleteEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.DeleteEmployeeResponse")
+    @Action(input = "http://bottomup.server.jaxws.surya.com/EmployeeService/deleteEmployeeRequest", output = "http://bottomup.server.jaxws.surya.com/EmployeeService/deleteEmployeeResponse", fault = {
+        @FaultAction(className = EmployeeNotFound_Exception.class, value = "http://bottomup.server.jaxws.surya.com/EmployeeService/deleteEmployee/Fault/EmployeeNotFound")
     })
     public boolean deleteEmployee(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -106,15 +106,15 @@ public interface EmployeeService {
      * @param arg1
      * @param arg0
      * @return
-     *     returns com.baeldung.jaxws.client.Employee
+     *     returns com.surya.jaxws.client.Employee
      * @throws EmployeeAlreadyExists_Exception
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "addEmployee", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.AddEmployee")
-    @ResponseWrapper(localName = "addEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.AddEmployeeResponse")
-    @Action(input = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/addEmployeeRequest", output = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/addEmployeeResponse", fault = {
-        @FaultAction(className = EmployeeAlreadyExists_Exception.class, value = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/addEmployee/Fault/EmployeeAlreadyExists")
+    @RequestWrapper(localName = "addEmployee", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.AddEmployee")
+    @ResponseWrapper(localName = "addEmployeeResponse", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.AddEmployeeResponse")
+    @Action(input = "http://bottomup.server.jaxws.surya.com/EmployeeService/addEmployeeRequest", output = "http://bottomup.server.jaxws.surya.com/EmployeeService/addEmployeeResponse", fault = {
+        @FaultAction(className = EmployeeAlreadyExists_Exception.class, value = "http://bottomup.server.jaxws.surya.com/EmployeeService/addEmployee/Fault/EmployeeAlreadyExists")
     })
     public Employee addEmployee(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -131,9 +131,9 @@ public interface EmployeeService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "countEmployees", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.CountEmployees")
-    @ResponseWrapper(localName = "countEmployeesResponse", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/", className = "com.baeldung.jaxws.client.CountEmployeesResponse")
-    @Action(input = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/countEmployeesRequest", output = "http://bottomup.server.jaxws.baeldung.com/EmployeeService/countEmployeesResponse")
+    @RequestWrapper(localName = "countEmployees", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.CountEmployees")
+    @ResponseWrapper(localName = "countEmployeesResponse", targetNamespace = "http://bottomup.server.jaxws.surya.com/", className = "com.surya.jaxws.client.CountEmployeesResponse")
+    @Action(input = "http://bottomup.server.jaxws.surya.com/EmployeeService/countEmployeesRequest", output = "http://bottomup.server.jaxws.surya.com/EmployeeService/countEmployeesResponse")
     public int countEmployees();
 
 }

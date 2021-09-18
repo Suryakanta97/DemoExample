@@ -1,4 +1,4 @@
-package com.baeldung.jsoniter.model;
+package com.surya.jsoniter.model;
 
 import com.jsoniter.annotation.JsonProperty;
 import com.jsoniter.fuzzy.MaybeStringIntDecoder;

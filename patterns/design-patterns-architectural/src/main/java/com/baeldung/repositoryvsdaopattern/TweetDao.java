@@ -1,4 +1,4 @@
-package com.baeldung.repositoryvsdaopattern;
+package com.surya.repositoryvsdaopattern;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.baeldung.microprofile.web;
+package com.surya.microprofile.web;
 
-import com.baeldung.microprofile.model.Book;
-import com.baeldung.microprofile.repo.BookManager;
+import com.surya.microprofile.model.Book;
+import com.surya.microprofile.repo.BookManager;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;

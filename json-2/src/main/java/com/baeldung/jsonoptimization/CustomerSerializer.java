@@ -1,4 +1,4 @@
-package com.baeldung.jsonoptimization;
+package com.surya.jsonoptimization;
 
 import java.io.IOException;
 

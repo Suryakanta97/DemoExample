@@ -1,4 +1,4 @@
-package com.baeldung.maths;
+package com.surya.maths;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;

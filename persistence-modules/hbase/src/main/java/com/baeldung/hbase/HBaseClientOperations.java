@@ -1,4 +1,4 @@
-package com.baeldung.hbase;
+package com.surya.hbase;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HColumnDescriptor;

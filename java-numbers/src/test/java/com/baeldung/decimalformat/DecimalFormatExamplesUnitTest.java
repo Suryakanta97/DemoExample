@@ -1,4 +1,4 @@
-package com.baeldung.decimalformat;
+package com.surya.decimalformat;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

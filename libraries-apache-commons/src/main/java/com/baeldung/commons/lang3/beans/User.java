@@ -1,4 +1,4 @@
-package com.baeldung.commons.lang3.beans;
+package com.surya.commons.lang3.beans;
 
 public class User {
 

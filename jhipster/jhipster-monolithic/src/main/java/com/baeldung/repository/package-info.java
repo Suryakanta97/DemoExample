@@ -1,4 +1,4 @@
 /**
  * Spring Data JPA repositories.
  */
-package com.baeldung.repository;
+package com.surya.repository;

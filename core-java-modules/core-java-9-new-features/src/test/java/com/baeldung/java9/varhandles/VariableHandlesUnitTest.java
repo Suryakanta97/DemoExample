@@ -1,4 +1,4 @@
-package com.baeldung.java9.varhandles;
+package com.surya.java9.varhandles;
 
 import org.junit.Test;
 

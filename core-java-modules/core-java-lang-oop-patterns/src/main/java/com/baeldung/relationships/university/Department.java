@@ -1,4 +1,4 @@
-package com.baeldung.relationships.university;
+package com.surya.relationships.university;
 
 import java.util.List;
 

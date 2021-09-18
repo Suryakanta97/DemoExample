@@ -1,4 +1,4 @@
-package com.baeldung.libraries.debezium.config;
+package com.surya.libraries.debezium.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

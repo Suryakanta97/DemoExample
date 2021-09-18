@@ -1,6 +1,6 @@
-package com.baeldung.web.rest.vm;
+package com.surya.web.rest.vm;
 
-import com.baeldung.config.Constants;
+import com.surya.config.Constants;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;

@@ -1,4 +1,4 @@
-package com.baeldung.iterationcounter;
+package com.surya.iterationcounter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

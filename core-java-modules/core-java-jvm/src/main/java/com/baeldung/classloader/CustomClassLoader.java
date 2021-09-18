@@ -1,4 +1,4 @@
-package com.baeldung.classloader;
+package com.surya.classloader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

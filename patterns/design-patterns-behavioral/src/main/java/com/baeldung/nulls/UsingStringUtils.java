@@ -1,4 +1,4 @@
-package com.baeldung.nulls;
+package com.surya.nulls;
 
 import org.apache.commons.lang3.StringUtils;
 

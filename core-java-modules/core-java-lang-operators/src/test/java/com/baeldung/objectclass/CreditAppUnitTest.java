@@ -1,4 +1,4 @@
-package com.baeldung.objectclass;
+package com.surya.objectclass;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;

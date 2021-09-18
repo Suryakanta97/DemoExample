@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization.jsoncreator;
+package com.surya.jackson.enums.deserialization.jsoncreator;
 
 public class City {
 

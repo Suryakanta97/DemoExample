@@ -1,4 +1,4 @@
-package com.baeldung.jsoup;
+package com.surya.jsoup;
 
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
@@ -107,7 +107,7 @@ public class JsoupParserIntegrationTest {
             .html("<div><span></span></div>");
 
         Element link = new Element(Tag.valueOf("a"), "").text("Checkout this amazing website!")
-            .attr("href", "http://baeldung.com")
+            .attr("href", "http://surya.com")
             .attr("target", "_blank");
         firstArticle.appendChild(link);
 
@@ -117,6 +117,6 @@ public class JsoupParserIntegrationTest {
             .remove();
 
         assertTrue(doc.html()
-            .contains("http://baeldung.com"));
+            .contains("http://surya.com"));
     }
 }

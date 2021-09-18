@@ -1,4 +1,4 @@
-package com.baeldung.modules.hello;
+package com.surya.modules.hello;
 
 public class HelloModules implements HelloInterface {
     public static void doSomething() {

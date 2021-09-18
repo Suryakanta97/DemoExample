@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.surya.functional;
 
 import java.util.List;
 import java.util.stream.Collectors;

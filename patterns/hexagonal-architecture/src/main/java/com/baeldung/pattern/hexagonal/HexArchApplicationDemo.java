@@ -1,4 +1,4 @@
-package com.baeldung.pattern.hexagonal;
+package com.surya.pattern.hexagonal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

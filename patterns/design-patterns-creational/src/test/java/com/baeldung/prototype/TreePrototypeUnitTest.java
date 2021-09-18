@@ -1,4 +1,4 @@
-package com.baeldung.prototype;
+package com.surya.prototype;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

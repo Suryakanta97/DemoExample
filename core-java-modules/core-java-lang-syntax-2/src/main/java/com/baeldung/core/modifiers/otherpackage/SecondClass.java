@@ -1,6 +1,6 @@
-package com.baeldung.core.modifiers.otherpackage;
+package com.surya.core.modifiers.otherpackage;
 
-import com.baeldung.core.modifiers.FirstClass;
+import com.surya.core.modifiers.FirstClass;
 
 public class SecondClass extends FirstClass {
     

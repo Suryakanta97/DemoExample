@@ -1,10 +1,10 @@
-package com.baeldung.javaxval.enums.demo;
+package com.surya.javaxval.enums.demo;
 
 import javax.validation.constraints.NotNull;
 
-import com.baeldung.javaxval.enums.constraints.CustomerTypeSubset;
-import com.baeldung.javaxval.enums.constraints.EnumNamePattern;
-import com.baeldung.javaxval.enums.constraints.ValueOfEnum;
+import com.surya.javaxval.enums.constraints.CustomerTypeSubset;
+import com.surya.javaxval.enums.constraints.EnumNamePattern;
+import com.surya.javaxval.enums.constraints.ValueOfEnum;
 
 public class Customer {
     @ValueOfEnum(enumClass = CustomerType.class)

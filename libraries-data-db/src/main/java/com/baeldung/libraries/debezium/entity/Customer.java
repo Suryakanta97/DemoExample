@@ -1,4 +1,4 @@
-package com.baeldung.libraries.debezium.entity;
+package com.surya.libraries.debezium.entity;
 
 import lombok.Getter;
 import lombok.Setter;

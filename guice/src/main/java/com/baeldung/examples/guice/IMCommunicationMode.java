@@ -1,14 +1,14 @@
 
-package com.baeldung.examples.guice;
+package com.surya.examples.guice;
 
-import com.baeldung.examples.guice.aop.MessageSentLoggable;
-import com.baeldung.examples.guice.constant.CommunicationModel;
+import com.surya.examples.guice.aop.MessageSentLoggable;
+import com.surya.examples.guice.constant.CommunicationModel;
 import com.google.inject.Inject;
 import java.util.logging.Logger;
 
 /**
  *
- * @author baeldung
+ * @author surya
  */
 public class IMCommunicationMode implements CommunicationMode {
 

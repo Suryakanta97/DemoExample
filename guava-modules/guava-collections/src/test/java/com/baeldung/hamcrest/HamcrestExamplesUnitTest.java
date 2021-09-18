@@ -1,4 +1,4 @@
-package com.baeldung.hamcrest;
+package com.surya.hamcrest;
 
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.containsInAnyOrder;

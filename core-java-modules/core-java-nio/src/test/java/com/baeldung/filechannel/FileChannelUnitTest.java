@@ -1,4 +1,4 @@
-package com.baeldung.filechannel;
+package com.surya.filechannel;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

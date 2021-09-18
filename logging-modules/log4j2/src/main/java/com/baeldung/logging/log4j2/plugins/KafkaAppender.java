@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2.plugins;
+package com.surya.logging.log4j2.plugins;
 
 import org.apache.logging.log4j.core.Core;
 import org.apache.logging.log4j.core.Filter;

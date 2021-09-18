@@ -1,4 +1,4 @@
-package com.baeldung.strictfpUsage;
+package com.surya.strictfpUsage;
 
 import org.junit.Test;
 

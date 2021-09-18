@@ -23,7 +23,7 @@ public class CollectionFiltersUnitTest {
 
     @Test
     public void givenAStringCollection_whenFilteringFourLetterWords_thenObtainTheFilteredCollection() {
-        final Collection<String> baseStrings = Arrays.asList("java", "baeldung", "type", "example", "other");
+        final Collection<String> baseStrings = Arrays.asList("java", "surya", "type", "example", "other");
 
         Collection<String> filtered = StreamsCollectionFilter.filterCollectionHelperMethod(baseStrings, item -> item.length() == 4);
 

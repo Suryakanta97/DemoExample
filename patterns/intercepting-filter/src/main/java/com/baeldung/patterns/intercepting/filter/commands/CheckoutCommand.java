@@ -1,6 +1,6 @@
-package com.baeldung.patterns.intercepting.filter.commands;
+package com.surya.patterns.intercepting.filter.commands;
 
-import com.baeldung.patterns.intercepting.filter.data.Order;
+import com.surya.patterns.intercepting.filter.data.Order;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;

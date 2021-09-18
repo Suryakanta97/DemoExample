@@ -1,4 +1,4 @@
-package com.baeldung.serenity.membership;
+package com.surya.serenity.membership;
 
 /**
  * @author aiet

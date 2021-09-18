@@ -1,4 +1,4 @@
-package com.baeldung.streamoperations;
+package com.surya.streamoperations;
 
 import org.junit.Test;
 

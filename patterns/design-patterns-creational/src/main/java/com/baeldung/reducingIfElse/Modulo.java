@@ -1,4 +1,4 @@
-package com.baeldung.reducingIfElse;
+package com.surya.reducingIfElse;
 
 public class Modulo implements Operation {
         @Override public int apply(int a, int b) {

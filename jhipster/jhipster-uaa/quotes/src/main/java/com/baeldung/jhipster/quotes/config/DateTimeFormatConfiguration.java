@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.config;
+package com.surya.jhipster.quotes.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;

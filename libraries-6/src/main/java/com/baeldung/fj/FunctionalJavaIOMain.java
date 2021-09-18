@@ -1,4 +1,4 @@
-package com.baeldung.fj;
+package com.surya.fj;
 
 import fj.F;
 import fj.F1Functions;

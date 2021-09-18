@@ -1,4 +1,4 @@
-package com.baeldung.substringsearch;
+package com.surya.substringsearch;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;

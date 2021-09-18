@@ -1,4 +1,4 @@
-package com.baeldung.lcm;
+package com.surya.lcm;
 
 import org.junit.Assert;
 import org.junit.Test;

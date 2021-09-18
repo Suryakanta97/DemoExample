@@ -1,4 +1,4 @@
-package com.baeldung.singleton.synchronization;
+package com.surya.singleton.synchronization;
 
 /**
  * Singleton with early initialization. Inlines the singleton instance

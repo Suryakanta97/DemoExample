@@ -1,4 +1,4 @@
-package com.baeldung.java14.character;
+package com.surya.java14.character;
 
 import org.junit.Test;
 

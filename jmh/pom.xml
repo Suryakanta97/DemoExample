@@ -10,7 +10,7 @@
     <url>http://maven.apache.org</url>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-java</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-java</relativePath>
@@ -43,7 +43,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.baeldung.BenchmarkRunner</mainClass>
+                            <mainClass>com.surya.BenchmarkRunner</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -58,7 +58,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.baeldung.BenchmarkRunner</mainClass>
+                            <mainClass>com.surya.BenchmarkRunner</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

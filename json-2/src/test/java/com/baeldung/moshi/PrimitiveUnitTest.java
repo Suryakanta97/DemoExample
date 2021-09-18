@@ -1,4 +1,4 @@
-package com.baeldung.moshi;
+package com.surya.moshi;
 
 import java.io.IOException;
 
@@ -14,7 +14,7 @@ public class PrimitiveUnitTest {
           .build();
         JsonAdapter<Post> jsonAdapter = moshi.adapter(Post.class);
 
-        Post post = new Post("My Post", "Baeldung", "This is my post");
+        Post post = new Post("My Post", "surya", "This is my post");
         String json = jsonAdapter.toJson(post);
         System.out.println(json);
     }
@@ -25,7 +25,7 @@ public class PrimitiveUnitTest {
           .build();
         JsonAdapter<Post> jsonAdapter = moshi.adapter(Post.class);
 
-        String json = "{\"author\":\"Baeldung\",\"text\":\"This is my post\",\"title\":\"My Post\"}";
+        String json = "{\"author\":\"surya\",\"text\":\"This is my post\",\"title\":\"My Post\"}";
         Post post = jsonAdapter.fromJson(json);
         System.out.println(post);
     }

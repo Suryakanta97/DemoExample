@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.service;
+package com.surya.jhipster.uaa.service;
 
-import com.baeldung.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.domain.User;
 
 import io.github.jhipster.config.JHipsterProperties;
 

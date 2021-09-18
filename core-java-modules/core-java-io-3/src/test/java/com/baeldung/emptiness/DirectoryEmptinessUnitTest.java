@@ -1,4 +1,4 @@
-package com.baeldung.emptiness;
+package com.surya.emptiness;
 
 import org.junit.Test;
 
@@ -34,7 +34,7 @@ public class DirectoryEmptinessUnitTest {
 
     @Test
     public void givenPath_whenIsEmpty_thenReturnsTrue() throws Exception {
-        Path path = Files.createTempDirectory("baeldung-empty");
+        Path path = Files.createTempDirectory("surya-empty");
         assertThat(isEmpty(path)).isTrue();
     }
 

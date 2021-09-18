@@ -1,4 +1,4 @@
-package com.baeldung.streamex;
+package com.surya.streamex;
 
 import one.util.streamex.StreamEx;
 import org.junit.Test;

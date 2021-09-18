@@ -1,4 +1,4 @@
-package com.baeldung.branchprediction;
+package com.surya.branchprediction;
 
 import java.util.Collections;
 import java.util.List;

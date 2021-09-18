@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.oneToMany.config;
+package com.surya.hibernate.oneToMany.config;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

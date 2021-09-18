@@ -1,7 +1,7 @@
-package com.baeldung.commons.lang3.test;
+package com.surya.commons.lang3.test;
 
-import com.baeldung.commons.lang3.beans.User;
-import com.baeldung.commons.lang3.beans.UserInitializer;
+import com.surya.commons.lang3.beans.User;
+import com.surya.commons.lang3.beans.UserInitializer;
 import org.apache.commons.lang3.concurrent.ConcurrentException;
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;

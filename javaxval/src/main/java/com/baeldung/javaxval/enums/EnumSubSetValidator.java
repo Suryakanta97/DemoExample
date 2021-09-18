@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.enums;
+package com.surya.javaxval.enums;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;

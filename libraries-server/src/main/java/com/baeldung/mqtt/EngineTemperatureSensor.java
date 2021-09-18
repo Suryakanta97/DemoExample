@@ -1,4 +1,4 @@
-package com.baeldung.mqtt;
+package com.surya.mqtt;
 
 import java.util.Random;
 import java.util.concurrent.Callable;

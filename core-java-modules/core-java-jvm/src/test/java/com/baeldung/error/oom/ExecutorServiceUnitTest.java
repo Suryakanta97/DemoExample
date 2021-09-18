@@ -1,4 +1,4 @@
-package com.baeldung.error.oom;
+package com.surya.error.oom;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;

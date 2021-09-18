@@ -1,7 +1,7 @@
-package com.baeldung.picocli.git.commands.programmative;
+package com.surya.picocli.git.commands.programmative;
 
-import com.baeldung.picocli.git.commands.subcommands.GitAddCommand;
-import com.baeldung.picocli.git.commands.subcommands.GitCommitCommand;
+import com.surya.picocli.git.commands.subcommands.GitAddCommand;
+import com.surya.picocli.git.commands.subcommands.GitCommitCommand;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine;
 

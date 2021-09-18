@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.equalshashcode;
+package com.surya.memoryleaks.equalshashcode;
 
 import static org.junit.Assert.assertTrue;
 

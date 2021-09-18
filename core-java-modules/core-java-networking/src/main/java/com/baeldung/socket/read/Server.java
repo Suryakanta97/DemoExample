@@ -1,4 +1,4 @@
-package com.baeldung.socket.read;
+package com.surya.socket.read;
 
 import java.net.*;
 import java.nio.charset.StandardCharsets;

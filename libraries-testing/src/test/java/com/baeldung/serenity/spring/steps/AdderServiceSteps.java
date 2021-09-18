@@ -1,6 +1,6 @@
-package com.baeldung.serenity.spring.steps;
+package com.surya.serenity.spring.steps;
 
-import com.baeldung.serenity.spring.AdderService;
+import com.surya.serenity.spring.AdderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 

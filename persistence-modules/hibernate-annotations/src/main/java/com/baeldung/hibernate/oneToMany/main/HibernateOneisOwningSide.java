@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.oneToMany.main;
+package com.surya.hibernate.oneToMany.main;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,9 +7,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import com.baeldung.hibernate.oneToMany.config.HibernateAnnotationUtil;
-import com.baeldung.hibernate.oneToMany.model.CartOIO;
-import com.baeldung.hibernate.oneToMany.model.ItemsOIO;
+import com.surya.hibernate.oneToMany.config.HibernateAnnotationUtil;
+import com.surya.hibernate.oneToMany.model.CartOIO;
+import com.surya.hibernate.oneToMany.model.ItemsOIO;
 
 public class HibernateOneisOwningSide {
     public static void main(String[] args) {

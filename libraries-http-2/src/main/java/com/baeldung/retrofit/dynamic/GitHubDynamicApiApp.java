@@ -1,4 +1,4 @@
-package com.baeldung.retrofit.dynamic;
+package com.surya.retrofit.dynamic;
 
 import java.io.IOException;
 import java.util.List;

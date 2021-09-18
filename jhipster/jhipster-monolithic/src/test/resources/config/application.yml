@@ -16,14 +16,14 @@
 
 spring:
     application:
-        name: baeldung
+        name: surya
     jackson:
         serialization.write_dates_as_timestamps: false
     cache:
         type: none
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:h2:mem:baeldung;DB_CLOSE_DELAY=-1
+        url: jdbc:h2:mem:surya;DB_CLOSE_DELAY=-1
         name:
         username:
         password:

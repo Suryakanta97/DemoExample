@@ -1,6 +1,6 @@
-package com.baeldung.methodoverloadingoverriding;
+package com.surya.methodoverloadingoverriding;
 
-import com.baeldung.methodoverloadingoverriding.util.Multiplier;
+import com.surya.methodoverloadingoverriding.util.Multiplier;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.*;

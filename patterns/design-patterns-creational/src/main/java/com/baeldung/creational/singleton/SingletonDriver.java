@@ -1,4 +1,4 @@
-package com.baeldung.creational.singleton;
+package com.surya.creational.singleton;
 
 public class SingletonDriver {
     public static void main(String[] args) {

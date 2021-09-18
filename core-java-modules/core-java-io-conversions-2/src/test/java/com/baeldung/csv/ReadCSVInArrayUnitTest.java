@@ -1,4 +1,4 @@
-package com.baeldung.csv;
+package com.surya.csv;
 
 import com.opencsv.CSVReader;
 import org.junit.Assert;

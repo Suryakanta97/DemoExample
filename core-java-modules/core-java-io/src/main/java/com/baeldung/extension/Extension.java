@@ -1,4 +1,4 @@
-package com.baeldung.extension;
+package com.surya.extension;
 
 import com.google.common.io.Files;
 import org.apache.commons.io.FilenameUtils;
@@ -6,7 +6,7 @@ import org.apache.commons.io.FilenameUtils;
 import java.util.Optional;
 
 public class Extension {
-    //Instead of file name we can also specify full path of a file eg. /baeldung/com/demo/abc.java
+    //Instead of file name we can also specify full path of a file eg. /surya/com/demo/abc.java
     public String getExtensionByApacheCommonLib(String filename) {
         return FilenameUtils.getExtension(filename);
     }

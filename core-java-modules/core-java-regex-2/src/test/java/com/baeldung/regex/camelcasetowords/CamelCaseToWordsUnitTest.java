@@ -1,8 +1,8 @@
-package com.baeldung.regex.camelcasetowords;
+package com.surya.regex.camelcasetowords;
 
 import org.junit.jupiter.api.Test;
 
-import static com.baeldung.regex.camelcasetowords.CamelCaseToWords.findWordsInMixedCase;
+import static com.surya.regex.camelcasetowords.CamelCaseToWords.findWordsInMixedCase;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class CamelCaseToWordsUnitTest {

@@ -5,7 +5,7 @@ import { TranslateService } from 'ng2-translate';
 import { AlertService } from 'ng-jhipster';
 
 import {
-    BaeldungSharedLibsModule,
+    suryaSharedLibsModule,
     JhiLanguageHelper,
     FindLanguageFromKeyPipe,
     JhiAlertComponent,
@@ -21,7 +21,7 @@ export function alertServiceProvider(sanitizer: Sanitizer, translateService: Tra
 
 @NgModule({
     imports: [
-        BaeldungSharedLibsModule
+        suryaSharedLibsModule
     ],
     declarations: [
         FindLanguageFromKeyPipe,
@@ -38,10 +38,10 @@ export function alertServiceProvider(sanitizer: Sanitizer, translateService: Tra
         Title
     ],
     exports: [
-        BaeldungSharedLibsModule,
+        suryaSharedLibsModule,
         FindLanguageFromKeyPipe,
         JhiAlertComponent,
         JhiAlertErrorComponent
     ]
 })
-export class BaeldungSharedCommonModule {}
+export class suryaSharedCommonModule {}

@@ -1,4 +1,4 @@
-package com.baeldung.filenamefilter;
+package com.surya.filenamefilter;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;

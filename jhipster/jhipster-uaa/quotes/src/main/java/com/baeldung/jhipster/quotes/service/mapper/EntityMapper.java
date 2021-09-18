@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.service.mapper;
+package com.surya.jhipster.quotes.service.mapper;
 
 import java.util.List;
 

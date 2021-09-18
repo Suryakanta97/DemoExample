@@ -1,7 +1,7 @@
-package com.baeldung.modules.main;
+package com.surya.modules.main;
 
-import com.baeldung.modules.hello.HelloInterface;
-import com.baeldung.modules.hello.HelloModules;
+import com.surya.modules.hello.HelloInterface;
+import com.surya.modules.hello.HelloModules;
 import java.util.ServiceLoader;
 
 public class MainApp {

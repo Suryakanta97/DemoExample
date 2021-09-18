@@ -1,6 +1,6 @@
-package com.baeldung.security;
+package com.surya.security;
 
-import com.baeldung.config.Constants;
+import com.surya.config.Constants;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;

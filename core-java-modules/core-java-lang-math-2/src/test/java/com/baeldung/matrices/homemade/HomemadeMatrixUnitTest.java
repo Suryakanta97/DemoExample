@@ -1,4 +1,4 @@
-package com.baeldung.matrices.homemade;
+package com.surya.matrices.homemade;
 
 import org.junit.jupiter.api.Test;
 import org.openjdk.jmh.annotations.*;

@@ -1,4 +1,4 @@
-package com.baeldung.proxy;
+package com.surya.proxy;
 
 public class ExpensiveObjectProxy implements ExpensiveObject{
     private static ExpensiveObject object;

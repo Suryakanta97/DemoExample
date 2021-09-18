@@ -1,6 +1,6 @@
-package com.baeldung.config.audit;
+package com.surya.config.audit;
 
-import com.baeldung.domain.PersistentAuditEvent;
+import com.surya.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;

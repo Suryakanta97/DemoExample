@@ -1,4 +1,4 @@
-package com.baeldung.hashing;
+package com.surya.hashing;
 
 public class DigestAlgorithms {
 

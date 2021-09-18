@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.config;
+package com.surya.jhipster.uaa.config;
 
-import com.baeldung.jhipster.uaa.security.AuthoritiesConstants;
+import com.surya.jhipster.uaa.security.AuthoritiesConstants;
 import io.github.jhipster.config.JHipsterProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;

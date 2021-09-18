@@ -1,8 +1,8 @@
-package com.baeldung.mainappmodule;
+package com.surya.mainappmodule;
 
-import com.baeldung.daomodule.Dao;
-import com.baeldung.entitymodule.User;
-import com.baeldung.userdaomodule.UserDao;
+import com.surya.daomodule.Dao;
+import com.surya.entitymodule.User;
+import com.surya.userdaomodule.UserDao;
 import java.util.HashMap;
 import java.util.Map;
 

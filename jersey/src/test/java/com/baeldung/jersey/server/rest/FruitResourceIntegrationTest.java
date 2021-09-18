@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.rest;
+package com.surya.jersey.server.rest;
 
 import static org.hamcrest.CoreMatchers.allOf;
 import static org.hamcrest.CoreMatchers.containsString;
@@ -16,9 +16,9 @@ import org.glassfish.jersey.test.JerseyTest;
 import org.glassfish.jersey.test.TestProperties;
 import org.junit.Test;
 
-import com.baeldung.jersey.server.config.ViewApplicationConfig;
-import com.baeldung.jersey.server.model.Fruit;
-import com.baeldung.jersey.server.providers.FruitExceptionMapper;
+import com.surya.jersey.server.config.ViewApplicationConfig;
+import com.surya.jersey.server.model.Fruit;
+import com.surya.jersey.server.providers.FruitExceptionMapper;
 
 public class FruitResourceIntegrationTest extends JerseyTest {
 

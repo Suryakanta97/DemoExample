@@ -1,4 +1,4 @@
 /**
  * Audit specific code.
  */
-package com.baeldung.config.audit;
+package com.surya.config.audit;

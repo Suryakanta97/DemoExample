@@ -1,4 +1,4 @@
-package com.baeldung.jctools;
+package com.surya.jctools;
 
 import org.jctools.queues.MpmcArrayQueue;
 import org.jctools.queues.atomic.MpmcAtomicArrayQueue;

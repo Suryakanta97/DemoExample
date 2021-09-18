@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.doubledispatch;
+package com.surya.ddd.order.doubledispatch;
 
 import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;

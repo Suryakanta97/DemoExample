@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.baeldung")
+@ComponentScan(basePackages = "com.surya")
 public class AppConfiguration extends WebMvcConfigurerAdapter {
 
     @Override

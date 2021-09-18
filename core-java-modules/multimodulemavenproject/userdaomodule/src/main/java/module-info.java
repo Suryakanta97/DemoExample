@@ -1,6 +1,6 @@
-module com.baeldung.userdaomodule {
-    requires com.baeldung.entitymodule;
-    requires com.baeldung.daomodule;
-    provides com.baeldung.daomodule.Dao with com.baeldung.userdaomodule.UserDao;
-    exports com.baeldung.userdaomodule;
+module com.surya.userdaomodule {
+    requires com.surya.entitymodule;
+    requires com.surya.daomodule;
+    provides com.surya.daomodule.Dao with com.surya.userdaomodule.UserDao;
+    exports com.surya.userdaomodule;
 }

@@ -1,8 +1,8 @@
-package com.baeldung.dddhexagonalspring.domain.service;
+package com.surya.dddhexagonalspring.domain.service;
 
-import com.baeldung.dddhexagonalspring.domain.Order;
-import com.baeldung.dddhexagonalspring.domain.Product;
-import com.baeldung.dddhexagonalspring.domain.repository.OrderRepository;
+import com.surya.dddhexagonalspring.domain.Order;
+import com.surya.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.repository.OrderRepository;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package com.baeldung.dockerapi;
+package com.surya.dockerapi;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.CreateContainerResponse;
@@ -50,7 +50,7 @@ public class ContainerLiveTest {
     public void whenCreatingContainer_thenMustReturnContainerId() {
 
         // when
-        CreateContainerResponse container = dockerClient.createContainerCmd("mongo:3.6").withCmd("--bind_ip_all").withName("mongo").withHostName("baeldung").withEnv("MONGO_LATEST_VERSION=3.6").withPortBindings(PortBinding.parse("9999:27017")).exec();
+        CreateContainerResponse container = dockerClient.createContainerCmd("mongo:3.6").withCmd("--bind_ip_all").withName("mongo").withHostName("surya").withEnv("MONGO_LATEST_VERSION=3.6").withPortBindings(PortBinding.parse("9999:27017")).exec();
 
         // then
         MatcherAssert.assertThat(container.getId(), is(not(null)));

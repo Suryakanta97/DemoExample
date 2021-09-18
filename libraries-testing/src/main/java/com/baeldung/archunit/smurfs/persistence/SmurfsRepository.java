@@ -1,4 +1,4 @@
-package com.baeldung.archunit.smurfs.persistence;
+package com.surya.archunit.smurfs.persistence;
 
 import java.util.Collections;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.TreeMap;
 
-import com.baeldung.archunit.smurfs.persistence.domain.Smurf;
+import com.surya.archunit.smurfs.persistence.domain.Smurf;
 
 import static java.util.stream.Collectors.toList;
 

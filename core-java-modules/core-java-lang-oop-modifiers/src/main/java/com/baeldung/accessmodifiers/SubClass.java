@@ -1,4 +1,4 @@
-package com.baeldung.accessmodifiers;
+package com.surya.accessmodifiers;
 
 public class SubClass extends SuperPublic {
     public SubClass() {

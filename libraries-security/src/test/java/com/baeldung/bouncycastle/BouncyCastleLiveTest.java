@@ -1,4 +1,4 @@
-package com.baeldung.bouncycastle;
+package com.surya.bouncycastle;
 
 import static org.junit.Assert.assertTrue;
 
@@ -22,8 +22,8 @@ import org.junit.Test;
 
 public class BouncyCastleLiveTest {
 
-    String certificatePath = "src/main/resources/Baeldung.cer";
-    String privateKeyPath = "src/main/resources/Baeldung.p12";
+    String certificatePath = "src/main/resources/surya.cer";
+    String privateKeyPath = "src/main/resources/surya.p12";
     char[] p12Password = "password".toCharArray();
     char[] keyPassword = "password".toCharArray();
 
@@ -35,7 +35,7 @@ public class BouncyCastleLiveTest {
         X509Certificate certificate = (X509Certificate) certFactory.generateCertificate(new FileInputStream(certificatePath));
         KeyStore keystore = KeyStore.getInstance("PKCS12");
         keystore.load(new FileInputStream(privateKeyPath), p12Password);
-        PrivateKey privateKey = (PrivateKey) keystore.getKey("baeldung", keyPassword);
+        PrivateKey privateKey = (PrivateKey) keystore.getKey("surya", keyPassword);
         String secretMessage = "My password is 123456Seven";
         System.out.println("Original Message : " + secretMessage);
         byte[] stringToEncrypt = secretMessage.getBytes();

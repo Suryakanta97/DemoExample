@@ -1,4 +1,4 @@
-package com.baeldung.tink;
+package com.surya.tink;
 
 import com.google.crypto.tink.*;
 import com.google.crypto.tink.aead.AeadConfig;
@@ -22,7 +22,7 @@ public class TinkLiveTest {
 
     //need to download policy files and put them into ${java.home}/jre/lib/security/
 
-    private static final String PLAINTEXT = "BAELDUNG";
+    private static final String PLAINTEXT = "surya";
     private static final String DATA = "TINK";
 
     @Test

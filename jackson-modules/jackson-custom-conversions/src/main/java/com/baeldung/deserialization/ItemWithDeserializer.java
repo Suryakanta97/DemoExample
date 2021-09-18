@@ -1,4 +1,4 @@
-package com.baeldung.deserialization;
+package com.surya.deserialization;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 

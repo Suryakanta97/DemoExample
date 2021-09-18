@@ -1,4 +1,4 @@
-package com.baeldung.security;
+package com.surya.security;
 
 import org.junit.Test;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

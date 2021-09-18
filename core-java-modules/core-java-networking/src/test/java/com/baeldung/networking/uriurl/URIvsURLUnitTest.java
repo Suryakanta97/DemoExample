@@ -1,4 +1,4 @@
-package com.baeldung.networking.uriurl;
+package com.surya.networking.uriurl;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -68,7 +68,7 @@ public class URIvsURLUnitTest {
 
     @Test
     public void givenURL_whenGettingContents_thenCorrect() throws MalformedURLException, IOException {
-        URL url = new URL("http://courses.baeldung.com");
+        URL url = new URL("http://courses.surya.com");
 
         String contents = IOUtils.toString(url.openStream());
     } 

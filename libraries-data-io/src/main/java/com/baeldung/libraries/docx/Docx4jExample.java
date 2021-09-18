@@ -1,4 +1,4 @@
-package com.baeldung.libraries.docx;
+package com.surya.libraries.docx;
 
 import org.docx4j.dml.wordprocessingDrawing.Inline;
 import org.docx4j.jaxb.Context;
@@ -21,13 +21,13 @@ class Docx4jExample {
         WordprocessingMLPackage wordPackage = WordprocessingMLPackage.createPackage();
         MainDocumentPart mainDocumentPart = wordPackage.getMainDocumentPart();
         mainDocumentPart.addStyledParagraphOfText("Title", "Hello World!");
-        mainDocumentPart.addParagraphOfText("Welcome To Baeldung!");
+        mainDocumentPart.addParagraphOfText("Welcome To surya!");
 
         ObjectFactory factory = Context.getWmlObjectFactory();
         P p = factory.createP();
         R r = factory.createR();
         Text t = factory.createText();
-        t.setValue("Welcome To Baeldung");
+        t.setValue("Welcome To surya");
         r.getContent().add(t);
         p.getContent().add(r);
         RPr rpr = factory.createRPr();
@@ -44,7 +44,7 @@ class Docx4jExample {
         File image = new File(imagePath);
         byte[] fileContent = Files.readAllBytes(image.toPath());
         BinaryPartAbstractImage imagePart = BinaryPartAbstractImage.createImagePart(wordPackage, fileContent);
-        Inline inline = imagePart.createImageInline("Baeldung Image", "Alt Text", 1, 2, false);
+        Inline inline = imagePart.createImageInline("surya Image", "Alt Text", 1, 2, false);
         P Imageparagraph = addImageToParagraph(inline);
         mainDocumentPart.getContent().add(Imageparagraph);
 

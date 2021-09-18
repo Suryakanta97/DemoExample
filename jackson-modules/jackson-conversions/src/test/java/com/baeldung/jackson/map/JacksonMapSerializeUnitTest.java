@@ -1,4 +1,4 @@
-package com.baeldung.jackson.map;
+package com.surya.jackson.map;
 
 import java.util.HashMap;
 import java.util.Map;

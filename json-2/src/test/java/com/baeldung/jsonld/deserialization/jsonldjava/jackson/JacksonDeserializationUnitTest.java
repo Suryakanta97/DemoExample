@@ -1,4 +1,4 @@
-package com.baeldung.jsonld.deserialization.jsonldjava.jackson;
+package com.surya.jsonld.deserialization.jsonldjava.jackson;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.jsonld.deserialization.jsonldjava.jackson.Person.Link;
+import com.surya.jsonld.deserialization.jsonldjava.jackson.Person.Link;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.jsonldjava.core.JsonLdOptions;
 import com.github.jsonldjava.core.JsonLdProcessor;

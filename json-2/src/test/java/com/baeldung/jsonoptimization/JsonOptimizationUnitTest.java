@@ -1,4 +1,4 @@
-package com.baeldung.jsonoptimization;
+package com.surya.jsonoptimization;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;

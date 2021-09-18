@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../..</relativePath>
@@ -99,7 +99,7 @@
                         <exclude>DataTest.java</exclude>
                         <exclude>**/*IntegrationTest</exclude>
                     </excludes>
-                    <excludedGroups>com.baeldung.maven.it.Integration</excludedGroups>
+                    <excludedGroups>com.surya.maven.it.Integration</excludedGroups>
                     <includes>
                         <include>TestFail.java</include>
                         <include>DataCheck.java</include>
@@ -256,7 +256,7 @@
                             <includes>
                                 <include>**/*</include>
                             </includes>
-                            <groups>com.baeldung.maven.it.Integration</groups>
+                            <groups>com.surya.maven.it.Integration</groups>
                         </configuration>
                         <executions>
                             <execution>

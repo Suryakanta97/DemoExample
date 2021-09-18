@@ -1,4 +1,4 @@
-package com.baeldung.rate.api;
+package com.surya.rate.api;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

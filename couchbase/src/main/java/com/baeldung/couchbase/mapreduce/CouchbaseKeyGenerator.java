@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.mapreduce;
+package com.surya.couchbase.mapreduce;
 
 public interface CouchbaseKeyGenerator<T> {
 

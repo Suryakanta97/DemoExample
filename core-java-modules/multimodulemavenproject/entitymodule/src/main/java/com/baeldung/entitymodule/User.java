@@ -1,4 +1,4 @@
-package com.baeldung.entitymodule;
+package com.surya.entitymodule;
 
 public class User {
 

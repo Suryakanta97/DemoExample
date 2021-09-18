@@ -1,15 +1,15 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 
-import com.baeldung.dto.CarDTO;
-import com.baeldung.dto.FuelType;
-import com.baeldung.entity.BioDieselCar;
-import com.baeldung.entity.Car;
-import com.baeldung.entity.ElectricCar;
+import com.surya.dto.CarDTO;
+import com.surya.dto.FuelType;
+import com.surya.entity.BioDieselCar;
+import com.surya.entity.Car;
+import com.surya.entity.ElectricCar;
 
 class CarsMapperUnitTest {
 

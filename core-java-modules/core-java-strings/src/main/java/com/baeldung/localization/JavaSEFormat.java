@@ -1,4 +1,4 @@
-package com.baeldung.localization;
+package com.surya.localization;
 
 import java.text.MessageFormat;
 import java.util.Date;

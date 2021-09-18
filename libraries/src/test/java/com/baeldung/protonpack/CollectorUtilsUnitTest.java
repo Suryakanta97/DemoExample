@@ -1,4 +1,4 @@
-package com.baeldung.protonpack;
+package com.surya.protonpack;
 
 import com.codepoetics.protonpack.collectors.CollectorUtils;
 import com.codepoetics.protonpack.collectors.NonUniqueValueException;

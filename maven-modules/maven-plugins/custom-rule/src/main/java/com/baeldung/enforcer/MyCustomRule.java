@@ -4,7 +4,7 @@
  * on 19 - 2 - 2019
  */
 
-package com.baeldung.enforcer;
+package com.surya.enforcer;
 
 import org.apache.maven.enforcer.rule.api.EnforcerRule;
 import org.apache.maven.enforcer.rule.api.EnforcerRuleException;
@@ -19,8 +19,8 @@ public class MyCustomRule implements EnforcerRule {
 
             String groupId = (String) enforcerRuleHelper.evaluate("${project.groupId}");
 
-            if (groupId == null || !groupId.startsWith("com.baeldung")) {
-                throw new EnforcerRuleException("Project group id does not start with com.baeldung");
+            if (groupId == null || !groupId.startsWith("com.surya")) {
+                throw new EnforcerRuleException("Project group id does not start with com.surya");
             }
 
         }

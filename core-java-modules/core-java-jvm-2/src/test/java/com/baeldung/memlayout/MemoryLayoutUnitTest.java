@@ -1,4 +1,4 @@
-package com.baeldung.memlayout;
+package com.surya.memlayout;
 
 import org.junit.Test;
 import org.openjdk.jol.info.ClassLayout;

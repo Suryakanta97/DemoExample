@@ -1,4 +1,4 @@
-package com.baeldung.metrics.servlet;
+package com.surya.metrics.servlet;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.servlet.InstrumentedFilterContextListener;

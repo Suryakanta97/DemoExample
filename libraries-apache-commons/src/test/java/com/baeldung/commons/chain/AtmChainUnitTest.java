@@ -1,4 +1,4 @@
-package com.baeldung.commons.chain;
+package com.surya.commons.chain;
 
 import org.apache.commons.chain.Catalog;
 import org.apache.commons.chain.Command;
@@ -6,7 +6,7 @@ import org.apache.commons.chain.Context;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.baeldung.commons.chain.AtmConstants.*;
+import static com.surya.commons.chain.AtmConstants.*;
 
 public class AtmChainUnitTest {
 

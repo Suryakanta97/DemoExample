@@ -8,7 +8,7 @@
     <name>jib</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-boot-2</relativePath>
@@ -33,7 +33,7 @@
                 <version>${jib-maven-plugin.version}</version>
                 <configuration>
                     <to>
-                        <image>registry.hub.docker.com/baeldungjib/jib-spring-boot-app</image>
+                        <image>registry.hub.docker.com/suryajib/jib-spring-boot-app</image>
                     </to>
                 </configuration>
             </plugin>

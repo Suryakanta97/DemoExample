@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.jit;
+package com.surya.performancetests.jit;
 
 public class Fibonacci {
 

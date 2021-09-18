@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;
 
 /**
  * Constants for Spring Security authorities.

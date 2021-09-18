@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.opencv;
+package com.surya.imageprocessing.opencv;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;

@@ -1,4 +1,4 @@
-package com.baeldung.service.locator;
+package com.surya.service.locator;
 
 /**
  * Created by Gebruiker on 4/20/2018.

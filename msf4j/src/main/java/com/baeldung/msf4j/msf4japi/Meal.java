@@ -1,4 +1,4 @@
-package com.baeldung.msf4j.msf4japi;
+package com.surya.msf4j.msf4japi;
 
 public class Meal {
     private String name;

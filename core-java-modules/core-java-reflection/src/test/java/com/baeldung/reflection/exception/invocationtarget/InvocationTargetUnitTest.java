@@ -1,4 +1,4 @@
-package com.baeldung.reflection.exception.invocationtarget;
+package com.surya.reflection.exception.invocationtarget;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

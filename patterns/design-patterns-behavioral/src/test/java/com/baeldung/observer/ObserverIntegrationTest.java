@@ -1,11 +1,11 @@
-package com.baeldung.observer;
+package com.surya.observer;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.baeldung.observer.NewsAgency;
-import com.baeldung.observer.NewsChannel;
+import com.surya.observer.NewsAgency;
+import com.surya.observer.NewsChannel;
 
 public class ObserverIntegrationTest {
 

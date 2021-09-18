@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2.domain;
+package com.surya.examples.olingo2.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;

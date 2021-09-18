@@ -1,4 +1,4 @@
-package com.baeldung.jackson.ignorenullfields;
+package com.surya.jackson.ignorenullfields;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

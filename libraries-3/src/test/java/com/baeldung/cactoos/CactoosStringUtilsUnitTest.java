@@ -1,4 +1,4 @@
-package com.baeldung.cactoos;
+package com.surya.cactoos;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

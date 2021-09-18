@@ -3,5 +3,5 @@
 This module contains articles about Hystrix.
 
 ### Relevant Articles:
-- [Hystrix Integration with Existing Spring Application](https://www.baeldung.com/hystrix-integration-with-spring-aop)
-- [Introduction to Hystrix](https://www.baeldung.com/introduction-to-hystrix)
+- [Hystrix Integration with Existing Spring Application](https://www.surya.com/hystrix-integration-with-spring-aop)
+- [Introduction to Hystrix](https://www.surya.com/introduction-to-hystrix)

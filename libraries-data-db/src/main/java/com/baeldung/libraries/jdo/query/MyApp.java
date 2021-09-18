@@ -1,4 +1,4 @@
-package com.baeldung.libraries.jdo.query;
+package com.surya.libraries.jdo.query;
 
 import org.datanucleus.api.jdo.JDOPersistenceManagerFactory;
 import org.datanucleus.metadata.PersistenceUnitMetaData;
@@ -52,14 +52,14 @@ public class MyApp {
 
     public static void queryUsingJDOQL() {
 
-        Query query = pm.newQuery("SELECT FROM com.baeldung.libraries.jdo.query.ProductItem " + "WHERE price < threshold PARAMETERS double threshold");
+        Query query = pm.newQuery("SELECT FROM com.surya.libraries.jdo.query.ProductItem " + "WHERE price < threshold PARAMETERS double threshold");
         List<ProductItem> explicitParamResults = (List<ProductItem>) query.execute(10);
 
-        query = pm.newQuery("SELECT FROM " + "com.baeldung.libraries.jdo.query.ProductItem WHERE price < :threshold");
+        query = pm.newQuery("SELECT FROM " + "com.surya.libraries.jdo.query.ProductItem WHERE price < :threshold");
         query.setParameters("double threshold");
         List<ProductItem> explicitParamResults2 = (List<ProductItem>) query.execute(10);
 
-        query = pm.newQuery("SELECT FROM " + "com.baeldung.libraries.jdo.query.ProductItem WHERE price < :threshold");
+        query = pm.newQuery("SELECT FROM " + "com.surya.libraries.jdo.query.ProductItem WHERE price < :threshold");
         List<ProductItem> implicitParamResults = (List<ProductItem>) query.execute(10);
 
     }
@@ -82,7 +82,7 @@ public class MyApp {
     }
 
     public static void queryUsingJPQL() {
-        Query query = pm.newQuery("JPQL", "select i from " + "com.baeldung.libraries.jdo.query.ProductItem i where i.price < 10" + " and i.status = 'InStock'");
+        Query query = pm.newQuery("JPQL", "select i from " + "com.surya.libraries.jdo.query.ProductItem i where i.price < 10" + " and i.status = 'InStock'");
         List<ProductItem> results = (List<ProductItem>) query.execute();
 
     }

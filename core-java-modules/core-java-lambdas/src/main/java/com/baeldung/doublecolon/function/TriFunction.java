@@ -1,4 +1,4 @@
-package com.baeldung.doublecolon.function;
+package com.surya.doublecolon.function;
 
 import java.util.Objects;
 import java.util.function.Function;

@@ -1,4 +1,4 @@
-package com.baeldung.className;
+package com.surya.className;
 
 public class RetrievingClassName {
 

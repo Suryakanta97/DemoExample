@@ -1,11 +1,11 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.BaeldungApp;
+import com.surya.suryaApp;
 
-import com.baeldung.domain.Comment;
-import com.baeldung.domain.Post;
-import com.baeldung.repository.CommentRepository;
-import com.baeldung.web.rest.errors.ExceptionTranslator;
+import com.surya.domain.Comment;
+import com.surya.domain.Post;
+import com.surya.repository.CommentRepository;
+import com.surya.web.rest.errors.ExceptionTranslator;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see CommentResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = suryaApp.class)
 public class CommentResourceIntegrationTest {
 
     private static final String DEFAULT_TEXT = "AAAAAAAAAA";

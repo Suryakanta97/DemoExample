@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.serialization;
+package com.surya.jackson.enums.serialization;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertThat;

@@ -1,4 +1,4 @@
-package com.baeldung.pangram;
+package com.surya.pangram;
 
 import org.junit.Test;
 

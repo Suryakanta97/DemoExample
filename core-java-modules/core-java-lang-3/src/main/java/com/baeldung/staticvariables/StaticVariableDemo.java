@@ -1,4 +1,4 @@
-package com.baeldung.staticvariables;
+package com.surya.staticvariables;
 
 public class StaticVariableDemo {
     public static int i;

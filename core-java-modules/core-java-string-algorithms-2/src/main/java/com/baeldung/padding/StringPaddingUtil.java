@@ -1,4 +1,4 @@
-package com.baeldung.padding;
+package com.surya.padding;
 
 public class StringPaddingUtil {
 

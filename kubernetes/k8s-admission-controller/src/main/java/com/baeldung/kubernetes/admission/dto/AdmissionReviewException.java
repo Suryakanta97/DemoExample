@@ -1,4 +1,4 @@
-package com.baeldung.kubernetes.admission.dto;
+package com.surya.kubernetes.admission.dto;
 
 public class AdmissionReviewException extends RuntimeException {
 

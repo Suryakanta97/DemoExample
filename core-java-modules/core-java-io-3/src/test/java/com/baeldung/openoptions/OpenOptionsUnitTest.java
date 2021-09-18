@@ -1,4 +1,4 @@
-package com.baeldung.openoptions;
+package com.surya.openoptions;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.AfterClass;

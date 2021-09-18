@@ -1,4 +1,4 @@
-package com.baeldung.jackson.advancedannotations;
+package com.surya.jackson.advancedannotations;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.baeldung.jasperreports;
+package com.surya.jasperreports;
 
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.util.JRSaver;

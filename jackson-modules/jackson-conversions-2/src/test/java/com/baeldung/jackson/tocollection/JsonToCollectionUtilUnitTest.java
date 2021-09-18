@@ -1,4 +1,4 @@
-package com.baeldung.jackson.tocollection;
+package com.surya.jackson.tocollection;
 
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.BeforeEach;
@@ -45,7 +45,7 @@ class JsonToCollectionUtilUnitTest {
         assertThat(bookList).size().isEqualTo(3);
         assertThatExceptionOfType(ClassCastException.class)
           .isThrownBy(() -> bookList.get(0).getBookId())
-          .withMessageMatching(".*java.util.LinkedHashMap cannot be cast to .*com.baeldung.jackson.tocollection.Book.*");
+          .withMessageMatching(".*java.util.LinkedHashMap cannot be cast to .*com.surya.jackson.tocollection.Book.*");
     }
 
 }

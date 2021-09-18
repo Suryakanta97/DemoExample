@@ -1,4 +1,4 @@
-package com.baeldung.stream.filter;
+package com.surya.stream.filter;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.IOException;

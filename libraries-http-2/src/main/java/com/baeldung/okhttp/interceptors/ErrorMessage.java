@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.interceptors;
+package com.surya.okhttp.interceptors;
 
 public class ErrorMessage {
 

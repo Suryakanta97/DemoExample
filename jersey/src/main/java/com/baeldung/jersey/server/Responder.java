@@ -1,6 +1,6 @@
-package com.baeldung.jersey.server;
+package com.surya.jersey.server;
 
-import com.baeldung.jersey.server.model.Person;
+import com.surya.jersey.server.model.Person;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

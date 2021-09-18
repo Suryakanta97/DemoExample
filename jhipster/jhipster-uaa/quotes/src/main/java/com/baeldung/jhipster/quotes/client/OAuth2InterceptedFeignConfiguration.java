@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.client;
+package com.surya.jhipster.quotes.client;
 
 import java.io.IOException;
 

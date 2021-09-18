@@ -1,6 +1,6 @@
-package com.baeldung.server;
+package com.surya.server;
 
-import com.baeldung.shared.MessageService;
+import com.surya.shared.MessageService;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 import java.time.LocalDateTime;

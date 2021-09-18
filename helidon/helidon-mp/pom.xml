@@ -7,7 +7,7 @@
     <name>helidon-mp</name>
 
     <parent>
-        <groupId>com.baeldung.helidon</groupId>
+        <groupId>com.surya.helidon</groupId>
         <artifactId>helidon</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>

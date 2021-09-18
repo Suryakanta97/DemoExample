@@ -1,10 +1,10 @@
-package com.baeldung.formatNumber;
+package com.surya.formatNumber;
 
 import org.junit.Test;
 
 import java.util.Locale;
 
-import static com.baeldung.formatNumber.FormatNumber.*;
+import static com.surya.formatNumber.FormatNumber.*;
 import static org.assertj.core.api.Assertions.*;
 
 public class FormatNumberUnitTest {

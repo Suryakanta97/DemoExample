@@ -1,4 +1,4 @@
-package com.baeldung.bufferedreader;
+package com.surya.bufferedreader;
 
 import org.junit.Test;
 

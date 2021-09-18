@@ -1,15 +1,15 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
-import com.baeldung.repository.AuthorityRepository;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.AuthoritiesConstants;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.service.dto.UserDTO;
-import com.baeldung.web.rest.vm.ManagedUserVM;
+import com.surya.suryaApp;
+import com.surya.domain.Authority;
+import com.surya.domain.User;
+import com.surya.repository.AuthorityRepository;
+import com.surya.repository.UserRepository;
+import com.surya.security.AuthoritiesConstants;
+import com.surya.service.MailService;
+import com.surya.service.UserService;
+import com.surya.service.dto.UserDTO;
+import com.surya.web.rest.vm.ManagedUserVM;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,7 +39,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = suryaApp.class)
 public class AccountResourceIntegrationTest {
 
     @Autowired

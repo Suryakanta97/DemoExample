@@ -1,4 +1,4 @@
-package com.baeldung.watcher;
+package com.surya.watcher;
 
 import java.io.IOException;
 import java.nio.file.*;

@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.validationgroup;
+package com.surya.javaxval.validationgroup;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,7 +8,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 
-import com.baeldung.javaxval.LocaleAwareUnitTest;
+import com.surya.javaxval.LocaleAwareUnitTest;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

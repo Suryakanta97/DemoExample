@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonproperty;
+package com.surya.jackson.jsonproperty;
 
 public class MyDto {
 

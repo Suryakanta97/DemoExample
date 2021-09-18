@@ -1,4 +1,4 @@
-package com.baeldung.replacetokens;
+package com.surya.replacetokens;
 
 import org.junit.Test;
 
@@ -9,8 +9,8 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.baeldung.replacetokens.ReplacingTokens.TITLE_CASE_PATTERN;
-import static com.baeldung.replacetokens.ReplacingTokens.replaceTokens;
+import static com.surya.replacetokens.ReplacingTokens.TITLE_CASE_PATTERN;
+import static com.surya.replacetokens.ReplacingTokens.replaceTokens;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ReplacingTokensUnitTest {
@@ -69,11 +69,11 @@ public class ReplacingTokensUnitTest {
 
         Map<String, String> placeholderValues = new HashMap<>();
         placeholderValues.put("name", "Bill");
-        placeholderValues.put("company", "Baeldung");
+        placeholderValues.put("company", "surya");
 
         assertThat(replaceTokens("Hi ${name} at ${company}",
           placeholderPattern,
           match -> placeholderValues.get(match.group("placeholder"))))
-          .isEqualTo("Hi Bill at Baeldung");
+          .isEqualTo("Hi Bill at surya");
     }
 }

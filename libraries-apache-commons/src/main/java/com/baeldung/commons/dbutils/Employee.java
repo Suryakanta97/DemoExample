@@ -1,4 +1,4 @@
-package com.baeldung.commons.dbutils;
+package com.surya.commons.dbutils;
 
 import java.util.Date;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.baeldung.pcollections;
+package com.surya.pcollections;
 
 import org.junit.Test;
 import org.pcollections.HashPMap;

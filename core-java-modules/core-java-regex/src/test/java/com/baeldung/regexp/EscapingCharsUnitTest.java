@@ -1,4 +1,4 @@
-package com.baeldung.regexp;
+package com.surya.regexp;
 
 import org.junit.Test;
 

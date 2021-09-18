@@ -1,7 +1,7 @@
-package com.baeldung;
+package com.surya;
 
-import com.baeldung.config.ApplicationProperties;
-import com.baeldung.config.DefaultProfileUtil;
+import com.surya.config.ApplicationProperties;
+import com.surya.config.DefaultProfileUtil;
 
 import io.github.jhipster.config.JHipsterConstants;
 
@@ -24,18 +24,18 @@ import java.util.Collection;
 @ComponentScan
 @EnableAutoConfiguration(exclude = {MetricFilterAutoConfiguration.class, MetricRepositoryAutoConfiguration.class})
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
-public class BaeldungApp {
+public class suryaApp {
 
-    private static final Logger log = LoggerFactory.getLogger(BaeldungApp.class);
+    private static final Logger log = LoggerFactory.getLogger(suryaApp.class);
 
     private final Environment env;
 
-    public BaeldungApp(Environment env) {
+    public suryaApp(Environment env) {
         this.env = env;
     }
 
     /**
-     * Initializes baeldung.
+     * Initializes surya.
      * <p>
      * Spring profiles can be configured with a program arguments --spring.profiles.active=your-active-profile
      * <p>
@@ -61,7 +61,7 @@ public class BaeldungApp {
      * @throws UnknownHostException if the local host name could not be resolved into an address
      */
     public static void main(String[] args) throws UnknownHostException {
-        SpringApplication app = new SpringApplication(BaeldungApp.class);
+        SpringApplication app = new SpringApplication(suryaApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
         String protocol = "http";

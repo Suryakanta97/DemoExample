@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2.tests;
+package com.surya.logging.log4j2.tests;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.baeldung.passwordhashing;
+package com.surya.passwordhashing;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

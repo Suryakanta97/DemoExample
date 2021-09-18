@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.web.rest.vm;
+package com.surya.jhipster.quotes.web.rest.vm;
 
 import ch.qos.logback.classic.Logger;
 

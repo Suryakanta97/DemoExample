@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.repository;
+package com.surya.jhipster.quotes.repository;
 
-import com.baeldung.jhipster.quotes.domain.Quote;
+import com.surya.jhipster.quotes.domain.Quote;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.stereotype.Repository;
 

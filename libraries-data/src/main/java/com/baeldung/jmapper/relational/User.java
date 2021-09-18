@@ -1,4 +1,4 @@
-package com.baeldung.jmapper.relational;
+package com.surya.jmapper.relational;
 
 import com.googlecode.jmapper.annotations.JMap;
 

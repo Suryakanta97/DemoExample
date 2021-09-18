@@ -1,4 +1,4 @@
-package com.baeldung.inputstreamtostring;
+package com.surya.inputstreamtostring;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.ByteSource;

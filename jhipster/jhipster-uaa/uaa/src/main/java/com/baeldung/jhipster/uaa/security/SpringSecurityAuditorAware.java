@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;
 
-import com.baeldung.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.config.Constants;
 
 import java.util.Optional;
 

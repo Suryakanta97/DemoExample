@@ -3,7 +3,7 @@ This class demonstrates on overriding the configuration loaded through xml
 as defined in section 4.4 of "Programmatic Configuration with Log4j 2"
 **/
 
-package com.baeldung.logging.log4j2.xmlconfiguration;
+package com.surya.logging.log4j2.xmlconfiguration;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

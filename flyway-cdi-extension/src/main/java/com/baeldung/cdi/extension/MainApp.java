@@ -1,4 +1,4 @@
-package com.baeldung.cdi.extension;
+package com.surya.cdi.extension;
 
 import javax.annotation.sql.DataSourceDefinition;
 import javax.enterprise.context.ApplicationScoped;

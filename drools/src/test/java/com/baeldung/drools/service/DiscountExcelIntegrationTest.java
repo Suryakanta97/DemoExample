@@ -1,4 +1,4 @@
-package com.baeldung.drools.service;
+package com.surya.drools.service;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,9 +8,9 @@ import org.kie.api.io.Resource;
 import org.kie.api.runtime.KieSession;
 import org.kie.internal.io.ResourceFactory;
 
-import com.baeldung.drools.config.DroolsBeanFactory;
-import com.baeldung.drools.model.Customer;
-import com.baeldung.drools.model.Customer.CustomerType;
+import com.surya.drools.config.DroolsBeanFactory;
+import com.surya.drools.model.Customer;
+import com.surya.drools.model.Customer.CustomerType;
 
 public class DiscountExcelIntegrationTest {
 
@@ -18,7 +18,7 @@ public class DiscountExcelIntegrationTest {
 
     @Before
     public void setup() {
-        Resource resource = ResourceFactory.newClassPathResource("com/baeldung/drools/rules/Discount.xls", getClass());
+        Resource resource = ResourceFactory.newClassPathResource("com/surya/drools/rules/Discount.xls", getClass());
         kSession = new DroolsBeanFactory().getKieSession(resource);
     }
 

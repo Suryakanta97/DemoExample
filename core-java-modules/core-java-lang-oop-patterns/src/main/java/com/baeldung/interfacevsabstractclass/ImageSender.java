@@ -1,4 +1,4 @@
-package com.baeldung.interfacevsabstractclass;
+package com.surya.interfacevsabstractclass;
 
 import java.io.File;
 

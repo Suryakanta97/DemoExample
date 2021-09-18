@@ -1,4 +1,4 @@
-package com.baeldung.mail.mailwithattachment;
+package com.surya.mail.mailwithattachment;
 
 import java.io.File;
 import java.io.IOException;

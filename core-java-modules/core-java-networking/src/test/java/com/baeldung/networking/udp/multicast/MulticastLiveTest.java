@@ -1,4 +1,4 @@
-package com.baeldung.networking.udp.multicast;
+package com.surya.networking.udp.multicast;
 
 import org.junit.After;
 import org.junit.Test;

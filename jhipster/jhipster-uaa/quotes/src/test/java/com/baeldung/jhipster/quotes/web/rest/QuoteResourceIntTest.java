@@ -1,17 +1,17 @@
-package com.baeldung.jhipster.quotes.web.rest;
+package com.surya.jhipster.quotes.web.rest;
 
-import com.baeldung.jhipster.quotes.QuotesApp;
+import com.surya.jhipster.quotes.QuotesApp;
 
-import com.baeldung.jhipster.quotes.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.quotes.config.SecurityBeanOverrideConfiguration;
 
-import com.baeldung.jhipster.quotes.domain.Quote;
-import com.baeldung.jhipster.quotes.repository.QuoteRepository;
-import com.baeldung.jhipster.quotes.service.QuoteService;
-import com.baeldung.jhipster.quotes.service.dto.QuoteDTO;
-import com.baeldung.jhipster.quotes.service.mapper.QuoteMapper;
-import com.baeldung.jhipster.quotes.web.rest.errors.ExceptionTranslator;
-import com.baeldung.jhipster.quotes.service.dto.QuoteCriteria;
-import com.baeldung.jhipster.quotes.service.QuoteQueryService;
+import com.surya.jhipster.quotes.domain.Quote;
+import com.surya.jhipster.quotes.repository.QuoteRepository;
+import com.surya.jhipster.quotes.service.QuoteService;
+import com.surya.jhipster.quotes.service.dto.QuoteDTO;
+import com.surya.jhipster.quotes.service.mapper.QuoteMapper;
+import com.surya.jhipster.quotes.web.rest.errors.ExceptionTranslator;
+import com.surya.jhipster.quotes.service.dto.QuoteCriteria;
+import com.surya.jhipster.quotes.service.QuoteQueryService;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -36,8 +36,8 @@ import java.time.ZoneId;
 import java.util.List;
 
 
-import static com.baeldung.jhipster.quotes.web.rest.TestUtil.sameInstant;
-import static com.baeldung.jhipster.quotes.web.rest.TestUtil.createFormattingConversionService;
+import static com.surya.jhipster.quotes.web.rest.TestUtil.sameInstant;
+import static com.surya.jhipster.quotes.web.rest.TestUtil.createFormattingConversionService;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;

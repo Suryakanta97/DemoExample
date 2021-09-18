@@ -1,4 +1,4 @@
-package com.baeldung.removeleadingtrailingchar;
+package com.surya.removeleadingtrailingchar;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

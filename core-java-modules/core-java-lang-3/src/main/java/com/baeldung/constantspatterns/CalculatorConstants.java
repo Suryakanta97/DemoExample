@@ -1,4 +1,4 @@
-package com.baeldung.constantspatterns;
+package com.surya.constantspatterns;
 
 public interface CalculatorConstants {
     double PI = 3.14159265359;

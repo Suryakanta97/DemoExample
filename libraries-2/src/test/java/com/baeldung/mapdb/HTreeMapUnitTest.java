@@ -1,4 +1,4 @@
-package com.baeldung.mapdb;
+package com.surya.mapdb;
 
 import org.jetbrains.annotations.NotNull;
 import org.junit.Test;

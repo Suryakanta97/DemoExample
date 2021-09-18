@@ -1,4 +1,4 @@
-package com.baeldung.reflection.access.privatemethods;
+package com.surya.reflection.access.privatemethods;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.test.util.ReflectionTestUtils;

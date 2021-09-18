@@ -12,7 +12,7 @@
              xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
              xmlns:tns="http://www.jboss.org/drools">
 
-  <process processType="Private" isExecutable="true" id="com.baeldung.bpmn.helloworld" name="HelloWorld Process" tns:packageName="com.baeldung.bpmn.process" >
+  <process processType="Private" isExecutable="true" id="com.surya.bpmn.helloworld" name="HelloWorld Process" tns:packageName="com.surya.bpmn.process" >
 
     <!-- nodes -->
     <scriptTask id="_jbpm-unique-1" name="HelloWorld" scriptFormat="http://www.java.com/java" >
@@ -30,7 +30,7 @@
   </process>
 
   <bpmndi:BPMNDiagram>
-    <bpmndi:BPMNPlane bpmnElement="com.baeldung.bpmn.helloworld" >
+    <bpmndi:BPMNPlane bpmnElement="com.surya.bpmn.helloworld" >
       <bpmndi:BPMNShape bpmnElement="_jbpm-unique-1" >
         <dc:Bounds x="119" y="44" width="111" height="48" />
       </bpmndi:BPMNShape>

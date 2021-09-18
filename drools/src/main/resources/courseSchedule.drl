@@ -1,6 +1,6 @@
-package com.baeldung.drools.optaplanner
+package com.surya.drools.optaplanner
 
-import com.baeldung.drools.optaplanner.Lecture;
+import com.surya.drools.optaplanner.Lecture;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
 
 global HardSoftScoreHolder scoreHolder;

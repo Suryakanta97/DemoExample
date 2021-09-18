@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.web.rest.util;
+package com.surya.jhipster.uaa.web.rest.util;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

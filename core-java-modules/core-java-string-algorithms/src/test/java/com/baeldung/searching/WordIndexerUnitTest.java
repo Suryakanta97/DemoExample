@@ -1,4 +1,4 @@
-package com.baeldung.searching;
+package com.surya.searching;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

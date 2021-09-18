@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.enums;
+package com.surya.javaxval.enums;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,9 +8,9 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 
-import com.baeldung.javaxval.enums.demo.CustomerUnitTest;
-import com.baeldung.javaxval.enums.demo.Customer;
-import com.baeldung.javaxval.enums.demo.CustomerType;
+import com.surya.javaxval.enums.demo.CustomerUnitTest;
+import com.surya.javaxval.enums.demo.Customer;
+import com.surya.javaxval.enums.demo.CustomerType;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

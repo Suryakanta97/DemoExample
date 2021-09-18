@@ -1,4 +1,4 @@
-package com.baeldung.jetty.httpclient;
+package com.surya.jetty.httpclient;
 
 import java.io.IOException;
 

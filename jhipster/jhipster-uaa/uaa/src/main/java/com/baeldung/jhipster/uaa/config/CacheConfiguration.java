@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.config;
+package com.surya.jhipster.uaa.config;
 
 import io.github.jhipster.config.JHipsterConstants;
 import io.github.jhipster.config.JHipsterProperties;
@@ -105,7 +105,7 @@ public class CacheConfiguration {
 
         // Full reference is available at: http://docs.hazelcast.org/docs/management-center/3.9/manual/html/Deploying_and_Starting.html
         config.setManagementCenterConfig(initializeDefaultManagementCenterConfig(jHipsterProperties));
-        config.getMapConfigs().put("com.baeldung.jhipster.uaa.domain.*", initializeDomainMapConfig(jHipsterProperties));
+        config.getMapConfigs().put("com.surya.jhipster.uaa.domain.*", initializeDomainMapConfig(jHipsterProperties));
         return Hazelcast.newHazelcastInstance(config);
     }
 

@@ -1,4 +1,4 @@
-package com.baeldung.synthetic;
+package com.surya.synthetic;
 
 import java.util.Comparator;
 

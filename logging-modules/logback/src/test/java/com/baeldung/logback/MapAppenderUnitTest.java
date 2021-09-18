@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.LoggerContext;

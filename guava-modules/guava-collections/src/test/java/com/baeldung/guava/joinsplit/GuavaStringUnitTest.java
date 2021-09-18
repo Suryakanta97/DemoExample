@@ -1,4 +1,4 @@
-package com.baeldung.guava.joinsplit;
+package com.surya.guava.joinsplit;
 
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.containsString;

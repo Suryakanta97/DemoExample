@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.roundedup;
+package com.surya.algorithms.roundedup;
 
 import static org.junit.Assert.assertEquals;
 

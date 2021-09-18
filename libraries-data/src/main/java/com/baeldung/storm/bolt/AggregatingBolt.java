@@ -1,4 +1,4 @@
-package com.baeldung.storm.bolt;
+package com.surya.storm.bolt;
 
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;

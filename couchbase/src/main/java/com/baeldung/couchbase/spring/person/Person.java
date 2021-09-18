@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.person;
+package com.surya.couchbase.spring.person;
 
 public class Person {
 

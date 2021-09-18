@@ -1,4 +1,4 @@
-package com.baeldung.versioncomparison;
+package com.surya.versioncomparison;
 
 public class VersionCompare {
 

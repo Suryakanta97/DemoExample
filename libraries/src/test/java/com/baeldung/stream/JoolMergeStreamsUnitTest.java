@@ -1,4 +1,4 @@
-package com.baeldung.stream;
+package com.surya.stream;
 
 import org.jooq.lambda.Seq;
 import org.junit.Assert;

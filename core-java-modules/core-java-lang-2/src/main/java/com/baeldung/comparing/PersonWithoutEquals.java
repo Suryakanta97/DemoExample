@@ -1,4 +1,4 @@
-package com.baeldung.comparing;
+package com.surya.comparing;
 
 public class PersonWithoutEquals {
     private String firstName;

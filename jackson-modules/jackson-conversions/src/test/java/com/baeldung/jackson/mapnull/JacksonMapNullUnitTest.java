@@ -1,4 +1,4 @@
-package com.baeldung.jackson.mapnull;
+package com.surya.jackson.mapnull;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonGenerator;

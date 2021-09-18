@@ -1,9 +1,9 @@
-package com.baeldung.netflix.mantis.job;
+package com.surya.netflix.mantis.job;
 
-import com.baeldung.netflix.mantis.model.LogEvent;
-import com.baeldung.netflix.mantis.sink.LogSink;
-import com.baeldung.netflix.mantis.source.RandomLogSource;
-import com.baeldung.netflix.mantis.stage.TransformLogStage;
+import com.surya.netflix.mantis.model.LogEvent;
+import com.surya.netflix.mantis.sink.LogSink;
+import com.surya.netflix.mantis.source.RandomLogSource;
+import com.surya.netflix.mantis.stage.TransformLogStage;
 import io.mantisrx.runtime.Job;
 import io.mantisrx.runtime.MantisJob;
 import io.mantisrx.runtime.MantisJobProvider;

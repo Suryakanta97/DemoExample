@@ -1,10 +1,10 @@
-package com.baeldung.patterns.cqrs.commands;
+package com.surya.patterns.cqrs.commands;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

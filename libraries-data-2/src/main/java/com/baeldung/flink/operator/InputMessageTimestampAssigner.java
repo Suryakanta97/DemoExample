@@ -1,6 +1,6 @@
-package com.baeldung.flink.operator;
+package com.surya.flink.operator;
 
-import com.baeldung.flink.model.InputMessage;
+import com.surya.flink.model.InputMessage;
 import org.apache.flink.streaming.api.functions.AssignerWithPunctuatedWatermarks;
 import org.apache.flink.streaming.api.watermark.Watermark;
 

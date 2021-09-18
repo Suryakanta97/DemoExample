@@ -1,4 +1,4 @@
-package com.baeldung.flywaycallbacks;
+package com.surya.flywaycallbacks;
 
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.MigrationInfo;

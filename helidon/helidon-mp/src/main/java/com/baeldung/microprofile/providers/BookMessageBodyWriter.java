@@ -1,7 +1,7 @@
-package com.baeldung.microprofile.providers;
+package com.surya.microprofile.providers;
 
-import com.baeldung.microprofile.model.Book;
-import com.baeldung.microprofile.util.BookMapper;
+import com.surya.microprofile.model.Book;
+import com.surya.microprofile.util.BookMapper;
 
 import javax.json.Json;
 import javax.json.JsonObject;

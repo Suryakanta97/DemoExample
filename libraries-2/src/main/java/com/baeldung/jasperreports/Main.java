@@ -1,6 +1,6 @@
-package com.baeldung.jasperreports;
+package com.surya.jasperreports;
 
-import com.baeldung.jasperreports.config.JasperRerportsSimpleConfig;
+import com.surya.jasperreports.config.JasperRerportsSimpleConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.HashMap;
@@ -31,7 +31,7 @@ public class Main {
         SimpleReportExporter simpleExporter = ctx.getBean(SimpleReportExporter.class);
         simpleExporter.setJasperPrint(simpleReportFiller.getJasperPrint());
 
-        simpleExporter.exportToPdf("employeeReport.pdf", "baeldung");
+        simpleExporter.exportToPdf("employeeReport.pdf", "surya");
         simpleExporter.exportToXlsx("employeeReport.xlsx", "Employee Data");
         simpleExporter.exportToCsv("employeeReport.csv");
         simpleExporter.exportToHtml("employeeReport.html");

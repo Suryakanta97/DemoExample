@@ -1,9 +1,9 @@
-package com.baeldung.infinispan;
+package com.surya.infinispan;
 
-import com.baeldung.infinispan.listener.CacheListener;
-import com.baeldung.infinispan.repository.HelloWorldRepository;
-import com.baeldung.infinispan.service.HelloWorldService;
-import com.baeldung.infinispan.service.TransactionalService;
+import com.surya.infinispan.listener.CacheListener;
+import com.surya.infinispan.repository.HelloWorldRepository;
+import com.surya.infinispan.service.HelloWorldService;
+import com.surya.infinispan.service.TransactionalService;
 import org.infinispan.Cache;
 import org.infinispan.manager.DefaultCacheManager;
 import org.junit.After;

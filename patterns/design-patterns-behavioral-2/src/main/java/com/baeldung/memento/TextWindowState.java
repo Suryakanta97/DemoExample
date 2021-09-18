@@ -1,4 +1,4 @@
-package com.baeldung.memento;
+package com.surya.memento;
 
 public class TextWindowState {
 

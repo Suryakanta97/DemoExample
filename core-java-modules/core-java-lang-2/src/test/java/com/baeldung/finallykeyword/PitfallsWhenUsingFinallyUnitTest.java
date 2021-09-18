@@ -1,4 +1,4 @@
-package com.baeldung.finallykeyword;
+package com.surya.finallykeyword;
 
 import static org.junit.Assert.*;
 

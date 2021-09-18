@@ -1,4 +1,4 @@
-package com.baeldung.formatter;
+package com.surya.formatter;
 
 import org.junit.Test;
 

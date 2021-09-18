@@ -1,4 +1,4 @@
-package com.baeldung.msf4j.msf4jspring.configuration;
+package com.surya.msf4j.msf4jspring.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

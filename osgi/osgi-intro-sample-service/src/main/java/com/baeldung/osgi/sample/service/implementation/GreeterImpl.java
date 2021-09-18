@@ -1,6 +1,6 @@
-package com.baeldung.osgi.sample.service.implementation;
+package com.surya.osgi.sample.service.implementation;
 
-import com.baeldung.osgi.sample.service.definition.Greeter;
+import com.surya.osgi.sample.service.definition.Greeter;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;

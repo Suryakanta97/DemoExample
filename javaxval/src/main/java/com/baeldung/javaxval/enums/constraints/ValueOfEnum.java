@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.enums.constraints;
+package com.surya.javaxval.enums.constraints;
 
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
-import com.baeldung.javaxval.enums.ValueOfEnumValidator;
+import com.surya.javaxval.enums.ValueOfEnumValidator;
 
 @Target({ METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER, TYPE_USE })
 @Retention(RUNTIME)

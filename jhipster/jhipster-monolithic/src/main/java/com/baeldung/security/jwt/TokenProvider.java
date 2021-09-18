@@ -1,4 +1,4 @@
-package com.baeldung.security.jwt;
+package com.surya.security.jwt;
 
 import io.github.jhipster.config.JHipsterProperties;
 

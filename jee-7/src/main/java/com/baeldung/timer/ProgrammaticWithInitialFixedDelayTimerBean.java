@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;

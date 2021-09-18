@@ -1,4 +1,4 @@
-package com.baeldung.gson.deserialization;
+package com.surya.gson.deserialization;
 
 public class Foo {
     public int intValue;

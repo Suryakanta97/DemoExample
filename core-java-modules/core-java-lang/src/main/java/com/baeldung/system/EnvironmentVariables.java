@@ -1,4 +1,4 @@
-package com.baeldung.system;
+package com.surya.system;
 
 public class EnvironmentVariables {
     public String getPath() {

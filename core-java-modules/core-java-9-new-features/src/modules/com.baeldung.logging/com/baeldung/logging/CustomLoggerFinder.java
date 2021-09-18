@@ -1,4 +1,4 @@
-package com.baeldung.logging;
+package com.surya.logging;
 
 public class CustomLoggerFinder extends System.LoggerFinder {
 

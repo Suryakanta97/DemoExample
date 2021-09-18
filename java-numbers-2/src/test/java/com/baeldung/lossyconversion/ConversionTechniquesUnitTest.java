@@ -1,4 +1,4 @@
-package com.baeldung.lossyconversion;
+package com.surya.lossyconversion;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

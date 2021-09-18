@@ -1,4 +1,4 @@
-package com.baeldung.streams.conversion;
+package com.surya.streams.conversion;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsIterableContainingInOrder.contains;

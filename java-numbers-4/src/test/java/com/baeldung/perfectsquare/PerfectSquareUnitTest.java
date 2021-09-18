@@ -1,4 +1,4 @@
-package com.baeldung.perfectsquare;
+package com.surya.perfectsquare;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

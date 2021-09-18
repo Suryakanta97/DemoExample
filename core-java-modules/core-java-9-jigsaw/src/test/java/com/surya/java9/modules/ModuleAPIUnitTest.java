@@ -89,11 +89,11 @@ public class ModuleAPIUnitTest {
 
     @Test
     public void givenModuleName_whenBuildingModuleDescriptor_thenBuilt() {
-        Builder moduleBuilder = ModuleDescriptor.newModule("baeldung.base");
+        Builder moduleBuilder = ModuleDescriptor.newModule("surya.base");
 
         ModuleDescriptor moduleDescriptor = moduleBuilder.build();
 
-        assertThat(moduleDescriptor.name(), is("baeldung.base"));
+        assertThat(moduleDescriptor.name(), is("surya.base"));
     }
 
     @Test
@@ -159,16 +159,16 @@ public class ModuleAPIUnitTest {
 
     @Test
     public void whenExportingPackage_thenPackageIsExported() {
-        Module updatedModule = module.addExports("com.baeldung.java9.modules", javaSqlModule);
+        Module updatedModule = module.addExports("com.surya.java9.modules", javaSqlModule);
 
-        assertTrue(updatedModule.isExported("com.baeldung.java9.modules"));
+        assertTrue(updatedModule.isExported("com.surya.java9.modules"));
     }
 
     @Test
     public void whenOpeningAModulePackage_thenPackagedIsOpened() {
-        Module updatedModule = module.addOpens("com.baeldung.java9.modules", javaSqlModule);
+        Module updatedModule = module.addOpens("com.surya.java9.modules", javaSqlModule);
 
-        assertTrue(updatedModule.isOpen("com.baeldung.java9.modules", javaSqlModule));
+        assertTrue(updatedModule.isOpen("com.surya.java9.modules", javaSqlModule));
     }
 
     @Test

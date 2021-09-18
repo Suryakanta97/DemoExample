@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;
 
-import com.baeldung.jhipster.uaa.domain.User;
-import com.baeldung.jhipster.uaa.repository.UserRepository;
+import com.surya.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.repository.UserRepository;
 import org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

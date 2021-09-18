@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +19,7 @@ public class MaskingPatternLayoutExample {
         user.put("city", "Chicago");
         user.put("Country", "U.S.");
         user.put("ip_address", "192.168.1.1");
-        user.put("email_id", "spring@baeldung.com");
+        user.put("email_id", "spring@surya.com");
         JSONObject userDetails = new JSONObject(user);
 
         logger.info("MaskingPatternExample log from {}" + userDetails, MaskingPatternLayoutExample.class.getSimpleName());

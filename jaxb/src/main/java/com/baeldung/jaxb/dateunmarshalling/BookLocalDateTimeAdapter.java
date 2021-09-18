@@ -1,4 +1,4 @@
-package com.baeldung.jaxb.dateunmarshalling;
+package com.surya.jaxb.dateunmarshalling;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

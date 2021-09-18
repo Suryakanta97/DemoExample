@@ -1,4 +1,4 @@
-package com.baeldung.checkclassexistence;
+package com.surya.checkclassexistence;
 
 import org.junit.Test;
 
@@ -24,11 +24,11 @@ public class CheckClassExistenceUnitTest {
 
     @Test(expected = ExceptionInInitializerError.class) //thrown when exception occurs inside of a static initialization block
     public void givenInitializingClass_whenUsingForName_thenInitializationError() throws ClassNotFoundException {
-        Class.forName("com.baeldung.checkclassexistence.CheckClassExistenceUnitTest$InitializingClass");
+        Class.forName("com.surya.checkclassexistence.CheckClassExistenceUnitTest$InitializingClass");
     }
 
     @Test
     public void givenInitializingClass_whenUsingForNameWithoutInitialization_thenNoException() throws ClassNotFoundException {
-        Class.forName("com.baeldung.checkclassexistence.CheckClassExistenceUnitTest$InitializingClass", false, getClass().getClassLoader());
+        Class.forName("com.surya.checkclassexistence.CheckClassExistenceUnitTest$InitializingClass", false, getClass().getClassLoader());
     }
 }

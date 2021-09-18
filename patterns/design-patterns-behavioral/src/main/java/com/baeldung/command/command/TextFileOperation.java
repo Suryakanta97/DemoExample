@@ -1,4 +1,4 @@
-package com.baeldung.command.command;
+package com.surya.command.command;
 
 @FunctionalInterface
 public interface TextFileOperation {

@@ -1,5 +1,5 @@
-Agent-Class: com.baeldung.instrumentation.agent.MyInstrumentationAgent
+Agent-Class: com.surya.instrumentation.agent.MyInstrumentationAgent
 Can-Redefine-Classes: true
 Can-Retransform-Classes: true
-Premain-Class: com.baeldung.instrumentation.agent.MyInstrumentationAgent
-Main-Class: com.baeldung.instrumentation.application.Launcher
+Premain-Class: com.surya.instrumentation.agent.MyInstrumentationAgent
+Main-Class: com.surya.instrumentation.application.Launcher

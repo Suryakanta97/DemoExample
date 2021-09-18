@@ -1,3 +1,3 @@
-package com.baeldung.libraries.opencsv.beans;
+package com.surya.libraries.opencsv.beans;
 
 public class CsvBean { }

@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.exception;
+package com.surya.hibernate.exception;
 
 import static org.hamcrest.CoreMatchers.isA;
 import static org.junit.Assert.assertNotNull;
@@ -391,7 +391,7 @@ public class HibernateExceptionUnitTest {
         thrown.expect(isA(PersistenceException.class));
         thrown.expectCause(isA(HibernateException.class));
         thrown.expectMessage(
-            "identifier of an instance of com.baeldung.hibernate.exception.Product was altered");
+            "identifier of an instance of com.surya.hibernate.exception.Product was altered");
 
         Session session = null;
         Transaction transaction = null;

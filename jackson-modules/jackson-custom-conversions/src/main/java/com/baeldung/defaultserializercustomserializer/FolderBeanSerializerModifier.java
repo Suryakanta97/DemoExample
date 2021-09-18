@@ -1,4 +1,4 @@
-package com.baeldung.defaultserializercustomserializer;
+package com.surya.defaultserializercustomserializer;
 
 import com.fasterxml.jackson.databind.BeanDescription;
 import com.fasterxml.jackson.databind.JsonSerializer;

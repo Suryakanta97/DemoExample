@@ -1,4 +1,4 @@
-package com.baeldung.repositoryvsdaopattern;
+package com.surya.repositoryvsdaopattern;
 
 public interface UserDao {
     

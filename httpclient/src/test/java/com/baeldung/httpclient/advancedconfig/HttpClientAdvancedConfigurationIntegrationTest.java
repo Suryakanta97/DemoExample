@@ -1,4 +1,4 @@
-package com.baeldung.httpclient.advancedconfig;
+package com.surya.httpclient.advancedconfig;
 
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
@@ -45,7 +45,7 @@ public class HttpClientAdvancedConfigurationIntegrationTest {
     @Test
     public void givenClientWithCustomUserAgentHeader_whenExecuteRequest_shouldReturn200() throws IOException {
         //given
-        String userAgent = "BaeldungAgent/1.0";
+        String userAgent = "suryaAgent/1.0";
         serviceMock.stubFor(get(urlEqualTo("/detail"))
           .withHeader("User-Agent", equalTo(userAgent))
           .willReturn(aResponse()

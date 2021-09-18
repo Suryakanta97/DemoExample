@@ -1,4 +1,4 @@
-package com.baeldung.password;
+package com.surya.password;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.text.RandomStringGenerator;

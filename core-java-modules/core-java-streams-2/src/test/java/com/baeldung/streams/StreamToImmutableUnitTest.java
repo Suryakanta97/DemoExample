@@ -1,4 +1,4 @@
-package com.baeldung.streams;
+package com.surya.streams;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;

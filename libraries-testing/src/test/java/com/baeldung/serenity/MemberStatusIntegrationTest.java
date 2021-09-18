@@ -1,6 +1,6 @@
-package com.baeldung.serenity;
+package com.surya.serenity;
 
-import com.baeldung.serenity.membership.MemberStatusSteps;
+import com.surya.serenity.membership.MemberStatusSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
@@ -8,10 +8,10 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static com.baeldung.serenity.membership.Commodity.MacBookPro;
-import static com.baeldung.serenity.membership.MemberGrade.Bronze;
-import static com.baeldung.serenity.membership.MemberGrade.Gold;
-import static com.baeldung.serenity.membership.MemberGrade.Silver;
+import static com.surya.serenity.membership.Commodity.MacBookPro;
+import static com.surya.serenity.membership.MemberGrade.Bronze;
+import static com.surya.serenity.membership.MemberGrade.Gold;
+import static com.surya.serenity.membership.MemberGrade.Silver;
 
 @RunWith(SerenityRunner.class)
 public class MemberStatusIntegrationTest {

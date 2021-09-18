@@ -1,7 +1,7 @@
-package com.baeldung.ddd.order.doubledispatch.visitor;
+package com.surya.ddd.order.doubledispatch.visitor;
 
-import com.baeldung.ddd.order.doubledispatch.Order;
-import com.baeldung.ddd.order.doubledispatch.SpecialOrder;
+import com.surya.ddd.order.doubledispatch.Order;
+import com.surya.ddd.order.doubledispatch.SpecialOrder;
 
 public class HtmlOrderViewCreator implements OrderVisitor {
     

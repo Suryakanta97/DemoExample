@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonproperty;
+package com.surya.jackson.jsonproperty;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;

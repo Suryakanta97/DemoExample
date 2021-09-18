@@ -1,4 +1,4 @@
-package com.baeldung.javaeeannotations;
+package com.surya.javaeeannotations;
 
 import java.io.IOException;
 import java.io.PrintWriter;

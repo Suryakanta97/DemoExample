@@ -1,4 +1,4 @@
-package com.baeldung.retrofitguide;
+package com.surya.retrofitguide;
 
 import java.io.IOException;
 import okhttp3.OkHttpClient;

@@ -1,4 +1,4 @@
-package com.baeldung.integerToBinary;
+package com.surya.integerToBinary;
 
 public class IntegerToBinary {
     public static String convertIntegerToBinary(int n) {

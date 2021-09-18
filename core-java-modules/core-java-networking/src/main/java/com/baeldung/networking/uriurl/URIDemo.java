@@ -1,4 +1,4 @@
-package com.baeldung.networking.uriurl;
+package com.surya.networking.uriurl;
 
 import java.io.BufferedReader;
 import java.io.IOException;

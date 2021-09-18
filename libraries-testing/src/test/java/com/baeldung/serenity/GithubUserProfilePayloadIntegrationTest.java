@@ -1,4 +1,4 @@
-package com.baeldung.serenity;
+package com.surya.serenity;
 
 import net.serenitybdd.jbehave.SerenityStory;
 

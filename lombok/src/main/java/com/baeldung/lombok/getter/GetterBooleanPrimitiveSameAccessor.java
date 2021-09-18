@@ -1,4 +1,4 @@
-package com.baeldung.lombok.getter;
+package com.surya.lombok.getter;
 
 
 import lombok.Getter;

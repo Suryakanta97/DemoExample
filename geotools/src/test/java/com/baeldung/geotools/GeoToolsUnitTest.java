@@ -1,4 +1,4 @@
-package com.baeldung.geotools;
+package com.surya.geotools;
 
 import static org.junit.Assert.assertNotNull;
 

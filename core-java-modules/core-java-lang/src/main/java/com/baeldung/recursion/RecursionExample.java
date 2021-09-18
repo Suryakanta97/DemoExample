@@ -1,4 +1,4 @@
-package com.baeldung.recursion;
+package com.surya.recursion;
 
 public class RecursionExample {
     

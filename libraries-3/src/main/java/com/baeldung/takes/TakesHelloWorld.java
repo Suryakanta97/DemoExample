@@ -1,4 +1,4 @@
-package com.baeldung.takes;
+package com.surya.takes;
 
 import org.takes.Request;
 import org.takes.Response;

@@ -1,4 +1,4 @@
-package com.baeldung.guava.eventbus;
+package com.surya.guava.eventbus;
 
 import com.google.common.eventbus.DeadEvent;
 import com.google.common.eventbus.Subscribe;

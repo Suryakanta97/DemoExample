@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import javax.ejb.Singleton;
 import javax.ejb.Startup;

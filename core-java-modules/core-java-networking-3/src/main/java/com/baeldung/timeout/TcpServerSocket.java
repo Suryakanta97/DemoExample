@@ -1,4 +1,4 @@
-package com.baeldung.timeout;
+package com.surya.timeout;
 
 import java.io.BufferedReader;
 import java.io.IOException;

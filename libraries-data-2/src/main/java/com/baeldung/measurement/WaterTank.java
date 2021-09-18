@@ -1,4 +1,4 @@
-package com.baeldung.measurement;
+package com.surya.measurement;
 
 import javax.measure.Quantity;
 import javax.measure.quantity.Volume;

@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.config;
+package com.surya.jhipster.uaa.config;
 
 import java.net.InetSocketAddress;
 import java.util.Iterator;

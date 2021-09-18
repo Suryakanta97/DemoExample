@@ -1,4 +1,4 @@
-package com.baeldung.clock;
+package com.surya.clock;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

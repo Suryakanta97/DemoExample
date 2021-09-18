@@ -1,4 +1,4 @@
-package com.baeldung.defaultparams;
+package com.surya.defaultparams;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;

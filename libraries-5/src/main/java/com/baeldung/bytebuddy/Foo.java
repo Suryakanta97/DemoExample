@@ -1,4 +1,4 @@
-package com.baeldung.bytebuddy;
+package com.surya.bytebuddy;
 
 public class Foo {
 

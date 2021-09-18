@@ -1,4 +1,4 @@
-package com.baeldung.ignore.pattern.metacharacters;
+package com.surya.ignore.pattern.metacharacters;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,3 +1,3 @@
 ### Relevant Articles
 
-- [Introduction to Ninja Framework](https://www.baeldung.com/ninja-framework-intro)
+- [Introduction to Ninja Framework](https://www.surya.com/ninja-framework-intro)

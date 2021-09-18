@@ -1,4 +1,4 @@
-package com.baeldung.casting;
+package com.surya.casting;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

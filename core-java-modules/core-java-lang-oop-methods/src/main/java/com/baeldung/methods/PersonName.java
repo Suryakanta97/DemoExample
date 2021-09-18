@@ -1,4 +1,4 @@
-package com.baeldung.methods;
+package com.surya.methods;
 
 import java.io.FileWriter;
 import java.io.IOException;

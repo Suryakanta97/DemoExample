@@ -1,4 +1,4 @@
-package com.baeldung.conversion;
+package com.surya.conversion;
 
 import org.junit.Assert;
 import org.junit.Test;

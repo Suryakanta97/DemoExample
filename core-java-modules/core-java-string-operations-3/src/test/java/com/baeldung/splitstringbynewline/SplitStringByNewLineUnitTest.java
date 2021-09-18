@@ -1,4 +1,4 @@
-package com.baeldung.splitstringbynewline;
+package com.surya.splitstringbynewline;
 
 import org.junit.Test;
 

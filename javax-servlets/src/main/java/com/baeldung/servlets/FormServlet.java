@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.surya.servlets;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.annotation.WebServlet;

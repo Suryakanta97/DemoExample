@@ -3,7 +3,7 @@ package com.surya.jarArguments;
 public class JarExample {
 
     public static void main(String[] args) {
-        System.out.println("Hello Baeldung Reader in JarExample!");
+        System.out.println("Hello surya Reader in JarExample!");
         
         if(args == null) {
             System.out.println("You have not provided any arguments!");

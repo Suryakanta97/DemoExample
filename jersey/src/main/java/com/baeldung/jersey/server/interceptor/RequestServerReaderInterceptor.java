@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.interceptor;
+package com.surya.jersey.server.interceptor;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

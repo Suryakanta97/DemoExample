@@ -1,6 +1,6 @@
-package com.baeldung.okhttp.ssl;
+package com.surya.okhttp.ssl;
 
-import static com.baeldung.okhttp.Consts.SSL_APPLICATION_PORT;
+import static com.surya.okhttp.Consts.SSL_APPLICATION_PORT;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -25,7 +25,7 @@ import okhttp3.Response;
 
 /**
  * Execute <code>spring-security-web-boot-2</code> module before running this live test
- * @see com.baeldung.ssl.HttpsEnabledApplication
+ * @see com.surya.ssl.HttpsEnabledApplication
  */
 public class OkHttpSSLSelfSignedCertLiveTest {
 

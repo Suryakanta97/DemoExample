@@ -1,4 +1,4 @@
-package com.baeldung.filenotfoundexception;
+package com.surya.filenotfoundexception;
 
 import org.junit.Test;
 import org.slf4j.Logger;

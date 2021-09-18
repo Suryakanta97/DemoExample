@@ -1,4 +1,4 @@
-package com.baeldung.mappingexception;
+package com.surya.mappingexception;
 
 public class MyDtoNoAccessors {
 

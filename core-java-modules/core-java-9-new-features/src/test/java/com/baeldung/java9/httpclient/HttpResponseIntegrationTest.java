@@ -1,4 +1,4 @@
-package com.baeldung.java9.httpclient;
+package com.surya.java9.httpclient;
 
 import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;

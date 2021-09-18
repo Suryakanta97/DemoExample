@@ -1,6 +1,6 @@
-package com.baeldung.microprofile.repo;
+package com.surya.microprofile.repo;
 
-import com.baeldung.microprofile.model.Book;
+import com.surya.microprofile.model.Book;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.time.LocalDate;
@@ -24,7 +24,7 @@ public class BookManager {
         book.setId(getNextId());
         book.setName("Building Microservice With Eclipse MicroProfile");
         book.setIsbn("1");
-        book.setAuthor("baeldung");
+        book.setAuthor("surya");
         book.setPages(420);
         inMemoryStore.put(book.getId(), book);
     }

@@ -1,4 +1,4 @@
-package com.baeldung.flyweight;
+package com.surya.flyweight;
 
 import java.awt.Color;
 
@@ -50,7 +50,7 @@ public class Car implements Vehicle {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.baeldung.flyweight.Vehicle#start()
+	 * @see com.surya.flyweight.Vehicle#start()
 	 */
 	@Override
 	public void start() {
@@ -61,7 +61,7 @@ public class Car implements Vehicle {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.baeldung.flyweight.Vehicle#stop()
+	 * @see com.surya.flyweight.Vehicle#stop()
 	 */
 	@Override
 	public void stop() {
@@ -72,7 +72,7 @@ public class Car implements Vehicle {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.baeldung.flyweight.Vehicle#getColor()
+	 * @see com.surya.flyweight.Vehicle#getColor()
 	 */
 	@Override
 	public Color getColor() {

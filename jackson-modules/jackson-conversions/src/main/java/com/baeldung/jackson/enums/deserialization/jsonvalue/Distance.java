@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization.jsonvalue;
+package com.surya.jackson.enums.deserialization.jsonvalue;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 

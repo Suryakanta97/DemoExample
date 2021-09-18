@@ -1,4 +1,4 @@
-package com.baeldung.composite;
+package com.surya.composite;
 
 /**
  * Created by Gebruiker on 5/3/2018.

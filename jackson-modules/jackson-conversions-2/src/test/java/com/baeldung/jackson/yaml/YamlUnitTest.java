@@ -1,4 +1,4 @@
-package com.baeldung.jackson.yaml;
+package com.surya.jackson.yaml;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

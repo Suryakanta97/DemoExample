@@ -1,4 +1,4 @@
-package com.baeldung.stringpool;
+package com.surya.stringpool;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,32 +8,32 @@ public class StringPoolUnitTest {
 
     @Test
     public void whenCreatingConstantStrings_thenTheirAddressesAreEqual() {
-        String constantString1 = "Baeldung";
-        String constantString2 = "Baeldung";
+        String constantString1 = "surya";
+        String constantString2 = "surya";
 
         assertThat(constantString1).isSameAs(constantString2);
     }
 
     @Test
     public void whenCreatingStringsWithTheNewOperator_thenTheirAddressesAreDifferent() {
-        String newString1 = new String("Baeldung");
-        String newString2 = new String("Baeldung");
+        String newString1 = new String("surya");
+        String newString2 = new String("surya");
 
         assertThat(newString1).isNotSameAs(newString2);
     }
 
     @Test
     public void whenComparingConstantAndNewStrings_thenTheirAddressesAreDifferent() {
-        String constantString = "Baeldung";
-        String newString = new String("Baeldung");
+        String constantString = "surya";
+        String newString = new String("surya");
 
         assertThat(constantString).isNotSameAs(newString);
     }
 
     @Test
     public void whenInterningAStringWithIdenticalValueToAnother_thenTheirAddressesAreEqual() {
-        String constantString = "interned Baeldung";
-        String newString = new String("interned Baeldung");
+        String constantString = "interned surya";
+        String newString = new String("interned surya");
 
         assertThat(constantString).isNotSameAs(newString);
 

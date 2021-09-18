@@ -1,4 +1,4 @@
-package com.baeldung.diamondoperator;
+package com.surya.diamondoperator;
 
 public interface Vehicle<T extends Engine> {
 

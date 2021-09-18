@@ -1,10 +1,10 @@
-package com.baeldung.performancetests.dozer;
+package com.surya.performancetests.dozer;
 
-import com.baeldung.performancetests.Converter;
-import com.baeldung.performancetests.model.destination.DestinationCode;
-import com.baeldung.performancetests.model.destination.Order;
-import com.baeldung.performancetests.model.source.SourceCode;
-import com.baeldung.performancetests.model.source.SourceOrder;
+import com.surya.performancetests.Converter;
+import com.surya.performancetests.model.destination.DestinationCode;
+import com.surya.performancetests.model.destination.Order;
+import com.surya.performancetests.model.source.SourceCode;
+import com.surya.performancetests.model.source.SourceOrder;
 import com.github.dozermapper.core.DozerBeanMapperBuilder;
 import com.github.dozermapper.core.Mapper;
 

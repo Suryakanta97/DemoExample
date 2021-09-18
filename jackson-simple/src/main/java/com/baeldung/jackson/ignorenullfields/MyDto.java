@@ -1,4 +1,4 @@
-package com.baeldung.jackson.ignorenullfields;
+package com.surya.jackson.ignorenullfields;
 
 public class MyDto {
 

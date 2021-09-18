@@ -1,4 +1,4 @@
-package com.baeldung.service;
+package com.surya.service;
 
 import org.springframework.stereotype.Service;
 

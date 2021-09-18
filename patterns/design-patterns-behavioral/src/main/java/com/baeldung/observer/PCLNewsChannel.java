@@ -1,4 +1,4 @@
-package com.baeldung.observer;
+package com.surya.observer;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

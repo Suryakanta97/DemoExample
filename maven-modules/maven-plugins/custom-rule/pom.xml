@@ -7,7 +7,7 @@
     <name>custom-rule</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>maven-plugins</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

@@ -1,4 +1,4 @@
-package com.baeldung.writebytearray;
+package com.surya.writebytearray;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

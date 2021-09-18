@@ -1,4 +1,4 @@
-package com.baeldung.r;
+package com.surya.r;
 
 import org.junit.Assert;
 import org.junit.Ignore;

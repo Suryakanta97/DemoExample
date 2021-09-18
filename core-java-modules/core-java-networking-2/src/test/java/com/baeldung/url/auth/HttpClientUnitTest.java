@@ -1,4 +1,4 @@
-package com.baeldung.url.auth;
+package com.surya.url.auth;
 
 import static org.junit.Assert.assertTrue;
 

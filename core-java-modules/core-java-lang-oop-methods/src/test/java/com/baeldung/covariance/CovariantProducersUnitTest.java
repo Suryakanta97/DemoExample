@@ -1,4 +1,4 @@
-package com.baeldung.covariance;
+package com.surya.covariance;
 
 import org.junit.jupiter.api.Test;
 

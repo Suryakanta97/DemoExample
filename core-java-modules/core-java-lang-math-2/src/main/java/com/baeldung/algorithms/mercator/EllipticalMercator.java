@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.mercator;
+package com.surya.algorithms.mercator;
 
 class EllipticalMercator extends Mercator {
 

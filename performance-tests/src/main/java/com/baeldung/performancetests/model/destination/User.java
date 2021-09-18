@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
 import com.google.common.base.Objects;
 import com.googlecode.jmapper.annotations.JGlobalMap;
@@ -43,9 +43,9 @@ public class User {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null) return false;
-        if (o.getClass() == com.baeldung.performancetests.model.source.User.class) {
-            com.baeldung.performancetests.model.source.User user =
-              (com.baeldung.performancetests.model.source.User) o;
+        if (o.getClass() == com.surya.performancetests.model.source.User.class) {
+            com.surya.performancetests.model.source.User user =
+              (com.surya.performancetests.model.source.User) o;
             return Objects.equal(username, user.getUsername()) &&
                     Objects.equal(email, user.getEmail()) &&
                     userAccountStatus.ordinal() == user.getUserAccountStatus().ordinal();
@@ -68,7 +68,7 @@ public class User {
 
 
     @JMapConversion(from = "userAccountStatus", to = "userAccountStatus")
-    public AccountStatus conversion(com.baeldung.performancetests.model.source.AccountStatus status) {
+    public AccountStatus conversion(com.surya.performancetests.model.source.AccountStatus status) {
         AccountStatus accountStatus = null;
         switch(status) {
             case ACTIVE:

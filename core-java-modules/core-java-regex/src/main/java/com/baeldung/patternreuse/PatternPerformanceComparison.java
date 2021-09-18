@@ -1,4 +1,4 @@
-package com.baeldung.patternreuse;
+package com.surya.patternreuse;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;

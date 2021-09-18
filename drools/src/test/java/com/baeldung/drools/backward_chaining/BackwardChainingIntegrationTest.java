@@ -1,12 +1,12 @@
-package com.baeldung.drools.backward_chaining;
+package com.surya.drools.backward_chaining;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.kie.api.runtime.KieSession;
 
-import com.baeldung.drools.config.DroolsBeanFactory;
-import com.baeldung.drools.model.Fact;
-import com.baeldung.drools.model.Result;
+import com.surya.drools.config.DroolsBeanFactory;
+import com.surya.drools.model.Fact;
+import com.surya.drools.model.Result;
 
 import static junit.framework.TestCase.assertEquals;
 

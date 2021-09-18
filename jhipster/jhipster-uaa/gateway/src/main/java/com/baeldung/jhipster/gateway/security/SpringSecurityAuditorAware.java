@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.security;
+package com.surya.jhipster.gateway.security;
 
-import com.baeldung.jhipster.gateway.config.Constants;
+import com.surya.jhipster.gateway.config.Constants;
 
 import java.util.Optional;
 

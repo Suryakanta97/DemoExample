@@ -1,4 +1,4 @@
-package com.baeldung.anonymous;
+package com.surya.anonymous;
 
 public class Book {
 

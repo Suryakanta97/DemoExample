@@ -4,8 +4,8 @@ This module contains articles about the core Maven plugins. Other Maven plugins 
 
 ### Relevant Articles
 
-- [Guide to the Core Maven Plugins](https://www.baeldung.com/core-maven-plugins)
-- [Maven Resources Plugin](https://www.baeldung.com/maven-resources-plugin)
-- [The Maven Verifier Plugin](https://www.baeldung.com/maven-verifier-plugin)
-- [The Maven Clean Plugin](https://www.baeldung.com/maven-clean-plugin)
-- [Maven Enforcer Plugin](https://www.baeldung.com/maven-enforcer-plugin)
+- [Guide to the Core Maven Plugins](https://www.surya.com/core-maven-plugins)
+- [Maven Resources Plugin](https://www.surya.com/maven-resources-plugin)
+- [The Maven Verifier Plugin](https://www.surya.com/maven-verifier-plugin)
+- [The Maven Clean Plugin](https://www.surya.com/maven-clean-plugin)
+- [Maven Enforcer Plugin](https://www.surya.com/maven-enforcer-plugin)

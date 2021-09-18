@@ -1,6 +1,6 @@
-package com.baeldung.feign;
+package com.surya.feign;
 
-import com.baeldung.feign.clients.BookClient;
+import com.surya.feign.clients.BookClient;
 import feign.Feign;
 import feign.Logger;
 import feign.gson.GsonDecoder;

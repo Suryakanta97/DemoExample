@@ -1,4 +1,4 @@
-package com.baeldung.numberofdigits;
+package com.surya.numberofdigits;
 
 public class NumberOfDigits {
     public int stringBasedSolution(int number) {

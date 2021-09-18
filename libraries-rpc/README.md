@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Introduction to Finagle](https://www.baeldung.com/java-finagle)
+- [Introduction to Finagle](https://www.surya.com/java-finagle)

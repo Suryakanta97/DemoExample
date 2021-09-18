@@ -1,4 +1,4 @@
-package com.baeldung.singleton.synchronization;
+package com.surya.singleton.synchronization;
 
 /**
  * Enum singleton pattern. Uses an enum to hold a reference to the singleton

@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.imgscalr;
+package com.surya.image.resize.imgscalr;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

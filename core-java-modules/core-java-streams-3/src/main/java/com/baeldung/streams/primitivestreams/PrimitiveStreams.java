@@ -1,4 +1,4 @@
-package com.baeldung.streams.primitivestreams;
+package com.surya.streams.primitivestreams;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

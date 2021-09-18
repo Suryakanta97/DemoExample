@@ -1,4 +1,4 @@
-package com.baeldung.flywaycallbacks;
+package com.surya.flywaycallbacks;
 
 import java.sql.Connection;
 

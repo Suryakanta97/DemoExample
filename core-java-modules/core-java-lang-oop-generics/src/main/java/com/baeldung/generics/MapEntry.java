@@ -1,4 +1,4 @@
-package com.baeldung.generics;
+package com.surya.generics;
 
 public class MapEntry<K, V> {
     private K key;

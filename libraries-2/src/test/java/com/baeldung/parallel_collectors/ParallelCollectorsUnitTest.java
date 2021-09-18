@@ -1,4 +1,4 @@
-package com.baeldung.parallel_collectors;
+package com.surya.parallel_collectors;
 
 import org.junit.Test;
 

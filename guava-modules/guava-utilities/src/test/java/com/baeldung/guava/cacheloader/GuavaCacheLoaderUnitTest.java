@@ -1,4 +1,4 @@
-package com.baeldung.guava.cacheloader;
+package com.surya.guava.cacheloader;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;

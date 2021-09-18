@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import io.github.jhipster.config.JHipsterProperties;
 import io.github.jhipster.config.jcache.JCacheGaugeSet;

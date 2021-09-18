@@ -1,4 +1,4 @@
-package com.baeldung.resource;
+package com.surya.resource;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.yaml;
+package com.surya.jackson.yaml;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

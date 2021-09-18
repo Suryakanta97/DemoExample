@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.surya.hystrix;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.SpringApplication;

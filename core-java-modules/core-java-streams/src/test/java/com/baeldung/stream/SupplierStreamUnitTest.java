@@ -1,4 +1,4 @@
-package com.baeldung.stream;
+package com.surya.stream;
 
 import static org.junit.Assert.fail;
 

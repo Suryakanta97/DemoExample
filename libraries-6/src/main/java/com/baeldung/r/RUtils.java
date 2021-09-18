@@ -1,4 +1,4 @@
-package com.baeldung.r;
+package com.surya.r;
 
 import java.io.IOException;
 import java.net.URI;

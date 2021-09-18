@@ -5,9 +5,9 @@
   programmatic configuration as defined in simple-configuration example.
 **/
 
-package com.baeldung.logging.log4j2.xmlconfiguration;
+package com.surya.logging.log4j2.xmlconfiguration;
 
-import com.baeldung.logging.log4j2.Log4j2BaseIntegrationTest;
+import com.surya.logging.log4j2.Log4j2BaseIntegrationTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;
@@ -21,7 +21,7 @@ public class XMLConfigLogIntegrationTest extends Log4j2BaseIntegrationTest {
 
     @BeforeClass
     public static void setUp() {
-        PluginManager.addPackage("com.baeldung.logging.log4j2.xmlconfiguration");
+        PluginManager.addPackage("com.surya.logging.log4j2.xmlconfiguration");
     }
 
     @Test

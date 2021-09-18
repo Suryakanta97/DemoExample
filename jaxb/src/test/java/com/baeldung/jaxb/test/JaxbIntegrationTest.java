@@ -1,4 +1,4 @@
-package com.baeldung.jaxb.test;
+package com.surya.jaxb.test;
 
 import java.io.File;
 import java.io.FileReader;
@@ -18,7 +18,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import com.baeldung.jaxb.Book;
+import com.surya.jaxb.Book;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class JaxbIntegrationTest {

@@ -1,6 +1,6 @@
-package com.baeldung.lombok.accessors;
+package com.surya.lombok.accessors;
 
-import com.baeldung.lombok.accessors.model.*;
+import com.surya.lombok.accessors.model.*;
 import org.junit.Test;
 
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.methodvalidation;
+package com.surya.javaxval.methodvalidation;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,9 +13,9 @@ import javax.validation.Validation;
 import javax.validation.ValidatorFactory;
 import javax.validation.executable.ExecutableValidator;
 
-import com.baeldung.javaxval.methodvalidation.model.Customer;
-import com.baeldung.javaxval.methodvalidation.model.Reservation;
-import com.baeldung.javaxval.methodvalidation.model.ReservationManagement;
+import com.surya.javaxval.methodvalidation.model.Customer;
+import com.surya.javaxval.methodvalidation.model.Reservation;
+import com.surya.javaxval.methodvalidation.model.ReservationManagement;
 import org.junit.Before;
 import org.junit.Test;
 

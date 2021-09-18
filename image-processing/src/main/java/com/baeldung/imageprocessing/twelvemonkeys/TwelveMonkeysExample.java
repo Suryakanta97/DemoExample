@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.twelvemonkeys;
+package com.surya.imageprocessing.twelvemonkeys;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

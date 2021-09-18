@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.oneToMany.model;
+package com.surya.hibernate.oneToMany.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

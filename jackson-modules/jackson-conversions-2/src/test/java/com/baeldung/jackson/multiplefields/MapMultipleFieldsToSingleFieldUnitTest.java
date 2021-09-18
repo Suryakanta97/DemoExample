@@ -1,4 +1,4 @@
-package com.baeldung.jackson.multiplefields;
+package com.surya.jackson.multiplefields;
 
 import static org.junit.Assert.assertEquals;
 

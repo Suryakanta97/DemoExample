@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration xmlns:xi="http://www.w3.org/2001/XInclude" 
-    packages="com.baeldung" status="WARN">
+    packages="com.surya" status="WARN">
     <Appenders>
         <xi:include
             href="log4j2-includes/console-appender_pattern-layout_colored.xml" />
@@ -33,7 +33,7 @@
             <Failovers> <AppenderRef ref="ConsoleAppender" /> </Failovers> </Failover> -->
         <JDBC name="JDBCAppender" tableName="logs">
             <ConnectionFactory
-                class="com.baeldung.logging.log4j2.tests.jdbc.ConnectionFactory"
+                class="com.surya.logging.log4j2.tests.jdbc.ConnectionFactory"
                 method="getConnection" />
             <Column name="when" isEventTimestamp="true" />
             <Column name="logger" pattern="%logger" />
@@ -86,7 +86,7 @@
             additivity="false">
             <AppenderRef ref="ConsoleJSONAppender" />
         </Logger>
-        <Logger name="com.baeldung.logging.log4j2.plugins" level="INFO">
+        <Logger name="com.surya.logging.log4j2.plugins" level="INFO">
             <AppenderRef ref="KafkaLogger" />
         </Logger>
         <Root level="DEBUG">

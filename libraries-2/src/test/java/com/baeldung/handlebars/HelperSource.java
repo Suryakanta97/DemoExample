@@ -1,4 +1,4 @@
-package com.baeldung.handlebars;
+package com.surya.handlebars;
 
 public class HelperSource {
 

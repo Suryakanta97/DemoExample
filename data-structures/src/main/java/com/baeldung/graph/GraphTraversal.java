@@ -1,4 +1,4 @@
-package com.baeldung.graph;
+package com.surya.graph;
 
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.Stack;
 
-import com.baeldung.graph.Graph.Vertex;
+import com.surya.graph.Graph.Vertex;
 
 public class GraphTraversal {
     static Set<String> depthFirstTraversal(Graph graph, String root) {

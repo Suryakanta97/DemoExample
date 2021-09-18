@@ -1,4 +1,4 @@
-package com.baeldung.unmappedproperties.dto;
+package com.surya.unmappedproperties.dto;
 
 public class CarDTO {
     private int id;

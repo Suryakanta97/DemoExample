@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung.kubernetes.admission.dto;
+package com.surya.kubernetes.admission.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

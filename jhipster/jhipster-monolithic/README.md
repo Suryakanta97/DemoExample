@@ -1,10 +1,10 @@
 ## Relevant Articles
 
-- [Intro to JHipster](https://www.baeldung.com/jhipster)
-- [Creating New Roles and Authorities in JHipster](https://www.baeldung.com/jhipster-new-roles)
+- [Intro to JHipster](https://www.surya.com/jhipster)
+- [Creating New Roles and Authorities in JHipster](https://www.surya.com/jhipster-new-roles)
 
 
-# baeldung
+# surya
 This application was generated using JHipster 4.0.8, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.0.8](https://jhipster.github.io/documentation-archive/v4.0.8).
 
 ## Development
@@ -76,7 +76,7 @@ will generate few files:
 
 ## Building for production
 
-To optimize the baeldung application for production, run:
+To optimize the surya application for production, run:
 
     ./mvnw -Pprod clean package
 

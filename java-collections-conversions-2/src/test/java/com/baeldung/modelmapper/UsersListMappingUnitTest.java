@@ -1,4 +1,4 @@
-package com.baeldung.modelmapper;
+package com.surya.modelmapper;
 
 import org.hamcrest.Matchers;
 import org.junit.Before;
@@ -38,9 +38,9 @@ public class UsersListMappingUnitTest {
                 .map(UserList::getUsers, UserListDTO::setUsernames));
 
         users = new ArrayList();
-        users.add(new User("b100", "user1", "user1@baeldung.com", "111-222", "USER"));
-        users.add(new User("b101", "user2", "user2@baeldung.com", "111-333", "USER"));
-        users.add(new User("b102", "user3", "user3@baeldung.com", "111-444", "ADMIN"));
+        users.add(new User("b100", "user1", "user1@surya.com", "111-222", "USER"));
+        users.add(new User("b101", "user2", "user2@surya.com", "111-333", "USER"));
+        users.add(new User("b102", "user3", "user3@surya.com", "111-444", "ADMIN"));
 
     }
 
@@ -69,7 +69,7 @@ public class UsersListMappingUnitTest {
 
         assertThat(userDtoList, Matchers.<UserDTO>hasItem(
                 Matchers.both(hasProperty("userId", equalTo("b100")))
-                        .and(hasProperty("email", equalTo("user1@baeldung.com")))
+                        .and(hasProperty("email", equalTo("user1@surya.com")))
                         .and(hasProperty("username", equalTo("user1")))));
 
 

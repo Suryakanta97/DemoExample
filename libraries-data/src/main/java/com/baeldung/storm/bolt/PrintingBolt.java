@@ -1,4 +1,4 @@
-package com.baeldung.storm.bolt;
+package com.surya.storm.bolt;
 
 import org.apache.storm.topology.BasicOutputCollector;
 import org.apache.storm.topology.OutputFieldsDeclarer;

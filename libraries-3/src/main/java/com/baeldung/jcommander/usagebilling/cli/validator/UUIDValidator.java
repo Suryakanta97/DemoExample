@@ -1,4 +1,4 @@
-package com.baeldung.jcommander.usagebilling.cli.validator;
+package com.surya.jcommander.usagebilling.cli.validator;
 
 import com.beust.jcommander.IParameterValidator;
 import com.beust.jcommander.ParameterException;

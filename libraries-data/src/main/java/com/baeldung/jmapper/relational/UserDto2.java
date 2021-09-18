@@ -1,4 +1,4 @@
-package com.baeldung.jmapper.relational;
+package com.surya.jmapper.relational;
 
 
 public class UserDto2 {

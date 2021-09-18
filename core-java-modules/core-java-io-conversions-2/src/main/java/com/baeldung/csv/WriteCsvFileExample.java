@@ -1,4 +1,4 @@
-package com.baeldung.csv;
+package com.surya.csv;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

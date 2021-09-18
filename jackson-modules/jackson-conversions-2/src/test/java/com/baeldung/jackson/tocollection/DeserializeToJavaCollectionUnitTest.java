@@ -1,4 +1,4 @@
-package com.baeldung.jackson.tocollection;
+package com.surya.jackson.tocollection;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -50,7 +50,7 @@ public class DeserializeToJavaCollectionUnitTest {
         assertThat(bookList).size().isEqualTo(3);
         assertThatExceptionOfType(ClassCastException.class)
           .isThrownBy(() -> bookList.get(0).getBookId())
-          .withMessageMatching(".*java.util.LinkedHashMap cannot be cast to .*com.baeldung.jackson.tocollection.Book.*");
+          .withMessageMatching(".*java.util.LinkedHashMap cannot be cast to .*com.surya.jackson.tocollection.Book.*");
     }
 
     @Test
@@ -99,7 +99,7 @@ public class DeserializeToJavaCollectionUnitTest {
         assertThat(bookList).size().isEqualTo(3);
         assertThatExceptionOfType(ClassCastException.class)
           .isThrownBy(() -> bookList.get(0).getBookId())
-          .withMessageMatching(".*java.util.LinkedHashMap cannot be cast to .*com.baeldung.jackson.tocollection.Book.*");
+          .withMessageMatching(".*java.util.LinkedHashMap cannot be cast to .*com.surya.jackson.tocollection.Book.*");
     }
 
     @Test

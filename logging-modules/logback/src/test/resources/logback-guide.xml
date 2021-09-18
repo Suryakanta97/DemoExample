@@ -24,8 +24,8 @@
     <root level="debug">
         <appender-ref ref="STDOUT" />
     </root>
-    <logger name="com.baeldung.logback" level="INFO" />
-    <logger name="com.baeldung.logback.tests" level="WARN">
+    <logger name="com.surya.logback" level="INFO" />
+    <logger name="com.surya.logback.tests" level="WARN">
         <appender-ref ref="FILE" />
     </logger>
 

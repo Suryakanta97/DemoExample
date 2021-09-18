@@ -1,4 +1,4 @@
-package com.baeldung.jni;
+package com.surya.jni;
 
 public class ExampleParametersJNI {
 

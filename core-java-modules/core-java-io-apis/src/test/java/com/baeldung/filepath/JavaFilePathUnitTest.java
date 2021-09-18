@@ -1,4 +1,4 @@
-package com.baeldung.filepath;
+package com.surya.filepath;
 
 import org.junit.AfterClass;
 import org.junit.Assume;
@@ -18,53 +18,53 @@ public class JavaFilePathUnitTest {
     public static void createFilesAndFolders() throws IOException {
         userDir = System.getProperty("user.dir");
 
-        new File(userDir + "/baeldung/foo").mkdirs();
-        new File(userDir + "/baeldung/bar/baz").mkdirs();
-        new File(userDir + "/baeldung/foo/foo-one.txt").createNewFile();
-        new File(userDir + "/baeldung/foo/foo-two.txt").createNewFile();
-        new File(userDir + "/baeldung/bar/bar-one.txt").createNewFile();
-        new File(userDir + "/baeldung/bar/bar-two.txt").createNewFile();
-        new File(userDir + "/baeldung/bar/baz/baz-one.txt").createNewFile();
-        new File(userDir + "/baeldung/bar/baz/baz-two.txt").createNewFile();
+        new File(userDir + "/surya/foo").mkdirs();
+        new File(userDir + "/surya/bar/baz").mkdirs();
+        new File(userDir + "/surya/foo/foo-one.txt").createNewFile();
+        new File(userDir + "/surya/foo/foo-two.txt").createNewFile();
+        new File(userDir + "/surya/bar/bar-one.txt").createNewFile();
+        new File(userDir + "/surya/bar/bar-two.txt").createNewFile();
+        new File(userDir + "/surya/bar/baz/baz-one.txt").createNewFile();
+        new File(userDir + "/surya/bar/baz/baz-two.txt").createNewFile();
 
     }
 
     @Test
     public void whenPathResolved_thenSuccess() {
-        File file = new File("baeldung/foo/foo-one.txt");
-        String expectedPath = isWindows() ? "baeldung\\foo\\foo-one.txt" : "baeldung/foo/foo-one.txt";
+        File file = new File("surya/foo/foo-one.txt");
+        String expectedPath = isWindows() ? "surya\\foo\\foo-one.txt" : "surya/foo/foo-one.txt";
         String actualPath = file.getPath();
         assertEquals(expectedPath, actualPath);
     }
 
     @Test
     public void whenAbsolutePathResolved_thenSuccess() {
-        File file = new File("baeldung/foo/foo-one.txt");
-        String expectedPath = isWindows() ? userDir + "\\baeldung\\foo\\foo-one.txt" : userDir + "/baeldung/foo/foo-one.txt";
+        File file = new File("surya/foo/foo-one.txt");
+        String expectedPath = isWindows() ? userDir + "\\surya\\foo\\foo-one.txt" : userDir + "/surya/foo/foo-one.txt";
         String actualPath = file.getAbsolutePath();
         assertEquals(expectedPath, actualPath);
     }
 
     @Test
     public void whenAbsolutePathWithShorthandResolved_thenSuccess() {
-        File file = new File("baeldung/bar/baz/../bar-one.txt");
-        String expectedPath = isWindows() ? userDir + "\\baeldung\\bar\\baz\\..\\bar-one.txt" : userDir + "/baeldung/bar/baz/../bar-one.txt";
+        File file = new File("surya/bar/baz/../bar-one.txt");
+        String expectedPath = isWindows() ? userDir + "\\surya\\bar\\baz\\..\\bar-one.txt" : userDir + "/surya/bar/baz/../bar-one.txt";
         String actualPath = file.getAbsolutePath();
         assertEquals(expectedPath, actualPath);
     }
 
     @Test
     public void whenCanonicalPathWithShorthandResolved_thenSuccess() throws IOException {
-        File file = new File("baeldung/bar/baz/../bar-one.txt");
-        String expectedPath = isWindows() ? userDir + "\\baeldung\\bar\\bar-one.txt" : userDir + "/baeldung/bar/bar-one.txt";
+        File file = new File("surya/bar/baz/../bar-one.txt");
+        String expectedPath = isWindows() ? userDir + "\\surya\\bar\\bar-one.txt" : userDir + "/surya/bar/bar-one.txt";
         String actualPath = file.getCanonicalPath();
         assertEquals(expectedPath, actualPath);
     }
 
     @Test
     public void whenCanonicalPathWithDotShorthandResolved_thenSuccess() throws IOException {
-        File file = new File("baeldung/bar/baz/./baz-one.txt");
-        String expectedPath = isWindows() ? userDir + "\\baeldung\\bar\\baz\\baz-one.txt" : userDir + "/baeldung/bar/baz/baz-one.txt";
+        File file = new File("surya/bar/baz/./baz-one.txt");
+        String expectedPath = isWindows() ? userDir + "\\surya\\bar\\baz\\baz-one.txt" : userDir + "/surya/bar/baz/baz-one.txt";
         String actualPath = file.getCanonicalPath();
         assertEquals(expectedPath, actualPath);
     }
@@ -77,8 +77,8 @@ public class JavaFilePathUnitTest {
 
     @AfterClass
     public static void deleteFilesAndFolders() {
-        File baeldungDir = new File(userDir + "/baeldung");
-        deleteRecursively(baeldungDir);
+        File suryaDir = new File(userDir + "/surya");
+        deleteRecursively(suryaDir);
     }
 
     private static void deleteRecursively(File dir) {

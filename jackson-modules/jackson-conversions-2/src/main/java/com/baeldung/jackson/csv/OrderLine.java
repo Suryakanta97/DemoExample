@@ -1,4 +1,4 @@
-package com.baeldung.jackson.csv;
+package com.surya.jackson.csv;
 
 import java.math.BigDecimal;
 

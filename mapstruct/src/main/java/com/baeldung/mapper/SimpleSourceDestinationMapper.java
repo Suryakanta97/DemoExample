@@ -1,7 +1,7 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
-import com.baeldung.dto.SimpleSource;
-import com.baeldung.entity.SimpleDestination;
+import com.surya.dto.SimpleSource;
+import com.surya.entity.SimpleDestination;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

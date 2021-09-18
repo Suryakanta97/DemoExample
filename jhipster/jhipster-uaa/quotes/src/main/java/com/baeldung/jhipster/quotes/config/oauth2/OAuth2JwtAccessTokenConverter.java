@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.config.oauth2;
+package com.surya.jhipster.quotes.config.oauth2;
 
-import com.baeldung.jhipster.quotes.security.oauth2.OAuth2SignatureVerifierClient;
+import com.surya.jhipster.quotes.security.oauth2.OAuth2SignatureVerifierClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.jwt.crypto.sign.SignatureVerifier;

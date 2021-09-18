@@ -1,4 +1,4 @@
-package com.baeldung.lombok.accessors.model;
+package com.surya.lombok.accessors.model;
 
 import lombok.Getter;
 import lombok.Setter;

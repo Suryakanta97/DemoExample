@@ -1,4 +1,4 @@
-package com.baeldung.jsonjava;
+package com.surya.jsonjava;
 
 import static org.junit.Assert.assertEquals;
 import org.json.HTTP;

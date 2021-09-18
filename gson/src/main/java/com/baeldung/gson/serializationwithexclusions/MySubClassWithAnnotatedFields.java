@@ -1,4 +1,4 @@
-package com.baeldung.gson.serializationwithexclusions;
+package com.surya.gson.serializationwithexclusions;
 
 import com.google.gson.annotations.Expose;
 

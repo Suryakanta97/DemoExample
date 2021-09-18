@@ -1,4 +1,4 @@
-package com.baeldung.lcm;
+package com.surya.lcm;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.baeldung.palindrom;
+package com.surya.palindrom;
 
 import java.util.stream.IntStream;
 

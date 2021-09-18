@@ -1,4 +1,4 @@
-package com.baeldung.aes;
+package com.surya.aes;
 
 import org.assertj.core.api.WithAssertions;
 import org.junit.jupiter.api.Assertions;
@@ -25,7 +25,7 @@ class AESUtilUnitTest implements WithAssertions {
         throws NoSuchAlgorithmException, IllegalBlockSizeException, InvalidKeyException,
         BadPaddingException, InvalidAlgorithmParameterException, NoSuchPaddingException {
         // given
-        String input = "baeldung";
+        String input = "surya";
         SecretKey key = AESUtil.generateKey(128);
         IvParameterSpec ivParameterSpec = AESUtil.generateIv();
         String algorithm = "AES/CBC/PKCS5Padding";
@@ -46,9 +46,9 @@ class AESUtilUnitTest implements WithAssertions {
         SecretKey key = AESUtil.generateKey(128);
         String algorithm = "AES/CBC/PKCS5Padding";
         IvParameterSpec ivParameterSpec = AESUtil.generateIv();
-        File inputFile = Paths.get("src/test/resources/baeldung.txt")
+        File inputFile = Paths.get("src/test/resources/surya.txt")
             .toFile();
-        File encryptedFile = new File("classpath:baeldung.encrypted");
+        File encryptedFile = new File("classpath:surya.encrypted");
         File decryptedFile = new File("document.decrypted");
 
         // when
@@ -67,7 +67,7 @@ class AESUtilUnitTest implements WithAssertions {
         InvalidAlgorithmParameterException, NoSuchPaddingException, IOException, BadPaddingException,
         ClassNotFoundException {
         // given
-        Student student = new Student("Baeldung", 20);
+        Student student = new Student("surya", 20);
         SecretKey key = AESUtil.generateKey(128);
         IvParameterSpec ivParameterSpec = AESUtil.generateIv();
         String algorithm = "AES/CBC/PKCS5Padding";
@@ -85,8 +85,8 @@ class AESUtilUnitTest implements WithAssertions {
         throws InvalidKeySpecException, NoSuchAlgorithmException, IllegalBlockSizeException,
         InvalidKeyException, BadPaddingException, InvalidAlgorithmParameterException, NoSuchPaddingException {
         // given
-        String plainText = "www.baeldung.com";
-        String password = "baeldung";
+        String plainText = "www.surya.com";
+        String password = "surya";
         String salt = "12345678";
         IvParameterSpec ivParameterSpec = AESUtil.generateIv();
         SecretKey key = AESUtil.getKeyFromPassword(password, salt);

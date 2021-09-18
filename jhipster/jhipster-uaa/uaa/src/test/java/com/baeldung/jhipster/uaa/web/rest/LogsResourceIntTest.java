@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.uaa.web.rest;
+package com.surya.jhipster.uaa.web.rest;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.config.SecurityBeanOverrideConfiguration;
-import com.baeldung.jhipster.uaa.web.rest.vm.LoggerVM;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.uaa.web.rest.vm.LoggerVM;
 import ch.qos.logback.classic.AsyncAppender;
 import ch.qos.logback.classic.LoggerContext;
 import org.junit.Before;

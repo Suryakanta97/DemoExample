@@ -1,4 +1,4 @@
-package com.baeldung.okhttp;
+package com.surya.okhttp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
@@ -29,7 +29,7 @@ public class ResponseDecoderUnitTest {
 
     @Before
     public void setUp() {
-        sampleResponse = new SimpleEntity("Baeldung");
+        sampleResponse = new SimpleEntity("surya");
         client = new OkHttpClient.Builder().build();
         mockResponse = new MockResponse()
           .setResponseCode(200)

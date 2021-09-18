@@ -1,4 +1,4 @@
-package com.baeldung.compareto;
+package com.surya.compareto;
 
 public class FootballPlayer implements Comparable<FootballPlayer> {
 

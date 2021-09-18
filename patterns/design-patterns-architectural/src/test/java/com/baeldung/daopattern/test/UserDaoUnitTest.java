@@ -1,7 +1,7 @@
-package com.baeldung.daopattern.test;
+package com.surya.daopattern.test;
 
-import com.baeldung.daopattern.daos.UserDao;
-import com.baeldung.daopattern.entities.User;
+import com.surya.daopattern.daos.UserDao;
+import com.surya.daopattern.entities.User;
 import java.util.List;
 import java.util.Optional;
 import static org.assertj.core.api.Assertions.assertThat;

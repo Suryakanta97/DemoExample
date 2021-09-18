@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.service;
+package com.surya.couchbase.async.service;
 
 import javax.annotation.PostConstruct;
 
@@ -23,7 +23,7 @@ public class TutorialBucketService extends AbstractBucketService {
 
     @Override
     protected String getBucketName() {
-        return "baeldung-tutorial";
+        return "surya-tutorial";
     }
 
     @Override

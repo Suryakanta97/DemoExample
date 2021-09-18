@@ -1,6 +1,6 @@
-package com.baeldung.core.packages;
+package com.surya.core.packages;
 
-import com.baeldung.core.packages.domain.TodoItem;
+import com.surya.core.packages.domain.TodoItem;
 
 import java.util.ArrayList;
 import java.util.List;

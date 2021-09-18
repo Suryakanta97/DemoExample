@@ -1,4 +1,4 @@
-package com.baeldung.encodetoutf8;
+package com.surya.encodetoutf8;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;

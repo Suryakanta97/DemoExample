@@ -1,4 +1,4 @@
-package com.baeldung.pairsaddupnumber;
+package com.surya.pairsaddupnumber;
 
 import org.junit.Test;
 

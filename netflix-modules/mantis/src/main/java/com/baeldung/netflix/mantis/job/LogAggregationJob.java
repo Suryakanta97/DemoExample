@@ -1,10 +1,10 @@
-package com.baeldung.netflix.mantis.job;
+package com.surya.netflix.mantis.job;
 
-import com.baeldung.netflix.mantis.model.LogAggregate;
-import com.baeldung.netflix.mantis.source.RandomLogSource;
-import com.baeldung.netflix.mantis.stage.CountLogStage;
-import com.baeldung.netflix.mantis.stage.GroupLogStage;
-import com.baeldung.netflix.mantis.stage.TransformLogStage;
+import com.surya.netflix.mantis.model.LogAggregate;
+import com.surya.netflix.mantis.source.RandomLogSource;
+import com.surya.netflix.mantis.stage.CountLogStage;
+import com.surya.netflix.mantis.stage.GroupLogStage;
+import com.surya.netflix.mantis.stage.TransformLogStage;
 import io.mantisrx.runtime.Job;
 import io.mantisrx.runtime.MantisJob;
 import io.mantisrx.runtime.MantisJobProvider;

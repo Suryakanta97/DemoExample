@@ -1,4 +1,4 @@
-package com.baeldung.cipher;
+package com.surya.cipher;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -26,7 +26,7 @@ public class RsaUnitTest {
         PrivateKey privateKey = pair.getPrivate();
         PublicKey publicKey = pair.getPublic();
 
-        String secretMessage = "Baeldung secret message";
+        String secretMessage = "surya secret message";
         Cipher encryptCipher = Cipher.getInstance("RSA");
         encryptCipher.init(Cipher.ENCRYPT_MODE, publicKey);
         byte[] secretMessageBytes = secretMessage.getBytes(StandardCharsets.UTF_8);

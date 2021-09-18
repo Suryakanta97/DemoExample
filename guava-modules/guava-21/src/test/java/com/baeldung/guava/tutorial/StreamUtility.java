@@ -1,4 +1,4 @@
-package com.baeldung.guava.tutorial;
+package com.surya.guava.tutorial;
 
 import org.junit.Assert;
 

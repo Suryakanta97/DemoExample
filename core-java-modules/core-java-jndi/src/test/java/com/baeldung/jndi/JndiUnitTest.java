@@ -1,4 +1,4 @@
-package com.baeldung.jndi;
+package com.surya.jndi;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

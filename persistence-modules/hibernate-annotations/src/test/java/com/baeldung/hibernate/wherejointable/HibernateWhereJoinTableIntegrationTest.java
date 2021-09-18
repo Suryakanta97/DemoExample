@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.wherejointable;
+package com.surya.hibernate.wherejointable;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

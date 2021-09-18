@@ -1,15 +1,15 @@
-package com.baeldung.ddd.order.doubledispatch;
+package com.surya.ddd.order.doubledispatch;
 
 import java.math.RoundingMode;
 import java.util.List;
 
 import org.joda.money.Money;
 
-import com.baeldung.ddd.order.OrderLine;
-import com.baeldung.ddd.order.doubledispatch.visitor.OrderVisitor;
-import com.baeldung.ddd.order.doubledispatch.visitor.Visitable;
+import com.surya.ddd.order.OrderLine;
+import com.surya.ddd.order.doubledispatch.visitor.OrderVisitor;
+import com.surya.ddd.order.doubledispatch.visitor.Visitable;
 
-public class Order extends com.baeldung.ddd.order.Order implements Visitable<OrderVisitor> {
+public class Order extends com.surya.ddd.order.Order implements Visitable<OrderVisitor> {
     public Order(List<OrderLine> orderLines) {
         super(orderLines);        
     }

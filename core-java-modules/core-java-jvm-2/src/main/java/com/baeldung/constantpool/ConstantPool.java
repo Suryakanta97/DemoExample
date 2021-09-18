@@ -1,4 +1,4 @@
-package com.baeldung.constantpool;
+package com.surya.constantpool;
 
 public class ConstantPool {
     

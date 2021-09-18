@@ -1,4 +1,4 @@
-package com.baeldung.core.modifiers;
+package com.surya.core.modifiers;
 
 public class GenericClass {
 

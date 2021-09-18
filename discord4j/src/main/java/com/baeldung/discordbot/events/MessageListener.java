@@ -1,4 +1,4 @@
-package com.baeldung.discordbot.events;
+package com.surya.discordbot.events;
 
 import discord4j.core.object.entity.Message;
 import reactor.core.publisher.Mono;

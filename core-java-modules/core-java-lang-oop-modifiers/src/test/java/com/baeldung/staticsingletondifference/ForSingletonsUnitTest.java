@@ -1,4 +1,4 @@
-package com.baeldung.staticsingletondifference;
+package com.surya.staticsingletondifference;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

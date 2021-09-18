@@ -1,6 +1,6 @@
-package com.baeldung.controller;
+package com.surya.controller;
 
-import com.baeldung.service.StudentService;
+import com.surya.service.StudentService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

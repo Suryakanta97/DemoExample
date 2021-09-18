@@ -1,4 +1,4 @@
-package com.baeldung.univocity;
+package com.surya.univocity;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.univocity.model.Product;
+import com.surya.univocity.model.Product;
 import com.univocity.parsers.common.processor.BatchedColumnProcessor;
 import com.univocity.parsers.common.processor.BeanListProcessor;
 import com.univocity.parsers.csv.CsvParser;

@@ -1,4 +1,4 @@
-package com.baeldung.hashcode.lombok;
+package com.surya.hashcode.lombok;
 
 import lombok.EqualsAndHashCode;
 import org.slf4j.Logger;

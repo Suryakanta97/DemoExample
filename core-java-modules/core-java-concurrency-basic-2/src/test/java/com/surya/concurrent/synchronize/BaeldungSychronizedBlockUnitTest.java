@@ -2,7 +2,7 @@ package com.surya.concurrent.synchronize;
 
 import org.junit.Test;
 
-import com.surya.concurrent.synchronize.BaeldungSynchronizedBlocks;
+import com.surya.concurrent.synchronize.suryaSynchronizedBlocks;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -11,12 +11,12 @@ import java.util.stream.IntStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class BaeldungSychronizedBlockUnitTest {
+public class suryaSychronizedBlockUnitTest {
 
     @Test
     public void givenMultiThread_whenBlockSync() throws InterruptedException {
         ExecutorService service = Executors.newFixedThreadPool(3);
-        BaeldungSynchronizedBlocks synchronizedBlocks = new BaeldungSynchronizedBlocks();
+        suryaSynchronizedBlocks synchronizedBlocks = new suryaSynchronizedBlocks();
 
         IntStream.range(0, 1000)
           .forEach(count -> service.submit(synchronizedBlocks::performSynchronisedTask));
@@ -30,10 +30,10 @@ public class BaeldungSychronizedBlockUnitTest {
         ExecutorService service = Executors.newCachedThreadPool();
 
         IntStream.range(0, 1000)
-          .forEach(count -> service.submit(BaeldungSynchronizedBlocks::performStaticSyncTask));
+          .forEach(count -> service.submit(suryaSynchronizedBlocks::performStaticSyncTask));
         service.awaitTermination(500, TimeUnit.MILLISECONDS);
 
-        assertEquals(1000, BaeldungSynchronizedBlocks.getStaticCount());
+        assertEquals(1000, suryaSynchronizedBlocks.getStaticCount());
     }
 
     @Test

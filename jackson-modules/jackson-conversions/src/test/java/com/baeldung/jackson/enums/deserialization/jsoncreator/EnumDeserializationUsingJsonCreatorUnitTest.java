@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization.jsoncreator;
+package com.surya.jackson.enums.deserialization.jsoncreator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.IOException;

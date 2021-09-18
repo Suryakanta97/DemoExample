@@ -1,4 +1,4 @@
-package com.baeldung.bouncycastle;
+package com.surya.bouncycastle;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

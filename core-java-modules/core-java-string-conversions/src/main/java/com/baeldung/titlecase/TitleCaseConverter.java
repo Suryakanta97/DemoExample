@@ -1,4 +1,4 @@
-package com.baeldung.titlecase;
+package com.surya.titlecase;
 
 import com.ibm.icu.lang.UCharacter;
 import com.ibm.icu.text.BreakIterator;

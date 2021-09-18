@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.uaa.service;
-import com.baeldung.jhipster.uaa.config.Constants;
+package com.surya.jhipster.uaa.service;
+import com.surya.jhipster.uaa.config.Constants;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.domain.User;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.Before;
 import org.junit.Test;

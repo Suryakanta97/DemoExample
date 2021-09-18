@@ -1,4 +1,4 @@
-package com.baeldung.guava.rangemap;
+package com.surya.guava.rangemap;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;

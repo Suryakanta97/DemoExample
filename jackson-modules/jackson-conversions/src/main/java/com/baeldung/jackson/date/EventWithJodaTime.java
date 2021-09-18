@@ -1,4 +1,4 @@
-package com.baeldung.jackson.date;
+package com.surya.jackson.date;
 
 import org.joda.time.DateTime;
 

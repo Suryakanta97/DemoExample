@@ -1,4 +1,4 @@
-package com.baeldung.switchstatement;
+package com.surya.switchstatement;
 
 public class SwitchStatement {
 

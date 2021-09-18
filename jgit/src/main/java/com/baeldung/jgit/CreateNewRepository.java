@@ -1,4 +1,4 @@
-package com.baeldung.jgit;
+package com.surya.jgit;
 
 import java.io.File;
 import java.io.IOException;

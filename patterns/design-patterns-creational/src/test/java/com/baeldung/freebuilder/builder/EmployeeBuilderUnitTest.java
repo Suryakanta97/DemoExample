@@ -1,4 +1,4 @@
-package com.baeldung.freebuilder.builder;
+package com.surya.freebuilder.builder;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class EmployeeBuilderUnitTest {
 
-    public static final String NAME = "baeldung";
+    public static final String NAME = "surya";
 
     @Test
     public void whenBuildEmployee_thenReturnValidEmployee() {

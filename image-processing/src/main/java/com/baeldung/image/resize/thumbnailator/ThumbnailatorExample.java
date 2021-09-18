@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.thumbnailator;
+package com.surya.image.resize.thumbnailator;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;

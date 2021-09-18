@@ -1,4 +1,4 @@
-package com.baeldung.defaultserializercustomserializer;
+package com.surya.defaultserializercustomserializer;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,4 +1,4 @@
-package com.baeldung.initializationguide;
+package com.surya.initializationguide;
 import org.junit.Before;
 import org.junit.Test;
 

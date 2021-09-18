@@ -1,3 +1,3 @@
-module com.baeldung.httpclient {   
+module com.surya.httpclient {   
 	requires jdk.incubator.httpclient;
 }

@@ -1,4 +1,4 @@
-package com.baeldung.assertion;
+package com.surya.assertion;
 
 /**
  * Simple demonstration of using Java assert keyword.

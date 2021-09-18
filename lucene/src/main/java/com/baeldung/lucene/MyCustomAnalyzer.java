@@ -1,4 +1,4 @@
-package com.baeldung.lucene;
+package com.surya.lucene;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.LowerCaseFilter;

@@ -1,4 +1,4 @@
-package com.baeldung.mbassador;
+package com.surya.mbassador;
 
 public class RejectMessage extends Message {
 

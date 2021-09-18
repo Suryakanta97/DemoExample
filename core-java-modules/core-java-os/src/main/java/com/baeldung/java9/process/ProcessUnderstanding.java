@@ -1,4 +1,4 @@
-package com.baeldung.java9.process;
+package com.surya.java9.process;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,9 +13,9 @@ public class ProcessUnderstanding {
 
     public static int compileAndRunJavaProgram() throws IOException {
         Process process = Runtime.getRuntime()
-            .exec("javac -cp src src\\main\\java\\com\\baeldung\\java9\\process\\OutputStreamExample.java");
+            .exec("javac -cp src src\\main\\java\\com\\surya\\java9\\process\\OutputStreamExample.java");
         process = Runtime.getRuntime()
-            .exec("java -cp  src/main/java com.baeldung.java9.process.OutputStreamExample");
+            .exec("java -cp  src/main/java com.surya.java9.process.OutputStreamExample");
         BufferedReader output = new BufferedReader(new InputStreamReader(process.getInputStream()));
         int value = Integer.parseInt(output.readLine());
         return value;
@@ -23,7 +23,7 @@ public class ProcessUnderstanding {
 
     public static String getErrorStreamExample() throws IOException {
         Process process = Runtime.getRuntime()
-            .exec("javac -cp src src\\main\\java\\com\\baeldung\\java9\\process\\ProcessCompilationError.java");
+            .exec("javac -cp src src\\main\\java\\com\\surya\\java9\\process\\ProcessCompilationError.java");
         BufferedReader error = new BufferedReader(new InputStreamReader(process.getErrorStream()));
         String errorString = error.readLine();
         return errorString;
@@ -88,9 +88,9 @@ public class ProcessUnderstanding {
     public static void outputStreamDemo() throws IOException, InterruptedException {
         Logger log = Logger.getLogger(ProcessUnderstanding.class.getName());
         Process pr = Runtime.getRuntime()
-            .exec("javac -cp src src\\main\\java\\com\\baeldung\\java9\\process\\ChildProcess.java");
+            .exec("javac -cp src src\\main\\java\\com\\surya\\java9\\process\\ChildProcess.java");
         final Process process = Runtime.getRuntime()
-            .exec("java -cp  src/main/java com.baeldung.java9.process.ChildProcess");
+            .exec("java -cp  src/main/java com.surya.java9.process.ChildProcess");
         try (Writer w = new OutputStreamWriter(process.getOutputStream(), "UTF-8")) {
             w.write("send to child\n");
         }

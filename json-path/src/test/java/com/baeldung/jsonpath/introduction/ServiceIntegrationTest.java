@@ -1,4 +1,4 @@
-package com.baeldung.jsonpath.introduction;
+package com.surya.jsonpath.introduction;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.DocumentContext;

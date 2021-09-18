@@ -1,9 +1,9 @@
-package com.baeldung.jhipster.uaa.repository;
+package com.surya.jhipster.uaa.repository;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.config.Constants;
-import com.baeldung.jhipster.uaa.config.audit.AuditEventConverter;
-import com.baeldung.jhipster.uaa.domain.PersistentAuditEvent;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.config.audit.AuditEventConverter;
+import com.surya.jhipster.uaa.domain.PersistentAuditEvent;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static com.baeldung.jhipster.uaa.repository.CustomAuditEventRepository.EVENT_DATA_COLUMN_MAX_LENGTH;
+import static com.surya.jhipster.uaa.repository.CustomAuditEventRepository.EVENT_DATA_COLUMN_MAX_LENGTH;
 
 /**
  * Test class for the CustomAuditEventRepository class.

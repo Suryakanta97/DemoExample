@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.marvin;
+package com.surya.image.resize.marvin;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

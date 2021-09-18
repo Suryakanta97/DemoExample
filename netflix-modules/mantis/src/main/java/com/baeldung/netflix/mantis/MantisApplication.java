@@ -1,6 +1,6 @@
-package com.baeldung.netflix.mantis;
+package com.surya.netflix.mantis;
 
-import com.baeldung.netflix.mantis.job.LogAggregationJob;
+import com.surya.netflix.mantis.job.LogAggregationJob;
 import io.mantisrx.runtime.executor.LocalJobExecutorNetworked;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;

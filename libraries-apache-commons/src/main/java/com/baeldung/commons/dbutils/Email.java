@@ -1,4 +1,4 @@
-package com.baeldung.commons.dbutils;
+package com.surya.commons.dbutils;
 
 public class Email {
     private Integer id;

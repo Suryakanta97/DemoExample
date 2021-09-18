@@ -1,4 +1,4 @@
-package com.baeldung.rename;
+package com.surya.rename;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.AfterEach;

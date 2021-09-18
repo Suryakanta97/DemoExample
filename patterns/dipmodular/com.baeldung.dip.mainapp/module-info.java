@@ -1,7 +1,7 @@
-module com.baeldung.dip.mainapp {
-    requires com.baeldung.dip.entities;
-    requires com.baeldung.dip.daos;
-    requires com.baeldung.dip.daoimplementations;
-    requires com.baeldung.dip.services;
-    exports com.baeldung.dip.mainapp;
+module com.surya.dip.mainapp {
+    requires com.surya.dip.entities;
+    requires com.surya.dip.daos;
+    requires com.surya.dip.daoimplementations;
+    requires com.surya.dip.services;
+    exports com.surya.dip.mainapp;
 }

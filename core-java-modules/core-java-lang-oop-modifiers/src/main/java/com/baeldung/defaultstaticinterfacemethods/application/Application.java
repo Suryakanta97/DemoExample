@@ -1,7 +1,7 @@
-package com.baeldung.defaultstaticinterfacemethods.application;
+package com.surya.defaultstaticinterfacemethods.application;
 
-import com.baeldung.defaultstaticinterfacemethods.model.Car;
-import com.baeldung.defaultstaticinterfacemethods.model.Vehicle;
+import com.surya.defaultstaticinterfacemethods.model.Car;
+import com.surya.defaultstaticinterfacemethods.model.Vehicle;
 
 public class Application {
 

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.tocollection;
+package com.surya.jackson.tocollection;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

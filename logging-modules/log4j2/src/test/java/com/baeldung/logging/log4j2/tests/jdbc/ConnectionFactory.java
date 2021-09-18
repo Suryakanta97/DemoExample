@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2.tests.jdbc;
+package com.surya.logging.log4j2.tests.jdbc;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.h2.Driver;

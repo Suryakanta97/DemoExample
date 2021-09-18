@@ -1,7 +1,7 @@
-package com.baeldung.core.modifiers.otherpackage;
+package com.surya.core.modifiers.otherpackage;
 
-import com.baeldung.core.modifiers.FirstClass;
-//import com.baeldung.core.modifiers.FirstClass.InnerClass;
+import com.surya.core.modifiers.FirstClass;
+//import com.surya.core.modifiers.FirstClass.InnerClass;
 
 public class SecondGenericClass {
 

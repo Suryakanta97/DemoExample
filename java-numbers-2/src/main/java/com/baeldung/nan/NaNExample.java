@@ -1,4 +1,4 @@
-package com.baeldung.nan;
+package com.surya.nan;
 
 /**
  * Sample usage of NaN.

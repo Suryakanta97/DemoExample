@@ -1,4 +1,4 @@
-package com.baeldung.modelmapper;
+package com.surya.modelmapper;
 
 /**
  * User model entity class

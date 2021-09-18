@@ -1,4 +1,4 @@
-package com.baeldung.outputstream;
+package com.surya.outputstream;
 
 import org.junit.Before;
 import org.junit.Test;

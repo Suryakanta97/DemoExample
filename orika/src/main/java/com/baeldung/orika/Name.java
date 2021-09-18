@@ -1,4 +1,4 @@
-package com.baeldung.orika;
+package com.surya.orika;
 
 public class Name {
 	private String firstName;

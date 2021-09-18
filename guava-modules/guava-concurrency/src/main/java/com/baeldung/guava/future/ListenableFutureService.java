@@ -1,4 +1,4 @@
-package com.baeldung.guava.future;
+package com.surya.guava.future;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import com.baeldung.guava.future.exception.ListenableFutureException;
+import com.surya.guava.future.exception.ListenableFutureException;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListenableFutureTask;

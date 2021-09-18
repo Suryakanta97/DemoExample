@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode;
+package com.surya.equalshashcode;
 
 import org.junit.Test;
 

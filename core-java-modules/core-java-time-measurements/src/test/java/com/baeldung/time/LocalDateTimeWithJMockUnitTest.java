@@ -1,4 +1,4 @@
-package com.baeldung.time;
+package com.surya.time;
 
 import mockit.Expectations;
 import mockit.Mock;

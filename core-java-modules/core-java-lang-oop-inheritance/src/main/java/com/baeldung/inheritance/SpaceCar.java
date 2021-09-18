@@ -1,4 +1,4 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
 public class SpaceCar extends Car implements SpaceTraveller {
 	@Override

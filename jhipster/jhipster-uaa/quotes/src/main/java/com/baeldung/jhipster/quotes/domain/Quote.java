@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.domain;
+package com.surya.jhipster.quotes.domain;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;

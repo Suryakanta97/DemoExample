@@ -1,4 +1,4 @@
-package com.baeldung.httpclient;
+package com.surya.httpclient;
 
 import com.google.common.collect.Lists;
 import org.apache.http.Header;

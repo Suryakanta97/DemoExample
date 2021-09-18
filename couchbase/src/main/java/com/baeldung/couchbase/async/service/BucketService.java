@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.service;
+package com.surya.couchbase.async.service;
 
 import com.couchbase.client.java.Bucket;
 

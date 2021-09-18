@@ -1,6 +1,6 @@
-package com.baeldung.jackson.enums.withEnum;
+package com.surya.jackson.enums.withEnum;
 
-import com.baeldung.jackson.enums.serialization.Distance;
+import com.surya.jackson.enums.serialization.Distance;
 
 public class MyDtoWithEnumCustom {
 

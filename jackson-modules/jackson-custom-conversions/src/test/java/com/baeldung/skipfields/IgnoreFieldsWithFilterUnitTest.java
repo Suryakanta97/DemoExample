@@ -1,4 +1,4 @@
-package com.baeldung.skipfields;
+package com.surya.skipfields;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonGenerator;

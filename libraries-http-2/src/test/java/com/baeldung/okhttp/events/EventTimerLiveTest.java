@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.events;
+package com.surya.okhttp.events;
 
 import static org.junit.Assert.*;
 
@@ -20,7 +20,7 @@ public class EventTimerLiveTest {
             .build();
 
         Request request = new Request.Builder()
-            .url("https://www.baeldung.com/")
+            .url("https://www.surya.com/")
             .build();
 
         try (Response response = client.newCall(request).execute()) {

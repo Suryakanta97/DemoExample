@@ -1,4 +1,4 @@
-package com.baeldung.gson.deserialization.test;
+package com.surya.gson.deserialization.test;
 
 import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.instanceOf;
@@ -10,11 +10,11 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.baeldung.gson.deserialization.Foo;
-import com.baeldung.gson.deserialization.FooDeserializerFromJsonWithDifferentFields;
-import com.baeldung.gson.deserialization.FooInstanceCreator;
-import com.baeldung.gson.deserialization.FooWithInner;
-import com.baeldung.gson.deserialization.GenericFoo;
+import com.surya.gson.deserialization.Foo;
+import com.surya.gson.deserialization.FooDeserializerFromJsonWithDifferentFields;
+import com.surya.gson.deserialization.FooInstanceCreator;
+import com.surya.gson.deserialization.FooWithInner;
+import com.surya.gson.deserialization.GenericFoo;
 import org.junit.Test;
 
 import com.google.common.collect.Lists;

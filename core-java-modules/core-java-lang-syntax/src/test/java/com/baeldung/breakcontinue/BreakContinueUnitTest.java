@@ -1,10 +1,10 @@
-package com.baeldung.breakcontinue;
+package com.surya.breakcontinue;
 
-import static com.baeldung.breakcontinue.BreakContinue.labeledBreak;
-import static com.baeldung.breakcontinue.BreakContinue.labeledContinue;
-import static com.baeldung.breakcontinue.BreakContinue.unlabeledBreak;
-import static com.baeldung.breakcontinue.BreakContinue.unlabeledBreakNestedLoops;
-import static com.baeldung.breakcontinue.BreakContinue.unlabeledContinue;
+import static com.surya.breakcontinue.BreakContinue.labeledBreak;
+import static com.surya.breakcontinue.BreakContinue.labeledContinue;
+import static com.surya.breakcontinue.BreakContinue.unlabeledBreak;
+import static com.surya.breakcontinue.BreakContinue.unlabeledBreakNestedLoops;
+import static com.surya.breakcontinue.BreakContinue.unlabeledContinue;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

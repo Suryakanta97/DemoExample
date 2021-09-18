@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.authorization.server.handler;
+package com.surya.oauth2.authorization.server.handler;
 
 import javax.json.JsonObject;
 import javax.ws.rs.core.MultivaluedMap;

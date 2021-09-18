@@ -1,4 +1,4 @@
-package com.baeldung.cglib.mixin;
+package com.surya.cglib.mixin;
 
 public interface Interface2 {
     String second();

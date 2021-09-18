@@ -1,4 +1,4 @@
-package com.baeldung.trie;
+package com.surya.trie;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;

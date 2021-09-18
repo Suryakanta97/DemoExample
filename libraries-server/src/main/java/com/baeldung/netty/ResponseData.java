@@ -1,4 +1,4 @@
-package com.baeldung.netty;
+package com.surya.netty;
 
 public class ResponseData {
     private int intValue;

@@ -1,4 +1,4 @@
-package com.baeldung.uncheckedconversion;
+package com.surya.uncheckedconversion;
 
 import org.junit.Assert;
 import org.junit.Test;

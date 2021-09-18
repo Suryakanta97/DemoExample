@@ -1,4 +1,4 @@
-package com.baeldung.hll;
+package com.surya.hll;
 
 import com.google.common.hash.HashFunction;
 import com.google.common.hash.Hashing;

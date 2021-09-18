@@ -1,4 +1,4 @@
-package com.baeldung.unmappedproperties.mapper;
+package com.surya.unmappedproperties.mapper;
 
 import org.mapstruct.MapperConfig;
 import org.mapstruct.ReportingPolicy;

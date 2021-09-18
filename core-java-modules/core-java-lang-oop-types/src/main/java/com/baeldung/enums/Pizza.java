@@ -1,4 +1,4 @@
-package com.baeldung.enums;
+package com.surya.enums;
 
 import java.util.EnumMap;
 import java.util.EnumSet;

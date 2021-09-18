@@ -1,12 +1,12 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
 
-import com.baeldung.entity.Address;
-import com.baeldung.entity.Customer;
-import com.baeldung.entity.DeliveryAddress;
+import com.surya.entity.Address;
+import com.surya.entity.Customer;
+import com.surya.entity.DeliveryAddress;
 
 @Mapper
 public interface DeliveryAddressMapper {

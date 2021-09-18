@@ -1,4 +1,4 @@
-package com.baeldung.jackson.optionalwithjackson;
+package com.surya.jackson.optionalwithjackson;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.field;
+package com.surya.jackson.field;
 
 public class MyDtoWithSetter {
 

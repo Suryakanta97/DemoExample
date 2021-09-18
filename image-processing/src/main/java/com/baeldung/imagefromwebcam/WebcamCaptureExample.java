@@ -1,4 +1,4 @@
-package com.baeldung.imagefromwebcam;
+package com.surya.imagefromwebcam;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.baeldung.sealed.classes;
+package com.surya.sealed.classes;
 
 public final class Truck extends Vehicle implements Service {
 

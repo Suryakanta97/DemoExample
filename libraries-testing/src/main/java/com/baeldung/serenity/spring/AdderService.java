@@ -1,4 +1,4 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;

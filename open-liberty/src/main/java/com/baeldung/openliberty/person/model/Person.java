@@ -1,4 +1,4 @@
-package com.baeldung.openliberty.person.model;
+package com.surya.openliberty.person.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,18 +1,18 @@
 /**
  * 
  */
-package com.baeldung.kubernetes.admission.service;
+package com.surya.kubernetes.admission.service;
 
 import java.util.Base64;
 import java.util.UUID;
 
 import org.springframework.stereotype.Component;
 
-import com.baeldung.kubernetes.admission.config.AdmissionControllerProperties;
-import com.baeldung.kubernetes.admission.dto.AdmissionReviewData;
-import com.baeldung.kubernetes.admission.dto.AdmissionReviewException;
-import com.baeldung.kubernetes.admission.dto.AdmissionReviewResponse;
-import com.baeldung.kubernetes.admission.dto.AdmissionStatus;
+import com.surya.kubernetes.admission.config.AdmissionControllerProperties;
+import com.surya.kubernetes.admission.dto.AdmissionReviewData;
+import com.surya.kubernetes.admission.dto.AdmissionReviewException;
+import com.surya.kubernetes.admission.dto.AdmissionReviewResponse;
+import com.surya.kubernetes.admission.dto.AdmissionStatus;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;

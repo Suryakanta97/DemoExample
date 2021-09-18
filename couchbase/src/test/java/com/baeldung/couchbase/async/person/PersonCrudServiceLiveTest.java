@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.person;
+package com.surya.couchbase.async.person;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -18,8 +18,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.baeldung.couchbase.async.AsyncIntegrationTest;
-import com.baeldung.couchbase.async.service.BucketService;
+import com.surya.couchbase.async.AsyncIntegrationTest;
+import com.surya.couchbase.async.service.BucketService;
 import com.couchbase.client.java.Bucket;
 import com.couchbase.client.java.document.JsonDocument;
 

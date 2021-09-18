@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
 import java.net.InetSocketAddress;
 import java.util.Iterator;

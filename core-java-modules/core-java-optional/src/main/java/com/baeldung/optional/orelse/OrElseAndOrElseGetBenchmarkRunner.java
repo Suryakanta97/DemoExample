@@ -1,4 +1,4 @@
-package com.baeldung.optional.orelse;
+package com.surya.optional.orelse;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -26,12 +26,12 @@ public class OrElseAndOrElseGetBenchmarkRunner {
 
     @Benchmark
     public String orElseBenchmark() {
-        return orElsevsOrElseGet.getNameUsingOrElse("baeldung");
+        return orElsevsOrElseGet.getNameUsingOrElse("surya");
     }
 
     @Benchmark
     public String orElseGetBenchmark() {
-        return orElsevsOrElseGet.getNameUsingOrElseGet("baeldung");
+        return orElsevsOrElseGet.getNameUsingOrElseGet("surya");
     }
 
 }

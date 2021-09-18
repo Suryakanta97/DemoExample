@@ -1,4 +1,4 @@
-package com.baeldung.jooby;
+package com.surya.jooby;
 
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.equalTo;

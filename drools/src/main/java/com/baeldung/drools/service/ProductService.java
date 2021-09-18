@@ -1,7 +1,7 @@
-package com.baeldung.drools.service;
+package com.surya.drools.service;
 
-import com.baeldung.drools.config.DroolsBeanFactory;
-import com.baeldung.drools.model.Product;
+import com.surya.drools.config.DroolsBeanFactory;
+import com.surya.drools.model.Product;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 

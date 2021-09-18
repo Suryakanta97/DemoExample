@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.config;
+package com.surya.jhipster.quotes.config;
 
-import com.baeldung.jhipster.quotes.aop.logging.LoggingAspect;
+import com.surya.jhipster.quotes.aop.logging.LoggingAspect;
 
 import io.github.jhipster.config.JHipsterConstants;
 

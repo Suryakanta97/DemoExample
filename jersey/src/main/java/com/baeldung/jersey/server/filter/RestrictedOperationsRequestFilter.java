@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.filter;
+package com.surya.jersey.server.filter;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.ws.rs.ext.Provider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.jersey.server.config.HelloBinding;
+import com.surya.jersey.server.config.HelloBinding;
 
 @Provider
 @Priority(Priorities.AUTHORIZATION)

@@ -1,6 +1,6 @@
-package com.baeldung.discordbot;
+package com.surya.discordbot;
 
-import com.baeldung.discordbot.events.EventListener;
+import com.surya.discordbot.events.EventListener;
 import discord4j.core.DiscordClientBuilder;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.event.domain.Event;

@@ -1,6 +1,6 @@
-package com.baeldung.netflix.mantis.sink;
+package com.surya.netflix.mantis.sink;
 
-import com.baeldung.netflix.mantis.model.LogEvent;
+import com.surya.netflix.mantis.model.LogEvent;
 import io.mantisrx.runtime.Context;
 import io.mantisrx.runtime.PortRequest;
 import io.mantisrx.runtime.sink.SelfDocumentingSink;

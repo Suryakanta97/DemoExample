@@ -1,4 +1,4 @@
-package com.baeldung.async;
+package com.surya.async;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

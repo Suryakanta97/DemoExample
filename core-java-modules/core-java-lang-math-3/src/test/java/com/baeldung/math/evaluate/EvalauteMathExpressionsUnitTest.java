@@ -1,4 +1,4 @@
-package com.baeldung.math.evaluate;
+package com.surya.math.evaluate;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

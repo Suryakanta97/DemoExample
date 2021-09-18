@@ -1,4 +1,4 @@
-package com.baeldung.core.pwd;
+package com.surya.core.pwd;
 
 import java.io.File;
 import java.nio.file.FileSystems;

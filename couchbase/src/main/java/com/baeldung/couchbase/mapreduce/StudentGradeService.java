@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.mapreduce;
+package com.surya.couchbase.mapreduce;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,7 +28,7 @@ public class StudentGradeService {
         this.keyGenerator = keyGenerator;
         this.queryBuilder = new StudentGradeQueryBuilder();
         cluster = CouchbaseCluster.create("127.0.0.1");
-        bucket = cluster.openBucket("baeldung-tutorial");
+        bucket = cluster.openBucket("surya-tutorial");
     }
     
     public String insert(StudentGrade studentGrade) throws DuplicateKeyException {

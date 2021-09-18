@@ -1,4 +1,4 @@
-package com.baeldung.password;
+package com.surya.password;
 
 import org.junit.Test;
 

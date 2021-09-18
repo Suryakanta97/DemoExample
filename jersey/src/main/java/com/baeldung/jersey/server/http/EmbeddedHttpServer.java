@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.http;
+package com.surya.jersey.server.http;
 
 import java.io.IOException;
 import java.net.URI;
@@ -9,7 +9,7 @@ import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
 
-import com.baeldung.jersey.server.config.ViewApplicationConfig;
+import com.surya.jersey.server.config.ViewApplicationConfig;
 
 public class EmbeddedHttpServer {
 
@@ -35,7 +35,7 @@ public class EmbeddedHttpServer {
     }
 
     public static HttpServer startServer() {
-        final ResourceConfig rc = new ResourceConfig().packages("com.baeldung.jersey.server");
+        final ResourceConfig rc = new ResourceConfig().packages("com.surya.jersey.server");
         return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI.toString()), rc);
     }
 }

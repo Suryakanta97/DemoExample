@@ -1,4 +1,4 @@
-package com.baeldung.core.controlstructures;
+package com.surya.core.controlstructures;
 
 public class ConditionalBranches {
 

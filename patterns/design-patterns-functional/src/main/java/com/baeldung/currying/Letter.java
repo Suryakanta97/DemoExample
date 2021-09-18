@@ -1,4 +1,4 @@
-package com.baeldung.currying;
+package com.surya.currying;
 
 import java.time.LocalDate;
 import java.util.Objects;

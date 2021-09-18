@@ -24,7 +24,7 @@ describe('Comment e2e test', () => {
     it('should load Comments', () => {
         entityMenu.click();
         element.all(by.css('[routerLink="comment"]')).first().click().then(() => {
-            const expectVal = /baeldungApp.comment.home.title/;
+            const expectVal = /suryaApp.comment.home.title/;
             element.all(by.css('h2 span')).first().getAttribute('jhiTranslate').then((value) => {
                 expect(value).toMatch(expectVal);
             });
@@ -33,7 +33,7 @@ describe('Comment e2e test', () => {
 
     it('should load create Comment dialog', function () {
         element(by.css('button.create-comment')).click().then(() => {
-            const expectVal = /baeldungApp.comment.home.createOrEditLabel/;
+            const expectVal = /suryaApp.comment.home.createOrEditLabel/;
             element.all(by.css('h4.modal-title')).first().getAttribute('jhiTranslate').then((value) => {
                 expect(value).toMatch(expectVal);
             });

@@ -1,9 +1,9 @@
-package com.baeldung.dddhexagonalspring.domain.service;
+package com.surya.dddhexagonalspring.domain.service;
 
-import com.baeldung.dddhexagonalspring.domain.Order;
-import com.baeldung.dddhexagonalspring.domain.OrderProvider;
-import com.baeldung.dddhexagonalspring.domain.Product;
-import com.baeldung.dddhexagonalspring.domain.repository.OrderRepository;
+import com.surya.dddhexagonalspring.domain.Order;
+import com.surya.dddhexagonalspring.domain.OrderProvider;
+import com.surya.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.repository.OrderRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;

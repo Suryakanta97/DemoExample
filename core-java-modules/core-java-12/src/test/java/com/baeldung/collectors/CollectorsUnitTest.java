@@ -1,4 +1,4 @@
-package com.baeldung.collectors;
+package com.surya.collectors;
 
 import java.util.Arrays;
 import java.util.List;

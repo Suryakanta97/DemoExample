@@ -1,4 +1,4 @@
-package com.baeldung.adapter;
+package com.surya.adapter;
 
 import static org.junit.Assert.assertEquals;
 

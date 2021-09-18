@@ -1,4 +1,4 @@
-package com.baeldung.isnumeric;
+package com.surya.isnumeric;
 
 import org.apache.log4j.Logger;
 

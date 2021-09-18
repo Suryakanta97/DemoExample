@@ -1,4 +1,4 @@
-package com.baeldung.serenity.github;
+package com.surya.serenity.github;
 
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;

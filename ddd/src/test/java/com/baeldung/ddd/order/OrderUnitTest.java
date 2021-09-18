@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order;
+package com.surya.ddd.order;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;

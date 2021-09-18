@@ -1,4 +1,4 @@
-package com.baeldung.jna;
+package com.surya.jna;
 
 import com.sun.jna.Library;
 import com.sun.jna.Native;

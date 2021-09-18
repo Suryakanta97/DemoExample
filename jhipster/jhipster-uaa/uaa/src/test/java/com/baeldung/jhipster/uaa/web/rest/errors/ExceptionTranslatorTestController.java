@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.web.rest.errors;
+package com.surya.jhipster.uaa.web.rest.errors;
 
 import org.springframework.dao.ConcurrencyFailureException;
 import org.springframework.http.HttpStatus;

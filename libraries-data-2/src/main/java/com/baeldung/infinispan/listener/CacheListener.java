@@ -1,4 +1,4 @@
-package com.baeldung.infinispan.listener;
+package com.surya.infinispan.listener;
 
 import org.infinispan.notifications.Listener;
 import org.infinispan.notifications.cachelistener.annotation.*;

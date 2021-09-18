@@ -1,6 +1,6 @@
-package com.baeldung.storm.bolt;
+package com.surya.storm.bolt;
 
-import com.baeldung.storm.model.AggregatedWindow;
+import com.surya.storm.model.AggregatedWindow;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;

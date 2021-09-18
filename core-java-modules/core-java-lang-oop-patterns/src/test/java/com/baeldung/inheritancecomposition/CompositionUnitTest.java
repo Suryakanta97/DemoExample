@@ -1,6 +1,6 @@
-package com.baeldung.inheritancecomposition;
+package com.surya.inheritancecomposition;
 
-import com.baeldung.inheritancecomposition.model.*;
+import com.surya.inheritancecomposition.model.*;
 import org.junit.Test;
 
 import java.util.Optional;

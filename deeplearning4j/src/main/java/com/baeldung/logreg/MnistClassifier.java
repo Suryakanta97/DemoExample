@@ -1,4 +1,4 @@
-package com.baeldung.logreg;
+package com.surya.logreg;
 
 import java.io.File;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
-package com.baeldung.service.mapper;
+package com.surya.service.mapper;
 
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
-import com.baeldung.service.dto.UserDTO;
+import com.surya.domain.Authority;
+import com.surya.domain.User;
+import com.surya.service.dto.UserDTO;
 import org.mapstruct.*;
 
 import java.util.List;

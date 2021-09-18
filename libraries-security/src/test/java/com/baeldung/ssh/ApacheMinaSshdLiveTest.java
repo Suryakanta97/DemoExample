@@ -1,11 +1,11 @@
-package com.baeldung.ssh;
+package com.surya.ssh;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import com.baeldung.ssh.apachesshd.SshdDemo;
+import com.surya.ssh.apachesshd.SshdDemo;
 
 public class ApacheMinaSshdLiveTest {
 

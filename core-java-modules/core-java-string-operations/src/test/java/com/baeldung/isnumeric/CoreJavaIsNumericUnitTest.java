@@ -1,4 +1,4 @@
-package com.baeldung.isnumeric;
+package com.surya.isnumeric;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

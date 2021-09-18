@@ -1,4 +1,4 @@
-package com.baeldung.s;
+package com.surya.s;
 
 import java.util.Arrays;
 

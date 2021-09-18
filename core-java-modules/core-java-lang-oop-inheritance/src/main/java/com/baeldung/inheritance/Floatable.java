@@ -1,4 +1,4 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
 public interface Floatable {
     int duration = 10;

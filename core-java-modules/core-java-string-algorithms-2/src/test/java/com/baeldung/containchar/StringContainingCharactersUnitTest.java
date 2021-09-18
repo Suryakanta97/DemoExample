@@ -1,4 +1,4 @@
-package com.baeldung.containchar;
+package com.surya.containchar;
 
 import org.junit.Test;
 

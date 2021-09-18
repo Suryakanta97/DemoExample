@@ -1,4 +1,4 @@
-package com.baeldung.mail;
+package com.surya.mail;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

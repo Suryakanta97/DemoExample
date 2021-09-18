@@ -1,4 +1,4 @@
-package com.baeldung.sealed.records;
+package com.surya.sealed.records;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

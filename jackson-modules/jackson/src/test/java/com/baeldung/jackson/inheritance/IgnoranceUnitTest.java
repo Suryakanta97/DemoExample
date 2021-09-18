@@ -1,4 +1,4 @@
-package com.baeldung.jackson.inheritance;
+package com.surya.jackson.inheritance;
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.containsString;

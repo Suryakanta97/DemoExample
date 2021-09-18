@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder.singular;
+package com.surya.lombok.builder.singular;
 
 import org.junit.Test;
 

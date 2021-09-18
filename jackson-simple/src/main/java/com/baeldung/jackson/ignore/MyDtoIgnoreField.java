@@ -1,4 +1,4 @@
-package com.baeldung.jackson.ignore;
+package com.surya.jackson.ignore;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

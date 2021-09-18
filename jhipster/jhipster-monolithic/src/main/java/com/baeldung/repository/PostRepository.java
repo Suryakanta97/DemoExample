@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.surya.repository;
 
-import com.baeldung.domain.Post;
+import com.surya.domain.Post;
 
 import org.springframework.data.jpa.repository.*;
 

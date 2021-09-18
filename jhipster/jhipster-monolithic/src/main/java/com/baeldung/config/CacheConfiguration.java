@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import io.github.jhipster.config.JHipsterProperties;
 import org.ehcache.config.builders.CacheConfigurationBuilder;
@@ -37,11 +37,11 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
-            cm.createCache(com.baeldung.domain.User.class.getName(), jcacheConfiguration);
-            cm.createCache(com.baeldung.domain.Authority.class.getName(), jcacheConfiguration);
-            cm.createCache(com.baeldung.domain.User.class.getName() + ".authorities", jcacheConfiguration);
-            cm.createCache(com.baeldung.domain.Post.class.getName(), jcacheConfiguration);
-            cm.createCache(com.baeldung.domain.Comment.class.getName(), jcacheConfiguration);
+            cm.createCache(com.surya.domain.User.class.getName(), jcacheConfiguration);
+            cm.createCache(com.surya.domain.Authority.class.getName(), jcacheConfiguration);
+            cm.createCache(com.surya.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.surya.domain.Post.class.getName(), jcacheConfiguration);
+            cm.createCache(com.surya.domain.Comment.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization;
+package com.surya.jackson.enums.deserialization;
 
 public enum Distance {
 

@@ -1,8 +1,8 @@
-package com.baeldung.hibernate.transaction;
+package com.surya.hibernate.transaction;
 
-import com.baeldung.hibernate.HibernateUtil;
-import com.baeldung.hibernate.pojo.Post;
-import com.baeldung.hibernate.transaction.PostService;
+import com.surya.hibernate.HibernateUtil;
+import com.surya.hibernate.pojo.Post;
+import com.surya.hibernate.transaction.PostService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.junit.BeforeClass;

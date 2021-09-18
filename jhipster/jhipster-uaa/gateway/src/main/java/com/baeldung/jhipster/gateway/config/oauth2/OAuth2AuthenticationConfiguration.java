@@ -1,10 +1,10 @@
-package com.baeldung.jhipster.gateway.config.oauth2;
+package com.surya.jhipster.gateway.config.oauth2;
 
-import com.baeldung.jhipster.gateway.security.oauth2.CookieTokenExtractor;
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2AuthenticationService;
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2CookieHelper;
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2TokenEndpointClient;
-import com.baeldung.jhipster.gateway.web.filter.RefreshTokenFilterConfigurer;
+import com.surya.jhipster.gateway.security.oauth2.CookieTokenExtractor;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2AuthenticationService;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2CookieHelper;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2TokenEndpointClient;
+import com.surya.jhipster.gateway.web.filter.RefreshTokenFilterConfigurer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

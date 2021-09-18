@@ -1,4 +1,4 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
 public class BMW extends Car {
     public BMW() {

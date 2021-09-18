@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.mercator;
+package com.surya.algorithms.mercator;
 
 import org.junit.Assert;
 import org.junit.Test;

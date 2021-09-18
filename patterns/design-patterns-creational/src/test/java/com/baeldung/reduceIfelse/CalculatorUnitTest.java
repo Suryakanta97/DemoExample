@@ -1,8 +1,8 @@
-package com.baeldung.reduceIfelse;
+package com.surya.reduceIfelse;
 
-import com.baeldung.reducingIfElse.AddCommand;
-import com.baeldung.reducingIfElse.Calculator;
-import com.baeldung.reducingIfElse.Operator;
+import com.surya.reducingIfElse.AddCommand;
+import com.surya.reducingIfElse.Calculator;
+import com.surya.reducingIfElse.Operator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

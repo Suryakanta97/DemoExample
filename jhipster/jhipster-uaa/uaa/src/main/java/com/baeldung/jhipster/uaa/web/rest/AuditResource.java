@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.uaa.web.rest;
+package com.surya.jhipster.uaa.web.rest;
 
-import com.baeldung.jhipster.uaa.service.AuditEventService;
-import com.baeldung.jhipster.uaa.web.rest.util.PaginationUtil;
+import com.surya.jhipster.uaa.service.AuditEventService;
+import com.surya.jhipster.uaa.web.rest.util.PaginationUtil;
 
 import io.github.jhipster.web.util.ResponseUtil;
 import org.springframework.boot.actuate.audit.AuditEvent;

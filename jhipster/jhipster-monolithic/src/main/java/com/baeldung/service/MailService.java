@@ -1,6 +1,6 @@
-package com.baeldung.service;
+package com.surya.service;
 
-import com.baeldung.domain.User;
+import com.surya.domain.User;
 
 import io.github.jhipster.config.JHipsterProperties;
 

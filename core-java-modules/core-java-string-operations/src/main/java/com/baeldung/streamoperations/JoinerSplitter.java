@@ -1,4 +1,4 @@
-package com.baeldung.streamoperations;
+package com.surya.streamoperations;
 
 import java.util.Arrays;
 import java.util.List;

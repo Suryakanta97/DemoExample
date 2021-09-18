@@ -1,4 +1,4 @@
-package com.baeldung.singleton.synchronization;
+package com.surya.singleton.synchronization;
 
 /**
  * Draconian singleton. The method to get the instance is synchronized.

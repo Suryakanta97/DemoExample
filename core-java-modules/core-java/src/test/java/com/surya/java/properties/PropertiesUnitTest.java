@@ -54,12 +54,12 @@ public class PropertiesUnitTest {
         
         String appVersion = appProps.getProperty("version");
         String appName = appProps.getProperty("name", "defaultName");
-        String appGroup = appProps.getProperty("group", "baeldung");
+        String appGroup = appProps.getProperty("group", "surya");
         String appDownloadAddr = appProps.getProperty("downloadAddr");
         
         assertEquals("1.0", appVersion);
         assertEquals("TestApp", appName);
-        assertEquals("baeldung", appGroup);
+        assertEquals("surya", appGroup);
         assertNull(appDownloadAddr);
     }
     
@@ -83,13 +83,13 @@ public class PropertiesUnitTest {
         appProps.load(new FileInputStream(appConfigPath));
         
         appProps.setProperty("name", "NewAppName");
-        appProps.setProperty("downloadAddr", "www.baeldung.com/downloads");
+        appProps.setProperty("downloadAddr", "www.surya.com/downloads");
         
         String newAppName = appProps.getProperty("name");
         assertEquals("NewAppName", newAppName);
         
         String newAppDownloadAddr = appProps.getProperty("downloadAddr");
-        assertEquals("www.baeldung.com/downloads", newAppDownloadAddr);
+        assertEquals("www.surya.com/downloads", newAppDownloadAddr);
     }
     
     @Test

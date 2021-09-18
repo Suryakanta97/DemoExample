@@ -1,4 +1,4 @@
-package com.baeldung.microprofile;
+package com.surya.microprofile;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

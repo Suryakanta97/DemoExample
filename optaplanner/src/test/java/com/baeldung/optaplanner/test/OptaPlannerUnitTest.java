@@ -1,7 +1,7 @@
-package com.baeldung.optaplanner.test;
+package com.surya.optaplanner.test;
 
-import com.baeldung.optaplanner.CourseSchedule;
-import com.baeldung.optaplanner.Lecture;
+import com.surya.optaplanner.CourseSchedule;
+import com.surya.optaplanner.Lecture;
 import org.junit.Assert;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

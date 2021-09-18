@@ -1,12 +1,12 @@
-package com.baeldung.graphql.schema;
+package com.surya.graphql.schema;
 
 import graphql.annotations.GraphQLAnnotations;
 import graphql.schema.GraphQLSchema;
 
 import static graphql.schema.GraphQLSchema.newSchema;
 
-import com.baeldung.graphql.mutation.UserMutation;
-import com.baeldung.graphql.query.UserQuery;
+import com.surya.graphql.mutation.UserMutation;
+import com.surya.graphql.query.UserQuery;
 
 public class UserSchema {
 

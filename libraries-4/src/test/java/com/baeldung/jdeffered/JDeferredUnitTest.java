@@ -1,6 +1,6 @@
-package com.baeldung.jdeffered;
+package com.surya.jdeffered;
 
-import com.baeldung.jdeffered.PipeDemo.Result;
+import com.surya.jdeffered.PipeDemo.Result;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,13 +9,13 @@ public class JDeferredUnitTest {
 
     @Test
     public void givenJob_expectPromise() {
-        PromiseDemo.startJob("Baeldung Job");
+        PromiseDemo.startJob("surya Job");
     }
 
     @Test
     public void givenMsg_expectModifiedMsg() {
-        String msg = FilterDemo.filter("Baeldung");
-        assertEquals("Hello Baeldung", msg);
+        String msg = FilterDemo.filter("surya");
+        assertEquals("Hello surya", msg);
     }
 
     @Test

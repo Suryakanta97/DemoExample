@@ -1,4 +1,4 @@
-package com.baeldung.regex.phonenumbers;
+package com.surya.regex.phonenumbers;
 
 import static org.junit.Assert.*;
 

@@ -6,7 +6,7 @@
          version="3.1">
     <servlet>
         <servlet-name>front-controller</servlet-name>
-        <servlet-class>com.baeldung.patterns.front.controller.FrontControllerServlet</servlet-class>
+        <servlet-class>com.surya.patterns.front.controller.FrontControllerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>front-controller</servlet-name>

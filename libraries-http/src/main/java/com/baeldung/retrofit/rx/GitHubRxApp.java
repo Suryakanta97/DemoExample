@@ -1,4 +1,4 @@
-package com.baeldung.retrofit.rx;
+package com.surya.retrofit.rx;
 
 import java.io.IOException;
 

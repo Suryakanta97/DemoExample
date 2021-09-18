@@ -1,12 +1,12 @@
-package com.baeldung.dddhexagonalspring.infrastracture.repository.cassandra;
+package com.surya.dddhexagonalspring.infrastracture.repository.cassandra;
 
 import java.math.BigDecimal;
 import java.util.UUID;
 
 import org.springframework.data.cassandra.core.mapping.UserDefinedType;
 
-import com.baeldung.dddhexagonalspring.domain.OrderItem;
-import com.baeldung.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.OrderItem;
+import com.surya.dddhexagonalspring.domain.Product;
 
 @UserDefinedType
 public class OrderItemEntity {

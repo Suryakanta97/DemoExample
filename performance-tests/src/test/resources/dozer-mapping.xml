@@ -9,8 +9,8 @@
     </configuration>
 
     <mapping>
-        <class-a>com.baeldung.performancetests.model.source.SourceOrder</class-a>
-        <class-b>com.baeldung.performancetests.model.destination.Order</class-b>
+        <class-a>com.surya.performancetests.model.source.SourceOrder</class-a>
+        <class-b>com.surya.performancetests.model.destination.Order</class-b>
         <field>
             <a>status</a>
             <b>orderStatus</b>

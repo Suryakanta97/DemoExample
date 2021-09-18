@@ -1,4 +1,4 @@
-package com.baeldung.decorator;
+package com.surya.decorator;
 
 import static org.junit.Assert.assertEquals;
 

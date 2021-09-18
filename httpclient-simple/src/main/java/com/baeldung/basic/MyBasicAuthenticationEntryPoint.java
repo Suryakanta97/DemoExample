@@ -1,4 +1,4 @@
-package com.baeldung.basic;
+package com.surya.basic;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -23,7 +23,7 @@ public class MyBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoi
 
     @Override
     public void afterPropertiesSet() {
-        setRealmName("Baeldung");
+        setRealmName("surya");
         super.afterPropertiesSet();
     }
 

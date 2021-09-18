@@ -1,4 +1,4 @@
-package com.baeldung.jcommander.helloworld;
+package com.surya.jcommander.helloworld;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
@@ -7,7 +7,7 @@ public class HelloWorldApp {
 
     /*
      * Execute:
-     * mvn exec:java -Dexec.mainClass=com.baeldung.jcommander.helloworld.HelloWorldApp -q \
+     * mvn exec:java -Dexec.mainClass=com.surya.jcommander.helloworld.HelloWorldApp -q \
      *   -Dexec.args="--name JavaWorld"
      */
     public static void main(String[] args) {

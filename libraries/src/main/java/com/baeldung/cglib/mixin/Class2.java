@@ -1,4 +1,4 @@
-package com.baeldung.cglib.mixin;
+package com.surya.cglib.mixin;
 
 public class Class2 implements Interface2 {
     @Override

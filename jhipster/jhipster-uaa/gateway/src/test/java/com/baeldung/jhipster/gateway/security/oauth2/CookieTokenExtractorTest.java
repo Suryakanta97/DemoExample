@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.security.oauth2;
+package com.surya.jhipster.gateway.security.oauth2;
 
 import org.junit.Assert;
 import org.junit.Before;

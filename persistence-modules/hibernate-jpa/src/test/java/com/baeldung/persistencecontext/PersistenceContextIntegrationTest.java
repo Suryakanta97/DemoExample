@@ -1,8 +1,8 @@
-package com.baeldung.persistencecontext;
+package com.surya.persistencecontext;
 
-import com.baeldung.persistencecontext.entity.User;
-import com.baeldung.persistencecontext.service.ExtendedPersistenceContextUserService;
-import com.baeldung.persistencecontext.service.TransctionPersistenceContextUserService;
+import com.surya.persistencecontext.entity.User;
+import com.surya.persistencecontext.service.ExtendedPersistenceContextUserService;
+import com.surya.persistencecontext.service.TransctionPersistenceContextUserService;
 
 import javax.persistence.EntityExistsException;
 import javax.persistence.TransactionRequiredException;
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = com.baeldung.persistencecontext.PersistenceContextDemoApplication.class)
+@SpringBootTest(classes = com.surya.persistencecontext.PersistenceContextDemoApplication.class)
 public class PersistenceContextIntegrationTest {
 
     @Autowired

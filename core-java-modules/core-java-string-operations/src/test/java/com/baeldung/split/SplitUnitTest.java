@@ -1,4 +1,4 @@
-package com.baeldung.split;
+package com.surya.split;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

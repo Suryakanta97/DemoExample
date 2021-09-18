@@ -1,4 +1,4 @@
-package com.baeldung.jsonld.deserialization.jsonldjava.jackson;
+package com.surya.jsonld.deserialization.jsonldjava.jackson;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

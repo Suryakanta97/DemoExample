@@ -1,4 +1,4 @@
-package com.baeldung.jlink;
+package com.surya.jlink;
 
 import java.util.logging.Logger;
 

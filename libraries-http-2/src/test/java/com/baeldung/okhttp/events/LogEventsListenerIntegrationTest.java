@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.events;
+package com.surya.okhttp.events;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,7 +21,7 @@ public class LogEventsListenerIntegrationTest {
 
     @Test
     public void givenSimpleEventLogger_whenRequestSent_thenCallsLogged() throws IOException {
-        server.enqueue(new MockResponse().setBody("Hello Baeldung Readers!"));
+        server.enqueue(new MockResponse().setBody("Hello surya Readers!"));
         
         OkHttpClient client = new OkHttpClient.Builder()
             .eventListener(new SimpleLogEventsListener())
@@ -33,7 +33,7 @@ public class LogEventsListenerIntegrationTest {
 
         try (Response response = client.newCall(request).execute()) {
             assertEquals("Response code should be: ", 200, response.code());
-            assertEquals("Body should be: ", "Hello Baeldung Readers!", response.body().string());
+            assertEquals("Body should be: ", "Hello surya Readers!", response.body().string());
         }
     }
     

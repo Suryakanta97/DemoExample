@@ -1,4 +1,4 @@
-package com.baeldung.primitivetype;
+package com.surya.primitivetype;
 
 import java.util.HashMap;
 import java.util.Map;

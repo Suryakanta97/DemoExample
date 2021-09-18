@@ -1,4 +1,4 @@
-package com.baeldung.gson.entities;
+package com.surya.gson.entities;
 
 import com.google.gson.annotations.SerializedName;
 

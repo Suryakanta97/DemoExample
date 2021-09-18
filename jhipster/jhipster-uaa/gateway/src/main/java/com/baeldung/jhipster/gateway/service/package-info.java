@@ -1,4 +1,4 @@
 /**
  * Service layer beans.
  */
-package com.baeldung.jhipster.gateway.service;
+package com.surya.jhipster.gateway.service;

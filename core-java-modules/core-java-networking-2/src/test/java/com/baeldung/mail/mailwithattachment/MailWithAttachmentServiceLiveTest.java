@@ -1,4 +1,4 @@
-package com.baeldung.mail.mailwithattachment;
+package com.surya.mail.mailwithattachment;
 
 import static org.junit.Assert.*;
 import javax.annotation.Resource;
@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.mail.mailwithattachment.MailWithAttachmentService;
+import com.surya.mail.mailwithattachment.MailWithAttachmentService;
 import com.icegreen.greenmail.util.GreenMail;
 import com.icegreen.greenmail.util.ServerSetupTest;
 

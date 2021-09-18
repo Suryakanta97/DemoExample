@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.surya.hystrix;
 
 
 public class RemoteServiceTestSimulator {

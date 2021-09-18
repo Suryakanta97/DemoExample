@@ -1,4 +1,4 @@
-package com.baeldung.staticvariables;
+package com.surya.staticvariables;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -14,7 +14,7 @@ public class StaticVariableUnitTest {
         try {
             Class<?> staticVariableDemo = this.getClass()
                 .getClassLoader()
-                .loadClass("com.baeldung.staticvariables.StaticVariableDemo");
+                .loadClass("com.surya.staticvariables.StaticVariableDemo");
 
             Field field1 = staticVariableDemo.getField("i");
 
@@ -40,7 +40,7 @@ public class StaticVariableUnitTest {
         try {
             Class<?> staticVariableDemo = this.getClass()
                 .getClassLoader()
-                .loadClass("com.baeldung.staticvariables.StaticVariableDemo");
+                .loadClass("com.surya.staticvariables.StaticVariableDemo");
 
             Field field1 = staticVariableDemo.getField("z");
 
@@ -66,7 +66,7 @@ public class StaticVariableUnitTest {
         try {
             Class<?> staticVariableDemo = this.getClass()
                 .getClassLoader()
-                .loadClass("com.baeldung.staticvariables.StaticVariableDemo");
+                .loadClass("com.surya.staticvariables.StaticVariableDemo");
 
             Field field1 = staticVariableDemo.getField("b");
 
@@ -88,7 +88,7 @@ public class StaticVariableUnitTest {
         try {
             Class<?> staticVariableDemo = this.getClass()
                 .getClassLoader()
-                .loadClass("com.baeldung.staticvariables.StaticVariableDemo");
+                .loadClass("com.surya.staticvariables.StaticVariableDemo");
 
             Class<?>[] nestedClasses = staticVariableDemo.getClasses();
 

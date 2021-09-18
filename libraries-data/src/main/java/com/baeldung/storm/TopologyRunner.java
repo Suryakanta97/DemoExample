@@ -1,10 +1,10 @@
-package com.baeldung.storm;
+package com.surya.storm;
 
-import com.baeldung.storm.bolt.AggregatingBolt;
-import com.baeldung.storm.bolt.FileWritingBolt;
-import com.baeldung.storm.bolt.FilteringBolt;
-import com.baeldung.storm.bolt.PrintingBolt;
-import com.baeldung.storm.spout.RandomNumberSpout;
+import com.surya.storm.bolt.AggregatingBolt;
+import com.surya.storm.bolt.FileWritingBolt;
+import com.surya.storm.bolt.FilteringBolt;
+import com.surya.storm.bolt.PrintingBolt;
+import com.surya.storm.spout.RandomNumberSpout;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.topology.TopologyBuilder;

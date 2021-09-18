@@ -1,4 +1,4 @@
-package com.baeldung.objects;
+package com.surya.objects;
 
 public class Car {
 

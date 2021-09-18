@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.mercator;
+package com.surya.algorithms.mercator;
 
 abstract class Mercator {
     final static double RADIUS_MAJOR = 6378137.0;

@@ -1,4 +1,4 @@
-package com.baeldung.mustache;
+package com.surya.mustache;
 
 import com.github.mustachejava.DefaultMustacheFactory;
 import com.github.mustachejava.MustacheFactory;

@@ -1,11 +1,11 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
-import com.baeldung.gson.entities.Movie;
+import com.surya.gson.entities.Movie;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParser;
-import com.baeldung.gson.entities.ActorGson;
-import com.baeldung.gson.entities.MovieWithNullValue;
+import com.surya.gson.entities.ActorGson;
+import com.surya.gson.entities.MovieWithNullValue;
 import org.junit.Assert;
 import org.junit.Test;
 

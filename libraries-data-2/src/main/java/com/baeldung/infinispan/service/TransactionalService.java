@@ -1,4 +1,4 @@
-package com.baeldung.infinispan.service;
+package com.surya.infinispan.service;
 
 import org.infinispan.Cache;
 import org.springframework.util.StopWatch;

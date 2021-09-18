@@ -1,4 +1,4 @@
-package com.baeldung.staticsingletondifference;
+package com.surya.staticsingletondifference;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;

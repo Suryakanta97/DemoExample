@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.gateway.responserewriting;
+package com.surya.jhipster.gateway.gateway.responserewriting;
 
 import com.netflix.zuul.context.RequestContext;
 import org.apache.commons.io.IOUtils;
@@ -11,7 +11,7 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.zip.GZIPInputStream;
 
-import static com.baeldung.jhipster.gateway.gateway.responserewriting.SwaggerBasePathRewritingFilter.gzipData;
+import static com.surya.jhipster.gateway.gateway.responserewriting.SwaggerBasePathRewritingFilter.gzipData;
 import static org.junit.Assert.*;
 import static springfox.documentation.swagger2.web.Swagger2Controller.DEFAULT_URL;
 

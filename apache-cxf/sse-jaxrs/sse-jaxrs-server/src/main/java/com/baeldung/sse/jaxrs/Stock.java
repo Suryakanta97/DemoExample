@@ -1,4 +1,4 @@
-package com.baeldung.sse.jaxrs;
+package com.surya.sse.jaxrs;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

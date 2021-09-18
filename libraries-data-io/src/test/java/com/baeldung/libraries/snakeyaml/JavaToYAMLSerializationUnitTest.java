@@ -1,4 +1,4 @@
-package com.baeldung.libraries.snakeyaml;
+package com.surya.libraries.snakeyaml;
 
 import org.junit.Test;
 import org.yaml.snakeyaml.Yaml;
@@ -34,7 +34,7 @@ public class JavaToYAMLSerializationUnitTest {
         Yaml yaml = new Yaml();
         StringWriter writer = new StringWriter();
         yaml.dump(customer, writer);        
-        String expectedYaml = "!!com.baeldung.libraries.snakeyaml.Customer {age: 45, contactDetails: null, firstName: Greg,\n  homeAddress: null, lastName: McDowell}\n";
+        String expectedYaml = "!!com.surya.libraries.snakeyaml.Customer {age: 45, contactDetails: null, firstName: Greg,\n  homeAddress: null, lastName: McDowell}\n";
         assertEquals(expectedYaml, writer.toString());
     }
 

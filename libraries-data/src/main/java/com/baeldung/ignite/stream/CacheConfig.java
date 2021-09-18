@@ -1,6 +1,6 @@
-package com.baeldung.ignite.stream;
+package com.surya.ignite.stream;
 
-import com.baeldung.ignite.model.Employee;
+import com.surya.ignite.model.Employee;
 import org.apache.ignite.configuration.CacheConfiguration;
 
 import javax.cache.configuration.FactoryBuilder;
@@ -13,7 +13,7 @@ public class CacheConfig {
 
     public static CacheConfiguration<Integer, Employee> employeeCache() {
 
-        CacheConfiguration<Integer, Employee> config = new CacheConfiguration<>("baeldungEmployees");
+        CacheConfiguration<Integer, Employee> config = new CacheConfiguration<>("suryaEmployees");
 
         config.setIndexedTypes(Integer.class, Employee.class);
         config.setExpiryPolicyFactory(FactoryBuilder.factoryOf(

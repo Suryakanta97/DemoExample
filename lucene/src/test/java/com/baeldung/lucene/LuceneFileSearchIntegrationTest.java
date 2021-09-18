@@ -1,4 +1,4 @@
-package com.baeldung.lucene;
+package com.surya.lucene;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

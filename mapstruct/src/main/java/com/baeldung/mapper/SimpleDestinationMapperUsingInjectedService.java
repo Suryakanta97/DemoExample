@@ -1,8 +1,8 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
-import com.baeldung.dto.SimpleSource;
-import com.baeldung.entity.SimpleDestination;
-import com.baeldung.service.SimpleService;
+import com.surya.dto.SimpleSource;
+import com.surya.entity.SimpleDestination;
+import com.surya.service.SimpleService;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;

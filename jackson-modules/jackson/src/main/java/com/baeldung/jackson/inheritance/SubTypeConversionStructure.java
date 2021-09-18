@@ -1,4 +1,4 @@
-package com.baeldung.jackson.inheritance;
+package com.surya.jackson.inheritance;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

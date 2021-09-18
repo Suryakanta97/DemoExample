@@ -1,4 +1,4 @@
-package com.baeldung.streams;
+package com.surya.streams;
 
 import org.junit.Test;
 

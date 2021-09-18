@@ -1,4 +1,4 @@
-package com.baeldung.jersey.client.filter;
+package com.surya.jersey.client.filter;
 
 import javax.ws.rs.client.ClientRequestContext;
 import javax.ws.rs.client.ClientRequestFilter;

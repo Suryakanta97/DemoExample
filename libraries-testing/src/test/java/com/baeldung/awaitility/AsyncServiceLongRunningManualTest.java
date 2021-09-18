@@ -1,4 +1,4 @@
-package com.baeldung.awaitility;
+package com.surya.awaitility;
 
 import org.awaitility.Duration;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.baeldung.serenity.membership;
+package com.surya.serenity.membership;
 
 import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Step;

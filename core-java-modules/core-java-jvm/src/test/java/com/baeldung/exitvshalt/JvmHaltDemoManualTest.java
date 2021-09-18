@@ -1,4 +1,4 @@
-package com.baeldung.exitvshalt;
+package com.surya.exitvshalt;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package com.baeldung.singleton.handlers;
+package com.surya.singleton.handlers;
 
-import com.baeldung.singleton.Singleton;
+import com.surya.singleton.Singleton;
 import lombok.core.AnnotationValues;
 import lombok.eclipse.EclipseAnnotationHandler;
 import lombok.eclipse.EclipseNode;

@@ -1,8 +1,8 @@
-package com.baeldung.defaultstaticinterfacemethods;
+package com.surya.defaultstaticinterfacemethods;
 
-import com.baeldung.defaultstaticinterfacemethods.model.Car;
-import com.baeldung.defaultstaticinterfacemethods.model.Motorbike;
-import com.baeldung.defaultstaticinterfacemethods.model.Vehicle;
+import com.surya.defaultstaticinterfacemethods.model.Car;
+import com.surya.defaultstaticinterfacemethods.model.Motorbike;
+import com.surya.defaultstaticinterfacemethods.model.Vehicle;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.*;

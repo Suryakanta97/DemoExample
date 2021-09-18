@@ -1,8 +1,8 @@
-package com.baeldung.skipweekends;
+package com.surya.skipweekends;
 
 import static org.junit.Assert.assertEquals;
 
-import com.baeldung.skipweekends.AddSubtractDaysSkippingWeekendsUtils;
+import com.surya.skipweekends.AddSubtractDaysSkippingWeekendsUtils;
 import org.junit.Test;
 
 import java.time.LocalDate;

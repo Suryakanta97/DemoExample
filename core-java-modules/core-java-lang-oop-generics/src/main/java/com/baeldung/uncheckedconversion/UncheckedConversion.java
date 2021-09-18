@@ -1,4 +1,4 @@
-package com.baeldung.uncheckedconversion;
+package com.surya.uncheckedconversion;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,7 +1,7 @@
-package com.baeldung.feign.clients;
+package com.surya.feign.clients;
 
-import com.baeldung.feign.models.Book;
-import com.baeldung.feign.models.BookResource;
+import com.surya.feign.models.Book;
+import com.surya.feign.models.BookResource;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;

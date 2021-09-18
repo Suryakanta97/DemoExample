@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.web.rest.errors;
+package com.surya.jhipster.quotes.web.rest.errors;
 
 import org.zalando.problem.AbstractThrowableProblem;
 import org.zalando.problem.Status;

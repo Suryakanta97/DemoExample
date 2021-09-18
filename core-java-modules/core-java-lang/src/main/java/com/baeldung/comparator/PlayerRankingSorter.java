@@ -1,4 +1,4 @@
-package com.baeldung.comparator;
+package com.surya.comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

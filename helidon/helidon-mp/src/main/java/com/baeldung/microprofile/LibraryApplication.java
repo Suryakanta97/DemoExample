@@ -1,6 +1,6 @@
-package com.baeldung.microprofile;
+package com.surya.microprofile;
 
-import com.baeldung.microprofile.web.BookEndpoint;
+import com.surya.microprofile.web.BookEndpoint;
 import io.helidon.common.CollectionsHelper;
 import io.helidon.microprofile.server.Server;
 

@@ -3,7 +3,7 @@
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 xsi:schemaLocation="http://cayenne.apache.org/schema/9/modelMap http://cayenne.apache.org/schema/9/modelMap.xsd"
 	 project-version="9">
-	<property name="defaultPackage" value="com.baeldung.cayenne"/>
+	<property name="defaultPackage" value="com.surya.cayenne"/>
 	<db-entity name="departments">
 		<db-attribute name="dep_id" type="INTEGER" isPrimaryKey="true" isMandatory="true"/>
 		<db-attribute name="name" type="NVARCHAR" length="50"/>
@@ -12,10 +12,10 @@
 		<db-attribute name="emp_id" type="INTEGER" isPrimaryKey="true" isMandatory="true"/>
 		<db-attribute name="name" type="NVARCHAR" length="50"/>
 	</db-entity>
-	<obj-entity name="Department" className="com.baeldung.cayenne.Department" dbEntityName="departments">
+	<obj-entity name="Department" className="com.surya.cayenne.Department" dbEntityName="departments">
 		<obj-attribute name="name" type="java.lang.String" db-attribute-path="name"/>
 	</obj-entity>
-	<obj-entity name="Employee" className="com.baeldung.cayenne.Employee" dbEntityName="employees">
+	<obj-entity name="Employee" className="com.surya.cayenne.Employee" dbEntityName="employees">
 		<obj-attribute name="name" type="java.lang.String" db-attribute-path="name"/>
 	</obj-entity>
 	<db-relationship name="employees" source="departments" target="employees" toMany="true">

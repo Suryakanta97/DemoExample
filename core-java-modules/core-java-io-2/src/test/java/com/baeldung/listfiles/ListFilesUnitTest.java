@@ -1,4 +1,4 @@
-package com.baeldung.listfiles;
+package com.surya.listfiles;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ import java.util.Set;
 
 import org.junit.Test;
 
-import com.baeldung.listfiles.ListFiles;
+import com.surya.listfiles.ListFiles;
 
 public class ListFilesUnitTest {
 

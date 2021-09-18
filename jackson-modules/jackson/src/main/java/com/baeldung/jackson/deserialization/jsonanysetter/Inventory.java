@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization.jsonanysetter;
+package com.surya.jackson.deserialization.jsonanysetter;
 
 import java.util.HashMap;
 import java.util.Map;

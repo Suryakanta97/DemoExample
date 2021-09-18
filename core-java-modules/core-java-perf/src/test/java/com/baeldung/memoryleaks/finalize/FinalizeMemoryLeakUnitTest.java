@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.finalize;
+package com.surya.memoryleaks.finalize;
 
 import org.junit.Ignore;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.baeldung.bigqueue;
+package com.surya.bigqueue;
 
 import com.leansoft.bigqueue.BigQueueImpl;
 import com.leansoft.bigqueue.IBigQueue;
@@ -20,7 +20,7 @@ public class BigQueueLiveTest {
     @Before
     public void setup() throws IOException {
         String queueDir = System.getProperty("user.home");
-        String queueName = "baeldung-queue";
+        String queueName = "surya-queue";
         bigQueue = new BigQueueImpl(queueDir, queueName);
     }
 

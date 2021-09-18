@@ -3,13 +3,13 @@
 This module contains articles about OSGi.
 
 ### Relevant articles:
- - [Introduction to OSGi](https://www.baeldung.com/osgi)
+ - [Introduction to OSGi](https://www.surya.com/osgi)
 
 Info
 ---
 
-com.baeldung.osgi
-com.baeldung.osgi.sample.activator
+com.surya.osgi
+com.surya.osgi.sample.activator
 
 Apache Felix
 ---
@@ -68,10 +68,10 @@ can be logged to console
 
 ### Bundle deploy
 
-    bundle:install mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT
+    bundle:install mvn:com.surya/osgi-intro-sample-activator/1.0-SNAPSHOT
     
-    install mvn:com.baeldung/osgi-intro-sample-service/1.0-SNAPSHOT
-    install mvn:com.baeldung/osgi-intro-sample-client/1.0-SNAPSHOT
+    install mvn:com.surya/osgi-intro-sample-service/1.0-SNAPSHOT
+    install mvn:com.surya/osgi-intro-sample-client/1.0-SNAPSHOT
 
 Eclipse's Equinox
 ====

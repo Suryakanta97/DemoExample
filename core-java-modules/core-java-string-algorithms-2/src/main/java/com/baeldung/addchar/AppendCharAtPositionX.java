@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung.addchar;
+package com.surya.addchar;
 
 /**
  * @author swpraman

@@ -1,4 +1,4 @@
-package com.baeldung.reflection.check.staticmethods;
+package com.surya.reflection.check.staticmethods;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

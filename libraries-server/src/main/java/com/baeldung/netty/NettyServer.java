@@ -1,4 +1,4 @@
-package com.baeldung.netty;
+package com.surya.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

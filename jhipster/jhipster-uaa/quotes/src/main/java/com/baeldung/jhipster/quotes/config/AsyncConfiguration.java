@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.config;
+package com.surya.jhipster.quotes.config;
 
 import io.github.jhipster.async.ExceptionHandlingAsyncTaskExecutor;
 import io.github.jhipster.config.JHipsterProperties;

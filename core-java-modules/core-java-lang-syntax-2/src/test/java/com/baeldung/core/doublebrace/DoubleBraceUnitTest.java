@@ -1,4 +1,4 @@
-package com.baeldung.core.doublebrace;
+package com.surya.core.doublebrace;
 
 import org.junit.Test;
 

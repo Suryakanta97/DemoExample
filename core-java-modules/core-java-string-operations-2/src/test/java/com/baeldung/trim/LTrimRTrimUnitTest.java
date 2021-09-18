@@ -1,4 +1,4 @@
-package com.baeldung.trim;
+package com.surya.trim;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;

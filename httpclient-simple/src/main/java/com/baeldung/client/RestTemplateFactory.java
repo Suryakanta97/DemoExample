@@ -1,4 +1,4 @@
-package com.baeldung.client;
+package com.surya.client;
 
 import org.apache.http.HttpHost;
 import org.springframework.beans.factory.FactoryBean;

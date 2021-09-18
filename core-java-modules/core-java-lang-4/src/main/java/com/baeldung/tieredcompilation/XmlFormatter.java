@@ -1,4 +1,4 @@
-package com.baeldung.tieredcompilation;
+package com.surya.tieredcompilation;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;

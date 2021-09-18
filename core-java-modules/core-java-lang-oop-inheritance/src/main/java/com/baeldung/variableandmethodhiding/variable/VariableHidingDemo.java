@@ -1,4 +1,4 @@
-package com.baeldung.variableandmethodhiding.variable;
+package com.surya.variableandmethodhiding.variable;
 
 /**
  * Created by Gebruiker on 5/6/2018.

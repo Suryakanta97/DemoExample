@@ -1,7 +1,7 @@
 
-package com.baeldung.examples.guice;
+package com.surya.examples.guice;
 
-import com.baeldung.examples.guice.constant.CommunicationModel;
+import com.surya.examples.guice.constant.CommunicationModel;
 
 public interface CommunicationMode {
 

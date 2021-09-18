@@ -1,4 +1,4 @@
-package com.baeldung.derive4j.pattern;
+package com.surya.derive4j.pattern;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;

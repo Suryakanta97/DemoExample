@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation;
+package com.surya.jackson.annotation;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
@@ -14,18 +14,18 @@ import java.util.TimeZone;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.annotation.bidirection.ItemWithIdentity;
-import com.baeldung.jackson.annotation.bidirection.ItemWithRef;
-import com.baeldung.jackson.annotation.bidirection.UserWithIdentity;
-import com.baeldung.jackson.annotation.bidirection.UserWithRef;
-import com.baeldung.jackson.annotation.date.EventWithFormat;
-import com.baeldung.jackson.annotation.date.EventWithSerializer;
-import com.baeldung.jackson.annotation.ignore.MyMixInForIgnoreType;
-import com.baeldung.jackson.annotation.dtos.withEnum.DistanceEnumWithValue;
-import com.baeldung.jackson.annotation.exception.UserWithRoot;
-import com.baeldung.jackson.annotation.exception.UserWithRootNamespace;
-import com.baeldung.jackson.annotation.jsonview.Item;
-import com.baeldung.jackson.annotation.jsonview.Views;
+import com.surya.jackson.annotation.bidirection.ItemWithIdentity;
+import com.surya.jackson.annotation.bidirection.ItemWithRef;
+import com.surya.jackson.annotation.bidirection.UserWithIdentity;
+import com.surya.jackson.annotation.bidirection.UserWithRef;
+import com.surya.jackson.annotation.date.EventWithFormat;
+import com.surya.jackson.annotation.date.EventWithSerializer;
+import com.surya.jackson.annotation.ignore.MyMixInForIgnoreType;
+import com.surya.jackson.annotation.dtos.withEnum.DistanceEnumWithValue;
+import com.surya.jackson.annotation.exception.UserWithRoot;
+import com.surya.jackson.annotation.exception.UserWithRootNamespace;
+import com.surya.jackson.annotation.jsonview.Item;
+import com.surya.jackson.annotation.jsonview.Views;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.InjectableValues;
 import com.fasterxml.jackson.databind.MapperFeature;
@@ -338,13 +338,13 @@ public class JacksonAnnotationUnitTest {
     // @Ignore("Jackson 2.7.1-1 seems to have changed the API regarding mixins")
     @Test
     public void whenSerializingUsingMixInAnnotation_thenCorrect() throws JsonProcessingException {
-        final com.baeldung.jackson.annotation.dtos.Item item = new com.baeldung.jackson.annotation.dtos.Item(1, "book", null);
+        final com.surya.jackson.annotation.dtos.Item item = new com.surya.jackson.annotation.dtos.Item(1, "book", null);
 
         String result = new ObjectMapper().writeValueAsString(item);
         assertThat(result, containsString("owner"));
 
         final ObjectMapper mapper = new ObjectMapper();
-        mapper.addMixIn(com.baeldung.jackson.annotation.dtos.User.class, MyMixInForIgnoreType.class);
+        mapper.addMixIn(com.surya.jackson.annotation.dtos.User.class, MyMixInForIgnoreType.class);
 
         result = mapper.writeValueAsString(item);
         assertThat(result, not(containsString("owner")));

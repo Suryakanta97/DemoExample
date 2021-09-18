@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.web.rest.errors;
+package com.surya.jhipster.quotes.web.rest.errors;
 
 import java.net.URI;
 

@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.openimaj;
+package com.surya.imageprocessing.openimaj;
 
 import org.openimaj.image.DisplayUtilities;
 import org.openimaj.image.ImageUtilities;

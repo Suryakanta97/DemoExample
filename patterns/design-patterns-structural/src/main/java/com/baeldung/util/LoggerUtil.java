@@ -1,4 +1,4 @@
-package com.baeldung.util;
+package com.surya.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

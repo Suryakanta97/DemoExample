@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.domain;
+package com.surya.jhipster.uaa.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

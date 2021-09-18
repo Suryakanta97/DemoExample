@@ -1,7 +1,7 @@
-package com.baeldung.commons.collections.collectionutils;
+package com.surya.commons.collections.collectionutils;
 
-import com.baeldung.commons.collections.collectionutils.Address;
-import com.baeldung.commons.collections.collectionutils.Customer;
+import com.surya.commons.collections.collectionutils.Address;
+import com.surya.commons.collections.collectionutils.Customer;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.Predicate;
 import org.apache.commons.collections4.Transformer;

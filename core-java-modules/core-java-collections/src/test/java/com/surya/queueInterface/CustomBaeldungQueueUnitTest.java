@@ -3,17 +3,17 @@ package com.surya.queueInterface;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.surya.queueInterface.CustomBaeldungQueue;
+import com.surya.queueInterface.CustomsuryaQueue;
 
 import static org.junit.Assert.*;
 
-public class CustomBaeldungQueueUnitTest {
+public class CustomsuryaQueueUnitTest {
 
-  private CustomBaeldungQueue<Integer> customQueue;
+  private CustomsuryaQueue<Integer> customQueue;
 
   @Before
   public void setUp() throws Exception {
-    customQueue = new CustomBaeldungQueue<>();
+    customQueue = new CustomsuryaQueue<>();
   }
 
   @Test

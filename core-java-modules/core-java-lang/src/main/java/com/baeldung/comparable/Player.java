@@ -1,4 +1,4 @@
-package com.baeldung.comparable;
+package com.surya.comparable;
 
 public class Player implements Comparable<Player> {
 

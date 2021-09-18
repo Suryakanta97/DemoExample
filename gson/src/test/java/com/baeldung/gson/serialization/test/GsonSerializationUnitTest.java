@@ -1,4 +1,4 @@
-package com.baeldung.gson.serialization.test;
+package com.surya.gson.serialization.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -7,10 +7,10 @@ import java.lang.reflect.Type;
 import java.util.Collection;
 import java.util.Date;
 
-import com.baeldung.gson.serialization.DifferentNameSerializer;
-import com.baeldung.gson.serialization.IgnoringFieldsNotMatchingCriteriaSerializer;
-import com.baeldung.gson.serialization.IgnoringFieldsSerializer;
-import com.baeldung.gson.serialization.SourceClass;
+import com.surya.gson.serialization.DifferentNameSerializer;
+import com.surya.gson.serialization.IgnoringFieldsNotMatchingCriteriaSerializer;
+import com.surya.gson.serialization.IgnoringFieldsSerializer;
+import com.surya.gson.serialization.SourceClass;
 import org.joda.time.DateTime;
 import org.junit.Test;
 

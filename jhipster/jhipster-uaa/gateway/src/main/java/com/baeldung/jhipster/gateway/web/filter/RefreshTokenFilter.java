@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.gateway.web.filter;
+package com.surya.jhipster.gateway.web.filter;
 
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2AuthenticationService;
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2CookieHelper;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2AuthenticationService;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2CookieHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;

@@ -1,4 +1,4 @@
-package com.baeldung.measurement;
+package com.surya.measurement;
 
 import javax.measure.Quantity;
 import javax.measure.quantity.Area;
@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
-import com.baeldung.measurement.WaterTank;
+import com.surya.measurement.WaterTank;
 
 import tec.units.ri.format.SimpleUnitFormat;
 import tec.units.ri.quantity.Quantities;

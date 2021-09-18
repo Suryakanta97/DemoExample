@@ -1,4 +1,4 @@
-package com.baeldung.grpc.server;
+package com.surya.grpc.server;
 
 import java.io.IOException;
 

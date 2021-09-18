@@ -1,4 +1,4 @@
-package com.baeldung.javadocmemberreference;
+package com.surya.javadocmemberreference;
 
 public class Animal {
 

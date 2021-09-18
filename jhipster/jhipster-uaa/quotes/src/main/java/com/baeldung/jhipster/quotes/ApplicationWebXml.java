@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes;
+package com.surya.jhipster.quotes;
 
-import com.baeldung.jhipster.quotes.config.DefaultProfileUtil;
+import com.surya.jhipster.quotes.config.DefaultProfileUtil;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 

@@ -1,4 +1,4 @@
-package com.baeldung.prejpms;
+package com.surya.prejpms;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;

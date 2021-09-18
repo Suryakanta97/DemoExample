@@ -1,4 +1,4 @@
-package com.baeldung.jsonld.serialization.jacksonjsonld;
+package com.surya.jsonld.serialization.jacksonjsonld;
 
 import ioinformarics.oss.jackson.module.jsonld.annotation.JsonldId;
 import ioinformarics.oss.jackson.module.jsonld.annotation.JsonldLink;

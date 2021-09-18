@@ -1,4 +1,4 @@
-package com.baeldung.interfacevsabstractclass;
+package com.surya.interfacevsabstractclass;
 
 public abstract class Vehicle {
 

@@ -1,4 +1,4 @@
-package com.baeldung.singleton.synchronization;
+package com.surya.singleton.synchronization;
 
 /**
  * Double-checked locking design pattern applied to a singleton.

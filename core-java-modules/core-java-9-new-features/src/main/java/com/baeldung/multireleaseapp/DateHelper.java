@@ -1,4 +1,4 @@
-package com.baeldung.multireleaseapp;
+package com.surya.multireleaseapp;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

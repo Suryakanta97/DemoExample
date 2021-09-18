@@ -1,4 +1,4 @@
-package com.baeldung.mesos.executors;
+package com.surya.mesos.executors;
 
 import org.apache.mesos.Executor;
 import org.apache.mesos.ExecutorDriver;

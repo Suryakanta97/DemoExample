@@ -1,4 +1,4 @@
-package com.baeldung.removeleadingtrailingchar;
+package com.surya.removeleadingtrailingchar;
 
 
 import com.google.common.base.CharMatcher;

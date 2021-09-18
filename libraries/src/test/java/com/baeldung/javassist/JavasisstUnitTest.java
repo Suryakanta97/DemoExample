@@ -1,4 +1,4 @@
-package com.baeldung.javassist;
+package com.surya.javassist;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;
@@ -33,7 +33,7 @@ public class JavasisstUnitTest {
     @Test
     public void givenJavasisstAPI_whenConstructClass_thenGenerateAClassFile() throws CannotCompileException, IOException, ClassNotFoundException, IllegalAccessException, InstantiationException {
         // given
-        String classNameWithPackage = "com.baeldung.JavassistGeneratedClass";
+        String classNameWithPackage = "com.surya.JavassistGeneratedClass";
         ClassFile cf = new ClassFile(false, classNameWithPackage, null);
         cf.setInterfaces(new String[] { "java.lang.Cloneable" });
 
@@ -58,7 +58,7 @@ public class JavasisstUnitTest {
     public void givenJavaClass_whenLoadAtByJavassist_thenTraversWholeClass() throws NotFoundException, CannotCompileException, BadBytecode {
         // given
         ClassPool cp = ClassPool.getDefault();
-        ClassFile cf = cp.get("com.baeldung.javasisst.Point").getClassFile();
+        ClassFile cf = cp.get("com.surya.javasisst.Point").getClassFile();
         MethodInfo minfo = cf.getMethod("move");
         CodeAttribute ca = minfo.getCodeAttribute();
         CodeIterator ci = ca.iterator();
@@ -79,7 +79,7 @@ public class JavasisstUnitTest {
     @Test
     public void givenTableOfInstructions_whenAddNewInstruction_thenShouldConstructProperSequence() throws NotFoundException, BadBytecode, CannotCompileException, IllegalAccessException, InstantiationException {
         // given
-        ClassFile cf = ClassPool.getDefault().get("com.baeldung.javasisst.ThreeDimensionalPoint").getClassFile();
+        ClassFile cf = ClassPool.getDefault().get("com.surya.javasisst.ThreeDimensionalPoint").getClassFile();
 
         // when
         FieldInfo f = new FieldInfo(cf.getConstPool(), "id", "I");
@@ -96,7 +96,7 @@ public class JavasisstUnitTest {
     @Test
     public void givenLoadedClass_whenAddConstructorToClass_shouldCreateClassWithConstructor() throws NotFoundException, CannotCompileException, BadBytecode {
         // given
-        ClassFile cf = ClassPool.getDefault().get("com.baeldung.javasisst.Point").getClassFile();
+        ClassFile cf = ClassPool.getDefault().get("com.surya.javasisst.Point").getClassFile();
         Bytecode code = new Bytecode(cf.getConstPool());
         code.addAload(0);
         code.addInvokespecial("java/lang/Object", MethodInfo.nameInit, "()V");

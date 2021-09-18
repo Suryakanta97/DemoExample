@@ -1,4 +1,4 @@
-package com.baeldung.java14.foreign.api;
+package com.surya.java14.foreign.api;
 
 import jdk.incubator.foreign.*;
 import org.junit.Test;

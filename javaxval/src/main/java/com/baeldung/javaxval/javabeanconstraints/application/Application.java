@@ -1,9 +1,9 @@
-package com.baeldung.javaxval.javabeanconstraints.application;
+package com.surya.javaxval.javabeanconstraints.application;
 
 import javax.validation.Validation;
 import javax.validation.Validator;
 
-import com.baeldung.javaxval.javabeanconstraints.entities.UserNotBlank;
+import com.surya.javaxval.javabeanconstraints.entities.UserNotBlank;
 
 public class Application {
 

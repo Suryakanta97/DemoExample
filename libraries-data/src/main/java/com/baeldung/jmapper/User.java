@@ -1,4 +1,4 @@
-package com.baeldung.jmapper;
+package com.surya.jmapper;
 
 import java.time.LocalDate;
 

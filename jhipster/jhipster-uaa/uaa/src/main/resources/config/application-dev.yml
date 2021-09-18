@@ -17,7 +17,7 @@ logging:
     level:
         ROOT: DEBUG
         io.github.jhipster: DEBUG
-        com.baeldung.jhipster.uaa: DEBUG
+        com.surya.jhipster.uaa: DEBUG
 
 eureka:
     instance:

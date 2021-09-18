@@ -1,6 +1,6 @@
-package com.baeldung.filesystem.jndi;
+package com.surya.filesystem.jndi;
 
-import com.baeldung.filesystem.jndi.LookupFSJNDI;
+import com.surya.filesystem.jndi.LookupFSJNDI;
 import org.junit.Test;
 
 import javax.naming.InitialContext;

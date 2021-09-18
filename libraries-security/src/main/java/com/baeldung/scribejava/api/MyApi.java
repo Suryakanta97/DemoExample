@@ -1,4 +1,4 @@
-package com.baeldung.scribejava.api;
+package com.surya.scribejava.api;
 
 import com.github.scribejava.core.builder.api.DefaultApi20;
 

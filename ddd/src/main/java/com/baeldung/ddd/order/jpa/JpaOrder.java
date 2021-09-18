@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.jpa;
+package com.surya.ddd.order.jpa;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

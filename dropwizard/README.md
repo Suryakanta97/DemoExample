@@ -2,4 +2,4 @@
 
 ### Relevant Articles:
 
-- [Introduction to Dropwizard](https://www.baeldung.com/java-dropwizard)
+- [Introduction to Dropwizard](https://www.surya.com/java-dropwizard)

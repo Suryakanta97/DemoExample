@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.finalize;
+package com.surya.memoryleaks.finalize;
 
 import java.nio.charset.Charset;
 import java.util.Random;

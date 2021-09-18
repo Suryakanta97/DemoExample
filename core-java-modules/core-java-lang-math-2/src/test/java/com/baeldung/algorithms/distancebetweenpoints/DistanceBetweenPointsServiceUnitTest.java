@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.distancebetweenpoints;
+package com.surya.algorithms.distancebetweenpoints;
 
 import org.junit.Test;
 

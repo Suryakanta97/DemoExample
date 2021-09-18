@@ -1,7 +1,7 @@
-package com.baeldung.mapstruct.mappingCollections.mapper;
+package com.surya.mapstruct.mappingCollections.mapper;
 
-import com.baeldung.mapstruct.mappingCollections.dto.EmployeeDTO;
-import com.baeldung.mapstruct.mappingCollections.model.Employee;
+import com.surya.mapstruct.mappingCollections.dto.EmployeeDTO;
+import com.surya.mapstruct.mappingCollections.model.Employee;
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 

@@ -1,4 +1,4 @@
-package com.baeldung.jcabi;
+package com.surya.jcabi;
 
 
 import java.io.BufferedReader;
@@ -102,7 +102,7 @@ public class JcabiAspectJ {
 
     @UnitedThrow(IllegalStateException.class)
     public static void processFile() throws IOException, InterruptedException {
-        BufferedReader reader = new BufferedReader(new FileReader("baeldung.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("surya.txt"));
         reader.readLine();
         
         Thread thread = new Thread();

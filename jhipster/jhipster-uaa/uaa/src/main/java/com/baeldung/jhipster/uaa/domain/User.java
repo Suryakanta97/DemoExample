@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.domain;
+package com.surya.jhipster.uaa.domain;
 
-import com.baeldung.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.config.Constants;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.apache.commons.lang3.StringUtils;

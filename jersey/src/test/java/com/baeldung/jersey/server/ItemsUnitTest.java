@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server;
+package com.surya.jersey.server;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +11,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.jersey.server.http.EmbeddedHttpServer;
+import com.surya.jersey.server.http.EmbeddedHttpServer;
 
 public class ItemsUnitTest {
 

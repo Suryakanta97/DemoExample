@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.marvin;
+package com.surya.image.resize.marvin;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

@@ -1,4 +1,4 @@
-package com.baeldung.metrics.aspectj;
+package com.surya.metrics.aspectj;
 
 import com.codahale.metrics.annotation.Timed;
 import io.astefanutti.metrics.aspectj.Metrics;

@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.config;
+package com.surya.jersey.server.config;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

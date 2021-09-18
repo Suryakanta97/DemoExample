@@ -1,4 +1,4 @@
-package com.baeldung.datetostring;
+package com.surya.datetostring;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

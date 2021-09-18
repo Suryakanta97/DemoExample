@@ -1,6 +1,6 @@
-package com.baeldung.reduce.benchmarks;
+package com.surya.reduce.benchmarks;
 
-import com.baeldung.reduce.entities.User;
+import com.surya.reduce.entities.User;
 import java.util.ArrayList;
 import java.util.List;
 import org.openjdk.jmh.annotations.Benchmark;

@@ -1,4 +1,4 @@
-package com.baeldung.commons.collections.circularfifoqueue;
+package com.surya.commons.collections.circularfifoqueue;
 
 import java.util.ArrayList;
 import java.util.List;

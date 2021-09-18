@@ -1,4 +1,4 @@
-package com.baeldung.innerinterfaces;
+package com.surya.innerinterfaces;
 
 public class Customer {
     public interface List {

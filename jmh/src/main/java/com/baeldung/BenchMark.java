@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.surya;
 
 import com.google.common.hash.Hasher;
 import com.google.common.hash.Hashing;

@@ -1,4 +1,4 @@
-package com.baeldung.jmx;
+package com.surya.jmx;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

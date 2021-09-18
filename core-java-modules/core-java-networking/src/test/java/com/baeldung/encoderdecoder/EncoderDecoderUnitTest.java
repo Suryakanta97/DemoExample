@@ -1,4 +1,4 @@
-package com.baeldung.encoderdecoder;
+package com.surya.encoderdecoder;
 
 import static java.util.stream.Collectors.joining;
 import static org.hamcrest.CoreMatchers.is;
@@ -22,8 +22,8 @@ import org.springframework.web.util.UriUtils;
 public class EncoderDecoderUnitTest {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(EncoderDecoderUnitTest.class);
-    private static final String testUrl = "http://www.baeldung.com?key1=value+1&key2=value%40%21%242&key3=value%253";
-    private static final String testUrlWithPath = "http://www.baeldung.com/path+1?key1=value+1&key2=value%40%21%242&key3=value%253";
+    private static final String testUrl = "http://www.surya.com?key1=value+1&key2=value%40%21%242&key3=value%253";
+    private static final String testUrlWithPath = "http://www.surya.com/path+1?key1=value+1&key2=value%40%21%242&key3=value%253";
 
     private String encodeValue(String value) {
         String encoded = null;
@@ -50,7 +50,7 @@ public class EncoderDecoderUnitTest {
         URL url = new URL(testUrl);
 
         Assert.assertThat(url.getProtocol(), is("http"));
-        Assert.assertThat(url.getHost(), is("www.baeldung.com"));
+        Assert.assertThat(url.getHost(), is("www.surya.com"));
         Assert.assertThat(url.getQuery(), is("key1=value+1&key2=value%40%21%242&key3=value%253"));
     }
 
@@ -61,7 +61,7 @@ public class EncoderDecoderUnitTest {
         requestParams.put("key2", "value@!$2");
         requestParams.put("key3", "value%3");
 
-        String encodedURL = requestParams.keySet().stream().map(key -> key + "=" + encodeValue(requestParams.get(key))).collect(joining("&", "http://www.baeldung.com?", ""));
+        String encodedURL = requestParams.keySet().stream().map(key -> key + "=" + encodeValue(requestParams.get(key))).collect(joining("&", "http://www.surya.com?", ""));
 
         Assert.assertThat(testUrl, is(encodedURL));
     }
@@ -74,7 +74,7 @@ public class EncoderDecoderUnitTest {
 
         String decodedQuery = Arrays.stream(query.split("&")).map(param -> param.split("=")[0] + "=" + decode(param.split("=")[1])).collect(joining("&"));
 
-        Assert.assertEquals("http://www.baeldung.com?key1=value 1&key2=value@!$2&key3=value%3", url.getProtocol() + "://" + url.getHost() + "?" + decodedQuery);
+        Assert.assertEquals("http://www.surya.com?key1=value 1&key2=value@!$2&key3=value%3", url.getProtocol() + "://" + url.getHost() + "?" + decodedQuery);
     }
 
     private String encodePath(String path) {
@@ -104,7 +104,7 @@ public class EncoderDecoderUnitTest {
 
         String path = "path+1";
 
-        String encodedURL = requestParams.keySet().stream().map(key -> key + "=" + encodeValue(requestParams.get(key))).collect(joining("&", "http://www.baeldung.com/" + encodePath(path) + "?", ""));
+        String encodedURL = requestParams.keySet().stream().map(key -> key + "=" + encodeValue(requestParams.get(key))).collect(joining("&", "http://www.surya.com/" + encodePath(path) + "?", ""));
 
         Assert.assertThat(testUrlWithPath, is(encodedURL));
     }

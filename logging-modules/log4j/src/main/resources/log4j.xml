@@ -10,7 +10,7 @@
 
     <!-- File appender -->
     <appender name="fout" class="org.apache.log4j.FileAppender">
-        <param name="file" value="log4j/target/baeldung-log4j.log"/>
+        <param name="file" value="log4j/target/surya-log4j.log"/>
         <param name="append" value="false"/>
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n"/>
@@ -77,11 +77,11 @@
     </appender>
 
     <!--Override log level for specified package -->
-    <category name="com.baeldung.log4j">
+    <category name="com.surya.log4j">
         <priority value="TRACE"/>
     </category>
 
-    <category name="com.baeldung.log4j.Log4jRollingExample">
+    <category name="com.surya.log4j.Log4jRollingExample">
         <priority value="TRACE"/>
         <appender-ref ref="roll-by-size"/>
         <appender-ref ref="roll-by-size-2"/>
@@ -90,7 +90,7 @@
         <appender-ref ref="roll-by-time-and-size"/>
     </category>
 
-    <logger name="com.baeldung.log4j.NoAppenderExample"/>
+    <logger name="com.surya.log4j.NoAppenderExample"/>
 
     <root>
         <level value="DEBUG"/>

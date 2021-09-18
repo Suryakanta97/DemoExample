@@ -1,4 +1,4 @@
-package com.baeldung.removingdecimals;
+package com.surya.removingdecimals;
 
 import org.junit.Test;
 

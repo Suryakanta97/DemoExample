@@ -1,9 +1,9 @@
-package com.baeldung.dddhexagonalspring.infrastracture.repository;
+package com.surya.dddhexagonalspring.infrastracture.repository;
 
-import com.baeldung.dddhexagonalspring.domain.Order;
-import com.baeldung.dddhexagonalspring.domain.Product;
-import com.baeldung.dddhexagonalspring.infrastracture.repository.mongo.MongoDbOrderRepository;
-import com.baeldung.dddhexagonalspring.infrastracture.repository.mongo.SpringDataMongoOrderRepository;
+import com.surya.dddhexagonalspring.domain.Order;
+import com.surya.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.infrastracture.repository.mongo.MongoDbOrderRepository;
+import com.surya.dddhexagonalspring.infrastracture.repository.mongo.SpringDataMongoOrderRepository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

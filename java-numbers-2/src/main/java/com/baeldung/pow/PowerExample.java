@@ -1,4 +1,4 @@
-package com.baeldung.pow;
+package com.surya.pow;
 
 import java.text.DecimalFormat;
 

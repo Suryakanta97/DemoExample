@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.download;
+package com.surya.okhttp.download;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

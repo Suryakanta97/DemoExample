@@ -1,4 +1,4 @@
-package com.baeldung.commons.lang3.test;
+package com.surya.commons.lang3.test;
 
 import org.apache.commons.lang3.tuple.MutablePair;
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,4 +1,4 @@
-package com.baeldung.removelastchar;
+package com.surya.removelastchar;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;

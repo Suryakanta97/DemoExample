@@ -1,4 +1,4 @@
-package com.baeldung.hashcode.apachecommons;
+package com.surya.hashcode.apachecommons;
 
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.slf4j.Logger;

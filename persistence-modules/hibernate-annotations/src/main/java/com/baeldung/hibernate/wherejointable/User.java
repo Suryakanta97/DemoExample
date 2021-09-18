@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.wherejointable;
+package com.surya.hibernate.wherejointable;
 
 import java.util.ArrayList;
 import java.util.List;

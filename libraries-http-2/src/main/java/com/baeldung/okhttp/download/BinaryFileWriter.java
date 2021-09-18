@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.download;
+package com.surya.okhttp.download;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

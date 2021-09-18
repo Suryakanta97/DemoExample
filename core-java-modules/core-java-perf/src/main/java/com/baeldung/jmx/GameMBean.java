@@ -1,4 +1,4 @@
-package com.baeldung.jmx;
+package com.surya.jmx;
 
 public interface GameMBean {
 

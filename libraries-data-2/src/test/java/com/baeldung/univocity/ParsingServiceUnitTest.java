@@ -1,4 +1,4 @@
-package com.baeldung.univocity;
+package com.surya.univocity;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,7 @@ import java.util.List;
 import org.junit.After;
 import org.junit.Test;
 
-import com.baeldung.univocity.model.Product;
+import com.surya.univocity.model.Product;
 
 public class ParsingServiceUnitTest {
 

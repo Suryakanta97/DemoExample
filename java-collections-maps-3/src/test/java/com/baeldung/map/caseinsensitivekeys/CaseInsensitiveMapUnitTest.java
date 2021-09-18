@@ -1,4 +1,4 @@
-package com.baeldung.map.caseinsensitivekeys;
+package com.surya.map.caseinsensitivekeys;
 
 import org.apache.commons.collections4.map.CaseInsensitiveMap;
 import org.junit.Test;

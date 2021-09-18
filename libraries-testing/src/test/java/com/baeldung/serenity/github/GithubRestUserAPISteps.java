@@ -1,4 +1,4 @@
-package com.baeldung.serenity.github;
+package com.surya.serenity.github;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

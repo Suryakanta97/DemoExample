@@ -1,6 +1,6 @@
-package com.baeldung.accessmodifiers.another;
+package com.surya.accessmodifiers.another;
 
-import com.baeldung.accessmodifiers.SuperPublic;
+import com.surya.accessmodifiers.SuperPublic;
 
 public class AnotherSubClass extends SuperPublic {
     public AnotherSubClass() {

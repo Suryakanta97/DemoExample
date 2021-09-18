@@ -1,11 +1,11 @@
 modelVersion: 4.0.0
-groupId: com.baeldung.maven.polyglot
+groupId: com.surya.maven.polyglot
 artifactId: maven-polyglot-yml-app
 version: 1.0-SNAPSHOT
 name: 'YAML Demo'
 
 parent: 
-  groupId: "com.baeldung"
+  groupId: "com.surya"
   artifactId: "parent-modules"
   version: "1.0.0-SNAPSHOT"
   relativePath: "../.."

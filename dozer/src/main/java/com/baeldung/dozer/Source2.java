@@ -1,4 +1,4 @@
-package com.baeldung.dozer;
+package com.surya.dozer;
 
 public class Source2 {
     private String id;

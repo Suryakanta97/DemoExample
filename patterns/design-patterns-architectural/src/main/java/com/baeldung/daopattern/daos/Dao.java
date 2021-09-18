@@ -1,4 +1,4 @@
-package com.baeldung.daopattern.daos;
+package com.surya.daopattern.daos;
 
 import java.util.List;
 import java.util.Optional;

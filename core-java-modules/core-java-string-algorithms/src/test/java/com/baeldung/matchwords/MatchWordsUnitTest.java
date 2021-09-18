@@ -1,4 +1,4 @@
-package com.baeldung.matchwords;
+package com.surya.matchwords;
 
 import org.junit.Test;
 
@@ -6,9 +6,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatchWordsUnitTest {
 
-    private final String[] words = {"hello", "Baeldung"};
-    private final String inputString = "hello there, Baeldung";
-    private final String wholeInput = "helloBaeldung";
+    private final String[] words = {"hello", "surya"};
+    private final String inputString = "hello there, surya";
+    private final String wholeInput = "hellosurya";
 
     @Test
     public void givenText_whenCallingStringContains_shouldMatchWords() {

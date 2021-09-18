@@ -1,4 +1,4 @@
-package com.baeldung.finalize;
+package com.surya.finalize;
 
 import java.lang.ref.ReferenceQueue;
 import java.lang.reflect.Field;

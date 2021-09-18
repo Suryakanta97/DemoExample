@@ -1,4 +1,4 @@
-package com.baeldung.reflection.check.staticmethods;
+package com.surya.reflection.check.staticmethods;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;

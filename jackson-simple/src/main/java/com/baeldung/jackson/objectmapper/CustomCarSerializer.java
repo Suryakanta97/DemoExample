@@ -1,8 +1,8 @@
-package com.baeldung.jackson.objectmapper;
+package com.surya.jackson.objectmapper;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.objectmapper.dto.Car;
+import com.surya.jackson.objectmapper.dto.Car;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.SerializerProvider;

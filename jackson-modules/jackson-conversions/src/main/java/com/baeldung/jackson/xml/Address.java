@@ -1,4 +1,4 @@
-package com.baeldung.jackson.xml;
+package com.surya.jackson.xml;
 
 public class Address {
 

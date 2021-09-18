@@ -1,4 +1,4 @@
-package com.baeldung.freebuilder;
+package com.surya.freebuilder;
 
 import org.junit.jupiter.api.Test;
 
@@ -25,7 +25,7 @@ public class EmployeeBuilderUnitTest {
 
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -52,7 +52,7 @@ public class EmployeeBuilderUnitTest {
         Employee.Builder builder = new Employee.Builder();
 
         Employee employee = builder
-          .setName("baeldung")
+          .setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -78,7 +78,7 @@ public class EmployeeBuilderUnitTest {
 
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -105,7 +105,7 @@ public class EmployeeBuilderUnitTest {
 
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -131,7 +131,7 @@ public class EmployeeBuilderUnitTest {
 
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -159,7 +159,7 @@ public class EmployeeBuilderUnitTest {
 
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -188,7 +188,7 @@ public class EmployeeBuilderUnitTest {
 
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setDesignation("author")
           .setEmail("abc@xyz.com")
@@ -215,7 +215,7 @@ public class EmployeeBuilderUnitTest {
         // when
         Employee.Builder builder = new Employee.Builder();
 
-        Employee employee = builder.setName("baeldung")
+        Employee employee = builder.setName("surya")
           .setAge(10)
           .setEmail("abc@xyz.com")
           .buildPartial();

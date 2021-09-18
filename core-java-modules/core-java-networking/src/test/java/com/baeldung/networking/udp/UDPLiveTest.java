@@ -1,4 +1,4 @@
-package com.baeldung.networking.udp;
+package com.surya.networking.udp;
 
 import org.junit.After;
 import org.junit.Before;

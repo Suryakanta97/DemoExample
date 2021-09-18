@@ -1,4 +1,4 @@
-package com.baeldung.java.math;
+package com.surya.java.math;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.handlebars;
+package com.surya.handlebars;
 
 import com.github.jknack.handlebars.Handlebars;
 import com.github.jknack.handlebars.Template;
@@ -24,12 +24,12 @@ public class ReusingTemplatesUnitTest {
         Handlebars handlebars = new Handlebars(templateLoader);
         Template template = handlebars.compile("page");
         Person person = new Person();
-        person.setName("Baeldung");
+        person.setName("surya");
 
         String templateString = template.apply(person);
 
         assertThat(templateString)
-          .contains("<h4>Hi Baeldung!</h4>", "<p>This is the page Baeldung</p>");
+          .contains("<h4>Hi surya!</h4>", "<p>This is the page surya</p>");
     }
 
     @Test
@@ -37,7 +37,7 @@ public class ReusingTemplatesUnitTest {
         Handlebars handlebars = new Handlebars(templateLoader);
         Template template = handlebars.compile("simplemessage");
         Person person = new Person();
-        person.setName("Baeldung");
+        person.setName("surya");
 
         String templateString = template.apply(person);
 

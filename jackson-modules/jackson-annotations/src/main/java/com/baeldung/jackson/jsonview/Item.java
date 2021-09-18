@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonview;
+package com.surya.jackson.jsonview;
 
 import com.fasterxml.jackson.annotation.JsonView;
 

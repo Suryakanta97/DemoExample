@@ -1,4 +1,4 @@
-package com.baeldung.splitkeepdelimiters;
+package com.surya.splitkeepdelimiters;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

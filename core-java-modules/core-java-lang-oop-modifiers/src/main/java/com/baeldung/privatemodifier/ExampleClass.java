@@ -1,4 +1,4 @@
-package com.baeldung.privatemodifier;
+package com.surya.privatemodifier;
 
 public class ExampleClass {
 

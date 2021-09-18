@@ -1,4 +1,4 @@
 module main.app {
     requires hello.modules;
-    uses com.baeldung.modules.hello.HelloInterface;
+    uses com.surya.modules.hello.HelloInterface;
 }

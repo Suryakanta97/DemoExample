@@ -1,4 +1,4 @@
-package com.baeldung.stringcomparison;
+package com.surya.stringcomparison;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

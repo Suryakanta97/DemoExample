@@ -1,4 +1,4 @@
-package com.baeldung.o;
+package com.surya.o;
 
 public class Subtraction implements CalculatorOperation {
     private double left;

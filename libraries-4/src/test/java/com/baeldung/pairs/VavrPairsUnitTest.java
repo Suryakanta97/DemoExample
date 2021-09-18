@@ -1,4 +1,4 @@
-package com.baeldung.pairs;
+package com.surya.pairs;
 
 import io.vavr.Tuple2;
 import org.junit.Assert;

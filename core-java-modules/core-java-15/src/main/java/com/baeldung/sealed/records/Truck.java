@@ -1,4 +1,4 @@
-package com.baeldung.sealed.records;
+package com.surya.sealed.records;
 
 public record Truck(int loadCapacity, String registrationNumber) implements Vehicle {
 

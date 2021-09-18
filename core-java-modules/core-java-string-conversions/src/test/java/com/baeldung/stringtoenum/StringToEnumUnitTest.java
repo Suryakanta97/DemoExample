@@ -1,4 +1,4 @@
-package com.baeldung.stringtoenum;
+package com.surya.stringtoenum;
 
 import static junit.framework.TestCase.assertTrue;
 

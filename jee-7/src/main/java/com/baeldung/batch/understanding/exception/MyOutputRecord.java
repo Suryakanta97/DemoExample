@@ -1,4 +1,4 @@
-package com.baeldung.batch.understanding.exception;
+package com.surya.batch.understanding.exception;
 
 import java.io.Serializable;
 

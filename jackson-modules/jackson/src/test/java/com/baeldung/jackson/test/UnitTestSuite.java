@@ -1,7 +1,7 @@
-package com.baeldung.jackson.test;
+package com.surya.jackson.test;
 
-import com.baeldung.jackson.sandbox.JacksonPrettyPrintUnitTest;
-import com.baeldung.jackson.sandbox.SandboxUnitTest;
+import com.surya.jackson.sandbox.JacksonPrettyPrintUnitTest;
+import com.surya.jackson.sandbox.SandboxUnitTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

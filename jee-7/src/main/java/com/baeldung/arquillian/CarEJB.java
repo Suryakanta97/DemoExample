@@ -1,4 +1,4 @@
-package com.baeldung.arquillian;
+package com.surya.arquillian;
 
 import java.util.ArrayList;
 import java.util.List;

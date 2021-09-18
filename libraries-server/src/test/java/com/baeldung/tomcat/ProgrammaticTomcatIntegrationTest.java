@@ -1,4 +1,4 @@
-package com.baeldung.tomcat;
+package com.surya.tomcat;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

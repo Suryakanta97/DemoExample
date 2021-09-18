@@ -1,4 +1,4 @@
-package com.baeldung.filenamewithoutextension;
+package com.surya.filenamewithoutextension;
 
 import com.google.common.io.Files;
 import org.apache.commons.io.FilenameUtils;
@@ -12,61 +12,61 @@ public class FileNameDelExtensionUnitTest {
     @Test
     public void givenDotFileWithoutExt_whenCallGuavaMethod_thenCannotGetDesiredResult() {
         //negative assertion
-        assertNotEquals(".baeldung", Files.getNameWithoutExtension(".baeldung"));
+        assertNotEquals(".surya", Files.getNameWithoutExtension(".surya"));
     }
 
     @Test
     public void givenFileWithoutMultipleExt_whenCallGuavaMethod_thenCannotRemoveAllExtensions() {
         //negative assertion
-        assertNotEquals("baeldung", Files.getNameWithoutExtension("baeldung.tar.gz"));
+        assertNotEquals("surya", Files.getNameWithoutExtension("surya.tar.gz"));
     }
 
     @Test
     public void givenDotFileWithoutExt_whenCallApacheCommonsMethod_thenCannotGetDesiredResult() {
         //negative assertion
-        assertNotEquals(".baeldung", FilenameUtils.removeExtension(".baeldung"));
+        assertNotEquals(".surya", FilenameUtils.removeExtension(".surya"));
     }
 
     @Test
     public void givenFileWithoutMultipleExt_whenCallApacheCommonsMethod_thenCannotRemoveAllExtensions() {
         //negative assertion
-        assertNotEquals("baeldung", FilenameUtils.removeExtension("baeldung.tar.gz"));
+        assertNotEquals("surya", FilenameUtils.removeExtension("surya.tar.gz"));
     }
 
     @Test
     public void givenFilenameNoExt_whenCallFilenameUtilMethod_thenGetExpectedFilename() {
-        assertEquals("baeldung", MyFilenameUtil.removeFileExtension("baeldung", true));
-        assertEquals("baeldung", MyFilenameUtil.removeFileExtension("baeldung", false));
+        assertEquals("surya", MyFilenameUtil.removeFileExtension("surya", true));
+        assertEquals("surya", MyFilenameUtil.removeFileExtension("surya", false));
     }
 
     @Test
     public void givenSingleExt_whenCallFilenameUtilMethod_thenGetExpectedFilename() {
-        assertEquals("baeldung", MyFilenameUtil.removeFileExtension("baeldung.txt", true));
-        assertEquals("baeldung", MyFilenameUtil.removeFileExtension("baeldung.txt", false));
+        assertEquals("surya", MyFilenameUtil.removeFileExtension("surya.txt", true));
+        assertEquals("surya", MyFilenameUtil.removeFileExtension("surya.txt", false));
     }
 
 
     @Test
     public void givenDotFile_whenCallFilenameUtilMethod_thenGetExpectedFilename() {
-        assertEquals(".baeldung", MyFilenameUtil.removeFileExtension(".baeldung", true));
-        assertEquals(".baeldung", MyFilenameUtil.removeFileExtension(".baeldung", false));
+        assertEquals(".surya", MyFilenameUtil.removeFileExtension(".surya", true));
+        assertEquals(".surya", MyFilenameUtil.removeFileExtension(".surya", false));
     }
 
     @Test
     public void givenDotFileWithExt_whenCallFilenameUtilMethod_thenGetExpectedFilename() {
-        assertEquals(".baeldung", MyFilenameUtil.removeFileExtension(".baeldung.conf", true));
-        assertEquals(".baeldung", MyFilenameUtil.removeFileExtension(".baeldung.conf", false));
+        assertEquals(".surya", MyFilenameUtil.removeFileExtension(".surya.conf", true));
+        assertEquals(".surya", MyFilenameUtil.removeFileExtension(".surya.conf", false));
     }
 
     @Test
     public void givenDoubleExt_whenCallFilenameUtilMethod_thenGetExpectedFilename() {
-        assertEquals("baeldung", MyFilenameUtil.removeFileExtension("baeldung.tar.gz", true));
-        assertEquals("baeldung.tar", MyFilenameUtil.removeFileExtension("baeldung.tar.gz", false));
+        assertEquals("surya", MyFilenameUtil.removeFileExtension("surya.tar.gz", true));
+        assertEquals("surya.tar", MyFilenameUtil.removeFileExtension("surya.tar.gz", false));
     }
 
     @Test
     public void givenDotFileWithDoubleExt_whenCallFilenameUtilMethod_thenGetExpectedFilename() {
-        assertEquals(".baeldung", MyFilenameUtil.removeFileExtension(".baeldung.conf.bak", true));
-        assertEquals(".baeldung.conf", MyFilenameUtil.removeFileExtension(".baeldung.conf.bak", false));
+        assertEquals(".surya", MyFilenameUtil.removeFileExtension(".surya.conf.bak", true));
+        assertEquals(".surya.conf", MyFilenameUtil.removeFileExtension(".surya.conf.bak", false));
     }
 }

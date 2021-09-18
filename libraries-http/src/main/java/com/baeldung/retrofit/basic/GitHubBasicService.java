@@ -1,7 +1,7 @@
-package com.baeldung.retrofit.basic;
+package com.surya.retrofit.basic;
 
-import com.baeldung.retrofit.models.Contributor;
-import com.baeldung.retrofit.models.Repository;
+import com.surya.retrofit.models.Contributor;
+import com.surya.retrofit.models.Repository;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

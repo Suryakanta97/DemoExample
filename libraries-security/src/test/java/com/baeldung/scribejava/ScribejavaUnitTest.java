@@ -1,4 +1,4 @@
-package com.baeldung.scribejava;
+package com.surya.scribejava;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

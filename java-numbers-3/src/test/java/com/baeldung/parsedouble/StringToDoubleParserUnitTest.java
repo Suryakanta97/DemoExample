@@ -1,4 +1,4 @@
-package com.baeldung.parsedouble;
+package com.surya.parsedouble;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

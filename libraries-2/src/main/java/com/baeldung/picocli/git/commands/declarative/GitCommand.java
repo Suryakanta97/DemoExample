@@ -1,9 +1,9 @@
-package com.baeldung.picocli.git.commands.declarative;
+package com.surya.picocli.git.commands.declarative;
 
-import com.baeldung.picocli.git.model.ConfigElement;
-import com.baeldung.picocli.git.commands.subcommands.GitAddCommand;
-import com.baeldung.picocli.git.commands.subcommands.GitCommitCommand;
-import com.baeldung.picocli.git.commands.subcommands.GitConfigCommand;
+import com.surya.picocli.git.model.ConfigElement;
+import com.surya.picocli.git.commands.subcommands.GitAddCommand;
+import com.surya.picocli.git.commands.subcommands.GitCommitCommand;
+import com.surya.picocli.git.commands.subcommands.GitConfigCommand;
 import picocli.CommandLine;
 
 import static picocli.CommandLine.*;

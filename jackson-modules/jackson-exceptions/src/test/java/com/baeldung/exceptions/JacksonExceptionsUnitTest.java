@@ -1,4 +1,4 @@
-package com.baeldung.exceptions;
+package com.surya.exceptions;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertEquals;
@@ -9,11 +9,11 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.baeldung.exceptions.User;
-import com.baeldung.exceptions.UserWithPrivateFields;
-import com.baeldung.exceptions.UserWithRoot;
-import com.baeldung.exceptions.Zoo;
-import com.baeldung.exceptions.ZooConfigured;
+import com.surya.exceptions.User;
+import com.surya.exceptions.UserWithPrivateFields;
+import com.surya.exceptions.UserWithRoot;
+import com.surya.exceptions.Zoo;
+import com.surya.exceptions.ZooConfigured;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonFactory;

@@ -1,4 +1,4 @@
-package com.baeldung.serial;
+package com.surya.serial;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

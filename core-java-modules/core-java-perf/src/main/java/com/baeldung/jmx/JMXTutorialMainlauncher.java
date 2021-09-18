@@ -1,4 +1,4 @@
-package com.baeldung.jmx;
+package com.surya.jmx;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,7 +20,7 @@ public class JMXTutorialMainlauncher {
         LOG.debug("This is basic JMX tutorial");
 
         try {
-            ObjectName objectName = new ObjectName("com.baeldung.tutorial:type=basic,name=game");
+            ObjectName objectName = new ObjectName("com.surya.tutorial:type=basic,name=game");
             MBeanServer server = ManagementFactory.getPlatformMBeanServer();
             server.registerMBean(new Game(), objectName);
         } catch (MalformedObjectNameException | InstanceAlreadyExistsException |

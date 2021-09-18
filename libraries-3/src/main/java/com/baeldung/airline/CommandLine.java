@@ -1,10 +1,10 @@
-package com.baeldung.airline;
+package com.surya.airline;
 
 import com.github.rvesse.airline.annotations.Cli;
 import com.github.rvesse.airline.help.Help;
 
-@Cli(name = "baeldung-cli", 
-description = "Baeldung Airline Tutorial",
+@Cli(name = "surya-cli", 
+description = "surya Airline Tutorial",
 defaultCommand = Help.class, 
 commands = { DatabaseSetupCommand.class, LoggingCommand.class, Help.class })
 public class CommandLine {

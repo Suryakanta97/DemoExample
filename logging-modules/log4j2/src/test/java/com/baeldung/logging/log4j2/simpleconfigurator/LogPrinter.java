@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2.simpleconfigurator;
+package com.surya.logging.log4j2.simpleconfigurator;
 
 
 import org.apache.logging.log4j.LogManager;

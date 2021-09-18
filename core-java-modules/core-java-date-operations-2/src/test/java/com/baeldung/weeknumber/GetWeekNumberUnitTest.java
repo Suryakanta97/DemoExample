@@ -1,4 +1,4 @@
-package com.baeldung.weeknumber;
+package com.surya.weeknumber;
 
 import static org.junit.Assert.assertEquals;
 

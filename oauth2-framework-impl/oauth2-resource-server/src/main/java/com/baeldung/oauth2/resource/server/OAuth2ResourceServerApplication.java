@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.resource.server;
+package com.surya.oauth2.resource.server;
 
 import org.eclipse.microprofile.auth.LoginConfig;
 

@@ -1,4 +1,4 @@
-package com.baeldung.jmh.warmup;
+package com.surya.jmh.warmup;
 
 public class MainApplication {
 

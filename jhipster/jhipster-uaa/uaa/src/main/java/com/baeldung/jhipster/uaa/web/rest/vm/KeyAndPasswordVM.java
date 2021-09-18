@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.web.rest.vm;
+package com.surya.jhipster.uaa.web.rest.vm;
 
 /**
  * View Model object for storing the user's key and password.

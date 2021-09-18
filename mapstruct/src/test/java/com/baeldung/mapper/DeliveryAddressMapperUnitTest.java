@@ -1,4 +1,4 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
@@ -6,9 +6,9 @@ import static org.junit.Assert.assertSame;
 import org.junit.Test;
 import org.mapstruct.factory.Mappers;
 
-import com.baeldung.entity.Address;
-import com.baeldung.entity.Customer;
-import com.baeldung.entity.DeliveryAddress;
+import com.surya.entity.Address;
+import com.surya.entity.Customer;
+import com.surya.entity.DeliveryAddress;
 
 public class DeliveryAddressMapperUnitTest {
 

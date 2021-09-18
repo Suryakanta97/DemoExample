@@ -1,4 +1,4 @@
-package com.baeldung.string;
+package com.surya.string;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,4 +1,4 @@
-package com.baeldung.pdfthymeleaf;
+package com.surya.pdfthymeleaf;
 
 import com.lowagie.text.DocumentException;
 import org.thymeleaf.TemplateEngine;
@@ -41,7 +41,7 @@ public class PDFThymeleafExample {
         templateEngine.setTemplateResolver(templateResolver);
 
         Context context = new Context();
-        context.setVariable("to", "Baeldung.com");
+        context.setVariable("to", "surya.com");
 
         return templateEngine.process("thymeleaf_template", context);
     }

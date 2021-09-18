@@ -1,6 +1,6 @@
-package com.baeldung.mesos;
+package com.surya.mesos;
 
-import com.baeldung.mesos.schedulers.HelloWorldScheduler;
+import com.surya.mesos.schedulers.HelloWorldScheduler;
 import org.apache.mesos.MesosSchedulerDriver;
 import org.apache.mesos.Protos;
 import org.apache.mesos.Protos.CommandInfo;
@@ -16,7 +16,7 @@ public class HelloWorldMain {
 
         CommandInfo.URI uri = CommandInfo.URI.newBuilder().setValue(path).setExtract(false).build();
 
-        String helloWorldCommand = "java -cp libraries2-1.0.0-SNAPSHOT.jar com.baeldung.mesos.executors.HelloWorldExecutor";
+        String helloWorldCommand = "java -cp libraries2-1.0.0-SNAPSHOT.jar com.surya.mesos.executors.HelloWorldExecutor";
         CommandInfo commandInfoHelloWorld = CommandInfo.newBuilder().setValue(helloWorldCommand).addUris(uri)
                 .build();
 

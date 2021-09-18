@@ -1,4 +1,4 @@
-package com.baeldung.keystore;
+package com.surya.keystore;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -198,7 +198,7 @@ public class JavaKeyStoreUnitTest {
         CertificateValidity validity = new CertificateValidity(validFrom, validTo);
         certInfo.set(X509CertInfo.VALIDITY, validity);
         
-        GeneralNameInterface dnsName = new DNSName("baeldung.com");
+        GeneralNameInterface dnsName = new DNSName("surya.com");
         DerOutputStream dnsNameOutputStream = new DerOutputStream();
         dnsName.encode(dnsNameOutputStream);
         

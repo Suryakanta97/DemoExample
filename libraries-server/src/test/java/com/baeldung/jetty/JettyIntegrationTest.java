@@ -1,4 +1,4 @@
-package com.baeldung.jetty;
+package com.surya.jetty;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;

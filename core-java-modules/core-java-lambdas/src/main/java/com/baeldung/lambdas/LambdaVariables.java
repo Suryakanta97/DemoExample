@@ -1,4 +1,4 @@
-package com.baeldung.lambdas;
+package com.surya.lambdas;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;

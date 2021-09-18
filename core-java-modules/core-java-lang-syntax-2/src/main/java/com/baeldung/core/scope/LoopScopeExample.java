@@ -1,4 +1,4 @@
-package com.baeldung.core.scope;
+package com.surya.core.scope;
 
 import java.util.Arrays;
 import java.util.List;

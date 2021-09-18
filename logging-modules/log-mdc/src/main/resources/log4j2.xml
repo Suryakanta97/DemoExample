@@ -15,7 +15,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Logger name="com.baeldung.log4j2" level="TRACE" />
+		<Logger name="com.surya.log4j2" level="TRACE" />
 
 		<AsyncRoot level="DEBUG">
 			<AppenderRef ref="stdout" />

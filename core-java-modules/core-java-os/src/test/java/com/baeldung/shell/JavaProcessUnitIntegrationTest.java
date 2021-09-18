@@ -1,4 +1,4 @@
-package com.baeldung.java.shell;
+package com.surya.java.shell;
 
 import org.junit.Assert;
 import org.junit.Test;

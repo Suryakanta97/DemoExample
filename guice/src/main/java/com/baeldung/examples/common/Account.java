@@ -1,4 +1,4 @@
-package com.baeldung.examples.common;
+package com.surya.examples.common;
 
 public class Account {
 

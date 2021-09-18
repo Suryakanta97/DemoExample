@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

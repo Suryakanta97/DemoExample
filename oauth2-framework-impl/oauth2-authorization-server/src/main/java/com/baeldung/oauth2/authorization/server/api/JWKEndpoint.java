@@ -1,6 +1,6 @@
-package com.baeldung.oauth2.authorization.server.api;
+package com.surya.oauth2.authorization.server.api;
 
-import com.baeldung.oauth2.authorization.server.PEMKeyUtils;
+import com.surya.oauth2.authorization.server.PEMKeyUtils;
 import com.nimbusds.jose.jwk.JWK;
 import org.eclipse.microprofile.config.Config;
 

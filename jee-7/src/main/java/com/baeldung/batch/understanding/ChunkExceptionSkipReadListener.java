@@ -1,4 +1,4 @@
-package com.baeldung.batch.understanding;
+package com.surya.batch.understanding;
 
 import javax.batch.api.chunk.listener.SkipReadListener;
 import javax.inject.Named;

@@ -1,4 +1,4 @@
-package com.baeldung.encrypt;
+package com.surya.encrypt;
 
 import org.junit.Test;
 

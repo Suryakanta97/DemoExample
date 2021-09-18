@@ -1,6 +1,6 @@
-package com.baeldung.oauth2.authorization.server.handler;
+package com.surya.oauth2.authorization.server.handler;
 
-import com.baeldung.oauth2.authorization.server.PEMKeyUtils;
+import com.surya.oauth2.authorization.server.PEMKeyUtils;
 import com.nimbusds.jose.*;
 import com.nimbusds.jose.crypto.RSASSASigner;
 import com.nimbusds.jose.crypto.RSASSAVerifier;

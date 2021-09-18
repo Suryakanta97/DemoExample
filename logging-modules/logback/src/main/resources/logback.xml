@@ -1,6 +1,6 @@
 <configuration>
 
-    <appender name="map" class="com.baeldung.logback.MapAppender">
+    <appender name="map" class="com.surya.logback.MapAppender">
         <prefix>test</prefix>
     </appender>
 
@@ -16,7 +16,7 @@
         <to>EMAIL-RECIPIENT-1</to>
         <to>EMAIL-RECIPIENT-2</to>
         <from>SENDER-EMAIL-ADDRESS</from>
-        <subject>BAELDUNG: %logger{20} - %msg</subject>
+        <subject>surya: %logger{20} - %msg</subject>
         <layout class="ch.qos.logback.classic.PatternLayout">
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
         </layout>
@@ -26,7 +26,7 @@
         <smtpHost>OUR-SMTP-HOST-ADDRESS</smtpHost>
         <to>EMAIL-RECIPIENT</to>
         <from>SENDER-EMAIL-ADDRESS</from>
-        <subject>BAELDUNG: %logger{20} - %msg</subject>
+        <subject>surya: %logger{20} - %msg</subject>
         <layout class="ch.qos.logback.classic.html.HTMLLayout"/>
         <cyclicBufferTracker class="ch.qos.logback.core.spi.CyclicBufferTracker">
             <!-- only 5 log entries on email -->
@@ -43,13 +43,13 @@
         <password>GMAIL-ACCT-PASSWORD</password>
         <to>EMAIL-RECIPIENT</to>
         <from>SENDER-EMAIL@gmail.com</from>
-        <subject>BAELDUNG: %logger{20} - %msg</subject>
+        <subject>surya: %logger{20} - %msg</subject>
         <layout class="ch.qos.logback.classic.html.HTMLLayout"/>
     </appender>
 
     <appender name="mask" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
-            <layout class="com.baeldung.logback.MaskingPatternLayout">
+            <layout class="com.surya.logback.MaskingPatternLayout">
                 <maskPattern>\"SSN\"\s*:\s*\"(.*?)\"</maskPattern> <!-- SSN JSON pattern -->
                 <maskPattern>\"address\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Address JSON pattern -->
                 <maskPattern>(\d+\.\d+\.\d+\.\d+)</maskPattern> <!-- Ip address IPv4 pattern -->

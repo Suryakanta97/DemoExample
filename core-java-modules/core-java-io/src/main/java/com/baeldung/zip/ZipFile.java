@@ -1,4 +1,4 @@
-package com.baeldung.zip;
+package com.surya.zip;
 
 import java.io.File;
 import java.io.FileInputStream;

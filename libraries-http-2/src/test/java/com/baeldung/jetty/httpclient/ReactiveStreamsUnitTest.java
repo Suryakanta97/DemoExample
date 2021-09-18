@@ -1,4 +1,4 @@
-package com.baeldung.jetty.httpclient;
+package com.surya.jetty.httpclient;
 
 import org.eclipse.jetty.client.api.Request;
 import org.eclipse.jetty.http.HttpStatus;

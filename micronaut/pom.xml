@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.micronaut</groupId>
+    <groupId>com.surya.micronaut</groupId>
     <artifactId>micronaut</artifactId>
     <version>0.1</version>
     <name>micronaut</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -141,7 +141,7 @@
     </build>
 
     <properties>
-        <exec.mainClass>com.baeldung.micronaut.helloworld.server.ServerApplication</exec.mainClass>
+        <exec.mainClass>com.surya.micronaut.helloworld.server.ServerApplication</exec.mainClass>
         <micronaut.version>1.0.0.RC2</micronaut.version>
         <jdk.version>1.8</jdk.version>
         <annotation.api.version>1.3.2</annotation.api.version>

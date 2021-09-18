@@ -1,4 +1,4 @@
-package com.baeldung.binarynumbers;
+package com.surya.binarynumbers;
 
 public class BinaryNumbers {
 

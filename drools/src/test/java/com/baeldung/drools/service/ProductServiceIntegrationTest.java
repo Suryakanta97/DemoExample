@@ -1,6 +1,6 @@
-package com.baeldung.drools.service;
+package com.surya.drools.service;
 
-import com.baeldung.drools.model.Product;
+import com.surya.drools.model.Product;
 import org.junit.Before;
 import org.junit.Test;
 

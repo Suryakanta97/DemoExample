@@ -1,10 +1,10 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import com.baeldung.dto.CustomerDto;
-import com.baeldung.entity.Customer;
+import com.surya.dto.CustomerDto;
+import com.surya.entity.Customer;
 
 @Mapper
 public interface CustomerDtoMapper {

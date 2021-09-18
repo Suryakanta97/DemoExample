@@ -1,4 +1,4 @@
-package com.baeldung.threaddump;
+package com.surya.threaddump;
 
 import java.io.IOException;
 import java.lang.management.ManagementFactory;

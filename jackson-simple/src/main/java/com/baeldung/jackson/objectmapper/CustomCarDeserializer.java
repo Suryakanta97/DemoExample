@@ -1,11 +1,11 @@
-package com.baeldung.jackson.objectmapper;
+package com.surya.jackson.objectmapper;
 
 import java.io.IOException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.jackson.objectmapper.dto.Car;
+import com.surya.jackson.objectmapper.dto.Car;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.databind.DeserializationContext;

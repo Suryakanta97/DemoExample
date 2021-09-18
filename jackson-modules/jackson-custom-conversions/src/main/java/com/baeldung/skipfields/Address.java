@@ -1,4 +1,4 @@
-package com.baeldung.skipfields;
+package com.surya.skipfields;
 
 public class Address implements Hidable {
     private String city;

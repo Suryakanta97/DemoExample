@@ -1,8 +1,8 @@
-package com.baeldung.grpc.client;
+package com.surya.grpc.client;
 
-import com.baeldung.grpc.HelloRequest;
-import com.baeldung.grpc.HelloResponse;
-import com.baeldung.grpc.HelloServiceGrpc;
+import com.surya.grpc.HelloRequest;
+import com.surya.grpc.HelloResponse;
+import com.surya.grpc.HelloServiceGrpc;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
@@ -17,7 +17,7 @@ public class GrpcClient {
           = HelloServiceGrpc.newBlockingStub(channel);
 
         HelloResponse helloResponse = stub.hello(HelloRequest.newBuilder()
-            .setFirstName("Baeldung")
+            .setFirstName("surya")
             .setLastName("gRPC")
             .build());
 

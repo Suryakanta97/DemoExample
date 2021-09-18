@@ -1,4 +1,4 @@
-package com.baeldung.guava.memoizer;
+package com.surya.guava.memoizer;
 
 import java.math.BigInteger;
 import java.util.Random;

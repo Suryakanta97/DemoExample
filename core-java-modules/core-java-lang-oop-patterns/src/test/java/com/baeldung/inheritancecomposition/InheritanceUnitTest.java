@@ -1,8 +1,8 @@
-package com.baeldung.inheritancecomposition;
+package com.surya.inheritancecomposition;
 
-import com.baeldung.inheritancecomposition.model.Actress;
-import com.baeldung.inheritancecomposition.model.Person;
-import com.baeldung.inheritancecomposition.model.Waitress;
+import com.surya.inheritancecomposition.model.Actress;
+import com.surya.inheritancecomposition.model.Person;
+import com.surya.inheritancecomposition.model.Waitress;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

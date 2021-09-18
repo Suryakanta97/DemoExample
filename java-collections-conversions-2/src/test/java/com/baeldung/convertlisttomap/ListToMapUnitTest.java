@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.surya.convertlisttomap;
 
 import static org.junit.Assert.assertTrue;
 

@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.repository;
+package com.surya.jhipster.uaa.repository;
 
-import com.baeldung.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.domain.User;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;

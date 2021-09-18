@@ -1,4 +1,4 @@
-package com.baeldung.nulls;
+package com.surya.nulls;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

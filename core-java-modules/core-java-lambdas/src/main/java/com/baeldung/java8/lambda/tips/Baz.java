@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.tips;
+package com.surya.java8.lambda.tips;
 
 
 @FunctionalInterface

@@ -1,4 +1,4 @@
-package com.baeldung.examples.guice;
+package com.surya.examples.guice;
 
 public class Person {
 	private String firstName;

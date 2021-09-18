@@ -1,4 +1,4 @@
-package com.baeldung.filevisitor;
+package com.surya.filevisitor;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;

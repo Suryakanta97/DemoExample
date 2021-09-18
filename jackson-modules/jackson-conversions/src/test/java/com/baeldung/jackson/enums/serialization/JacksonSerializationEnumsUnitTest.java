@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.serialization;
+package com.surya.jackson.enums.serialization;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
@@ -8,12 +8,12 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.enums.withEnum.DistanceEnumSimple;
-import com.baeldung.jackson.enums.withEnum.DistanceEnumWithJsonFormat;
-import com.baeldung.jackson.enums.withEnum.DistanceEnumWithValue;
-import com.baeldung.jackson.enums.withEnum.MyDtoWithEnumCustom;
-import com.baeldung.jackson.enums.withEnum.MyDtoWithEnumJsonFormat;
-import com.baeldung.jackson.enums.serialization.Distance;
+import com.surya.jackson.enums.withEnum.DistanceEnumSimple;
+import com.surya.jackson.enums.withEnum.DistanceEnumWithJsonFormat;
+import com.surya.jackson.enums.withEnum.DistanceEnumWithValue;
+import com.surya.jackson.enums.withEnum.MyDtoWithEnumCustom;
+import com.surya.jackson.enums.withEnum.MyDtoWithEnumJsonFormat;
+import com.surya.jackson.enums.serialization.Distance;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -1,4 +1,4 @@
-package com.baeldung.soap.ws.server;
+package com.surya.soap.ws.server;
 
 public class Country {
     protected String name;

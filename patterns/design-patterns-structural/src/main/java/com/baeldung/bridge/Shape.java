@@ -1,4 +1,4 @@
-package com.baeldung.bridge;
+package com.surya.bridge;
 
 public abstract class Shape {
     protected Color color;

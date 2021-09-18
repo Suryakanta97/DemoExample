@@ -1,4 +1,4 @@
-package com.baeldung.lrucache;
+package com.surya.lrucache;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package com.baeldung.nullobject;
+package com.surya.nullobject;
 
 public class SmsRouter implements Router {
 

@@ -1,4 +1,4 @@
-package com.baeldung.finalize;
+package com.surya.finalize;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ public class FinalizeUnitTest {
     @Test
     public void whenGC_thenFinalizerExecuted() throws IOException {
         String firstLine = new Finalizable().readFirstLine();
-        Assert.assertEquals("baeldung.com", firstLine);
+        Assert.assertEquals("surya.com", firstLine);
         System.gc();
     }
 
@@ -17,7 +17,7 @@ public class FinalizeUnitTest {
     public void whenTryWResourcesExits_thenResourceClosed() throws IOException {
         try (CloseableResource resource = new CloseableResource()) {
             String firstLine = resource.readFirstLine();
-            Assert.assertEquals("baeldung.com", firstLine);
+            Assert.assertEquals("surya.com", firstLine);
         }
     }
 }

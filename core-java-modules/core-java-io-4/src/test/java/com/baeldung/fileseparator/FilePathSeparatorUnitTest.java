@@ -1,4 +1,4 @@
-package com.baeldung.fileseparator;
+package com.surya.fileseparator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

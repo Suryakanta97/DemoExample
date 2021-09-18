@@ -1,4 +1,4 @@
-package com.baeldung.passay;
+package com.surya.passay;
 
 import org.junit.Assert;
 import org.junit.Test;

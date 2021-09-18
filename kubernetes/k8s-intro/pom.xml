@@ -6,7 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>kubernetes</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>

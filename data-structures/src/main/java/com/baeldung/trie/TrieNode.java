@@ -1,4 +1,4 @@
-package com.baeldung.trie;
+package com.surya.trie;
 
 import java.util.HashMap;
 import java.util.Map;

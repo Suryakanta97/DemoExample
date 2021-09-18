@@ -1,4 +1,4 @@
-package com.baeldung.jackson.domain;
+package com.surya.jackson.domain;
 
 public class Person {
 

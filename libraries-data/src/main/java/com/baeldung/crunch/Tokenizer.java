@@ -1,4 +1,4 @@
-package com.baeldung.crunch;
+package com.surya.crunch;
 
 import org.apache.crunch.DoFn;
 import org.apache.crunch.Emitter;

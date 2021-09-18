@@ -1,4 +1,4 @@
-package com.baeldung.jackson.map;
+package com.surya.jackson.map;
 
 import java.io.IOException;
 import java.util.HashMap;

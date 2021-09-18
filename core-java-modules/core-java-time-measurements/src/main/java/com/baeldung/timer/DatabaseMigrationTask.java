@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import java.util.List;
 import java.util.TimerTask;

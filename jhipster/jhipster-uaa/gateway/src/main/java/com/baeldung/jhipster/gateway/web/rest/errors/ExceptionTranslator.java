@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.web.rest.errors;
+package com.surya.jhipster.gateway.web.rest.errors;
 
-import com.baeldung.jhipster.gateway.web.rest.util.HeaderUtil;
+import com.surya.jhipster.gateway.web.rest.util.HeaderUtil;
 
 import org.springframework.dao.ConcurrencyFailureException;
 import org.springframework.http.ResponseEntity;

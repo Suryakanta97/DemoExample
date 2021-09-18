@@ -1,4 +1,4 @@
-package com.baeldung.jooby;
+package com.surya.jooby;
 
 import org.jooby.Jooby;
 import org.jooby.Mutant;
@@ -6,7 +6,7 @@ import org.jooby.Session;
 import org.jooby.jedis.Redis;
 import org.jooby.jedis.RedisSessionStore;
 
-import com.baeldung.jooby.bean.Employee;
+import com.surya.jooby.bean.Employee;
 
 public class App extends Jooby {
 
@@ -40,7 +40,7 @@ public class App extends Jooby {
 	}
 
 	{
-		get("/login", () -> "Hello from Baeldung");
+		get("/login", () -> "Hello from surya");
 	}
 
 	{

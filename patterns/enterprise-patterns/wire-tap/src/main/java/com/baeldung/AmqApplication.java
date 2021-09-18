@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.surya;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.camel.CamelContext;

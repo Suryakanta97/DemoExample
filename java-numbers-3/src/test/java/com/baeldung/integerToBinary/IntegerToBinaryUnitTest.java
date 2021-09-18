@@ -1,4 +1,4 @@
-package com.baeldung.integerToBinary;
+package com.surya.integerToBinary;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

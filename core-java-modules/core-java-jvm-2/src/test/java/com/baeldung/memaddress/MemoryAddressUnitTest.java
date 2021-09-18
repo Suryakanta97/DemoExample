@@ -1,4 +1,4 @@
-package com.baeldung.memaddress;
+package com.surya.memaddress;
 
 import org.junit.Test;
 import org.openjdk.jol.vm.VM;

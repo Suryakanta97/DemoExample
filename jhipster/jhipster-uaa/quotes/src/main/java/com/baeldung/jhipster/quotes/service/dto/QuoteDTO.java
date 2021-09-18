@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.service.dto;
+package com.surya.jhipster.quotes.service.dto;
 
 import java.time.ZonedDateTime;
 import javax.validation.constraints.*;

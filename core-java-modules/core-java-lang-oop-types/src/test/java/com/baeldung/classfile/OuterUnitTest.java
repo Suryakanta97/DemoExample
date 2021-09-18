@@ -1,8 +1,8 @@
-package com.baeldung.classfile;
+package com.surya.classfile;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import com.baeldung.classfile.Outer.Nested;
+import com.surya.classfile.Outer.Nested;
 
 public class OuterUnitTest {
 
@@ -28,7 +28,7 @@ public class OuterUnitTest {
     @Test
     public void when_localClassInIfClause_then_verifyOutput() {
         Outer outer = new Outer();
-        assertEquals("Welcome to Baeldung", outer.message("Baeldung"));
+        assertEquals("Welcome to surya", outer.message("surya"));
         assertEquals("This is a Local Class within if clause", outer.message(""));
     }
 
@@ -41,6 +41,6 @@ public class OuterUnitTest {
     @Test
     public void when_anonymousClassHelloWorld_then_verifyOutput() {
         Outer outer = new Outer();
-        assertEquals("Welcome to Baeldung", outer.greet("Baeldung"));
+        assertEquals("Welcome to surya", outer.greet("surya"));
     }
 }

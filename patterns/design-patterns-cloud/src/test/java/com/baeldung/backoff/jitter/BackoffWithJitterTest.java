@@ -1,4 +1,4 @@
-package com.baeldung.backoff.jitter;
+package com.surya.backoff.jitter;
 
 import io.github.resilience4j.retry.IntervalFunction;
 import io.github.resilience4j.retry.Retry;
@@ -14,7 +14,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.function.Function;
 
-import static com.baeldung.backoff.jitter.BackoffWithJitterTest.RetryProperties.*;
+import static com.surya.backoff.jitter.BackoffWithJitterTest.RetryProperties.*;
 import static io.github.resilience4j.retry.IntervalFunction.ofExponentialBackoff;
 import static io.github.resilience4j.retry.IntervalFunction.ofExponentialRandomBackoff;
 import static java.util.Collections.nCopies;

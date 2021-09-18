@@ -1,4 +1,4 @@
-package com.baeldung.guava.zip;
+package com.surya.guava.zip;
 
 import com.google.common.collect.Streams;
 import org.jooq.lambda.Seq;

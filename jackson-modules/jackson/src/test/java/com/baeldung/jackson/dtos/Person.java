@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dtos;
+package com.surya.jackson.dtos;
 
 import java.util.ArrayList;
 import java.util.List;

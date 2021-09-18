@@ -1,4 +1,4 @@
-package com.baeldung.samples.java.vavr;
+package com.surya.samples.java.vavr;
 
 import io.vavr.collection.Stream;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 /**
  *
- * @author baeldung
+ * @author surya
  */
 public class VavrSampler {
 

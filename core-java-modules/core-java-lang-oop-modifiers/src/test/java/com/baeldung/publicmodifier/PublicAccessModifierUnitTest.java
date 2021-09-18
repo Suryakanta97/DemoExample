@@ -1,4 +1,4 @@
-package com.baeldung.publicmodifier;
+package com.surya.publicmodifier;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;

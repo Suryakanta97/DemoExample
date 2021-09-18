@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import static org.junit.Assert.assertTrue;
 

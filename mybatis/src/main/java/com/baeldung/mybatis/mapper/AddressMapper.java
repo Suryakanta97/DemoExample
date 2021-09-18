@@ -1,7 +1,7 @@
-package com.baeldung.mybatis.mapper;
+package com.surya.mybatis.mapper;
 
-import com.baeldung.mybatis.model.Address;
-import com.baeldung.mybatis.model.Person;
+import com.surya.mybatis.model.Address;
+import com.surya.mybatis.model.Person;
 import org.apache.ibatis.annotations.*;
 
 public interface AddressMapper {

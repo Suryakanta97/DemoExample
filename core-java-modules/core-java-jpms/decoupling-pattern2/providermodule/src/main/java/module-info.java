@@ -1,4 +1,4 @@
-module com.baeldung.providermodule {
-    requires com.baeldung.servicemodule;
-    provides com.baeldung.servicemodule.TextService with com.baeldung.providermodule.LowercaseTextService;
+module com.surya.providermodule {
+    requires com.surya.servicemodule;
+    provides com.surya.servicemodule.TextService with com.surya.providermodule.LowercaseTextService;
 }

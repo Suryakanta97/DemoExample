@@ -1,4 +1,4 @@
-package com.baeldung.java.lists;
+package com.surya.java.lists;
 
 import java.util.Arrays;
 import java.util.List;

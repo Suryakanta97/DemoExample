@@ -1,4 +1,4 @@
-package com.baeldung.ndc.service;
+package com.surya.ndc.service;
 
 /**
  * A fake investment service.

@@ -1,4 +1,4 @@
-package com.baeldung.interfaces.multiinheritance;
+package com.surya.interfaces.multiinheritance;
 
 public class Car implements Fly,Transform {
 

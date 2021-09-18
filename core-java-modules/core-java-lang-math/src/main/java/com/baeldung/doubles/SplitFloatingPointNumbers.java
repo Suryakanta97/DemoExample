@@ -1,4 +1,4 @@
-package com.baeldung.doubles;
+package com.surya.doubles;
 
 import java.math.BigDecimal;
 

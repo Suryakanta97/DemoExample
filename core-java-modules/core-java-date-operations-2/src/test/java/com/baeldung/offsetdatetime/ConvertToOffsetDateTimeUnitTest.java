@@ -1,4 +1,4 @@
-package com.baeldung.offsetdatetime;
+package com.surya.offsetdatetime;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.randomnumbers;
+package com.surya.randomnumbers;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

@@ -1,6 +1,6 @@
-package com.baeldung.constructorsstaticfactorymethods;
+package com.surya.constructorsstaticfactorymethods;
 
-import com.baeldung.constructorsstaticfactorymethods.entities.User;
+import com.surya.constructorsstaticfactorymethods.entities.User;
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
 

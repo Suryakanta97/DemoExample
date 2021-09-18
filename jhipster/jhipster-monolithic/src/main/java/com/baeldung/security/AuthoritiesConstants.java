@@ -1,4 +1,4 @@
-package com.baeldung.security;
+package com.surya.security;
 
 /**
  * Constants for Spring Security authorities.

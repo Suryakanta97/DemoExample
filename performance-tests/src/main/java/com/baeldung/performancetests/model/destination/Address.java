@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
 import com.googlecode.jmapper.annotations.JGlobalMap;
 
@@ -17,9 +17,9 @@ public class Address {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null) return false;
-        if(o.getClass() == com.baeldung.performancetests.model.source.Address.class) {
-            com.baeldung.performancetests.model.source.Address address =
-              (com.baeldung.performancetests.model.source.Address) o;
+        if(o.getClass() == com.surya.performancetests.model.source.Address.class) {
+            com.surya.performancetests.model.source.Address address =
+              (com.surya.performancetests.model.source.Address) o;
             return Objects.equals(street, address.getStreet()) &&
               Objects.equals(city, address.getCity()) &&
               Objects.equals(postalCode, address.getPostalCode()) &&

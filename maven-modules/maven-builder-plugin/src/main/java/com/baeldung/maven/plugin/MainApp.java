@@ -1,6 +1,6 @@
-package com.baeldung.maven.plugin;
+package com.surya.maven.plugin;
 
-import com.baeldung.database.DataConnection;
+import com.surya.database.DataConnection;
 
 public class MainApp {
 

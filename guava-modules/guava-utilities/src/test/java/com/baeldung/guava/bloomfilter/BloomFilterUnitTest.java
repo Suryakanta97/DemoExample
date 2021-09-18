@@ -1,4 +1,4 @@
-package com.baeldung.guava.bloomfilter;
+package com.surya.guava.bloomfilter;
 
 
 import com.google.common.hash.BloomFilter;

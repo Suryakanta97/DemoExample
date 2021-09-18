@@ -1,4 +1,4 @@
-package com.baeldung.crawler4j;
+package com.surya.crawler4j;
 
 import java.io.File;
 
@@ -23,7 +23,7 @@ public class HtmlCrawlerController {
         RobotstxtServer robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
         CrawlController controller = new CrawlController(config, pageFetcher, robotstxtServer);
 
-        controller.addSeed("https://www.baeldung.com/");
+        controller.addSeed("https://www.surya.com/");
 
         CrawlerStatistics stats = new CrawlerStatistics();
         CrawlController.WebCrawlerFactory<HtmlCrawler> factory = () -> new HtmlCrawler(stats);

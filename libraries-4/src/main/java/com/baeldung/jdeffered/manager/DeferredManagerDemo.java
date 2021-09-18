@@ -1,4 +1,4 @@
-package com.baeldung.jdeffered.manager;
+package com.surya.jdeffered.manager;
 
 import org.jdeferred.Deferred;
 import org.jdeferred.DeferredManager;
@@ -17,6 +17,6 @@ class DeferredManagerDemo {
         }).fail((result) -> {
             System.out.println("fail");
         });
-        deferred.resolve("Hello Baeldung");
+        deferred.resolve("Hello surya");
     }
 }

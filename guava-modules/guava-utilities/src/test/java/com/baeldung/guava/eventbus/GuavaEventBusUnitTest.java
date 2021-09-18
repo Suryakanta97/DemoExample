@@ -1,7 +1,7 @@
-package com.baeldung.guava.eventbus;
+package com.surya.guava.eventbus;
 
-import com.baeldung.guava.eventbus.CustomEvent;
-import com.baeldung.guava.eventbus.EventListener;
+import com.surya.guava.eventbus.CustomEvent;
+import com.surya.guava.eventbus.EventListener;
 import com.google.common.eventbus.EventBus;
 import org.junit.After;
 import org.junit.Before;

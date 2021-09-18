@@ -1,4 +1,4 @@
-package com.baeldung.exceptions;
+package com.surya.exceptions;
 
 public class UserWithConflict {
     public int id;

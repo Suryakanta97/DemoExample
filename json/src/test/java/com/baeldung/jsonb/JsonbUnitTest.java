@@ -1,4 +1,4 @@
-package com.baeldung.jsonb;
+package com.surya.jsonb;
 
 import static org.junit.Assert.assertTrue;
 
@@ -17,8 +17,8 @@ import javax.json.bind.config.PropertyOrderStrategy;
 import org.apache.commons.collections4.ListUtils;
 import org.junit.Test;
 
-import com.baeldung.adapter.PersonAdapter;
-import com.baeldung.jsonb.Person;
+import com.surya.adapter.PersonAdapter;
+import com.surya.jsonb.Person;
 
 public class JsonbUnitTest {
 

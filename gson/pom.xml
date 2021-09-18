@@ -8,7 +8,7 @@
     <name>gson</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-java</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-java</relativePath>

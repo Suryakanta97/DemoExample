@@ -1,4 +1,4 @@
-package com.baeldung.gson.entities;
+package com.surya.gson.entities;
 
 public class Dog extends Animal {
     private String petName;

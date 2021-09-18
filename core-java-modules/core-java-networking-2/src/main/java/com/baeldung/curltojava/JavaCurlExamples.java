@@ -1,4 +1,4 @@
-package com.baeldung.curltojava;
+package com.surya.curltojava;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
 /**
  * Spring MVC REST controllers.
  */
-package com.baeldung.jhipster.gateway.web.rest;
+package com.surya.jhipster.gateway.web.rest;

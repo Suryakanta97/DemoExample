@@ -1,6 +1,6 @@
-package com.baeldung.libraries.opencsv.pojos;
+package com.surya.libraries.opencsv.pojos;
 
-import com.baeldung.libraries.opencsv.beans.CsvBean;
+import com.surya.libraries.opencsv.beans.CsvBean;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.baeldung.setiteration;
+package com.surya.setiteration;
 
 import com.google.common.collect.Sets;
 import io.vavr.collection.Stream;

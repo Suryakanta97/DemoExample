@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.service;
+package com.surya.couchbase.spring.service;
 
 import static org.junit.Assert.*;
 
@@ -10,8 +10,8 @@ import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
 
-import com.baeldung.couchbase.spring.IntegrationTest;
-import com.baeldung.couchbase.spring.IntegrationTestConfig;
+import com.surya.couchbase.spring.IntegrationTest;
+import com.surya.couchbase.spring.IntegrationTestConfig;
 import com.couchbase.client.java.Bucket;
 
 @RunWith(SpringJUnit4ClassRunner.class)

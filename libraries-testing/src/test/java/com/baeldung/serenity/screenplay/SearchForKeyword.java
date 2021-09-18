@@ -1,4 +1,4 @@
-package com.baeldung.serenity.screenplay;
+package com.surya.serenity.screenplay;
 
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;

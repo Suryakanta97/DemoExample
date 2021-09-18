@@ -1,4 +1,4 @@
-package com.baeldung.guava.entity;
+package com.surya.guava.entity;
 
 public class Player extends User{
     public Player(long id, String name, int age) {

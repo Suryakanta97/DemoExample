@@ -1,4 +1,4 @@
-package com.baeldung.airline;
+package com.surya.airline;
 
 import java.util.ArrayList;
 import java.util.List;

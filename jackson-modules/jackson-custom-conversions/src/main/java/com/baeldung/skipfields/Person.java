@@ -1,4 +1,4 @@
-package com.baeldung.skipfields;
+package com.surya.skipfields;
 
 public class Person implements Hidable {
     private String name;

@@ -1,4 +1,4 @@
-package com.baeldung.secretkeyandstringconversion;
+package com.surya.secretkeyandstringconversion;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
@@ -14,8 +14,8 @@ public class ConversionClassUtilUnitTest {
     void givenPasswordAndSalt_whenCreateSecreKeyCheckConversion_thenSuccess()
             throws NoSuchAlgorithmException, InvalidKeySpecException {
         // given
-        String password = "Baeldung@2021";
-        String salt = "@$#baelDunG@#^$*";
+        String password = "surya@2021";
+        String salt = "@$#surya@#^$*";
 
         // when
         SecretKey encodedKey = ConversionClassUtil.getKeyFromPassword(password, salt);

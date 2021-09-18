@@ -1,8 +1,8 @@
-package com.baeldung.ignite.spring;
+package com.surya.ignite.spring;
 
-import com.baeldung.ignite.spring.config.SpringDataConfig;
-import com.baeldung.ignite.spring.dto.EmployeeDTO;
-import com.baeldung.ignite.spring.repository.EmployeeRepository;
+import com.surya.ignite.spring.config.SpringDataConfig;
+import com.surya.ignite.spring.dto.EmployeeDTO;
+import com.surya.ignite.spring.repository.EmployeeRepository;
 import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteCache;
 import org.apache.ignite.Ignition;
@@ -39,7 +39,7 @@ public class IgniteApp {
 
         Ignite ignite = Ignition.ignite();
 
-        IgniteCache<Integer, EmployeeDTO> cache = ignite.cache("baeldungCache");
+        IgniteCache<Integer, EmployeeDTO> cache = ignite.cache("suryaCache");
 
         EmployeeDTO employeeDTO = cache.get(employeeId);
 

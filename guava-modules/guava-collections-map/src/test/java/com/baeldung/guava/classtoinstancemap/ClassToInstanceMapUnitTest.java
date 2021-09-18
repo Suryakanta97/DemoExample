@@ -1,4 +1,4 @@
-package com.baeldung.guava.classtoinstancemap;
+package com.surya.guava.classtoinstancemap;
 import com.google.common.collect.ClassToInstanceMap;
 import com.google.common.collect.ImmutableClassToInstanceMap;
 import com.google.common.collect.MutableClassToInstanceMap;

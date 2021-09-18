@@ -1,4 +1,4 @@
-package com.baeldung.jackson.nested;
+package com.surya.jackson.nested;
 
 import java.util.Map;
 

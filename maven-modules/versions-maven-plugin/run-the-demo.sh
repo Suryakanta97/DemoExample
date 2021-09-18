@@ -8,7 +8,7 @@ NO_COLOR='\033[0m' # No Color
 clear
 
 echo -e "======================================================================================"
-echo -e " Showcase for the BAELDUNG tutorial \"Use the latest version of a dependency in Maven\""
+echo -e " Showcase for the surya tutorial \"Use the latest version of a dependency in Maven\""
 echo -e " Author: Andrea Ligios"
 echo -e "======================================================================================"
 

@@ -1,4 +1,4 @@
-package com.baeldung.daopattern.config;
+package com.surya.daopattern.config;
 
 import java.net.URL;
 import java.util.ArrayList;

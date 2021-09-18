@@ -1,4 +1,4 @@
-package com.baeldung.test;
+package com.surya.test;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

@@ -1,4 +1,4 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import org.mapstruct.Qualifier;
 

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.largestpowerof2;
+package com.surya.algorithms.largestpowerof2;
 
 import java.util.Arrays;
 import java.util.Collection;

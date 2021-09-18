@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.filter;
+package com.surya.jersey.server.filter;
 
 import java.io.IOException;
 

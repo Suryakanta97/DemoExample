@@ -1,4 +1,4 @@
-package com.baeldung.guava.eventbus;
+package com.surya.guava.eventbus;
 
 public class CustomEvent {
     private String action;

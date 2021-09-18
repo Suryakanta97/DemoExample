@@ -1,4 +1,4 @@
-package com.baeldung.booleanoperators;
+package com.surya.booleanoperators;
 
 public class Car {
 

@@ -1,8 +1,8 @@
-package com.baeldung.jgit.porcelain;
+package com.surya.jgit.porcelain;
 
 import java.io.File;
 import java.io.IOException;
-import com.baeldung.jgit.helper.Helper;
+import com.surya.jgit.helper.Helper;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Repository;

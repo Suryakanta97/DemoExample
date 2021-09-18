@@ -1,7 +1,7 @@
-package com.baeldung.test;
+package com.surya.test;
 
-import com.baeldung.client.ClientLiveTest;
-import com.baeldung.client.RestClientLiveManualTest;
+import com.surya.client.ClientLiveTest;
+import com.surya.client.RestClientLiveManualTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

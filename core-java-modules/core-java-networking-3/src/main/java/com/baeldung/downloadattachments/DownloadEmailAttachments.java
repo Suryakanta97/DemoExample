@@ -1,4 +1,4 @@
-package com.baeldung.downloadattachments;
+package com.surya.downloadattachments;
 
 import java.io.File;
 import java.io.IOException;

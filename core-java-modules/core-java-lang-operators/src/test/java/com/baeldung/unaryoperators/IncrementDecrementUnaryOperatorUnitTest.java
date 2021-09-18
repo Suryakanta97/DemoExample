@@ -1,4 +1,4 @@
-package com.baeldung.unaryoperators;
+package com.surya.unaryoperators;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

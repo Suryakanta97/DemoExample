@@ -1,4 +1,4 @@
-package com.baeldung.jackson.advancedannotations;
+package com.surya.jackson.advancedannotations;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;

@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.gateway.security.oauth2;
+package com.surya.jhipster.gateway.security.oauth2;
 
-import com.baeldung.jhipster.gateway.config.oauth2.OAuth2Properties;
-import com.baeldung.jhipster.gateway.web.filter.RefreshTokenFilter;
-import com.baeldung.jhipster.gateway.web.rest.errors.InvalidPasswordException;
+import com.surya.jhipster.gateway.config.oauth2.OAuth2Properties;
+import com.surya.jhipster.gateway.web.filter.RefreshTokenFilter;
+import com.surya.jhipster.gateway.web.rest.errors.InvalidPasswordException;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.Assert;
 import org.junit.Before;

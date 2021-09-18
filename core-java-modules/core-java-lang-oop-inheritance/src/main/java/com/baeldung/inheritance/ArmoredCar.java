@@ -1,4 +1,4 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
 public class ArmoredCar extends Car implements Floatable, Flyable{
     private int bulletProofWindows;

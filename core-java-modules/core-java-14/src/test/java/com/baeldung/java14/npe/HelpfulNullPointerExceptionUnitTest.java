@@ -1,9 +1,9 @@
-package com.baeldung.java14.npe;
+package com.surya.java14.npe;
 
 import org.junit.Test;
 
-import static com.baeldung.java14.helpfulnullpointerexceptions.HelpfulNullPointerException.Employee;
-import static com.baeldung.java14.helpfulnullpointerexceptions.HelpfulNullPointerException.PersonalDetails;
+import static com.surya.java14.helpfulnullpointerexceptions.HelpfulNullPointerException.Employee;
+import static com.surya.java14.helpfulnullpointerexceptions.HelpfulNullPointerException.PersonalDetails;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelpfulNullPointerExceptionUnitTest {

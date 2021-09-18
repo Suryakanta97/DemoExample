@@ -1,4 +1,4 @@
-package org.baeldung;
+package org.surya;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.dbunit;
+package com.surya.dbunit;
 
 import org.dbunit.Assertion;
 import org.dbunit.IDatabaseTester;
@@ -19,10 +19,10 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
 
-import static com.baeldung.dbunit.ConnectionSettings.JDBC_DRIVER;
-import static com.baeldung.dbunit.ConnectionSettings.JDBC_URL;
-import static com.baeldung.dbunit.ConnectionSettings.PASSWORD;
-import static com.baeldung.dbunit.ConnectionSettings.USER;
+import static com.surya.dbunit.ConnectionSettings.JDBC_DRIVER;
+import static com.surya.dbunit.ConnectionSettings.JDBC_URL;
+import static com.surya.dbunit.ConnectionSettings.PASSWORD;
+import static com.surya.dbunit.ConnectionSettings.USER;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.dbunit.Assertion.assertEquals;
 

@@ -1,4 +1,4 @@
-package com.baeldung.libraries.smooks.model;
+package com.surya.libraries.smooks.model;
 
 import java.util.Date;
 import java.util.List;

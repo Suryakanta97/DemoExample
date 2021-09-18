@@ -1,4 +1,4 @@
-package com.baeldung.scanner;
+package com.surya.scanner;
 
 import org.junit.Test;
 

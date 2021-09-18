@@ -1,4 +1,4 @@
-package com.baeldung.guava.mapmaker;
+package com.surya.guava.mapmaker;
 
 import com.google.common.collect.MapMaker;
 import org.junit.Assert;

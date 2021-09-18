@@ -1,4 +1,4 @@
-package com.baeldung.innerinterfaces;
+package com.surya.innerinterfaces;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.baeldung.nestedclass;
+package com.surya.nestedclass;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ public class NewEnclosing {
     private void run() {
         class Local {
             void run() {
-                System.out.println("Welcome to Baeldung!");
+                System.out.println("Welcome to surya!");
             }
         }
         Local local = new Local();

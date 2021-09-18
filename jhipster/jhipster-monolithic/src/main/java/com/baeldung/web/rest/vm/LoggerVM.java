@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.vm;
+package com.surya.web.rest.vm;
 
 import ch.qos.logback.classic.Logger;
 import com.fasterxml.jackson.annotation.JsonCreator;

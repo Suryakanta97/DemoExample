@@ -1,4 +1,4 @@
-package com.baeldung.macaddress;
+package com.surya.macaddress;
 
 import org.junit.Test;
 

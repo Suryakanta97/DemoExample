@@ -1,4 +1,4 @@
-package com.baeldung.initialization;
+package com.surya.initialization;
 
 import org.junit.Test;
 
@@ -24,16 +24,16 @@ public class StringInitializationUnitTest {
 
     @Test
     public void givenTwoStringsWithSameLiteral_thenCompareReferencesEquals() {
-        String literalOne = "Baeldung";
-        String literalTwo = "Baeldung";
+        String literalOne = "surya";
+        String literalTwo = "surya";
 
         assertTrue(literalOne == literalTwo);
     }
 
     @Test
     public void givenTwoStringsUsingNew_thenCompareReferencesNotEquals() {
-        String newStringOne = new String("Baeldung");
-        String newStringTwo = new String("Baeldung");
+        String newStringOne = new String("surya");
+        String newStringTwo = new String("surya");
 
         assertFalse(newStringOne == newStringTwo);
     }

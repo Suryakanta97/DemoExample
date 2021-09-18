@@ -1,4 +1,4 @@
-package com.baeldung.mapstruct.mappingCollections.dto;
+package com.surya.mapstruct.mappingCollections.dto;
 
 import java.util.ArrayList;
 import java.util.List;

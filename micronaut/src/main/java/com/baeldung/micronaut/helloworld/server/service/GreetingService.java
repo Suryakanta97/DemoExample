@@ -1,4 +1,4 @@
-package com.baeldung.micronaut.helloworld.server.service;
+package com.surya.micronaut.helloworld.server.service;
 
 public interface GreetingService {
 

@@ -1,4 +1,4 @@
-package com.baeldung.gson.deserialization;
+package com.surya.gson.deserialization;
 
 import java.lang.reflect.Type;
 import java.text.ParseException;
@@ -6,9 +6,9 @@ import java.util.Date;
 import java.util.Map;
 
 import org.apache.commons.lang3.time.DateUtils;
-import com.baeldung.gson.entities.Employee;
-import com.baeldung.gson.serialization.MapDeserializer;
-import com.baeldung.gson.serialization.StringDateMapDeserializer;
+import com.surya.gson.entities.Employee;
+import com.surya.gson.serialization.MapDeserializer;
+import com.surya.gson.serialization.StringDateMapDeserializer;
 import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;

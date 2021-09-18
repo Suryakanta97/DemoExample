@@ -1,6 +1,6 @@
-package com.baeldung.dddhexagonalspring.infrastracture.repository.mongo;
+package com.surya.dddhexagonalspring.infrastracture.repository.mongo;
 
-import com.baeldung.dddhexagonalspring.domain.Order;
+import com.surya.dddhexagonalspring.domain.Order;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

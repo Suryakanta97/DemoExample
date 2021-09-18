@@ -1,4 +1,4 @@
-package com.baeldung.pojo;
+package com.surya.pojo;
 
 import java.time.LocalDate;
 

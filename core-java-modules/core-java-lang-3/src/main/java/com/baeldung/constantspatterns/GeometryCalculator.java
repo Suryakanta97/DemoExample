@@ -1,4 +1,4 @@
-package com.baeldung.constantspatterns;
+package com.surya.constantspatterns;
 
 public class GeometryCalculator implements CalculatorConstants {
     public static final double UPPER_LIMIT = 100000000000000000000.0;

@@ -1,4 +1,4 @@
-package com.baeldung.libraries.hikaricp;
+package com.surya.libraries.hikaricp;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

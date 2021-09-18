@@ -1,9 +1,9 @@
-package com.baeldung.patterns.cqrs.aggregates;
+package com.surya.patterns.cqrs.aggregates;
 
-import com.baeldung.patterns.cqrs.commands.CreateUserCommand;
-import com.baeldung.patterns.cqrs.commands.UpdateUserCommand;
-import com.baeldung.patterns.cqrs.repository.UserWriteRepository;
-import com.baeldung.patterns.domain.User;
+import com.surya.patterns.cqrs.commands.CreateUserCommand;
+import com.surya.patterns.cqrs.commands.UpdateUserCommand;
+import com.surya.patterns.cqrs.repository.UserWriteRepository;
+import com.surya.patterns.domain.User;
 
 public class UserAggregate {
 

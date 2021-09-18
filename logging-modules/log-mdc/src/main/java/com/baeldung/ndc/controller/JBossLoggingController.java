@@ -1,4 +1,4 @@
-package com.baeldung.ndc.controller;
+package com.surya.ndc.controller;
 
 import org.jboss.logging.NDC;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.baeldung.ndc.Investment;
-import com.baeldung.ndc.service.InvestmentService;
+import com.surya.ndc.Investment;
+import com.surya.ndc.service.InvestmentService;
 
 @RestController
 public class JBossLoggingController {

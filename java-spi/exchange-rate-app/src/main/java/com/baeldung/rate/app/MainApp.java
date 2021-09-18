@@ -1,7 +1,7 @@
-package com.baeldung.rate.app;
+package com.surya.rate.app;
 
-import com.baeldung.rate.ExchangeRate;
-import com.baeldung.rate.api.Quote;
+import com.surya.rate.ExchangeRate;
+import com.surya.rate.api.Quote;
 
 import java.time.LocalDate;
 import java.util.List;

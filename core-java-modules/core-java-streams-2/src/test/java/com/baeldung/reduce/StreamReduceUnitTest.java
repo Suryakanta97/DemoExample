@@ -1,7 +1,7 @@
-package com.baeldung.reduce;
+package com.surya.reduce;
 
-import com.baeldung.reduce.entities.User;
-import com.baeldung.reduce.utilities.NumberUtils;
+import com.surya.reduce.entities.User;
+import com.surya.reduce.utilities.NumberUtils;
 import org.junit.Test;
 
 import java.util.Arrays;

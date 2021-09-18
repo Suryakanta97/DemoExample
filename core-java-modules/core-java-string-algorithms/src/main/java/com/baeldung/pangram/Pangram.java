@@ -1,4 +1,4 @@
-package com.baeldung.pangram;
+package com.surya.pangram;
 
 import java.util.Arrays;
 import java.util.Map;

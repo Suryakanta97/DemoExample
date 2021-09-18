@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.surya.hystrix;
 
 import com.netflix.hystrix.*;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -39,7 +39,7 @@ public class HystrixAspect {
     private String key;
 
 
-    @Around("@annotation(com.baeldung.hystrix.HystrixCircuitBreaker)")
+    @Around("@annotation(com.surya.hystrix.HystrixCircuitBreaker)")
     public Object circuitBreakerAround(final ProceedingJoinPoint aJoinPoint) {
         return new RemoteServiceCommand(config, aJoinPoint).execute();
     }

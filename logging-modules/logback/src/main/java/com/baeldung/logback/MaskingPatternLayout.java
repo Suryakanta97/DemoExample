@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import java.util.ArrayList;
 import java.util.List;

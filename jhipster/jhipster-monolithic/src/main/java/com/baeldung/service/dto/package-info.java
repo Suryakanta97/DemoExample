@@ -1,4 +1,4 @@
 /**
  * Data Transfer Objects.
  */
-package com.baeldung.service.dto;
+package com.surya.service.dto;

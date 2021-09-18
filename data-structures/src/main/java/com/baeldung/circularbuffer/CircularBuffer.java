@@ -1,4 +1,4 @@
-package com.baeldung.circularbuffer;
+package com.surya.circularbuffer;
 
 public class CircularBuffer<E> {
 

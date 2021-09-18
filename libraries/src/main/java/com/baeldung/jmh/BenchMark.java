@@ -1,4 +1,4 @@
-package com.baeldung.jmh;
+package com.surya.jmh;
 
 import org.openjdk.jmh.annotations.Benchmark;
 

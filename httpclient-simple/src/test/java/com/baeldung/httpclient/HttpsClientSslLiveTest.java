@@ -1,4 +1,4 @@
-package com.baeldung.httpclient;
+package com.surya.httpclient;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;

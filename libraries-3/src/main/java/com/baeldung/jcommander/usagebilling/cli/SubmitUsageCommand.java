@@ -1,10 +1,10 @@
-package com.baeldung.jcommander.usagebilling.cli;
+package com.surya.jcommander.usagebilling.cli;
 
-import com.baeldung.jcommander.usagebilling.cli.converter.ISO8601TimestampConverter;
-import com.baeldung.jcommander.usagebilling.cli.validator.UUIDValidator;
-import com.baeldung.jcommander.usagebilling.model.UsageRequest;
-import com.baeldung.jcommander.usagebilling.model.UsageRequest.PricingType;
-import com.baeldung.jcommander.usagebilling.service.SubmitUsageService;
+import com.surya.jcommander.usagebilling.cli.converter.ISO8601TimestampConverter;
+import com.surya.jcommander.usagebilling.cli.validator.UUIDValidator;
+import com.surya.jcommander.usagebilling.model.UsageRequest;
+import com.surya.jcommander.usagebilling.model.UsageRequest.PricingType;
+import com.surya.jcommander.usagebilling.service.SubmitUsageService;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 import lombok.Getter;
@@ -12,8 +12,8 @@ import lombok.Getter;
 import java.math.BigDecimal;
 import java.time.Instant;
 
-import static com.baeldung.jcommander.usagebilling.cli.UsageBasedBilling.*;
-import static com.baeldung.jcommander.usagebilling.service.SubmitUsageService.getDefault;
+import static com.surya.jcommander.usagebilling.cli.UsageBasedBilling.*;
+import static com.surya.jcommander.usagebilling.service.SubmitUsageService.getDefault;
 
 @Parameters(
   commandNames = { SUBMIT_CMD },

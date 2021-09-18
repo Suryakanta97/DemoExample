@@ -1,4 +1,4 @@
-package com.baeldung.changecase;
+package com.surya.changecase;
 
 import org.junit.Test;
 

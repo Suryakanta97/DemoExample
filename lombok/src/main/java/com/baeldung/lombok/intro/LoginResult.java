@@ -1,4 +1,4 @@
-package com.baeldung.lombok.intro;
+package com.surya.lombok.intro;
 
 import java.net.URL;
 import java.time.Duration;

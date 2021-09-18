@@ -1,7 +1,7 @@
-package com.baeldung.flink.connector;
+package com.surya.flink.connector;
 
-import com.baeldung.flink.model.Backup;
-import com.baeldung.flink.schema.BackupSerializationSchema;
+import com.surya.flink.model.Backup;
+import com.surya.flink.schema.BackupSerializationSchema;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer011;
 

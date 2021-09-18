@@ -1,4 +1,4 @@
-package com.baeldung.deletecontents;
+package com.surya.deletecontents;
 
 import org.apache.commons.io.IOUtils;
 

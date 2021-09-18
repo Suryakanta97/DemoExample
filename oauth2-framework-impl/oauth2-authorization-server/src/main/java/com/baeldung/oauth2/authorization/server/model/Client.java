@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.authorization.server.model;
+package com.surya.oauth2.authorization.server.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

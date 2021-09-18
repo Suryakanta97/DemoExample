@@ -1,4 +1,4 @@
-package com.baeldung.stream.filter;
+package com.surya.stream.filter;
 
 import org.junit.jupiter.api.Test;
 import pl.touk.throwing.ThrowingPredicate;

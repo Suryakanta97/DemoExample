@@ -1,4 +1,4 @@
-package com.baeldung.ssh.jsch;
+package com.surya.ssh.jsch;
 
 import java.io.ByteArrayOutputStream;
 

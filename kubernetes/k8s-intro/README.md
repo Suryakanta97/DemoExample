@@ -14,7 +14,7 @@ If you get a valid response, then you're good to go.
 
 ### Relevant Articles:
 
-- [Paging and Async Calls with the Kubernetes API](https://www.baeldung.com/java-kubernetes-paging-async)
-- [Using Watch with the Kubernetes API](https://www.baeldung.com/java-kubernetes-watch)
-- [Using Namespaces and Selectors With the Kubernetes Java API](https://www.baeldung.com/java-kubernetes-namespaces-selectors)
-- [Creating, Updating and Deleting Resources with the Java Kubernetes API](https://www.baeldung.com/java-kubernetes-api-crud)
+- [Paging and Async Calls with the Kubernetes API](https://www.surya.com/java-kubernetes-paging-async)
+- [Using Watch with the Kubernetes API](https://www.surya.com/java-kubernetes-watch)
+- [Using Namespaces and Selectors With the Kubernetes Java API](https://www.surya.com/java-kubernetes-namespaces-selectors)
+- [Creating, Updating and Deleting Resources with the Java Kubernetes API](https://www.surya.com/java-kubernetes-api-crud)

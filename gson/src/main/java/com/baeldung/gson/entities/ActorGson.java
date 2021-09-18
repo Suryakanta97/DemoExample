@@ -1,4 +1,4 @@
-package com.baeldung.gson.entities;
+package com.surya.gson.entities;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

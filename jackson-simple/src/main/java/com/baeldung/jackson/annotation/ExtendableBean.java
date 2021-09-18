@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation;
+package com.surya.jackson.annotation;
 
 import java.util.HashMap;
 import java.util.Map;

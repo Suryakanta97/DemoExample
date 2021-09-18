@@ -1,4 +1,4 @@
-package com.baeldung.map.hashing;
+package com.surya.map.hashing;
 
 import com.google.common.base.Charsets;
 import com.google.common.hash.HashFunction;

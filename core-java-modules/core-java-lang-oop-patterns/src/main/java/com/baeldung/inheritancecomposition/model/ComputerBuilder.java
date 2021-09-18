@@ -1,4 +1,4 @@
-package com.baeldung.inheritancecomposition.model;
+package com.surya.inheritancecomposition.model;
 
 public abstract class ComputerBuilder {
 

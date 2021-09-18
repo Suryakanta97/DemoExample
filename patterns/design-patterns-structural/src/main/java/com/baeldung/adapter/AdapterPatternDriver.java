@@ -1,6 +1,6 @@
-package com.baeldung.adapter;
+package com.surya.adapter;
 
-import static com.baeldung.util.LoggerUtil.LOG;
+import static com.surya.util.LoggerUtil.LOG;
 
 public class AdapterPatternDriver {
     

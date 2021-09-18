@@ -1,4 +1,4 @@
-package com.baeldung.cactoos;
+package com.surya.cactoos;
 
 import java.io.IOException;
 

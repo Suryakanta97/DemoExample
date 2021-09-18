@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.gateway.accesscontrol;
+package com.surya.jhipster.gateway.gateway.accesscontrol;
 
 import io.github.jhipster.config.JHipsterProperties;
 

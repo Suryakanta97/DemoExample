@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.config.oauth2;
+package com.surya.jhipster.gateway.config.oauth2;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

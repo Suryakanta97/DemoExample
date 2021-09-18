@@ -1,4 +1,4 @@
-package com.baeldung.blockchain;
+package com.surya.blockchain;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

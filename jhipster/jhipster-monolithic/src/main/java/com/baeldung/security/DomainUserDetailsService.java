@@ -1,7 +1,7 @@
-package com.baeldung.security;
+package com.surya.security;
 
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
+import com.surya.domain.User;
+import com.surya.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;

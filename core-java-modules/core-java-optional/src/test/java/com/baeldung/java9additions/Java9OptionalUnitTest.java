@@ -1,4 +1,4 @@
-package com.baeldung.java9additions;
+package com.surya.java9additions;
 
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;

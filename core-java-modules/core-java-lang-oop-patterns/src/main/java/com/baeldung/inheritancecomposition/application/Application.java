@@ -1,6 +1,6 @@
-package com.baeldung.inheritancecomposition.application;
+package com.surya.inheritancecomposition.application;
 
-import com.baeldung.inheritancecomposition.model.*;
+import com.surya.inheritancecomposition.model.*;
 
 public class Application {
     

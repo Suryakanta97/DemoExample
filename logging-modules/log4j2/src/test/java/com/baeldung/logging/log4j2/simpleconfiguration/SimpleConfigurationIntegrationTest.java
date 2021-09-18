@@ -2,9 +2,9 @@
   This class invokes the configuration factory through the run time property,
   as defined in section 4.2 of the "Programmatic Configuration with Log4j 2"
 **/
-package com.baeldung.logging.log4j2.simpleconfiguration;
+package com.surya.logging.log4j2.simpleconfiguration;
 
-import com.baeldung.logging.log4j2.Log4j2BaseIntegrationTest;
+import com.surya.logging.log4j2.Log4j2BaseIntegrationTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;
@@ -16,7 +16,7 @@ import org.junit.Test;
 public class SimpleConfigurationIntegrationTest extends Log4j2BaseIntegrationTest {
     @BeforeClass
     public static void setUp() {
-        PluginManager.addPackage("com.baeldung.logging.log4j2.simpleconfiguration");
+        PluginManager.addPackage("com.surya.logging.log4j2.simpleconfiguration");
     }
 
     @Test

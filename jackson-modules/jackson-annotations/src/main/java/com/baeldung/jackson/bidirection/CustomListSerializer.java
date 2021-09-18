@@ -1,4 +1,4 @@
-package com.baeldung.jackson.bidirection;
+package com.surya.jackson.bidirection;
 
 import java.io.IOException;
 import java.util.ArrayList;

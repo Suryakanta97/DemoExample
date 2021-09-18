@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.surya.hystrix;
 
 import com.netflix.hystrix.exception.HystrixRuntimeException;
 import org.junit.Rule;

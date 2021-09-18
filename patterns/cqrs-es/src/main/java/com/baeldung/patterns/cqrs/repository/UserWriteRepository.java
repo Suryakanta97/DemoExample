@@ -1,9 +1,9 @@
-package com.baeldung.patterns.cqrs.repository;
+package com.surya.patterns.cqrs.repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.baeldung.patterns.domain.User;
+import com.surya.patterns.domain.User;
 
 public class UserWriteRepository {
 

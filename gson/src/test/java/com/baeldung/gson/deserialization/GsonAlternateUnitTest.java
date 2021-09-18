@@ -1,8 +1,8 @@
-package com.baeldung.gson.deserialization;
+package com.surya.gson.deserialization;
 
 import static org.junit.Assert.assertEquals;
 
-import com.baeldung.gson.entities.Weather;
+import com.surya.gson.entities.Weather;
 import org.junit.Test;
 
 import com.google.gson.Gson;

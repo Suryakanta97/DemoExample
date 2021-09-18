@@ -1,4 +1,4 @@
-package com.baeldung.guava.multimap;
+package com.surya.guava.multimap;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;

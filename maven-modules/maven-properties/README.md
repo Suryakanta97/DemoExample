@@ -5,4 +5,4 @@ have their own dedicated modules.
 
 ### Relevant Articles
 
-- [Accessing Maven Properties in Java](https://www.baeldung.com/java-accessing-maven-properties)
+- [Accessing Maven Properties in Java](https://www.surya.com/java-accessing-maven-properties)

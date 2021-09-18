@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.web.rest.errors;
+package com.surya.jhipster.uaa.web.rest.errors;
 
 public class LoginAlreadyUsedException extends BadRequestAlertException {
 

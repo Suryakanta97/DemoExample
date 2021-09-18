@@ -1,4 +1,4 @@
-package com.baeldung.serialization;
+package com.surya.serialization;
 
 public class Item {
     public int id;

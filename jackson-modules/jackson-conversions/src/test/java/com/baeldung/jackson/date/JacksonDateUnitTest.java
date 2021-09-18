@@ -1,4 +1,4 @@
-package com.baeldung.jackson.date;
+package com.surya.jackson.date;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.CoreMatchers.*;

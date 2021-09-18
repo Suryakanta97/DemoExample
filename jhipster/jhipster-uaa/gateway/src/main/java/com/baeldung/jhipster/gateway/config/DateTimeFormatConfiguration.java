@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;

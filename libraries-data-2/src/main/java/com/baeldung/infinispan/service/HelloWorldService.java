@@ -1,7 +1,7 @@
-package com.baeldung.infinispan.service;
+package com.surya.infinispan.service;
 
-import com.baeldung.infinispan.listener.CacheListener;
-import com.baeldung.infinispan.repository.HelloWorldRepository;
+import com.surya.infinispan.listener.CacheListener;
+import com.surya.infinispan.repository.HelloWorldRepository;
 import org.infinispan.Cache;
 
 import java.util.concurrent.TimeUnit;

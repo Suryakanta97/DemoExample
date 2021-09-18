@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.controllers;
+package com.surya.springintegration.controllers;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
@@ -19,7 +19,7 @@ public class HelloPFMBean {
 
     public String go() {
         if (this.magicWord != null && this.magicWord.toUpperCase()
-            .equals("BAELDUNG")) {
+            .equals("surya")) {
             return "pm:success";
         }
         return "pm:failure";

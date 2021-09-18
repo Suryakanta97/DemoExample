@@ -1,4 +1,4 @@
-package com.baeldung.netflix.mantis.model;
+package com.surya.netflix.mantis.model;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

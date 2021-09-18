@@ -1,4 +1,4 @@
-package com.baeldung.s;
+package com.surya.s;
 
 public class BadBook {
 

@@ -1,4 +1,4 @@
-package com.baeldung.flips;
+package com.surya.flips;
 
 public class TestFlipsBean {
 }

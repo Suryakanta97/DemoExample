@@ -1,4 +1,4 @@
 /**
  * Spring Framework configuration files.
  */
-package com.baeldung.jhipster.quotes.config;
+package com.surya.jhipster.quotes.config;

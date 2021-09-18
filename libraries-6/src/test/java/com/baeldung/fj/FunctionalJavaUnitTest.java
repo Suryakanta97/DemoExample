@@ -1,4 +1,4 @@
-package com.baeldung.fj;
+package com.surya.fj;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -76,10 +76,10 @@ public class FunctionalJavaUnitTest {
 
     @Test
     public void checkForLowerCase_givenStringArray_returnResult() {
-        Array<String> array = Array.array("Welcome", "To", "baeldung");
+        Array<String> array = Array.array("Welcome", "To", "surya");
         assertTrue(array.exists(s -> List.fromString(s).forall(Characters.isLowerCase)));
  
-        Array<String> array2 = Array.array("Welcome", "To", "Baeldung");
+        Array<String> array2 = Array.array("Welcome", "To", "surya");
         assertFalse(array2.exists(s -> List.fromString(s).forall(Characters.isLowerCase)));
  
         assertFalse(array.forall(s -> List.fromString(s).forall(Characters.isLowerCase)));

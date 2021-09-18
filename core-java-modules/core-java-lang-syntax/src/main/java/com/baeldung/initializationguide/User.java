@@ -1,4 +1,4 @@
-package com.baeldung.initializationguide;
+package com.surya.initializationguide;
 
 import java.io.Serializable;
 

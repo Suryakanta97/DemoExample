@@ -1,11 +1,11 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.BaeldungApp;
+import com.surya.suryaApp;
 
-import com.baeldung.domain.Post;
-import com.baeldung.domain.User;
-import com.baeldung.repository.PostRepository;
-import com.baeldung.web.rest.errors.ExceptionTranslator;
+import com.surya.domain.Post;
+import com.surya.domain.User;
+import com.surya.repository.PostRepository;
+import com.surya.web.rest.errors.ExceptionTranslator;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see PostResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = suryaApp.class)
 public class PostResourceIntegrationTest {
 
     private static final String DEFAULT_TITLE = "AAAAAAAAAA";

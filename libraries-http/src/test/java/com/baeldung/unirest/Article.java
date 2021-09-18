@@ -1,4 +1,4 @@
-package com.baeldung.unirest;
+package com.surya.unirest;
 
 public class Article {
 

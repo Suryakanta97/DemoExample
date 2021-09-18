@@ -1,4 +1,4 @@
-package com.baeldung.tesseract;
+package com.surya.tesseract;
 
 import java.awt.Rectangle;
 import java.io.File;
@@ -11,7 +11,7 @@ public class Tess4JExample {
     public static void main(String[] args) {
         String result = null;
         try {
-            File image = new File("src/main/resources/images/baeldung.png");
+            File image = new File("src/main/resources/images/surya.png");
             Tesseract tesseract = new Tesseract();
             tesseract.setLanguage("spa");
             tesseract.setPageSegMode(1);

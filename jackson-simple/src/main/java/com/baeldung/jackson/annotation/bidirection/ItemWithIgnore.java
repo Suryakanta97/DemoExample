@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.bidirection;
+package com.surya.jackson.annotation.bidirection;
 
 public class ItemWithIgnore {
     public int id;

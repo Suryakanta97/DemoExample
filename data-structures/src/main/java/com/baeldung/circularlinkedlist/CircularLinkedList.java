@@ -1,4 +1,4 @@
-package com.baeldung.circularlinkedlist;
+package com.surya.circularlinkedlist;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,11 +1,11 @@
-package com.baeldung.interfacevsabstractclass;
+package com.surya.interfacevsabstractclass;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.interfacevsabstractclass.Car;
-import com.baeldung.interfacevsabstractclass.Vehicle;
+import com.surya.interfacevsabstractclass.Car;
+import com.surya.interfacevsabstractclass.Vehicle;
 
 class VehicleUnitTest {
 

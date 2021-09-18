@@ -1,4 +1,4 @@
-package com.baeldung.objectsize;
+package com.surya.objectsize;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class InstrumentationExample {
     public static void main(String[] arguments) {
         String emptyString = "";
         String string = "Estimating Object Size Using Instrumentation";
-        String[] stringArray = { emptyString, string, "com.baeldung" };
+        String[] stringArray = { emptyString, string, "com.surya" };
         String[] anotherStringArray = new String[100];
         List<String> stringList = new ArrayList<>();
         StringBuilder stringBuilder = new StringBuilder(100);

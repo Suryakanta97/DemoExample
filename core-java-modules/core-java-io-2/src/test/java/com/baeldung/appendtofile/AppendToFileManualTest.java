@@ -1,4 +1,4 @@
-package com.baeldung.appendtofile;
+package com.surya.appendtofile;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

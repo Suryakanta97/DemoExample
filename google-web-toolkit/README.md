@@ -4,4 +4,4 @@ This module contains articles about Google Web Toolkit (GWT)
 
 ### Relevant Articles: 
 
-- [Introduction to GWT](https://www.baeldung.com/gwt)
+- [Introduction to GWT](https://www.surya.com/gwt)

@@ -1,4 +1,4 @@
-package com.baeldung.bytebuddy;
+package com.surya.bytebuddy;
 
 import net.bytebuddy.implementation.bind.annotation.BindingPriority;
 

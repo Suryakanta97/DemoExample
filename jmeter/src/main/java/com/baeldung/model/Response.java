@@ -1,4 +1,4 @@
-package com.baeldung.model;
+package com.surya.model;
 
 import java.time.Instant;
 import java.util.UUID;

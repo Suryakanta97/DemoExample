@@ -1,6 +1,6 @@
-package com.baeldung.dip.daos;
+package com.surya.dip.daos;
 
-import com.baeldung.dip.entities.Customer;
+import com.surya.dip.entities.Customer;
 import java.util.Map;
 import java.util.Optional;
 

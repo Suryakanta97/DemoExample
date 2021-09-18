@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async;
+package com.surya.couchbase.async;
 
 public interface CouchbaseEntity {
 

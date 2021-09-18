@@ -1,4 +1,4 @@
-package com.baeldung.libraries.ebean.model;
+package com.surya.libraries.ebean.model;
 
 import javax.persistence.Entity;
 

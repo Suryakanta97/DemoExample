@@ -1,4 +1,4 @@
-package com.baeldung.enums.values;
+package com.surya.enums.values;
 
 /**
  * This is a simple enum of periodic table elements

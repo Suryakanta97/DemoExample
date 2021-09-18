@@ -1,4 +1,4 @@
-package com.baeldung.junitparams;
+package com.surya.junitparams;
 
 import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;

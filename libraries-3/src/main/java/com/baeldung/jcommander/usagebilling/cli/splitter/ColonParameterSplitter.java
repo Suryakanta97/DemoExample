@@ -1,4 +1,4 @@
-package com.baeldung.jcommander.usagebilling.cli.splitter;
+package com.surya.jcommander.usagebilling.cli.splitter;
 
 import com.beust.jcommander.converters.IParameterSplitter;
 

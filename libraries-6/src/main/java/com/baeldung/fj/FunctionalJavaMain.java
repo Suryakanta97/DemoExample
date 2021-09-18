@@ -1,4 +1,4 @@
-package com.baeldung.fj;
+package com.surya.fj;
 
 import fj.F;
 import fj.Show;
@@ -25,7 +25,7 @@ public class FunctionalJavaMain {
         Array<Integer> b = a.filter(Integers.even);
         Show.arrayShow(Show.intShow).println(b);
 
-        Array<String> array = Array.array("Welcome", "To", "baeldung");
+        Array<String> array = Array.array("Welcome", "To", "surya");
         Boolean isExist = array.exists(s -> List.fromString(s).forall(Characters.isLowerCase));
         System.out.println(isExist);
 

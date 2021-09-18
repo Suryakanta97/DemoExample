@@ -1,17 +1,17 @@
-package com.baeldung.patterns.es.service;
+package com.surya.patterns.es.service;
 
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.User;
-import com.baeldung.patterns.es.events.UserAddressAddedEvent;
-import com.baeldung.patterns.es.events.UserAddressRemovedEvent;
-import com.baeldung.patterns.es.events.UserContactAddedEvent;
-import com.baeldung.patterns.es.events.UserContactRemovedEvent;
-import com.baeldung.patterns.es.events.UserCreatedEvent;
-import com.baeldung.patterns.es.repository.EventStore;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.User;
+import com.surya.patterns.es.events.UserAddressAddedEvent;
+import com.surya.patterns.es.events.UserAddressRemovedEvent;
+import com.surya.patterns.es.events.UserContactAddedEvent;
+import com.surya.patterns.es.events.UserContactRemovedEvent;
+import com.surya.patterns.es.events.UserCreatedEvent;
+import com.surya.patterns.es.repository.EventStore;
 
 public class UserService {
 

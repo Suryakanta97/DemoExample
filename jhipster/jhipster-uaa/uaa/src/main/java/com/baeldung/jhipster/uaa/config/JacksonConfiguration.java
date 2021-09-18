@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.config;
+package com.surya.jhipster.uaa.config;
 
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;

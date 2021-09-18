@@ -1,4 +1,4 @@
-package com.baeldung.guava.maps;
+package com.surya.guava.maps;
 
 import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.junit.Assert.assertEquals;

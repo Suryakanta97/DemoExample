@@ -1,4 +1,4 @@
-package com.baeldung.helidon.se.routing;
+package com.surya.helidon.se.routing;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -20,7 +20,7 @@ public class BookManager {
         book.setId(getNextId());
         book.setName("Building Microservice With Oracle Helidon");
         book.setIsbn("11223344");
-        book.setAuthor("baeldung");
+        book.setAuthor("surya");
         book.setPages(560);
         inMemoryStore.put(book.getId(), book);
     }

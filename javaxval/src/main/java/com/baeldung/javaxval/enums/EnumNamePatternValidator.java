@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.enums;
+package com.surya.javaxval.enums;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -7,7 +7,7 @@ import java.util.regex.PatternSyntaxException;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.baeldung.javaxval.enums.constraints.EnumNamePattern;
+import com.surya.javaxval.enums.constraints.EnumNamePattern;
 
 public class EnumNamePatternValidator implements ConstraintValidator<EnumNamePattern, Enum<?>> {
     private Pattern pattern;

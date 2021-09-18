@@ -1,4 +1,4 @@
-package com.baeldung.javasisst;
+package com.surya.javasisst;
 
 public class Point {
     public int x = 0;

@@ -1,4 +1,4 @@
-package com.baeldung.logging.app;
+package com.surya.logging.app;
 
 import static java.lang.System.Logger.*;
 

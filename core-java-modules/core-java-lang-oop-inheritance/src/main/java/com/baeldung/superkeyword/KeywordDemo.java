@@ -1,4 +1,4 @@
-package com.baeldung.superkeyword;
+package com.surya.superkeyword;
 
 /**
  * Created by Gebruiker on 5/14/2018.

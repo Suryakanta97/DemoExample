@@ -1,4 +1,4 @@
-package com.baeldung.jsonb;
+package com.surya.jsonb;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

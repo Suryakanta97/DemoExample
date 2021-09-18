@@ -1,4 +1,4 @@
-package com.baeldung.mdc;
+package com.surya.mdc;
 
 import static java.lang.Math.floor;
 import static java.lang.Math.random;

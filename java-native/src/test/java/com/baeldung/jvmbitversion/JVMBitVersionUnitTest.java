@@ -1,4 +1,4 @@
-package com.baeldung.jvmbitversion;
+package com.surya.jvmbitversion;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

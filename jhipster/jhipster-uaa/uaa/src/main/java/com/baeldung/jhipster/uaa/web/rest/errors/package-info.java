@@ -3,4 +3,4 @@
  *
  * More information on https://github.com/zalando/problem-spring-web
  */
-package com.baeldung.jhipster.uaa.web.rest.errors;
+package com.surya.jhipster.uaa.web.rest.errors;

@@ -1,4 +1,4 @@
-package com.baeldung.soap.ws.server;
+package com.surya.soap.ws.server;
 
 import javax.xml.ws.Endpoint;
 

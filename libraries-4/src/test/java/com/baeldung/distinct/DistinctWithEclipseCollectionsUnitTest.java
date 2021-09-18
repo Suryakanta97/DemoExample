@@ -1,4 +1,4 @@
-package com.baeldung.distinct;
+package com.surya.distinct;
 
 import static org.junit.Assert.assertTrue;
 

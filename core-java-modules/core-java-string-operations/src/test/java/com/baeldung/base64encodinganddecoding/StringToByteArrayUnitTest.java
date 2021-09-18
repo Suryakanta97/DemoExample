@@ -1,4 +1,4 @@
-package com.baeldung.base64encodinganddecoding;
+package com.surya.base64encodinganddecoding;
 
 import org.junit.Test;
 

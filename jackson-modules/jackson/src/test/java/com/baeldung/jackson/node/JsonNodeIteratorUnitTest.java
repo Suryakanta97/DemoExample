@@ -1,4 +1,4 @@
-package com.baeldung.jackson.node;
+package com.surya.jackson.node;
 
 import static org.junit.Assert.assertEquals;
 

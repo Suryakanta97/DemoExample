@@ -1,4 +1,4 @@
-package com.baeldung.domain;
+package com.surya.domain;
 
 import javax.validation.constraints.NotNull;
 import org.springframework.data.annotation.Id;

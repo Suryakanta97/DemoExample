@@ -1,6 +1,6 @@
-package com.baeldung.dropwizard.introduction.repository;
+package com.surya.dropwizard.introduction.repository;
 
-import com.baeldung.dropwizard.introduction.domain.Brand;
+import com.surya.dropwizard.introduction.domain.Brand;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

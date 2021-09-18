@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonview;
+package com.surya.jackson.jsonview;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;
@@ -9,10 +9,10 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.jsonview.Item;
-import com.baeldung.jackson.jsonview.MyBeanSerializerModifier;
-import com.baeldung.jackson.jsonview.User;
-import com.baeldung.jackson.jsonview.Views;
+import com.surya.jackson.jsonview.Item;
+import com.surya.jackson.jsonview.MyBeanSerializerModifier;
+import com.surya.jackson.jsonview.User;
+import com.surya.jackson.jsonview.Views;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

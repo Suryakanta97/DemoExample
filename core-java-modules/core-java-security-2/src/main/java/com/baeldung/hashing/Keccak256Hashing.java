@@ -1,4 +1,4 @@
-package com.baeldung.hashing;
+package com.surya.hashing;
 
 import org.bouncycastle.jcajce.provider.digest.Keccak;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
@@ -9,8 +9,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.Security;
 
-import static com.baeldung.hashing.DigestAlgorithms.KECCAK_256;
-import static com.baeldung.hashing.SHACommonUtils.bytesToHex;
+import static com.surya.hashing.DigestAlgorithms.KECCAK_256;
+import static com.surya.hashing.SHACommonUtils.bytesToHex;
 
 public class Keccak256Hashing {
 

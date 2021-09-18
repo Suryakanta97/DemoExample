@@ -1,4 +1,4 @@
-package com.baeldung.numbersinrange;
+package com.surya.numbersinrange;
 
 import static org.junit.Assert.assertTrue;
 

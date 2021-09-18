@@ -1,6 +1,6 @@
-package com.baeldung.java8;
+package com.surya.java8;
 
-import com.baeldung.java8.entity.Human;
+import com.surya.java8.entity.Human;
 import com.google.common.collect.Lists;
 import com.google.common.primitives.Ints;
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.aop.logging;
+package com.surya.jhipster.uaa.aop.logging;
 
 import io.github.jhipster.config.JHipsterConstants;
 
@@ -43,9 +43,9 @@ public class LoggingAspect {
     /**
      * Pointcut that matches all Spring beans in the application's main packages.
      */
-    @Pointcut("within(com.baeldung.jhipster.uaa.repository..*)"+
-        " || within(com.baeldung.jhipster.uaa.service..*)"+
-        " || within(com.baeldung.jhipster.uaa.web.rest..*)")
+    @Pointcut("within(com.surya.jhipster.uaa.repository..*)"+
+        " || within(com.surya.jhipster.uaa.service..*)"+
+        " || within(com.surya.jhipster.uaa.web.rest..*)")
     public void applicationPackagePointcut() {
         // Method is empty as this is just a Pointcut, the implementations are in the advices.
     }

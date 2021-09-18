@@ -1,4 +1,4 @@
-package com.baeldung.mimetype;
+package com.surya.mimetype;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package com.baeldung.observer;
+package com.surya.observer;
 
 public class NewsChannel implements Channel {
 

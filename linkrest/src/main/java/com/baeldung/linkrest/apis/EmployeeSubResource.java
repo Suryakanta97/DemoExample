@@ -1,4 +1,4 @@
-package com.baeldung.linkrest.apis;
+package com.surya.linkrest.apis;
 
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -12,8 +12,8 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
-import com.baeldung.cayenne.Department;
-import com.baeldung.cayenne.Employee;
+import com.surya.cayenne.Department;
+import com.surya.cayenne.Employee;
 import com.nhl.link.rest.DataResponse;
 import com.nhl.link.rest.LinkRest;
 import com.nhl.link.rest.SimpleResponse;

@@ -1,4 +1,4 @@
-package com.baeldung.interview;
+package com.surya.interview;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package com.baeldung.examples.guice;
+package com.surya.examples.guice;
 
-import com.baeldung.examples.common.PersonDao;
+import com.surya.examples.common.PersonDao;
 import com.google.inject.Inject;
 
 public class GuicePersonService {

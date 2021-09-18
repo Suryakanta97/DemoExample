@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.equalshashcode;
+package com.surya.memoryleaks.equalshashcode;
 
 public class PersonOptimized {
     public String name;

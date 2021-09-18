@@ -1,6 +1,6 @@
-package com.baeldung.digitalsignature.level1;
+package com.surya.digitalsignature.level1;
 
-import com.baeldung.digitalsignature.Utils;
+import com.surya.digitalsignature.Utils;
 
 import javax.crypto.Cipher;
 import java.nio.file.Files;

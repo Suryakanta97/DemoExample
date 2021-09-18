@@ -1,4 +1,4 @@
-package com.baeldung.breakloop;
+package com.surya.breakloop;
 
 public class LoopBreaking {
 

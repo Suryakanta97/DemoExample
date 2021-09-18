@@ -1,4 +1,4 @@
-package com.baeldung.netty;
+package com.surya.netty;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

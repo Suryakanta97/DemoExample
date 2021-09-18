@@ -1,6 +1,6 @@
-package com.baeldung.jmh.warmup;
+package com.surya.jmh.warmup;
 
-import com.baeldung.jmh.warmup.dummy.Dummy;
+import com.surya.jmh.warmup.dummy.Dummy;
 
 public class ManualClassLoader {
 

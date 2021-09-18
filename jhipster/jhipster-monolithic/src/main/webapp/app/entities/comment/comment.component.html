@@ -1,9 +1,9 @@
 <div>
     <h2>
-        <span jhiTranslate="baeldungApp.comment.home.title">Comments</span>
+        <span jhiTranslate="suryaApp.comment.home.title">Comments</span>
         <button class="btn btn-primary float-right create-comment" [routerLink]="['/', { outlets: { popup: ['comment-new'] } }]">
             <span class="fa fa-plus"></span>
-            <span  jhiTranslate="baeldungApp.comment.home.createLabel">
+            <span  jhiTranslate="suryaApp.comment.home.createLabel">
             Create new Comment
             </span>
         </button>
@@ -17,9 +17,9 @@
             <thead>
             <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="reset.bind(this)">
             <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="text"><span jhiTranslate="baeldungApp.comment.text">Text</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="creationDate"><span jhiTranslate="baeldungApp.comment.creationDate">Creation Date</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="post.title"><span jhiTranslate="baeldungApp.comment.post">Post</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="text"><span jhiTranslate="suryaApp.comment.text">Text</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="creationDate"><span jhiTranslate="suryaApp.comment.creationDate">Creation Date</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="post.title"><span jhiTranslate="suryaApp.comment.post">Post</span> <span class="fa fa-sort"></span></th>
             <th></th>
             </tr>
             </thead>

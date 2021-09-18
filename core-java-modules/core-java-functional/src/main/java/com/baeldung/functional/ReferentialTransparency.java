@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.surya.functional;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -9,12 +9,12 @@ public class ReferentialTransparency {
 
     public void main() {
 
-        String data = new SimpleData().setData("Baeldung")
+        String data = new SimpleData().setData("surya")
             .getData();
-        logger.log(Level.INFO, new SimpleData().setData("Baeldung")
+        logger.log(Level.INFO, new SimpleData().setData("surya")
             .getData());
         logger.log(Level.INFO, data);
-        logger.log(Level.INFO, "Baeldung");
+        logger.log(Level.INFO, "surya");
     }
 
     public class SimpleData {

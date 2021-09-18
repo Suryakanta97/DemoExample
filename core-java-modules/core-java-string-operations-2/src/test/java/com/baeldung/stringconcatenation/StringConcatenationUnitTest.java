@@ -1,4 +1,4 @@
-package com.baeldung.stringconcatenation;
+package com.surya.stringconcatenation;
 
 import org.junit.Test;
 
@@ -15,11 +15,11 @@ public class StringConcatenationUnitTest {
   public void givenMultipleStrings_whenConcatUsingStringBuilder_checkStringCorrect() {
 
     StringBuilder stringBuilder = new StringBuilder(100);
-    stringBuilder.append("Baeldung");
+    stringBuilder.append("surya");
     stringBuilder.append(" is");
     stringBuilder.append(" awesome");
 
-    assertEquals("Baeldung is awesome", stringBuilder.toString());
+    assertEquals("surya is awesome", stringBuilder.toString());
 
   }
 

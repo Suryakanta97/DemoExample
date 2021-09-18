@@ -1,4 +1,4 @@
-package com.baeldung.derive4j.adt;
+package com.surya.derive4j.adt;
 
 import org.derive4j.Data;
 

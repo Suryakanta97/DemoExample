@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.config.apidoc;
+package com.surya.jhipster.gateway.config.apidoc;
 
 import java.util.ArrayList;
 import java.util.List;

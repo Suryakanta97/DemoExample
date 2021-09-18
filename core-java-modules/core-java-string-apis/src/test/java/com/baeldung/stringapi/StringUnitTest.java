@@ -1,4 +1,4 @@
-package com.baeldung.stringapi;
+package com.surya.stringapi;
 
 import org.junit.Test;
 
@@ -100,15 +100,15 @@ public class StringUnitTest {
 
     @Test
     public void whenFormat_thenCorrect() {
-        String value = "Baeldung";
+        String value = "surya";
         String formatted = String.format("Welcome to %s!", value);
 
-        assertEquals("Welcome to Baeldung!", formatted);
+        assertEquals("Welcome to surya!", formatted);
     }
 
     @Test(expected = IllegalFormatException.class)
     public void whenInvalidFormatSyntax_thenIllegalFormatExceptionThrown() {
-        String value = "Baeldung";
+        String value = "surya";
         String formatted = String.format("Welcome to %x!", value);
     }
 
@@ -132,7 +132,7 @@ public class StringUnitTest {
 
     @Test
     public void whenCallRegionMatches_thenCorrect() {
-        assertTrue("welcome to baeldung".regionMatches(false, 11, "baeldung", 0, 8));
+        assertTrue("welcome to surya".regionMatches(false, 11, "surya", 0, 8));
     }
 
     @Test
@@ -147,52 +147,52 @@ public class StringUnitTest {
 
     @Test
     public void whenSplit_thenCorrect() {
-        String s = "Welcome to Baeldung";
-        String[] array = new String[] { "Welcome", "to", "Baeldung" };
+        String s = "Welcome to surya";
+        String[] array = new String[] { "Welcome", "to", "surya" };
 
         assertArrayEquals(array, s.split(" "));
     }
 
     @Test(expected = PatternSyntaxException.class)
     public void whenPassInvalidParameterToSplit_thenPatternSyntaxExceptionThrown() {
-        String s = "Welcome*to Baeldung";
+        String s = "Welcome*to surya";
 
         String[] result = s.split("*");
     }
 
     @Test
     public void whenCallSubSequence_thenCorrect() {
-        String s = "Welcome to Baeldung";
+        String s = "Welcome to surya";
 
         assertEquals("Welcome", s.subSequence(0, 7));
     }
 
     @Test
     public void whenCallSubstring_thenCorrect() {
-        String s = "Welcome to Baeldung";
+        String s = "Welcome to surya";
 
         assertEquals("Welcome", s.substring(0, 7));
     }
 
     @Test(expected = IndexOutOfBoundsException.class)
     public void whenSecondIndexEqualToLengthOfString_thenCorrect() {
-        String s = "Welcome to Baeldung";
+        String s = "Welcome to surya";
 
         String sub = s.substring(0, 20);
     }
 
     @Test
     public void whenConvertToUpperCase_thenCorrect() {
-        String s = "Welcome to Baeldung!";
+        String s = "Welcome to surya!";
 
-        assertEquals("WELCOME TO BAELDUNG!", s.toUpperCase());
+        assertEquals("WELCOME TO surya!", s.toUpperCase());
     }
 
     @Test
     public void whenConvertToLowerCase_thenCorrect() {
-        String s = "WELCOME to BAELDUNG!";
+        String s = "WELCOME to surya!";
 
-        assertEquals("welcome to baeldung!", s.toLowerCase());
+        assertEquals("welcome to surya!", s.toLowerCase());
     }
 
     @Test

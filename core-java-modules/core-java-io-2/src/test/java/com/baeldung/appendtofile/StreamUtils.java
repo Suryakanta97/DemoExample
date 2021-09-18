@@ -1,4 +1,4 @@
-package com.baeldung.appendtofile;
+package com.surya.appendtofile;
 
 import org.apache.commons.io.IOUtils;
 

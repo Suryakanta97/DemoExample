@@ -2,8 +2,8 @@ toDoEndpoint: https://jsonplaceholder.typicode.com
 postEndpoint: https://jsonplaceholder.typicode.com
 environmentName: ${ENV_NAME}
 toDoCredentials:
-  username: baeldung
+  username: surya
   password: ${TODO_PASSWORD:-password}
 postCredentials:
-  username: baeldung
+  username: surya
   password: ${POST_PASSWORD:-password}

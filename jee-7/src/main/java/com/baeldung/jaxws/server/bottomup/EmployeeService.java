@@ -1,13 +1,13 @@
-package com.baeldung.jaxws.server.bottomup;
+package com.surya.jaxws.server.bottomup;
 
 import java.util.List;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-import com.baeldung.jaxws.server.bottomup.exception.EmployeeAlreadyExists;
-import com.baeldung.jaxws.server.bottomup.exception.EmployeeNotFound;
-import com.baeldung.jaxws.server.bottomup.model.Employee;
+import com.surya.jaxws.server.bottomup.exception.EmployeeAlreadyExists;
+import com.surya.jaxws.server.bottomup.exception.EmployeeNotFound;
+import com.surya.jaxws.server.bottomup.model.Employee;
 
 @WebService
 public interface EmployeeService {

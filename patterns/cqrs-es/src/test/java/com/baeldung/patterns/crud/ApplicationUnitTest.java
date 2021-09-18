@@ -1,4 +1,4 @@
-package com.baeldung.patterns.crud;
+package com.surya.patterns.crud;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,10 +9,10 @@ import java.util.stream.Stream;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.patterns.crud.repository.UserRepository;
-import com.baeldung.patterns.crud.service.UserService;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
+import com.surya.patterns.crud.repository.UserRepository;
+import com.surya.patterns.crud.service.UserService;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
 
 public class ApplicationUnitTest {
 

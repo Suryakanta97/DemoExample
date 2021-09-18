@@ -1,4 +1,4 @@
-package com.baeldung.cipher;
+package com.surya.cipher;
 
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;

@@ -1,4 +1,4 @@
-package com.baeldung.supertypecompilerexception;
+package com.surya.supertypecompilerexception;
 
 public class MyException extends RuntimeException {
     private int errorCode = 0;

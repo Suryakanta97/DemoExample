@@ -1,4 +1,4 @@
-package com.baeldung.daopattern.entities;
+package com.surya.daopattern.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

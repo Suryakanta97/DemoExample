@@ -1,7 +1,7 @@
-package com.baeldung.hibernate.lazycollection;
+package com.surya.hibernate.lazycollection;
 
-import com.baeldung.hibernate.lazycollection.model.Branch;
-import com.baeldung.hibernate.lazycollection.model.Employee;
+import com.surya.hibernate.lazycollection.model.Branch;
+import com.surya.hibernate.lazycollection.model.Employee;
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

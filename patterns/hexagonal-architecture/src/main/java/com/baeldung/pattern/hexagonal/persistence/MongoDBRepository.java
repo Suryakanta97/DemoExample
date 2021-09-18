@@ -1,6 +1,6 @@
-package com.baeldung.pattern.hexagonal.persistence;
+package com.surya.pattern.hexagonal.persistence;
 
-import com.baeldung.pattern.hexagonal.domain.model.Employee;
+import com.surya.pattern.hexagonal.domain.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

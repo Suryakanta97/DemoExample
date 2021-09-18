@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.surya.servlets;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

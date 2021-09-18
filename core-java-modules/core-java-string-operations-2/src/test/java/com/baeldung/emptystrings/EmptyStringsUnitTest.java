@@ -1,4 +1,4 @@
-package com.baeldung.emptystrings;
+package com.surya.emptystrings;
 
 import com.google.common.base.Strings;
 import org.apache.commons.lang3.StringUtils;

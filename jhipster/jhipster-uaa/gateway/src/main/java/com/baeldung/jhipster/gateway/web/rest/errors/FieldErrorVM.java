@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.web.rest.errors;
+package com.surya.jhipster.gateway.web.rest.errors;
 
 import java.io.Serializable;
 

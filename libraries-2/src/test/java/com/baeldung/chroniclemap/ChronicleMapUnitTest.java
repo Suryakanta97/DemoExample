@@ -1,4 +1,4 @@
-package com.baeldung.chroniclemap;
+package com.surya.chroniclemap;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;

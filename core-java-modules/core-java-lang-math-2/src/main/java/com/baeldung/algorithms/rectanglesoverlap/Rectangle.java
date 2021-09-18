@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.rectanglesoverlap;
+package com.surya.algorithms.rectanglesoverlap;
 
 public class Rectangle {
 

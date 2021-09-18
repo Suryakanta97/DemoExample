@@ -1,4 +1,4 @@
-package com.baeldung.logging;
+package com.surya.logging;
 
 import java.text.MessageFormat;
 import java.util.ResourceBundle;

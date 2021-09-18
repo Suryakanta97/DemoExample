@@ -1,8 +1,8 @@
-package com.baeldung.mapper.unmappedproperties;
+package com.surya.mapper.unmappedproperties;
 
-import com.baeldung.unmappedproperties.dto.DocumentDTO;
-import com.baeldung.unmappedproperties.entity.Document;
-import com.baeldung.unmappedproperties.mapper.DocumentMapper;
+import com.surya.unmappedproperties.dto.DocumentDTO;
+import com.surya.unmappedproperties.entity.Document;
+import com.surya.unmappedproperties.mapper.DocumentMapper;
 import org.junit.Test;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.baeldung.jsonjava;
+package com.surya.jsonjava;
 
 import org.json.Cookie;
 import org.json.JSONObject;

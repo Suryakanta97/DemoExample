@@ -1,4 +1,4 @@
-package com.baeldung.streamex;
+package com.surya.streamex;
 
 public class Role {
 

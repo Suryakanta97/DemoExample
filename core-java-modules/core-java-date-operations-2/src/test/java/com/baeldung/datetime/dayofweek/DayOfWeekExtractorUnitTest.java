@@ -1,4 +1,4 @@
-package com.baeldung.datetime.dayofweek;
+package com.surya.datetime.dayofweek;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

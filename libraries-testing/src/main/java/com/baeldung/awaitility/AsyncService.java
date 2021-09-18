@@ -1,4 +1,4 @@
-package com.baeldung.awaitility;
+package com.surya.awaitility;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

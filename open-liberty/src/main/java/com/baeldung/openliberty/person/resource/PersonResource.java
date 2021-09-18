@@ -1,4 +1,4 @@
-package com.baeldung.openliberty.person.resource;
+package com.surya.openliberty.person.resource;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,8 +16,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.baeldung.openliberty.person.dao.PersonDao;
-import com.baeldung.openliberty.person.model.Person;
+import com.surya.openliberty.person.dao.PersonDao;
+import com.surya.openliberty.person.model.Person;
 
 @RequestScoped
 @Path("persons")

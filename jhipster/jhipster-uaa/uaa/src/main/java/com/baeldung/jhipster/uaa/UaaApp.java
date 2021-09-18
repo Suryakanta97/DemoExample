@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.uaa;
+package com.surya.jhipster.uaa;
 
-import com.baeldung.jhipster.uaa.config.ApplicationProperties;
-import com.baeldung.jhipster.uaa.config.DefaultProfileUtil;
+import com.surya.jhipster.uaa.config.ApplicationProperties;
+import com.surya.jhipster.uaa.config.DefaultProfileUtil;
 
 import io.github.jhipster.config.JHipsterConstants;
 

@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxws.client;
+package com.surya.jaxws.client;
 
 import javax.xml.ws.WebFault;
 
@@ -10,7 +10,7 @@ import javax.xml.ws.WebFault;
  * Generated source version: 2.2
  * 
  */
-@WebFault(name = "EmployeeNotFound", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/")
+@WebFault(name = "EmployeeNotFound", targetNamespace = "http://bottomup.server.jaxws.surya.com/")
 public class EmployeeNotFound_Exception
     extends Exception
 {
@@ -45,7 +45,7 @@ public class EmployeeNotFound_Exception
     /**
      * 
      * @return
-     *     returns fault bean: com.baeldung.jaxws.client.EmployeeNotFound
+     *     returns fault bean: com.surya.jaxws.client.EmployeeNotFound
      */
     public EmployeeNotFound getFaultInfo() {
         return faultInfo;

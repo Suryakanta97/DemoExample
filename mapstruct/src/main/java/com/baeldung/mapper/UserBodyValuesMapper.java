@@ -1,7 +1,7 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
-import com.baeldung.dto.UserBodyImperialValuesDTO;
-import com.baeldung.entity.UserBodyValues;
+import com.surya.dto.UserBodyImperialValuesDTO;
+import com.surya.entity.UserBodyValues;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;

@@ -1,4 +1,4 @@
-package com.baeldung.java14.npe;
+package com.surya.java14.npe;
 
 public class HelpfulNullPointerException {
 

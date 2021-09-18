@@ -1,4 +1,4 @@
-package com.baeldung.msf4j.msf4jspring.domain;
+package com.surya.msf4j.msf4jspring.domain;
 
 public class Meal {
     private String name;

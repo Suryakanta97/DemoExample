@@ -1,7 +1,7 @@
-package com.baeldung.jersey.server;
+package com.surya.jersey.server;
 
-import com.baeldung.jersey.client.JerseyClientHeaders;
-import com.baeldung.jersey.client.filter.AddHeaderOnRequestFilter;
+import com.surya.jersey.client.JerseyClientHeaders;
+import com.surya.jersey.client.filter.AddHeaderOnRequestFilter;
 import org.glassfish.jersey.media.sse.SseFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
@@ -20,7 +20,7 @@ public class EchoHeadersUnitTest extends JerseyTest {
 
     private static final String SIMPLE_HEADER_KEY = "my-header-key";
     private static final String SIMPLE_HEADER_VALUE = "my-header-value";
-    private static final String USERNAME = "baeldung";
+    private static final String USERNAME = "surya";
     private static final String PASSWORD = "super-secret";
     private static final String AUTHORIZATION_HEADER_KEY = "authorization";
     private static final String BEARER_TOKEN_VALUE = "my-token";

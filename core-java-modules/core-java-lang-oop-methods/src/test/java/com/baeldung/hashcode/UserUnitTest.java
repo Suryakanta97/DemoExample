@@ -1,6 +1,6 @@
-package com.baeldung.hashcode;
+package com.surya.hashcode;
 
-import com.baeldung.hashcode.standard.User;
+import com.surya.hashcode.standard.User;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

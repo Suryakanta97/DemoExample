@@ -1,4 +1,4 @@
-package com.baeldung.libphonenumber;
+package com.surya.libphonenumber;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

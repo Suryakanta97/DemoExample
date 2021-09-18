@@ -1,4 +1,4 @@
-package com.baeldung.deserialization;
+package com.surya.deserialization;
 
 public class Item {
     public int id;

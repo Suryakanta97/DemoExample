@@ -1,22 +1,22 @@
 
 <div *ngIf="post">
-    <h2><span jhiTranslate="baeldungApp.post.detail.title">Post</span> {{post.id}}</h2>
+    <h2><span jhiTranslate="suryaApp.post.detail.title">Post</span> {{post.id}}</h2>
     <hr>
     <jhi-alert-error></jhi-alert-error>
     <dl class="row-md jh-entity-details">
-        <dt><span jhiTranslate="baeldungApp.post.title">Title</span></dt>
+        <dt><span jhiTranslate="suryaApp.post.title">Title</span></dt>
         <dd>
             <span>{{post.title}}</span>
         </dd>
-        <dt><span jhiTranslate="baeldungApp.post.content">Content</span></dt>
+        <dt><span jhiTranslate="suryaApp.post.content">Content</span></dt>
         <dd>
             <span>{{post.content}}</span>
         </dd>
-        <dt><span jhiTranslate="baeldungApp.post.creationDate">Creation Date</span></dt>
+        <dt><span jhiTranslate="suryaApp.post.creationDate">Creation Date</span></dt>
         <dd>
             <span>{{post.creationDate | date:'mediumDate'}}</span>
         </dd>
-        <dt><span jhiTranslate="baeldungApp.post.creator">Creator</span></dt>
+        <dt><span jhiTranslate="suryaApp.post.creator">Creator</span></dt>
         <dd>
             {{post.creator?.login}}
         </dd>

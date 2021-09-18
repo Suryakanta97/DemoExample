@@ -7,7 +7,7 @@
     <name>drools</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-spring-4</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-spring-4</relativePath>

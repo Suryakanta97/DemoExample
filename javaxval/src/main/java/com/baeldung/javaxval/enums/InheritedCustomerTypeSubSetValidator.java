@@ -1,7 +1,7 @@
-package com.baeldung.javaxval.enums;
+package com.surya.javaxval.enums;
 
-import com.baeldung.javaxval.enums.constraints.CustomerTypeSubset;
-import com.baeldung.javaxval.enums.demo.CustomerType;
+import com.surya.javaxval.enums.constraints.CustomerTypeSubset;
+import com.surya.javaxval.enums.demo.CustomerType;
 
 public class InheritedCustomerTypeSubSetValidator extends EnumSubSetValidator<CustomerTypeSubset, CustomerType> {
     @Override

@@ -1,7 +1,7 @@
-package com.baeldung.view;
+package com.surya.view;
 
 
-import com.baeldung.model.Person;
+import com.surya.model.Person;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;

@@ -1,4 +1,4 @@
-package com.baeldung.jbpm.engine;
+package com.surya.jbpm.engine;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;

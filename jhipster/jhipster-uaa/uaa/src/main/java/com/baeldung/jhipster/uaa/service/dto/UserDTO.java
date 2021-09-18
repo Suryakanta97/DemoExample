@@ -1,9 +1,9 @@
-package com.baeldung.jhipster.uaa.service.dto;
+package com.surya.jhipster.uaa.service.dto;
 
-import com.baeldung.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.config.Constants;
 
-import com.baeldung.jhipster.uaa.domain.Authority;
-import com.baeldung.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.domain.Authority;
+import com.surya.jhipster.uaa.domain.User;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

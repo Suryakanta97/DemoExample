@@ -1,4 +1,4 @@
-package com.baeldung.countingchars;
+package com.surya.countingchars;
 
 import static org.junit.Assert.assertEquals;
 

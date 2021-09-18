@@ -1,6 +1,6 @@
-package com.baeldung.jersey.server;
+package com.surya.jersey.server;
 
-import com.baeldung.jersey.client.filter.AddHeaderOnRequestFilter;
+import com.surya.jersey.client.filter.AddHeaderOnRequestFilter;
 
 import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.GET;
@@ -15,7 +15,7 @@ import javax.ws.rs.sse.SseEventSink;
 public class EchoHeaders {
 
     static final String REALM_KEY = "realm";
-    static final String REALM_VALUE = "Baeldung";
+    static final String REALM_VALUE = "surya";
     static final String QOP_KEY = "qop";
     static final String QOP_VALUE = "auth";
     static final String NONCE_KEY = "nonce";

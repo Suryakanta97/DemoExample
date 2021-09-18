@@ -1,4 +1,4 @@
-package com.baeldung.guava.lists;
+package com.surya.guava.lists;
 
 import com.google.common.base.Predicates;
 import com.google.common.collect.*;

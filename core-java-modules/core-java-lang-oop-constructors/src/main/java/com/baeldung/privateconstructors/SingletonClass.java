@@ -1,4 +1,4 @@
-package com.baeldung.privateconstructors;
+package com.surya.privateconstructors;
 
 public final class SingletonClass {
 

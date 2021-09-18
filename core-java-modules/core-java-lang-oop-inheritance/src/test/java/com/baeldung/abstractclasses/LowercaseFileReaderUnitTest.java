@@ -1,7 +1,7 @@
-package com.baeldung.abstractclasses;
+package com.surya.abstractclasses;
 
-import com.baeldung.abstractclasses.filereaders.BaseFileReader;
-import com.baeldung.abstractclasses.filereaders.LowercaseFileReader;
+import com.surya.abstractclasses.filereaders.BaseFileReader;
+import com.surya.abstractclasses.filereaders.LowercaseFileReader;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;

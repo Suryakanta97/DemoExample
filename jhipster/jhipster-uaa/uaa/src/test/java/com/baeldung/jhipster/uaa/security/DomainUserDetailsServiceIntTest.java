@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.domain.User;
-import com.baeldung.jhipster.uaa.repository.UserRepository;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.repository.UserRepository;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Before;

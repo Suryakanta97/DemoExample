@@ -1,4 +1,4 @@
-package com.baeldung.jackson.bidirection;
+package com.surya.jackson.bidirection;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 

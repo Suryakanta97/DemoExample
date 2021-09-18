@@ -1,4 +1,4 @@
-package com.baeldung.defaultparams;
+package com.surya.defaultparams;
 
 public class Tea {
 

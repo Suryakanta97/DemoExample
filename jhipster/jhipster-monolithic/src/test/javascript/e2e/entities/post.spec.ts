@@ -24,7 +24,7 @@ describe('Post e2e test', () => {
     it('should load Posts', () => {
         entityMenu.click();
         element.all(by.css('[routerLink="post"]')).first().click().then(() => {
-            const expectVal = /baeldungApp.post.home.title/;
+            const expectVal = /suryaApp.post.home.title/;
             element.all(by.css('h2 span')).first().getAttribute('jhiTranslate').then((value) => {
                 expect(value).toMatch(expectVal);
             });
@@ -33,7 +33,7 @@ describe('Post e2e test', () => {
 
     it('should load create Post dialog', function () {
         element(by.css('button.create-post')).click().then(() => {
-            const expectVal = /baeldungApp.post.home.createOrEditLabel/;
+            const expectVal = /suryaApp.post.home.createOrEditLabel/;
             element.all(by.css('h4.modal-title')).first().getAttribute('jhiTranslate').then((value) => {
                 expect(value).toMatch(expectVal);
             });

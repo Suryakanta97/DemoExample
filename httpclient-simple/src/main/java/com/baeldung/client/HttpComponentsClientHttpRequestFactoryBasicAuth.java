@@ -1,4 +1,4 @@
-package com.baeldung.client;
+package com.surya.client;
 
 import java.net.URI;
 

@@ -1,4 +1,4 @@
-package com.baeldung.compareto;
+package com.surya.compareto;
 
 public class BankAccount implements Comparable<BankAccount> {
 

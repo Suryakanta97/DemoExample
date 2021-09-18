@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

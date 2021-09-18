@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.domain;
+package com.surya.jhipster.quotes.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

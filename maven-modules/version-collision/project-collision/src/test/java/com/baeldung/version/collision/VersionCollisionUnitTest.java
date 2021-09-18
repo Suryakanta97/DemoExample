@@ -1,4 +1,4 @@
-package com.baeldung.version.collision;
+package com.surya.version.collision;
 
 import com.google.common.util.concurrent.Futures;
 import org.junit.Test;

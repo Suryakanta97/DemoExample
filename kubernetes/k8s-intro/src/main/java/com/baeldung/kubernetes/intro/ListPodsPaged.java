@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung.kubernetes.intro;
+package com.surya.kubernetes.intro;
 
 
 import org.slf4j.Logger;

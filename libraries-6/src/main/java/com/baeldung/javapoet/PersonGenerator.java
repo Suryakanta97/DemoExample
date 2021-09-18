@@ -1,4 +1,4 @@
-package com.baeldung.javapoet;
+package com.surya.javapoet;
 
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.CodeBlock;
@@ -24,7 +24,7 @@ import java.util.stream.IntStream;
 public class PersonGenerator {
 
     private static final String FOUR_WHITESPACES = "    ";
-    private static final String PERSON_PACKAGE_NAME = "com.baeldung.javapoet.test.person";
+    private static final String PERSON_PACKAGE_NAME = "com.surya.javapoet.test.person";
 
     private File outputFile;
 

@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.constraints;
+package com.surya.jersey.server.constraints;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

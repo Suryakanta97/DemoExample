@@ -1,4 +1,4 @@
-package com.baeldung.chartostring;
+package com.surya.chartostring;
 
 import org.junit.Test;
 

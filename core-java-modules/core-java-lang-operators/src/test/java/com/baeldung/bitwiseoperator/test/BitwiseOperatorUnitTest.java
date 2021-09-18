@@ -1,4 +1,4 @@
-package com.baeldung.bitwiseoperator.test;
+package com.surya.bitwiseoperator.test;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;

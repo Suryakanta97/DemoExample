@@ -1,15 +1,15 @@
-package com.baeldung.soap.ws.client;
+package com.surya.soap.ws.client;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.soap.ws.client.generated.CountryService;
-import com.baeldung.soap.ws.client.generated.CountryServiceImplService;
-import com.baeldung.soap.ws.client.generated.Currency;
+import com.surya.soap.ws.client.generated.CountryService;
+import com.surya.soap.ws.client.generated.CountryServiceImplService;
+import com.surya.soap.ws.client.generated.Currency;
 
-//Ensure that com.baeldung.soap.ws.server.CountryServicePublisher is running before executing this test
+//Ensure that com.surya.soap.ws.server.CountryServicePublisher is running before executing this test
 public class CountryClientLiveTest {
 
     private static CountryService countryService;

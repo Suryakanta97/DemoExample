@@ -1,4 +1,4 @@
-package com.baeldung.jcache;
+package com.surya.jcache;
 
 import static org.junit.Assert.assertEquals;
 

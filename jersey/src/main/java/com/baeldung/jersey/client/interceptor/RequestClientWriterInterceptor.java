@@ -1,4 +1,4 @@
-package com.baeldung.jersey.client.interceptor;
+package com.surya.jersey.client.interceptor;
 
 import java.io.IOException;
 

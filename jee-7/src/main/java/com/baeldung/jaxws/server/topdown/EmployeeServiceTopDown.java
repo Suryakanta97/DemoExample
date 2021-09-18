@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxws.server.topdown;
+package com.surya.jaxws.server.topdown;
 
 import javax.jws.WebMethod;
 import javax.jws.WebResult;
@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "EmployeeServiceTopDown", targetNamespace = "http://topdown.server.jaxws.baeldung.com/")
+@WebService(name = "EmployeeServiceTopDown", targetNamespace = "http://topdown.server.jaxws.surya.com/")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
     ObjectFactory.class
@@ -27,8 +27,8 @@ public interface EmployeeServiceTopDown {
      * @return
      *     returns int
      */
-    @WebMethod(action = "http://topdown.server.jaxws.baeldung.com/EmployeeServiceTopDown/countEmployees")
-    @WebResult(name = "countEmployeesResponse", targetNamespace = "http://topdown.server.jaxws.baeldung.com/", partName = "parameters")
+    @WebMethod(action = "http://topdown.server.jaxws.surya.com/EmployeeServiceTopDown/countEmployees")
+    @WebResult(name = "countEmployeesResponse", targetNamespace = "http://topdown.server.jaxws.surya.com/", partName = "parameters")
     public int countEmployees();
 
 }

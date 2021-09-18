@@ -1,4 +1,4 @@
-package com.baeldung.system;
+package com.surya.system;
 
 /**
  * Note: This class is not meant for unit-testing since it uses system

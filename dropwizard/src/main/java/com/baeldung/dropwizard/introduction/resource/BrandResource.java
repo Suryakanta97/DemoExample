@@ -1,7 +1,7 @@
-package com.baeldung.dropwizard.introduction.resource;
+package com.surya.dropwizard.introduction.resource;
 
-import com.baeldung.dropwizard.introduction.domain.Brand;
-import com.baeldung.dropwizard.introduction.repository.BrandRepository;
+import com.surya.dropwizard.introduction.domain.Brand;
+import com.surya.dropwizard.introduction.repository.BrandRepository;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

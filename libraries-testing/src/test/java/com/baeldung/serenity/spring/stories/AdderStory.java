@@ -1,6 +1,6 @@
-package com.baeldung.serenity.spring.stories;
+package com.surya.serenity.spring.stories;
 
-import com.baeldung.serenity.spring.steps.AdderRestSteps;
+import com.surya.serenity.spring.steps.AdderRestSteps;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;

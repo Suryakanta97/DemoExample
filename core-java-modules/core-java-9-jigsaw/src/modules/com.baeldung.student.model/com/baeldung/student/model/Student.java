@@ -1,4 +1,4 @@
-package com.baeldung.student.model;
+package com.surya.student.model;
 
 import java.util.Date;
 

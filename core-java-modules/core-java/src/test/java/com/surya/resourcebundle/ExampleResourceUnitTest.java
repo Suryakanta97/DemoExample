@@ -15,7 +15,7 @@ public class ExampleResourceUnitTest {
     public void whenGetBundleExampleResourceForLocalePlPl_thenItShouldInheritPropertiesGreetingAndLanguage() {
         Locale plLocale = new Locale("pl", "PL");
 
-        ResourceBundle exampleBundle = ResourceBundle.getBundle("com.baeldung.resourcebundle.ExampleResource", plLocale);
+        ResourceBundle exampleBundle = ResourceBundle.getBundle("com.surya.resourcebundle.ExampleResource", plLocale);
 
         assertTrue(exampleBundle.keySet()
             .containsAll(Arrays.asList("toUsdRate", "cities", "greeting", "currency", "language")));
@@ -28,7 +28,7 @@ public class ExampleResourceUnitTest {
     public void whenGetBundleExampleResourceForLocaleUs_thenItShouldContainOnlyGreeting() {
         Locale usLocale = Locale.US;
 
-        ResourceBundle exampleBundle = ResourceBundle.getBundle("com.baeldung.resourcebundle.ExampleResource", usLocale);
+        ResourceBundle exampleBundle = ResourceBundle.getBundle("com.surya.resourcebundle.ExampleResource", usLocale);
 
         assertFalse(exampleBundle.keySet()
             .containsAll(Arrays.asList("toUsdRate", "cities", "currency", "language")));

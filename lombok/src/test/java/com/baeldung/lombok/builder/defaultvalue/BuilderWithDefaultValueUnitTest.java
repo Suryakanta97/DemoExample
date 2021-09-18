@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder.defaultvalue;
+package com.surya.lombok.builder.defaultvalue;
 
 import org.junit.Assert;
 import org.junit.Test;

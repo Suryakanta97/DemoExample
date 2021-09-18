@@ -1,4 +1,4 @@
-package com.baeldung.orika;
+package com.surya.orika;
 
 public class PersonNameArray {
 	private String[] nameArray;

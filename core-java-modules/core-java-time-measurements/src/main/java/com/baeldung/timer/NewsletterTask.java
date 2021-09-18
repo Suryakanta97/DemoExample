@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

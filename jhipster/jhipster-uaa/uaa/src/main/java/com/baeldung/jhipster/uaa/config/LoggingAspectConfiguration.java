@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.config;
+package com.surya.jhipster.uaa.config;
 
-import com.baeldung.jhipster.uaa.aop.logging.LoggingAspect;
+import com.surya.jhipster.uaa.aop.logging.LoggingAspect;
 
 import io.github.jhipster.config.JHipsterConstants;
 

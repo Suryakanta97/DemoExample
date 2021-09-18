@@ -1,4 +1,4 @@
-package com.baeldung.picocli.git.model;
+package com.surya.picocli.git.model;
 
 import java.util.Arrays;
 

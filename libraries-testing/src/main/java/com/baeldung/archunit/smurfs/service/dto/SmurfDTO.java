@@ -1,5 +1,5 @@
 
-package com.baeldung.archunit.smurfs.service.dto;
+package com.surya.archunit.smurfs.service.dto;
 
 public class SmurfDTO {
     private String name;

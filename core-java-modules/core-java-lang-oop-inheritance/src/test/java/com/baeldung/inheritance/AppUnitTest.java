@@ -1,6 +1,6 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
-import com.baeldung.inheritance.*;
+import com.surya.inheritance.*;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

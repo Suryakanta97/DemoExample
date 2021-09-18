@@ -1,4 +1,4 @@
-package com.baeldung.jooby.mvc;
+package com.surya.jooby.mvc;
 
 import org.jooby.Result;
 import org.jooby.Results;
@@ -10,7 +10,7 @@ public class GetController {
 
 	@GET
 	public String hello() {
-		return "Hello Baeldung";
+		return "Hello surya";
 	}
 
 	@GET

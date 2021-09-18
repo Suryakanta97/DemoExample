@@ -1,11 +1,11 @@
-package com.baeldung.command.test;
+package com.surya.command.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.command.receiver.TextFile;
+import com.surya.command.receiver.TextFile;
 
 public class TextFileUnitTest {
     

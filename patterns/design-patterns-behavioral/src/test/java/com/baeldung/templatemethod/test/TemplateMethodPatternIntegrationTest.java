@@ -1,4 +1,4 @@
-package com.baeldung.templatemethod.test;
+package com.surya.templatemethod.test;
 
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertEquals;
@@ -8,9 +8,9 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.templatemethod.model.Computer;
-import com.baeldung.templatemethod.model.HighEndComputerBuilder;
-import com.baeldung.templatemethod.model.StandardComputerBuilder;
+import com.surya.templatemethod.model.Computer;
+import com.surya.templatemethod.model.HighEndComputerBuilder;
+import com.surya.templatemethod.model.StandardComputerBuilder;
 
 public class TemplateMethodPatternIntegrationTest {
 

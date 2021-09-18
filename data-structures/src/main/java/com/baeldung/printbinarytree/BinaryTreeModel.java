@@ -1,4 +1,4 @@
-package com.baeldung.printbinarytree;
+package com.surya.printbinarytree;
 
 public class BinaryTreeModel {
 

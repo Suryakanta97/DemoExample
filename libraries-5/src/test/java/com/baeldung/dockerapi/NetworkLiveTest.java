@@ -1,4 +1,4 @@
-package com.baeldung.dockerapi;
+package com.surya.dockerapi;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.CreateNetworkResponse;
@@ -41,7 +41,7 @@ public class NetworkLiveTest {
     public void whenCreatingNetwork_thenRetrieveResponse() {
 
         // when
-        CreateNetworkResponse networkResponse = dockerClient.createNetworkCmd().withName("baeldungDefault").withDriver("bridge").exec();
+        CreateNetworkResponse networkResponse = dockerClient.createNetworkCmd().withName("suryaDefault").withDriver("bridge").exec();
 
         // then
         assertThat(networkResponse, is(not(null)));
@@ -51,7 +51,7 @@ public class NetworkLiveTest {
     public void whenCreatingAdvanceNetwork_thenRetrieveResponse() {
 
         // when
-        CreateNetworkResponse networkResponse = dockerClient.createNetworkCmd().withName("baeldungAdvanced").withIpam(new Ipam().withConfig(new Ipam.Config().withSubnet("172.36.0.0/16").withIpRange("172.36.5.0/24"))).withDriver("bridge").exec();
+        CreateNetworkResponse networkResponse = dockerClient.createNetworkCmd().withName("suryaAdvanced").withIpam(new Ipam().withConfig(new Ipam.Config().withSubnet("172.36.0.0/16").withIpRange("172.36.5.0/24"))).withDriver("bridge").exec();
 
         // then
         assertThat(networkResponse, is(not(null)));
@@ -72,7 +72,7 @@ public class NetworkLiveTest {
     public void whenCreatingNetwork_thenRemove() throws InterruptedException {
 
         // when
-        CreateNetworkResponse networkResponse = dockerClient.createNetworkCmd().withName("baeldungDefault").withDriver("bridge").exec();
+        CreateNetworkResponse networkResponse = dockerClient.createNetworkCmd().withName("suryaDefault").withDriver("bridge").exec();
 
         // then
         Thread.sleep(4000);

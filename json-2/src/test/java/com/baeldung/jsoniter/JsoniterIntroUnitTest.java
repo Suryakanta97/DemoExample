@@ -1,7 +1,7 @@
-package com.baeldung.jsoniter;
+package com.surya.jsoniter;
 
-import com.baeldung.jsoniter.model.Name;
-import com.baeldung.jsoniter.model.Student;
+import com.surya.jsoniter.model.Name;
+import com.surya.jsoniter.model.Student;
 import com.jsoniter.JsonIterator;
 import com.jsoniter.ValueType;
 import com.jsoniter.any.Any;

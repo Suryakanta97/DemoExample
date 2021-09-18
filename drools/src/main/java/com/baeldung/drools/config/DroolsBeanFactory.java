@@ -1,4 +1,4 @@
-package com.baeldung.drools.config;
+package com.surya.drools.config;
 
 import org.drools.decisiontable.DecisionTableProviderImpl;
 import org.kie.api.KieServices;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public class DroolsBeanFactory {
 
-    private static final String RULES_PATH = "com/baeldung/drools/rules/";
+    private static final String RULES_PATH = "com/surya/drools/rules/";
     private KieServices kieServices=KieServices.Factory.get();
 
     private  KieFileSystem getKieFileSystem() throws IOException{
@@ -55,9 +55,9 @@ public class DroolsBeanFactory {
         getKieRepository();
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
 
-        kieFileSystem.write(ResourceFactory.newClassPathResource("com/baeldung/drools/rules/BackwardChaining.drl"));
-        kieFileSystem.write(ResourceFactory.newClassPathResource("com/baeldung/drools/rules/SuggestApplicant.drl"));
-        kieFileSystem.write(ResourceFactory.newClassPathResource("com/baeldung/drools/rules/Product_rules.xls"));
+        kieFileSystem.write(ResourceFactory.newClassPathResource("com/surya/drools/rules/BackwardChaining.drl"));
+        kieFileSystem.write(ResourceFactory.newClassPathResource("com/surya/drools/rules/SuggestApplicant.drl"));
+        kieFileSystem.write(ResourceFactory.newClassPathResource("com/surya/drools/rules/Product_rules.xls"));
         
         
         KieBuilder kb = kieServices.newKieBuilder(kieFileSystem);
@@ -90,7 +90,7 @@ public class DroolsBeanFactory {
 
     /*
      * Can be used for debugging
-     * Input excelFile example: com/baeldung/drools/rules/Discount.xls
+     * Input excelFile example: com/surya/drools/rules/Discount.xls
      */
     public String getDrlFromExcel(String excelFile) {
         DecisionTableConfiguration configuration = KnowledgeBuilderFactory.newDecisionTableConfiguration();

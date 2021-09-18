@@ -1,4 +1,4 @@
-package com.baeldung.tostring;
+package com.surya.tostring;
 
 import java.util.Arrays;
 

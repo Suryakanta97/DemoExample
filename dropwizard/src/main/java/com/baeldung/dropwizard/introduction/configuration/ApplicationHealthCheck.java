@@ -1,4 +1,4 @@
-package com.baeldung.dropwizard.introduction.configuration;
+package com.surya.dropwizard.introduction.configuration;
 
 import com.codahale.metrics.health.HealthCheck;
 

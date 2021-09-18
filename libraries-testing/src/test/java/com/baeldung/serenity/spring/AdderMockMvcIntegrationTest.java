@@ -1,6 +1,6 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
-import com.baeldung.serenity.spring.steps.AdderRestSteps;
+import com.surya.serenity.spring.steps.AdderRestSteps;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static com.baeldung.serenity.spring.RandomNumberUtil.randomInt;
+import static com.surya.serenity.spring.RandomNumberUtil.randomInt;
 
 /**
  * @author aiet

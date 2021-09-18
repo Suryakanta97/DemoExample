@@ -1,12 +1,12 @@
-package com.baeldung.javaxval.enums;
+package com.surya.javaxval.enums;
 
 import java.util.Arrays;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.baeldung.javaxval.enums.constraints.CustomerTypeSubset;
-import com.baeldung.javaxval.enums.demo.CustomerType;
+import com.surya.javaxval.enums.constraints.CustomerTypeSubset;
+import com.surya.javaxval.enums.demo.CustomerType;
 
 public class CustomerTypeSubSetValidator implements ConstraintValidator<CustomerTypeSubset, CustomerType> {
     private CustomerType[] subset;

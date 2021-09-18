@@ -1,4 +1,4 @@
-package com.baeldung.guava.mapmaker;
+package com.surya.guava.mapmaker;
 
 public class Profile {
     private long id;

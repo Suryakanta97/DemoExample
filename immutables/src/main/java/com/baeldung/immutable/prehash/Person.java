@@ -1,4 +1,4 @@
-package com.baeldung.immutable.prehash;
+package com.surya.immutable.prehash;
 
 import org.immutables.value.Value;
 

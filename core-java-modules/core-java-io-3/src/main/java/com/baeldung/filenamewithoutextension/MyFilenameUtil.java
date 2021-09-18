@@ -1,4 +1,4 @@
-package com.baeldung.filenamewithoutextension;
+package com.surya.filenamewithoutextension;
 
 public class MyFilenameUtil {
     private MyFilenameUtil() {}

@@ -1,4 +1,4 @@
-package com.baeldung.nullaway;
+package com.surya.nullaway;
 
 public class Person {
     int age;

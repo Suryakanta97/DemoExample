@@ -1,6 +1,6 @@
-package com.baeldung.oauth2.authorization.server.handler;
+package com.surya.oauth2.authorization.server.handler;
 
-import com.baeldung.oauth2.authorization.server.model.AuthorizationCode;
+import com.surya.oauth2.authorization.server.model.AuthorizationCode;
 
 import javax.inject.Named;
 import javax.json.Json;

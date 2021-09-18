@@ -1,7 +1,7 @@
-package com.baeldung.patterns.intercepting.filter.commands;
+package com.surya.patterns.intercepting.filter.commands;
 
-import com.baeldung.patterns.intercepting.filter.data.Book;
-import com.baeldung.patterns.intercepting.filter.data.Bookshelf;
+import com.surya.patterns.intercepting.filter.data.Book;
+import com.surya.patterns.intercepting.filter.data.Bookshelf;
 
 import javax.servlet.ServletException;
 import java.io.IOException;

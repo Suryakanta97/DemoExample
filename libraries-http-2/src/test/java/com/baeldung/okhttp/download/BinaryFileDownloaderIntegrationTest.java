@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.download;
+package com.surya.okhttp.download;
 
 import okhttp3.OkHttpClient;
 import okhttp3.mockwebserver.MockResponse;
@@ -20,7 +20,7 @@ public class BinaryFileDownloaderIntegrationTest {
 
     @Test
     public void givenATextFile_whenDownload_thenExpectFileDownloaded() {
-        String body = "Hello Baeldung Readers!";
+        String body = "Hello surya Readers!";
         server.enqueue(new MockResponse().setBody(body));
         String fileName = "download.txt";
 

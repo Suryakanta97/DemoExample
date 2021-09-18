@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.primechecker;
+package com.surya.algorithms.primechecker;
 
 import java.math.BigInteger;
 

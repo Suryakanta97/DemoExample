@@ -1,4 +1,4 @@
-package com.baeldung.headlessmode;
+package com.surya.headlessmode;
 
 import java.awt.GraphicsEnvironment;
 

@@ -1,4 +1,4 @@
-package com.baeldung.reflection;
+package com.surya.reflection;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-class BaeldungReflectionUtils {
+class suryaReflectionUtils {
 
-    private static final Logger LOG = LoggerFactory.getLogger(BaeldungReflectionUtils.class);
+    private static final Logger LOG = LoggerFactory.getLogger(suryaReflectionUtils.class);
 
     static List<String> getNullPropertiesList(Customer customer) throws Exception {
         PropertyDescriptor[] propDescArr = Introspector.getBeanInfo(Customer.class, Object.class).getPropertyDescriptors();

@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Currying in Java](https://www.baeldung.com/java-currying)
+- [Currying in Java](https://www.surya.com/java-currying)

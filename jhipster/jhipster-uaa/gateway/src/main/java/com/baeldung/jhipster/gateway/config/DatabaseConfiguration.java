@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
 import io.github.jhipster.config.JHipsterConstants;
 import io.github.jhipster.config.h2.H2ConfigurationHelper;
@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.sql.SQLException;
 
 @Configuration
-@EnableJpaRepositories("com.baeldung.jhipster.gateway.repository")
+@EnableJpaRepositories("com.surya.jhipster.gateway.repository")
 @EnableJpaAuditing(auditorAwareRef = "springSecurityAuditorAware")
 @EnableTransactionManagement
 public class DatabaseConfiguration {

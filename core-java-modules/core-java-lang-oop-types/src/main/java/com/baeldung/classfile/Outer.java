@@ -1,7 +1,7 @@
-package com.baeldung.classfile;
+package com.surya.classfile;
 
 import org.apache.commons.lang3.StringUtils;
-import com.baeldung.classfile.HelloWorld.HelloSomeone;
+import com.surya.classfile.HelloWorld.HelloSomeone;
 
 public class Outer {
 

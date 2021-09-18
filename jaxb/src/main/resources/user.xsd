@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.baeldung.com/jaxb/gen"
-    xmlns:userns="http://www.baeldung.com/jaxb/gen" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.surya.com/jaxb/gen"
+    xmlns:userns="http://www.surya.com/jaxb/gen" elementFormDefault="qualified">
 
     <element name="userRequest" type="userns:UserRequest"></element>
     <element name="userResponse" type="userns:UserResponse"></element>

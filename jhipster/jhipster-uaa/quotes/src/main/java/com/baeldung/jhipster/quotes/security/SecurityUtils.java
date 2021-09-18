@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.security;
+package com.surya.jhipster.quotes.security;
 
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;

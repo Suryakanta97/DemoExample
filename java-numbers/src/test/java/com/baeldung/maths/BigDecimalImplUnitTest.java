@@ -1,4 +1,4 @@
-package com.baeldung.maths;
+package com.surya.maths;
 
 import org.junit.Assert;
 import org.junit.Test;

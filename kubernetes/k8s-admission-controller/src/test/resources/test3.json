@@ -33,7 +33,7 @@
                 "name": "test-deployment",
                 "namespace": "test-namespace",
                 "annotations": {
-                    "com.baeldung/wait-for-it": "www.google.com:80"
+                    "com.surya/wait-for-it": "www.google.com:80"
                 }
             },
             "spec": {

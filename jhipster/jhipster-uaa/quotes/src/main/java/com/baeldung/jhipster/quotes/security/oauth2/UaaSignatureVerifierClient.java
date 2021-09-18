@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.security.oauth2;
+package com.surya.jhipster.quotes.security.oauth2;
 
-import com.baeldung.jhipster.quotes.config.oauth2.OAuth2Properties;
+import com.surya.jhipster.quotes.config.oauth2.OAuth2Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;

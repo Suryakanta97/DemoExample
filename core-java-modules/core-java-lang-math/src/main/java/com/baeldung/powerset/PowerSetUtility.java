@@ -1,4 +1,4 @@
-package com.baeldung.powerset;
+package com.surya.powerset;
 
 import javax.annotation.Nullable;
 import java.util.AbstractSet;

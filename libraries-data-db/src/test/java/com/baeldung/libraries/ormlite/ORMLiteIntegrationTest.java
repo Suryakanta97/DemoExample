@@ -1,4 +1,4 @@
-package com.baeldung.libraries.ormlite;
+package com.surya.libraries.ormlite;
 
 import com.j256.ormlite.dao.CloseableWrappedIterable;
 import com.j256.ormlite.dao.Dao;

@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.authorization.server;
+package com.surya.oauth2.authorization.server;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

@@ -1,4 +1,4 @@
-package com.baeldung.springmustache;
+package com.surya.springmustache;
 
 import com.samskivert.mustache.Mustache;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.baeldung"})
+@ComponentScan(basePackages = {"com.surya"})
 public class SpringMustacheApplication {
 
     public static void main(String[] args) {

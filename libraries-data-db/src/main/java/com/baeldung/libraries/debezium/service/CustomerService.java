@@ -1,7 +1,7 @@
-package com.baeldung.libraries.debezium.service;
+package com.surya.libraries.debezium.service;
 
-import com.baeldung.libraries.debezium.entity.Customer;
-import com.baeldung.libraries.debezium.repository.CustomerRepository;
+import com.surya.libraries.debezium.entity.Customer;
+import com.surya.libraries.debezium.repository.CustomerRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.debezium.data.Envelope.Operation;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.baeldung.deletecontents;
+package com.surya.deletecontents;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

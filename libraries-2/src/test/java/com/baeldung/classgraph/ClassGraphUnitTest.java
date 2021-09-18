@@ -1,4 +1,4 @@
-package com.baeldung.classgraph;
+package com.surya.classgraph;
 
 import io.github.classgraph.*;
 import org.junit.Test;

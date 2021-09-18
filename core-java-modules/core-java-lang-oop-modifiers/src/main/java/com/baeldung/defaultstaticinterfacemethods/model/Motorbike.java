@@ -1,4 +1,4 @@
-package com.baeldung.defaultstaticinterfacemethods.model;
+package com.surya.defaultstaticinterfacemethods.model;
 
 public class Motorbike implements Vehicle {
 

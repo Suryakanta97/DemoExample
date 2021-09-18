@@ -1,8 +1,8 @@
-package com.baeldung.mdc.log4j;
+package com.surya.mdc.log4j;
 
 import org.apache.log4j.Logger;
 
-import com.baeldung.mdc.TransferService;
+import com.surya.mdc.TransferService;
 
 public class Log4JTransferService extends TransferService {
 

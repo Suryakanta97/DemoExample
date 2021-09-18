@@ -1,4 +1,4 @@
-package com.baeldung.skipfields;
+package com.surya.skipfields;
 
 import java.io.IOException;
 

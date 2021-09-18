@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.methodreference;
+package com.surya.java8.lambda.methodreference;
 
 public class Bicycle {
 

@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.pojo;
+package com.surya.hibernate.pojo;
 
 import com.vividsolutions.jts.geom.Polygon;
 

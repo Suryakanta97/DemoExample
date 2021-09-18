@@ -1,11 +1,11 @@
-package com.baeldung.reflection.set.fields;
+package com.surya.reflection.set.fields;
 
 import java.lang.reflect.Field;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.reflection.access.privatefields.Person;
+import com.surya.reflection.access.privatefields.Person;
 
 public class SetFieldsUsingReflectionUnitTest {
 

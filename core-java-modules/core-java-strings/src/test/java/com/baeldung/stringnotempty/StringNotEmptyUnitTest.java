@@ -1,4 +1,4 @@
-package com.baeldung.stringnotempty;
+package com.surya.stringnotempty;
 
 import com.google.common.base.Strings;
 import org.apache.commons.lang3.StringUtils;
@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 
 public class StringNotEmptyUnitTest {
 
-    private String text = "baeldung";
+    private String text = "surya";
 
     @Test
     public void givenAString_whenCheckedForEmptyUsingJunit_shouldAssertSuccessfully() {

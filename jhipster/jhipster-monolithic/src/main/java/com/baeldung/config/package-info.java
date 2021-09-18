@@ -1,4 +1,4 @@
 /**
  * Spring Framework configuration files.
  */
-package com.baeldung.config;
+package com.surya.config;

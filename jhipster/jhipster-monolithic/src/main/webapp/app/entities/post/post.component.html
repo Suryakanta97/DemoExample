@@ -1,9 +1,9 @@
 <div>
     <h2>
-        <span jhiTranslate="baeldungApp.post.home.title">Posts</span>
+        <span jhiTranslate="suryaApp.post.home.title">Posts</span>
         <button class="btn btn-primary float-right create-post" [routerLink]="['/', { outlets: { popup: ['post-new'] } }]">
             <span class="fa fa-plus"></span>
-            <span  jhiTranslate="baeldungApp.post.home.createLabel">
+            <span  jhiTranslate="suryaApp.post.home.createLabel">
             Create new Post
             </span>
         </button>
@@ -17,10 +17,10 @@
             <thead>
             <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="reset.bind(this)">
             <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="title"><span jhiTranslate="baeldungApp.post.title">Title</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="content"><span jhiTranslate="baeldungApp.post.content">Content</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="creationDate"><span jhiTranslate="baeldungApp.post.creationDate">Creation Date</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="creator.login"><span jhiTranslate="baeldungApp.post.creator">Creator</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="title"><span jhiTranslate="suryaApp.post.title">Title</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="content"><span jhiTranslate="suryaApp.post.content">Content</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="creationDate"><span jhiTranslate="suryaApp.post.creationDate">Creation Date</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="creator.login"><span jhiTranslate="suryaApp.post.creator">Creator</span> <span class="fa fa-sort"></span></th>
             <th></th>
             </tr>
             </thead>

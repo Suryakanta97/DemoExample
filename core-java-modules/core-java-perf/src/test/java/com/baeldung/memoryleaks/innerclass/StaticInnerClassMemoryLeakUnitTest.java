@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.innerclass;
+package com.surya.memoryleaks.innerclass;
 
 import org.junit.Ignore;
 import org.junit.Test;

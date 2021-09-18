@@ -1,4 +1,4 @@
-package com.baeldung.lcm;
+package com.surya.lcm;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.baeldung.lcm.PrimeFactorizationAlgorithm.*;
+import static com.surya.lcm.PrimeFactorizationAlgorithm.*;
 
 
 public class PrimeFactorizationAlgorithmUnitTest {

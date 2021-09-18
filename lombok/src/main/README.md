@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Guide to the Linux wc Command](https://www.baeldung.com/linux/wc-command)
+- [Guide to the Linux wc Command](https://www.surya.com/linux/wc-command)

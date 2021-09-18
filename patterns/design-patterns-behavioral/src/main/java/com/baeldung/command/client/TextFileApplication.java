@@ -1,10 +1,10 @@
-package com.baeldung.command.client;
+package com.surya.command.client;
 
-import com.baeldung.command.command.OpenTextFileOperation;
-import com.baeldung.command.command.SaveTextFileOperation;
-import com.baeldung.command.command.TextFileOperation;
-import com.baeldung.command.invoker.TextFileOperationExecutor;
-import com.baeldung.command.receiver.TextFile;
+import com.surya.command.command.OpenTextFileOperation;
+import com.surya.command.command.SaveTextFileOperation;
+import com.surya.command.command.TextFileOperation;
+import com.surya.command.invoker.TextFileOperationExecutor;
+import com.surya.command.receiver.TextFile;
 
 public class TextFileApplication {
     

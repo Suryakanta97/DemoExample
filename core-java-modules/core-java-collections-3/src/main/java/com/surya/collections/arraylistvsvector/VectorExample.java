@@ -9,7 +9,7 @@ public class VectorExample {
     public static void main(String[] args) {
 
         Vector<String> vector = new Vector<>();
-        vector.add("baeldung");
+        vector.add("surya");
         vector.add("Vector");
         vector.add("example");
 

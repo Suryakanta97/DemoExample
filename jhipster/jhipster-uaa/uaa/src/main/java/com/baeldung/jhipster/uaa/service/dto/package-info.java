@@ -1,4 +1,4 @@
 /**
  * Data Transfer Objects.
  */
-package com.baeldung.jhipster.uaa.service.dto;
+package com.surya.jhipster.uaa.service.dto;

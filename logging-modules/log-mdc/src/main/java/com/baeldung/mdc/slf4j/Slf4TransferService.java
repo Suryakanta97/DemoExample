@@ -1,9 +1,9 @@
-package com.baeldung.mdc.slf4j;
+package com.surya.mdc.slf4j;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.mdc.TransferService;
+import com.surya.mdc.TransferService;
 
 final class Slf4TransferService extends TransferService {
 

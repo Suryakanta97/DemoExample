@@ -1,4 +1,4 @@
-package com.baeldung.pattern.hexagonal.domain.model;
+package com.surya.pattern.hexagonal.domain.model;
 
 import org.springframework.data.annotation.Id;
 

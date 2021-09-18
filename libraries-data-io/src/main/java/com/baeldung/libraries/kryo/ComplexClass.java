@@ -1,4 +1,4 @@
-package com.baeldung.libraries.kryo;
+package com.surya.libraries.kryo;
 
 import java.io.Serializable;
 

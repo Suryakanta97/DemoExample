@@ -1,6 +1,6 @@
-package com.baeldung.ignite.cache;
+package com.surya.ignite.cache;
 
-import com.baeldung.ignite.model.Employee;
+import com.surya.ignite.model.Employee;
 import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteCache;
 import org.apache.ignite.Ignition;
@@ -16,16 +16,16 @@ public class IgniteCacheExample {
 
         Ignite ignite = Ignition.ignite();
 
-        IgniteCache<Integer, String> cache = ignite.cache("baeldungCache");
+        IgniteCache<Integer, String> cache = ignite.cache("suryaCache");
 
-        cache.put(1, "baeldung cache value");
+        cache.put(1, "surya cache value");
 
         String message = cache.get(1);
     }
 
     private static void getObjectFromCache(Ignite ignite) {
 
-        IgniteCache<Integer, Employee> cache = ignite.getOrCreateCache("baeldungCache");
+        IgniteCache<Integer, Employee> cache = ignite.getOrCreateCache("suryaCache");
 
         cache.put(1, new Employee(1, "John", true));
         cache.put(2, new Employee(2, "Anna", false));
@@ -36,7 +36,7 @@ public class IgniteCacheExample {
 
     private static void getFromCacheWithSQl(Ignite ignite) {
 
-        IgniteCache<Integer, Employee> cache = ignite.cache("baeldungCache");
+        IgniteCache<Integer, Employee> cache = ignite.cache("suryaCache");
 
         SqlFieldsQuery sql = new SqlFieldsQuery(
                 "select name from Employee where isEmployed = 'true'");

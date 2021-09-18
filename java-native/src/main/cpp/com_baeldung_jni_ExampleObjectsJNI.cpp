@@ -1,16 +1,16 @@
-#include "com_baeldung_jni_ExampleObjectsJNI.h"
+#include "com_surya_jni_ExampleObjectsJNI.h"
 #include <iostream>
 
 /*
- * Class:     com_baeldung_jni_ExampleObjectsJNI
+ * Class:     com_surya_jni_ExampleObjectsJNI
  * Method:    createUser
- * Signature: (Ljava/lang/String;D)Lcom/baeldung/jni/UserData;
+ * Signature: (Ljava/lang/String;D)Lcom/surya/jni/UserData;
  */
-JNIEXPORT jobject JNICALL Java_com_baeldung_jni_ExampleObjectsJNI_createUser
+JNIEXPORT jobject JNICALL Java_com_surya_jni_ExampleObjectsJNI_createUser
   (JNIEnv *env, jobject thisObject, jstring name, jdouble balance){
   
     // Create the object of the class UserData
-    jclass userDataClass = env->FindClass("com/baeldung/jni/UserData");
+    jclass userDataClass = env->FindClass("com/surya/jni/UserData");
     jobject newUserData = env->AllocObject(userDataClass);
 	
     // Get UserData fields to set
@@ -26,11 +26,11 @@ JNIEXPORT jobject JNICALL Java_com_baeldung_jni_ExampleObjectsJNI_createUser
   }
 
 /*
- * Class:     com_baeldung_jni_ExampleObjectsJNI
+ * Class:     com_surya_jni_ExampleObjectsJNI
  * Method:    printUserData
- * Signature: (Lcom/baeldung/jni/UserData;)Ljava/lang/String;
+ * Signature: (Lcom/surya/jni/UserData;)Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_com_baeldung_jni_ExampleObjectsJNI_printUserData
+JNIEXPORT jstring JNICALL Java_com_surya_jni_ExampleObjectsJNI_printUserData
   (JNIEnv *env, jobject thisObject, jobject userData){
   	
   	// Find the class method id

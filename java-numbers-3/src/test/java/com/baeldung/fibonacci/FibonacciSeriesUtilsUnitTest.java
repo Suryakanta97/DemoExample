@@ -1,4 +1,4 @@
-package com.baeldung.fibonacci;
+package com.surya.fibonacci;
 
 import static org.junit.Assert.assertEquals;
 

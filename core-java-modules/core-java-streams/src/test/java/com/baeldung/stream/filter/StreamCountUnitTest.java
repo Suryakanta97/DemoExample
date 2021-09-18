@@ -1,4 +1,4 @@
-package com.baeldung.stream.filter;
+package com.surya.stream.filter;
 
 import org.junit.Test;
 import org.junit.Before;

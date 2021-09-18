@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.service;
+package com.surya.couchbase.spring.service;
 
 import com.couchbase.client.java.Bucket;
 

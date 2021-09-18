@@ -1,4 +1,4 @@
-package com.baeldung.mdc;
+package com.surya.mdc;
 
 /**
  * A fake transfer service simulating an actual one.

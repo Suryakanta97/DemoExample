@@ -1,4 +1,4 @@
-package com.baeldung.storm.model;
+package com.surya.storm.model;
 
 public class User {
     private String username;

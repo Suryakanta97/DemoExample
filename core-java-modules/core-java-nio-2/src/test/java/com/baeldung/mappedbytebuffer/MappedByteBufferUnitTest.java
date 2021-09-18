@@ -1,4 +1,4 @@
-package com.baeldung.mappedbytebuffer;
+package com.surya.mappedbytebuffer;
 
 import org.junit.Test;
 

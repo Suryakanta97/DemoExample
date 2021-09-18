@@ -1,4 +1,4 @@
-package com.baeldung.jsonjava;
+package com.surya.jsonjava;
 
 import java.util.Arrays;
 import java.util.List;

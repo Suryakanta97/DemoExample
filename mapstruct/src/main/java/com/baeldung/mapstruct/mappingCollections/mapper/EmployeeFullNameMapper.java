@@ -1,7 +1,7 @@
-package com.baeldung.mapstruct.mappingCollections.mapper;
+package com.surya.mapstruct.mappingCollections.mapper;
 
-import com.baeldung.mapstruct.mappingCollections.dto.EmployeeFullNameDTO;
-import com.baeldung.mapstruct.mappingCollections.model.Employee;
+import com.surya.mapstruct.mappingCollections.dto.EmployeeFullNameDTO;
+import com.surya.mapstruct.mappingCollections.model.Employee;
 import org.mapstruct.Mapper;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.baeldung.switchExpression;
+package com.surya.switchExpression;
 
 import static java.time.Month.AUGUST;
 import static java.time.Month.JUNE;

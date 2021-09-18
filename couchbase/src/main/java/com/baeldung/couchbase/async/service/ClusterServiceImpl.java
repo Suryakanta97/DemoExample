@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.service;
+package com.surya.couchbase.async.service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

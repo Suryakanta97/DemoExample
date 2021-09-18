@@ -1,4 +1,4 @@
-package com.baeldung.adapter;
+package com.surya.adapter;
 
 public class MovableAdapterImpl implements MovableAdapter {
     private Movable luxuryCars;

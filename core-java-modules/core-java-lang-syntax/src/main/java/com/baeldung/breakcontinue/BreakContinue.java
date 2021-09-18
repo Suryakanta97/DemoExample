@@ -1,4 +1,4 @@
-package com.baeldung.breakcontinue;
+package com.surya.breakcontinue;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.baeldung.patterns.domain;
+package com.surya.patterns.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.baeldung.couchbase.async.person;
+package com.surya.couchbase.async.person;
 
-import com.baeldung.couchbase.async.CouchbaseEntity;
+import com.surya.couchbase.async.CouchbaseEntity;
 
 public class Person implements CouchbaseEntity {
 

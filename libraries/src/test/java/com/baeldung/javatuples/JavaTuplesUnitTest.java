@@ -1,4 +1,4 @@
-package com.baeldung.javatuples;
+package com.surya.javatuples;
 
 import org.javatuples.KeyValue;
 import org.javatuples.LabelValue;

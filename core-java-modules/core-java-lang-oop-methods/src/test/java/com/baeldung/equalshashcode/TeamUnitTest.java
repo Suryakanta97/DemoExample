@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode;
+package com.surya.equalshashcode;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;

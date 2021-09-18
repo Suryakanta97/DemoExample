@@ -1,4 +1,4 @@
-package com.baeldung.async;
+package com.surya.async;
 
 import org.junit.After;
 import org.junit.Before;

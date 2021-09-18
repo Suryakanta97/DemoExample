@@ -1,4 +1,4 @@
-package com.baeldung.skipfields;
+package com.surya.skipfields;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

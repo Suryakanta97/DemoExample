@@ -1,4 +1,4 @@
-package com.baeldung.jcommander.usagebilling.model;
+package com.surya.jcommander.usagebilling.model;
 
 import lombok.*;
 

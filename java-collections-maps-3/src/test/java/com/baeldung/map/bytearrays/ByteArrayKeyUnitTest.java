@@ -1,4 +1,4 @@
-package com.baeldung.map.bytearrays;
+package com.surya.map.bytearrays;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.jupiter.api.Test;

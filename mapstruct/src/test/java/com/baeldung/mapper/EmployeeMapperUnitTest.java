@@ -1,9 +1,9 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
-import com.baeldung.dto.DivisionDTO;
-import com.baeldung.dto.EmployeeDTO;
-import com.baeldung.entity.Division;
-import com.baeldung.entity.Employee;
+import com.surya.dto.DivisionDTO;
+import com.surya.dto.EmployeeDTO;
+import com.surya.entity.Division;
+import com.surya.entity.Employee;
 import org.junit.Test;
 import org.mapstruct.factory.Mappers;
 

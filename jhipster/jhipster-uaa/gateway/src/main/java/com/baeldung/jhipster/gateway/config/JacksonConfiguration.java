@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;

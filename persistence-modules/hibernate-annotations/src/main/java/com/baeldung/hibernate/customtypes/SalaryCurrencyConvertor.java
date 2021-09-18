@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.customtypes;
+package com.surya.hibernate.customtypes;
 
 public class SalaryCurrencyConvertor {
 

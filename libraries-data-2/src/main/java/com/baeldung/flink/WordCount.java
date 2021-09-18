@@ -1,4 +1,4 @@
-package com.baeldung.flink;
+package com.surya.flink;
 
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;

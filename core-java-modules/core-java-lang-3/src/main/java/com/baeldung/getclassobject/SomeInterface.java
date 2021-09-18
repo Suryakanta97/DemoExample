@@ -1,4 +1,4 @@
-package com.baeldung.getclassobject;
+package com.surya.getclassobject;
 
 interface SomeInterface {
 }

@@ -1,7 +1,7 @@
-package com.baeldung.pattern.hexagonal.controller;
+package com.surya.pattern.hexagonal.controller;
 
-import com.baeldung.pattern.hexagonal.domain.model.Employee;
-import com.baeldung.pattern.hexagonal.domain.services.EmployeeService;
+import com.surya.pattern.hexagonal.domain.model.Employee;
+import com.surya.pattern.hexagonal.domain.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.baeldung.jsoup;
+package com.surya.jsoup;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

@@ -1,4 +1,4 @@
-package com.baeldung.libraries.ebean.app;
+package com.surya.libraries.ebean.app;
 
 import io.ebean.EbeanServer;
 import io.ebean.EbeanServerFactory;

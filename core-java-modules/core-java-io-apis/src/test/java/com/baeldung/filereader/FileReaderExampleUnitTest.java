@@ -1,4 +1,4 @@
-package com.baeldung.filereader;
+package com.surya.filereader;
 
 import org.junit.Assert;
 import org.junit.Test;

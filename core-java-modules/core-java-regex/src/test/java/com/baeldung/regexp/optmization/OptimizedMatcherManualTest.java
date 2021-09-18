@@ -1,4 +1,4 @@
-package com.baeldung.regexp.optmization;
+package com.surya.regexp.optmization;
 
 import org.junit.Before;
 import org.junit.Test;

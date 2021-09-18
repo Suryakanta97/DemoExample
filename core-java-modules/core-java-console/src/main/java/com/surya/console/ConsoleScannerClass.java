@@ -27,7 +27,7 @@ public class ConsoleScannerClass {
 
         double height = scanner.nextDouble();
 
-        System.out.println(nameSurname + ", " + age + ", is a great " + (gender == 'm' ? "guy" : "girl") + " with " + height + " meters height" + " and " + (gender == 'm' ? "he" : "she") + " reads Baeldung.");
+        System.out.println(nameSurname + ", " + age + ", is a great " + (gender == 'm' ? "guy" : "girl") + " with " + height + " meters height" + " and " + (gender == 'm' ? "he" : "she") + " reads surya.");
 
         System.out.print("Have a good");
         System.out.print(" one!");
@@ -52,7 +52,7 @@ public class ConsoleScannerClass {
 
         int sum = 0, count = 0;
 
-        System.out.println("Please enter your college degrees. To finish, enter baeldung website url");
+        System.out.println("Please enter your college degrees. To finish, enter surya website url");
 
         while (scanner.hasNextInt()) {
             int nmbr = scanner.nextInt();
@@ -63,10 +63,10 @@ public class ConsoleScannerClass {
 
         System.out.println("Your average degree is " + mean);
 
-        if (scanner.hasNext(Pattern.compile("www.baeldung.com")))
+        if (scanner.hasNext(Pattern.compile("www.surya.com")))
             System.out.println("Correct!");
         else
-            System.out.println("Baeldung website url is www.baeldung.com");
+            System.out.println("surya website url is www.surya.com");
 
         if (scanner != null)
             scanner.close();

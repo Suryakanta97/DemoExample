@@ -29,6 +29,6 @@ logging:
         mysql:
           BinlogReader: INFO
     com:
-      baeldung:
+      surya:
         libraries:
           debezium: DEBUG

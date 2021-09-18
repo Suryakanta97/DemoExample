@@ -1,7 +1,7 @@
-package com.baeldung.dip.daoimplementations;
+package com.surya.dip.daoimplementations;
 
-import com.baeldung.dip.daos.CustomerDao;
-import com.baeldung.dip.entities.Customer;
+import com.surya.dip.daos.CustomerDao;
+import com.surya.dip.entities.Customer;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;

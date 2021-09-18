@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.config.audit;
+package com.surya.jhipster.quotes.config.audit;
 
-import com.baeldung.jhipster.quotes.domain.PersistentAuditEvent;
+import com.surya.jhipster.quotes.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;

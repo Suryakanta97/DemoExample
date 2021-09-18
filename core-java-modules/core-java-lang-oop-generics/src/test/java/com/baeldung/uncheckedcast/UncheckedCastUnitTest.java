@@ -1,4 +1,4 @@
-package com.baeldung.uncheckedcast;
+package com.surya.uncheckedcast;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.web.rest.vm;
+package com.surya.jhipster.uaa.web.rest.vm;
 
-import com.baeldung.jhipster.uaa.service.dto.UserDTO;
+import com.surya.jhipster.uaa.service.dto.UserDTO;
 import javax.validation.constraints.Size;
 
 /**

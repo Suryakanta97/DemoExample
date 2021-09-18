@@ -1,4 +1,4 @@
-package com.baeldung.classgraph;
+package com.surya.classgraph;
 
 public class MethodWithAnnotationParameterWeb {
 

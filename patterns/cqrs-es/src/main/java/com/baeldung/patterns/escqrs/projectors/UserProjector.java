@@ -1,20 +1,20 @@
-package com.baeldung.patterns.escqrs.projectors;
+package com.surya.patterns.escqrs.projectors;
 
 import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import com.baeldung.patterns.cqrs.repository.UserReadRepository;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.UserAddress;
-import com.baeldung.patterns.domain.UserContact;
-import com.baeldung.patterns.es.events.Event;
-import com.baeldung.patterns.es.events.UserAddressAddedEvent;
-import com.baeldung.patterns.es.events.UserAddressRemovedEvent;
-import com.baeldung.patterns.es.events.UserContactAddedEvent;
-import com.baeldung.patterns.es.events.UserContactRemovedEvent;
+import com.surya.patterns.cqrs.repository.UserReadRepository;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.UserAddress;
+import com.surya.patterns.domain.UserContact;
+import com.surya.patterns.es.events.Event;
+import com.surya.patterns.es.events.UserAddressAddedEvent;
+import com.surya.patterns.es.events.UserAddressRemovedEvent;
+import com.surya.patterns.es.events.UserContactAddedEvent;
+import com.surya.patterns.es.events.UserContactRemovedEvent;
 
 public class UserProjector {
 

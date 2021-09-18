@@ -1,4 +1,4 @@
-package com.baeldung.rmi;
+package com.surya.rmi;
 
 import org.junit.Before;
 import org.junit.Test;

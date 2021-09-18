@@ -1,4 +1,4 @@
-package com.baeldung.arrayconversion;
+package com.surya.arrayconversion;
 
 import org.assertj.core.api.ListAssert;
 import org.hamcrest.CoreMatchers;

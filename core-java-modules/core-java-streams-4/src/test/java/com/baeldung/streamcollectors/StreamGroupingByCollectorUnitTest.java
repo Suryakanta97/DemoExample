@@ -1,4 +1,4 @@
-package com.baeldung.streamcollectors;
+package com.surya.streamcollectors;
 
 import java.util.ArrayList;
 import java.util.Arrays;

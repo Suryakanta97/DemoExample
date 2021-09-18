@@ -1,4 +1,4 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

@@ -1,4 +1,4 @@
-package com.baeldung.googlehttpclientguide;
+package com.surya.googlehttpclientguide;
 
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.util.Key;

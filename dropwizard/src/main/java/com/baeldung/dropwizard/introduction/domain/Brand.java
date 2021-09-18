@@ -1,4 +1,4 @@
-package com.baeldung.dropwizard.introduction.domain;
+package com.surya.dropwizard.introduction.domain;
 
 public class Brand {
     private final Long id;

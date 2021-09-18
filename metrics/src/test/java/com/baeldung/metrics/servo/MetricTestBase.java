@@ -1,4 +1,4 @@
-package com.baeldung.metrics.servo;
+package com.surya.metrics.servo;
 
 import com.netflix.servo.publish.BasicMetricFilter;
 import com.netflix.servo.publish.MemoryMetricObserver;

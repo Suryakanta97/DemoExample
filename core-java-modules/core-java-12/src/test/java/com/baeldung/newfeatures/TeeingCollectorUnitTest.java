@@ -1,4 +1,4 @@
-package java.com.baeldung.newfeatures;
+package java.com.surya.newfeatures;
 
 import org.junit.Test;
 

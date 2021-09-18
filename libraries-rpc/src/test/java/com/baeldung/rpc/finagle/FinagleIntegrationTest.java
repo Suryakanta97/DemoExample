@@ -1,4 +1,4 @@
-package com.baeldung.rpc.finagle;
+package com.surya.rpc.finagle;
 
 import com.twitter.finagle.Http;
 import com.twitter.finagle.Service;

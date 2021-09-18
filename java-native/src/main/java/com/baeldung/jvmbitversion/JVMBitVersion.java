@@ -1,4 +1,4 @@
-package com.baeldung.jvmbitversion;
+package com.surya.jvmbitversion;
 
 import com.sun.jna.Platform;
 

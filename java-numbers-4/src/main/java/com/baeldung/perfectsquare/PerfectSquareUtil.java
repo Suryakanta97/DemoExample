@@ -1,4 +1,4 @@
-package com.baeldung.perfectsquare;
+package com.surya.perfectsquare;
 
 public class PerfectSquareUtil {
 

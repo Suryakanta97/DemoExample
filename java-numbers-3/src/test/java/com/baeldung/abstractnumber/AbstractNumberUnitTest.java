@@ -1,4 +1,4 @@
-package com.baeldung.abstractnumber;
+package com.surya.abstractnumber;
 
 import static org.junit.Assert.assertEquals;
 

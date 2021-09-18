@@ -1,4 +1,4 @@
-package com.baeldung.unirest;
+package com.surya.unirest;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -18,7 +18,7 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.baeldung.unirest.Article;
+import com.surya.unirest.Article;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
@@ -33,7 +33,7 @@ public class HttpClientLiveTest {
     public static void setup() {
         // Unirest.setProxy(new HttpHost("localhost", 8080));
         Unirest.setTimeouts(20000, 15000);
-        Unirest.setDefaultHeader("X-app-name", "baeldung-unirest");
+        Unirest.setDefaultHeader("X-app-name", "surya-unirest");
         Unirest.setDefaultHeader("X-request-id", "100004f00ab5");
         Unirest.setConcurrency(20, 5);
         Unirest.setObjectMapper(new ObjectMapper() {
@@ -84,7 +84,7 @@ public class HttpClientLiveTest {
         headers.put("Authorization", "Bearer 5a9ce37b3100004f00ab5154");
 
         Map<String, Object> fields = new HashMap<String, Object>();
-        fields.put("name", "Sam Baeldung");
+        fields.put("name", "Sam surya");
         fields.put("id", "PSP123");
 
         HttpResponse<JsonNode> jsonResponse = Unirest.put("http://www.mocky.io/v2/5a9ce7853100002a00ab515e")
@@ -99,7 +99,7 @@ public class HttpClientLiveTest {
     public void givenRequestBodyWhenCreatedThenCorrect() throws UnirestException {
 
         HttpResponse<JsonNode> jsonResponse = Unirest.post("http://www.mocky.io/v2/5a9ce7663100006800ab515d")
-            .body("{\"name\":\"Sam Baeldung\", \"city\":\"viena\"}")
+            .body("{\"name\":\"Sam surya\", \"city\":\"viena\"}")
             .asJson();
         assertEquals(201, jsonResponse.getStatus());
     }
@@ -131,7 +131,7 @@ public class HttpClientLiveTest {
 
     @Test
     public void givenArticleWhenCreatedThenCorrect() throws UnirestException {
-        Article article = new Article("ID1213", "Guide to Rest", "baeldung");
+        Article article = new Article("ID1213", "Guide to Rest", "surya");
         HttpResponse<JsonNode> jsonResponse = Unirest.post("http://www.mocky.io/v2/5a9ce7663100006800ab515d")
             .body(article)
             .asJson();

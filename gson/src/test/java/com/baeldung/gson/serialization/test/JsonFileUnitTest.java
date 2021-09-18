@@ -1,4 +1,4 @@
-package com.baeldung.gson.serialization.test;
+package com.surya.gson.serialization.test;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import com.baeldung.gson.entities.User;
+import com.surya.gson.entities.User;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

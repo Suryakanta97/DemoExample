@@ -1,4 +1,4 @@
-package com.baeldung.nanohttpd;
+package com.surya.nanohttpd;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;

@@ -1,4 +1,4 @@
-package com.baeldung.flogger;
+package com.surya.flogger;
 
 import com.google.common.flogger.FluentLogger;
 import com.google.common.flogger.LoggerConfig;

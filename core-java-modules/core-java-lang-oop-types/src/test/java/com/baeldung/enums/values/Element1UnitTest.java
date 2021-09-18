@@ -1,4 +1,4 @@
-package com.baeldung.enums.values;
+package com.surya.enums.values;
 
 import org.junit.After;
 import org.junit.AfterClass;

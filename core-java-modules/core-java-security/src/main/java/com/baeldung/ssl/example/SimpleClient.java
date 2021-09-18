@@ -1,4 +1,4 @@
-package com.baeldung.ssl.example;
+package com.surya.ssl.example;
 
 import java.io.BufferedReader;
 import java.io.IOException;

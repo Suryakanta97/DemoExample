@@ -1,4 +1,4 @@
-package com.baeldung.orika;
+package com.surya.orika;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -39,7 +39,7 @@ public class OrikaUnitTest {
     public void givenSrcAndDest_whenMaps_thenCorrect() {
         mapperFactory.classMap(Source.class, Dest.class);
         MapperFacade mapper = mapperFactory.getMapperFacade();
-        Source src = new Source("Baeldung", 10);
+        Source src = new Source("surya", 10);
         Dest dest = mapper.map(src, Dest.class);
         assertEquals(dest.getAge(), src.getAge());
         assertEquals(dest.getName(), src.getName());
@@ -49,7 +49,7 @@ public class OrikaUnitTest {
     public void givenSrcAndDest_whenMapsReverse_thenCorrect() {
         mapperFactory.classMap(Source.class, Dest.class).byDefault();
         MapperFacade mapper = mapperFactory.getMapperFacade();
-        Dest src = new Dest("Baeldung", 10);
+        Dest src = new Dest("surya", 10);
         Source dest = mapper.map(src, Source.class);
         assertEquals(dest.getAge(), src.getAge());
         assertEquals(dest.getName(), src.getName());
@@ -59,7 +59,7 @@ public class OrikaUnitTest {
     public void givenSrcAndDest_whenMapsByObject_thenCorrect() {
         mapperFactory.classMap(Source.class, Dest.class).byDefault();
         MapperFacade mapper = mapperFactory.getMapperFacade();
-        Source src = new Source("Baeldung", 10);
+        Source src = new Source("surya", 10);
         Dest dest = new Dest();
         mapper.map(src, dest);
         assertEquals(dest.getAge(), src.getAge());
@@ -69,7 +69,7 @@ public class OrikaUnitTest {
     @Test
     public void givenSrcAndDest_whenMapsUsingBoundMapper_thenCorrect() {
         BoundMapperFacade<Source, Dest> boundMapper = mapperFactory.getMapperFacade(Source.class, Dest.class);
-        Source src = new Source("baeldung", 10);
+        Source src = new Source("surya", 10);
         Dest dest = boundMapper.map(src);
         assertEquals(dest.getAge(), src.getAge());
         assertEquals(dest.getName(), src.getName());
@@ -78,7 +78,7 @@ public class OrikaUnitTest {
     @Test
     public void givenSrcAndDest_whenMapsUsingBoundMapperInReverse_thenCorrect() {
         BoundMapperFacade<Source, Dest> boundMapper = mapperFactory.getMapperFacade(Source.class, Dest.class);
-        Dest src = new Dest("baeldung", 10);
+        Dest src = new Dest("surya", 10);
         Source dest = boundMapper.mapReverse(src);
         assertEquals(dest.getAge(), src.getAge());
         assertEquals(dest.getName(), src.getName());
@@ -87,7 +87,7 @@ public class OrikaUnitTest {
     @Test
     public void givenSrcAndDest_whenMapsUsingBoundMapperByObject_thenCorrect() {
         BoundMapperFacade<Source, Dest> boundMapper = mapperFactory.getMapperFacade(Source.class, Dest.class);
-        Source src = new Source("baeldung", 10);
+        Source src = new Source("surya", 10);
         Dest dest = new Dest();
         boundMapper.map(src, dest);
         assertEquals(dest.getAge(), src.getAge());
@@ -97,7 +97,7 @@ public class OrikaUnitTest {
     @Test
     public void givenSrcAndDest_whenMapsUsingBoundMapperByObjectInReverse_thenCorrect() {
         BoundMapperFacade<Source, Dest> boundMapper = mapperFactory.getMapperFacade(Source.class, Dest.class);
-        Dest src = new Dest("baeldung", 10);
+        Dest src = new Dest("surya", 10);
         Source dest = new Source();
         boundMapper.mapReverse(src, dest);
         assertEquals(dest.getAge(), src.getAge());

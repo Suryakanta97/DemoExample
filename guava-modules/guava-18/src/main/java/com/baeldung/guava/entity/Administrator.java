@@ -1,4 +1,4 @@
-package com.baeldung.guava.entity;
+package com.surya.guava.entity;
 
 import com.google.common.base.MoreObjects;
 

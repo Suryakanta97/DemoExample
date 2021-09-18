@@ -1,4 +1,4 @@
-package com.baeldung.univocity.model;
+package com.surya.univocity.model;
 
 import com.univocity.parsers.annotations.Parsed;
 

@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.messageinterpolator;
+package com.surya.javaxval.messageinterpolator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

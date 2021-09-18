@@ -1,4 +1,4 @@
-package com.baeldung.picocli.git.commands.methods;
+package com.surya.picocli.git.commands.methods;
 
 import picocli.CommandLine;
 

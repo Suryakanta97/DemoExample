@@ -1,6 +1,6 @@
-package com.baeldung.dddhexagonalspring.application.request;
+package com.surya.dddhexagonalspring.application.request;
 
-import com.baeldung.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.Product;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 

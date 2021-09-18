@@ -1,4 +1,4 @@
-package com.baeldung.jsonpointer;
+package com.surya.jsonpointer;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

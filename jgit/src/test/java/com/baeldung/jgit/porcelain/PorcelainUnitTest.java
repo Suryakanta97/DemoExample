@@ -1,4 +1,4 @@
-package com.baeldung.jgit.porcelain;
+package com.surya.jgit.porcelain;
 
 import org.junit.Test;
 

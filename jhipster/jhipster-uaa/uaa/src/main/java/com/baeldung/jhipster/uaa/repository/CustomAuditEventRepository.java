@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.uaa.repository;
+package com.surya.jhipster.uaa.repository;
 
-import com.baeldung.jhipster.uaa.config.Constants;
-import com.baeldung.jhipster.uaa.config.audit.AuditEventConverter;
-import com.baeldung.jhipster.uaa.domain.PersistentAuditEvent;
+import com.surya.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.config.audit.AuditEventConverter;
+import com.surya.jhipster.uaa.domain.PersistentAuditEvent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

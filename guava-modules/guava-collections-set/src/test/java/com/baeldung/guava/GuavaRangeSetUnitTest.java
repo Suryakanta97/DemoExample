@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
 import com.google.common.collect.ImmutableRangeSet;
 import com.google.common.collect.Range;

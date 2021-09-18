@@ -1,4 +1,4 @@
-package com.baeldung.patterns.front.controller.commands;
+package com.surya.patterns.front.controller.commands;
 
 import javax.servlet.ServletException;
 import java.io.IOException;

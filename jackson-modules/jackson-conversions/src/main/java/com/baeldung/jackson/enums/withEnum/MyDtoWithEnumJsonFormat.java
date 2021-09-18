@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.withEnum;
+package com.surya.jackson.enums.withEnum;
 
 public class MyDtoWithEnumJsonFormat {
 

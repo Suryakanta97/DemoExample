@@ -1,4 +1,4 @@
-package com.baeldung.conversions;
+package com.surya.conversions;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.junit.jupiter.api.Test;

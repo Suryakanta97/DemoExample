@@ -1,4 +1,4 @@
-package com.baeldung.removeemojis;
+package com.surya.removeemojis;
 
 import com.vdurmont.emoji.EmojiParser;
 import org.junit.Test;

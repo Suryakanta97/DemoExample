@@ -1,4 +1,4 @@
-package com.baeldung.publicmodifier;
+package com.surya.publicmodifier;
 
 public class SpecialCharacters {
 

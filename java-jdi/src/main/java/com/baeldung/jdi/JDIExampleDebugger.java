@@ -1,4 +1,4 @@
-package com.baeldung.jdi;
+package com.surya.jdi;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

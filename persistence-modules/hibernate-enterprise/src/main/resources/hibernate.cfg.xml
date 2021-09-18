@@ -21,7 +21,7 @@
 
         <property name="hbm2ddl.auto">create</property>
 
-        <mapping resource="com/baeldung/hibernateparameters/Event.hbm.xml"/>
+        <mapping resource="com/surya/hibernateparameters/Event.hbm.xml"/>
 
     </session-factory>
 

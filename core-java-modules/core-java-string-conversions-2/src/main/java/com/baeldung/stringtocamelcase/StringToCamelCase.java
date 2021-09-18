@@ -1,4 +1,4 @@
-package com.baeldung.stringtocamelcase;
+package com.surya.stringtocamelcase;
 
 import com.google.common.base.CaseFormat;
 import com.ibm.icu.lang.UCharacter;

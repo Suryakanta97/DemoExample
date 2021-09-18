@@ -1,4 +1,4 @@
-package com.baeldung.functionalinterface;
+package com.surya.functionalinterface;
 
 @FunctionalInterface
 public interface ShortToByteFunction {

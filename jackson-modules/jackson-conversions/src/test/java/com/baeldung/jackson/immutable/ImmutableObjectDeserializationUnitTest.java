@@ -1,4 +1,4 @@
-package com.baeldung.jackson.immutable;
+package com.surya.jackson.immutable;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;

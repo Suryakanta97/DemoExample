@@ -1,10 +1,10 @@
-package com.baeldung.jhipster.quotes.service.impl;
+package com.surya.jhipster.quotes.service.impl;
 
-import com.baeldung.jhipster.quotes.service.QuoteService;
-import com.baeldung.jhipster.quotes.domain.Quote;
-import com.baeldung.jhipster.quotes.repository.QuoteRepository;
-import com.baeldung.jhipster.quotes.service.dto.QuoteDTO;
-import com.baeldung.jhipster.quotes.service.mapper.QuoteMapper;
+import com.surya.jhipster.quotes.service.QuoteService;
+import com.surya.jhipster.quotes.domain.Quote;
+import com.surya.jhipster.quotes.repository.QuoteRepository;
+import com.surya.jhipster.quotes.service.dto.QuoteDTO;
+import com.surya.jhipster.quotes.service.mapper.QuoteMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

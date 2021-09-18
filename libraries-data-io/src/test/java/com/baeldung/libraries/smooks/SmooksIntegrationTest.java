@@ -1,11 +1,11 @@
-package com.baeldung.libraries.smooks;
+package com.surya.libraries.smooks;
 
-import com.baeldung.libraries.smooks.converter.OrderConverter;
-import com.baeldung.libraries.smooks.converter.OrderValidator;
-import com.baeldung.libraries.smooks.model.Item;
-import com.baeldung.libraries.smooks.model.Order;
-import com.baeldung.libraries.smooks.model.Status;
-import com.baeldung.libraries.smooks.model.Supplier;
+import com.surya.libraries.smooks.converter.OrderConverter;
+import com.surya.libraries.smooks.converter.OrderValidator;
+import com.surya.libraries.smooks.model.Item;
+import com.surya.libraries.smooks.model.Order;
+import com.surya.libraries.smooks.model.Status;
+import com.surya.libraries.smooks.model.Supplier;
 import org.junit.Test;
 import org.milyn.validation.ValidationResult;
 import java.text.SimpleDateFormat;

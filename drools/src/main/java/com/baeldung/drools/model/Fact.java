@@ -1,4 +1,4 @@
-package com.baeldung.drools.model;
+package com.surya.drools.model;
 
 import org.kie.api.definition.type.Position;
 

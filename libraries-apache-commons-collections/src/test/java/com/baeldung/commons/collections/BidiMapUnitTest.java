@@ -1,4 +1,4 @@
-package com.baeldung.commons.collections;
+package com.surya.commons.collections;
 
 import org.apache.commons.collections4.BidiMap;
 import org.apache.commons.collections4.bidimap.DualHashBidiMap;

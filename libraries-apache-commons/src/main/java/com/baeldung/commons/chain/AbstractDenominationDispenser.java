@@ -1,9 +1,9 @@
-package com.baeldung.commons.chain;
+package com.surya.commons.chain;
 
 import org.apache.commons.chain.Command;
 import org.apache.commons.chain.Context;
 
-import static com.baeldung.commons.chain.AtmConstants.AMOUNT_LEFT_TO_BE_WITHDRAWN;
+import static com.surya.commons.chain.AtmConstants.AMOUNT_LEFT_TO_BE_WITHDRAWN;
 
 public abstract class AbstractDenominationDispenser implements Command {
 

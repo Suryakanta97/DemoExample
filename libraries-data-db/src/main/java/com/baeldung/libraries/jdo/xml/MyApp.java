@@ -1,4 +1,4 @@
-package com.baeldung.libraries.jdo.xml;
+package com.surya.libraries.jdo.xml;
 
 import org.datanucleus.api.jdo.JDOPersistenceManagerFactory;
 import org.datanucleus.metadata.PersistenceUnitMetaData;

@@ -1,4 +1,4 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
 public interface SpaceTraveller extends Floatable, Flyable {
     int duration = 10;

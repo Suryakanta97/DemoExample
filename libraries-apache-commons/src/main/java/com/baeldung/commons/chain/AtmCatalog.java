@@ -1,8 +1,8 @@
-package com.baeldung.commons.chain;
+package com.surya.commons.chain;
 
 import org.apache.commons.chain.impl.CatalogBase;
 
-import static com.baeldung.commons.chain.AtmConstants.ATM_WITHDRAWAL_CHAIN;
+import static com.surya.commons.chain.AtmConstants.ATM_WITHDRAWAL_CHAIN;
 
 public class AtmCatalog extends CatalogBase {
 

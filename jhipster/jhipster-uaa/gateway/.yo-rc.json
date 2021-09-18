@@ -1,14 +1,14 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "com.baeldung.jhipster.gateway",
+      "packageName": "com.surya.jhipster.gateway",
       "nativeLanguage": "en"
     },
     "jhipsterVersion": "5.4.2",
     "applicationType": "gateway",
     "baseName": "gateway",
-    "packageName": "com.baeldung.jhipster.gateway",
-    "packageFolder": "com/baeldung/jhipster/gateway",
+    "packageName": "com.surya.jhipster.gateway",
+    "packageFolder": "com/surya/jhipster/gateway",
     "serverPort": "8080",
     "authenticationType": "uaa",
     "uaaBaseName": "uaa",

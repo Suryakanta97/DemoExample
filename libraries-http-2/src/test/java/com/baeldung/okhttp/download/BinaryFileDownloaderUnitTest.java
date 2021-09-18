@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.download;
+package com.surya.okhttp.download;
 
 import okhttp3.Call;
 import okhttp3.MediaType;

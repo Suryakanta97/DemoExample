@@ -1,10 +1,10 @@
-package com.baeldung.oauth2.authorization.server.api;
+package com.surya.oauth2.authorization.server.api;
 
-import com.baeldung.oauth2.authorization.server.handler.AuthorizationGrantTypeHandler;
-import com.baeldung.oauth2.authorization.server.model.AppDataRepository;
-import com.baeldung.oauth2.authorization.server.model.AuthorizationCode;
-import com.baeldung.oauth2.authorization.server.model.Client;
-import com.baeldung.oauth2.authorization.server.model.User;
+import com.surya.oauth2.authorization.server.handler.AuthorizationGrantTypeHandler;
+import com.surya.oauth2.authorization.server.model.AppDataRepository;
+import com.surya.oauth2.authorization.server.model.AuthorizationCode;
+import com.surya.oauth2.authorization.server.model.Client;
+import com.surya.oauth2.authorization.server.model.User;
 
 import javax.annotation.security.RolesAllowed;
 import javax.enterprise.context.RequestScoped;

@@ -1,11 +1,11 @@
-package com.baeldung.patterns.es.repository;
+package com.surya.patterns.es.repository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.baeldung.patterns.es.events.Event;
+import com.surya.patterns.es.events.Event;
 
 public class EventStore {
 

@@ -1,5 +1,5 @@
 
-package com.baeldung.batch.understanding.exception;
+package com.surya.batch.understanding.exception;
 
 import javax.batch.api.chunk.AbstractItemWriter;
 import javax.inject.Named;

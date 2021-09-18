@@ -1,10 +1,10 @@
-package com.baeldung.datetime.sql;
+package com.surya.datetime.sql;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.baeldung.datetime.sql.TimeUtils;
+import com.surya.datetime.sql.TimeUtils;
 
 import java.text.ParseException;
 

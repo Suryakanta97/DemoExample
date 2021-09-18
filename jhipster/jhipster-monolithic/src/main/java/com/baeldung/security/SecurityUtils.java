@@ -1,4 +1,4 @@
-package com.baeldung.security;
+package com.surya.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContext;

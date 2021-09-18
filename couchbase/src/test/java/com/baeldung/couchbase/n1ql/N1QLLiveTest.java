@@ -1,6 +1,6 @@
-package com.baeldung.couchbase.n1ql;
+package com.surya.couchbase.n1ql;
 
-import static com.baeldung.couchbase.n1ql.CodeSnippets.extractJsonResult;
+import static com.surya.couchbase.n1ql.CodeSnippets.extractJsonResult;
 import static com.couchbase.client.java.query.Select.select;
 import static com.couchbase.client.java.query.dsl.Expression.i;
 import static com.couchbase.client.java.query.dsl.Expression.s;

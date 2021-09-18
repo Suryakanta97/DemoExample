@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder.inheritance.superbuilder;
+package com.surya.lombok.builder.inheritance.superbuilder;
 
 import lombok.Getter;
 import lombok.experimental.SuperBuilder;

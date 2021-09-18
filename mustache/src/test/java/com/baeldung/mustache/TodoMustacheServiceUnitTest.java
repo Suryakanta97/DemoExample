@@ -1,6 +1,6 @@
-package com.baeldung.mustache;
+package com.surya.mustache;
 
-import com.baeldung.mustache.model.Todo;
+import com.surya.mustache.model.Todo;
 import com.github.mustachejava.Mustache;
 import org.junit.Test;
 

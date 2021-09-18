@@ -1,9 +1,9 @@
-package com.baeldung.patterns.intercepting.filter;
+package com.surya.patterns.intercepting.filter;
 
-import com.baeldung.patterns.intercepting.filter.commands.FrontCommand;
-import com.baeldung.patterns.intercepting.filter.commands.UnknownCommand;
-import com.baeldung.patterns.intercepting.filter.data.Bookshelf;
-import com.baeldung.patterns.intercepting.filter.data.BookshelfImpl;
+import com.surya.patterns.intercepting.filter.commands.FrontCommand;
+import com.surya.patterns.intercepting.filter.commands.UnknownCommand;
+import com.surya.patterns.intercepting.filter.data.Bookshelf;
+import com.surya.patterns.intercepting.filter.data.BookshelfImpl;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -52,7 +52,7 @@ public class FrontControllerServlet extends HttpServlet {
         try {
             Class type = Class.forName(
               String.format(
-                "com.baeldung.patterns.intercepting.filter.commands.%sCommand",
+                "com.surya.patterns.intercepting.filter.commands.%sCommand",
                 request.getParameter("command")
               )
             );

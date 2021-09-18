@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -71,7 +71,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <moduleName>com.baeldung.Google_web_toolkit</moduleName>
+                    <moduleName>com.surya.Google_web_toolkit</moduleName>
                     <moduleShortName>Google_web_toolkit</moduleShortName>
                     <failOnError>true</failOnError>
                     <!-- GWT compiler 2.8 requires 1.8, hence define sourceLevel here if you use a different 

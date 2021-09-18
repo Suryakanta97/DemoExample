@@ -1,4 +1,4 @@
-package com.baeldung.printbinarytree;
+package com.surya.printbinarytree;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,8 +10,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.printbinarytree.BinaryTreeModel;
-import com.baeldung.printbinarytree.BinaryTreePrinter;
+import com.surya.printbinarytree.BinaryTreeModel;
+import com.surya.printbinarytree.BinaryTreePrinter;
 
 public class PrintingBinaryTreeModelUnitTest {
 

@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.exception;
+package com.surya.performancetests.exception;
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;

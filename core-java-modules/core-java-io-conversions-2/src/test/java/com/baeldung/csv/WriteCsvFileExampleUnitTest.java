@@ -1,4 +1,4 @@
-package com.baeldung.csv;
+package com.surya.csv;
 
 import org.junit.Before;
 import org.junit.Test;

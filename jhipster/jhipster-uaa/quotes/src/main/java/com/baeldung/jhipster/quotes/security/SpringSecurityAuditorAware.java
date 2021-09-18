@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.security;
+package com.surya.jhipster.quotes.security;
 
-import com.baeldung.jhipster.quotes.config.Constants;
+import com.surya.jhipster.quotes.config.Constants;
 
 import java.util.Optional;
 

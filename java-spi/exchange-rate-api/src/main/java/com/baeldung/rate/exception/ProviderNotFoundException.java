@@ -1,4 +1,4 @@
-package com.baeldung.rate.exception;
+package com.surya.rate.exception;
 
 public class ProviderNotFoundException extends RuntimeException {
 

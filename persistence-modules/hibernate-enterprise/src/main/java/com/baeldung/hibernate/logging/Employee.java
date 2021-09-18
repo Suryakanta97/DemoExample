@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.logging;
+package com.surya.hibernate.logging;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

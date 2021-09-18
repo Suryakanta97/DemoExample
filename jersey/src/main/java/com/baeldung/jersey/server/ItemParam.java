@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server;
+package com.surya.jersey.server;
 
 import javax.ws.rs.FormParam;
 import javax.ws.rs.HeaderParam;

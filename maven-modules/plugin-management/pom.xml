@@ -6,7 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <parent>
         <artifactId>maven-modules</artifactId>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>plugin-management</artifactId>

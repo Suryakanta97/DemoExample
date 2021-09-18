@@ -1,4 +1,4 @@
-package com.baeldung.distinct;
+package com.surya.distinct;
 
 public class Person {
     int age;

@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode.entities;
+package com.surya.equalshashcode.entities;
 
 public abstract class Shape {
     public abstract double area();

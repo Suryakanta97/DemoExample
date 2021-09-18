@@ -1,4 +1,4 @@
-package com.baeldung.circularlinkedlist;
+package com.surya.circularlinkedlist;
 
 import org.junit.Test;
 

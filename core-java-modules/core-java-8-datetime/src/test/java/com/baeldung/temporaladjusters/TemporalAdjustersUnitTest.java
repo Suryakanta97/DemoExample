@@ -1,4 +1,4 @@
-package com.baeldung.temporaladjusters;
+package com.surya.temporaladjusters;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

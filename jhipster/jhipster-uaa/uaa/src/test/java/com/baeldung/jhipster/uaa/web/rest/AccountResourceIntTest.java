@@ -1,19 +1,19 @@
-package com.baeldung.jhipster.uaa.web.rest;
+package com.surya.jhipster.uaa.web.rest;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.config.Constants;
-import com.baeldung.jhipster.uaa.domain.Authority;
-import com.baeldung.jhipster.uaa.domain.User;
-import com.baeldung.jhipster.uaa.repository.AuthorityRepository;
-import com.baeldung.jhipster.uaa.repository.UserRepository;
-import com.baeldung.jhipster.uaa.security.AuthoritiesConstants;
-import com.baeldung.jhipster.uaa.service.MailService;
-import com.baeldung.jhipster.uaa.service.UserService;
-import com.baeldung.jhipster.uaa.service.dto.PasswordChangeDTO;
-import com.baeldung.jhipster.uaa.service.dto.UserDTO;
-import com.baeldung.jhipster.uaa.web.rest.errors.ExceptionTranslator;
-import com.baeldung.jhipster.uaa.web.rest.vm.KeyAndPasswordVM;
-import com.baeldung.jhipster.uaa.web.rest.vm.ManagedUserVM;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.domain.Authority;
+import com.surya.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.repository.AuthorityRepository;
+import com.surya.jhipster.uaa.repository.UserRepository;
+import com.surya.jhipster.uaa.security.AuthoritiesConstants;
+import com.surya.jhipster.uaa.service.MailService;
+import com.surya.jhipster.uaa.service.UserService;
+import com.surya.jhipster.uaa.service.dto.PasswordChangeDTO;
+import com.surya.jhipster.uaa.service.dto.UserDTO;
+import com.surya.jhipster.uaa.web.rest.errors.ExceptionTranslator;
+import com.surya.jhipster.uaa.web.rest.vm.KeyAndPasswordVM;
+import com.surya.jhipster.uaa.web.rest.vm.ManagedUserVM;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import org.junit.Before;

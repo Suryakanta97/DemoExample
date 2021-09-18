@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.security.oauth2;
+package com.surya.jhipster.gateway.security.oauth2;
 
-import com.baeldung.jhipster.gateway.web.rest.errors.InvalidPasswordException;
+import com.surya.jhipster.gateway.web.rest.errors.InvalidPasswordException;
 import io.github.jhipster.security.PersistentTokenCache;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,18 +1,18 @@
 
 <div *ngIf="comment">
-    <h2><span jhiTranslate="baeldungApp.comment.detail.title">Comment</span> {{comment.id}}</h2>
+    <h2><span jhiTranslate="suryaApp.comment.detail.title">Comment</span> {{comment.id}}</h2>
     <hr>
     <jhi-alert-error></jhi-alert-error>
     <dl class="row-md jh-entity-details">
-        <dt><span jhiTranslate="baeldungApp.comment.text">Text</span></dt>
+        <dt><span jhiTranslate="suryaApp.comment.text">Text</span></dt>
         <dd>
             <span>{{comment.text}}</span>
         </dd>
-        <dt><span jhiTranslate="baeldungApp.comment.creationDate">Creation Date</span></dt>
+        <dt><span jhiTranslate="suryaApp.comment.creationDate">Creation Date</span></dt>
         <dd>
             <span>{{comment.creationDate | date:'mediumDate'}}</span>
         </dd>
-        <dt><span jhiTranslate="baeldungApp.comment.post">Post</span></dt>
+        <dt><span jhiTranslate="suryaApp.comment.post">Post</span></dt>
         <dd>
             <div *ngIf="comment.post">
                 <a [routerLink]="['/post', comment.post?.id]">{{comment.post?.title}}</a>

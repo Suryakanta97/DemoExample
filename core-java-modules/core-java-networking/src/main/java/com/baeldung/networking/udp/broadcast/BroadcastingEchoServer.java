@@ -1,4 +1,4 @@
-package com.baeldung.networking.udp.broadcast;
+package com.surya.networking.udp.broadcast;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

@@ -1,11 +1,11 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
-import com.baeldung.dto.PersonDTO;
-import com.baeldung.entity.Person;
+import com.surya.dto.PersonDTO;
+import com.surya.entity.Person;
 
 @Mapper
 public interface PersonMapper {

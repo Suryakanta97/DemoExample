@@ -1,4 +1,4 @@
-package com.baeldung.guava.future.exception;
+package com.surya.guava.future.exception;
 
 public class ListenableFutureException extends Exception {
 }

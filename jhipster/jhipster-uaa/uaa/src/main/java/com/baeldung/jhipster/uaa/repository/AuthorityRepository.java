@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.repository;
+package com.surya.jhipster.uaa.repository;
 
-import com.baeldung.jhipster.uaa.domain.Authority;
+import com.surya.jhipster.uaa.domain.Authority;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

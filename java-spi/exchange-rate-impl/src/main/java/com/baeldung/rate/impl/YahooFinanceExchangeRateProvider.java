@@ -1,7 +1,7 @@
-package com.baeldung.rate.impl;
+package com.surya.rate.impl;
 
-import com.baeldung.rate.api.QuoteManager;
-import com.baeldung.rate.spi.ExchangeRateProvider;
+import com.surya.rate.api.QuoteManager;
+import com.surya.rate.spi.ExchangeRateProvider;
 
 public class YahooFinanceExchangeRateProvider implements ExchangeRateProvider {
 

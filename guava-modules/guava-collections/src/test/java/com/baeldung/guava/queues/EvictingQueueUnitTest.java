@@ -1,4 +1,4 @@
-package com.baeldung.guava.queues;
+package com.surya.guava.queues;
 
 
 import com.google.common.collect.EvictingQueue;

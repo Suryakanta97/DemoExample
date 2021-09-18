@@ -1,4 +1,4 @@
-package com.baeldung.serenity.github;
+package com.surya.serenity.github;
 
 public class GitHubUser {
 

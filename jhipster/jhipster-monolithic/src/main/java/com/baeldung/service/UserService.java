@@ -1,14 +1,14 @@
-package com.baeldung.service;
+package com.surya.service;
 
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
-import com.baeldung.repository.AuthorityRepository;
-import com.baeldung.config.Constants;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.AuthoritiesConstants;
-import com.baeldung.security.SecurityUtils;
-import com.baeldung.service.util.RandomUtil;
-import com.baeldung.service.dto.UserDTO;
+import com.surya.domain.Authority;
+import com.surya.domain.User;
+import com.surya.repository.AuthorityRepository;
+import com.surya.config.Constants;
+import com.surya.repository.UserRepository;
+import com.surya.security.AuthoritiesConstants;
+import com.surya.security.SecurityUtils;
+import com.surya.service.util.RandomUtil;
+import com.surya.service.dto.UserDTO;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

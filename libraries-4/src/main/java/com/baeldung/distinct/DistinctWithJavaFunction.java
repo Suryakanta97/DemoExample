@@ -1,4 +1,4 @@
-package com.baeldung.distinct;
+package com.surya.distinct;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

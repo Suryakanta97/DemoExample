@@ -1,4 +1,4 @@
-package com.baeldung.streams.conversion;
+package com.surya.streams.conversion;
 
 import java.util.Enumeration;
 import java.util.Spliterator;

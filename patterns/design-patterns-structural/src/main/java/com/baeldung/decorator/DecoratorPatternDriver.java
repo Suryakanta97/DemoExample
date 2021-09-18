@@ -1,6 +1,6 @@
-package com.baeldung.decorator;
+package com.surya.decorator;
 
-import static com.baeldung.util.LoggerUtil.LOG;
+import static com.surya.util.LoggerUtil.LOG;
 
 public class DecoratorPatternDriver {
 

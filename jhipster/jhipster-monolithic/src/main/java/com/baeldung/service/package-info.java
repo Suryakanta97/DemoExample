@@ -1,4 +1,4 @@
 /**
  * Service layer beans.
  */
-package com.baeldung.service;
+package com.surya.service;

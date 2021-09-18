@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import org.apache.commons.lang3.CharEncoding;
 import org.slf4j.Logger;

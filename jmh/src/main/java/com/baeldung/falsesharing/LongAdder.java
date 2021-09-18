@@ -1,4 +1,4 @@
-package com.baeldung.falsesharing;
+package com.surya.falsesharing;
 
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicLong;

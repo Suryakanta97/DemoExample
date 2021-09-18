@@ -1,4 +1,4 @@
-package com.baeldung.chararraytostring;
+package com.surya.chararraytostring;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
@@ -18,7 +18,7 @@ public class CharArrayToStringConversionUnitTest {
 
         String string = new String(charArray);
 
-        assertThat(string, is("baeldung"));
+        assertThat(string, is("surya"));
     }
 
     @Test
@@ -27,7 +27,7 @@ public class CharArrayToStringConversionUnitTest {
 
         String string = String.copyValueOf(charArray);
 
-        assertThat(string, is("baeldung"));
+        assertThat(string, is("surya"));
     }
 
     @Test
@@ -36,7 +36,7 @@ public class CharArrayToStringConversionUnitTest {
 
         String string = String.valueOf(charArray);
 
-        assertThat(string, is("baeldung"));
+        assertThat(string, is("surya"));
     }
 
     @Test
@@ -48,7 +48,7 @@ public class CharArrayToStringConversionUnitTest {
             sb.append(subArray);
         }
 
-        assertThat(sb.toString(), is("baeldung"));
+        assertThat(sb.toString(), is("surya"));
     }
 
     @Test
@@ -58,7 +58,7 @@ public class CharArrayToStringConversionUnitTest {
         Stream<Character> charStream = Arrays.stream(charArray);
         String string = charStream.map(String::valueOf).collect(Collectors.joining());
 
-        assertThat(string, is("baeldung"));
+        assertThat(string, is("surya"));
     }
 
     @Test

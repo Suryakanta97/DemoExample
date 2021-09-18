@@ -1,4 +1,4 @@
-package com.baeldung.boolsize;
+package com.surya.boolsize;
 
 import org.junit.Test;
 import org.openjdk.jol.info.ClassLayout;

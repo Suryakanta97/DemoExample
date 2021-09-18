@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.rest;
+package com.surya.jersey.server.rest;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,9 +23,9 @@ import org.glassfish.jersey.server.mvc.ErrorTemplate;
 import org.glassfish.jersey.server.mvc.Template;
 import org.glassfish.jersey.server.mvc.Viewable;
 
-import com.baeldung.jersey.server.constraints.SerialNumber;
-import com.baeldung.jersey.server.model.Fruit;
-import com.baeldung.jersey.service.SimpleStorageService;
+import com.surya.jersey.server.constraints.SerialNumber;
+import com.surya.jersey.server.model.Fruit;
+import com.surya.jersey.service.SimpleStorageService;
 
 @Path("/fruit")
 public class FruitResource {

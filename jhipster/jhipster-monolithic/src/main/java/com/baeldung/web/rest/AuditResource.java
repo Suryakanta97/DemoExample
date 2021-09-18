@@ -1,7 +1,7 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.service.AuditEventService;
-import com.baeldung.web.rest.util.PaginationUtil;
+import com.surya.service.AuditEventService;
+import com.surya.web.rest.util.PaginationUtil;
 
 import io.github.jhipster.web.util.ResponseUtil;
 import io.swagger.annotations.ApiParam;

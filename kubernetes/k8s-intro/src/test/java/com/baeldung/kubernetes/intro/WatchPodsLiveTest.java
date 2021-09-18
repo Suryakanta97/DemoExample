@@ -1,4 +1,4 @@
-package com.baeldung.kubernetes.intro;
+package com.surya.kubernetes.intro;
 
 import org.junit.jupiter.api.Test;
 

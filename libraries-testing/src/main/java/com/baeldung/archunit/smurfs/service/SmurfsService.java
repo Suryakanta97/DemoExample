@@ -1,14 +1,14 @@
 
-package com.baeldung.archunit.smurfs.service;
+package com.surya.archunit.smurfs.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
-import com.baeldung.archunit.smurfs.persistence.SmurfsRepository;
-import com.baeldung.archunit.smurfs.persistence.domain.Smurf;
-import com.baeldung.archunit.smurfs.service.dto.SmurfDTO;
+import com.surya.archunit.smurfs.persistence.SmurfsRepository;
+import com.surya.archunit.smurfs.persistence.domain.Smurf;
+import com.surya.archunit.smurfs.service.dto.SmurfDTO;
 
 @Component
 public class SmurfsService {

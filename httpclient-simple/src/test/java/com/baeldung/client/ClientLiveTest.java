@@ -1,11 +1,11 @@
-package com.baeldung.client;
+package com.surya.client;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-import com.baeldung.client.spring.ClientConfig;
-import com.baeldung.web.dto.Foo;
+import com.surya.client.spring.ClientConfig;
+import com.surya.web.dto.Foo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

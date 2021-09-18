@@ -1,4 +1,4 @@
-package com.baeldung.outofmemoryerror;
+package com.surya.outofmemoryerror;
 
 import java.util.HashMap;
 import java.util.Map;

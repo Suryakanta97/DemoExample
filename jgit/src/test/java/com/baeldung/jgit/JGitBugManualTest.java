@@ -1,6 +1,6 @@
-package com.baeldung.jgit;
+package com.surya.jgit;
 
-import com.baeldung.jgit.helper.Helper;
+import com.surya.jgit.helper.Helper;
 import org.eclipse.jgit.lib.ObjectLoader;
 import org.eclipse.jgit.lib.ObjectReader;
 import org.eclipse.jgit.lib.Ref;
@@ -14,7 +14,7 @@ public class JGitBugManualTest {
     
     /**
      * This test case expects one git repository to be present in local file system.
-     * Currently this test uses the Baeldung repository i.e. the current checkout repository.
+     * Currently this test uses the surya repository i.e. the current checkout repository.
      * It finds the repository by tracking back and scan file system to find .git folder in
      * the file system.
      * 

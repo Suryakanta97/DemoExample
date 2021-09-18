@@ -1,6 +1,6 @@
-package com.baeldung.state;
+package com.surya.state;
 
-import com.baeldung.state.Package;
+import com.surya.state.Package;
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.instanceOf;

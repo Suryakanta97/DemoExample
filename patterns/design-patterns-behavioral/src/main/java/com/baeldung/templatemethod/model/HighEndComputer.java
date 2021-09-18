@@ -1,4 +1,4 @@
-package com.baeldung.templatemethod.model;
+package com.surya.templatemethod.model;
 
 import java.util.Map;
 

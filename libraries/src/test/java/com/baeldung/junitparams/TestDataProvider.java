@@ -1,4 +1,4 @@
-package com.baeldung.junitparams;
+package com.surya.junitparams;
 
 public class TestDataProvider {
 

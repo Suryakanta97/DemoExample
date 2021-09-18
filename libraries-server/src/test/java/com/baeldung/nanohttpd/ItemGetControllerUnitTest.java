@@ -1,4 +1,4 @@
-package com.baeldung.nanohttpd;
+package com.surya.nanohttpd;
 
 import static org.junit.Assert.*;
 

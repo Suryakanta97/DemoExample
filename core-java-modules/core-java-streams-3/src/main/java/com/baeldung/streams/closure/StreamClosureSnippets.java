@@ -1,4 +1,4 @@
-package com.baeldung.streams.closure;
+package com.surya.streams.closure;
 
 import java.io.IOException;
 import java.nio.file.Files;

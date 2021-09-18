@@ -1,4 +1,4 @@
-package com.baeldung.stringjoiner;
+package com.surya.stringjoiner;
 
 import org.junit.Test;
 

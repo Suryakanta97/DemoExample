@@ -1,8 +1,8 @@
-package com.baeldung.student.client;
+package com.surya.student.client;
 
-import com.baeldung.student.service.StudentService;
-import com.baeldung.student.service.dbimpl.StudentDbService;
-import com.baeldung.student.model.Student;
+import com.surya.student.service.StudentService;
+import com.surya.student.service.dbimpl.StudentDbService;
+import com.surya.student.model.Student;
 
 public class StudentClient {
 

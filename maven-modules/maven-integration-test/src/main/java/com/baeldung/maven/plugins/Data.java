@@ -1,4 +1,4 @@
-package com.baeldung.maven.plugins;
+package com.surya.maven.plugins;
 
 import java.util.ArrayList;
 import java.util.List;

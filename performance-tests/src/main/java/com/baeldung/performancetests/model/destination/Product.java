@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
 import com.google.common.base.Objects;
 import com.googlecode.jmapper.annotations.JGlobalMap;
@@ -80,9 +80,9 @@ public class Product {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null) return false;
-        if (o.getClass() == com.baeldung.performancetests.model.source.Product.class) {
-            com.baeldung.performancetests.model.source.Product product =
-              (com.baeldung.performancetests.model.source.Product) o;
+        if (o.getClass() == com.surya.performancetests.model.source.Product.class) {
+            com.surya.performancetests.model.source.Product product =
+              (com.surya.performancetests.model.source.Product) o;
             return quantity == product.getQuantity() &&
               available == product.isAvailable() &&
               Objects.equal(price, product.getPrice()) &&

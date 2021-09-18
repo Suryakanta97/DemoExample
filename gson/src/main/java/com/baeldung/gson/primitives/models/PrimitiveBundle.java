@@ -1,4 +1,4 @@
-package com.baeldung.gson.primitives.models;
+package com.surya.gson.primitives.models;
 
 public class PrimitiveBundle {
     public byte byteValue;

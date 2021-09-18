@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;

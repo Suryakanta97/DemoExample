@@ -1,4 +1,4 @@
-package com.baeldung.noexception;
+package com.surya.noexception;
 
 import com.machinezoo.noexception.Exceptions;
 import org.junit.Test;

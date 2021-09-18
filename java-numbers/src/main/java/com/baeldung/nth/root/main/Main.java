@@ -1,6 +1,6 @@
-package com.baeldung.nth.root.main;
+package com.surya.nth.root.main;
 
-import com.baeldung.nth.root.calculator.NthRootCalculator;
+import com.surya.nth.root.calculator.NthRootCalculator;
 
 public class Main {
     public static void main(String[] args) {

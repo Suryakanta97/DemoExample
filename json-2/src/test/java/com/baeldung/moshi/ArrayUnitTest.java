@@ -1,4 +1,4 @@
-package com.baeldung.moshi;
+package com.surya.moshi;
 
 import java.io.IOException;
 import java.lang.reflect.Type;

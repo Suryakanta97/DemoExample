@@ -1,4 +1,4 @@
-package com.baeldung.compiletimeconstants;
+package com.surya.compiletimeconstants;
 
 import java.io.Console;
 public class RuntimeVariables {

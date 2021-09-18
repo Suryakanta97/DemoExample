@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.quotes.web.rest.errors;
+package com.surya.jhipster.quotes.web.rest.errors;
 
-import com.baeldung.jhipster.quotes.QuotesApp;
-import com.baeldung.jhipster.quotes.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.quotes.QuotesApp;
+import com.surya.jhipster.quotes.config.SecurityBeanOverrideConfiguration;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.baeldung.methodoverloadingoverriding.model;
+package com.surya.methodoverloadingoverriding.model;
 
 public class Car extends Vehicle {
 

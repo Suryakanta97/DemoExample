@@ -1,4 +1,4 @@
-package com.baeldung.jackson.mapnull;
+package com.surya.jackson.mapnull;
 
 import java.io.IOException;
 

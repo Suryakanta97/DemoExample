@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.resource.server.secure;
+package com.surya.oauth2.resource.server.secure;
 
 import org.eclipse.microprofile.jwt.JsonWebToken;
 

@@ -1,4 +1,4 @@
-package com.baeldung.patterns.cqrs.projectors;
+package com.surya.patterns.cqrs.projectors;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,12 +6,12 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-import com.baeldung.patterns.cqrs.repository.UserReadRepository;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.User;
-import com.baeldung.patterns.domain.UserAddress;
-import com.baeldung.patterns.domain.UserContact;
+import com.surya.patterns.cqrs.repository.UserReadRepository;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.User;
+import com.surya.patterns.domain.UserAddress;
+import com.surya.patterns.domain.UserContact;
 
 public class UserProjector {
 

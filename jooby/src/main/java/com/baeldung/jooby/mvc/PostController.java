@@ -1,4 +1,4 @@
-package com.baeldung.jooby.mvc;
+package com.surya.jooby.mvc;
 
 import org.jooby.mvc.POST;
 import org.jooby.mvc.Path;
@@ -8,7 +8,7 @@ public class PostController {
 
 	@POST
 	public String hello() {
-		return "Submit Baeldung";
+		return "Submit surya";
 	}
 
 }

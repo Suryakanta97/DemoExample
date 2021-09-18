@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.enums.demo;
+package com.surya.javaxval.enums.demo;
 
 public enum CustomerType {
     NEW, OLD, DEFAULT

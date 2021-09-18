@@ -1,4 +1,4 @@
-package com.baeldung.maven.plugins;
+package com.surya.maven.plugins;
 
 public class MultipleSrcFolders {
 

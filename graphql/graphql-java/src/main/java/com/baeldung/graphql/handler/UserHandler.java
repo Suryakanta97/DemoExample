@@ -1,4 +1,4 @@
-package com.baeldung.graphql.handler;
+package com.surya.graphql.handler;
 
 import graphql.ExecutionResult;
 import graphql.GraphQL;
@@ -12,9 +12,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import com.baeldung.graphql.entity.User;
-import com.baeldung.graphql.schema.UserSchema;
-import com.baeldung.graphql.utils.SchemaUtils;
+import com.surya.graphql.entity.User;
+import com.surya.graphql.schema.UserSchema;
+import com.surya.graphql.utils.SchemaUtils;
 
 import static ratpack.jackson.Jackson.json;
 

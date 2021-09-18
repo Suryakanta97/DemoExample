@@ -1,4 +1,4 @@
-package com.baeldung.streams.debug;
+package com.surya.streams.debug;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import org.junit.Test;
 
-import com.baeldung.streams.debug.entity.Customer;
+import com.surya.streams.debug.entity.Customer;
 
 public class Example2 {
     @Test

@@ -1,4 +1,4 @@
-package com.baeldung.libraries.reladomo;
+package com.surya.libraries.reladomo;
 public class EmployeeDatabaseObject extends EmployeeDatabaseObjectAbstract
 {
 }

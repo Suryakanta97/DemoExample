@@ -1,4 +1,4 @@
-package com.baeldung.jackson.tojsonnode;
+package com.surya.jackson.tojsonnode;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParseException;

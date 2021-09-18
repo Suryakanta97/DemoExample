@@ -1,4 +1,4 @@
-package com.baeldung.flyweight;
+package com.surya.flyweight;
 
 import java.awt.Color;
 import java.util.HashMap;

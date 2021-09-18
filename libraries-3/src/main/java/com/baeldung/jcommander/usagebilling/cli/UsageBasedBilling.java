@@ -1,4 +1,4 @@
-package com.baeldung.jcommander.usagebilling.cli;
+package com.surya.jcommander.usagebilling.cli;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.ParameterException;

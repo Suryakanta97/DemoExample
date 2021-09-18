@@ -1,6 +1,6 @@
-package com.baeldung.javalin;
+package com.surya.javalin;
 
-import com.baeldung.javalin.User.UserController;
+import com.surya.javalin.User.UserController;
 import io.javalin.Javalin;
 
 public class JavalinApp {

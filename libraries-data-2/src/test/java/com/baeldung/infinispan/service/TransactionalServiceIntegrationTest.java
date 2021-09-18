@@ -1,6 +1,6 @@
-package com.baeldung.infinispan.service;
+package com.surya.infinispan.service;
 
-import com.baeldung.infinispan.AbstractIntegrationTest;
+import com.surya.infinispan.AbstractIntegrationTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;

@@ -1,4 +1,4 @@
-package com.baeldung.hashcode.improved;
+package com.surya.hashcode.improved;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

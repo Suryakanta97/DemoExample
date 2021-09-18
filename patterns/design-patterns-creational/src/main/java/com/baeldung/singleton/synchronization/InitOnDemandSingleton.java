@@ -1,4 +1,4 @@
-package com.baeldung.singleton.synchronization;
+package com.surya.singleton.synchronization;
 
 /**
  * Initialization on demand singleton pattern. Uses a nested static class to

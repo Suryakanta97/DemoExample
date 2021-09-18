@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode;
+package com.surya.equalshashcode;
 
 /* (non-Javadoc)
 * This class extends the Money class that has overridden the equals method and once again overrides the equals method.

@@ -1,4 +1,4 @@
-package com.baeldung.chainofresponsibility;
+package com.surya.chainofresponsibility;
 
 public interface AuthenticationProvider {
 

@@ -1,5 +1,5 @@
 <MithraObject objectType="transactional">
-    <PackageName>com.baeldung.libraries.reladomo</PackageName>
+    <PackageName>com.surya.libraries.reladomo</PackageName>
     <ClassName>Employee</ClassName>
     <DefaultTable>employees</DefaultTable>
 

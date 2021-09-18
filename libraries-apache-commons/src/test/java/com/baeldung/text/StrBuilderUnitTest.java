@@ -1,4 +1,4 @@
-package com.baeldung.text;
+package com.surya.text;
 
 import org.apache.commons.text.StrBuilder;
 import org.junit.Assert;

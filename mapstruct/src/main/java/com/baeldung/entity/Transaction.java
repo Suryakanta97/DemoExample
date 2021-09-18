@@ -1,4 +1,4 @@
-package com.baeldung.entity;
+package com.surya.entity;
 
 import java.math.BigDecimal;
 import java.util.UUID;

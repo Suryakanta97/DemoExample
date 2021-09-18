@@ -1,4 +1,4 @@
-package com.baeldung.jdeffered.manager;
+package com.surya.jdeffered.manager;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

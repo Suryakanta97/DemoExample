@@ -1,4 +1,4 @@
-package com.baeldung.jackson.bidirection;
+package com.surya.jackson.bidirection;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
@@ -11,7 +11,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.bidirection.jsonview.Views;
+import com.surya.jackson.bidirection.jsonview.Views;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

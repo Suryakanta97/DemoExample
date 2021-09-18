@@ -1,4 +1,4 @@
-package com.baeldung.lock;
+package com.surya.lock;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertFalse;

@@ -1,10 +1,10 @@
-package com.baeldung.jhipster.uaa.web.rest;
+package com.surya.jhipster.uaa.web.rest;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.config.audit.AuditEventConverter;
-import com.baeldung.jhipster.uaa.domain.PersistentAuditEvent;
-import com.baeldung.jhipster.uaa.repository.PersistenceAuditEventRepository;
-import com.baeldung.jhipster.uaa.service.AuditEventService;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.config.audit.AuditEventConverter;
+import com.surya.jhipster.uaa.domain.PersistentAuditEvent;
+import com.surya.jhipster.uaa.repository.PersistenceAuditEventRepository;
+import com.surya.jhipster.uaa.service.AuditEventService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

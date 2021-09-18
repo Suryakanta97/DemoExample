@@ -1,4 +1,4 @@
-package com.baeldung.mediator;
+package com.surya.mediator;
 
 public class Mediator {
     private Button button;

@@ -1,4 +1,4 @@
-package com.baeldung.objectclass;
+package com.surya.objectclass;
 
 public class Lender extends User {
     

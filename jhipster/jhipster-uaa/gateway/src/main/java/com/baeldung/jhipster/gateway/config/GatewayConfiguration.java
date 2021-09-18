@@ -1,10 +1,10 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
 import io.github.jhipster.config.JHipsterProperties;
 
-import com.baeldung.jhipster.gateway.gateway.ratelimiting.RateLimitingFilter;
-import com.baeldung.jhipster.gateway.gateway.accesscontrol.AccessControlFilter;
-import com.baeldung.jhipster.gateway.gateway.responserewriting.SwaggerBasePathRewritingFilter;
+import com.surya.jhipster.gateway.gateway.ratelimiting.RateLimitingFilter;
+import com.surya.jhipster.gateway.gateway.accesscontrol.AccessControlFilter;
+import com.surya.jhipster.gateway.gateway.responserewriting.SwaggerBasePathRewritingFilter;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
@@ -35,7 +35,7 @@ public class GatewayConfiguration {
     /**
      * Configures the Zuul filter that limits the number of API calls per user.
      * <p>
-     * This uses Bucket4J to limit the API calls, see {@link com.baeldung.jhipster.gateway.gateway.ratelimiting.RateLimitingFilter}.
+     * This uses Bucket4J to limit the API calls, see {@link com.surya.jhipster.gateway.gateway.ratelimiting.RateLimitingFilter}.
      */
     @Configuration
     @ConditionalOnProperty("jhipster.gateway.rate-limiting.enabled")

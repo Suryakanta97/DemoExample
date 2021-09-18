@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jacksonvsgson;
+package com.surya.jackson.jacksonvsgson;
 
 import java.util.List;
 

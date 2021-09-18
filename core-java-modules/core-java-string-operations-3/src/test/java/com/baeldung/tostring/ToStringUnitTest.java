@@ -1,4 +1,4 @@
-package com.baeldung.tostring;
+package com.surya.tostring;
 
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ import static org.junit.Assert.assertSame;
 public class ToStringUnitTest {
     @Test
     public void givenString_whenCastToObjectAndString_thenSameAndNoException() {
-        String input = "baeldung";
+        String input = "surya";
 
         Object obj = input;
         String str = (String) obj;
@@ -59,15 +59,15 @@ public class ToStringUnitTest {
 
     @Test
     public void givenString_whenToString_thenSame() {
-        String str = "baeldung";
+        String str = "surya";
 
-        assertEquals("baeldung", str.toString());
+        assertEquals("surya", str.toString());
         assertSame(str, str.toString());
     }
 
     @Test
     public void givenString_whenCastToObject_thenCastToStringReturnsSame() {
-        String input = "baeldung";
+        String input = "surya";
 
         Object obj = input;
 

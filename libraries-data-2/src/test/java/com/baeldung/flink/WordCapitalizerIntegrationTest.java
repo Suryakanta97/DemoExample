@@ -1,6 +1,6 @@
-package com.baeldung.flink;
+package com.surya.flink;
 
-import com.baeldung.flink.operator.WordsCapitalizer;
+import com.surya.flink.operator.WordsCapitalizer;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.junit.Assert;

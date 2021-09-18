@@ -1,4 +1,4 @@
-package com.baeldung.interfacevsabstractclass;
+package com.surya.interfacevsabstractclass;
 
 public class Car extends Vehicle {
 

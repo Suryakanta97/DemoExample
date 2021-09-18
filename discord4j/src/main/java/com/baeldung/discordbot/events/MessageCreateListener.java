@@ -1,4 +1,4 @@
-package com.baeldung.discordbot.events;
+package com.surya.discordbot.events;
 
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import org.springframework.stereotype.Service;

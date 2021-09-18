@@ -1,4 +1,4 @@
-package com.baeldung.repetition;
+package com.surya.repetition;
 
 public class SubstringRepetition {
 

@@ -1,10 +1,10 @@
-package com.baeldung.jtademo;
+package com.surya.jtademo;
 
-import com.baeldung.jtademo.dto.TransferLog;
-import com.baeldung.jtademo.services.AuditService;
-import com.baeldung.jtademo.services.BankAccountService;
-import com.baeldung.jtademo.services.TellerService;
-import com.baeldung.jtademo.services.TestHelper;
+import com.surya.jtademo.dto.TransferLog;
+import com.surya.jtademo.services.AuditService;
+import com.surya.jtademo.services.BankAccountService;
+import com.surya.jtademo.services.TellerService;
+import com.surya.jtademo.services.TestHelper;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

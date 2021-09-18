@@ -1,7 +1,7 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.web.rest.vm.LoggerVM;
+import com.surya.suryaApp;
+import com.surya.web.rest.vm.LoggerVM;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see LogsResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = suryaApp.class)
 public class LogsResourceIntegrationTest {
 
     private MockMvc restLogsMockMvc;

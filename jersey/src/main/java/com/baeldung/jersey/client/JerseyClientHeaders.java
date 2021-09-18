@@ -1,6 +1,6 @@
-package com.baeldung.jersey.client;
+package com.surya.jersey.client;
 
-import com.baeldung.jersey.client.filter.AddHeaderOnRequestFilter;
+import com.surya.jersey.client.filter.AddHeaderOnRequestFilter;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
 import org.glassfish.jersey.client.oauth1.AccessToken;
 import org.glassfish.jersey.client.oauth1.ConsumerCredentials;

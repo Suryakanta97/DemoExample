@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.surya.convertlisttomap;
 
 import java.util.List;
 import java.util.Map;
@@ -10,9 +10,9 @@ import java.util.stream.Collectors;
 
 /**
  * Convert a string list to a map whose key is the string's length and value is the collection with same length.
- * Give a list {"Baeldung", "is", "very", "cool"}.
+ * Give a list {"surya", "is", "very", "cool"}.
  * After conversion we'll get a map like:
- * {8 : ["Baeldung"], 2 : ["is"], 4 : ["very", "cool"]}.
+ * {8 : ["surya"], 2 : ["is"], 4 : ["very", "cool"]}.
  * 
  * @author leasy.zhang
  *

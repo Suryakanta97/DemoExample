@@ -1,17 +1,17 @@
-package com.baeldung.jhipster.uaa.web.rest;
+package com.surya.jhipster.uaa.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
 
-import com.baeldung.jhipster.uaa.domain.User;
-import com.baeldung.jhipster.uaa.repository.UserRepository;
-import com.baeldung.jhipster.uaa.security.SecurityUtils;
-import com.baeldung.jhipster.uaa.service.MailService;
-import com.baeldung.jhipster.uaa.service.UserService;
-import com.baeldung.jhipster.uaa.service.dto.PasswordChangeDTO;
-import com.baeldung.jhipster.uaa.service.dto.UserDTO;
-import com.baeldung.jhipster.uaa.web.rest.errors.*;
-import com.baeldung.jhipster.uaa.web.rest.vm.KeyAndPasswordVM;
-import com.baeldung.jhipster.uaa.web.rest.vm.ManagedUserVM;
+import com.surya.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.repository.UserRepository;
+import com.surya.jhipster.uaa.security.SecurityUtils;
+import com.surya.jhipster.uaa.service.MailService;
+import com.surya.jhipster.uaa.service.UserService;
+import com.surya.jhipster.uaa.service.dto.PasswordChangeDTO;
+import com.surya.jhipster.uaa.service.dto.UserDTO;
+import com.surya.jhipster.uaa.web.rest.errors.*;
+import com.surya.jhipster.uaa.web.rest.vm.KeyAndPasswordVM;
+import com.surya.jhipster.uaa.web.rest.vm.ManagedUserVM;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

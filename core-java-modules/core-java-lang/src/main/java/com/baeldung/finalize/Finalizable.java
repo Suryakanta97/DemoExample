@@ -1,4 +1,4 @@
-package com.baeldung.finalize;
+package com.surya.finalize;
 
 import java.io.BufferedReader;
 import java.io.IOException;

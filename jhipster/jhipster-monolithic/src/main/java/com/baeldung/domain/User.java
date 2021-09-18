@@ -1,6 +1,6 @@
-package com.baeldung.domain;
+package com.surya.domain;
 
-import com.baeldung.config.Constants;
+import com.surya.config.Constants;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.BatchSize;

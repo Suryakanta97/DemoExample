@@ -17,7 +17,7 @@ public class ConsoleConsoleClass {
 
         char[] pass = console.readPassword("To finish, enter password: ");
         
-        if ("BAELDUNG".equals(pass.toString().toUpperCase()))
+        if ("surya".equals(pass.toString().toUpperCase()))
             console.printf("Good! Regards!");
         else 
             console.printf("Nice try. Regards.");

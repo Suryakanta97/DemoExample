@@ -1,4 +1,4 @@
-package com.baeldung.sealed.classes;
+package com.surya.sealed.classes;
 
 public abstract sealed class Vehicle permits Car, Truck {
 

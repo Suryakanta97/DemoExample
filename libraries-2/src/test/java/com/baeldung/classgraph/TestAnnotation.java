@@ -1,4 +1,4 @@
-package com.baeldung.classgraph;
+package com.surya.classgraph;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

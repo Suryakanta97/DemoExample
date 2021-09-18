@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.config.audit;
+package com.surya.jhipster.gateway.config.audit;
 
-import com.baeldung.jhipster.gateway.domain.PersistentAuditEvent;
+import com.surya.jhipster.gateway.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;

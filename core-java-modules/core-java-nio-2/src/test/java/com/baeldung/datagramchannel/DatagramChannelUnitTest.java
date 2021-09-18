@@ -1,4 +1,4 @@
-package com.baeldung.datagramchannel;
+package com.surya.datagramchannel;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -14,7 +14,7 @@ public class DatagramChannelUnitTest {
         DatagramChannel server = DatagramServer.startServer();
         DatagramChannel client = DatagramClient.startClient();
         
-        String msg1 = "Hello, this is a Baeldung's DatagramChannel based UDP client!";
+        String msg1 = "Hello, this is a surya's DatagramChannel based UDP client!";
         String msg2 = "Hi again!, Are you there!";
         
         InetSocketAddress serverAddress = new InetSocketAddress("localhost", 7001);
@@ -22,7 +22,7 @@ public class DatagramChannelUnitTest {
         DatagramClient.sendMessage(client, msg1, serverAddress);
         DatagramClient.sendMessage(client, msg2, serverAddress);
         
-        assertEquals("Hello, this is a Baeldung's DatagramChannel based UDP client!", DatagramServer.receiveMessage(server));
+        assertEquals("Hello, this is a surya's DatagramChannel based UDP client!", DatagramServer.receiveMessage(server));
         assertEquals("Hi again!, Are you there!", DatagramServer.receiveMessage(server));
     }
 

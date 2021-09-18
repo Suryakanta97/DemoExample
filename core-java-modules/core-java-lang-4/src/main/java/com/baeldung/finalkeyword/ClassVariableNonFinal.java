@@ -1,4 +1,4 @@
-package com.baeldung.finalkeyword;
+package com.surya.finalkeyword;
 
 import java.io.Console;
 

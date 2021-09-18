@@ -1,4 +1,4 @@
-package com.baeldung.servicemodule;
+package com.surya.servicemodule;
 
 public interface TextService {
 

@@ -1,4 +1,4 @@
-package com.baeldung.staticsingletondifference;
+package com.surya.staticsingletondifference;
 
 public class SingletonLock extends MyLock {
 

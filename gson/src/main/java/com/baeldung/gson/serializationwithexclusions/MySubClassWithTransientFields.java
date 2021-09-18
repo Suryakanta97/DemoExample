@@ -1,4 +1,4 @@
-package com.baeldung.gson.serializationwithexclusions;
+package com.surya.gson.serializationwithexclusions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

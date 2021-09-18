@@ -1,10 +1,10 @@
 <jmapper>
-  <class name="com.baeldung.jmapper.relational.User">
+  <class name="com.surya.jmapper.relational.User">
     <attribute name="id">
       <value name="id"/>
       <classes>
-        <class name="com.baeldung.jmapper.relational.UserDto1"/>
-        <class name="com.baeldung.jmapper.relational.UserDto2"/>
+        <class name="com.surya.jmapper.relational.UserDto1"/>
+        <class name="com.surya.jmapper.relational.UserDto2"/>
       </classes>
     </attribute>
     <attribute name="email">
@@ -13,8 +13,8 @@
         <attribute name="email"/>
       </attributes>
       <classes>
-        <class name="com.baeldung.jmapper.relational.UserDto1"/>
-        <class name="com.baeldung.jmapper.relational.UserDto2"/>
+        <class name="com.surya.jmapper.relational.UserDto1"/>
+        <class name="com.surya.jmapper.relational.UserDto2"/>
       </classes>      
     </attribute>
   </class>

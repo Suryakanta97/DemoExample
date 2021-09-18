@@ -1,10 +1,10 @@
-package com.baeldung.ipingivenrange;
+package com.surya.ipingivenrange;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.ipingivenrange.IPWithGivenRangeCheck;
+import com.surya.ipingivenrange.IPWithGivenRangeCheck;
 
 class IPWithGivenRangeCheckUnitTest {
 

@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.service;
+package com.surya.jhipster.quotes.service;
 
 import java.util.List;
 
@@ -14,12 +14,12 @@ import org.springframework.transaction.annotation.Transactional;
 
 import io.github.jhipster.service.QueryService;
 
-import com.baeldung.jhipster.quotes.domain.Quote;
-import com.baeldung.jhipster.quotes.domain.*; // for static metamodels
-import com.baeldung.jhipster.quotes.repository.QuoteRepository;
-import com.baeldung.jhipster.quotes.service.dto.QuoteCriteria;
-import com.baeldung.jhipster.quotes.service.dto.QuoteDTO;
-import com.baeldung.jhipster.quotes.service.mapper.QuoteMapper;
+import com.surya.jhipster.quotes.domain.Quote;
+import com.surya.jhipster.quotes.domain.*; // for static metamodels
+import com.surya.jhipster.quotes.repository.QuoteRepository;
+import com.surya.jhipster.quotes.service.dto.QuoteCriteria;
+import com.surya.jhipster.quotes.service.dto.QuoteDTO;
+import com.surya.jhipster.quotes.service.mapper.QuoteMapper;
 
 /**
  * Service for executing complex queries for Quote entities in the database.

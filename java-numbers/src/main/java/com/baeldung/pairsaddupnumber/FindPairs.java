@@ -1,4 +1,4 @@
-package com.baeldung.pairsaddupnumber;
+package com.surya.pairsaddupnumber;
 
 import java.util.ArrayList;
 import java.util.List;

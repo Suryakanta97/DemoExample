@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.surya.timer;
 
 import org.junit.Test;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.baeldung.stringtobigdecimal;
+package com.surya.stringtobigdecimal;
 
 import static org.junit.Assert.assertEquals;
 

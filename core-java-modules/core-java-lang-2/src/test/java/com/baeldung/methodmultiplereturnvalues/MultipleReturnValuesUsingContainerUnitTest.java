@@ -1,4 +1,4 @@
-package com.baeldung.methodmultiplereturnvalues;
+package com.surya.methodmultiplereturnvalues;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;

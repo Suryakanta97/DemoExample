@@ -1,4 +1,4 @@
-package com.baeldung.libraries.snakeyaml;
+package com.surya.libraries.snakeyaml;
 
 import org.junit.Before;
 import org.junit.Test;

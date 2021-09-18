@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.authorization.server.handler;
+package com.surya.oauth2.authorization.server.handler;
 
 import com.nimbusds.jose.JWSVerifier;
 import com.nimbusds.jwt.SignedJWT;

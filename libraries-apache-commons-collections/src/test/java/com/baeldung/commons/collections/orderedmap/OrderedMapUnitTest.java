@@ -1,4 +1,4 @@
-package com.baeldung.commons.collections.orderedmap;
+package com.surya.commons.collections.orderedmap;
 
 import org.apache.commons.collections4.OrderedMap;
 import org.apache.commons.collections4.OrderedMapIterator;

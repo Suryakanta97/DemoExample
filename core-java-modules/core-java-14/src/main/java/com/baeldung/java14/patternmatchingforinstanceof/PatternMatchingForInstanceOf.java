@@ -1,4 +1,4 @@
-package com.baeldung.java14.patternmatchingforinstanceof;
+package com.surya.java14.patternmatchingforinstanceof;
 
 public class PatternMatchingForInstanceOf {
 

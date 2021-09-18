@@ -1,4 +1,4 @@
 /**
  * Spring Security configuration.
  */
-package com.baeldung.jhipster.uaa.security;
+package com.surya.jhipster.uaa.security;

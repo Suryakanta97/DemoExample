@@ -1,4 +1,4 @@
-package com.baeldung.patterns.front.controller.data;
+package com.surya.patterns.front.controller.data;
 
 public class BookImpl implements Book {
     private String author;

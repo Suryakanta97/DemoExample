@@ -1,6 +1,6 @@
-package com.baeldung.osgi.sample.client;
+package com.surya.osgi.sample.client;
 
-import com.baeldung.osgi.sample.service.definition.Greeter;
+import com.surya.osgi.sample.service.definition.Greeter;
 import org.osgi.framework.*;
 
 public class Client implements BundleActivator, ServiceListener {

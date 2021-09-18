@@ -1,4 +1,4 @@
-package com.baeldung.compoundoperators;
+package com.surya.compoundoperators;
 
 import org.junit.Test;
 

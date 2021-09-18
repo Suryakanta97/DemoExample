@@ -1,6 +1,6 @@
-package com.baeldung.javapoet.test;
+package com.surya.javapoet.test;
 
-import com.baeldung.javapoet.PersonGenerator;
+import com.surya.javapoet.PersonGenerator;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.baeldung.httpclient.sec;
+package com.surya.httpclient.sec;
 
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -11,7 +11,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
-import com.baeldung.httpclient.ResponseUtil;
+import com.surya.httpclient.ResponseUtil;
 
 import org.junit.After;
 import org.junit.Before;

@@ -1,11 +1,11 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.baeldung.dto.CarDTO;
-import com.baeldung.entity.Car;
+import com.surya.dto.CarDTO;
+import com.surya.entity.Car;
 
 public class CarMapperUnitTest {
 

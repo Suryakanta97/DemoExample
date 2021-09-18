@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.source;
+package com.surya.performancetests.model.source;
 
 public class SourceCode {
     String code;

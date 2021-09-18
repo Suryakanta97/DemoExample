@@ -1,9 +1,9 @@
-package com.baeldung.daopattern.application;
+package com.surya.daopattern.application;
 
-import com.baeldung.daopattern.config.JpaEntityManagerFactory;
-import com.baeldung.daopattern.daos.Dao;
-import com.baeldung.daopattern.daos.JpaUserDao;
-import com.baeldung.daopattern.entities.User;
+import com.surya.daopattern.config.JpaEntityManagerFactory;
+import com.surya.daopattern.daos.Dao;
+import com.surya.daopattern.daos.JpaUserDao;
+import com.surya.daopattern.entities.User;
 import java.util.List;
 import java.util.Optional;
 import javax.persistence.EntityManager;

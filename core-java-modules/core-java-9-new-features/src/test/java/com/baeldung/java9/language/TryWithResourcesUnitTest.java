@@ -1,4 +1,4 @@
-package com.baeldung.java9.language;
+package com.surya.java9.language;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

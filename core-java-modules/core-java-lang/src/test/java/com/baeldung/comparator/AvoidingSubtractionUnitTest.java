@@ -1,4 +1,4 @@
-package com.baeldung.comparator;
+package com.surya.comparator;
 
 import org.junit.Test;
 

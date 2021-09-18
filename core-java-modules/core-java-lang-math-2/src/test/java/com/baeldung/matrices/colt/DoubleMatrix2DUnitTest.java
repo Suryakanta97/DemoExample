@@ -1,4 +1,4 @@
-package com.baeldung.matrices.colt;
+package com.surya.matrices.colt;
 
 import cern.colt.matrix.DoubleFactory2D;
 import cern.colt.matrix.DoubleMatrix2D;

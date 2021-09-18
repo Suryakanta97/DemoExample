@@ -1,4 +1,4 @@
-package com.baeldung.enums.iteration;
+package com.surya.enums.iteration;
 
 import java.util.ArrayList;
 import java.util.Arrays;

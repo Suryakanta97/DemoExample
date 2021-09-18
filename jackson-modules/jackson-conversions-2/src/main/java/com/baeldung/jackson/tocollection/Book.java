@@ -1,4 +1,4 @@
-package com.baeldung.jackson.tocollection;
+package com.surya.jackson.tocollection;
 
 
 import java.util.Objects;

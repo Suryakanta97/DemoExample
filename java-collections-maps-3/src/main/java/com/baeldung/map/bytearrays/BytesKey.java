@@ -1,4 +1,4 @@
-package com.baeldung.map.bytearrays;
+package com.surya.map.bytearrays;
 
 import java.util.Arrays;
 

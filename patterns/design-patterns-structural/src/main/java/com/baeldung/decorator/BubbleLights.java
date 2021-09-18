@@ -1,4 +1,4 @@
-package com.baeldung.decorator;
+package com.surya.decorator;
 
 public class BubbleLights extends TreeDecorator {
 

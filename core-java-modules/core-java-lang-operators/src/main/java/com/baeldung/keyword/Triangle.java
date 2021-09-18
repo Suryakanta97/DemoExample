@@ -1,4 +1,4 @@
-package com.baeldung.keyword;
+package com.surya.keyword;
 
 public class Triangle implements Shape {
 }

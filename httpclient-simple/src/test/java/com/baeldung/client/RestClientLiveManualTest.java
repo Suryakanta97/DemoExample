@@ -1,4 +1,4 @@
-package com.baeldung.client;
+package com.surya.client;
 
 import static org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER;
 import static org.hamcrest.Matchers.equalTo;

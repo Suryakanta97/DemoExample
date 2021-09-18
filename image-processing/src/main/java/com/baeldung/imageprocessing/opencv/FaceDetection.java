@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.opencv;
+package com.surya.imageprocessing.opencv;
 
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;

@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.application.cli;
+package com.surya.dddhexagonalspring.application.cli;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -8,8 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.baeldung.dddhexagonalspring.domain.Product;
-import com.baeldung.dddhexagonalspring.domain.service.OrderService;
+import com.surya.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.service.OrderService;
 
 @Component
 public class CliOrderController {

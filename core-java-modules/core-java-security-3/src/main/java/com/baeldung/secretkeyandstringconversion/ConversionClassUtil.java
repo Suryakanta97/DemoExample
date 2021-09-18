@@ -1,4 +1,4 @@
-package com.baeldung.secretkeyandstringconversion;
+package com.surya.secretkeyandstringconversion;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;

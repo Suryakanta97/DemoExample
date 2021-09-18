@@ -1,4 +1,4 @@
-package com.baeldung.crawler4j;
+package com.surya.crawler4j;
 
 import java.io.File;
 import java.util.regex.Pattern;
@@ -27,7 +27,7 @@ public class ImageCrawler extends WebCrawler {
         }
 
         if (IMG_PATTERNS.matcher(urlString).matches() 
-            || urlString.startsWith("https://www.baeldung.com/")) {
+            || urlString.startsWith("https://www.surya.com/")) {
             return true;
         }
 

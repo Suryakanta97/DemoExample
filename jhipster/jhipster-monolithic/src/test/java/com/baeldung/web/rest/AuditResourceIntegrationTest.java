@@ -1,10 +1,10 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.config.audit.AuditEventConverter;
-import com.baeldung.domain.PersistentAuditEvent;
-import com.baeldung.repository.PersistenceAuditEventRepository;
-import com.baeldung.service.AuditEventService;
+import com.surya.suryaApp;
+import com.surya.config.audit.AuditEventConverter;
+import com.surya.domain.PersistentAuditEvent;
+import com.surya.repository.PersistenceAuditEventRepository;
+import com.surya.service.AuditEventService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AuditResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = suryaApp.class)
 @Transactional
 public class AuditResourceIntegrationTest {
 

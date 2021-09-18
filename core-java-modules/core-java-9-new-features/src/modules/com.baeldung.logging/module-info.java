@@ -1,5 +1,5 @@
-module com.baeldung.logging {
+module com.surya.logging {
     provides java.lang.System.LoggerFinder
-      with com.baeldung.logging.CustomLoggerFinder;
-    exports com.baeldung.logging;
+      with com.surya.logging.CustomLoggerFinder;
+    exports com.surya.logging;
 }

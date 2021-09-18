@@ -1,4 +1,4 @@
-package com.baeldung.batch.understanding;
+package com.surya.batch.understanding;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;

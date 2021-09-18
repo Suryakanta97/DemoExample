@@ -1,6 +1,6 @@
-package com.baeldung.web.controller;
+package com.surya.web.controller;
 
-import com.baeldung.web.dto.Bar;
+import com.surya.web.dto.Bar;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Controller;

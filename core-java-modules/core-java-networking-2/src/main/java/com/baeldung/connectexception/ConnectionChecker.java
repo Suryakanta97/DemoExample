@@ -1,4 +1,4 @@
-package com.baeldung.connectexception;
+package com.surya.connectexception;
 
 import java.net.ConnectException;
 import java.net.Socket;

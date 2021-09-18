@@ -1,4 +1,4 @@
-package com.baeldung.sse.jaxrs;
+package com.surya.sse.jaxrs;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

@@ -1,4 +1,4 @@
-package com.baeldung.map.entry;
+package com.surya.map.entry;
 
 public class Book {
     private String title;

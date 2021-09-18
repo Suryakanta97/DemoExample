@@ -1,7 +1,7 @@
-package com.baeldung.mapstruct.mappingCollections.mapper;
+package com.surya.mapstruct.mappingCollections.mapper;
 
-import com.baeldung.mapstruct.mappingCollections.dto.CompanyDTO;
-import com.baeldung.mapstruct.mappingCollections.model.Company;
+import com.surya.mapstruct.mappingCollections.dto.CompanyDTO;
+import com.surya.mapstruct.mappingCollections.model.Company;
 import org.mapstruct.CollectionMappingStrategy;
 import org.mapstruct.Mapper;
 

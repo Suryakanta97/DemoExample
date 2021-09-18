@@ -1,4 +1,4 @@
-package com.baeldung.streams.debug.entity;
+package com.surya.streams.debug.entity;
 
 public class Customer {
     private final String name;

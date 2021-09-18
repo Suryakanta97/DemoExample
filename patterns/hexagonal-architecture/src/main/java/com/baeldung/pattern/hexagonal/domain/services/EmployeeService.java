@@ -1,6 +1,6 @@
-package com.baeldung.pattern.hexagonal.domain.services;
+package com.surya.pattern.hexagonal.domain.services;
 
-import com.baeldung.pattern.hexagonal.domain.model.Employee;
+import com.surya.pattern.hexagonal.domain.model.Employee;
 
 public interface EmployeeService {
 

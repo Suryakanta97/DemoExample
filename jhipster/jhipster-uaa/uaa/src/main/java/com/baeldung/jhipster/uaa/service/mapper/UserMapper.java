@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.uaa.service.mapper;
+package com.surya.jhipster.uaa.service.mapper;
 
-import com.baeldung.jhipster.uaa.domain.Authority;
-import com.baeldung.jhipster.uaa.domain.User;
-import com.baeldung.jhipster.uaa.service.dto.UserDTO;
+import com.surya.jhipster.uaa.domain.Authority;
+import com.surya.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.service.dto.UserDTO;
 
 import org.springframework.stereotype.Service;
 

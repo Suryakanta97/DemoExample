@@ -1,4 +1,4 @@
-package com.baeldung.streamordering;
+package com.surya.streamordering;
 
 import org.junit.Before;
 import org.junit.Test;

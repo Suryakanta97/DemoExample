@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
 import com.googlecode.jmapper.annotations.JGlobalMap;
 import com.googlecode.jmapper.annotations.JMapAccessor;
@@ -59,9 +59,9 @@ public class DeliveryData {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null) return false;
-        if(o.getClass() == com.baeldung.performancetests.model.source.DeliveryData.class) {
-            com.baeldung.performancetests.model.source.DeliveryData deliveryData =
-              (com.baeldung.performancetests.model.source.DeliveryData) o;
+        if(o.getClass() == com.surya.performancetests.model.source.DeliveryData.class) {
+            com.surya.performancetests.model.source.DeliveryData deliveryData =
+              (com.surya.performancetests.model.source.DeliveryData) o;
             return isPrePaid == deliveryData.isPrePaid() &&
               expectedDeliveryTimeInDays == deliveryData.getExpectedDeliveryTimeInDays() &&
               Objects.equals(deliveryAddress, deliveryData.getDeliveryAddress()) &&

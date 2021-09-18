@@ -1,4 +1,4 @@
-package com.baeldung.random;
+package com.surya.random;
 
 import org.apache.commons.math3.random.RandomDataGenerator;
 import org.junit.Test;

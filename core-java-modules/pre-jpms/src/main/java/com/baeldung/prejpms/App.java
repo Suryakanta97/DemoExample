@@ -1,4 +1,4 @@
-package com.baeldung.prejpms;
+package com.surya.prejpms;
 
 import java.io.StringWriter;
 

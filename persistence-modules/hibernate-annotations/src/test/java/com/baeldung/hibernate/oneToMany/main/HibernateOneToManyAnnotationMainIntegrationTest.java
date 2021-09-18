@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.oneToMany.main;
+package com.surya.hibernate.oneToMany.main;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
@@ -19,8 +19,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.hibernate.oneToMany.model.Cart;
-import com.baeldung.hibernate.oneToMany.model.Items;
+import com.surya.hibernate.oneToMany.model.Cart;
+import com.surya.hibernate.oneToMany.model.Items;
 
 public class HibernateOneToManyAnnotationMainIntegrationTest {
 

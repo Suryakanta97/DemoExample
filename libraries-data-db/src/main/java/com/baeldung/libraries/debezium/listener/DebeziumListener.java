@@ -1,6 +1,6 @@
-package com.baeldung.libraries.debezium.listener;
+package com.surya.libraries.debezium.listener;
 
-import com.baeldung.libraries.debezium.service.CustomerService;
+import com.surya.libraries.debezium.service.CustomerService;
 import io.debezium.config.Configuration;
 import io.debezium.embedded.Connect;
 import io.debezium.engine.DebeziumEngine;

@@ -25,9 +25,9 @@ class UUIDGeneratorUnitTest {
     }
 
     @Test
-    public void version_3_UUID_is_correctly_generated_for_domain_baeldung_com() throws UnsupportedEncodingException {
+    public void version_3_UUID_is_correctly_generated_for_domain_surya_com() throws UnsupportedEncodingException {
 
-        UUID uuid = UUIDGenerator.generateType3UUID(NAMESPACE_DNS, "baeldung.com");
+        UUID uuid = UUIDGenerator.generateType3UUID(NAMESPACE_DNS, "surya.com");
 
         assertEquals("23785b78-0132-3ac6-aff6-cfd5be162139", uuid.toString());
         assertEquals(3, uuid.version());
@@ -55,9 +55,9 @@ class UUIDGeneratorUnitTest {
     }
 
     @Test
-    public void version_5_UUID_is_correctly_generated_for_domain_baeldung_com() throws UnsupportedEncodingException {
+    public void version_5_UUID_is_correctly_generated_for_domain_surya_com() throws UnsupportedEncodingException {
 
-        UUID uuid = UUIDGenerator.generateType5UUID(NAMESPACE_URL, "baeldung.com");
+        UUID uuid = UUIDGenerator.generateType5UUID(NAMESPACE_URL, "surya.com");
 
         assertEquals("aeff44a5-8a61-52b6-bcbe-c8e5bd7d0300", uuid.toString());
         assertEquals(5, uuid.version());
@@ -65,9 +65,9 @@ class UUIDGeneratorUnitTest {
     }
 
     @Test
-    public void version_5_UUID_is_correctly_generated_for_domain_baeldung_name() {
+    public void version_5_UUID_is_correctly_generated_for_domain_surya_name() {
 
-        UUID uuid = UUIDGenerator.generateType5UUID("baeldung.com");
+        UUID uuid = UUIDGenerator.generateType5UUID("surya.com");
 
         assertEquals("efd5462b-b07a-52a3-94ea-bf575c0e0e75", uuid.toString());
         assertEquals(5, uuid.version());

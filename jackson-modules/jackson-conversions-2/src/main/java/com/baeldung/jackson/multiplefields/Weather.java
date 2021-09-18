@@ -1,4 +1,4 @@
-package com.baeldung.jackson.multiplefields;
+package com.surya.jackson.multiplefields;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonProperty;

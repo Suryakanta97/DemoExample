@@ -1,3 +1,3 @@
-entity-packages: com.baeldung.libraries.ebean.model
-transactional-packages: com.baeldung.libraries.ebean.app
-querybean-packages: com.baeldung.libraries.ebean.app
+entity-packages: com.surya.libraries.ebean.model
+transactional-packages: com.surya.libraries.ebean.app
+querybean-packages: com.surya.libraries.ebean.app

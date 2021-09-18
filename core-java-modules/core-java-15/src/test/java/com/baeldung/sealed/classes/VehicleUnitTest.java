@@ -1,4 +1,4 @@
-package com.baeldung.sealed.classes;
+package com.surya.sealed.classes;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

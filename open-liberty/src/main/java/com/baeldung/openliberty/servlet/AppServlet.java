@@ -1,4 +1,4 @@
-package com.baeldung.openliberty.servlet;
+package com.surya.openliberty.servlet;
 
 import java.io.IOException;
 

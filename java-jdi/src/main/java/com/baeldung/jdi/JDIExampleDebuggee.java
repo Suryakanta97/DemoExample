@@ -1,4 +1,4 @@
-package com.baeldung.jdi;
+package com.surya.jdi;
 
 public class JDIExampleDebuggee {
 

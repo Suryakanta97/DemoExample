@@ -1,4 +1,4 @@
 /**
  * JPA domain objects.
  */
-package com.baeldung.jhipster.quotes.domain;
+package com.surya.jhipster.quotes.domain;

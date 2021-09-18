@@ -1,8 +1,8 @@
-package com.baeldung.core.scope;
+package com.surya.core.scope;
 
 public class NestedScopesExample {
 
-    String title = "Baeldung";
+    String title = "surya";
 
     public void printTitle() {
         System.out.println(title);

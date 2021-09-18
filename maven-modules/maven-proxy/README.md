@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Using Maven Behind a Proxy](https://www.baeldung.com/maven-behind-proxy)
+- [Using Maven Behind a Proxy](https://www.surya.com/maven-behind-proxy)

@@ -1,4 +1,4 @@
-package com.baeldung.binding;
+package com.surya.binding;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

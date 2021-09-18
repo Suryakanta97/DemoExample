@@ -1,4 +1,4 @@
-package com.baeldung.deeplearning4j.cnn;
+package com.surya.deeplearning4j.cnn;
 
 
 import lombok.extern.slf4j.Slf4j;

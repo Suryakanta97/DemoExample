@@ -1,11 +1,11 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
 import java.lang.reflect.Type;
 import java.math.BigDecimal;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.baeldung.gson.entities.Employee;
+import com.surya.gson.entities.Employee;
 
 import com.google.gson.*;
 

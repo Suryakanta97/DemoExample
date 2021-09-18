@@ -1,4 +1,4 @@
-package com.baeldung.networking.proxies;
+package com.surya.networking.proxies;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -10,7 +10,7 @@ import java.net.URL;
 public class SocksProxyDemo {
 
     private static final String URL_STRING = "http://www.google.com";
-    private static final String SOCKET_SERVER_HOST = "someserver.baeldung.com";
+    private static final String SOCKET_SERVER_HOST = "someserver.surya.com";
     private static final int SOCKET_SERVER_PORT = 1111;
 
     public static void main(String... args) throws IOException {

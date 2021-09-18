@@ -1,4 +1,4 @@
-package com.baeldung.probability;
+package com.surya.probability;
 
 import io.vavr.Lazy;
 

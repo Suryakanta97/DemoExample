@@ -1,4 +1,4 @@
-package com.baeldung.replacetokens;
+package com.surya.replacetokens;
 
 import java.util.function.Function;
 import java.util.regex.Matcher;

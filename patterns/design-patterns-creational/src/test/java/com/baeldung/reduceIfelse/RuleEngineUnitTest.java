@@ -1,9 +1,9 @@
-package com.baeldung.reduceIfelse;
+package com.surya.reduceIfelse;
 
-import com.baeldung.reducingIfElse.Expression;
-import com.baeldung.reducingIfElse.Operator;
-import com.baeldung.reducingIfElse.Result;
-import com.baeldung.reducingIfElse.RuleEngine;
+import com.surya.reducingIfElse.Expression;
+import com.surya.reducingIfElse.Operator;
+import com.surya.reducingIfElse.Result;
+import com.surya.reducingIfElse.RuleEngine;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

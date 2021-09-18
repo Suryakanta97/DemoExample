@@ -1,4 +1,4 @@
-package com.baeldung.constructorsstaticfactorymethods.entities;
+package com.surya.constructorsstaticfactorymethods.entities;
 
 import java.time.LocalTime;
 import java.util.logging.ConsoleHandler;

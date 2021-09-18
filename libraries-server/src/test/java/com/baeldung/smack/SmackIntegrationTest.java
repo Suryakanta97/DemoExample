@@ -1,4 +1,4 @@
-package com.baeldung.smack;
+package com.surya.smack;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.SmackException;
@@ -27,13 +27,13 @@ public class SmackIntegrationTest {
     public static void setup() throws IOException, InterruptedException, XMPPException, SmackException {
 
         XMPPTCPConnectionConfiguration config = XMPPTCPConnectionConfiguration.builder()
-                .setUsernameAndPassword("baeldung","baeldung")
+                .setUsernameAndPassword("surya","surya")
                 .setXmppDomain("jabb3r.org")
                 .setHost("jabb3r.org")
                 .build();
 
         XMPPTCPConnectionConfiguration config2 = XMPPTCPConnectionConfiguration.builder()
-                .setUsernameAndPassword("baeldung2","baeldung2")
+                .setUsernameAndPassword("surya2","surya2")
                 .setXmppDomain("jabb3r.org")
                 .setHost("jabb3r.org")
                 .build();

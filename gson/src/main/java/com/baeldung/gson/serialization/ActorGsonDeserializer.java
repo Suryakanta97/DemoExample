@@ -1,11 +1,11 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
 import java.lang.reflect.Type;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import com.baeldung.gson.entities.ActorGson;
+import com.surya.gson.entities.ActorGson;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonDeserializationContext;

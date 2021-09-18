@@ -18,14 +18,14 @@ export const commentRoute: Routes = [
     component: CommentComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.comment.home.title'
+        pageTitle: 'suryaApp.comment.home.title'
     }
   }, {
     path: 'comment/:id',
     component: CommentDetailComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.comment.home.title'
+        pageTitle: 'suryaApp.comment.home.title'
     }
   }
 ];
@@ -36,7 +36,7 @@ export const commentPopupRoute: Routes = [
     component: CommentPopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.comment.home.title'
+        pageTitle: 'suryaApp.comment.home.title'
     },
     outlet: 'popup'
   },
@@ -45,7 +45,7 @@ export const commentPopupRoute: Routes = [
     component: CommentPopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.comment.home.title'
+        pageTitle: 'suryaApp.comment.home.title'
     },
     outlet: 'popup'
   },
@@ -54,7 +54,7 @@ export const commentPopupRoute: Routes = [
     component: CommentDeletePopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'baeldungApp.comment.home.title'
+        pageTitle: 'suryaApp.comment.home.title'
     },
     outlet: 'popup'
   }

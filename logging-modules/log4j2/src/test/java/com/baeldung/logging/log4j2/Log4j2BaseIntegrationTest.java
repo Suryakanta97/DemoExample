@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2;
+package com.surya.logging.log4j2;
 
 import org.apache.logging.log4j.core.config.ConfigurationFactory;
 import org.apache.logging.log4j.spi.LoggerContextFactory;

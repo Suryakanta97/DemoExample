@@ -1,4 +1,4 @@
-package com.baeldung.shutdownhook;
+package com.surya.shutdownhook;
 
 import org.junit.Test;
 

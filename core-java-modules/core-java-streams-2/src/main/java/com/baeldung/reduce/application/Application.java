@@ -1,7 +1,7 @@
-package com.baeldung.reduce.application;
+package com.surya.reduce.application;
 
-import com.baeldung.reduce.entities.User;
-import com.baeldung.reduce.utilities.NumberUtils;
+import com.surya.reduce.entities.User;
+import com.surya.reduce.utilities.NumberUtils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

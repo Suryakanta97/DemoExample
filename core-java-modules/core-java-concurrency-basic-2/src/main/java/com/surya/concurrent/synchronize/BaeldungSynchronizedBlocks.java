@@ -1,6 +1,6 @@
 package com.surya.concurrent.synchronize;
 
-public class BaeldungSynchronizedBlocks {
+public class suryaSynchronizedBlocks {
 
     private int count = 0;
     private static int staticCount = 0;
@@ -12,7 +12,7 @@ public class BaeldungSynchronizedBlocks {
     }
 
     static void performStaticSyncTask() {
-        synchronized (BaeldungSynchronizedBlocks.class) {
+        synchronized (suryaSynchronizedBlocks.class) {
             setStaticCount(getStaticCount() + 1);
         }
     }
@@ -30,6 +30,6 @@ public class BaeldungSynchronizedBlocks {
     }
 
     private static void setStaticCount(int staticCount) {
-        BaeldungSynchronizedBlocks.staticCount = staticCount;
+        suryaSynchronizedBlocks.staticCount = staticCount;
     }
 }

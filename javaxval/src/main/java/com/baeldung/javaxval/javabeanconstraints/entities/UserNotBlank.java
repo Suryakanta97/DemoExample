@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.javabeanconstraints.entities;
+package com.surya.javaxval.javabeanconstraints.entities;
 
 import javax.validation.constraints.NotBlank;
 

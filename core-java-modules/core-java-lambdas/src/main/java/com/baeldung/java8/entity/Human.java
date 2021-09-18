@@ -1,4 +1,4 @@
-package com.baeldung.java8.entity;
+package com.surya.java8.entity;
 
 public class Human {
     private String name;

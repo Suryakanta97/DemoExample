@@ -1,4 +1,4 @@
-package com.baeldung.jsonpath.introduction;
+package com.surya.jsonpath.introduction;
 
 import com.jayway.jsonpath.Criteria;
 import com.jayway.jsonpath.DocumentContext;

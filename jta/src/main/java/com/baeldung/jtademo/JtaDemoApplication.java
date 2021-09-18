@@ -1,4 +1,4 @@
-package com.baeldung.jtademo;
+package com.surya.jtademo;
 
 import org.hsqldb.jdbc.pool.JDBCXADataSource;
 import org.springframework.beans.factory.annotation.Qualifier;

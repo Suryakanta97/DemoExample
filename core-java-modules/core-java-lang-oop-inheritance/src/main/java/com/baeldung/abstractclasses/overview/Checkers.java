@@ -1,4 +1,4 @@
-package com.baeldung.abstractclasses.overview;
+package com.surya.abstractclasses.overview;
 
 public class Checkers extends BoardGame {
     @Override

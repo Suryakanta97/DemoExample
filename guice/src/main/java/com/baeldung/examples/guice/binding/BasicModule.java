@@ -1,12 +1,12 @@
 
-package com.baeldung.examples.guice.binding;
+package com.surya.examples.guice.binding;
 
-import com.baeldung.examples.guice.Communication;
-import com.baeldung.examples.guice.CommunicationMode;
-import com.baeldung.examples.guice.DefaultCommunicator;
-import com.baeldung.examples.guice.EmailCommunicationMode;
-import com.baeldung.examples.guice.IMCommunicationMode;
-import com.baeldung.examples.guice.SMSCommunicationMode;
+import com.surya.examples.guice.Communication;
+import com.surya.examples.guice.CommunicationMode;
+import com.surya.examples.guice.DefaultCommunicator;
+import com.surya.examples.guice.EmailCommunicationMode;
+import com.surya.examples.guice.IMCommunicationMode;
+import com.surya.examples.guice.SMSCommunicationMode;
 import com.google.inject.AbstractModule;
 import com.google.inject.name.Names;
 import java.util.logging.Level;
@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author baeldung
+ * @author surya
  */
 public class BasicModule extends AbstractModule {
 

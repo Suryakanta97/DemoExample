@@ -1,4 +1,4 @@
-package com.baeldung.stringbuilderstringbuffer;
+package com.surya.stringbuilderstringbuffer;
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Scope;

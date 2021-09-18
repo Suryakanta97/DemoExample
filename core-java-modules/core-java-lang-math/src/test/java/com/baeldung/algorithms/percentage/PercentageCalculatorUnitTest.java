@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.percentage;
+package com.surya.algorithms.percentage;
 
 import org.junit.Assert;
 import org.junit.Test;

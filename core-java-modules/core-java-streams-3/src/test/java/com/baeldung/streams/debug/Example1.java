@@ -1,4 +1,4 @@
-package com.baeldung.streams.debug;
+package com.surya.streams.debug;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

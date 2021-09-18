@@ -1,15 +1,15 @@
-package com.baeldung.examples;
+package com.surya.examples;
 
 import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import com.baeldung.examples.common.BookService;
-import com.baeldung.examples.guice.FooProcessor;
-import com.baeldung.examples.guice.GuicePersonService;
-import com.baeldung.examples.guice.GuiceUserService;
-import com.baeldung.examples.guice.Person;
-import com.baeldung.examples.guice.modules.GuiceModule;
+import com.surya.examples.common.BookService;
+import com.surya.examples.guice.FooProcessor;
+import com.surya.examples.guice.GuicePersonService;
+import com.surya.examples.guice.GuiceUserService;
+import com.surya.examples.guice.Person;
+import com.surya.examples.guice.modules.GuiceModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 

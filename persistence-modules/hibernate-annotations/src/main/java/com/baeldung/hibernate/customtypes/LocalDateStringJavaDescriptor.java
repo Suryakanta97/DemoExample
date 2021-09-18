@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.customtypes;
+package com.surya.hibernate.customtypes;
 
 import org.hibernate.type.LocalDateType;
 import org.hibernate.type.descriptor.WrapperOptions;

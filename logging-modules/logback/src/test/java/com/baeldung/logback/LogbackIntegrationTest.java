@@ -1,4 +1,4 @@
-package com.baeldung.logback;
+package com.surya.logback;
 
 import ch.qos.logback.classic.Level;
 import org.junit.Test;
@@ -12,11 +12,11 @@ public class LogbackIntegrationTest {
     public void givenLogHierarchy_MessagesFiltered() {
 
         ch.qos.logback.classic.Logger parentLogger =
-                (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.baeldung.logback");
+                (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.surya.logback");
 
         parentLogger.setLevel(Level.INFO);
 
-        Logger childlogger = (ch.qos.logback.classic.Logger)LoggerFactory.getLogger("com.baeldung.logback.tests");
+        Logger childlogger = (ch.qos.logback.classic.Logger)LoggerFactory.getLogger("com.surya.logback.tests");
 
         parentLogger.warn("This message is logged because WARN > INFO.");
 
@@ -33,7 +33,7 @@ public class LogbackIntegrationTest {
     public void givenRootLevel_MessagesFiltered() {
 
         ch.qos.logback.classic.Logger logger =
-                (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.baeldung.logback");
+                (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.surya.logback");
 
         logger.debug("Hi there!");
 
@@ -68,9 +68,9 @@ public class LogbackIntegrationTest {
     @Test
     public void givenConfig_MessageFiltered() {
 
-        Logger foobar = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.baeldung.foobar");
-        Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.baeldung.logback");
-        Logger testslogger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.baeldung.logback.tests");
+        Logger foobar = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.surya.foobar");
+        Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.surya.logback");
+        Logger testslogger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.surya.logback.tests");
 
         foobar.debug("This is logged from foobar");
         logger.debug("This is not logged from logger");

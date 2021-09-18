@@ -1,4 +1,4 @@
-package com.baeldung.compiletimeconstants;
+package com.surya.compiletimeconstants;
 
 import java.io.PrintWriter;
 
@@ -14,7 +14,7 @@ public class CompileTimeVariables {
         CompileTimeVariables instance = new CompileTimeVariables();
         printWriter.println(instance.maximumLoginAttempts);
 
-        final String username = "baeldung" + "-" + "user";
+        final String username = "surya" + "-" + "user";
         printWriter.println(username);
     }
 

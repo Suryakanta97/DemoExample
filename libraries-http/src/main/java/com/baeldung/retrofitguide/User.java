@@ -1,4 +1,4 @@
-package com.baeldung.retrofitguide;
+package com.surya.retrofitguide;
 
 public class User {
 

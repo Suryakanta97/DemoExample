@@ -1,4 +1,4 @@
-package com.baeldung.libraries.snakeyaml;
+package com.surya.libraries.snakeyaml;
 
 public class Address {
     private String line;

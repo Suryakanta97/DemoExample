@@ -1,6 +1,6 @@
-package com.baeldung.web.rest.vm;
+package com.surya.web.rest.vm;
 
-import com.baeldung.service.dto.UserDTO;
+import com.surya.service.dto.UserDTO;
 import javax.validation.constraints.Size;
 
 import java.time.ZonedDateTime;

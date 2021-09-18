@@ -1,6 +1,6 @@
-module com.baeldung.dip.services {
-    requires com.baeldung.dip.entities;
-    requires com.baeldung.dip.daos;
-    uses com.baeldung.dip.daos.CustomerDao;
-    exports com.baeldung.dip.services;
+module com.surya.dip.services {
+    requires com.surya.dip.entities;
+    requires com.surya.dip.daos;
+    uses com.surya.dip.daos.CustomerDao;
+    exports com.surya.dip.services;
 }

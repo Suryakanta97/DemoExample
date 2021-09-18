@@ -1,4 +1,4 @@
-package com.baeldung.attributes;
+package com.surya.attributes;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

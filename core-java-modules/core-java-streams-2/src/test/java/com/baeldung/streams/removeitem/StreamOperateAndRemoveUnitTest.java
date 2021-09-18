@@ -1,4 +1,4 @@
-package com.baeldung.streams.removeitem;
+package com.surya.streams.removeitem;
 
 import org.junit.Assert;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.baeldung.decorator;
+package com.surya.decorator;
 
 public abstract class TreeDecorator implements ChristmasTree {
     private ChristmasTree tree;

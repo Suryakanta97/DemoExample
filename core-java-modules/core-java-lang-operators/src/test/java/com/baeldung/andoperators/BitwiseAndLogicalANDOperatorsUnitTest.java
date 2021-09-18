@@ -1,4 +1,4 @@
-package com.baeldung.andoperators;
+package com.surya.andoperators;
 
 import org.junit.jupiter.api.Test;
 

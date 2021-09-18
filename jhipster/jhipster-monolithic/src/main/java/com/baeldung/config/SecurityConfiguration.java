@@ -1,7 +1,7 @@
-package com.baeldung.config;
+package com.surya.config;
 
-import com.baeldung.security.*;
-import com.baeldung.security.jwt.*;
+import com.surya.security.*;
+import com.surya.security.jwt.*;
 
 import io.github.jhipster.security.*;
 

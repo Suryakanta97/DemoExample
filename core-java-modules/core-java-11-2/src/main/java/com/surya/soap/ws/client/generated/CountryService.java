@@ -16,7 +16,7 @@ import javax.xml.ws.Action;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "CountryService", targetNamespace = "http://server.ws.soap.baeldung.com/")
+@WebService(name = "CountryService", targetNamespace = "http://server.ws.soap.surya.com/")
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 @XmlSeeAlso({
     ObjectFactory.class
@@ -28,11 +28,11 @@ public interface CountryService {
      * 
      * @param arg0
      * @return
-     *     returns com.baeldung.soap.ws.client.generated.Country
+     *     returns com.surya.soap.ws.client.generated.Country
      */
     @WebMethod
     @WebResult(partName = "return")
-    @Action(input = "http://server.ws.soap.baeldung.com/CountryService/findByNameRequest", output = "http://server.ws.soap.baeldung.com/CountryService/findByNameResponse")
+    @Action(input = "http://server.ws.soap.surya.com/CountryService/findByNameRequest", output = "http://server.ws.soap.surya.com/CountryService/findByNameResponse")
     public Country findByName(
         @WebParam(name = "arg0", partName = "arg0")
         String arg0);

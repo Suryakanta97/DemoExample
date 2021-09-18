@@ -1,4 +1,4 @@
-package com.baeldung.methodmultiplereturnvalues;
+package com.surya.methodmultiplereturnvalues;
 
 public class Tuple2 <K, V> {
 

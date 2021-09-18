@@ -1,4 +1,4 @@
-package com.baeldung.osgi.sample.service.definition;
+package com.surya.osgi.sample.service.definition;
 
 public interface Greeter {
 

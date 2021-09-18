@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.linesintersection;
+package com.surya.algorithms.linesintersection;
 
 import java.awt.Point;
 import java.util.Optional;

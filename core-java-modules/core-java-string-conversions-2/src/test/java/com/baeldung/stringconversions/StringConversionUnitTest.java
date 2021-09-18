@@ -1,4 +1,4 @@
-package com.baeldung.stringconversions;
+package com.surya.stringconversions;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package com.baeldung.jaxb.dateunmarshalling;
+package com.surya.jaxb.dateunmarshalling;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

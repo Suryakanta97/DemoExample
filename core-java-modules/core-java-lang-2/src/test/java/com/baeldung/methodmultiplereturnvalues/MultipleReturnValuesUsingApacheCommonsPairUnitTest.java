@@ -1,4 +1,4 @@
-package com.baeldung.methodmultiplereturnvalues;
+package com.surya.methodmultiplereturnvalues;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.junit.jupiter.api.Test;

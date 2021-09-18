@@ -1,4 +1,4 @@
-package com.baeldung.serenity;
+package com.surya.serenity;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
@@ -20,14 +20,14 @@ public class GoogleSearchLiveTest {
     private WebDriver browser;
 
     @Test
-    public void whenGoogleBaeldungThenShouldSeeEugen() {
+    public void whenGooglesuryaThenShouldSeeEugen() {
         browser.get("https://www.google.com/ncr");
 
-        browser.findElement(By.name("q")).sendKeys("baeldung", Keys.ENTER);
+        browser.findElement(By.name("q")).sendKeys("surya", Keys.ENTER);
 
         new WebDriverWait(browser, 5).until(visibilityOfElementLocated(By.cssSelector("._ksh")));
 
-        assertThat(browser.findElement(By.cssSelector("._ksh")).getText(), containsString("Eugen (Baeldung)"));
+        assertThat(browser.findElement(By.cssSelector("._ksh")).getText(), containsString("Eugen (surya)"));
     }
 
 }

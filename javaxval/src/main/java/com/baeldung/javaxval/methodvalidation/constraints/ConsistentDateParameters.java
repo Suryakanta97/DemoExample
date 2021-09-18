@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.methodvalidation.constraints;
+package com.surya.javaxval.methodvalidation.constraints;
 
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
 import static java.lang.annotation.ElementType.METHOD;

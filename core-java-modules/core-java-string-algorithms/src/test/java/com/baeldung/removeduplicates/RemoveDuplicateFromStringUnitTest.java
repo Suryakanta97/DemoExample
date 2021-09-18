@@ -1,4 +1,4 @@
-package com.baeldung.removeduplicates;
+package com.surya.removeduplicates;
 
 import org.junit.Assert;
 import org.junit.Before;

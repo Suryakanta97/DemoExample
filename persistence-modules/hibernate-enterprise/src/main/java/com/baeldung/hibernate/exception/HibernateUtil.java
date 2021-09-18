@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.exception;
+package com.surya.hibernate.exception;
 
 import java.io.FileInputStream;
 import java.io.IOException;

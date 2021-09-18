@@ -1,8 +1,8 @@
-package com.baeldung.jackson.annotation.serialization;
+package com.surya.jackson.annotation.serialization;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.annotation.dtos.ItemWithSerializer;
+import com.surya.jackson.annotation.dtos.ItemWithSerializer;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.SerializerProvider;

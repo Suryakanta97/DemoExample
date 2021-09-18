@@ -1,4 +1,4 @@
-package com.baeldung.emptystrings;
+package com.surya.emptystrings;
 
 class EmptyStringCheck {
 

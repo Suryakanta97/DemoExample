@@ -1,4 +1,4 @@
-package com.baeldung.randomnumbers;
+package com.surya.randomnumbers;
 
 import java.security.SecureRandom;
 import java.util.Random;

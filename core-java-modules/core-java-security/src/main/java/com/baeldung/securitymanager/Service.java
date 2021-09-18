@@ -1,4 +1,4 @@
-package com.baeldung.securitymanager;
+package com.surya.securitymanager;
 
 public class Service {
 

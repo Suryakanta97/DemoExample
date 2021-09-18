@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway;
+package com.surya.jhipster.gateway;
 
-import com.baeldung.jhipster.gateway.config.DefaultProfileUtil;
+import com.surya.jhipster.gateway.config.DefaultProfileUtil;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 

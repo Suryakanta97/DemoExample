@@ -1,6 +1,6 @@
-package com.baeldung.cayenne;
+package com.surya.cayenne;
 
-import com.baeldung.cayenne.auto._Department;
+import com.surya.cayenne.auto._Department;
 
 public class Department extends _Department {
 

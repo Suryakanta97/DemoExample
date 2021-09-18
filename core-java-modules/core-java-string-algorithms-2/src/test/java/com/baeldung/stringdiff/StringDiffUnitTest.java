@@ -1,4 +1,4 @@
-package com.baeldung.stringdiff;
+package com.surya.stringdiff;
 
 import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.hamcrest.Matchers.is;

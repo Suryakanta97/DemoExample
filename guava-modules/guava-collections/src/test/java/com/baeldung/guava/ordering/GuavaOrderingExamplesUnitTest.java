@@ -1,4 +1,4 @@
-package com.baeldung.guava.ordering;
+package com.surya.guava.ordering;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.nullValue;

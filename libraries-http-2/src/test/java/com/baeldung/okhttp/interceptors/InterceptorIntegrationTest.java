@@ -1,4 +1,4 @@
-package com.baeldung.okhttp.interceptors;
+package com.surya.okhttp.interceptors;
 
 import static org.junit.Assert.assertEquals;
 
@@ -22,7 +22,7 @@ public class InterceptorIntegrationTest {
 
     @Test
     public void givenSimpleLogginInterceptor_whenRequestSent_thenHeadersLogged() throws IOException {
-        server.enqueue(new MockResponse().setBody("Hello Baeldung Readers!"));
+        server.enqueue(new MockResponse().setBody("Hello surya Readers!"));
         
         OkHttpClient client = new OkHttpClient.Builder()
             .addNetworkInterceptor(new SimpleLoggingInterceptor())
@@ -30,18 +30,18 @@ public class InterceptorIntegrationTest {
 
         Request request = new Request.Builder()
             .url(server.url("/greeting"))
-            .header("User-Agent", "A Baeldung Reader")
+            .header("User-Agent", "A surya Reader")
             .build();
 
         try (Response response = client.newCall(request).execute()) {
             assertEquals("Response code should be: ", 200, response.code());
-            assertEquals("Body should be: ", "Hello Baeldung Readers!", response.body().string());
+            assertEquals("Body should be: ", "Hello surya Readers!", response.body().string());
         }
     }
     
     @Test
     public void givenResponseInterceptor_whenRequestSent_thenCacheControlSetToNoStore() throws IOException {
-        server.enqueue(new MockResponse().setBody("Hello Baeldung Readers!"));
+        server.enqueue(new MockResponse().setBody("Hello surya Readers!"));
         
         OkHttpClient client = new OkHttpClient.Builder()
             .addInterceptor(getHttpLogger())
@@ -50,19 +50,19 @@ public class InterceptorIntegrationTest {
 
         Request request = new Request.Builder()
             .url(server.url("/greeting"))
-            .header("User-Agent", "A Baeldung Reader")
+            .header("User-Agent", "A surya Reader")
             .build();
 
         try (Response response = client.newCall(request).execute()) {
             assertEquals("Response code should be: ", 200, response.code());
-            assertEquals("Body should be: ", "Hello Baeldung Readers!", response.body().string());
+            assertEquals("Body should be: ", "Hello surya Readers!", response.body().string());
             assertEquals("Response cache-control should be", "no-store", response.header("Cache-Control"));
         }
     }
     
     @Test
     public void givenErrorResponseInterceptor_whenResponseIs500_thenBodyIsJsonWithStatus() throws IOException {
-        server.enqueue(new MockResponse().setResponseCode(500).setBody("Hello Baeldung Readers!"));
+        server.enqueue(new MockResponse().setResponseCode(500).setBody("Hello surya Readers!"));
         
         OkHttpClient client = new OkHttpClient.Builder()
             .addInterceptor(getHttpLogger())
@@ -71,7 +71,7 @@ public class InterceptorIntegrationTest {
 
         Request request = new Request.Builder()
             .url(server.url("/greeting"))
-            .header("User-Agent", "A Baeldung Reader")
+            .header("User-Agent", "A surya Reader")
             .build();
 
         try (Response response = client.newCall(request).execute()) {

@@ -1,9 +1,9 @@
-package com.baeldung.dddhexagonalspring.application.rest;
+package com.surya.dddhexagonalspring.application.rest;
 
-import com.baeldung.dddhexagonalspring.application.request.AddProductRequest;
-import com.baeldung.dddhexagonalspring.application.request.CreateOrderRequest;
-import com.baeldung.dddhexagonalspring.application.response.CreateOrderResponse;
-import com.baeldung.dddhexagonalspring.domain.service.OrderService;
+import com.surya.dddhexagonalspring.application.request.AddProductRequest;
+import com.surya.dddhexagonalspring.application.request.CreateOrderRequest;
+import com.surya.dddhexagonalspring.application.response.CreateOrderResponse;
+import com.surya.dddhexagonalspring.domain.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

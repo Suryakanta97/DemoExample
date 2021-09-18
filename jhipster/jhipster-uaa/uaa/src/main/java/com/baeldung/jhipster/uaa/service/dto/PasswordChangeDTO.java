@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.service.dto;
+package com.surya.jhipster.uaa.service.dto;
 
 /**
  * A DTO representing a password change required data - current and new password.

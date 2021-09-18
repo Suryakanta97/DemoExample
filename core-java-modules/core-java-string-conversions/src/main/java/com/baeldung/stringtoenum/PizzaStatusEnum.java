@@ -1,4 +1,4 @@
-package com.baeldung.stringtoenum;
+package com.surya.stringtoenum;
 
 public enum PizzaStatusEnum {
     ORDERED(5) {

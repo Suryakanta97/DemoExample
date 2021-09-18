@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.uaa.service;
+package com.surya.jhipster.uaa.service;
 
-import com.baeldung.jhipster.uaa.config.audit.AuditEventConverter;
-import com.baeldung.jhipster.uaa.repository.PersistenceAuditEventRepository;
+import com.surya.jhipster.uaa.config.audit.AuditEventConverter;
+import com.surya.jhipster.uaa.repository.PersistenceAuditEventRepository;
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

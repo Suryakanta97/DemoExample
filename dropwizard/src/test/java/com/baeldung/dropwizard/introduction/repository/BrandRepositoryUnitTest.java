@@ -1,6 +1,6 @@
-package com.baeldung.dropwizard.introduction.repository;
+package com.surya.dropwizard.introduction.repository;
 
-import com.baeldung.dropwizard.introduction.domain.Brand;
+import com.surya.dropwizard.introduction.domain.Brand;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

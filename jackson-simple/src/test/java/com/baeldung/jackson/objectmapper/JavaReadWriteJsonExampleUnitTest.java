@@ -1,4 +1,4 @@
-package com.baeldung.jackson.objectmapper;
+package com.surya.jackson.objectmapper;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
@@ -15,7 +15,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
-import com.baeldung.jackson.objectmapper.dto.Car;
+import com.surya.jackson.objectmapper.dto.Car;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

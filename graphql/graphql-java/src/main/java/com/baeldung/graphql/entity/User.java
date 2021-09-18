@@ -1,9 +1,9 @@
-package com.baeldung.graphql.entity;
+package com.surya.graphql.entity;
 
 import java.util.List;
 
-import com.baeldung.graphql.handler.UserHandler;
-import com.baeldung.graphql.utils.SchemaUtils;
+import com.surya.graphql.handler.UserHandler;
+import com.surya.graphql.utils.SchemaUtils;
 
 import graphql.annotations.GraphQLField;
 import graphql.annotations.GraphQLName;

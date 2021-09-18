@@ -1,4 +1,4 @@
-package com.baeldung.mbassador;
+package com.surya.mbassador;
 
 import net.engio.mbassy.bus.MBassador;
 import net.engio.mbassy.listener.Handler;

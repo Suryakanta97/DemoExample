@@ -1,6 +1,6 @@
-package com.baeldung.servlets;
+package com.surya.servlets;
 
-import com.baeldung.Constants;
+import com.surya.Constants;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
@@ -13,7 +13,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import static com.baeldung.Constants.UPLOAD_DIRECTORY;
+import static com.surya.Constants.UPLOAD_DIRECTORY;
 
 @WebServlet(
     name = "MultiPartServlet",

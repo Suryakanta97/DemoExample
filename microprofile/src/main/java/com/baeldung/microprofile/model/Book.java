@@ -1,4 +1,4 @@
-package com.baeldung.microprofile.model;
+package com.surya.microprofile.model;
 
 public class Book {
 

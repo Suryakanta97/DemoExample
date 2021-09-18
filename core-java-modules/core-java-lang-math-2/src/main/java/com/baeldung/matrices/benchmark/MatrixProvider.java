@@ -1,4 +1,4 @@
-package com.baeldung.matrices.benchmark;
+package com.surya.matrices.benchmark;
 
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;

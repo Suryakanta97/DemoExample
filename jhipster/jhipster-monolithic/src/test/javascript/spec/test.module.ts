@@ -21,4 +21,4 @@ import { MockLanguageService } from './helpers/mock-language.service';
         }
     ]
 })
-export class BaeldungTestModule {}
+export class suryaTestModule {}

@@ -1,4 +1,4 @@
-package com.baeldung.akka;
+package com.surya.akka;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;

@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.errors;
+package com.surya.web.rest.errors;
 
 /**
  * Custom, parameterized exception, which can be translated on the client side.

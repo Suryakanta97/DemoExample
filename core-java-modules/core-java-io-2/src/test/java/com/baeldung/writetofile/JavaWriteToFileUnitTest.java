@@ -1,4 +1,4 @@
-package com.baeldung.writetofile;
+package com.surya.writetofile;
 
 import static org.junit.Assert.assertEquals;
 

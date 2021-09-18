@@ -1,4 +1,4 @@
-package com.baeldung.system.exit;
+package com.surya.system.exit;
 
 import static org.junit.Assert.assertEquals;
 

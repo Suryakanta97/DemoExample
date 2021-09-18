@@ -1,4 +1,4 @@
-package com.baeldung.creational.factory;
+package com.surya.creational.factory;
 
 public class Heptagon implements Polygon {
 

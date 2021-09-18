@@ -1,12 +1,12 @@
-package com.baeldung.patterns.crud.service;
+package com.surya.patterns.crud.service;
 
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.baeldung.patterns.crud.repository.UserRepository;
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.domain.User;
+import com.surya.patterns.crud.repository.UserRepository;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.domain.User;
 
 public class UserService {
 

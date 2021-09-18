@@ -1,8 +1,8 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
-import com.baeldung.guava.entity.Administrator;
-import com.baeldung.guava.entity.Player;
-import com.baeldung.guava.entity.User;
+import com.surya.guava.entity.Administrator;
+import com.surya.guava.entity.Player;
+import com.surya.guava.entity.User;
 import org.junit.Assert;
 import org.junit.Test;
 

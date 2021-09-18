@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 import io.github.jhipster.async.ExceptionHandlingAsyncTaskExecutor;
 import io.github.jhipster.config.JHipsterProperties;
@@ -35,7 +35,7 @@ public class AsyncConfiguration implements AsyncConfigurer {
         executor.setCorePoolSize(jHipsterProperties.getAsync().getCorePoolSize());
         executor.setMaxPoolSize(jHipsterProperties.getAsync().getMaxPoolSize());
         executor.setQueueCapacity(jHipsterProperties.getAsync().getQueueCapacity());
-        executor.setThreadNamePrefix("baeldung-Executor-");
+        executor.setThreadNamePrefix("surya-Executor-");
         return new ExceptionHandlingAsyncTaskExecutor(executor);
     }
 

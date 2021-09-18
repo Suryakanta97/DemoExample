@@ -1,4 +1,4 @@
-package com.baeldung.openliberty;
+package com.surya.openliberty;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,8 +7,8 @@ import javax.json.bind.JsonbBuilder;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.openliberty.person.model.Person;
-import com.baeldung.openliberty.rest.consumes.RestConsumer;
+import com.surya.openliberty.person.model.Person;
+import com.surya.openliberty.rest.consumes.RestConsumer;
 
 public class RestClientTest {
 

@@ -1,5 +1,5 @@
 
-package com.baeldung.jsontojavaclass.pojo;
+package com.surya.jsontojavaclass.pojo;
 
 import java.util.ArrayList;
 import java.util.HashMap;

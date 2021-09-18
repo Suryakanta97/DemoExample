@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.internedstrings;
+package com.surya.memoryleaks.internedstrings;
 
 import org.junit.Ignore;
 import org.junit.Test;

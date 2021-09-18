@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.quotes.service;
+package com.surya.jhipster.quotes.service;
 
-import com.baeldung.jhipster.quotes.service.dto.QuoteDTO;
+import com.surya.jhipster.quotes.service.dto.QuoteDTO;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

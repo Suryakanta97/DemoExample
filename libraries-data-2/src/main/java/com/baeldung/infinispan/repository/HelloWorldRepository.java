@@ -1,4 +1,4 @@
-package com.baeldung.infinispan.repository;
+package com.surya.infinispan.repository;
 
 public class HelloWorldRepository {
 

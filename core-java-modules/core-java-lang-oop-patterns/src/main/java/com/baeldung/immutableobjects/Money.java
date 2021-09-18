@@ -1,4 +1,4 @@
-package com.baeldung.immutableobjects;
+package com.surya.immutableobjects;
 
 // 4. Immutability in Java
 public final class Money {

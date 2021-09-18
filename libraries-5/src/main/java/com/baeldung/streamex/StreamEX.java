@@ -1,4 +1,4 @@
-package com.baeldung.streamex;
+package com.surya.streamex;
 
 import java.util.Arrays;
 import java.util.HashMap;

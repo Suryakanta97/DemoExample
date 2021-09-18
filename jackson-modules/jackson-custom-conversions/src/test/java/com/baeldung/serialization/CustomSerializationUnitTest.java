@@ -1,4 +1,4 @@
-package com.baeldung.serialization;
+package com.surya.serialization;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;

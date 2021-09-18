@@ -1,4 +1,4 @@
-package com.baeldung.replacechar;
+package com.surya.replacechar;
 
 public class ReplaceCharacterInString {
 

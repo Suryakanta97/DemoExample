@@ -1,4 +1,4 @@
-package com.baeldung.oop;
+package com.surya.oop;
 
 public class TextFile extends GenericFile {
     private int wordCount;

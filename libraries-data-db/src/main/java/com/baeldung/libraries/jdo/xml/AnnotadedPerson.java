@@ -1,4 +1,4 @@
-package com.baeldung.libraries.jdo.xml;
+package com.surya.libraries.jdo.xml;
 
 import javax.jdo.annotations.Element;
 import javax.jdo.annotations.PersistenceCapable;

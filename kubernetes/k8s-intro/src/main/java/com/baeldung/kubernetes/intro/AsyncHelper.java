@@ -1,4 +1,4 @@
-package com.baeldung.kubernetes.intro;
+package com.surya.kubernetes.intro;
 
 import java.util.List;
 import java.util.Map;

@@ -1,7 +1,7 @@
-package com.baeldung.unmappedproperties.mapper;
+package com.surya.unmappedproperties.mapper;
 
-import com.baeldung.unmappedproperties.dto.CarDTO;
-import com.baeldung.unmappedproperties.entity.Car;
+import com.surya.unmappedproperties.dto.CarDTO;
+import com.surya.unmappedproperties.entity.Car;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

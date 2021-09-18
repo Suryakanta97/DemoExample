@@ -1,4 +1,4 @@
-package com.baeldung.l.advanced;
+package com.surya.l.advanced;
 
 public class HybridCar extends Car {
     // invariant: charge >= 0;

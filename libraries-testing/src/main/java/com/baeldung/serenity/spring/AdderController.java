@@ -1,4 +1,4 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

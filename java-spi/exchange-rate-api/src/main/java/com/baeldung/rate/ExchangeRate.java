@@ -1,7 +1,7 @@
-package com.baeldung.rate;
+package com.surya.rate;
 
-import com.baeldung.rate.exception.ProviderNotFoundException;
-import com.baeldung.rate.spi.ExchangeRateProvider;
+import com.surya.rate.exception.ProviderNotFoundException;
+import com.surya.rate.spi.ExchangeRateProvider;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,7 +10,7 @@ import java.util.ServiceLoader;
 
 public final class ExchangeRate {
 
-    private static final String DEFAULT_PROVIDER = "com.baeldung.rate.spi.YahooFinanceExchangeRateProvider";
+    private static final String DEFAULT_PROVIDER = "com.surya.rate.spi.YahooFinanceExchangeRateProvider";
 
     //All providers
     public static List<ExchangeRateProvider> providers() {

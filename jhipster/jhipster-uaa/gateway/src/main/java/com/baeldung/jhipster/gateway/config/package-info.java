@@ -1,4 +1,4 @@
 /**
  * Spring Framework configuration files.
  */
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;

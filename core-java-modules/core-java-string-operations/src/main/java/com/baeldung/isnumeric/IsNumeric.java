@@ -1,4 +1,4 @@
-package com.baeldung.isnumeric;
+package com.surya.isnumeric;
 
 import java.util.regex.Pattern;
 

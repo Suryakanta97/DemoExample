@@ -1,4 +1,4 @@
-package com.baeldung.optaplanner;
+package com.surya.optaplanner;
 
 import org.optaplanner.core.api.score.Score;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;

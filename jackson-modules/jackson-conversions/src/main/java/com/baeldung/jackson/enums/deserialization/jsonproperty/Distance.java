@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization.jsonproperty;
+package com.surya.jackson.enums.deserialization.jsonproperty;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

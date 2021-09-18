@@ -1,4 +1,4 @@
-package com.baeldung.jool;
+package com.surya.jool;
 
 import org.jooq.lambda.Seq;
 import org.jooq.lambda.Unchecked;

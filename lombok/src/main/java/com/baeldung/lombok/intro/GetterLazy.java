@@ -1,4 +1,4 @@
-package com.baeldung.lombok.intro;
+package com.surya.lombok.intro;
 
 import java.util.HashMap;
 import java.util.List;

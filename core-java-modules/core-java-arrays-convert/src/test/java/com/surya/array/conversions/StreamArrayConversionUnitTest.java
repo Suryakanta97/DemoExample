@@ -20,25 +20,25 @@ import org.junit.Test;
 
 public class StreamArrayConversionUnitTest {
 
-    private String[] stringArray = new String[]{"baeldung", "convert", "to", "string", "array"};
+    private String[] stringArray = new String[]{"surya", "convert", "to", "string", "array"};
     private Integer[] integerArray = new Integer[]{1, 2, 3, 4, 5, 6, 7};
     private int[] intPrimitiveArray = new int[]{1, 2, 3, 4, 5, 6, 7};
 
     @Test
     public void givenStringStream_thenConvertToStringArrayUsingFunctionalInterface() {
-        Stream<String> stringStream = Stream.of("baeldung", "convert", "to", "string", "array");
+        Stream<String> stringStream = Stream.of("surya", "convert", "to", "string", "array");
         assertArrayEquals(stringArray, stringStreamToStringArrayUsingFunctionalInterface(stringStream));
     }
 
     @Test
     public void givenStringStream_thenConvertToStringArrayUsingMethodReference() {
-        Stream<String> stringStream = Stream.of("baeldung", "convert", "to", "string", "array");
+        Stream<String> stringStream = Stream.of("surya", "convert", "to", "string", "array");
         assertArrayEquals(stringArray, stringStreamToStringArrayUsingMethodReference(stringStream));
     }
 
     @Test
     public void givenStringStream_thenConvertToStringArrayUsingLambda() {
-        Stream<String> stringStream = Stream.of("baeldung", "convert", "to", "string", "array");
+        Stream<String> stringStream = Stream.of("surya", "convert", "to", "string", "array");
         assertArrayEquals(stringArray, stringStreamToStringArrayUsingLambda(stringStream));
     }
 

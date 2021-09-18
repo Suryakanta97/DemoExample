@@ -1,6 +1,6 @@
-package com.baeldung.singleton.handlers;
+package com.surya.singleton.handlers;
 
-import com.baeldung.singleton.Singleton;
+import com.surya.singleton.Singleton;
 import com.sun.tools.javac.code.Flags;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.util.Context;

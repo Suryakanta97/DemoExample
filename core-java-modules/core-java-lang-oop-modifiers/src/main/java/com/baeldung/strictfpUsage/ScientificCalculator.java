@@ -1,4 +1,4 @@
-package com.baeldung.strictfpUsage;
+package com.surya.strictfpUsage;
 
 public strictfp class ScientificCalculator {
 

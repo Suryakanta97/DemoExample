@@ -1,7 +1,7 @@
-package com.baeldung.springintegration.config;
+package com.surya.springintegration.config;
 
-import com.baeldung.springintegration.dao.UserManagementDAO;
-import com.baeldung.springintegration.dao.UserManagementDAOImpl;
+import com.surya.springintegration.dao.UserManagementDAO;
+import com.surya.springintegration.dao.UserManagementDAOImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

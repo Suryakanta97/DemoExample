@@ -1,4 +1,4 @@
-package com.baeldung.tempdirectory;
+package com.surya.tempdirectory;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;

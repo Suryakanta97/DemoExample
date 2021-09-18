@@ -1,4 +1,4 @@
-package com.baeldung.jackson.tocollection;
+package com.surya.jackson.tocollection;
 
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.Assert.assertThat;

@@ -1,4 +1,4 @@
-package com.baeldung.okhttp;
+package com.surya.okhttp;
 
 import okhttp3.RequestBody;
 import okhttp3.MediaType;

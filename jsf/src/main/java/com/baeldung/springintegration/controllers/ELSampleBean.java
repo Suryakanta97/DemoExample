@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.controllers;
+package com.surya.springintegration.controllers;
 
 import javax.annotation.PostConstruct;
 import javax.el.ELContextEvent;
@@ -34,7 +34,7 @@ public class ELSampleBean {
                 public void contextCreated(ELContextEvent evt) {
                     evt.getELContext()
                         .getImportHandler()
-                        .importClass("com.baeldung.springintegration.controllers.ELSampleBean");
+                        .importClass("com.surya.springintegration.controllers.ELSampleBean");
                 }
             });
     }

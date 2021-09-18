@@ -1,4 +1,4 @@
-package com.baeldung.signature;
+package com.surya.signature;
 
 public class StaticBinding {
 

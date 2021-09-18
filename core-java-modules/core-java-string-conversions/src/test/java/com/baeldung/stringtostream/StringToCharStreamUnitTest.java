@@ -1,4 +1,4 @@
-package com.baeldung.stringtostream;
+package com.surya.stringtostream;
 
 import org.junit.Test;
 

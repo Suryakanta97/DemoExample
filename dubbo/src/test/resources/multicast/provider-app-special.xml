@@ -14,9 +14,9 @@
     <dubbo:protocol name="dubbo" port="20881" />
 
     <!-- the service interface to expose -->
-    <dubbo:service interface="com.baeldung.dubbo.remote.GreetingsService" ref="greetingsService"/>
+    <dubbo:service interface="com.surya.dubbo.remote.GreetingsService" ref="greetingsService"/>
 
     <!-- declare the local implementation of exposed service interface -->
-    <bean id="greetingsService" class="com.baeldung.dubbo.remote.GreetingsServiceSpecialImpl"/>
+    <bean id="greetingsService" class="com.surya.dubbo.remote.GreetingsServiceSpecialImpl"/>
 
 </beans>

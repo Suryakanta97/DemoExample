@@ -1,4 +1,4 @@
 /**
  * JPA domain objects.
  */
-package com.baeldung.jhipster.uaa.domain;
+package com.surya.jhipster.uaa.domain;

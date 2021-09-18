@@ -1,4 +1,4 @@
-package com.baeldung.arquillian;
+package com.surya.arquillian;
 
 import java.io.PrintStream;
 

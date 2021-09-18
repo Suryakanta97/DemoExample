@@ -1,4 +1,4 @@
-package com.baeldung.directories;
+package com.surya.directories;
 
 import org.junit.Before;
 import org.junit.Test;

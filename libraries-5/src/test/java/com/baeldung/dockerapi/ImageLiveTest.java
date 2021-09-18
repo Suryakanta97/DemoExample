@@ -1,4 +1,4 @@
-package com.baeldung.dockerapi;
+package com.surya.dockerapi;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.InspectImageResponse;
@@ -94,7 +94,7 @@ public class ImageLiveTest {
         Image image = images.get(0);
 
         // when
-        dockerClient.tagImageCmd(image.getId(), "baeldung/alpine", "3.6.v2").exec();
+        dockerClient.tagImageCmd(image.getId(), "surya/alpine", "3.6.v2").exec();
 
         // then
         List<Image> imagesNow = dockerClient.listImagesCmd().exec();
@@ -103,7 +103,7 @@ public class ImageLiveTest {
 
     public void pushingAnImage() throws InterruptedException {
 
-        dockerClient.pushImageCmd("baeldung/alpine").withTag("3.6.v2").exec(new PushImageResultCallback()).awaitCompletion(90, TimeUnit.SECONDS);
+        dockerClient.pushImageCmd("surya/alpine").withTag("3.6.v2").exec(new PushImageResultCallback()).awaitCompletion(90, TimeUnit.SECONDS);
     }
 
     @Test

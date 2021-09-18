@@ -1,4 +1,4 @@
-package com.baeldung.bytebuddy;
+package com.surya.bytebuddy;
 
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.agent.ByteBuddyAgent;

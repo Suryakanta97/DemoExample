@@ -1,4 +1,4 @@
-package com.baeldung.escape;
+package com.surya.escape;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.api.BeforeEach;

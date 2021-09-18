@@ -1,4 +1,4 @@
-package com.baeldung.whatsnew.records;
+package com.surya.whatsnew.records;
 
 /**
  * Java record with a header indicating 2 fields.

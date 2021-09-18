@@ -1,4 +1,4 @@
-package com.baeldung.accessmodifiers;
+package com.surya.accessmodifiers;
 
 //Only public or default access modifiers are permitted
 public class SuperPublic {

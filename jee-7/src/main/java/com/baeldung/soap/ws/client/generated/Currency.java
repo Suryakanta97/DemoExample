@@ -1,5 +1,5 @@
 
-package com.baeldung.soap.ws.client.generated;
+package com.surya.soap.ws.client.generated;
 
 import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlType;

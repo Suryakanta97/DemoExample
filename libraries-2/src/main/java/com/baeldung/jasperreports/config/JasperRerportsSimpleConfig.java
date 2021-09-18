@@ -1,7 +1,7 @@
-package com.baeldung.jasperreports.config;
+package com.surya.jasperreports.config;
 
-import com.baeldung.jasperreports.SimpleReportExporter;
-import com.baeldung.jasperreports.SimpleReportFiller;
+import com.surya.jasperreports.SimpleReportExporter;
+import com.surya.jasperreports.SimpleReportFiller;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;

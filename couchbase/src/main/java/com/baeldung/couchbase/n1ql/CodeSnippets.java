@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.n1ql;
+package com.surya.couchbase.n1ql;
 
 import com.couchbase.client.java.query.N1qlQueryResult;
 import com.fasterxml.jackson.databind.JsonNode;

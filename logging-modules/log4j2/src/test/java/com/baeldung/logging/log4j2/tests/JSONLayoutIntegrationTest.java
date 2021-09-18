@@ -1,4 +1,4 @@
-package com.baeldung.logging.log4j2.tests;
+package com.surya.logging.log4j2.tests;
 
 import static org.junit.Assert.assertTrue;
 
@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.logging.log4j2.Log4j2BaseIntegrationTest;
+import com.surya.logging.log4j2.Log4j2BaseIntegrationTest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JSONLayoutIntegrationTest extends Log4j2BaseIntegrationTest {

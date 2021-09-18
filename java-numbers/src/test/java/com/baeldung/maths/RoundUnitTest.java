@@ -1,4 +1,4 @@
-package com.baeldung.maths;
+package com.surya.maths;
 
 import org.apache.commons.math3.util.Precision;
 import org.decimal4j.util.DoubleRounder;

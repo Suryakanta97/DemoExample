@@ -1,4 +1,4 @@
-package com.baeldung.stringtoolong;
+package com.surya.stringtoolong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

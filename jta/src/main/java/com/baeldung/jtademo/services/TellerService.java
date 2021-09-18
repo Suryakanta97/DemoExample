@@ -1,4 +1,4 @@
-package com.baeldung.jtademo.services;
+package com.surya.jtademo.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.baeldung.guava.ordering;
+package com.surya.guava.ordering;
 
 import com.google.common.base.Function;
 import com.google.common.collect.Ordering;

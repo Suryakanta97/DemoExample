@@ -1,4 +1,4 @@
-package com.baeldung.guava.future;
+package com.surya.guava.future;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.guava.future.exception.ListenableFutureException;
+import com.surya.guava.future.exception.ListenableFutureException;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

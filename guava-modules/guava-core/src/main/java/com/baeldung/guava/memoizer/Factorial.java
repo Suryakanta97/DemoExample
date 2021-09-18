@@ -1,4 +1,4 @@
-package com.baeldung.guava.memoizer;
+package com.surya.guava.memoizer;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;

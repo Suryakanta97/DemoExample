@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring;
+package com.surya.couchbase.spring;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

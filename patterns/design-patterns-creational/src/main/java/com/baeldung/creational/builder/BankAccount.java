@@ -1,4 +1,4 @@
-package com.baeldung.creational.builder;
+package com.surya.creational.builder;
 
 public class BankAccount {
     private String name;

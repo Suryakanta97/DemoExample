@@ -1,4 +1,4 @@
-package com.baeldung.enums.values;
+package com.surya.enums.values;
 
 /**
  * The simple enum has been enhanced to add the name of the element.

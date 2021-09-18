@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.n1ql;
+package com.surya.couchbase.n1ql;
 
 import com.couchbase.client.java.Cluster;
 import com.couchbase.client.java.CouchbaseCluster;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
-@ComponentScan(basePackages = { "com.baeldung.couchbase.n1ql" })
+@ComponentScan(basePackages = { "com.surya.couchbase.n1ql" })
 public class IntegrationTestConfig {
 
     @Bean

@@ -1,6 +1,6 @@
-package com.baeldung.dddhexagonalspring.domain.service;
+package com.surya.dddhexagonalspring.domain.service;
 
-import com.baeldung.dddhexagonalspring.domain.Product;
+import com.surya.dddhexagonalspring.domain.Product;
 
 import java.util.UUID;
 

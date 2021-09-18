@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.surya.repository;
 
-import com.baeldung.domain.User;
+import com.surya.domain.User;
 
 import java.time.ZonedDateTime;
 

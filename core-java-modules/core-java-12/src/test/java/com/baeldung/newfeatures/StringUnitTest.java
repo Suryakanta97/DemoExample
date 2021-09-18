@@ -1,4 +1,4 @@
-package java.com.baeldung.newfeatures;
+package java.com.surya.newfeatures;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ public class StringUnitTest {
 
     @Test
     public void givenString_thenRevertValue() {
-        String text = "Baeldung";
+        String text = "surya";
         String transformed = text.transform(value -> new StringBuilder(value).reverse().toString());
         assertEquals("gnudleaB", transformed);
     }

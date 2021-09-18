@@ -1,4 +1,4 @@
-package com.baeldung.numberofdigits;
+package com.surya.numberofdigits;
 
 import org.junit.Assert;
 import org.junit.Assume;

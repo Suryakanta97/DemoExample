@@ -1,4 +1,4 @@
-package com.baeldung.arquillian;
+package com.surya.arquillian;
 
 public class ConvertToLowerCase {
     public String convert(String word){

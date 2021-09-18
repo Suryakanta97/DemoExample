@@ -1,4 +1,4 @@
-package com.baeldung.mybatis.model;
+package com.surya.mybatis.model;
 
 public class Address {
 

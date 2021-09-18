@@ -1,4 +1,4 @@
-package com.baeldung.scribejava.service;
+package com.surya.scribejava.service;
 
 import com.github.scribejava.apis.TwitterApi;
 import com.github.scribejava.core.builder.ServiceBuilder;

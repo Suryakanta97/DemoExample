@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.surya;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

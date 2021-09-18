@@ -1,4 +1,4 @@
-package com.baeldung.polymorphism;
+package com.surya.polymorphism;
 
 public class TextFile extends GenericFile {
     private int wordCount;

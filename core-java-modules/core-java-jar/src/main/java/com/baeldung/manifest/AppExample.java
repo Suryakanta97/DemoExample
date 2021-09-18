@@ -1,4 +1,4 @@
-package com.baeldung.manifest;
+package com.surya.manifest;
 
 public class AppExample {
 

@@ -1,4 +1,4 @@
-package com.baeldung.java14.textblocks;
+package com.surya.java14.textblocks;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

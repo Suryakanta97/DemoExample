@@ -1,6 +1,6 @@
-package com.baeldung.javadocmemberreference;
+package com.surya.javadocmemberreference;
 
-import com.baeldung.vehicle.Car;
+import com.surya.vehicle.Car;
 
 public class Person {
 
@@ -34,7 +34,7 @@ public class Person {
     }
 
     /**
-     * Also consider checking {@link com.baeldung.vehicle.Vehicle#Vehicle() Vehicle} constructor to initialize vehicle object.
+     * Also consider checking {@link com.surya.vehicle.Vehicle#Vehicle() Vehicle} constructor to initialize vehicle object.
      */
     public void goToWork() {
 

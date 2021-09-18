@@ -1,4 +1,4 @@
-package com.baeldung.java9.stackwalker;
+package com.surya.java9.stackwalker;
 
 import java.lang.StackWalker.StackFrame;
 import java.util.List;
@@ -56,13 +56,13 @@ public class StackWalkerDemo {
 
     public List<StackFrame> walkExample2(Stream<StackFrame> stackFrameStream) {
         return stackFrameStream.filter(frame -> frame.getClassName()
-            .contains("com.baeldung"))
+            .contains("com.surya"))
             .collect(Collectors.toList());
     }
 
     public String walkExample3(Stream<StackFrame> stackFrameStream) {
         return stackFrameStream.filter(frame -> frame.getClassName()
-            .contains("com.baeldung")
+            .contains("com.surya")
             && frame.getClassName()
             .endsWith("Test"))
             .findFirst()

@@ -1,13 +1,13 @@
 {
     "generator-jhipster": {
         "promptValues": {
-            "packageName": "com.baeldung.jhipster5"
+            "packageName": "com.surya.jhipster5"
         },
         "jhipsterVersion": "5.8.2",
         "applicationType": "monolith",
         "baseName": "Bookstore",
-        "packageName": "com.baeldung.jhipster5",
-        "packageFolder": "com/baeldung/jhipster5",
+        "packageName": "com.surya.jhipster5",
+        "packageFolder": "com/surya/jhipster5",
         "serverPort": "8080",
         "authenticationType": "jwt",
         "cacheProvider": "no",

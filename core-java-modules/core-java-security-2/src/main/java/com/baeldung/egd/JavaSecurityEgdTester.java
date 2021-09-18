@@ -1,10 +1,10 @@
-package com.baeldung.egd;
+package com.surya.egd;
 
 import java.security.SecureRandom;
 
 /**
  * JavaSecurityEgdTester - run this with JVM parameter java.security.egd, e.g.:
- *     java -Djava.security.egd=file:/dev/urandom -cp . com.baeldung.egd.JavaSecurityEgdTester
+ *     java -Djava.security.egd=file:/dev/urandom -cp . com.surya.egd.JavaSecurityEgdTester
  */
 public class JavaSecurityEgdTester {
     public static final double NANOSECS = 1000000000.0;

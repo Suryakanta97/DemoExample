@@ -1,9 +1,9 @@
-package com.baeldung.java9.reactive;
+package com.surya.java9.reactive;
 
 import java.util.concurrent.Flow.Subscriber;
 import java.util.concurrent.Flow.Subscription;
 
-public class BaeldungSubscriberImpl<T> implements Subscriber<String> {
+public class suryaSubscriberImpl<T> implements Subscriber<String> {
     private Subscription subscription;
     private boolean completed = false;
     private int counter;

@@ -1,11 +1,11 @@
-package com.baeldung.libraries.opencsv;
+package com.surya.libraries.opencsv;
 
-import com.baeldung.libraries.opencsv.beans.NamedColumnBean;
-import com.baeldung.libraries.opencsv.beans.SimplePositionBean;
-import com.baeldung.libraries.opencsv.examples.sync.BeanExamples;
-import com.baeldung.libraries.opencsv.examples.sync.CsvReaderExamples;
-import com.baeldung.libraries.opencsv.examples.sync.CsvWriterExamples;
-import com.baeldung.libraries.opencsv.helpers.Helpers;
+import com.surya.libraries.opencsv.beans.NamedColumnBean;
+import com.surya.libraries.opencsv.beans.SimplePositionBean;
+import com.surya.libraries.opencsv.examples.sync.BeanExamples;
+import com.surya.libraries.opencsv.examples.sync.CsvReaderExamples;
+import com.surya.libraries.opencsv.examples.sync.CsvWriterExamples;
+import com.surya.libraries.opencsv.helpers.Helpers;
 
 import java.io.Reader;
 import java.nio.file.Files;

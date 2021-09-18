@@ -1,4 +1,4 @@
-package com.baeldung.gson.advance;
+package com.surya.gson.advance;
 
 /*
  * Copyright (C) 2011 Google Inc.

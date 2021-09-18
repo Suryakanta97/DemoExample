@@ -1,4 +1,4 @@
-package com.baeldung.jndi.exceptions;
+package com.surya.jndi.exceptions;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

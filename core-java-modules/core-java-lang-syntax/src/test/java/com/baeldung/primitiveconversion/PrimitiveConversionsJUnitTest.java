@@ -1,4 +1,4 @@
-package com.baeldung.primitiveconversion;
+package com.surya.primitiveconversion;
 
 import org.junit.Test;
 import org.slf4j.Logger;

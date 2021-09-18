@@ -1,4 +1,4 @@
-package com.baeldung.guava.functional;
+package com.surya.guava.functional;
 
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.equalTo;

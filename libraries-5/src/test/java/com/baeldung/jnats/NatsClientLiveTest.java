@@ -1,4 +1,4 @@
-package com.baeldung.jnats;
+package com.surya.jnats;
 
 import io.nats.client.Message;
 import io.nats.client.SyncSubscription;

@@ -1,4 +1,4 @@
-package com.baeldung.graph;
+package com.surya.graph;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

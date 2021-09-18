@@ -1,4 +1,4 @@
-package com.baeldung.java9.reactive;
+package com.surya.java9.reactive;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -13,17 +13,17 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Stopwatch;
 
-public class BaeldungSubscriberImplIntegrationTest {
+public class suryaSubscriberImplIntegrationTest {
 
     private static final int ITEM_SIZE = 10;
     private SubmissionPublisher<String> publisher;
-    private BaeldungSubscriberImpl<String> subscriber;
+    private suryaSubscriberImpl<String> subscriber;
 
     @Before
     public void initialize() {
         // create Publisher with max buffer capacity 3.
         this.publisher = new SubmissionPublisher<String>(ForkJoinPool.commonPool(), 3);
-        this.subscriber = new BaeldungSubscriberImpl<String>();
+        this.subscriber = new suryaSubscriberImpl<String>();
         publisher.subscribe(subscriber);
     }
 

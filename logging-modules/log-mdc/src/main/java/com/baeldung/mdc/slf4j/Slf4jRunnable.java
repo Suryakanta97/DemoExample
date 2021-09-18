@@ -1,8 +1,8 @@
-package com.baeldung.mdc.slf4j;
+package com.surya.mdc.slf4j;
 
 import org.slf4j.MDC;
 
-import com.baeldung.mdc.Transfer;
+import com.surya.mdc.Transfer;
 
 public class Slf4jRunnable implements Runnable {
     private final Transfer tx;

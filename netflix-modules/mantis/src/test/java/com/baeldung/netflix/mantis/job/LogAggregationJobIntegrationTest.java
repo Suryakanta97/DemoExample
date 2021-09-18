@@ -1,6 +1,6 @@
-package com.baeldung.netflix.mantis.job;
+package com.surya.netflix.mantis.job;
 
-import com.baeldung.netflix.mantis.model.LogAggregate;
+import com.surya.netflix.mantis.model.LogAggregate;
 import io.mantisrx.runtime.PortRequest;
 import io.mantisrx.runtime.sink.Sinks;
 import org.junit.jupiter.api.BeforeAll;

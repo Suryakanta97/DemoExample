@@ -1,4 +1,4 @@
-package com.baeldung.lcm;
+package com.surya.lcm;
 
 public class SimpleAlgorithm {
     public static int lcm(int number1, int number2) {

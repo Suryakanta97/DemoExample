@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.quotes;
+package com.surya.jhipster.quotes;
 
-import com.baeldung.jhipster.quotes.client.OAuth2InterceptedFeignConfiguration;
-import com.baeldung.jhipster.quotes.config.ApplicationProperties;
-import com.baeldung.jhipster.quotes.config.DefaultProfileUtil;
+import com.surya.jhipster.quotes.client.OAuth2InterceptedFeignConfiguration;
+import com.surya.jhipster.quotes.config.ApplicationProperties;
+import com.surya.jhipster.quotes.config.DefaultProfileUtil;
 
 import io.github.jhipster.config.JHipsterConstants;
 

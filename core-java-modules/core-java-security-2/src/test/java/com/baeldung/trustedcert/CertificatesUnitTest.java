@@ -1,4 +1,4 @@
-package com.baeldung.trustedcert;
+package com.surya.trustedcert;
 
 import org.junit.jupiter.api.Test;
 

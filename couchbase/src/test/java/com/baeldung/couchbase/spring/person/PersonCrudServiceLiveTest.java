@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.person;
+package com.surya.couchbase.spring.person;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +8,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.baeldung.couchbase.spring.IntegrationTest;
+import com.surya.couchbase.spring.IntegrationTest;
 
 public class PersonCrudServiceLiveTest extends IntegrationTest {
 

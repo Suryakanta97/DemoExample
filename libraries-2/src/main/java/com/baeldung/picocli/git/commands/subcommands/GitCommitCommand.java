@@ -1,4 +1,4 @@
-package com.baeldung.picocli.git.commands.subcommands;
+package com.surya.picocli.git.commands.subcommands;
 
 import org.springframework.stereotype.Component;
 

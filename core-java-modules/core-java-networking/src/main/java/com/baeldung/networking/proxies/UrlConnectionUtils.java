@@ -1,4 +1,4 @@
-package com.baeldung.networking.proxies;
+package com.surya.networking.proxies;
 
 import java.io.BufferedReader;
 import java.io.IOException;

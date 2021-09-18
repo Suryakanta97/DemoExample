@@ -1,4 +1,4 @@
-package com.baeldung.number_0xff;
+package com.surya.number_0xff;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

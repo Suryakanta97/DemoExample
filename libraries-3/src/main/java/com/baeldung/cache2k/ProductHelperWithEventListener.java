@@ -1,4 +1,4 @@
-package com.baeldung.cache2k;
+package com.surya.cache2k;
 
 import java.util.concurrent.TimeUnit;
 

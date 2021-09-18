@@ -1,4 +1,4 @@
-package com.baeldung.modulo;
+package com.surya.modulo;
 
 import org.junit.Test;
 import static org.assertj.core.api.Java6Assertions.*;

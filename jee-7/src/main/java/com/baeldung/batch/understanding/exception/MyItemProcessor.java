@@ -1,4 +1,4 @@
-package com.baeldung.batch.understanding.exception;
+package com.surya.batch.understanding.exception;
 
 import javax.batch.api.chunk.ItemProcessor;
 import javax.inject.Named;

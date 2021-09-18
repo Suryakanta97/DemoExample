@@ -1,7 +1,7 @@
-package com.baeldung.distinct;
+package com.surya.distinct;
 
 import static org.junit.Assert.assertTrue;
-import static com.baeldung.distinct.DistinctWithJavaFunction.distinctByKey;
+import static com.surya.distinct.DistinctWithJavaFunction.distinctByKey;
 
 import java.util.List;
 import java.util.stream.Collectors;

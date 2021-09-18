@@ -1,4 +1,4 @@
-package com.baeldung.maven.properties;
+package com.surya.maven.properties;
 
 import java.io.IOException;
 

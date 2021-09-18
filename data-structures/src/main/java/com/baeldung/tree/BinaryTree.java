@@ -1,4 +1,4 @@
-package com.baeldung.tree;
+package com.surya.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;

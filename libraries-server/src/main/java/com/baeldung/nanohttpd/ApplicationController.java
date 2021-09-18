@@ -1,4 +1,4 @@
-package com.baeldung.nanohttpd;
+package com.surya.nanohttpd;
 
 import fi.iki.elonen.NanoHTTPD;
 import fi.iki.elonen.router.RouterNanoHTTPD;

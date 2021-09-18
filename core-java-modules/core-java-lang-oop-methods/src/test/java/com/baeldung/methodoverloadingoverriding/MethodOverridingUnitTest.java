@@ -1,7 +1,7 @@
-package com.baeldung.methodoverloadingoverriding;
+package com.surya.methodoverloadingoverriding;
 
-import com.baeldung.methodoverloadingoverriding.model.Car;
-import com.baeldung.methodoverloadingoverriding.model.Vehicle;
+import com.surya.methodoverloadingoverriding.model.Car;
+import com.surya.methodoverloadingoverriding.model.Vehicle;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.*;

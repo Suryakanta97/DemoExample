@@ -1,4 +1,4 @@
-package com.baeldung.d;
+package com.surya.d;
 
 public interface Keyboard {
 }

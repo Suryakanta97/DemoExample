@@ -1,7 +1,7 @@
-package com.baeldung.storm.serialization;
+package com.surya.storm.serialization;
 
 
-import com.baeldung.storm.model.User;
+import com.surya.storm.model.User;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.Serializer;
 import com.esotericsoftware.kryo.io.Input;

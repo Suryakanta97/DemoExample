@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.web.rest;
+package com.surya.jhipster.gateway.web.rest;
 
-import com.baeldung.jhipster.gateway.web.rest.vm.RouteVM;
+import com.surya.jhipster.gateway.web.rest.vm.RouteVM;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.zuul.filters.Route;
 import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
 import org.springframework.http.*;
 import org.springframework.security.access.annotation.Secured;
-import com.baeldung.jhipster.gateway.security.AuthoritiesConstants;
+import com.surya.jhipster.gateway.security.AuthoritiesConstants;
 import org.springframework.web.bind.annotation.*;
 
 import com.codahale.metrics.annotation.Timed;

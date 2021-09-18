@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.person;
+package com.surya.couchbase.async.person;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import com.couchbase.client.java.env.CouchbaseEnvironment;
 import com.couchbase.client.java.env.DefaultCouchbaseEnvironment;
 
 @Configuration
-@ComponentScan(basePackages = {"com.baeldung.couchbase.async.service", "com.baeldung.couchbase.n1ql"})
+@ComponentScan(basePackages = {"com.surya.couchbase.async.service", "com.surya.couchbase.n1ql"})
 public class PersonCrudServiceIntegrationTestConfig {
     
     @Bean

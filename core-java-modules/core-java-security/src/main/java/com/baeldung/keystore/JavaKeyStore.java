@@ -1,4 +1,4 @@
-package com.baeldung.keystore;
+package com.surya.keystore;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

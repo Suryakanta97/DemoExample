@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.dtos;
+package com.surya.jackson.annotation.dtos;
 
 public class Item {
     public int id;

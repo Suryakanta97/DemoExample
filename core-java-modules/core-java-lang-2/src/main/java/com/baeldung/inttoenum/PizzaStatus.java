@@ -1,4 +1,4 @@
-package com.baeldung.inttoenum;
+package com.surya.inttoenum;
 
 import java.util.HashMap;
 import java.util.Map;

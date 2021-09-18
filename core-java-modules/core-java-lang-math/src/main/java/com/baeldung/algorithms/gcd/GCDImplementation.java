@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.gcd;
+package com.surya.algorithms.gcd;
 
 public class GCDImplementation {
 

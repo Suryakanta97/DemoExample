@@ -28,7 +28,7 @@ variable "image_version" {
 variable "image_prefix" {
     type = string
     description = "Image repository prefix"
-    default = "gcr.io/baeldung"
+    default = "gcr.io/surya"
 }
 
 variable "admission_controller_name" {

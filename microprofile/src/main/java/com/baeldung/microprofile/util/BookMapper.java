@@ -1,6 +1,6 @@
-package com.baeldung.microprofile.util;
+package com.surya.microprofile.util;
 
-import com.baeldung.microprofile.model.Book;
+import com.surya.microprofile.model.Book;
 
 import javax.json.*;
 import java.io.InputStream;

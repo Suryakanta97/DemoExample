@@ -1,10 +1,10 @@
-package com.baeldung.dropwizard.introduction;
+package com.surya.dropwizard.introduction;
 
-import com.baeldung.dropwizard.introduction.configuration.ApplicationHealthCheck;
-import com.baeldung.dropwizard.introduction.configuration.BasicConfiguration;
-import com.baeldung.dropwizard.introduction.domain.Brand;
-import com.baeldung.dropwizard.introduction.repository.BrandRepository;
-import com.baeldung.dropwizard.introduction.resource.BrandResource;
+import com.surya.dropwizard.introduction.configuration.ApplicationHealthCheck;
+import com.surya.dropwizard.introduction.configuration.BasicConfiguration;
+import com.surya.dropwizard.introduction.domain.Brand;
+import com.surya.dropwizard.introduction.repository.BrandRepository;
+import com.surya.dropwizard.introduction.resource.BrandResource;
 import io.dropwizard.Application;
 import io.dropwizard.configuration.ResourceConfigurationSourceProvider;
 import io.dropwizard.setup.Bootstrap;

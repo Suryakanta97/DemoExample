@@ -1,4 +1,4 @@
-package com.baeldung.jets3t;
+package com.surya.jets3t;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.logging.Log;
@@ -28,10 +28,10 @@ public class JetS3tLiveTest {
 
     private Log log = LogFactory.getLog(JetS3tLiveTest.class);
 
-    private static final String BucketName = "baeldung-barfoo";
+    private static final String BucketName = "surya-barfoo";
     private static final String TestString = "test string";
     private static final String TestStringName = "string object";
-    private static final String TgtBucket = "baeldung-tgtbucket";
+    private static final String TgtBucket = "surya-tgtbucket";
 
     private static S3Service s3Service;
 

@@ -1,4 +1,4 @@
-package com.baeldung.takes;
+package com.surya.takes;
 
 import static org.junit.Assert.assertEquals;
 
@@ -29,7 +29,7 @@ public class TakesAppIntegrationTest {
                     String result = EntityUtils.toString(entity);
                     
                     assertEquals(200, statusCode);
-                    assertEquals("Contact us at https://www.baeldung.com", result);
+                    assertEquals("Contact us at https://www.surya.com", result);
                 }
             });
     }

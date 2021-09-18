@@ -1,4 +1,4 @@
-package com.baeldung.enums.extendenum;
+package com.surya.enums.extendenum;
 
 import org.junit.Test;
 

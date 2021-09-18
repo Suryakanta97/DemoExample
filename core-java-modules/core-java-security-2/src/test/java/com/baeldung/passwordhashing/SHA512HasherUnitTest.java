@@ -1,4 +1,4 @@
-package com.baeldung.passwordhashing;
+package com.surya.passwordhashing;
 
 import org.junit.Before;
 import org.junit.Test;

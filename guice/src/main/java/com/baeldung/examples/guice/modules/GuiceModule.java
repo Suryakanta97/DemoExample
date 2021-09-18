@@ -1,13 +1,13 @@
-package com.baeldung.examples.guice.modules;
+package com.surya.examples.guice.modules;
 
-import com.baeldung.examples.common.AccountService;
-import com.baeldung.examples.common.AccountServiceImpl;
-import com.baeldung.examples.common.BookService;
-import com.baeldung.examples.common.BookServiceImpl;
-import com.baeldung.examples.common.PersonDao;
-import com.baeldung.examples.common.PersonDaoImpl;
-import com.baeldung.examples.guice.Foo;
-import com.baeldung.examples.guice.Person;
+import com.surya.examples.common.AccountService;
+import com.surya.examples.common.AccountServiceImpl;
+import com.surya.examples.common.BookService;
+import com.surya.examples.common.BookServiceImpl;
+import com.surya.examples.common.PersonDao;
+import com.surya.examples.common.PersonDaoImpl;
+import com.surya.examples.guice.Foo;
+import com.surya.examples.guice.Person;
 import com.google.inject.AbstractModule;
 import com.google.inject.Provider;
 import com.google.inject.Provides;

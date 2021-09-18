@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.jsonview;
+package com.surya.jackson.annotation.jsonview;
 
 public class Views {
     public static class Public {

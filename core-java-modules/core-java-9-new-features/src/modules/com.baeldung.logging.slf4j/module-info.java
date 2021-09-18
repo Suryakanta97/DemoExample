@@ -1,6 +1,6 @@
-module com.baeldung.logging.slf4j {
+module com.surya.logging.slf4j {
     requires org.slf4j;
     provides java.lang.System.LoggerFinder
-      with com.baeldung.logging.slf4j.Slf4jLoggerFinder;
-    exports com.baeldung.logging.slf4j;
+      with com.surya.logging.slf4j.Slf4jLoggerFinder;
+    exports com.surya.logging.slf4j;
 }

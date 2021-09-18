@@ -1,4 +1,4 @@
-package com.baeldung.crawler4j;
+package com.surya.crawler4j;
 
 import java.io.File;
 
@@ -30,8 +30,8 @@ public class MultipleCrawlerController {
         CrawlController htmlController = new CrawlController(htmlConfig, pageFetcherHtml, robotstxtServer);
         CrawlController imageController = new CrawlController(imageConfig, pageFetcherImage, robotstxtServer);
         
-        htmlController.addSeed("https://www.baeldung.com/");
-        imageController.addSeed("https://www.baeldung.com/");
+        htmlController.addSeed("https://www.surya.com/");
+        imageController.addSeed("https://www.surya.com/");
         
         CrawlerStatistics stats = new CrawlerStatistics();
         CrawlController.WebCrawlerFactory<HtmlCrawler> htmlFactory = () -> new HtmlCrawler(stats);

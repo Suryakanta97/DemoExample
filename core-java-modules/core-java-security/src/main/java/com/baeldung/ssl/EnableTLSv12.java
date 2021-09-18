@@ -1,4 +1,4 @@
-package com.baeldung.ssl;
+package com.surya.ssl;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

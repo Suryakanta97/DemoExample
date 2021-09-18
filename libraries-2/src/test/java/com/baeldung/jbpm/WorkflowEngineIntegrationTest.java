@@ -1,4 +1,4 @@
-package com.baeldung.jbpm;
+package com.surya.jbpm;
 
 import org.jbpm.test.JbpmJUnitBaseTestCase;
 import org.junit.After;
@@ -20,10 +20,10 @@ public class WorkflowEngineIntegrationTest extends JbpmJUnitBaseTestCase {
 
     @Before
     public void setup() {
-        manager = createRuntimeManager(Strategy.SINGLETON, "manager", "com/baeldung/process/helloworld.bpmn");
+        manager = createRuntimeManager(Strategy.SINGLETON, "manager", "com/surya/process/helloworld.bpmn");
         runtimeEngine = getRuntimeEngine(ProcessInstanceIdContext.get());
         ksession = runtimeEngine.getKieSession();
-        processInstance = ksession.startProcess("com.baeldung.bpmn.helloworld");
+        processInstance = ksession.startProcess("com.surya.bpmn.helloworld");
     }
 
     @After

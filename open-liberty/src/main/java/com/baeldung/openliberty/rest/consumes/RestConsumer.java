@@ -1,4 +1,4 @@
-package com.baeldung.openliberty.rest.consumes;
+package com.surya.openliberty.rest.consumes;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

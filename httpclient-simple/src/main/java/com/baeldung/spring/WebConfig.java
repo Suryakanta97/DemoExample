@@ -1,4 +1,4 @@
-package com.baeldung.spring;
+package com.surya.spring;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.baeldung.web")
+@ComponentScan("com.surya.web")
 public class WebConfig implements WebMvcConfigurer {
 
     public WebConfig() {

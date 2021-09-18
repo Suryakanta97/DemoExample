@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization.customdeserializer;
+package com.surya.jackson.enums.deserialization.customdeserializer;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 

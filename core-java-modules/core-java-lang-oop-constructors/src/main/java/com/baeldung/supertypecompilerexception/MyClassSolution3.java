@@ -1,4 +1,4 @@
-package com.baeldung.supertypecompilerexception;
+package com.surya.supertypecompilerexception;
 
 public class MyClassSolution3 {
 

@@ -1,4 +1,4 @@
-package com.baeldung.staticmodifier;
+package com.surya.staticmodifier;
 
 /**
  * This class demonstrates the use of static fields and static methods
@@ -6,7 +6,7 @@ package com.baeldung.staticmodifier;
  * each and every object whereas static/class variable numberOfCars
  * is unique and is shared across all objects of this class.
  * 
- * @author baeldung
+ * @author surya
  *
  */
 public class Car {

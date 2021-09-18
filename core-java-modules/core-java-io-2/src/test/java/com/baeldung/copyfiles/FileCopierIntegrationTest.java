@@ -1,4 +1,4 @@
-package com.baeldung.copyfiles;
+package com.surya.copyfiles;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

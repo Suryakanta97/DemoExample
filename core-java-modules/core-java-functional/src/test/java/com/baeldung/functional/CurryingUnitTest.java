@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.surya.functional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

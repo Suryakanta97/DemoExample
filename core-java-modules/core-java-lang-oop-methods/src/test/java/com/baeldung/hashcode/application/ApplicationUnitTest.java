@@ -1,6 +1,6 @@
-package com.baeldung.hashcode.application;
+package com.surya.hashcode.application;
 
-import com.baeldung.hashcode.standard.User;
+import com.surya.hashcode.standard.User;
 import org.junit.Test;
 
 import java.util.HashMap;

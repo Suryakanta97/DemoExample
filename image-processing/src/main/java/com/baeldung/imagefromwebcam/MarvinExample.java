@@ -1,4 +1,4 @@
-package com.baeldung.imagefromwebcam;
+package com.surya.imagefromwebcam;
 
 import marvin.gui.MarvinImagePanel;
 import marvin.image.MarvinImage;

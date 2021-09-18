@@ -1,6 +1,6 @@
-package com.baeldung.scribejava.controller;
+package com.surya.scribejava.controller;
 
-import com.baeldung.scribejava.service.TwitterService;
+import com.surya.scribejava.service.TwitterService;
 import com.github.scribejava.core.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

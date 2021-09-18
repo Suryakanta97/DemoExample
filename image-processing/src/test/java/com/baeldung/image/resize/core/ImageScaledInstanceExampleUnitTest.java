@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.core;
+package com.surya.image.resize.core;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

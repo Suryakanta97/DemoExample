@@ -1,4 +1,4 @@
-package com.baeldung.random;
+package com.surya.random;
 
 import java.security.SecureRandom;
 import java.security.NoSuchAlgorithmException;

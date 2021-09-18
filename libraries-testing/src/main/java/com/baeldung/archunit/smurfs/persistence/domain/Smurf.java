@@ -1,4 +1,4 @@
-package com.baeldung.archunit.smurfs.persistence.domain;
+package com.surya.archunit.smurfs.persistence.domain;
 
 public class Smurf {
     private String name;

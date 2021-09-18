@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode;
+package com.surya.equalshashcode;
 
 class Voucher {
 

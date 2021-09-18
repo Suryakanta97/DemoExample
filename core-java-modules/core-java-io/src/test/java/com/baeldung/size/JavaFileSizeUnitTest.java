@@ -1,4 +1,4 @@
-package com.baeldung.size;
+package com.surya.size;
 
 import static org.junit.Assert.assertEquals;
 

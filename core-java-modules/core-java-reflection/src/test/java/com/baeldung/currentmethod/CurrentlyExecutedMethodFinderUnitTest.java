@@ -1,4 +1,4 @@
-package com.baeldung.java.currentmethod;
+package com.surya.java.currentmethod;
 
 import org.junit.Test;
 

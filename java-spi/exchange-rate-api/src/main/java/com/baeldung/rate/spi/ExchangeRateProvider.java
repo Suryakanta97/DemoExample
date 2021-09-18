@@ -1,6 +1,6 @@
-package com.baeldung.rate.spi;
+package com.surya.rate.spi;
 
-import com.baeldung.rate.api.QuoteManager;
+import com.surya.rate.api.QuoteManager;
 
 public interface ExchangeRateProvider {
     QuoteManager create();

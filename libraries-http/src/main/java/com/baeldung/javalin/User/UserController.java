@@ -1,4 +1,4 @@
-package com.baeldung.javalin.User;
+package com.surya.javalin.User;
 
 import io.javalin.Handler;
 

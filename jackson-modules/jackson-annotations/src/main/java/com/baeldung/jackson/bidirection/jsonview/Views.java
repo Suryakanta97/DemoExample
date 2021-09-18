@@ -1,4 +1,4 @@
-package com.baeldung.jackson.bidirection.jsonview;
+package com.surya.jackson.bidirection.jsonview;
 
 public class Views {
     public static class Public {

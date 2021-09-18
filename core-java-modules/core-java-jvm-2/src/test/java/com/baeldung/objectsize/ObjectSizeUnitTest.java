@@ -1,4 +1,4 @@
-package com.baeldung.objectsize;
+package com.surya.objectsize;
 
 import org.junit.Test;
 import org.openjdk.jol.info.ClassLayout;

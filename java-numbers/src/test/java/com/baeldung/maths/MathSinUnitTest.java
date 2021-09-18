@@ -1,4 +1,4 @@
-package com.baeldung.maths;
+package com.surya.maths;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization.jsondeserialize;
+package com.surya.jackson.deserialization.jsondeserialize;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;

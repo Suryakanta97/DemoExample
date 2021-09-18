@@ -1,4 +1,4 @@
-package com.baeldung.batch.understanding;
+package com.surya.batch.understanding;
 
 import java.io.Serializable;
 import java.util.Properties;

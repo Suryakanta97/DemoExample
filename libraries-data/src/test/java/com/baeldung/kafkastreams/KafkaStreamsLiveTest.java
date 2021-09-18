@@ -1,4 +1,4 @@
-package com.baeldung.kafkastreams;
+package com.surya.kafkastreams;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.Serde;

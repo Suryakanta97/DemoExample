@@ -1,4 +1,4 @@
-package com.baeldung.cdi.extension;
+package com.surya.cdi.extension;
 
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.flywaydb.core.Flyway;

@@ -1,4 +1,4 @@
-package com.baeldung.commons.beanutils;
+package com.surya.commons.beanutils;
 
 public class Student {
     private String name;

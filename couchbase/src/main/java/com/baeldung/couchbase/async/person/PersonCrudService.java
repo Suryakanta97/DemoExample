@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.person;
+package com.surya.couchbase.async.person;
 
 import javax.annotation.PostConstruct;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.baeldung.couchbase.async.service.AbstractCrudService;
-import com.baeldung.couchbase.async.service.BucketService;
+import com.surya.couchbase.async.service.AbstractCrudService;
+import com.surya.couchbase.async.service.BucketService;
 
 @Service
 public class PersonCrudService extends AbstractCrudService<Person> {

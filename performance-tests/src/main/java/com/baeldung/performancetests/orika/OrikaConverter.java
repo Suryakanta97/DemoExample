@@ -1,10 +1,10 @@
-package com.baeldung.performancetests.orika;
+package com.surya.performancetests.orika;
 
-import com.baeldung.performancetests.Converter;
-import com.baeldung.performancetests.model.destination.DestinationCode;
-import com.baeldung.performancetests.model.source.SourceCode;
-import com.baeldung.performancetests.model.source.SourceOrder;
-import com.baeldung.performancetests.model.destination.Order;
+import com.surya.performancetests.Converter;
+import com.surya.performancetests.model.destination.DestinationCode;
+import com.surya.performancetests.model.source.SourceCode;
+import com.surya.performancetests.model.source.SourceOrder;
+import com.surya.performancetests.model.destination.Order;
 import ma.glasnost.orika.MapperFacade;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.impl.DefaultMapperFactory;

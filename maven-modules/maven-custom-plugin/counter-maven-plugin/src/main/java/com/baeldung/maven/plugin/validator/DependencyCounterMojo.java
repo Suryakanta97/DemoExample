@@ -1,4 +1,4 @@
-package com.baeldung.maven.plugin.validator;
+package com.surya.maven.plugin.validator;
 
 import java.util.List;
 

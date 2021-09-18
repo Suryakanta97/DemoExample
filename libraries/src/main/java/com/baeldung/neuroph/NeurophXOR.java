@@ -1,4 +1,4 @@
-package com.baeldung.neuroph;
+package com.surya.neuroph;
 
 import org.neuroph.core.Layer;
 import org.neuroph.core.NeuralNetwork;

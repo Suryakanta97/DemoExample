@@ -1,4 +1,4 @@
-package com.baeldung.screenshot;
+package com.surya.screenshot;
 
 import javax.imageio.ImageIO;
 import java.awt.Component;

@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode;
+package com.surya.equalshashcode;
 
 /* (non-Javadoc)
 * This class overrides equals, but it doesn't override hashCode.

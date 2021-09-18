@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Introduction to Netflix Genie](https://www.baeldung.com/netflix-genie-intro)
+- [Introduction to Netflix Genie](https://www.surya.com/netflix-genie-intro)

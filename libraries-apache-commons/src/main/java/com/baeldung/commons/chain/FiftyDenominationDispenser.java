@@ -1,6 +1,6 @@
-package com.baeldung.commons.chain;
+package com.surya.commons.chain;
 
-import static com.baeldung.commons.chain.AtmConstants.NO_OF_FIFTIES_DISPENSED;
+import static com.surya.commons.chain.AtmConstants.NO_OF_FIFTIES_DISPENSED;
 
 public class FiftyDenominationDispenser extends AbstractDenominationDispenser {
     @Override

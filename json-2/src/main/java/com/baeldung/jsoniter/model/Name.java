@@ -1,4 +1,4 @@
-package com.baeldung.jsoniter.model;
+package com.surya.jsoniter.model;
 
 public class Name {
     private String firstName;

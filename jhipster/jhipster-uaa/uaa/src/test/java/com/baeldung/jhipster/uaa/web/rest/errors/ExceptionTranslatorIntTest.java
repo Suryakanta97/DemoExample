@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.uaa.web.rest.errors;
+package com.surya.jhipster.uaa.web.rest.errors;
 
-import com.baeldung.jhipster.uaa.UaaApp;
-import com.baeldung.jhipster.uaa.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.uaa.UaaApp;
+import com.surya.jhipster.uaa.config.SecurityBeanOverrideConfiguration;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

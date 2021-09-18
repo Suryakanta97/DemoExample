@@ -1,3 +1,3 @@
-module com.baeldung.maven.java9 {
+module com.surya.maven.java9 {
     requires java.xml;
 }

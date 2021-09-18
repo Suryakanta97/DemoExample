@@ -8,7 +8,7 @@
     <name>jackson-custom-conversions</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>jackson-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

@@ -1,4 +1,4 @@
-package com.baeldung.libraries.jdo;
+package com.surya.libraries.jdo;
 
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;

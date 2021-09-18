@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.dtos.withEnum;
+package com.surya.jackson.annotation.dtos.withEnum;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 

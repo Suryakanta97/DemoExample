@@ -1,6 +1,6 @@
-package com.baeldung.rate.impl;
+package com.surya.rate.impl;
 
-import com.baeldung.rate.api.Quote;
+import com.surya.rate.api.Quote;
 
 import java.util.List;
 

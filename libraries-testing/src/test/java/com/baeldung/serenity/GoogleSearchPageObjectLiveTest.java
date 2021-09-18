@@ -1,6 +1,6 @@
-package com.baeldung.serenity;
+package com.surya.serenity;
 
-import com.baeldung.serenity.pageobjects.GoogleSearchPageObject;
+import com.surya.serenity.pageobjects.GoogleSearchPageObject;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import org.junit.Test;
@@ -16,12 +16,12 @@ public class GoogleSearchPageObjectLiveTest {
     private GoogleSearchPageObject googleSearch;
 
     @Test
-    public void whenGoogleBaeldungThenShouldSeeEugen() {
+    public void whenGooglesuryaThenShouldSeeEugen() {
         googleSearch.open();
 
-        googleSearch.searchFor("baeldung");
+        googleSearch.searchFor("surya");
 
-        googleSearch.resultMatches("Eugen (Baeldung)");
+        googleSearch.resultMatches("Eugen (surya)");
     }
 
 }

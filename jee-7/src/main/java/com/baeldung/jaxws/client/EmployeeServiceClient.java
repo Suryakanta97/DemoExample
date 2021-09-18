@@ -1,4 +1,4 @@
-package com.baeldung.jaxws.client;
+package com.surya.jaxws.client;
 
 import java.net.URL;
 import java.util.List;

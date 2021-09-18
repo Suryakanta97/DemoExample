@@ -1,4 +1,4 @@
-package com.baeldung.service.locator;
+package com.surya.service.locator;
 
 import java.util.ArrayList;
 import java.util.List;

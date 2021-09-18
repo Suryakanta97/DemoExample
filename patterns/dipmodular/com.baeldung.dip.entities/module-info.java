@@ -1,3 +1,3 @@
-module com.baeldung.dip.entities {
-    exports com.baeldung.dip.entities;
+module com.surya.dip.entities {
+    exports com.surya.dip.entities;
 }

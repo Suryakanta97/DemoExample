@@ -1,4 +1,4 @@
-package com.baeldung.dto;
+package com.surya.dto;
 
 public class SimpleSource {
 

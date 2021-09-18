@@ -1,4 +1,4 @@
-package com.baeldung.regex.matcher;
+package com.surya.regex.matcher;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

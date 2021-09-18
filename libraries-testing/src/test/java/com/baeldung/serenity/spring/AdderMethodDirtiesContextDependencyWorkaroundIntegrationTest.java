@@ -1,6 +1,6 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
-import com.baeldung.serenity.spring.steps.AdderConstructorDependencySteps;
+import com.surya.serenity.spring.steps.AdderConstructorDependencySteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.junit.spring.integration.SpringIntegrationMethodRule;
 import org.junit.Before;
@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ContextConfiguration;
 
-import static com.baeldung.serenity.spring.RandomNumberUtil.randomInt;
+import static com.surya.serenity.spring.RandomNumberUtil.randomInt;
 
 /**
  * @author aiet

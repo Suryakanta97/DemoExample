@@ -1,4 +1,4 @@
-package com.baeldung.copyconstructor;
+package com.surya.copyconstructor;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -14,13 +14,13 @@ public class ManagerUnitTest {
     @Test
     public void givenCopyConstructor_whenDeepCopy_thenDistinct() {
         Date startDate = new Date(123);
-        Employee e1 = new Employee(1, "Baeldung", startDate);
+        Employee e1 = new Employee(1, "surya", startDate);
         Employee e2 = new Employee(e1);
         List<Employee> directReports = new ArrayList<Employee>();
         directReports.add(e1);
         directReports.add(e2);
 
-        Manager m1 = new Manager(1, "Baeldung Manager", startDate, directReports);
+        Manager m1 = new Manager(1, "surya Manager", startDate, directReports);
         Manager m2 = new Manager(m1);
         List<Employee> directReports1 = m1.getDirectReport();
         List<Employee> directReports2 = m2.getDirectReport();
@@ -39,14 +39,14 @@ public class ManagerUnitTest {
     @Test
     public void givenCopyMethod_whenCopy_thenDistinct() {
         Date startDate = new Date(123);
-        Employee e1 = new Employee(1, "Baeldung", startDate);
+        Employee e1 = new Employee(1, "surya", startDate);
         Employee e2 = new Employee(e1);
         List<Employee> directReports = new ArrayList<Employee>();
         directReports.add(e1);
         directReports.add(e2);
 
         // a Manager object whose declaration type is Employee.
-        Employee source = new Manager(1, "Baeldung Manager", startDate, directReports);
+        Employee source = new Manager(1, "surya Manager", startDate, directReports);
         Employee clone = source.copy();
 
         // after copy, clone should be still a Manager object.

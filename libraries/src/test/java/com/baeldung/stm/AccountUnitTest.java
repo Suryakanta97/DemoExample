@@ -1,4 +1,4 @@
-package com.baeldung.stm;
+package com.surya.stm;
 
 import org.junit.Test;
 

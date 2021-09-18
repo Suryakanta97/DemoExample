@@ -1,4 +1,4 @@
-package com.baeldung.mapdb;
+package com.surya.mapdb;
 
 import org.junit.Test;
 import org.mapdb.Serializer;

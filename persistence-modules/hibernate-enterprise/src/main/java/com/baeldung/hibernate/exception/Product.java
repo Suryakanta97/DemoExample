@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.exception;
+package com.surya.hibernate.exception;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

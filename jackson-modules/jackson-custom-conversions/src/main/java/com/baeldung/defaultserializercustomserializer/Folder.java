@@ -1,4 +1,4 @@
-package com.baeldung.defaultserializercustomserializer;
+package com.surya.defaultserializercustomserializer;
 
 import java.util.ArrayList;
 import java.util.Date;

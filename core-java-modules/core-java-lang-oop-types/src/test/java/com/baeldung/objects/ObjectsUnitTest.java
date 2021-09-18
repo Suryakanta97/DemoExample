@@ -1,4 +1,4 @@
-package com.baeldung.objects;
+package com.surya.objects;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -14,7 +14,7 @@ public class OptionalUnitTest {
 
     @Test
     public void givenAnEmptyOptional_isEmpty_thenBehavesAsExpected() {
-        Optional<String> opt = Optional.of("Baeldung");
+        Optional<String> opt = Optional.of("surya");
         assertFalse(opt.isEmpty());
 
         opt = Optional.ofNullable(null);

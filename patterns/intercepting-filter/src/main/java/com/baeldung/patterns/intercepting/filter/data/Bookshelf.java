@@ -1,4 +1,4 @@
-package com.baeldung.patterns.intercepting.filter.data;
+package com.surya.patterns.intercepting.filter.data;
 
 import java.util.List;
 

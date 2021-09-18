@@ -1,4 +1,4 @@
-package com.baeldung.pathvsfile;
+package com.surya.pathvsfile;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
@@ -18,8 +18,8 @@ public class PathVsFileUnitTest {
 
     @Test
     public void whenCreateFileAndPath_thenShouldPointTheSame() {
-        File file = new File("baeldung/tutorial.txt");
-        Path path = Paths.get("baeldung/tutorial.txt");
+        File file = new File("surya/tutorial.txt");
+        Path path = Paths.get("surya/tutorial.txt");
 
         assertThat(file.toString())
             .isEqualTo(path.toString());
@@ -28,10 +28,10 @@ public class PathVsFileUnitTest {
         assertThat(path.toFile())
             .isEqualTo(file);
         assertThat(file)
-            .isEqualTo(new File("baeldung", "tutorial.txt"));
+            .isEqualTo(new File("surya", "tutorial.txt"));
         assertThat(path)
-            .isEqualTo(Paths.get("baeldung", "tutorial.txt" ))
-            .isEqualTo(Paths.get("baeldung").resolve("tutorial.txt"));
+            .isEqualTo(Paths.get("surya", "tutorial.txt" ))
+            .isEqualTo(Paths.get("surya").resolve("tutorial.txt"));
     }
 
     @Test

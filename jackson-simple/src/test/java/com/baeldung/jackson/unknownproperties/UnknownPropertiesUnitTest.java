@@ -1,4 +1,4 @@
-package com.baeldung.jackson.unknownproperties;
+package com.surya.jackson.unknownproperties;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.DeserializationFeature;

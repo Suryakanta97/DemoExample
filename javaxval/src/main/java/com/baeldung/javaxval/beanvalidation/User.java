@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.beanvalidation;
+package com.surya.javaxval.beanvalidation;
 
 import java.time.LocalDate;
 import java.util.List;

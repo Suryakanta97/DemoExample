@@ -1,4 +1,4 @@
-package com.baeldung.takes;
+package com.surya.takes;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ public final class TakesContact implements Take {
     public Response act(Request req) throws IOException {
         return new RsWithStatus(
             new RsWithType(
-                new RsWithBody("Contact us at https://www.baeldung.com"), 
+                new RsWithBody("Contact us at https://www.surya.com"), 
                 "text/html"), 200);
     } 
 

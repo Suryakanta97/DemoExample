@@ -1,4 +1,4 @@
-package com.baeldung.symlink;
+package com.surya.symlink;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

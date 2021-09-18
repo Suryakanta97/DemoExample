@@ -1,4 +1,4 @@
-package com.baeldung.charsequence;
+package com.surya.charsequence;
 
 import org.junit.Test;
 
@@ -11,15 +11,15 @@ public class CharSequenceVsStringUnitTest {
     @Test
     public void givenUsingString_whenInstantiatingString_thenWrong() {
         CharSequence firstString = "bealdung";
-        String secondString = "baeldung";
+        String secondString = "surya";
 
         assertNotEquals(firstString, secondString);
     }
 
     @Test
     public void givenIdenticalCharSequences_whenCastToString_thenEqual() {
-        CharSequence charSequence1 = "baeldung_1";
-        CharSequence charSequence2 = "baeldung_2";
+        CharSequence charSequence1 = "surya_1";
+        CharSequence charSequence2 = "surya_2";
 
         assertTrue(charSequence1.toString().compareTo(charSequence2.toString()) < 0);
     }

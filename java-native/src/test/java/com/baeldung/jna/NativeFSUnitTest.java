@@ -1,4 +1,4 @@
-package com.baeldung.jna;
+package com.surya.jna;
 
 import static org.junit.Assert.fail;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,7 +9,7 @@ import java.nio.file.Files;
 
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.jna.NativeFS.Stat;
+import com.surya.jna.NativeFS.Stat;
 import com.sun.jna.LastErrorException;
 import com.sun.jna.Platform;
 

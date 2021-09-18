@@ -1,4 +1,4 @@
-package com.baeldung.soap.ws.client;
+package com.surya.soap.ws.client;
 
 import org.junit.jupiter.api.*;
 

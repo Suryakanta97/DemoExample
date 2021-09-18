@@ -1,4 +1,4 @@
-package com.baeldung.scribejava.oauth;
+package com.surya.scribejava.oauth;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -29,8 +29,8 @@ public class AuthServiceConfig extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
-                .withClient("baeldung_api_key")
-                .secret("baeldung_api_secret")
+                .withClient("surya_api_key")
+                .secret("surya_api_secret")
                 .authorizedGrantTypes("password","refresh_token")
                 .scopes("read","write").autoApprove(true);
     }

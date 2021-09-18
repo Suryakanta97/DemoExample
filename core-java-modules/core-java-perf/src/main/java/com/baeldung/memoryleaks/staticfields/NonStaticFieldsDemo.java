@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.staticfields;
+package com.surya.memoryleaks.staticfields;
 
 import java.util.ArrayList;
 import java.util.List;

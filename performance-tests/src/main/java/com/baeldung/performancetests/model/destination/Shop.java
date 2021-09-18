@@ -1,6 +1,6 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
-import com.baeldung.performancetests.model.source.Address;
+import com.surya.performancetests.model.source.Address;
 import com.googlecode.jmapper.annotations.JGlobalMap;
 
 import java.util.List;

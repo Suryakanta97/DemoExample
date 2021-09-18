@@ -1,4 +1,4 @@
-package com.baeldung.guava.tutorial;
+package com.surya.guava.tutorial;
 
 import com.google.common.collect.Interner;
 import com.google.common.collect.Interners;

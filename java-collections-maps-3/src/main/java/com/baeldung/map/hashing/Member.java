@@ -1,4 +1,4 @@
-package com.baeldung.map.hashing;
+package com.surya.map.hashing;
 
 class Member {
     Integer id;

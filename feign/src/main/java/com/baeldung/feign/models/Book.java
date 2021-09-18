@@ -1,4 +1,4 @@
-package com.baeldung.feign.models;
+package com.surya.feign.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation;
+package com.surya.jackson.annotation;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 

@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.quotes.web.rest;
+package com.surya.jhipster.quotes.web.rest;
 
-import com.baeldung.jhipster.quotes.QuotesApp;
-import com.baeldung.jhipster.quotes.config.SecurityBeanOverrideConfiguration;
-import com.baeldung.jhipster.quotes.web.rest.vm.LoggerVM;
+import com.surya.jhipster.quotes.QuotesApp;
+import com.surya.jhipster.quotes.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.quotes.web.rest.vm.LoggerVM;
 import ch.qos.logback.classic.AsyncAppender;
 import ch.qos.logback.classic.LoggerContext;
 import org.junit.Before;

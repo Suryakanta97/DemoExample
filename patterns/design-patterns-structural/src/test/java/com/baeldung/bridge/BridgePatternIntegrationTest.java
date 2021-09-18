@@ -1,4 +1,4 @@
-package com.baeldung.bridge;
+package com.surya.bridge;
 
 import static org.junit.Assert.*;
 

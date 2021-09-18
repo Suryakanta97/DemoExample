@@ -1,4 +1,4 @@
-package com.baeldung.rawtype;
+package com.surya.rawtype;
 
 import java.util.ArrayList;
 import java.util.List;

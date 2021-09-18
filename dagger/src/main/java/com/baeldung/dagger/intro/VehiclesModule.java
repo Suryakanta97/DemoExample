@@ -1,4 +1,4 @@
-package com.baeldung.dagger.intro;
+package com.surya.dagger.intro;
 
 import javax.inject.Singleton;
 
@@ -32,6 +32,6 @@ public class VehiclesModule {
 	@Provides
 	@Singleton
 	public Brand provideBrand() {
-		return new Brand("Baeldung");
+		return new Brand("surya");
 	}
 }

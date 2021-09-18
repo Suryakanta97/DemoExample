@@ -1,4 +1,4 @@
-package com.baeldung.serenity.spring;
+package com.surya.serenity.spring;
 
 import org.apache.commons.lang3.RandomUtils;
 import org.springframework.http.MediaType;

@@ -4,4 +4,4 @@ This module contains articles about Maven profiles.
 
 ### Relevant Articles
 
-- [Guide to Maven Profiles](https://www.baeldung.com/maven-profiles)
+- [Guide to Maven Profiles](https://www.surya.com/maven-profiles)

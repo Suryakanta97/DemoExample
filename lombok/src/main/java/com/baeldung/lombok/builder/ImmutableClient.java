@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder;
+package com.surya.lombok.builder;
 
 import lombok.Value;
 

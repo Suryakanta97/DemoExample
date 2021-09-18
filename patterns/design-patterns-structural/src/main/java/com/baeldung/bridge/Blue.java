@@ -1,4 +1,4 @@
-package com.baeldung.bridge;
+package com.surya.bridge;
 
 public class Blue implements Color {
     @Override

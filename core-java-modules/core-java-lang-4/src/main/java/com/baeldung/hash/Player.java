@@ -1,4 +1,4 @@
-package com.baeldung.hash;
+package com.surya.hash;
 
 import java.util.Objects;
 

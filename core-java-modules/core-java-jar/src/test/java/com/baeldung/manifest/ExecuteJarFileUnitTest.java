@@ -1,4 +1,4 @@
-package com.baeldung.manifest;
+package com.surya.manifest;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.pojo;
+package com.surya.hibernate.pojo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

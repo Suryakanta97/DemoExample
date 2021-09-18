@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.quotes.service.dto;
+package com.surya.jhipster.quotes.service.dto;
 
 import java.io.Serializable;
 import java.util.Objects;

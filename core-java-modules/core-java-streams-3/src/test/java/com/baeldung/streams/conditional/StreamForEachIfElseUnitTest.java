@@ -1,4 +1,4 @@
-package com.baeldung.streams.conditional;
+package com.surya.streams.conditional;
 
 import java.util.Arrays;
 import java.util.List;

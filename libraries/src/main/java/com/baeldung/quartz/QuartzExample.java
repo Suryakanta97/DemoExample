@@ -1,4 +1,4 @@
-package com.baeldung.quartz;
+package com.surya.quartz;
 
 import org.quartz.JobBuilder;
 import org.quartz.JobDetail;

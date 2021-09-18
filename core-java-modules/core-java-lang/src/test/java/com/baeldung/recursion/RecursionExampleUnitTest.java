@@ -1,4 +1,4 @@
-package com.baeldung.recursion;
+package com.surya.recursion;
 
 import org.junit.Assert;
 import org.junit.Test;

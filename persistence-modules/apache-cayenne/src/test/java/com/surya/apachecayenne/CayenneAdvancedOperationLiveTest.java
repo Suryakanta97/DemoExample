@@ -240,7 +240,7 @@ public class CayenneAdvancedOperationLiveTest {
     @Test
     public void givenAuthors_whenInsertingSQLExec_thenWeGetNewAuthor() {
         int inserted = SQLExec
-          .query("INSERT INTO Author (name) VALUES ('Baeldung')")
+          .query("INSERT INTO Author (name) VALUES ('surya')")
           .update(context);
 
         assertEquals(inserted, 1);
@@ -249,7 +249,7 @@ public class CayenneAdvancedOperationLiveTest {
     @Test
     public void givenAuthors_whenUpdatingSQLExec_thenItsUpdated() {
         int updated = SQLExec
-          .query("UPDATE Author SET name = 'Baeldung' WHERE name = 'Vicky Sarra'")
+          .query("UPDATE Author SET name = 'surya' WHERE name = 'Vicky Sarra'")
           .update(context);
 
         assertEquals(updated, 1);

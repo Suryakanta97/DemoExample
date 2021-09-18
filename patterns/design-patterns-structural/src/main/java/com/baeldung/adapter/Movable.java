@@ -1,4 +1,4 @@
-package com.baeldung.adapter;
+package com.surya.adapter;
 
 public interface Movable {
     // returns speed in MPH 

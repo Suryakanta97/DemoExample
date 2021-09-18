@@ -1,4 +1,4 @@
-package com.baeldung.springmustache;
+package com.surya.springmustache;
 
 import org.junit.Assert;
 import org.junit.Test;

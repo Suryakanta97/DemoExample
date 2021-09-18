@@ -1,4 +1,4 @@
-package com.baeldung.hashing;
+package com.surya.hashing;
 
 import com.google.common.hash.Hashing;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -8,8 +8,8 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import static com.baeldung.hashing.DigestAlgorithms.SHA_256;
-import static com.baeldung.hashing.SHACommonUtils.bytesToHex;
+import static com.surya.hashing.DigestAlgorithms.SHA_256;
+import static com.surya.hashing.SHACommonUtils.bytesToHex;
 
 public class SHA256Hashing {
 

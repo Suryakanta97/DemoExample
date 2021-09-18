@@ -1,4 +1,4 @@
-package com.baeldung.primitive;
+package com.surya.primitive;
 
 import org.openjdk.jmh.results.RunResult;
 import org.openjdk.jmh.runner.Runner;

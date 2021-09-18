@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.domain;
+package com.surya.jhipster.uaa.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.envers.Audited;

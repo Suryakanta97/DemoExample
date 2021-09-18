@@ -1,9 +1,9 @@
-package com.baeldung.lombok.intro;
+package com.surya.lombok.intro;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-import com.baeldung.lombok.intro.ApiClientConfiguration.ApiClientConfigurationBuilder;
+import com.surya.lombok.intro.ApiClientConfiguration.ApiClientConfigurationBuilder;
 import org.junit.Assert;
 import org.junit.Test;
 

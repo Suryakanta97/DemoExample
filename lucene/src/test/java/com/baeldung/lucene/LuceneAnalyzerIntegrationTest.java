@@ -1,4 +1,4 @@
-package com.baeldung.lucene;
+package com.surya.lucene;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
@@ -30,49 +30,49 @@ import org.junit.Test;
 
 public class LuceneAnalyzerIntegrationTest {
 
-    private static final String SAMPLE_TEXT = "This is baeldung.com Lucene Analyzers test";
+    private static final String SAMPLE_TEXT = "This is surya.com Lucene Analyzers test";
     private static final String FIELD_NAME = "sampleName";
 
     @Test
     public void whenUseStandardAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new StandardAnalyzer());
 
-        assertThat(result, contains("baeldung.com", "lucene", "analyzers", "test"));
+        assertThat(result, contains("surya.com", "lucene", "analyzers", "test"));
     }
 
     @Test
     public void whenUseStopAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new StopAnalyzer());
 
-        assertThat(result, contains("baeldung", "com", "lucene", "analyzers", "test"));
+        assertThat(result, contains("surya", "com", "lucene", "analyzers", "test"));
     }
 
     @Test
     public void whenUseSimpleAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new SimpleAnalyzer());
 
-        assertThat(result, contains("this", "is", "baeldung", "com", "lucene", "analyzers", "test"));
+        assertThat(result, contains("this", "is", "surya", "com", "lucene", "analyzers", "test"));
     }
 
     @Test
     public void whenUseWhiteSpaceAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new WhitespaceAnalyzer());
 
-        assertThat(result, contains("This", "is", "baeldung.com", "Lucene", "Analyzers", "test"));
+        assertThat(result, contains("This", "is", "surya.com", "Lucene", "Analyzers", "test"));
     }
 
     @Test
     public void whenUseKeywordAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new KeywordAnalyzer());
 
-        assertThat(result, contains("This is baeldung.com Lucene Analyzers test"));
+        assertThat(result, contains("This is surya.com Lucene Analyzers test"));
     }
 
     @Test
     public void whenUseEnglishAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new EnglishAnalyzer());
 
-        assertThat(result, contains("baeldung.com", "lucen", "analyz", "test"));
+        assertThat(result, contains("surya.com", "lucen", "analyz", "test"));
     }
 
     @Test
@@ -86,14 +86,14 @@ public class LuceneAnalyzerIntegrationTest {
             .build();
         List<String> result = analyze(SAMPLE_TEXT, analyzer);
 
-        assertThat(result, contains("Baeldung.com", "Lucen", "Analyz", "Test"));
+        assertThat(result, contains("surya.com", "Lucen", "Analyz", "Test"));
     }
 
     @Test
     public void whenUseCustomAnalyzer_thenAnalyzed() throws IOException {
         List<String> result = analyze(SAMPLE_TEXT, new MyCustomAnalyzer());
 
-        assertThat(result, contains("Baeldung.com", "Lucen", "Analyz", "Test"));
+        assertThat(result, contains("surya.com", "Lucen", "Analyz", "Test"));
     }
 
     // ================= usage example

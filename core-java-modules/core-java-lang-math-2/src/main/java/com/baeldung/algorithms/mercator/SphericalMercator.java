@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.mercator;
+package com.surya.algorithms.mercator;
 
 public class SphericalMercator extends  Mercator {
 

@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder;
+package com.surya.lombok.builder;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

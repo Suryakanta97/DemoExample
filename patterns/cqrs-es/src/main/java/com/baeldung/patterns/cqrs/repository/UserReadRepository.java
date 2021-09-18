@@ -1,10 +1,10 @@
-package com.baeldung.patterns.cqrs.repository;
+package com.surya.patterns.cqrs.repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.baeldung.patterns.domain.UserAddress;
-import com.baeldung.patterns.domain.UserContact;
+import com.surya.patterns.domain.UserAddress;
+import com.surya.patterns.domain.UserContact;
 
 public class UserReadRepository {
 

@@ -1,6 +1,6 @@
-package com.baeldung.okhttp.post;
+package com.surya.okhttp.post;
 
-import static com.baeldung.client.Consts.APPLICATION_PORT;
+import static com.surya.client.Consts.APPLICATION_PORT;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
 

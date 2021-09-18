@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.source;
+package com.surya.performancetests.model.source;
 
 import com.googlecode.jmapper.annotations.JGlobalMap;
 import com.googlecode.jmapper.annotations.JMapAccessor;

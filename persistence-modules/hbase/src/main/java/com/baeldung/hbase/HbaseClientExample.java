@@ -1,4 +1,4 @@
-package com.baeldung.hbase;
+package com.surya.hbase;
 
 
 import com.google.protobuf.ServiceException;

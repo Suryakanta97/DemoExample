@@ -1,6 +1,6 @@
-package com.baeldung.proxy;
+package com.surya.proxy;
 
-import static com.baeldung.util.LoggerUtil.LOG;
+import static com.surya.util.LoggerUtil.LOG;
 
 public class ExpensiveObjectImpl implements ExpensiveObject {
 

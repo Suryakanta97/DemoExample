@@ -1,4 +1,4 @@
-package com.baeldung.fileparser;
+package com.surya.fileparser;
 
 import static org.junit.Assert.assertTrue;
 

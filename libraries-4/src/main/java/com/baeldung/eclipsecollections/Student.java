@@ -1,4 +1,4 @@
-package com.baeldung.eclipsecollections;
+package com.surya.eclipsecollections;
 
 import java.util.List;
 

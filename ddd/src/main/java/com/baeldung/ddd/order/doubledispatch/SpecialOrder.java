@@ -1,9 +1,9 @@
-package com.baeldung.ddd.order.doubledispatch;
+package com.surya.ddd.order.doubledispatch;
 
 import java.util.List;
 
-import com.baeldung.ddd.order.OrderLine;
-import com.baeldung.ddd.order.doubledispatch.visitor.OrderVisitor;
+import com.surya.ddd.order.OrderLine;
+import com.surya.ddd.order.doubledispatch.visitor.OrderVisitor;
 
 public class SpecialOrder extends Order {
 

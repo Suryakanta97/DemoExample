@@ -1,4 +1,4 @@
-package com.baeldung.dbunit;
+package com.surya.dbunit;
 
 public class ConnectionSettings {
     public static final String JDBC_DRIVER = org.h2.Driver.class.getName();

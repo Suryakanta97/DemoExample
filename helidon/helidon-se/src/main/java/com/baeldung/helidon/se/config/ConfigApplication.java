@@ -1,4 +1,4 @@
-package com.baeldung.helidon.se.config;
+package com.surya.helidon.se.config;
 
 import io.helidon.config.Config;
 import io.helidon.config.ConfigSources;

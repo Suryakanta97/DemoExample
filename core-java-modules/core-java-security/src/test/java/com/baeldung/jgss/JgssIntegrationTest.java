@@ -1,4 +1,4 @@
-package com.baeldung.jgss;
+package com.surya.jgss;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -62,7 +62,7 @@ public class JgssIntegrationTest {
     @Test
     public void givenContext_whenStarted_thenSecurityWorks() throws SaslException, GSSException {
         // On the client-side
-        byte[] messageBytes = "Baeldung".getBytes();
+        byte[] messageBytes = "surya".getBytes();
         MessageProp clientProp = new MessageProp(0, true);
         byte[] clientToken = clientContext.wrap(messageBytes, 0, messageBytes.length, clientProp);
         // sendToServer(clientToken); // This is supposed to be send over the network
@@ -72,7 +72,7 @@ public class JgssIntegrationTest {
         byte[] bytes = serverContext.unwrap(clientToken, 0, clientToken.length, serverProp);
         String string = new String(bytes);
 
-        assertEquals("Baeldung", string);
+        assertEquals("surya", string);
     }
 
     @After

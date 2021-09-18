@@ -1,4 +1,4 @@
-package com.baeldung.isinstancevsisassignablefrom;
+package com.surya.isinstancevsisassignablefrom;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

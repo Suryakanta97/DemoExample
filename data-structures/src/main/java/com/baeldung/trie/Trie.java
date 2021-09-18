@@ -1,4 +1,4 @@
-package com.baeldung.trie;
+package com.surya.trie;
 
 class Trie {
     private TrieNode root;

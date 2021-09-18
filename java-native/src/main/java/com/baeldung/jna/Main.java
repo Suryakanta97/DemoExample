@@ -1,4 +1,4 @@
-package com.baeldung.jna;
+package com.surya.jna;
 
 public class Main {
 	

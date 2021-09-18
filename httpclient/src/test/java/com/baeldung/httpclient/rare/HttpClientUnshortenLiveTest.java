@@ -1,4 +1,4 @@
-package com.baeldung.httpclient.rare;
+package com.surya.httpclient.rare;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
@@ -37,14 +37,14 @@ public class HttpClientUnshortenLiveTest {
 
     @Test
     public final void givenShortenedOnce_whenUrlIsUnshortened_thenCorrectResult() throws IOException {
-        final String expectedResult = "http://www.baeldung.com/rest-versioning";
+        final String expectedResult = "http://www.surya.com/rest-versioning";
         final String actualResult = expandSingleLevel("http://bit.ly/13jEoS1");
         assertThat(actualResult, equalTo(expectedResult));
     }
 
     @Test
     public final void givenShortenedMultiple_whenUrlIsUnshortened_thenCorrectResult() throws IOException {
-        final String expectedResult = "http://www.baeldung.com/rest-versioning";
+        final String expectedResult = "http://www.surya.com/rest-versioning";
         final String actualResult = expand("http://t.co/e4rDDbnzmk");
         assertThat(actualResult, equalTo(expectedResult));
     }

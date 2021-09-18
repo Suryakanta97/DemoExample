@@ -1,4 +1,4 @@
-package com.baeldung.scannernextline;
+package com.surya.scannernextline;
 
 import org.junit.Test;
 

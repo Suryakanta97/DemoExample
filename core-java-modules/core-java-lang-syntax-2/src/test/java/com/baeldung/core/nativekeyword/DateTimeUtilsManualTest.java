@@ -1,4 +1,4 @@
-package com.baeldung.core.nativekeyword;
+package com.surya.core.nativekeyword;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

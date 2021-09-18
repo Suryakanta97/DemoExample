@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.gateway.responserewriting;
+package com.surya.jhipster.gateway.gateway.responserewriting;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.netflix.zuul.context.RequestContext;

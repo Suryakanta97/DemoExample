@@ -1,4 +1,4 @@
-package com.baeldung.commons.math3;
+package com.surya.commons.math3;
 
 import org.apache.commons.math3.stat.Frequency;
 import org.knowm.xchart.CategoryChart;

@@ -1,4 +1,4 @@
-package com.baeldung.ignite.jdbc;
+package com.surya.ignite.jdbc;
 
 import java.sql.*;
 

@@ -1,4 +1,4 @@
-package com.baeldung.loops;
+package com.surya.loops;
 
 public class LoopsInJava {
 

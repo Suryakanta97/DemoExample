@@ -1,4 +1,4 @@
-package com.baeldung.jackson.try1;
+package com.surya.jackson.try1;
 
 import java.io.Serializable;
 

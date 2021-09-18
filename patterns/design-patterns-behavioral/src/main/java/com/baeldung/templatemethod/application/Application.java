@@ -1,9 +1,9 @@
-package com.baeldung.templatemethod.application;
+package com.surya.templatemethod.application;
 
-import com.baeldung.templatemethod.model.Computer;
-import com.baeldung.templatemethod.model.ComputerBuilder;
-import com.baeldung.templatemethod.model.HighEndComputerBuilder;
-import com.baeldung.templatemethod.model.StandardComputerBuilder;
+import com.surya.templatemethod.model.Computer;
+import com.surya.templatemethod.model.ComputerBuilder;
+import com.surya.templatemethod.model.HighEndComputerBuilder;
+import com.surya.templatemethod.model.StandardComputerBuilder;
 
 public class Application {
     

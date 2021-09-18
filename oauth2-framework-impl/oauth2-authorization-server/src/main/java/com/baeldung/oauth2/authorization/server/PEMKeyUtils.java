@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.authorization.server;
+package com.surya.oauth2.authorization.server;
 
 import java.net.URI;
 import java.nio.file.Files;

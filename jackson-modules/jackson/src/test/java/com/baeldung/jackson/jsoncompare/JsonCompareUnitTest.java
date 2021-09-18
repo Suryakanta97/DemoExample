@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsoncompare;
+package com.surya.jackson.jsoncompare;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;

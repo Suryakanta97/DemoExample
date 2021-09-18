@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization.jsondeserialize;
+package com.surya.jackson.deserialization.jsondeserialize;
 
 import java.math.BigDecimal;
 import java.util.Date;

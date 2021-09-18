@@ -1,6 +1,6 @@
-package com.baeldung.jtademo.services;
+package com.surya.jtademo.services;
 
-import com.baeldung.jtademo.dto.TransferLog;
+import com.surya.jtademo.dto.TransferLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;

@@ -1,4 +1,4 @@
-package com.baeldung.java9.aot;
+package com.surya.java9.aot;
 
 public class JaotCompilation {
 

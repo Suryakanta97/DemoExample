@@ -1,4 +1,4 @@
-package com.baeldung.json;
+package com.surya.json;
 
 import java.util.Date;
 import java.util.List;

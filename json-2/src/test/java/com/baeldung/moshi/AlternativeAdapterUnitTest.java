@@ -1,4 +1,4 @@
-package com.baeldung.moshi;
+package com.surya.moshi;
 
 import java.io.IOException;
 import java.lang.annotation.ElementType;
@@ -23,7 +23,7 @@ public class AlternativeAdapterUnitTest {
           .build();
         JsonAdapter<Post> jsonAdapter = moshi.adapter(Post.class);
 
-        String json = jsonAdapter.toJson(new Post("Introduction to Moshi Json", "Baeldung", Instant.now()));
+        String json = jsonAdapter.toJson(new Post("Introduction to Moshi Json", "surya", Instant.now()));
         System.out.println(json);
     }
 
@@ -34,7 +34,7 @@ public class AlternativeAdapterUnitTest {
           .build();
         JsonAdapter<Post> jsonAdapter = moshi.adapter(Post.class);
 
-        String json = "{\"author\":\"Baeldung\",\"posted\":1582095269204,\"title\":\"Introduction to Moshi Json\"}";
+        String json = "{\"author\":\"surya\",\"posted\":1582095269204,\"title\":\"Introduction to Moshi Json\"}";
         Post post = jsonAdapter.fromJson(json);
         System.out.println(post);
 

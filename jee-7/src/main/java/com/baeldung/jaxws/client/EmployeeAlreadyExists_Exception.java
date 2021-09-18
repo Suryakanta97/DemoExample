@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxws.client;
+package com.surya.jaxws.client;
 
 import javax.xml.ws.WebFault;
 
@@ -10,7 +10,7 @@ import javax.xml.ws.WebFault;
  * Generated source version: 2.2
  * 
  */
-@WebFault(name = "EmployeeAlreadyExists", targetNamespace = "http://bottomup.server.jaxws.baeldung.com/")
+@WebFault(name = "EmployeeAlreadyExists", targetNamespace = "http://bottomup.server.jaxws.surya.com/")
 public class EmployeeAlreadyExists_Exception
     extends Exception
 {
@@ -45,7 +45,7 @@ public class EmployeeAlreadyExists_Exception
     /**
      * 
      * @return
-     *     returns fault bean: com.baeldung.jaxws.client.EmployeeAlreadyExists
+     *     returns fault bean: com.surya.jaxws.client.EmployeeAlreadyExists
      */
     public EmployeeAlreadyExists getFaultInfo() {
         return faultInfo;

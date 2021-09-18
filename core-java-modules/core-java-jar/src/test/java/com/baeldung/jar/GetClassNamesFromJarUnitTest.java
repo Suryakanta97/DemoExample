@@ -1,4 +1,4 @@
-package com.baeldung.jar;
+package com.surya.jar;
 
 import com.google.common.collect.Sets;
 import org.junit.Assert;
@@ -15,12 +15,12 @@ import java.util.stream.Collectors;
 public class GetClassNamesFromJarUnitTest {
     private static final String JAR_PATH = "example-jar/stripe-0.0.1-SNAPSHOT.jar";
     private static final Set<String> EXPECTED_CLASS_NAMES = Sets.newHashSet(
-      "com.baeldung.stripe.StripeApplication",
-      "com.baeldung.stripe.ChargeRequest",
-      "com.baeldung.stripe.StripeService",
-      "com.baeldung.stripe.ChargeRequest$Currency",
-      "com.baeldung.stripe.ChargeController",
-      "com.baeldung.stripe.CheckoutController");
+      "com.surya.stripe.StripeApplication",
+      "com.surya.stripe.ChargeRequest",
+      "com.surya.stripe.StripeService",
+      "com.surya.stripe.ChargeRequest$Currency",
+      "com.surya.stripe.ChargeController",
+      "com.surya.stripe.CheckoutController");
 
     @Test
     public void givenJarFilePath_whenLoadClassNames_thenGetClassNames() throws IOException, URISyntaxException {

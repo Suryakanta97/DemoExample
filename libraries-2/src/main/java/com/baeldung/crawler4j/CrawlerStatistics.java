@@ -1,4 +1,4 @@
-package com.baeldung.crawler4j;
+package com.surya.crawler4j;
 
 public class CrawlerStatistics {
     private int processedPageCount = 0;

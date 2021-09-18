@@ -1,4 +1,4 @@
-package com.baeldung.libraries.docx;
+package com.surya.libraries.docx;
 
 import org.junit.Test;
 

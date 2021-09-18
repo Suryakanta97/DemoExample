@@ -1,4 +1,4 @@
-package com.baeldung.oauth2.client;
+package com.surya.oauth2.client;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

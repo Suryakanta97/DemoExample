@@ -1,3 +1,3 @@
 ## Relevant Articles:
 
-- [Creating a Kubertes Admission Controller in Java](https://www.baeldung.com/java-kubernetes-admission-controller)
+- [Creating a Kubertes Admission Controller in Java](https://www.surya.com/java-kubernetes-admission-controller)

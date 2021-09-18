@@ -1,4 +1,4 @@
 /**
  * Spring Data JPA repositories.
  */
-package com.baeldung.jhipster.quotes.repository;
+package com.surya.jhipster.quotes.repository;

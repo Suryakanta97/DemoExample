@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.providers;
+package com.surya.jersey.server.providers;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;

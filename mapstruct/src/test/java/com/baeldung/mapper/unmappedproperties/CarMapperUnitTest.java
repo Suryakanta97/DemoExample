@@ -1,8 +1,8 @@
-package com.baeldung.mapper.unmappedproperties;
+package com.surya.mapper.unmappedproperties;
 
-import com.baeldung.unmappedproperties.dto.CarDTO;
-import com.baeldung.unmappedproperties.entity.Car;
-import com.baeldung.unmappedproperties.mapper.CarMapper;
+import com.surya.unmappedproperties.dto.CarDTO;
+import com.surya.unmappedproperties.entity.Car;
+import com.surya.unmappedproperties.mapper.CarMapper;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

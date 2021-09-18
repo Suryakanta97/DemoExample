@@ -1,7 +1,7 @@
-package com.baeldung.retrofit.dynamic;
+package com.surya.retrofit.dynamic;
 
-import com.baeldung.retrofit.models.Contributor;
-import com.baeldung.retrofit.models.Repository;
+import com.surya.retrofit.models.Contributor;
+import com.surya.retrofit.models.Repository;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -26,7 +26,7 @@ class GitHubDynamicApiService {
 
         repos = repos != null ? repos : Collections.emptyList();
 
-        return repos.stream().flatMap(repo -> getContributors("repos/eugenp/"+repo+"/contributors")).sorted((a, b) -> b.getContributions() - a.getContributions()).map(com.baeldung.retrofit.models.Contributor::getName).distinct().sorted().collect(Collectors.toList());
+        return repos.stream().flatMap(repo -> getContributors("repos/eugenp/"+repo+"/contributors")).sorted((a, b) -> b.getContributions() - a.getContributions()).map(com.surya.retrofit.models.Contributor::getName).distinct().sorted().collect(Collectors.toList());
     }
 
     private Stream<Contributor> getContributors(String fullUrl) {

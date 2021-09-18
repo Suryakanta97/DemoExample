@@ -1,4 +1,4 @@
-package com.baeldung.imagefromwebcam;
+package com.surya.imagefromwebcam;
 
 import org.bytedeco.javacv.*;
 import org.bytedeco.opencv.opencv_core.IplImage;

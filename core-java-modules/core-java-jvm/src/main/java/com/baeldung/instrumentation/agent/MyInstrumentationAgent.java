@@ -1,4 +1,4 @@
-package com.baeldung.instrumentation.agent;
+package com.surya.instrumentation.agent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,14 +11,14 @@ public class MyInstrumentationAgent {
     public static void premain(String agentArgs, Instrumentation inst) {
         LOGGER.info("[Agent] In premain method");
 
-        String className = "com.baeldung.instrumentation.application.MyAtm";
+        String className = "com.surya.instrumentation.application.MyAtm";
         transformClass(className,inst);
     }
 
     public static void agentmain(String agentArgs, Instrumentation inst) {
         LOGGER.info("[Agent] In agentmain method");
 
-        String className = "com.baeldung.instrumentation.application.MyAtm";
+        String className = "com.surya.instrumentation.application.MyAtm";
         transformClass(className,inst);
     }
 

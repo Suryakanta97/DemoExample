@@ -1,4 +1,4 @@
-package com.baeldung.variableandmethodhiding.method;
+package com.surya.variableandmethodhiding.method;
 
 
 public class ChildMethodClass extends BaseMethodClass {

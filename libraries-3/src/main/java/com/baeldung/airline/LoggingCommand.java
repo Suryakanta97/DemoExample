@@ -1,4 +1,4 @@
-package com.baeldung.airline;
+package com.surya.airline;
 
 import javax.inject.Inject;
 

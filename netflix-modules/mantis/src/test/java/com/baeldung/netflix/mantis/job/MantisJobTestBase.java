@@ -1,4 +1,4 @@
-package com.baeldung.netflix.mantis.job;
+package com.surya.netflix.mantis.job;
 
 import io.mantisrx.runtime.Job;
 import io.mantisrx.runtime.MantisJobProvider;

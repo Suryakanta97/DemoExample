@@ -1,4 +1,4 @@
-package com.baeldung.ftp;
+package com.surya.ftp;
 
 import org.junit.After;
 import org.junit.Before;

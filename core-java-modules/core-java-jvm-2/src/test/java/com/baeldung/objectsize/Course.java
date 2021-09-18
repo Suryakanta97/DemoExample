@@ -1,4 +1,4 @@
-package com.baeldung.objectsize;
+package com.surya.objectsize;
 
 public class Course {
 

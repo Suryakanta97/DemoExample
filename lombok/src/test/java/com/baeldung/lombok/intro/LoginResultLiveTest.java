@@ -1,4 +1,4 @@
-package com.baeldung.lombok.intro;
+package com.surya.lombok.intro;
 
 import java.net.MalformedURLException;
 import java.net.URL;

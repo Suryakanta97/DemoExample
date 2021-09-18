@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package protobuf;
  
-option java_package = "com.baeldung.serialization.protocols"; 
+option java_package = "com.surya.serialization.protocols"; 
 option java_outer_classname = "UserProtos";
  
 message User { 

@@ -1,4 +1,4 @@
-package com.baeldung.pmd;
+package com.surya.pmd;
 
 import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration;
 import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;

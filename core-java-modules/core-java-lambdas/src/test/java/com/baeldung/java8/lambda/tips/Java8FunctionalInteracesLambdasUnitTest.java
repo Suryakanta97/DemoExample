@@ -1,8 +1,8 @@
-package com.baeldung.java8.lambda.tips;
+package com.surya.java8.lambda.tips;
 
-import com.baeldung.java8.lambda.tips.Foo;
-import com.baeldung.java8.lambda.tips.FooExtended;
-import com.baeldung.java8.lambda.tips.UseFoo;
+import com.surya.java8.lambda.tips.Foo;
+import com.surya.java8.lambda.tips.FooExtended;
+import com.surya.java8.lambda.tips.UseFoo;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.service;
+package com.surya.couchbase.async.service;
 
 import static org.junit.Assert.*;
 
@@ -10,9 +10,9 @@ import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
 
-import com.baeldung.couchbase.async.AsyncIntegrationTest;
-import com.baeldung.couchbase.async.AsyncIntegrationTestConfig;
-import com.baeldung.couchbase.async.service.ClusterService;
+import com.surya.couchbase.async.AsyncIntegrationTest;
+import com.surya.couchbase.async.AsyncIntegrationTestConfig;
+import com.surya.couchbase.async.service.ClusterService;
 import com.couchbase.client.java.Bucket;
 
 @RunWith(SpringJUnit4ClassRunner.class)

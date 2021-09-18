@@ -1,3 +1,3 @@
 <@content for="title">Simple Web App</@content>
 
-<h2>Baeldung ActiveWeb Demo Application</h2>
+<h2>surya ActiveWeb Demo Application</h2>

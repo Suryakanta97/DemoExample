@@ -1,4 +1,4 @@
-package com.baeldung.servicemodule.external;
+package com.surya.servicemodule.external;
 
 public interface TextService {
     

@@ -1,4 +1,4 @@
-package com.baeldung.pem;
+package com.surya.pem;
 
 import org.apache.commons.codec.binary.Base64;
 

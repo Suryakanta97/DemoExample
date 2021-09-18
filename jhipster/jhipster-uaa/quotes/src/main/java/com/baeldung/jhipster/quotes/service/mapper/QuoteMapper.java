@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.quotes.service.mapper;
+package com.surya.jhipster.quotes.service.mapper;
 
-import com.baeldung.jhipster.quotes.domain.*;
-import com.baeldung.jhipster.quotes.service.dto.QuoteDTO;
+import com.surya.jhipster.quotes.domain.*;
+import com.surya.jhipster.quotes.service.dto.QuoteDTO;
 
 import org.mapstruct.*;
 

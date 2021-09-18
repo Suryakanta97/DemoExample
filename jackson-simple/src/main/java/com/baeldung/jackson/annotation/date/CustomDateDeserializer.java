@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.date;
+package com.surya.jackson.annotation.date;
 
 import java.io.IOException;
 import java.text.ParseException;

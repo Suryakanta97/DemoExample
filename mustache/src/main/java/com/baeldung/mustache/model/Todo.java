@@ -1,4 +1,4 @@
-package com.baeldung.mustache.model;
+package com.surya.mustache.model;
 
 import java.time.Duration;
 import java.util.Date;

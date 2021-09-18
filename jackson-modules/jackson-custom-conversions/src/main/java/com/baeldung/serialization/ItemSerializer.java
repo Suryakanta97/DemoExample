@@ -1,4 +1,4 @@
-package com.baeldung.serialization;
+package com.surya.serialization;
 
 import java.io.IOException;
 

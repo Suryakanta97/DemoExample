@@ -1,4 +1,4 @@
-package com.baeldung.deserialization;
+package com.surya.deserialization;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

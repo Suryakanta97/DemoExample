@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.uaa.repository;
+package com.surya.jhipster.uaa.repository;
 
-import com.baeldung.jhipster.uaa.domain.PersistentAuditEvent;
+import com.surya.jhipster.uaa.domain.PersistentAuditEvent;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

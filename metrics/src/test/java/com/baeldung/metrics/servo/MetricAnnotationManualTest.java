@@ -1,4 +1,4 @@
-package com.baeldung.metrics.servo;
+package com.surya.metrics.servo;
 
 import com.netflix.servo.Metric;
 import com.netflix.servo.annotations.DataSourceType;

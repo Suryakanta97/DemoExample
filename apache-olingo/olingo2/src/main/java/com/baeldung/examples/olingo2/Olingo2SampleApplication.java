@@ -1,4 +1,4 @@
-package com.baeldung.examples.olingo2;
+package com.surya.examples.olingo2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.baeldung.stringtolist;
+package com.surya.stringtolist;
 
 import com.google.common.base.Function;
 import com.google.common.base.Splitter;

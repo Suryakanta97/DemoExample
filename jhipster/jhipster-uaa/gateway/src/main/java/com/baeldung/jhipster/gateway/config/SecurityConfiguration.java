@@ -1,9 +1,9 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
-import com.baeldung.jhipster.gateway.config.oauth2.OAuth2JwtAccessTokenConverter;
-import com.baeldung.jhipster.gateway.config.oauth2.OAuth2Properties;
-import com.baeldung.jhipster.gateway.security.oauth2.OAuth2SignatureVerifierClient;
-import com.baeldung.jhipster.gateway.security.AuthoritiesConstants;
+import com.surya.jhipster.gateway.config.oauth2.OAuth2JwtAccessTokenConverter;
+import com.surya.jhipster.gateway.config.oauth2.OAuth2Properties;
+import com.surya.jhipster.gateway.security.oauth2.OAuth2SignatureVerifierClient;
+import com.surya.jhipster.gateway.security.AuthoritiesConstants;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.client.loadbalancer.RestTemplateCustomizer;

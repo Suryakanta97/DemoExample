@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.combination;
+package com.surya.algorithms.combination;
 
 import java.util.Arrays;
 import java.util.Set;

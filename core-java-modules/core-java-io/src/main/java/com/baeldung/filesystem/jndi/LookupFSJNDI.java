@@ -1,4 +1,4 @@
-package com.baeldung.filesystem.jndi;
+package com.surya.filesystem.jndi;
 
 import java.io.File;
 import java.util.Hashtable;

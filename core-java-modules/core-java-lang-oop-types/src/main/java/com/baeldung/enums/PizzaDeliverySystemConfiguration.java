@@ -1,4 +1,4 @@
-package com.baeldung.enums;
+package com.surya.enums;
 
 public enum PizzaDeliverySystemConfiguration {
     INSTANCE;

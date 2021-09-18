@@ -1,4 +1,4 @@
-package com.baeldung.hibernate;
+package com.surya.hibernate;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.service.ServiceRegistry;
 
-import com.baeldung.hibernate.pojo.PointEntity;
-import com.baeldung.hibernate.pojo.PolygonEntity;
-import com.baeldung.hibernate.pojo.Student;
+import com.surya.hibernate.pojo.PointEntity;
+import com.surya.hibernate.pojo.PolygonEntity;
+import com.surya.hibernate.pojo.Student;
 
 public class HibernateUtil {
     private static String PROPERTY_FILE_NAME;
@@ -37,7 +37,7 @@ public class HibernateUtil {
     private static SessionFactory makeSessionFactory(ServiceRegistry serviceRegistry) {
         MetadataSources metadataSources = new MetadataSources(serviceRegistry);
 
-        metadataSources.addPackage("com.baeldung.hibernate.pojo");
+        metadataSources.addPackage("com.surya.hibernate.pojo");
         metadataSources.addAnnotatedClass(Student.class);
         metadataSources.addAnnotatedClass(PointEntity.class);
         metadataSources.addAnnotatedClass(PolygonEntity.class);

@@ -1,4 +1,4 @@
-package com.baeldung.guava.mathutils;
+package com.surya.guava.mathutils;
 
 import static org.junit.Assert.*;
 

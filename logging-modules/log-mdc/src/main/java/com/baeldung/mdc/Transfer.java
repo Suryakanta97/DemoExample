@@ -1,4 +1,4 @@
-package com.baeldung.mdc;
+package com.surya.mdc;
 
 public class Transfer {
 

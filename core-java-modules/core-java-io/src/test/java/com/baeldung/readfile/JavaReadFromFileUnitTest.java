@@ -1,4 +1,4 @@
-package com.baeldung.readfile;
+package com.surya.readfile;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;

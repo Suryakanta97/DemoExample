@@ -1,4 +1,4 @@
-package com.baeldung.jtademo.dto;
+package com.surya.jtademo.dto;
 
 import java.math.BigDecimal;
 

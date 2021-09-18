@@ -1,9 +1,9 @@
-package com.baeldung.jaxws.server.config;
+package com.surya.jaxws.server.config;
 
 import javax.xml.ws.Endpoint;
 
-import com.baeldung.jaxws.server.bottomup.EmployeeServiceImpl;
-import com.baeldung.jaxws.server.topdown.EmployeeServiceTopDownImpl;
+import com.surya.jaxws.server.bottomup.EmployeeServiceImpl;
+import com.surya.jaxws.server.topdown.EmployeeServiceTopDownImpl;
 
 public class EmployeeServicePublisher {
 

@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.service;
+package com.surya.couchbase.spring.service;
 
 import javax.annotation.PostConstruct;
 
@@ -19,7 +19,7 @@ public class TutorialBucketService implements BucketService {
 
     @PostConstruct
     private void init() {
-        bucket = couchbase.openBucket("baeldung-tutorial", "");
+        bucket = couchbase.openBucket("surya-tutorial", "");
     }
 
     @Override

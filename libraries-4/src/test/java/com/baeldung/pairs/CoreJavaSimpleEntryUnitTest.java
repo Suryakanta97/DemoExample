@@ -1,4 +1,4 @@
-package com.baeldung.pairs;
+package com.surya.pairs;
 
 import static org.junit.Assert.*;
 

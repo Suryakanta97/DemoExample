@@ -1,4 +1,4 @@
-package com.baeldung.resilence4j;
+package com.surya.resilence4j;
 
 import io.github.resilience4j.bulkhead.Bulkhead;
 import io.github.resilience4j.bulkhead.BulkheadConfig;

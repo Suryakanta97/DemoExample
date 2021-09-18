@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.deserialization.customdeserializer;
+package com.surya.jackson.enums.deserialization.customdeserializer;
 
 import java.io.IOException;
 import com.fasterxml.jackson.core.JsonParser;

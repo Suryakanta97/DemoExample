@@ -11,7 +11,7 @@ public class StringCaseUnitTest {
 
     @BeforeClass
     public static void setup() {
-        data = "HELLO BAELDUNG";
+        data = "HELLO surya";
     }
 
     @Test

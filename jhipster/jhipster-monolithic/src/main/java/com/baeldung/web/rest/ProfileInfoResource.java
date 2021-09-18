@@ -1,6 +1,6 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.config.DefaultProfileUtil;
+import com.surya.config.DefaultProfileUtil;
 
 import io.github.jhipster.config.JHipsterProperties;
 

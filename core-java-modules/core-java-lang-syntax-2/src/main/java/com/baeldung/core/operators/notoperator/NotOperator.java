@@ -1,4 +1,4 @@
-package com.baeldung.core.operators.notoperator;
+package com.surya.core.operators.notoperator;
 
 /**
  * Examples used in the article `Using the Not Operator in If Conditions in Java`.

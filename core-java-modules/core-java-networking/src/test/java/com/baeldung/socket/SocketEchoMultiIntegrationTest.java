@@ -1,4 +1,4 @@
-package com.baeldung.socket;
+package com.surya.socket;
 
 import org.junit.BeforeClass;
 import org.junit.Ignore;

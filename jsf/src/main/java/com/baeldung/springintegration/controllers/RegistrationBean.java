@@ -1,6 +1,6 @@
-package com.baeldung.springintegration.controllers;
+package com.surya.springintegration.controllers;
 
-import com.baeldung.springintegration.dao.UserManagementDAO;
+import com.surya.springintegration.dao.UserManagementDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

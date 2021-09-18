@@ -1,4 +1,4 @@
-package com.baeldung.emptystrings;
+package com.surya.emptystrings;
 
 import javax.validation.constraints.Pattern;
 

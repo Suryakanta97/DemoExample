@@ -1,4 +1,4 @@
-package com.baeldung.guava.future;
+package com.surya.guava.future;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -15,7 +15,7 @@ import java.util.function.UnaryOperator;
 import org.checkerframework.checker.nullness.qual.Nullable;
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.guava.future.exception.ListenableFutureException;
+import com.surya.guava.future.exception.ListenableFutureException;
 import com.google.common.base.Function;
 import com.google.common.util.concurrent.AsyncCallable;
 import com.google.common.util.concurrent.AsyncFunction;

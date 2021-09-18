@@ -1,4 +1,4 @@
-package com.baeldung.jna;
+package com.surya.jna;
 
 import java.util.Collections;
 import java.util.Map;

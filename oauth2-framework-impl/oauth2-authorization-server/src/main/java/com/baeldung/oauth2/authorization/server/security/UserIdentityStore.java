@@ -1,7 +1,7 @@
-package com.baeldung.oauth2.authorization.server.security;
+package com.surya.oauth2.authorization.server.security;
 
-import com.baeldung.oauth2.authorization.server.model.AppDataRepository;
-import com.baeldung.oauth2.authorization.server.model.User;
+import com.surya.oauth2.authorization.server.model.AppDataRepository;
+import com.surya.oauth2.authorization.server.model.User;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

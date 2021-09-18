@@ -1,4 +1,4 @@
-package com.baeldung.hazelcast.jet;
+package com.surya.hazelcast.jet;
 
 import org.junit.Test;
 

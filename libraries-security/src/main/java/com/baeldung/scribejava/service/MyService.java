@@ -1,6 +1,6 @@
-package com.baeldung.scribejava.service;
+package com.surya.scribejava.service;
 
-import com.baeldung.scribejava.api.MyApi;
+import com.surya.scribejava.api.MyApi;
 import com.github.scribejava.core.builder.ServiceBuilder;
 import com.github.scribejava.core.oauth.OAuth20Service;
 import org.springframework.stereotype.Component;
@@ -11,8 +11,8 @@ import javax.annotation.PostConstruct;
 public class MyService {
 
     private OAuth20Service service;
-    private final String API_KEY = "baeldung_api_key";
-    private final String API_SECRET = "baeldung_api_secret";
+    private final String API_KEY = "surya_api_key";
+    private final String API_SECRET = "surya_api_secret";
 
     @PostConstruct
     private void init(){

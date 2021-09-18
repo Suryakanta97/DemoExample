@@ -1,4 +1,4 @@
-package com.baeldung.dynamicproxy;
+package com.surya.dynamicproxy;
 
 import org.junit.Test;
 

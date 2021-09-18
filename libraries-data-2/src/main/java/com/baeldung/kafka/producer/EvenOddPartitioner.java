@@ -1,4 +1,4 @@
-package com.baeldung.kafka.producer;
+package com.surya.kafka.producer;
 
 import org.apache.kafka.clients.producer.internals.DefaultPartitioner;
 import org.apache.kafka.common.Cluster;

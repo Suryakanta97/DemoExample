@@ -1,4 +1,4 @@
-package com.baeldung.chronicle.queue;
+package com.surya.chronicle.queue;
 
 import static org.junit.Assert.assertEquals;
 

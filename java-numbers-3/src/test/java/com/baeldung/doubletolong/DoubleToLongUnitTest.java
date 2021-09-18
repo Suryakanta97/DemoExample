@@ -1,4 +1,4 @@
-package com.baeldung.doubletolong;
+package com.surya.doubletolong;
 
 import org.junit.Assert;
 import org.junit.Test;

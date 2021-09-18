@@ -1,8 +1,8 @@
-package com.baeldung.mdc.log4j2;
+package com.surya.mdc.log4j2;
 
 import org.apache.logging.log4j.ThreadContext;
 
-import com.baeldung.mdc.Transfer;
+import com.surya.mdc.Transfer;
 
 public class Log4J2Runnable implements Runnable {
     private final Transfer tx;

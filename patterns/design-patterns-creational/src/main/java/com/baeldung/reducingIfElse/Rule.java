@@ -1,4 +1,4 @@
-package com.baeldung.reducingIfElse;
+package com.surya.reducingIfElse;
 
 public interface Rule {
 

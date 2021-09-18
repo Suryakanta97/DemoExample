@@ -1,11 +1,11 @@
-package com.baeldung.dubbo;
+package com.surya.dubbo;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ReferenceConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.ServiceConfig;
-import com.baeldung.dubbo.remote.GreetingsService;
-import com.baeldung.dubbo.remote.GreetingsServiceImpl;
+import com.surya.dubbo.remote.GreetingsService;
+import com.surya.dubbo.remote.GreetingsServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -49,9 +49,9 @@ public class APIConfigurationLiveTest {
         reference.setInterface(GreetingsService.class);
 
         GreetingsService greetingsService = reference.get();
-        String hiMessage = greetingsService.sayHi("baeldung");
+        String hiMessage = greetingsService.sayHi("surya");
 
-        assertEquals("hi, baeldung", hiMessage);
+        assertEquals("hi, surya", hiMessage);
     }
 
 }

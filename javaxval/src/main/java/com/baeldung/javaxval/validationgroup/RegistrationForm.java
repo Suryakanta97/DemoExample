@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.validationgroup;
+package com.surya.javaxval.validationgroup;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

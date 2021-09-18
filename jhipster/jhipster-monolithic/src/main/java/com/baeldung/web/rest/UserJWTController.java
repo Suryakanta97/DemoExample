@@ -1,8 +1,8 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
-import com.baeldung.security.jwt.JWTConfigurer;
-import com.baeldung.security.jwt.TokenProvider;
-import com.baeldung.web.rest.vm.LoginVM;
+import com.surya.security.jwt.JWTConfigurer;
+import com.surya.security.jwt.TokenProvider;
+import com.surya.web.rest.vm.LoginVM;
 
 import java.util.Collections;
 

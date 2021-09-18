@@ -1,4 +1,4 @@
-package com.baeldung.filereader;
+package com.surya.filereader;
 
 import java.io.FileReader;
 import java.io.IOException;

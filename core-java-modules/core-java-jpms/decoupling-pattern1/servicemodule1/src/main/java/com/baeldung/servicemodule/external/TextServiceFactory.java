@@ -1,7 +1,7 @@
-package com.baeldung.servicemodule.external;
+package com.surya.servicemodule.external;
 
-import com.baeldung.servicemodule.internal.LowercaseTextService;
-import com.baeldung.servicemodule.internal.UppercaseTextService;
+import com.surya.servicemodule.internal.LowercaseTextService;
+import com.surya.servicemodule.internal.UppercaseTextService;
 
 public class TextServiceFactory {
     

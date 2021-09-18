@@ -1,4 +1,4 @@
-package com.baeldung.time;
+package com.surya.time;
 
 import static org.junit.Assert.assertEquals;
 

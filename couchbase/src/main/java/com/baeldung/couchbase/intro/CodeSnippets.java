@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.intro;
+package com.surya.couchbase.intro;
 
 import java.util.List;
 import java.util.UUID;
@@ -28,8 +28,8 @@ public class CodeSnippets {
         return cluster.openBucket();
     }
 
-    static Bucket loadBaeldungBucket(Cluster cluster) {
-        return cluster.openBucket("baeldung", "");
+    static Bucket loadsuryaBucket(Cluster cluster) {
+        return cluster.openBucket("surya", "");
     }
 
     static JsonDocument insertExample(Bucket bucket) {

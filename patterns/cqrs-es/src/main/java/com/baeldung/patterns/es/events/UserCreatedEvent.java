@@ -1,4 +1,4 @@
-package com.baeldung.patterns.es.events;
+package com.surya.patterns.es.events;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

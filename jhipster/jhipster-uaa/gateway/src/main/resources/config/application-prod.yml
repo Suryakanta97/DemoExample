@@ -16,7 +16,7 @@
 logging:
     level:
         ROOT: INFO
-        com.baeldung.jhipster.gateway: INFO
+        com.surya.jhipster.gateway: INFO
         io.github.jhipster: INFO
 
 eureka:

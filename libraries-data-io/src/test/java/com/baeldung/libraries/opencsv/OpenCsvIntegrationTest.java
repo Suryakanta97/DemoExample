@@ -1,6 +1,6 @@
-package com.baeldung.libraries.opencsv;
+package com.surya.libraries.opencsv;
 
-import com.baeldung.libraries.opencsv.helpers.Helpers;
+import com.surya.libraries.opencsv.helpers.Helpers;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

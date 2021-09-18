@@ -1,4 +1,4 @@
-package com.baeldung.tieredcompilation;
+package com.surya.tieredcompilation;
 
 public interface Formatter {
 

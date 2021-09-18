@@ -1,4 +1,4 @@
-package com.baeldung.abstractclasses.overview;
+package com.surya.abstractclasses.overview;
 
 public abstract class BoardGame {
     //... field declarations, constructors

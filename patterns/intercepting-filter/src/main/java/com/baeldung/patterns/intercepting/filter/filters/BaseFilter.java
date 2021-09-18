@@ -1,4 +1,4 @@
-package com.baeldung.patterns.intercepting.filter.filters;
+package com.surya.patterns.intercepting.filter.filters;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.baeldung.stringtoboolean;
+package com.surya.stringtoboolean;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxws.server.topdown;
+package com.surya.jaxws.server.topdown;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,20 +17,20 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "EmployeeServiceTopDown", targetNamespace = "http://topdown.server.jaxws.baeldung.com/", wsdlLocation = "file:/Users/do-enr-lap-4/Developer/baeldung/source/tutorials/jee7/src/main/java/com/baeldung/jaxws/server/topdown/wsdl/employeeservicetopdown.wsdl")
+@WebServiceClient(name = "EmployeeServiceTopDown", targetNamespace = "http://topdown.server.jaxws.surya.com/", wsdlLocation = "file:/Users/do-enr-lap-4/Developer/surya/source/tutorials/jee7/src/main/java/com/surya/jaxws/server/topdown/wsdl/employeeservicetopdown.wsdl")
 public class EmployeeServiceTopDown_Service
     extends Service
 {
 
     private final static URL EMPLOYEESERVICETOPDOWN_WSDL_LOCATION;
     private final static WebServiceException EMPLOYEESERVICETOPDOWN_EXCEPTION;
-    private final static QName EMPLOYEESERVICETOPDOWN_QNAME = new QName("http://topdown.server.jaxws.baeldung.com/", "EmployeeServiceTopDown");
+    private final static QName EMPLOYEESERVICETOPDOWN_QNAME = new QName("http://topdown.server.jaxws.surya.com/", "EmployeeServiceTopDown");
 
     static {
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("file:/Users/do-enr-lap-4/Developer/baeldung/source/tutorials/jee7/src/main/java/com/baeldung/jaxws/server/topdown/wsdl/employeeservicetopdown.wsdl");
+            url = new URL("file:/Users/do-enr-lap-4/Developer/surya/source/tutorials/jee7/src/main/java/com/surya/jaxws/server/topdown/wsdl/employeeservicetopdown.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
@@ -69,7 +69,7 @@ public class EmployeeServiceTopDown_Service
      */
     @WebEndpoint(name = "EmployeeServiceTopDownSOAP")
     public EmployeeServiceTopDown getEmployeeServiceTopDownSOAP() {
-        return super.getPort(new QName("http://topdown.server.jaxws.baeldung.com/", "EmployeeServiceTopDownSOAP"), EmployeeServiceTopDown.class);
+        return super.getPort(new QName("http://topdown.server.jaxws.surya.com/", "EmployeeServiceTopDownSOAP"), EmployeeServiceTopDown.class);
     }
 
     /**
@@ -81,7 +81,7 @@ public class EmployeeServiceTopDown_Service
      */
     @WebEndpoint(name = "EmployeeServiceTopDownSOAP")
     public EmployeeServiceTopDown getEmployeeServiceTopDownSOAP(WebServiceFeature... features) {
-        return super.getPort(new QName("http://topdown.server.jaxws.baeldung.com/", "EmployeeServiceTopDownSOAP"), EmployeeServiceTopDown.class, features);
+        return super.getPort(new QName("http://topdown.server.jaxws.surya.com/", "EmployeeServiceTopDownSOAP"), EmployeeServiceTopDown.class, features);
     }
 
     private static URL __getWsdlLocation() {

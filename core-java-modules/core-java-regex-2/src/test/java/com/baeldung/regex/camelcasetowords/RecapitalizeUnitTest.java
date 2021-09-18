@@ -1,10 +1,10 @@
-package com.baeldung.regex.camelcasetowords;
+package com.surya.regex.camelcasetowords;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static com.baeldung.regex.camelcasetowords.Recapitalize.*;
+import static com.surya.regex.camelcasetowords.Recapitalize.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class RecapitalizeUnitTest {

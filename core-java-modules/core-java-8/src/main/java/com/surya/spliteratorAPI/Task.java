@@ -5,7 +5,7 @@ import java.util.concurrent.Callable;
 
 public class Task implements Callable<String> {
     private Spliterator<Article> spliterator;
-    private final static String SUFFIX = "- published by Baeldung";
+    private final static String SUFFIX = "- published by surya";
 
     public Task(Spliterator<Article> spliterator) {
         this.spliterator = spliterator;

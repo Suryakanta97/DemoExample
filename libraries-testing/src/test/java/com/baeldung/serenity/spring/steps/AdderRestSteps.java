@@ -1,4 +1,4 @@
-package com.baeldung.serenity.spring.steps;
+package com.surya.serenity.spring.steps;
 
 import io.restassured.module.mockmvc.response.MockMvcResponse;
 import net.thucydides.core.annotations.Step;

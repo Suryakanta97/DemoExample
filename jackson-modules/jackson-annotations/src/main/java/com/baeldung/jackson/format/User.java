@@ -1,8 +1,8 @@
-package com.baeldung.jackson.format;
+package com.surya.jackson.format;
 
 import java.util.Date;
 
-import com.baeldung.jackson.domain.Person;
+import com.surya.jackson.domain.Person;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 /**

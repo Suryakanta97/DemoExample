@@ -1,4 +1,4 @@
-package com.baeldung.guava.table;
+package com.surya.guava.table;
 
 import static org.assertj.core.api.Assertions.*;
 import java.util.List;

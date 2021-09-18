@@ -1,7 +1,7 @@
-package com.baeldung.unmappedproperties.mapper;
+package com.surya.unmappedproperties.mapper;
 
-import com.baeldung.unmappedproperties.dto.DocumentDTO;
-import com.baeldung.unmappedproperties.entity.Document;
+import com.surya.unmappedproperties.dto.DocumentDTO;
+import com.surya.unmappedproperties.entity.Document;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;

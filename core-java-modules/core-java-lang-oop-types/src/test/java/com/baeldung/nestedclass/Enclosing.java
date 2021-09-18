@@ -1,4 +1,4 @@
-package com.baeldung.nestedclass;
+package com.surya.nestedclass;
 
 import org.junit.Test;
 

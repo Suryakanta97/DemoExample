@@ -1,4 +1,4 @@
-package com.baeldung.moshi;
+package com.surya.moshi;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
@@ -19,7 +19,7 @@ public class SimpleAdapterUnitTest {
           .build();
         JsonAdapter<Post> jsonAdapter = moshi.adapter(Post.class);
 
-        Post post = new Post("My Post", new Author("Baeldung", "baeldung@example.com"), "This is my post");
+        Post post = new Post("My Post", new Author("surya", "surya@example.com"), "This is my post");
         String json = jsonAdapter.toJson(post);
         System.out.println(json);
     }
@@ -31,7 +31,7 @@ public class SimpleAdapterUnitTest {
           .build();
         JsonAdapter<Post> jsonAdapter = moshi.adapter(Post.class);
 
-        String json = "{\"author\":\"Baeldung <baeldung@example.com>\",\"text\":\"This is my post\",\"title\":\"My Post\"}";
+        String json = "{\"author\":\"surya <surya@example.com>\",\"text\":\"This is my post\",\"title\":\"My Post\"}";
         Post post = jsonAdapter.fromJson(json);
         System.out.println(post);
     }

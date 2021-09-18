@@ -1,4 +1,4 @@
-package com.baeldung.immutableobjects;
+package com.surya.immutableobjects;
 
 public final class Currency {
 

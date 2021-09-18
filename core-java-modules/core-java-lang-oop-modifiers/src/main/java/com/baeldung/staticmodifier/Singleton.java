@@ -1,4 +1,4 @@
-package com.baeldung.staticmodifier;
+package com.surya.staticmodifier;
 
 public class Singleton  {    
     private Singleton() {}

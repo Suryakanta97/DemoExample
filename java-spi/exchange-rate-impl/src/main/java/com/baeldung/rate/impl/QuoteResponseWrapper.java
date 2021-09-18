@@ -1,4 +1,4 @@
-package com.baeldung.rate.impl;
+package com.surya.rate.impl;
 
 public class QuoteResponseWrapper {
     private QuoteResponse quoteResponse;

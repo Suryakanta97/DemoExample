@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.security;
+package com.surya.jhipster.gateway.security;
 
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;

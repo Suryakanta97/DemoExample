@@ -1,4 +1,4 @@
-package com.baeldung.reflection.check.abstractclass;
+package com.surya.reflection.check.abstractclass;
 
 public interface InterfaceExample {
 }

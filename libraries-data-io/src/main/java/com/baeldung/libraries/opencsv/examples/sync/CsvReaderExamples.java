@@ -1,6 +1,6 @@
-package com.baeldung.libraries.opencsv.examples.sync;
+package com.surya.libraries.opencsv.examples.sync;
 
-import com.baeldung.libraries.opencsv.helpers.Helpers;
+import com.surya.libraries.opencsv.helpers.Helpers;
 import com.opencsv.CSVParser;
 import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;

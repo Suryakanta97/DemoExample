@@ -1,11 +1,11 @@
-package com.baeldung.stringtocamelcase;
+package com.surya.stringtocamelcase;
 
 
 import com.google.common.base.CaseFormat;
 import org.apache.commons.text.CaseUtils;
 import org.junit.Test;
 
-import static com.baeldung.stringtocamelcase.StringToCamelCase.*;
+import static com.surya.stringtocamelcase.StringToCamelCase.*;
 import static org.assertj.core.api.Assertions.*;
 
 

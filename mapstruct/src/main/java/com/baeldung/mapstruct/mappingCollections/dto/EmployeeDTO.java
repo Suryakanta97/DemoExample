@@ -1,4 +1,4 @@
-package com.baeldung.mapstruct.mappingCollections.dto;
+package com.surya.mapstruct.mappingCollections.dto;
 
 public class EmployeeDTO {
 

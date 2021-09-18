@@ -1,4 +1,4 @@
-package com.baeldung.javac;
+package com.surya.javac;
 
 import com.sun.source.tree.MethodTree;
 import com.sun.source.tree.VariableTree;

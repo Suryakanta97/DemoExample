@@ -1,4 +1,4 @@
-package com.baeldung.eclipsecollections;
+package com.surya.eclipsecollections;
 
 import org.eclipse.collections.api.list.MutableList;
 import org.eclipse.collections.impl.list.mutable.FastList;

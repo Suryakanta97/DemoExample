@@ -1,4 +1,4 @@
-package com.baeldung.httpclient.sec;
+package com.surya.httpclient.sec;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.http.HttpHeaders;
@@ -17,7 +17,7 @@ import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.protocol.HttpContext;
-import com.baeldung.httpclient.ResponseUtil;
+import com.surya.httpclient.ResponseUtil;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

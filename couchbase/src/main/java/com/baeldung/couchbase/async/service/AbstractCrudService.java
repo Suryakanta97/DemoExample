@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.service;
+package com.surya.couchbase.async.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.couchbase.async.CouchbaseEntity;
+import com.surya.couchbase.async.CouchbaseEntity;
 import com.couchbase.client.core.BackpressureException;
 import com.couchbase.client.core.time.Delay;
 import com.couchbase.client.java.AsyncBucket;

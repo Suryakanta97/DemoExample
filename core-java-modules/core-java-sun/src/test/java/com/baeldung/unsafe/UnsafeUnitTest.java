@@ -1,4 +1,4 @@
-package com.baeldung.unsafe;
+package com.surya.unsafe;
 
 import org.junit.Before;
 import org.junit.Ignore;

@@ -1,4 +1,4 @@
-package com.baeldung.metrics.micrometer;
+package com.surya.metrics.micrometer;
 
 import io.micrometer.core.annotation.Timed;
 import org.springframework.web.bind.annotation.GetMapping;

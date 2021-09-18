@@ -1,4 +1,4 @@
-package com.baeldung.httpclient.base;
+package com.surya.httpclient.base;
 
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
@@ -8,7 +8,7 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
-import com.baeldung.httpclient.ResponseUtil;
+import com.surya.httpclient.ResponseUtil;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

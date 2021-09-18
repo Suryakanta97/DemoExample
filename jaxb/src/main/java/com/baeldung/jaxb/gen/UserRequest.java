@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxb.gen;
+package com.surya.jaxb.gen;
 
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlAccessType;

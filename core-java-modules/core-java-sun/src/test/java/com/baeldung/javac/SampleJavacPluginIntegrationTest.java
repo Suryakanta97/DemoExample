@@ -1,4 +1,4 @@
-package com.baeldung.javac;
+package com.surya.javac;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class SampleJavacPluginIntegrationTest {
 
     private static final String CLASS_TEMPLATE =
-            "package com.baeldung.javac;\n" +
+            "package com.surya.javac;\n" +
             "\n" +
             "public class Test {\n" +
             "    public static %1$s service(@Positive %1$s i) {\n" +
@@ -35,7 +35,7 @@ public class SampleJavacPluginIntegrationTest {
     }
 
     private Object compileAndRun(Class<?> argumentType, Object argument) throws Throwable {
-        String qualifiedClassName = "com.baeldung.javac.Test";
+        String qualifiedClassName = "com.surya.javac.Test";
         byte[] byteCode = compiler.compile(qualifiedClassName, String.format(CLASS_TEMPLATE, argumentType.getName()));
         return runner.run(byteCode, qualifiedClassName, "service", new Class[] {argumentType}, argument);
     }

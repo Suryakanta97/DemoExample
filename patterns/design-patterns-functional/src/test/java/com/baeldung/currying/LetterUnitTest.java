@@ -1,12 +1,12 @@
-package com.baeldung.currying;
+package com.surya.currying;
 
 import org.junit.Test;
 
 import java.time.LocalDate;
 
-import static com.baeldung.currying.Letter.LETTER_CREATOR;
-import static com.baeldung.currying.Letter.SIMPLE_CURRIED_LETTER_CREATOR;
-import static com.baeldung.currying.Letter.SIMPLE_LETTER_CREATOR;
+import static com.surya.currying.Letter.LETTER_CREATOR;
+import static com.surya.currying.Letter.SIMPLE_CURRIED_LETTER_CREATOR;
+import static com.surya.currying.Letter.SIMPLE_LETTER_CREATOR;
 import static org.junit.Assert.assertEquals;
 
 public class LetterUnitTest {

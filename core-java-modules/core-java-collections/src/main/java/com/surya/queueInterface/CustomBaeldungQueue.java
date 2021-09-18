@@ -4,11 +4,11 @@ import java.util.AbstractQueue;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class CustomBaeldungQueue<T> extends AbstractQueue<T> {
+public class CustomsuryaQueue<T> extends AbstractQueue<T> {
 
   private LinkedList<T> elements;
 
-  public CustomBaeldungQueue() {
+  public CustomsuryaQueue() {
     this.elements = new LinkedList<T>();
   }
 

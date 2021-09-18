@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.surya.config;
 
 /**
  * Application constants.

@@ -1,6 +1,6 @@
-package com.baeldung.hibernate.pessimisticlocking;
+package com.surya.hibernate.pessimisticlocking;
 
-import com.baeldung.hibernate.HibernateUtil;
+import com.surya.hibernate.HibernateUtil;
 
 import org.hibernate.SessionFactory;
 import org.junit.AfterClass;

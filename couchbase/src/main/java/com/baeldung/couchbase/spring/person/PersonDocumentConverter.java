@@ -1,8 +1,8 @@
-package com.baeldung.couchbase.spring.person;
+package com.surya.couchbase.spring.person;
 
 import org.springframework.stereotype.Service;
 
-import com.baeldung.couchbase.spring.service.JsonDocumentConverter;
+import com.surya.couchbase.spring.service.JsonDocumentConverter;
 import com.couchbase.client.java.document.JsonDocument;
 import com.couchbase.client.java.document.json.JsonObject;
 

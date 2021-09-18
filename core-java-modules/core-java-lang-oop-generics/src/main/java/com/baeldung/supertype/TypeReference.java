@@ -1,4 +1,4 @@
-package com.baeldung.supertype;
+package com.surya.supertype;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

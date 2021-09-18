@@ -1,4 +1,4 @@
 /**
  * Spring Security configuration.
  */
-package com.baeldung.jhipster.quotes.security;
+package com.surya.jhipster.quotes.security;

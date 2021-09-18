@@ -1,6 +1,6 @@
-package com.baeldung.daopattern.daos;
+package com.surya.daopattern.daos;
 
-import com.baeldung.daopattern.entities.User;
+import com.surya.daopattern.entities.User;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;

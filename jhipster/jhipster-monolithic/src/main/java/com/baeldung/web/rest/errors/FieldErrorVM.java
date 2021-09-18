@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.errors;
+package com.surya.web.rest.errors;
 
 import java.io.Serializable;
 

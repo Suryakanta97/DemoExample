@@ -1,4 +1,4 @@
-package com.baeldung.libraries.jdo;
+package com.surya.libraries.jdo;
 
 import org.datanucleus.api.jdo.JDOPersistenceManagerFactory;
 import org.datanucleus.metadata.PersistenceUnitMetaData;
@@ -44,7 +44,7 @@ public class GuideToJDO {
     public void CreateH2Properties() {
 
         pumd = new PersistenceUnitMetaData("dynamic-unit", "RESOURCE_LOCAL", null);
-        pumd.addClassName("com.baeldung.libraries.jdo.Product");
+        pumd.addClassName("com.surya.libraries.jdo.Product");
         pumd.setExcludeUnlistedClasses();
         pumd.addProperty("javax.jdo.option.ConnectionDriverName", "org.h2.Driver");
         pumd.addProperty("javax.jdo.option.ConnectionURL", "jdbc:h2:mem:mypersistence");
@@ -56,7 +56,7 @@ public class GuideToJDO {
 
     public void CreateXMLProperties() {
         pumdXML = new PersistenceUnitMetaData("dynamic-unit", "RESOURCE_LOCAL", null);
-        pumdXML.addClassName("com.baeldung.libraries.jdo.ProductXML");
+        pumdXML.addClassName("com.surya.libraries.jdo.ProductXML");
         pumdXML.setExcludeUnlistedClasses();
         pumdXML.addProperty("javax.jdo.option.ConnectionURL", "xml:file:myPersistence.xml");
         pumdXML.addProperty("datanucleus.autoCreateSchema", "true");

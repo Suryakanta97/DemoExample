@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.web.rest.vm;
+package com.surya.jhipster.gateway.web.rest.vm;
 
 import ch.qos.logback.classic.Logger;
 

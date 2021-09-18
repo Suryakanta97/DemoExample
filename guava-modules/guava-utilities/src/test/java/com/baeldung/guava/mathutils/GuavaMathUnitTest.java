@@ -1,4 +1,4 @@
-package com.baeldung.guava.mathutils;
+package com.surya.guava.mathutils;
 
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;

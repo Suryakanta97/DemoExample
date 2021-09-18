@@ -1,4 +1,4 @@
-package com.baeldung.regex.noncapturinggroups;
+package com.surya.regex.noncapturinggroups;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

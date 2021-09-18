@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.javabeanconstraints.test;
+package com.surya.javaxval.javabeanconstraints.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,7 +8,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 
-import com.baeldung.javaxval.javabeanconstraints.entities.UserNotEmpty;
+import com.surya.javaxval.javabeanconstraints.entities.UserNotEmpty;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

@@ -2,10 +2,10 @@
   This class invokes the configuration factory with static initialization,
   as defined in section 4.1 of the "Programmatic Configuration with Log4j 2"
 **/
-package com.baeldung.logging.log4j2.setconfigurationfactory;
+package com.surya.logging.log4j2.setconfigurationfactory;
 
-import com.baeldung.logging.log4j2.Log4j2BaseIntegrationTest;
-import com.baeldung.logging.log4j2.simpleconfiguration.CustomConfigurationFactory;
+import com.surya.logging.log4j2.Log4j2BaseIntegrationTest;
+import com.surya.logging.log4j2.simpleconfiguration.CustomConfigurationFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;

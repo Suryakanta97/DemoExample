@@ -1,4 +1,4 @@
-package com.baeldung.multiline;
+package com.surya.multiline;
 
 import org.junit.Test;
 

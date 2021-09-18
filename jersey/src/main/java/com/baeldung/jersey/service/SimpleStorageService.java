@@ -1,9 +1,9 @@
-package com.baeldung.jersey.service;
+package com.surya.jersey.service;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.baeldung.jersey.server.model.Fruit;
+import com.surya.jersey.server.model.Fruit;
 
 public class SimpleStorageService {
 

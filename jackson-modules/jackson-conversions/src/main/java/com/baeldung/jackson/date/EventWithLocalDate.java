@@ -1,4 +1,4 @@
-package com.baeldung.jackson.date;
+package com.surya.jackson.date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

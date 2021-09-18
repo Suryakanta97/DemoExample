@@ -1,7 +1,7 @@
-package com.baeldung.selector;
+package com.surya.selector;
 
-import com.baeldung.selector.EchoClient;
-import com.baeldung.selector.EchoServer;
+import com.surya.selector.EchoClient;
+import com.surya.selector.EchoServer;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -2,12 +2,12 @@ package com.surya.concurrent.threadfactory;
 
 import java.util.concurrent.ThreadFactory;
 
-public class BaeldungThreadFactory implements ThreadFactory {
+public class suryaThreadFactory implements ThreadFactory {
 
     private int threadId;
     private String name;
 
-    public BaeldungThreadFactory(String name) {
+    public suryaThreadFactory(String name) {
         threadId = 1;
         this.name = name;
     }

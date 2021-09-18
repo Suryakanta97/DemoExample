@@ -1,4 +1,4 @@
-package com.baeldung.map.entry;
+package com.surya.map.entry;
 
 import java.util.*;
 

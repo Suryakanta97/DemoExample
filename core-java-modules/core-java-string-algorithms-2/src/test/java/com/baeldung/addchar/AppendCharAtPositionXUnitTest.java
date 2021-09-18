@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung.addchar;
+package com.surya.addchar;
 
 import static org.junit.Assert.assertEquals;
 

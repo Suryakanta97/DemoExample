@@ -1,4 +1,4 @@
-package com.baeldung.stream;
+package com.surya.stream;
 
 import com.codepoetics.protonpack.Indexed;
 import org.junit.Test;

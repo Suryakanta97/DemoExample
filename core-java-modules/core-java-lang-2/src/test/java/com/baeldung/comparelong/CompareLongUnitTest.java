@@ -1,4 +1,4 @@
-package com.baeldung.comparelong;
+package com.surya.comparelong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;

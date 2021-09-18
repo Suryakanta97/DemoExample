@@ -1,4 +1,4 @@
-package com.baeldung.inttoenum;
+package com.surya.inttoenum;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;

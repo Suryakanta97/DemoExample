@@ -1,4 +1,4 @@
-package com.baeldung.netty;
+package com.surya.netty;
 
 import java.nio.charset.Charset;
 

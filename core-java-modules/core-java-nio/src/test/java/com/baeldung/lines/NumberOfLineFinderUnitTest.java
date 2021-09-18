@@ -1,13 +1,13 @@
-package com.baeldung.lines;
+package com.surya.lines;
 
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingApacheCommonsIO;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingBufferedReader;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingGoogleGuava;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingLineNumberReader;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingNIOFileChannel;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingNIOFiles;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingNIOFilesReadAllLines;
-import static com.baeldung.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingScanner;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingApacheCommonsIO;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingBufferedReader;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingGoogleGuava;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingLineNumberReader;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingNIOFileChannel;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingNIOFiles;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingNIOFilesReadAllLines;
+import static com.surya.lines.NumberOfLineFinder.getTotalNumberOfLinesUsingScanner;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

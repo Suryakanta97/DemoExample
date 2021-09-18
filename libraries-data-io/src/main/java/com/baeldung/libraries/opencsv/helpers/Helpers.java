@@ -1,6 +1,6 @@
-package com.baeldung.libraries.opencsv.helpers;
+package com.surya.libraries.opencsv.helpers;
 
-import com.baeldung.libraries.opencsv.Constants;
+import com.surya.libraries.opencsv.Constants;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

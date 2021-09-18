@@ -1,4 +1,4 @@
-package com.baeldung.hashing;
+package com.surya.hashing;
 
 import com.google.common.hash.Hashing;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -12,8 +12,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.Security;
 
-import static com.baeldung.hashing.DigestAlgorithms.SHA3_256;
-import static com.baeldung.hashing.SHACommonUtils.bytesToHex;
+import static com.surya.hashing.DigestAlgorithms.SHA3_256;
+import static com.surya.hashing.SHACommonUtils.bytesToHex;
 
 public class SHA3Hashing {
 

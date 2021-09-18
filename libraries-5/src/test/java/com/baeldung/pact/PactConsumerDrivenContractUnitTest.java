@@ -1,4 +1,4 @@
-package com.baeldung.pact;
+package com.surya.pact;
 
 import au.com.dius.pact.consumer.Pact;
 import au.com.dius.pact.consumer.PactProviderRuleMk2;

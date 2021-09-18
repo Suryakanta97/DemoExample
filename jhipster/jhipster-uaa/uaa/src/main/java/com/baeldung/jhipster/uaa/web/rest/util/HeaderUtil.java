@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.web.rest.util;
+package com.surya.jhipster.uaa.web.rest.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

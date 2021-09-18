@@ -1,6 +1,6 @@
-package com.baeldung.l.advanced.refactored;
+package com.surya.l.advanced.refactored;
 
-import com.baeldung.l.advanced.Account;
+import com.surya.l.advanced.Account;
 
 import java.math.BigDecimal;
 

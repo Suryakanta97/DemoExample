@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonview;
+package com.surya.jackson.jsonview;
 
 public class Views {
     public static class Public {

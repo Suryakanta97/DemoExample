@@ -1,4 +1,4 @@
-package com.baeldung.flink.model;
+package com.surya.flink.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.google.common.base.Objects;

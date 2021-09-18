@@ -1,15 +1,15 @@
-package com.baeldung.jhipster.uaa.service;
+package com.surya.jhipster.uaa.service;
 
-import com.baeldung.jhipster.uaa.config.Constants;
-import com.baeldung.jhipster.uaa.domain.Authority;
-import com.baeldung.jhipster.uaa.domain.User;
-import com.baeldung.jhipster.uaa.repository.AuthorityRepository;
-import com.baeldung.jhipster.uaa.repository.UserRepository;
-import com.baeldung.jhipster.uaa.security.AuthoritiesConstants;
-import com.baeldung.jhipster.uaa.security.SecurityUtils;
-import com.baeldung.jhipster.uaa.service.dto.UserDTO;
-import com.baeldung.jhipster.uaa.service.util.RandomUtil;
-import com.baeldung.jhipster.uaa.web.rest.errors.*;
+import com.surya.jhipster.uaa.config.Constants;
+import com.surya.jhipster.uaa.domain.Authority;
+import com.surya.jhipster.uaa.domain.User;
+import com.surya.jhipster.uaa.repository.AuthorityRepository;
+import com.surya.jhipster.uaa.repository.UserRepository;
+import com.surya.jhipster.uaa.security.AuthoritiesConstants;
+import com.surya.jhipster.uaa.security.SecurityUtils;
+import com.surya.jhipster.uaa.service.dto.UserDTO;
+import com.surya.jhipster.uaa.service.util.RandomUtil;
+import com.surya.jhipster.uaa.web.rest.errors.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

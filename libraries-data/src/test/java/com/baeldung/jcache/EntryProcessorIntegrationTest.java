@@ -1,4 +1,4 @@
-package com.baeldung.jcache;
+package com.surya.jcache;
 
 import org.junit.After;
 import org.junit.Before;

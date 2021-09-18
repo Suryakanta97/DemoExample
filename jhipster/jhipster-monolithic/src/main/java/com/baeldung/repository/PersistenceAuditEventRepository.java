@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.surya.repository;
 
-import com.baeldung.domain.PersistentAuditEvent;
+import com.surya.domain.PersistentAuditEvent;
 
 import java.time.LocalDateTime;
 import org.springframework.data.jpa.repository.JpaRepository;

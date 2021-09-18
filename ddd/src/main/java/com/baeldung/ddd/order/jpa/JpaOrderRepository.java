@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.jpa;
+package com.surya.ddd.order.jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

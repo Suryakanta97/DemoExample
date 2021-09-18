@@ -1,4 +1,4 @@
-package com.baeldung.varargs;
+package com.surya.varargs;
 
 import org.junit.Test;
 
@@ -18,23 +18,23 @@ public class FormatterUnitTest {
 
     @Test
     public void givenOneArgument_thenResultHasTwoTrailingSpace() {
-        String actualResult = format("baeldung");
+        String actualResult = format("surya");
 
-        assertThat(actualResult, is("baeldung  "));
+        assertThat(actualResult, is("surya  "));
     }
 
     @Test
     public void givenTwoArguments_thenOneTrailingSpaceExists() {
-        String actualResult = format("baeldung", "rocks");
+        String actualResult = format("surya", "rocks");
 
-        assertThat(actualResult, is("baeldung rocks "));
+        assertThat(actualResult, is("surya rocks "));
     }
 
     @Test
     public void givenMoreThanThreeArguments_thenTheFirstThreeAreUsed() {
-        String actualResult = formatWithVarArgs("baeldung", "rocks", "java", "and", "spring");
+        String actualResult = formatWithVarArgs("surya", "rocks", "java", "and", "spring");
 
-        assertThat(actualResult, is("baeldung rocks java"));
+        assertThat(actualResult, is("surya rocks java"));
     }
 
     public String format() {

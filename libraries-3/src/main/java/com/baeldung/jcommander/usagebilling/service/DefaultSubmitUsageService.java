@@ -1,6 +1,6 @@
-package com.baeldung.jcommander.usagebilling.service;
+package com.surya.jcommander.usagebilling.service;
 
-import com.baeldung.jcommander.usagebilling.model.UsageRequest;
+import com.surya.jcommander.usagebilling.model.UsageRequest;
 
 import java.util.UUID;
 

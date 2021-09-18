@@ -1,4 +1,4 @@
-package com.baeldung.service.locator;
+package com.surya.service.locator;
 
 public interface MessagingService {
 

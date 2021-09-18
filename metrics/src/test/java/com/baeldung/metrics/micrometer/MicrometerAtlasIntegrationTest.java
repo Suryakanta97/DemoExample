@@ -1,4 +1,4 @@
-package com.baeldung.metrics.micrometer;
+package com.surya.metrics.micrometer;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.within;
@@ -75,10 +75,10 @@ public class MicrometerAtlasIntegrationTest {
         compositeRegistry.add(oneSimpleMeter);
         compositeRegistry.add(atlasMeterRegistry);
 
-        compositeRegistry.gauge("baeldung.heat", 90);
+        compositeRegistry.gauge("surya.heat", 90);
 
         Optional<Gauge> oneGauge = oneSimpleMeter
-          .find("baeldung.heat")
+          .find("surya.heat")
           .gauge();
         assertTrue(oneGauge.isPresent());
         Iterator<Measurement> measurements = oneGauge
@@ -92,7 +92,7 @@ public class MicrometerAtlasIntegrationTest {
           .getValue(), equalTo(90.00));
 
         Optional<Gauge> atlasGauge = atlasMeterRegistry
-          .find("baeldung.heat")
+          .find("surya.heat")
           .gauge();
         assertTrue(atlasGauge.isPresent());
         Iterator<Measurement> anotherMeasurements = atlasGauge

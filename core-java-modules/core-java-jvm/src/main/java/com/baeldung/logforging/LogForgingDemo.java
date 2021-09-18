@@ -1,4 +1,4 @@
-package com.baeldung.logforging;
+package com.surya.logforging;
 
 import org.owasp.esapi.ESAPI;
 import org.slf4j.Logger;

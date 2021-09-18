@@ -3,16 +3,16 @@
 This module contains articles about libraries for data processing in Java.
 
 ### Relevant articles
-- [Introduction to Apache Flink with Java](https://www.baeldung.com/apache-flink)
-- [Guide to the HyperLogLog Algorithm in Java](https://www.baeldung.com/java-hyperloglog)
-- [Introduction to Conflict-Free Replicated Data Types](https://www.baeldung.com/java-conflict-free-replicated-data-types)
-- [Introduction to javax.measure](https://www.baeldung.com/javax-measure)
-- [A Guide to Infinispan in Java](https://www.baeldung.com/infinispan)
-- [An Introduction to SuanShu](https://www.baeldung.com/suanshu)
-- [Intro to Derive4J](https://www.baeldung.com/derive4j)
-- [Univocity Parsers](https://www.baeldung.com/java-univocity-parsers)
-- [Using Kafka MockConsumer](https://www.baeldung.com/kafka-mockconsumer)
-- [Using Kafka MockProducer](https://www.baeldung.com/kafka-mockproducer)
+- [Introduction to Apache Flink with Java](https://www.surya.com/apache-flink)
+- [Guide to the HyperLogLog Algorithm in Java](https://www.surya.com/java-hyperloglog)
+- [Introduction to Conflict-Free Replicated Data Types](https://www.surya.com/java-conflict-free-replicated-data-types)
+- [Introduction to javax.measure](https://www.surya.com/javax-measure)
+- [A Guide to Infinispan in Java](https://www.surya.com/infinispan)
+- [An Introduction to SuanShu](https://www.surya.com/suanshu)
+- [Intro to Derive4J](https://www.surya.com/derive4j)
+- [Univocity Parsers](https://www.surya.com/java-univocity-parsers)
+- [Using Kafka MockConsumer](https://www.surya.com/kafka-mockconsumer)
+- [Using Kafka MockProducer](https://www.surya.com/kafka-mockproducer)
 - More articles: [[<-- prev]](/../libraries-data)
 
 ##### Building the project

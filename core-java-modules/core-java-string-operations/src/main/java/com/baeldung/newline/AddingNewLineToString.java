@@ -1,4 +1,4 @@
-package com.baeldung.newline;
+package com.surya.newline;
 
 public class AddingNewLineToString {
 	

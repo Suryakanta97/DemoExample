@@ -1,4 +1,4 @@
-package com.baeldung.powerset;
+package com.surya.powerset;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;

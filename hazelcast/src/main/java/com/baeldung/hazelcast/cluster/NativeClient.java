@@ -1,4 +1,4 @@
-package com.baeldung.hazelcast.cluster;
+package com.surya.hazelcast.cluster;
 
 import com.hazelcast.client.HazelcastClient;
 import com.hazelcast.client.config.ClientConfig;

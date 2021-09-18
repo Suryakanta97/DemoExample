@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.enums.demo;
+package com.surya.javaxval.enums.demo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -9,7 +9,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 
-import com.baeldung.javaxval.LocaleAwareUnitTest;
+import com.surya.javaxval.LocaleAwareUnitTest;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -50,7 +50,7 @@ public class CustomerUnitTest extends LocaleAwareUnitTest {
         Set<ConstraintViolation<Customer>> violations = validator.validate(customer);
         assertThat(violations.size()).isEqualTo(3);
 
-        assertThat(violations).anyMatch(havingPropertyPath("customerTypeString").and(havingMessage("must be any of enum class com.baeldung.javaxval.enums.demo.CustomerType")));
+        assertThat(violations).anyMatch(havingPropertyPath("customerTypeString").and(havingMessage("must be any of enum class com.surya.javaxval.enums.demo.CustomerType")));
         assertThat(violations).anyMatch(havingPropertyPath("customerTypeOfSubset").and(havingMessage("must be any of [NEW, OLD]")));
         assertThat(violations).anyMatch(havingPropertyPath("customerTypeMatchesPattern").and(havingMessage("must match \"NEW|DEFAULT\"")));
     }

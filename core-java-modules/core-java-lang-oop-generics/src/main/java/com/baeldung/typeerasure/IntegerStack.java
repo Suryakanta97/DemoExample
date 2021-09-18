@@ -1,4 +1,4 @@
-package com.baeldung.typeerasure;
+package com.surya.typeerasure;
 
 public class IntegerStack extends Stack<Integer> {
 

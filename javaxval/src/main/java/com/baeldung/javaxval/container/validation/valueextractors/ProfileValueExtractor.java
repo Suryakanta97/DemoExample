@@ -1,10 +1,10 @@
-package com.baeldung.javaxval.container.validation.valueextractors;
+package com.surya.javaxval.container.validation.valueextractors;
 
 import javax.validation.valueextraction.ExtractedValue;
 import javax.validation.valueextraction.UnwrapByDefault;
 import javax.validation.valueextraction.ValueExtractor;
 
-import com.baeldung.javaxval.container.validation.Profile;
+import com.surya.javaxval.container.validation.Profile;
 
 @UnwrapByDefault
 public class ProfileValueExtractor implements ValueExtractor<@ExtractedValue(type = String.class) Profile> {

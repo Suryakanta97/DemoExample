@@ -1,12 +1,12 @@
-package com.baeldung.java14.patternmatchingforinstanceof;
+package com.surya.java14.patternmatchingforinstanceof;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.java14.patternmatchingforinstanceof.PatternMatchingForInstanceOf.Cat;
-import com.baeldung.java14.patternmatchingforinstanceof.PatternMatchingForInstanceOf.Dog;
+import com.surya.java14.patternmatchingforinstanceof.PatternMatchingForInstanceOf.Cat;
+import com.surya.java14.patternmatchingforinstanceof.PatternMatchingForInstanceOf.Dog;
 
 class PatternMatchingForInstanceOfUnitTest {
 

@@ -7,7 +7,7 @@
     version="2.0">
     <managed-bean>
 	  <managed-bean-name>convListVal</managed-bean-name>
-	  <managed-bean-class>com.baeldung.convListVal.ConvListVal</managed-bean-class>
+	  <managed-bean-class>com.surya.convListVal.ConvListVal</managed-bean-class>
 	  <managed-bean-scope>session</managed-bean-scope>
      </managed-bean>
 </faces-config>

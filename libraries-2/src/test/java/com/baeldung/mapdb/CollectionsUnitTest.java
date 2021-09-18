@@ -1,4 +1,4 @@
-package com.baeldung.mapdb;
+package com.surya.mapdb;
 
 import org.junit.Test;
 import org.mapdb.DB;
@@ -21,7 +21,7 @@ public class CollectionsUnitTest {
           .serializer(Serializer.STRING)
           .createOrOpen();
 
-        String myString = "Baeldung!";
+        String myString = "surya!";
 
         set.add(myString);
         set.add(myString);

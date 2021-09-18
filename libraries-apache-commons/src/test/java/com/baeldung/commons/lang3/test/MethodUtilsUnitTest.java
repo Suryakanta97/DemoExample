@@ -1,6 +1,6 @@
-package com.baeldung.commons.lang3.test;
+package com.surya.commons.lang3.test;
 
-import com.baeldung.commons.lang3.beans.User;
+import com.surya.commons.lang3.beans.User;
 import java.lang.reflect.Method;
 import org.apache.commons.lang3.reflect.MethodUtils;
 import static org.assertj.core.api.Assertions.assertThat;

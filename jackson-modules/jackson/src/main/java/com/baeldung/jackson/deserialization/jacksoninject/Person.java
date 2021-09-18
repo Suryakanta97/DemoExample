@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization.jacksoninject;
+package com.surya.jackson.deserialization.jacksoninject;
 
 import com.fasterxml.jackson.annotation.JacksonInject;
 

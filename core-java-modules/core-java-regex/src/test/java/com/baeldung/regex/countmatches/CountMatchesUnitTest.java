@@ -1,4 +1,4 @@
-package com.baeldung.regex.countmatches;
+package com.surya.regex.countmatches;
 
 import org.junit.Test;
 
@@ -15,9 +15,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CountMatchesUnitTest {
 
     private static final Pattern EMAIL_ADDRESS_PATTERN = Pattern.compile("([a-z0-9_.-]+)@([a-z0-9_.-]+[a-z])");
-    private static final String TEXT_CONTAINING_EMAIL_ADDRESSES = "You can contact me through: writer@baeldung.com, editor@baeldung.com and team@bealdung.com";
-    private static final String TEXT_CONTAINING_FIVE_EMAIL_ADDRESSES = "Valid emails are: me@gmail.com, you@baeldung.com, contact@hotmail.com, press@anysite.com and support@bealdung.com";
-    private static final String TEXT_CONTAINING_OVERLAP_EMAIL_ADDRESSES = "Try to contact us at team@baeldung.comeditor@baeldung.com, support@baeldung.com.";
+    private static final String TEXT_CONTAINING_EMAIL_ADDRESSES = "You can contact me through: writer@surya.com, editor@surya.com and team@bealdung.com";
+    private static final String TEXT_CONTAINING_FIVE_EMAIL_ADDRESSES = "Valid emails are: me@gmail.com, you@surya.com, contact@hotmail.com, press@anysite.com and support@bealdung.com";
+    private static final String TEXT_CONTAINING_OVERLAP_EMAIL_ADDRESSES = "Try to contact us at team@surya.comeditor@surya.com, support@surya.com.";
 
     @Test
     public void givenContainingEmailString_whenJava8Match_thenCountMacthesFound() {

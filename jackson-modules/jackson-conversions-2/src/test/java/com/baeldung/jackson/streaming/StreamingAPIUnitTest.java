@@ -1,4 +1,4 @@
-package com.baeldung.jackson.streaming;
+package com.surya.jackson.streaming;
 
 import com.fasterxml.jackson.core.*;
 import org.junit.Test;

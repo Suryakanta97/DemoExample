@@ -1,4 +1,4 @@
-package com.baeldung.ipingivenrange;
+package com.surya.ipingivenrange;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

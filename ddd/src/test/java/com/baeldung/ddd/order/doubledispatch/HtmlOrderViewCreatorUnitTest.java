@@ -1,4 +1,4 @@
-package com.baeldung.ddd.order.doubledispatch;
+package com.surya.ddd.order.doubledispatch;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,10 +8,10 @@ import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.baeldung.ddd.order.doubledispatch.Order;
-import com.baeldung.ddd.order.OrderFixtureUtils;
-import com.baeldung.ddd.order.OrderLine;
-import com.baeldung.ddd.order.doubledispatch.visitor.HtmlOrderViewCreator;
+import com.surya.ddd.order.doubledispatch.Order;
+import com.surya.ddd.order.OrderFixtureUtils;
+import com.surya.ddd.order.OrderLine;
+import com.surya.ddd.order.doubledispatch.visitor.HtmlOrderViewCreator;
 
 public class HtmlOrderViewCreatorUnitTest {
     // @formatter:off 

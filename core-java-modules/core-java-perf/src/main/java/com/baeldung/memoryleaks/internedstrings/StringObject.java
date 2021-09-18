@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.internedstrings;
+package com.surya.memoryleaks.internedstrings;
 
 public class StringObject {
     private static final String FILEPATH = "C:\\bigstring.txt";

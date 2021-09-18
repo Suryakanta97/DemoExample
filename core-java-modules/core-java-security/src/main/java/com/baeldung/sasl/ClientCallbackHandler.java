@@ -1,4 +1,4 @@
-package com.baeldung.sasl;
+package com.surya.sasl;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.baeldung.maven.it;
+package com.surya.maven.it;
 
 import org.junit.jupiter.api.Test;
 

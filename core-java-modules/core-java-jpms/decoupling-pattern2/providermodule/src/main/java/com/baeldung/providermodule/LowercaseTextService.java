@@ -1,6 +1,6 @@
-package com.baeldung.providermodule;
+package com.surya.providermodule;
 
-import com.baeldung.servicemodule.TextService;
+import com.surya.servicemodule.TextService;
 
 public class LowercaseTextService implements TextService {
     @Override

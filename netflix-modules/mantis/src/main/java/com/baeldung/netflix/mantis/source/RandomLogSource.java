@@ -1,4 +1,4 @@
-package com.baeldung.netflix.mantis.source;
+package com.surya.netflix.mantis.source;
 
 import io.mantisrx.runtime.Context;
 import io.mantisrx.runtime.source.Index;

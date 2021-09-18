@@ -1,4 +1,4 @@
-package com.baeldung.i;
+package com.surya.i;
 
 public class CrazyPerson implements BearPetter {
 

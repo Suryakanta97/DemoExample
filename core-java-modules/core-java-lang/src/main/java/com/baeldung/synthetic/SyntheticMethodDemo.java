@@ -1,4 +1,4 @@
-package com.baeldung.synthetic;
+package com.surya.synthetic;
 
 /**
  * Wrapper for a class which contains two synthetic methods accessors to a

@@ -33,11 +33,11 @@ INSERT INTO employee_legacy (first_name,last_name,salary,hired_date) VALUES ('Ki
 INSERT INTO employee_legacy (first_name,last_name,salary,hired_date) VALUES ('Stephen', 'Torvalds', 40000.40, to_date('04-04-2004','dd-mm-yyyy'));
 INSERT INTO employee_legacy (first_name,last_name,salary,hired_date) VALUES ('Christian', 'Reynolds', 50000.50, to_date('05-05-2005','dd-mm-yyyy'));
 
-INSERT INTO email (employeeid,address) VALUES (1, 'john@baeldung.com');
+INSERT INTO email (employeeid,address) VALUES (1, 'john@surya.com');
 INSERT INTO email (employeeid,address) VALUES (1, 'john@gmail.com');
-INSERT INTO email (employeeid,address) VALUES (2, 'kevin@baeldung.com');
-INSERT INTO email (employeeid,address) VALUES (3, 'kim@baeldung.com');
+INSERT INTO email (employeeid,address) VALUES (2, 'kevin@surya.com');
+INSERT INTO email (employeeid,address) VALUES (3, 'kim@surya.com');
 INSERT INTO email (employeeid,address) VALUES (3, 'kim@gmail.com');
 INSERT INTO email (employeeid,address) VALUES (3, 'kim@outlook.com');
-INSERT INTO email (employeeid,address) VALUES (4, 'stephen@baeldung.com');
+INSERT INTO email (employeeid,address) VALUES (4, 'stephen@surya.com');
 INSERT INTO email (employeeid,address) VALUES (5, 'christian@gmail.com');

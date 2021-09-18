@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Flogger Fluent Logging](https://www.baeldung.com/flogger-logging)
+- [Flogger Fluent Logging](https://www.surya.com/flogger-logging)

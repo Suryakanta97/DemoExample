@@ -1,4 +1,4 @@
-package com.baeldung.batch.understanding;
+package com.surya.batch.understanding;
 
 import javax.batch.api.chunk.AbstractCheckpointAlgorithm;
 import javax.batch.runtime.context.JobContext;

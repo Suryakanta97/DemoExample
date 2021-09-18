@@ -1,7 +1,7 @@
-package com.baeldung.jhipster.gateway.web.rest.errors;
+package com.surya.jhipster.gateway.web.rest.errors;
 
-import com.baeldung.jhipster.gateway.GatewayApp;
-import com.baeldung.jhipster.gateway.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.gateway.GatewayApp;
+import com.surya.jhipster.gateway.config.SecurityBeanOverrideConfiguration;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

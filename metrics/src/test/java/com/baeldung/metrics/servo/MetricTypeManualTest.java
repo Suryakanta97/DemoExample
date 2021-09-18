@@ -1,4 +1,4 @@
-package com.baeldung.metrics.servo;
+package com.surya.metrics.servo;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;

@@ -1,4 +1,4 @@
-package com.baeldung.picocli.helloworld;
+package com.surya.picocli.helloworld;
 
 import picocli.CommandLine;
 

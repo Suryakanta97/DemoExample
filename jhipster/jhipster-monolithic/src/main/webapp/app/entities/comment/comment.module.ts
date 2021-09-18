@@ -1,7 +1,7 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { BaeldungSharedModule } from '../../shared';
+import { suryaSharedModule } from '../../shared';
 
 import {
     CommentService,
@@ -23,7 +23,7 @@ let ENTITY_STATES = [
 
 @NgModule({
     imports: [
-        BaeldungSharedModule,
+        suryaSharedModule,
         RouterModule.forRoot(ENTITY_STATES, { useHash: true })
     ],
     declarations: [
@@ -47,4 +47,4 @@ let ENTITY_STATES = [
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class BaeldungCommentModule {}
+export class suryaCommentModule {}

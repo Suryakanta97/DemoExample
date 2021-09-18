@@ -1,10 +1,10 @@
-package com.baeldung.openliberty.person.dao;
+package com.surya.openliberty.person.dao;
 
 import javax.enterprise.context.RequestScoped;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import com.baeldung.openliberty.person.model.Person;
+import com.surya.openliberty.person.model.Person;
 
 @RequestScoped
 public class PersonDao {

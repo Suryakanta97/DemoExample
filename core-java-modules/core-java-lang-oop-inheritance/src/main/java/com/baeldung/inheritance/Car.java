@@ -1,4 +1,4 @@
-package com.baeldung.inheritance;
+package com.surya.inheritance;
 
 public class Car {
 	private final int DEFAULT_WHEEL_COUNT = 5;

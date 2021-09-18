@@ -1,4 +1,4 @@
-package com.baeldung.relationships.composition;
+package com.surya.relationships.composition;
 
 public class BuildingWithDefinitionRoomInMethod {
 

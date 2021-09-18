@@ -1,4 +1,4 @@
-package com.baeldung.constantspatterns.calculations;
+package com.surya.constantspatterns.calculations;
 
 public final class MathConstants {
     public static final double PI = 3.14159265359;

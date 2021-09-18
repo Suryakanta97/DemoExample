@@ -1,4 +1,4 @@
-package com.baeldung.parameterpassing;
+package com.surya.parameterpassing;
 
 import org.junit.Assert;
 import org.junit.Test;

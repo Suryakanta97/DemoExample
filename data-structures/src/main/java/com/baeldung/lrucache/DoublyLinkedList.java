@@ -1,4 +1,4 @@
-package com.baeldung.lrucache;
+package com.surya.lrucache;
 
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicInteger;

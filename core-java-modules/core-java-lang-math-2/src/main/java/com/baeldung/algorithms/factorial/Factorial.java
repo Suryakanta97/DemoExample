@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.factorial;
+package com.surya.algorithms.factorial;
 
 import java.math.BigInteger;
 import java.util.stream.LongStream;

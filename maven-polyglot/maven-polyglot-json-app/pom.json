@@ -1,11 +1,11 @@
 {
   "modelVersion": "4.0.0",
-  "groupId": "com.baeldung.maven.polyglot",
+  "groupId": "com.surya.maven.polyglot",
   "artifactId": "maven-polyglot-json-app",
   "version": "1.0-SNAPSHOT",
   "name": "Json Maven Polyglot",
   "parent": {
-    "groupId": "com.baeldung",
+    "groupId": "com.surya",
     "artifactId": "parent-boot-2",
     "version": "0.0.1-SNAPSHOT",
     "relativePath": "../../parent-boot-2"

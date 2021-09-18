@@ -1,4 +1,4 @@
-package com.baeldung.localization;
+package com.surya.localization;
 
 import com.ibm.icu.text.MessageFormat;
 

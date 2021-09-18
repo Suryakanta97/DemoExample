@@ -1,4 +1,4 @@
-package com.baeldung.lombok.builder.inheritance.buildermethodname;
+package com.surya.lombok.builder.inheritance.buildermethodname;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -28,13 +28,13 @@ public class BuilderInheritanceUsingMethodNameUnitTest {
                 .parentAge(38)
                 .childName("Emma")
                 .childAge(6)
-                .schoolName("Baeldung High School")
+                .schoolName("surya High School")
                 .build();
 
         assertThat(student.getChildName()).isEqualTo("Emma");
         assertThat(student.getChildAge()).isEqualTo(6);
         assertThat(student.getParentName()).isEqualTo("Andrea");
         assertThat(student.getParentAge()).isEqualTo(38);
-        assertThat(student.getSchoolName()).isEqualTo("Baeldung High School");
+        assertThat(student.getSchoolName()).isEqualTo("surya High School");
     }
 }

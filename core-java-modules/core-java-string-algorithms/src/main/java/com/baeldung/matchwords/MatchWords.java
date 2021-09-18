@@ -1,4 +1,4 @@
-package com.baeldung.matchwords;
+package com.surya.matchwords;
 
 import org.ahocorasick.trie.Emit;
 import org.ahocorasick.trie.Trie;

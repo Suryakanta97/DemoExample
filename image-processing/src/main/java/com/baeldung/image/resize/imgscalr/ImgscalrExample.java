@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.imgscalr;
+package com.surya.image.resize.imgscalr;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

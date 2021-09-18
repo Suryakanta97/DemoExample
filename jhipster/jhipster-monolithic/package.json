@@ -1,7 +1,7 @@
 {
-  "name": "baeldung",
+  "name": "surya",
   "version": "0.0.0",
-  "description": "Description for baeldung",
+  "description": "Description for surya",
   "private": true,
   "cacheDirectories": [
     "node_modules"

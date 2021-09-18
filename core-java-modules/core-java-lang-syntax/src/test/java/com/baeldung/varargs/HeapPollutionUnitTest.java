@@ -1,4 +1,4 @@
-package com.baeldung.varargs;
+package com.surya.varargs;
 
 import org.junit.Test;
 

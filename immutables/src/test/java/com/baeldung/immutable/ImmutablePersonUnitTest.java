@@ -1,4 +1,4 @@
-package com.baeldung.immutable;
+package com.surya.immutable;
 
 import org.junit.Test;
 

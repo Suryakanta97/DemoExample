@@ -1,8 +1,8 @@
-package com.baeldung.serenity.spring.steps;
+package com.surya.serenity.spring.steps;
 
 import net.thucydides.core.annotations.Step;
 
-import static com.baeldung.serenity.spring.RandomNumberUtil.randomInt;
+import static com.surya.serenity.spring.RandomNumberUtil.randomInt;
 
 /**
  * @author aiet

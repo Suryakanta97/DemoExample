@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.aggregatefunctions;
+package com.surya.hibernate.aggregatefunctions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -11,8 +11,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.hibernate.HibernateUtil;
-import com.baeldung.hibernate.pojo.Student;
+import com.surya.hibernate.HibernateUtil;
+import com.surya.hibernate.pojo.Student;
 
 public class AggregateFunctionsIntegrationTest {
 

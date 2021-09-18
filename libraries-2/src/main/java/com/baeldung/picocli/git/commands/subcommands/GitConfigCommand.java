@@ -1,6 +1,6 @@
-package com.baeldung.picocli.git.commands.subcommands;
+package com.surya.picocli.git.commands.subcommands;
 
-import com.baeldung.picocli.git.model.ConfigElement;
+import com.surya.picocli.git.model.ConfigElement;
 import org.springframework.stereotype.Component;
 
 import static picocli.CommandLine.Command;

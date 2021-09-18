@@ -2,7 +2,7 @@ package com.surya.soap.ws.server;
 
 import jakarta.jws.WebService;
 
-@WebService(endpointInterface = "com.baeldung.soap.ws.server.CountryService")
+@WebService(endpointInterface = "com.surya.soap.ws.server.CountryService")
 public class CountryServiceImpl implements CountryService {
 
     private CountryRepository countryRepository = new CountryRepository();

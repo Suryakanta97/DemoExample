@@ -1,13 +1,13 @@
-package com.baeldung.retrofit.rx;
+package com.surya.retrofit.rx;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.retrofit.models.Contributor;
-import com.baeldung.retrofit.models.Repository;
-import com.baeldung.retrofit.rx.GitHubRxApi;
+import com.surya.retrofit.models.Contributor;
+import com.surya.retrofit.models.Repository;
+import com.surya.retrofit.rx.GitHubRxApi;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;

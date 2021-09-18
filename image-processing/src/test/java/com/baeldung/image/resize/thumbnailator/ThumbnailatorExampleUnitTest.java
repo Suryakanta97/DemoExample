@@ -1,4 +1,4 @@
-package com.baeldung.image.resize.thumbnailator;
+package com.surya.image.resize.thumbnailator;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

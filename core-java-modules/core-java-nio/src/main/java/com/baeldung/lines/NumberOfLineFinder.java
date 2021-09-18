@@ -1,4 +1,4 @@
-package com.baeldung.lines;
+package com.surya.lines;
 
 import java.io.BufferedReader;
 import java.io.File;

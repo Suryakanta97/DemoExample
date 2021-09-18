@@ -1,7 +1,7 @@
-package com.baeldung.mdc;
+package com.surya.mdc;
 
-import com.baeldung.mdc.pool.MdcAwareThreadPoolExecutor;
-import com.baeldung.mdc.slf4j.Slf4jRunnable;
+import com.surya.mdc.pool.MdcAwareThreadPoolExecutor;
+import com.surya.mdc.slf4j.Slf4jRunnable;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;

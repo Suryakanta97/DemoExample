@@ -1,9 +1,9 @@
-package com.baeldung.picocli.git;
+package com.surya.picocli.git;
 
-import com.baeldung.picocli.git.commands.programmative.GitCommand;
-import com.baeldung.picocli.git.commands.subcommands.GitAddCommand;
-import com.baeldung.picocli.git.commands.subcommands.GitCommitCommand;
-import com.baeldung.picocli.git.commands.subcommands.GitConfigCommand;
+import com.surya.picocli.git.commands.programmative.GitCommand;
+import com.surya.picocli.git.commands.subcommands.GitAddCommand;
+import com.surya.picocli.git.commands.subcommands.GitCommitCommand;
+import com.surya.picocli.git.commands.subcommands.GitConfigCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

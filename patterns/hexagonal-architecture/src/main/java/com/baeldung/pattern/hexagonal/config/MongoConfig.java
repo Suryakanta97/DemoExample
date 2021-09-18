@@ -1,6 +1,6 @@
-package com.baeldung.pattern.hexagonal.config;
+package com.surya.pattern.hexagonal.config;
 
-import com.baeldung.pattern.hexagonal.persistence.MongoRepoEx;
+import com.surya.pattern.hexagonal.persistence.MongoRepoEx;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 

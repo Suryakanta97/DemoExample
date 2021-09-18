@@ -1,4 +1,4 @@
-package com.baeldung.scribejava.oauth;
+package com.surya.scribejava.oauth;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +24,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-                .withUser("baeldung")
+                .withUser("surya")
                 .password("scribejava")
                 .roles("USER");
     }

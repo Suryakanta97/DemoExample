@@ -1,4 +1,4 @@
-package com.baeldung.regex.countdigits;
+package com.surya.regex.countdigits;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

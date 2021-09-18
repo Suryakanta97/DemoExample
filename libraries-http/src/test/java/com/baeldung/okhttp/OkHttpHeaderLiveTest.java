@@ -1,4 +1,4 @@
-package com.baeldung.okhttp;
+package com.surya.okhttp;
 
 import java.io.IOException;
 

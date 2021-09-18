@@ -1,4 +1,4 @@
-package com.baeldung.memoryleaks.innerclass;
+package com.surya.memoryleaks.innerclass;
 
 
 public class InnerClassWrapper {

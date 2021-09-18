@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.container.validation;
+package com.surya.javaxval.container.validation;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +11,7 @@ import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
 
-import com.baeldung.javaxval.container.validation.valueextractors.ProfileValueExtractor;
+import com.surya.javaxval.container.validation.valueextractors.ProfileValueExtractor;
 import org.junit.Before;
 import org.junit.Test;
 

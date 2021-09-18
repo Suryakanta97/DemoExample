@@ -1,4 +1,4 @@
-package com.baeldung.download;
+package com.surya.download;
 
 import java.io.*;
 import java.net.*;

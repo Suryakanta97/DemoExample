@@ -1,4 +1,4 @@
-package com.baeldung.javaxval.methodvalidation.model;
+package com.surya.javaxval.methodvalidation.model;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -9,7 +9,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import com.baeldung.javaxval.methodvalidation.constraints.ConsistentDateParameters;
+import com.surya.javaxval.methodvalidation.constraints.ConsistentDateParameters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;

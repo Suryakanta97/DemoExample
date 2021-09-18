@@ -2,11 +2,11 @@
 
     <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
 
-    <appender name="map" class="com.baeldung.logback.MapAppender">
+    <appender name="map" class="com.surya.logback.MapAppender">
         <prefix>test</prefix>
     </appender>
 
-    <appender name="badMap" class="com.baeldung.logback.MapAppender" />
+    <appender name="badMap" class="com.surya.logback.MapAppender" />
 
     # JSON appender
     <appender name="json" class="ch.qos.logback.core.ConsoleAppender">
@@ -28,7 +28,7 @@
         <appender-ref ref="badMap" />
     </root>
 
-    <logger name="com.baeldung.logback.MapAppenderIntegrationTest" level="info">
+    <logger name="com.surya.logback.MapAppenderIntegrationTest" level="info">
         <appender-ref ref="map"/>
         <appender-ref ref="badMap" />
     </logger>

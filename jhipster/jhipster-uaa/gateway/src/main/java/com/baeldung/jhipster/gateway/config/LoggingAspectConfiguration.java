@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.config;
+package com.surya.jhipster.gateway.config;
 
-import com.baeldung.jhipster.gateway.aop.logging.LoggingAspect;
+import com.surya.jhipster.gateway.aop.logging.LoggingAspect;
 
 import io.github.jhipster.config.JHipsterConstants;
 

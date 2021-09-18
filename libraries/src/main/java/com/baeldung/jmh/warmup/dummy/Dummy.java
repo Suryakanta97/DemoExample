@@ -1,4 +1,4 @@
-package com.baeldung.jmh.warmup.dummy;
+package com.surya.jmh.warmup.dummy;
 
 public class Dummy {
 

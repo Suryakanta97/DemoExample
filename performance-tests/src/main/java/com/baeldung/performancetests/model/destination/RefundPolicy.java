@@ -1,4 +1,4 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
 import com.google.common.base.Objects;
 import com.googlecode.jmapper.annotations.JGlobalMap;
@@ -52,8 +52,8 @@ public class RefundPolicy {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null) return false;
-        if (o.getClass() == com.baeldung.performancetests.model.source.RefundPolicy.class) {
-            com.baeldung.performancetests.model.source.RefundPolicy that = (com.baeldung.performancetests.model.source.RefundPolicy) o;
+        if (o.getClass() == com.surya.performancetests.model.source.RefundPolicy.class) {
+            com.surya.performancetests.model.source.RefundPolicy that = (com.surya.performancetests.model.source.RefundPolicy) o;
             return isRefundable == that.isRefundable() &&
                     refundTimeInDays == that.getRefundTimeInDays() &&
                     Objects.equal(notes, that.getNotes());

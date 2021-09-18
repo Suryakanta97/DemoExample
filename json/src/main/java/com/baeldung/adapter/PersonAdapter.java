@@ -1,10 +1,10 @@
-package com.baeldung.adapter;
+package com.surya.adapter;
 
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.json.bind.adapter.JsonbAdapter;
 
-import com.baeldung.jsonb.Person;
+import com.surya.jsonb.Person;
 
 public class PersonAdapter implements JsonbAdapter<Person, JsonObject> {
 

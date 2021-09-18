@@ -1,4 +1,4 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonDeserializationContext;
@@ -8,7 +8,7 @@ import com.google.gson.JsonObject;
 import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
-import com.baeldung.gson.entities.Animal;
+import com.surya.gson.entities.Animal;
 
 public class AnimalDeserializer implements JsonDeserializer<Animal> {
     private String animalTypeElementName;

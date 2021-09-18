@@ -1,4 +1,4 @@
-package com.baeldung.java9;
+package com.surya.java9;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;

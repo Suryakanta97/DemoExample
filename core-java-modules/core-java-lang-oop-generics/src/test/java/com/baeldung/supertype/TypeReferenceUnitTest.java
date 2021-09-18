@@ -1,4 +1,4 @@
-package com.baeldung.supertype;
+package com.surya.supertype;
 
 import org.junit.Test;
 

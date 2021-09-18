@@ -1,4 +1,4 @@
-package com.baeldung.jackson.xmlToJson;
+package com.surya.jackson.xmlToJson;
 
 public class Flower {
 

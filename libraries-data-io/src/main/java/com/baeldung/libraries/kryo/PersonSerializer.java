@@ -1,4 +1,4 @@
-package com.baeldung.libraries.kryo;
+package com.surya.libraries.kryo;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.Serializer;

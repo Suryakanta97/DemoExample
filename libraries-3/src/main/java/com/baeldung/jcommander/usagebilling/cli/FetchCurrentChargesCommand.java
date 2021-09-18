@@ -1,18 +1,18 @@
-package com.baeldung.jcommander.usagebilling.cli;
+package com.surya.jcommander.usagebilling.cli;
 
-import com.baeldung.jcommander.usagebilling.cli.splitter.ColonParameterSplitter;
-import com.baeldung.jcommander.usagebilling.cli.validator.UUIDValidator;
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesRequest;
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesResponse;
-import com.baeldung.jcommander.usagebilling.service.FetchCurrentChargesService;
+import com.surya.jcommander.usagebilling.cli.splitter.ColonParameterSplitter;
+import com.surya.jcommander.usagebilling.cli.validator.UUIDValidator;
+import com.surya.jcommander.usagebilling.model.CurrentChargesRequest;
+import com.surya.jcommander.usagebilling.model.CurrentChargesResponse;
+import com.surya.jcommander.usagebilling.service.FetchCurrentChargesService;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 import lombok.Getter;
 
 import java.util.List;
 
-import static com.baeldung.jcommander.usagebilling.cli.UsageBasedBilling.*;
-import static com.baeldung.jcommander.usagebilling.service.FetchCurrentChargesService.getDefault;
+import static com.surya.jcommander.usagebilling.cli.UsageBasedBilling.*;
+import static com.surya.jcommander.usagebilling.service.FetchCurrentChargesService.getDefault;
 
 @Parameters(
   commandNames = { FETCH_CMD },

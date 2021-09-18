@@ -1,4 +1,4 @@
-package com.baeldung.searching;
+package com.surya.searching;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.baeldung.parameterpassing;
+package com.surya.parameterpassing;
 
 public class NonPrimitives {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.baeldung.jsonassert;
+package com.surya.jsonassert;
 
 import org.json.JSONException;
 import org.json.JSONObject;

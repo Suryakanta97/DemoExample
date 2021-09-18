@@ -1,4 +1,4 @@
-package com.baeldung.bufferedreadertojsonobject;
+package com.surya.bufferedreadertojsonobject;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

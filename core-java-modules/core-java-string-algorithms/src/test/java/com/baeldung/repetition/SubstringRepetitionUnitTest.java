@@ -1,19 +1,19 @@
-package com.baeldung.repetition;
+package com.surya.repetition;
 
 import org.junit.Test;
 
-import static com.baeldung.repetition.SubstringRepetition.*;
+import static com.surya.repetition.SubstringRepetition.*;
 import static org.junit.Assert.*;
 
 public class SubstringRepetitionUnitTest {
 
     private String validString = "aa";
     private String validStringTwo = "ababab";
-    private String validStringThree = "baeldungbaeldung";
+    private String validStringThree = "suryasurya";
 
     private String invalidString = "aca";
     private String invalidStringTwo = "ababa";
-    private String invalidStringThree = "baeldungnonrepeatedbaeldung";
+    private String invalidStringThree = "suryanonrepeatedsurya";
 
     @Test
     public void givenValidStrings_whenCheckIfContainsOnlySubstrings_thenReturnsTrue() {

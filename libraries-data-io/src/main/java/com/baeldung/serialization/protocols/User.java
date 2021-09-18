@@ -1,4 +1,4 @@
-package com.baeldung.serialization.protocols;
+package com.surya.serialization.protocols;
 
 import java.io.Serializable;
 

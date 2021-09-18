@@ -1,4 +1,4 @@
-package com.baeldung.guava.tutorial;
+package com.surya.guava.tutorial;
 
 import com.google.common.collect.Streams;
 import org.junit.Before;
@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-import static com.baeldung.guava.tutorial.StreamUtility.assertStreamEquals;
+import static com.surya.guava.tutorial.StreamUtility.assertStreamEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 

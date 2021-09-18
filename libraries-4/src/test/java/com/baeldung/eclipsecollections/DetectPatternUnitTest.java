@@ -1,4 +1,4 @@
-package com.baeldung.eclipsecollections;
+package com.surya.eclipsecollections;
 
 import org.assertj.core.api.Assertions;
 import org.eclipse.collections.api.list.MutableList;

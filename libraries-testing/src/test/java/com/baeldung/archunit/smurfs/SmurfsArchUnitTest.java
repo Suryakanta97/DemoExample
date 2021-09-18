@@ -1,4 +1,4 @@
-package com.baeldung.archunit.smurfs;
+package com.surya.archunit.smurfs;
 
 
 import com.tngtech.archunit.core.domain.JavaClasses;
@@ -18,7 +18,7 @@ public class SmurfsArchUnitTest {
     
     @Test
     public void givenPresentationLayerClasses_thenWrongCheckFails() {        
-        JavaClasses jc = new ClassFileImporter().importPackages("com.baeldung.archunit.smurfs");
+        JavaClasses jc = new ClassFileImporter().importPackages("com.surya.archunit.smurfs");
         
         ArchRule r1 = classes()
           .that()
@@ -32,7 +32,7 @@ public class SmurfsArchUnitTest {
 
     @Test
     public void givenPresentationLayerClasses_thenCheckWithFrameworkDependenciesSuccess() {        
-        JavaClasses jc = new ClassFileImporter().importPackages("com.baeldung.archunit.smurfs");
+        JavaClasses jc = new ClassFileImporter().importPackages("com.surya.archunit.smurfs");
         
         ArchRule r1 = classes()
           .that()
@@ -45,7 +45,7 @@ public class SmurfsArchUnitTest {
 
     @Test
     public void givenPresentationLayerClasses_thenNoPersistenceLayerAccess() {        
-        JavaClasses jc = new ClassFileImporter().importPackages("com.baeldung.archunit.smurfs");
+        JavaClasses jc = new ClassFileImporter().importPackages("com.surya.archunit.smurfs");
         
         ArchRule r1 = noClasses()
           .that()
@@ -59,7 +59,7 @@ public class SmurfsArchUnitTest {
     @Test
     public void givenApplicationClasses_thenNoLayerViolationsShouldExist() {
         
-        JavaClasses jc = new ClassFileImporter().importPackages("com.baeldung.archunit.smurfs");
+        JavaClasses jc = new ClassFileImporter().importPackages("com.surya.archunit.smurfs");
         
         LayeredArchitecture arch = layeredArchitecture()
            // Define layers

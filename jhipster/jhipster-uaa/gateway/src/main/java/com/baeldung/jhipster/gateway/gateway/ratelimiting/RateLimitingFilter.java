@@ -1,6 +1,6 @@
-package com.baeldung.jhipster.gateway.gateway.ratelimiting;
+package com.surya.jhipster.gateway.gateway.ratelimiting;
 
-import com.baeldung.jhipster.gateway.security.SecurityUtils;
+import com.surya.jhipster.gateway.security.SecurityUtils;
 
 import java.time.Duration;
 import java.util.function.Supplier;

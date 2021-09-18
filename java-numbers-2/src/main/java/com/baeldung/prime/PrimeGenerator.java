@@ -1,4 +1,4 @@
-package com.baeldung.prime;
+package com.surya.prime;
 
 import java.util.Arrays;
 import java.util.LinkedList;

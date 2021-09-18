@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring.domain;
+package com.surya.dddhexagonalspring.domain;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

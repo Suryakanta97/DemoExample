@@ -1,4 +1,4 @@
-package com.baeldung.stringperformance;
+package com.surya.stringperformance;
 
 import com.google.common.base.Splitter;
 import org.apache.commons.lang3.StringUtils;
@@ -20,8 +20,8 @@ import java.util.regex.Pattern;
 @State(Scope.Thread)
 public class StringPerformance {
 
-    protected String baeldung = "baeldung";
-    protected String longString = "Hello baeldung, I am a bit longer than other Strings";
+    protected String surya = "surya";
+    protected String longString = "Hello surya, I am a bit longer than other Strings";
     protected String formatString = "hello %s, nice to meet you";
     protected String formatDigit = "%d";
     protected String emptyString = " ";
@@ -36,50 +36,50 @@ public class StringPerformance {
 
     @Benchmark
     public String benchmarkStringDynamicConcat() {
-        result += baeldung;
+        result += surya;
         return result;
     }
 
     @Benchmark
     public StringBuilder  benchmarkStringBuilder() {
         StringBuilder stringBuilder = new StringBuilder(result);
-        stringBuilder.append(baeldung);
+        stringBuilder.append(surya);
         return stringBuilder;
     }
 
     @Benchmark
     public StringBuffer benchmarkStringBuffer() {
         StringBuffer stringBuffer = new StringBuffer(result);
-        stringBuffer.append(baeldung);
+        stringBuffer.append(surya);
         return stringBuffer;
     }
 
     @Benchmark
     public String benchmarkStringConstructor() {
-        String result = new String("baeldung");
+        String result = new String("surya");
         return result;
     }
 
     @Benchmark
     public String benchmarkStringLiteral() {
-        String result = "baeldung";
+        String result = "surya";
         return result;
     }
 
     @Benchmark
     public String benchmarkStringFormat_s() {
-        return String.format(formatString, baeldung);
+        return String.format(formatString, surya);
     }
 
     @Benchmark
     public String benchmarkStringConcat() {
-        result = result.concat(baeldung);
+        result = result.concat(surya);
         return result;
     }
 
     @Benchmark
     public String benchmarkStringIntern() {
-        return baeldung.intern();
+        return surya.intern();
     }
 
     @Benchmark
@@ -151,28 +151,28 @@ public class StringPerformance {
 
     @Benchmark
     public boolean benchmarkStringEquals() {
-        return longString.equals(baeldung);
+        return longString.equals(surya);
     }
 
 
     @Benchmark
     public boolean benchmarkStringEqualsIgnoreCase() {
-        return longString.equalsIgnoreCase(baeldung);
+        return longString.equalsIgnoreCase(surya);
     }
 
     @Benchmark
     public boolean benchmarkStringMatches() {
-        return longString.matches(baeldung);
+        return longString.matches(surya);
     }
 
     @Benchmark
     public boolean benchmarkPrecompiledMatches() {
-        return longPattern.matcher(baeldung).matches();
+        return longPattern.matcher(surya).matches();
     }
 
     @Benchmark
     public int benchmarkStringCompareTo() {
-        return longString.compareTo(baeldung);
+        return longString.compareTo(surya);
     }
 
     @Benchmark

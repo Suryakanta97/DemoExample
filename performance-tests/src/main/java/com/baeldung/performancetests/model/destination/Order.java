@@ -1,6 +1,6 @@
-package com.baeldung.performancetests.model.destination;
+package com.surya.performancetests.model.destination;
 
-import com.baeldung.performancetests.model.source.SourceOrder;
+import com.surya.performancetests.model.source.SourceOrder;
 import com.google.common.base.Objects;
 import com.googlecode.jmapper.annotations.JMap;
 import com.googlecode.jmapper.annotations.JMapConversion;
@@ -162,7 +162,7 @@ public class Order {
 
 
     @JMapConversion(from = "status", to = "orderStatus")
-    public OrderStatus conversion(com.baeldung.performancetests.model.source.OrderStatus status) {
+    public OrderStatus conversion(com.surya.performancetests.model.source.OrderStatus status) {
         OrderStatus orderStatus = null;
         switch(status) {
             case CREATED:
@@ -188,7 +188,7 @@ public class Order {
     }
 
     @JMapConversion(from = "paymentType", to = "paymentType")
-    public PaymentType conversion(com.baeldung.performancetests.model.source.PaymentType type) {
+    public PaymentType conversion(com.surya.performancetests.model.source.PaymentType type) {
         PaymentType paymentType = null;
         switch(type) {
             case CARD:

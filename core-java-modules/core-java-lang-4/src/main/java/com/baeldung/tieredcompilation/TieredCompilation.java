@@ -1,4 +1,4 @@
-package com.baeldung.tieredcompilation;
+package com.surya.tieredcompilation;
 
 public class TieredCompilation {
 
@@ -10,7 +10,7 @@ public class TieredCompilation {
             } else {
                 formatter = new XmlFormatter();
             }
-            formatter.format(new Article("Tiered Compilation in JVM", "Baeldung"));
+            formatter.format(new Article("Tiered Compilation in JVM", "surya"));
         }
     }
 

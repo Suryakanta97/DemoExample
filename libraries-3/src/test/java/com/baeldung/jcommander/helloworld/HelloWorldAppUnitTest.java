@@ -1,4 +1,4 @@
-package com.baeldung.jcommander.helloworld;
+package com.surya.jcommander.helloworld;
 
 import com.beust.jcommander.JCommander;
 import org.junit.Test;

@@ -1,6 +1,6 @@
-package com.baeldung.guava;
+package com.surya.guava;
 
-import com.baeldung.guava.entity.User;
+import com.surya.guava.entity.User;
 import com.google.common.base.Functions;
 import com.google.common.base.Joiner;
 import com.google.common.base.Predicate;

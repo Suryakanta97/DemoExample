@@ -1,4 +1,4 @@
-package com.baeldung.typeerasure;
+package com.surya.typeerasure;
 
 import org.junit.Test;
 

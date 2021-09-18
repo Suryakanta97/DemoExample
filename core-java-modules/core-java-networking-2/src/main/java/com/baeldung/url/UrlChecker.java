@@ -1,4 +1,4 @@
-package com.baeldung.url;
+package com.surya.url;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

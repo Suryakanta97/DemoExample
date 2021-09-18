@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums.serialization;
+package com.surya.jackson.enums.serialization;
 
 import java.io.IOException;
 

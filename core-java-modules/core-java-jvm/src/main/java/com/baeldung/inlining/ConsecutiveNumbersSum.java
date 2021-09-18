@@ -1,4 +1,4 @@
-package com.baeldung.inlining;
+package com.surya.inlining;
 
 public class ConsecutiveNumbersSum {
 

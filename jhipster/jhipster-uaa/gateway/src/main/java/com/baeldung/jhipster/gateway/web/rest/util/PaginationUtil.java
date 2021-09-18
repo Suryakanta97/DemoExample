@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.gateway.web.rest.util;
+package com.surya.jhipster.gateway.web.rest.util;
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;

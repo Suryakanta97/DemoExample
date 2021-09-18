@@ -1,6 +1,6 @@
-package com.baeldung.filter;
+package com.surya.filter;
 
-import com.baeldung.security.RestAuthenticationEntryPoint;
+import com.surya.security.RestAuthenticationEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

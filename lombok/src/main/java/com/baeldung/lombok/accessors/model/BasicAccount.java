@@ -1,4 +1,4 @@
-package com.baeldung.lombok.accessors.model;
+package com.surya.lombok.accessors.model;
 
 import java.math.BigDecimal;
 

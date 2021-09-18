@@ -1,4 +1,4 @@
-package com.baeldung.jackson.ignore;
+package com.surya.jackson.ignore;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;

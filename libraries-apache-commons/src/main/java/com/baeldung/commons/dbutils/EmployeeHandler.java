@@ -1,4 +1,4 @@
-package com.baeldung.commons.dbutils;
+package com.surya.commons.dbutils;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

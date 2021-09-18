@@ -1,7 +1,7 @@
-package com.baeldung.kafka.producer;
+package com.surya.kafka.producer;
 
-import com.baeldung.kafka.producer.EvenOddPartitioner;
-import com.baeldung.kafka.producer.KafkaProducer;
+import com.surya.kafka.producer.EvenOddPartitioner;
+import com.surya.kafka.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.MockProducer;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.Cluster;
@@ -37,7 +37,7 @@ class KafkaProducerUnitTest {
         buildMockProducer(true);
         //when
         kafkaProducer = new KafkaProducer(mockProducer);
-        Future<RecordMetadata> recordMetadataFuture = kafkaProducer.send("data", "{\"site\" : \"baeldung\"}");
+        Future<RecordMetadata> recordMetadataFuture = kafkaProducer.send("data", "{\"site\" : \"surya\"}");
 
         //then
         assertTrue(mockProducer.history().size() == 1);
@@ -52,7 +52,7 @@ class KafkaProducerUnitTest {
         buildMockProducer(false);
         //when
         kafkaProducer = new KafkaProducer(mockProducer);
-        Future<RecordMetadata> record = kafkaProducer.send("data", "{\"site\" : \"baeldung\"}");
+        Future<RecordMetadata> record = kafkaProducer.send("data", "{\"site\" : \"surya\"}");
         assertFalse(record.isDone());
 
         //then
@@ -66,7 +66,7 @@ class KafkaProducerUnitTest {
         buildMockProducer(false);
         //when
         kafkaProducer = new KafkaProducer(mockProducer);
-        Future<RecordMetadata> record = kafkaProducer.send("site", "{\"site\" : \"baeldung\"}");
+        Future<RecordMetadata> record = kafkaProducer.send("site", "{\"site\" : \"surya\"}");
         RuntimeException e = new RuntimeException();
         mockProducer.errorNext(e);
         //then
@@ -86,7 +86,7 @@ class KafkaProducerUnitTest {
         kafkaProducer = new KafkaProducer(mockProducer);
         kafkaProducer.initTransaction();
         kafkaProducer.beginTransaction();
-        Future<RecordMetadata> record = kafkaProducer.send("data", "{\"site\" : \"baeldung\"}");
+        Future<RecordMetadata> record = kafkaProducer.send("data", "{\"site\" : \"surya\"}");
 
         //then
         assertTrue(mockProducer.history().isEmpty());
@@ -106,7 +106,7 @@ class KafkaProducerUnitTest {
         this.mockProducer = new MockProducer<>(cluster, true, new EvenOddPartitioner(), new StringSerializer(), new StringSerializer());
         //when
         kafkaProducer = new KafkaProducer(mockProducer);
-        Future<RecordMetadata> recordMetadataFuture = kafkaProducer.send("partition", "{\"site\" : \"baeldung\"}");
+        Future<RecordMetadata> recordMetadataFuture = kafkaProducer.send("partition", "{\"site\" : \"surya\"}");
 
         //then
         assertTrue(recordMetadataFuture.get().partition() == 1);

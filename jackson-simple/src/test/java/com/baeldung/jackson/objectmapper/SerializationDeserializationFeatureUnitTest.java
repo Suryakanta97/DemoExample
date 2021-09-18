@@ -1,7 +1,7 @@
-package com.baeldung.jackson.objectmapper;
+package com.surya.jackson.objectmapper;
 
-import com.baeldung.jackson.objectmapper.dto.Car;
-import com.baeldung.jackson.objectmapper.dto.Request;
+import com.surya.jackson.objectmapper.dto.Car;
+import com.surya.jackson.objectmapper.dto.Request;
 import com.fasterxml.jackson.core.Version;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;

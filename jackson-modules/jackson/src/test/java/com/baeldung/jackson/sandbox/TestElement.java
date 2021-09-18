@@ -1,4 +1,4 @@
-package com.baeldung.jackson.sandbox;
+package com.surya.jackson.sandbox;
 
 public class TestElement {
 

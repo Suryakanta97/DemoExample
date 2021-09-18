@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dynamicobject;
+package com.surya.jackson.dynamicobject;
 
 import com.fasterxml.jackson.databind.JsonNode;
 

@@ -1,9 +1,9 @@
-package com.baeldung.jackson.annotation.deserialization;
+package com.surya.jackson.annotation.deserialization;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.annotation.dtos.ItemWithSerializer;
-import com.baeldung.jackson.annotation.dtos.User;
+import com.surya.jackson.annotation.dtos.ItemWithSerializer;
+import com.surya.jackson.annotation.dtos.User;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;

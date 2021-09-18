@@ -1,4 +1,4 @@
-package com.baeldung.jsonpointer;
+package com.surya.jsonpointer;
 
 import static org.junit.Assert.*;
 

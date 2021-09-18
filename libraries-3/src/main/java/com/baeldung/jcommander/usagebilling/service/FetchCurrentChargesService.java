@@ -1,7 +1,7 @@
-package com.baeldung.jcommander.usagebilling.service;
+package com.surya.jcommander.usagebilling.service;
 
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesRequest;
-import com.baeldung.jcommander.usagebilling.model.CurrentChargesResponse;
+import com.surya.jcommander.usagebilling.model.CurrentChargesRequest;
+import com.surya.jcommander.usagebilling.model.CurrentChargesResponse;
 
 public interface FetchCurrentChargesService {
 

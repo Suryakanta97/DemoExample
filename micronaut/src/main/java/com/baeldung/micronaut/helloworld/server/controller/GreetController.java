@@ -1,6 +1,6 @@
-package com.baeldung.micronaut.helloworld.server.controller;
+package com.surya.micronaut.helloworld.server.controller;
 
-import com.baeldung.micronaut.helloworld.server.service.GreetingService;
+import com.surya.micronaut.helloworld.server.service.GreetingService;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.Controller;

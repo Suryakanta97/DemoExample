@@ -4,4 +4,4 @@ This module contains articles about context and dependency injection (CDI) with 
 
 ### Relevant articles
 
-- [CDI Portable Extension and Flyway](https://www.baeldung.com/cdi-portable-extension)
+- [CDI Portable Extension and Flyway](https://www.surya.com/cdi-portable-extension)

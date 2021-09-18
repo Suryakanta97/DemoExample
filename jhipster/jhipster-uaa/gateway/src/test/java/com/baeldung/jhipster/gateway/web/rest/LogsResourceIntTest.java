@@ -1,8 +1,8 @@
-package com.baeldung.jhipster.gateway.web.rest;
+package com.surya.jhipster.gateway.web.rest;
 
-import com.baeldung.jhipster.gateway.GatewayApp;
-import com.baeldung.jhipster.gateway.config.SecurityBeanOverrideConfiguration;
-import com.baeldung.jhipster.gateway.web.rest.vm.LoggerVM;
+import com.surya.jhipster.gateway.GatewayApp;
+import com.surya.jhipster.gateway.config.SecurityBeanOverrideConfiguration;
+import com.surya.jhipster.gateway.web.rest.vm.LoggerVM;
 import ch.qos.logback.classic.AsyncAppender;
 import ch.qos.logback.classic.LoggerContext;
 import org.junit.Before;

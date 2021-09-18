@@ -1,4 +1,4 @@
-package com.baeldung.encoding;
+package com.surya.encoding;
 
 import java.io.BufferedReader;
 import java.io.IOException;

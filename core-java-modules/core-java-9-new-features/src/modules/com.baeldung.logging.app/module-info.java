@@ -1,2 +1,2 @@
-module com.baeldung.logging.app {
+module com.surya.logging.app {
 }

@@ -1,4 +1,4 @@
-package com.baeldung.jvmtimezone;
+package com.surya.jvmtimezone;
 
 import org.junit.Test;
 

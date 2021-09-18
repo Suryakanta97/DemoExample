@@ -1,4 +1,4 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -6,8 +6,8 @@ import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import com.baeldung.dto.PersonDTO;
-import com.baeldung.entity.Person;
+import com.surya.dto.PersonDTO;
+import com.surya.entity.Person;
 
 public class PersonMapperUnitTest {
 

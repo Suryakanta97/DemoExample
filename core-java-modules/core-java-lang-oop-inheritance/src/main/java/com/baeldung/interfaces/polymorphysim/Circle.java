@@ -1,4 +1,4 @@
-package com.baeldung.interfaces.polymorphysim;
+package com.surya.interfaces.polymorphysim;
 
 public class Circle implements Shape {
 

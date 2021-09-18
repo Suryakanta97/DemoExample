@@ -1,6 +1,6 @@
-package com.baeldung.hibernate.customtypes;
+package com.surya.hibernate.customtypes;
 
-import com.baeldung.hibernate.HibernateUtil;
+import com.surya.hibernate.HibernateUtil;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package com.baeldung.interview;
+package com.surya.interview;
 
 import org.junit.Test;
 
@@ -24,6 +24,6 @@ public class StringPalindromeUnitTest {
         assertThat(isPalindrome("radar")).isTrue();
         assertThat(isPalindrome("level")).isTrue();
 
-        assertThat(isPalindrome("baeldung")).isFalse();
+        assertThat(isPalindrome("surya")).isFalse();
     }
 }

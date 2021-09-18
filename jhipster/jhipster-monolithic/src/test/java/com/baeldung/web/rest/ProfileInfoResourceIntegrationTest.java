@@ -1,7 +1,7 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
 import io.github.jhipster.config.JHipsterProperties;
-import com.baeldung.BaeldungApp;
+import com.surya.suryaApp;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see ProfileInfoResource
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = suryaApp.class)
 public class ProfileInfoResourceIntegrationTest {
 
     @Mock

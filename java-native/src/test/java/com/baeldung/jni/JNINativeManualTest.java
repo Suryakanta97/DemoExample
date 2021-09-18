@@ -1,4 +1,4 @@
-package com.baeldung.jni;
+package com.surya.jni;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

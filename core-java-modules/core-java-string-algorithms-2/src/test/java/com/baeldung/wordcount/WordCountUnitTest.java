@@ -1,4 +1,4 @@
-package com.baeldung.wordcount;
+package com.surya.wordcount;
 
 import static org.junit.Assert.assertEquals;
 

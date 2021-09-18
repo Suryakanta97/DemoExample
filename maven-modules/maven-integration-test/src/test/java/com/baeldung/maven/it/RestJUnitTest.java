@@ -1,4 +1,4 @@
-package com.baeldung.maven.it;
+package com.surya.maven.it;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +20,7 @@ public class RestJUnitTest {
         try (InputStream response = connection.getInputStream();
              Scanner scanner = new Scanner(response)) {
             String responseBody = scanner.nextLine();
-            assertEquals("Welcome to Baeldung!", responseBody);
+            assertEquals("Welcome to surya!", responseBody);
         }
     }
 }

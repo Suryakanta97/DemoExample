@@ -1,6 +1,6 @@
 package com.surya.concurrent.synchronize;
 
-public class BaeldungSynchronizedMethods {
+public class suryaSynchronizedMethods {
 
     private int sum = 0;
     private int syncSum = 0;

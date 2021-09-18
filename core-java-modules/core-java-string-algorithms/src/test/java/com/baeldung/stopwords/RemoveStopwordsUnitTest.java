@@ -1,4 +1,4 @@
-package com.baeldung.stopwords;
+package com.surya.stopwords;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

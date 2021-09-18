@@ -1,4 +1,4 @@
-package com.baeldung.jsontojavaclass;
+package com.surya.jsontojavaclass;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +14,7 @@ class JsonToJavaClassConversionUnitTest {
     @Test
     void whenProvideInputJSON_thenGenerateJavaClass() throws MalformedURLException, IOException {
 
-        String packageName = "com.baeldung.jsontojavaclass.pojo";
+        String packageName = "com.surya.jsontojavaclass.pojo";
 
         // load input JSON file
         String jsonPath = "src/test/resources/";

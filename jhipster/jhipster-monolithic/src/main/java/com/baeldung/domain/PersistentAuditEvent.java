@@ -1,4 +1,4 @@
-package com.baeldung.domain;
+package com.surya.domain;
 
 
 import java.io.Serializable;

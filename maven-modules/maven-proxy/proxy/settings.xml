@@ -2,40 +2,40 @@
 
 <!--
     Proxies section (extract of settings.xml) containing example proxy definitions:
-    * BaeldungProxy_Encrypted - an example http proxy with an encrypted password - encrypted using 'mvn --encrypt-password'
-    * BaeldungProxy_Authenticated - an example http proxy with a plain text password.
-    * BaeldungProxy - an example minimalist unauthenticated http proxy
+    * suryaProxy_Encrypted - an example http proxy with an encrypted password - encrypted using 'mvn --encrypt-password'
+    * suryaProxy_Authenticated - an example http proxy with a plain text password.
+    * suryaProxy - an example minimalist unauthenticated http proxy
     All of these are 'active' - so maven will use the first one in the list.
 -->
 <proxies>
 
     <proxy>
-        <id>BaeldungProxy_Encrypted</id>
+        <id>suryaProxy_Encrypted</id>
         <active>true</active>
         <protocol>http</protocol>
-        <host>proxy.baeldung.com</host>
+        <host>proxy.surya.com</host>
         <port>80</port>
-        <username>baeldung</username>
+        <username>surya</username>
         <password>{U2iMf+7aJXQHRquuQq6MX+n7GOeh97zB9/4e7kkEQYs=}</password>
-        <nonProxyHosts>internal.baeldung.com|localhost|127.*|[::1]</nonProxyHosts>
+        <nonProxyHosts>internal.surya.com|localhost|127.*|[::1]</nonProxyHosts>
     </proxy>
 
     <proxy>
-        <id>BaeldungProxy_Authenticated</id>
+        <id>suryaProxy_Authenticated</id>
         <active>true</active>
         <protocol>http</protocol>
-        <host>proxy.baeldung.com</host>
+        <host>proxy.surya.com</host>
         <port>80</port>
-        <username>baeldung</username>
+        <username>surya</username>
         <password>changeme</password>
-        <nonProxyHosts>internal.baeldung.com|localhost|127.*|[::1]</nonProxyHosts>
+        <nonProxyHosts>internal.surya.com|localhost|127.*|[::1]</nonProxyHosts>
     </proxy>
 
     <proxy>
-        <id>BaeldungProxy</id>
-        <host>proxy.baeldung.com</host>
+        <id>suryaProxy</id>
+        <host>proxy.surya.com</host>
         <port>80</port>
-        <nonProxyHosts>internal.baeldung.com|localhost|127.*|[::1]</nonProxyHosts>
+        <nonProxyHosts>internal.surya.com|localhost|127.*|[::1]</nonProxyHosts>
     </proxy>
 
 </proxies>

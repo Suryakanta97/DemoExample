@@ -1,4 +1,4 @@
-package com.baeldung.path;
+package com.surya.path;
 
 import org.junit.Test;
 
@@ -17,58 +17,58 @@ public class PathManualTest {
     // creating a path
     @Test
     public void givenPathString_whenCreatesPathObject_thenCorrect() {
-        Path p = Paths.get("/articles/baeldung");
-        assertEquals("\\articles\\baeldung", p.toString());
+        Path p = Paths.get("/articles/surya");
+        assertEquals("\\articles\\surya", p.toString());
 
     }
 
     @Test
     public void givenPathParts_whenCreatesPathObject_thenCorrect() {
-        Path p = Paths.get("/articles", "baeldung");
-        assertEquals("\\articles\\baeldung", p.toString());
+        Path p = Paths.get("/articles", "surya");
+        assertEquals("\\articles\\surya", p.toString());
 
     }
 
     // retrieving path info
     @Test
     public void givenPath_whenRetrievesFileName_thenCorrect() {
-        Path p = Paths.get("/articles/baeldung/logs");
+        Path p = Paths.get("/articles/surya/logs");
         assertEquals("logs", p.getFileName().toString());
     }
 
     @Test
     public void givenPath_whenRetrievesNameByIndex_thenCorrect() {
-        Path p = Paths.get("/articles/baeldung/logs");
+        Path p = Paths.get("/articles/surya/logs");
         assertEquals("articles", p.getName(0).toString());
-        assertEquals("baeldung", p.getName(1).toString());
+        assertEquals("surya", p.getName(1).toString());
         assertEquals("logs", p.getName(2).toString());
     }
 
     @Test
     public void givenPath_whenCountsParts_thenCorrect() {
-        Path p = Paths.get("/articles/baeldung/logs");
+        Path p = Paths.get("/articles/surya/logs");
         assertEquals(3, p.getNameCount());
     }
 
     @Test
     public void givenPath_whenCanRetrieveSubsequenceByIndex_thenCorrect() {
-        Path p = Paths.get("/articles/baeldung/logs");
+        Path p = Paths.get("/articles/surya/logs");
         assertEquals("articles", p.subpath(0, 1).toString());
-        assertEquals("articles\\baeldung", p.subpath(0, 2).toString());
-        assertEquals("articles\\baeldung\\logs", p.subpath(0, 3).toString());
-        assertEquals("baeldung", p.subpath(1, 2).toString());
-        assertEquals("baeldung\\logs", p.subpath(1, 3).toString());
+        assertEquals("articles\\surya", p.subpath(0, 2).toString());
+        assertEquals("articles\\surya\\logs", p.subpath(0, 3).toString());
+        assertEquals("surya", p.subpath(1, 2).toString());
+        assertEquals("surya\\logs", p.subpath(1, 3).toString());
         assertEquals("logs", p.subpath(2, 3).toString());
     }
 
     @Test
     public void givenPath_whenRetrievesParent_thenCorrect() {
-        Path p1 = Paths.get("/articles/baeldung/logs");
-        Path p2 = Paths.get("/articles/baeldung");
+        Path p1 = Paths.get("/articles/surya/logs");
+        Path p2 = Paths.get("/articles/surya");
         Path p3 = Paths.get("/articles");
         Path p4 = Paths.get("/");
 
-        assertEquals("\\articles\\baeldung", p1.getParent().toString());
+        assertEquals("\\articles\\surya", p1.getParent().toString());
         assertEquals("\\articles", p2.getParent().toString());
         assertEquals("\\", p3.getParent().toString());
         assertEquals(null, p4.getParent());
@@ -76,8 +76,8 @@ public class PathManualTest {
 
     @Test
     public void givenPath_whenRetrievesRoot_thenCorrect() {
-        Path p1 = Paths.get("/articles/baeldung/logs");
-        Path p2 = Paths.get("c:/articles/baeldung/logs");
+        Path p1 = Paths.get("/articles/surya/logs");
+        Path p2 = Paths.get("c:/articles/surya/logs");
 
         assertEquals("\\", p1.getRoot().toString());
         assertEquals("c:\\", p2.getRoot().toString());
@@ -86,14 +86,14 @@ public class PathManualTest {
     // removing redundancies from path
     @Test
     public void givenPath_whenRemovesRedundancies_thenCorrect1() {
-        Path p = Paths.get("/home/./baeldung/articles");
+        Path p = Paths.get("/home/./surya/articles");
         p = p.normalize();
-        assertEquals("\\home\\baeldung\\articles", p.toString());
+        assertEquals("\\home\\surya\\articles", p.toString());
     }
 
     @Test
     public void givenPath_whenRemovesRedundancies_thenCorrect2() {
-        Path p = Paths.get("/home/baeldung/../articles");
+        Path p = Paths.get("/home/surya/../articles");
         p = p.normalize();
         assertEquals("\\home\\articles", p.toString());
     }
@@ -101,21 +101,21 @@ public class PathManualTest {
     // converting a path
     @Test
     public void givenPath_whenConvertsToBrowseablePath_thenCorrect() {
-        Path p = Paths.get("/home/baeldung/articles.html");
+        Path p = Paths.get("/home/surya/articles.html");
         URI uri = p.toUri();
-        assertEquals("file:///E:/home/baeldung/articles.html", uri.toString());
+        assertEquals("file:///E:/home/surya/articles.html", uri.toString());
     }
 
     @Test
     public void givenPath_whenConvertsToAbsolutePath_thenCorrect() {
-        Path p = Paths.get("/home/baeldung/articles.html");
-        assertEquals("E:\\home\\baeldung\\articles.html", p.toAbsolutePath().toString());
+        Path p = Paths.get("/home/surya/articles.html");
+        assertEquals("E:\\home\\surya\\articles.html", p.toAbsolutePath().toString());
     }
 
     @Test
     public void givenAbsolutePath_whenRetainsAsAbsolute_thenCorrect() {
-        Path p = Paths.get("E:\\home\\baeldung\\articles.html");
-        assertEquals("E:\\home\\baeldung\\articles.html", p.toAbsolutePath().toString());
+        Path p = Paths.get("E:\\home\\surya\\articles.html");
+        assertEquals("E:\\home\\surya\\articles.html", p.toAbsolutePath().toString());
     }
 
     @Test
@@ -126,7 +126,7 @@ public class PathManualTest {
 
     @Test(expected = NoSuchFileException.class)
     public void givenInExistentPath_whenFailsToConvert_thenCorrect() throws IOException {
-        Path p = Paths.get("E:\\home\\baeldung\\articles.html");
+        Path p = Paths.get("E:\\home\\surya\\articles.html");
 
         p.toRealPath();
     }
@@ -134,19 +134,19 @@ public class PathManualTest {
     // joining paths
     @Test
     public void givenTwoPaths_whenJoinsAndResolves_thenCorrect() throws IOException {
-        Path p = Paths.get("/baeldung/articles");
-        assertEquals("\\baeldung\\articles\\java", p.resolve("java").toString());
+        Path p = Paths.get("/surya/articles");
+        assertEquals("\\surya\\articles\\java", p.resolve("java").toString());
     }
 
     @Test
     public void givenAbsolutePath_whenResolutionRetainsIt_thenCorrect() throws IOException {
-        Path p = Paths.get("/baeldung/articles");
-        assertEquals("C:\\baeldung\\articles\\java", p.resolve("C:\\baeldung\\articles\\java").toString());
+        Path p = Paths.get("/surya/articles");
+        assertEquals("C:\\surya\\articles\\java", p.resolve("C:\\surya\\articles\\java").toString());
     }
 
     @Test
     public void givenPathWithRoot_whenResolutionRetainsIt_thenCorrect2() throws IOException {
-        Path p = Paths.get("/baeldung/articles");
+        Path p = Paths.get("/surya/articles");
         assertEquals("\\java", p.resolve("/java").toString());
     }
 
@@ -161,8 +161,8 @@ public class PathManualTest {
 
     @Test
     public void givenNonSiblingPaths_whenCreatesPathToOther_thenCorrect() throws IOException {
-        Path p1 = Paths.get("/baeldung");
-        Path p2 = Paths.get("/baeldung/authors/articles");
+        Path p1 = Paths.get("/surya");
+        Path p2 = Paths.get("/surya/authors/articles");
         assertEquals("authors\\articles", p1.relativize(p2).toString());
         assertEquals("..\\..", p2.relativize(p1).toString());
     }
@@ -170,9 +170,9 @@ public class PathManualTest {
     // comparing 2 paths
     @Test
     public void givenTwoPaths_whenTestsEquality_thenCorrect() throws IOException {
-        Path p1 = Paths.get("/baeldung/articles");
-        Path p2 = Paths.get("/baeldung/articles");
-        Path p3 = Paths.get("/baeldung/authors");
+        Path p1 = Paths.get("/surya/articles");
+        Path p2 = Paths.get("/surya/articles");
+        Path p3 = Paths.get("/surya/authors");
 
         assertTrue(p1.equals(p2));
         assertFalse(p1.equals(p3));
@@ -180,13 +180,13 @@ public class PathManualTest {
 
     @Test
     public void givenPath_whenInspectsStart_thenCorrect() {
-        Path p1 = Paths.get("/baeldung/articles");
-        assertTrue(p1.startsWith("/baeldung"));
+        Path p1 = Paths.get("/surya/articles");
+        assertTrue(p1.startsWith("/surya"));
     }
 
     @Test
     public void givenPath_whenInspectsEnd_thenCorrect() {
-        Path p1 = Paths.get("/baeldung/articles");
+        Path p1 = Paths.get("/surya/articles");
         assertTrue(p1.endsWith("articles"));
     }
 }

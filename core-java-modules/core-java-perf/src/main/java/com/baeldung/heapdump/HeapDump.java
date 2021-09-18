@@ -1,4 +1,4 @@
-package com.baeldung.heapdump;
+package com.surya.heapdump;
 
 import com.sun.management.HotSpotDiagnosticMXBean;
 

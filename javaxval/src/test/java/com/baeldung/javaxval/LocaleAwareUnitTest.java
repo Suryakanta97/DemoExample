@@ -1,4 +1,4 @@
-package com.baeldung.javaxval;
+package com.surya.javaxval;
 
 import java.util.Locale;
 

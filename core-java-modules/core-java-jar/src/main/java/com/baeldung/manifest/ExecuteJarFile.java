@@ -1,4 +1,4 @@
-package com.baeldung.manifest;
+package com.surya.manifest;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,13 +10,13 @@ import java.io.InputStreamReader;
 public class ExecuteJarFile {
 
     private static final String DELIMITER = " ";
-    private static final String WORK_PATH = "src/main/java/com/baeldung/manifest";
+    private static final String WORK_PATH = "src/main/java/com/surya/manifest";
     private static final String MANIFEST_MF_PATH = WORK_PATH + "/MANIFEST.MF";
-    private static final String MAIN_MANIFEST_ATTRIBUTE = "Main-Class: com.baeldung.manifest.AppExample";
+    private static final String MAIN_MANIFEST_ATTRIBUTE = "Main-Class: com.surya.manifest.AppExample";
 
     private static final String COMPILE_COMMAND = "javac -d . AppExample.java";
-    private static final String CREATE_JAR_WITHOUT_MF_ATT_COMMAND = "jar cvf example.jar com/baeldung/manifest/AppExample.class";
-    private static final String CREATE_JAR_WITH_MF_ATT_COMMAND = "jar cvmf MANIFEST.MF example.jar com/baeldung/manifest/AppExample.class";
+    private static final String CREATE_JAR_WITHOUT_MF_ATT_COMMAND = "jar cvf example.jar com/surya/manifest/AppExample.class";
+    private static final String CREATE_JAR_WITH_MF_ATT_COMMAND = "jar cvmf MANIFEST.MF example.jar com/surya/manifest/AppExample.class";
     private static final String EXECUTE_JAR_COMMAND = "java -jar example.jar";
 
     public static void main(String[] args) {

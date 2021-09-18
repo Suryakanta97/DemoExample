@@ -1,4 +1,4 @@
-package com.baeldung.relationships.association;
+package com.surya.relationships.association;
 
 public class Child {
 

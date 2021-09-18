@@ -1,4 +1,4 @@
-package com.baeldung.gson.jsoncompare;
+package com.surya.gson.jsoncompare;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;

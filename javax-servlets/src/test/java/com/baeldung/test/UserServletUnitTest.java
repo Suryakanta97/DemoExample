@@ -1,4 +1,4 @@
-package com.baeldung.test;
+package com.surya.test;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

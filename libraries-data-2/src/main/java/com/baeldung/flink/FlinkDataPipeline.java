@@ -1,11 +1,11 @@
-package com.baeldung.flink;
+package com.surya.flink;
 
 
-import com.baeldung.flink.model.Backup;
-import com.baeldung.flink.model.InputMessage;
-import com.baeldung.flink.operator.BackupAggregator;
-import com.baeldung.flink.operator.InputMessageTimestampAssigner;
-import com.baeldung.flink.operator.WordsCapitalizer;
+import com.surya.flink.model.Backup;
+import com.surya.flink.model.InputMessage;
+import com.surya.flink.operator.BackupAggregator;
+import com.surya.flink.operator.InputMessageTimestampAssigner;
+import com.surya.flink.operator.WordsCapitalizer;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -13,15 +13,15 @@ import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer011;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer011;
 
-import static com.baeldung.flink.connector.Consumers.*;
-import static com.baeldung.flink.connector.Producers.*;
+import static com.surya.flink.connector.Consumers.*;
+import static com.surya.flink.connector.Producers.*;
 
 public class FlinkDataPipeline {
 
     public static void capitalize() throws Exception {
         String inputTopic = "flink_input";
         String outputTopic = "flink_output";
-        String consumerGroup = "baeldung";
+        String consumerGroup = "surya";
         String address = "localhost:9092";
 
         StreamExecutionEnvironment environment =
@@ -47,7 +47,7 @@ public class FlinkDataPipeline {
 public static void createBackup () throws Exception {
     String inputTopic = "flink_input";
     String outputTopic = "flink_output";
-    String consumerGroup = "baeldung";
+    String consumerGroup = "surya";
     String kafkaAddress = "localhost:9092";
 
     StreamExecutionEnvironment environment =

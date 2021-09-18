@@ -1,4 +1,4 @@
-package com.baeldung.dddhexagonalspring;
+package com.surya.dddhexagonalspring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.PropertySource;
 
-import com.baeldung.dddhexagonalspring.application.cli.CliOrderController;
+import com.surya.dddhexagonalspring.application.cli.CliOrderController;
 
 @SpringBootApplication
 @PropertySource(value = { "classpath:ddd-layers.properties" })

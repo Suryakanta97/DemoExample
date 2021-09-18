@@ -1,4 +1,4 @@
-package com.baeldung.scribejava.service;
+package com.surya.scribejava.service;
 
 import com.github.scribejava.apis.GoogleApi20;
 import com.github.scribejava.core.builder.ServiceBuilder;

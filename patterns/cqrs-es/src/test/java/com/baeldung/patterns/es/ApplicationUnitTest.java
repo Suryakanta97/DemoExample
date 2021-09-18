@@ -1,4 +1,4 @@
-package com.baeldung.patterns.es;
+package com.surya.patterns.es;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,10 +9,10 @@ import java.util.stream.Stream;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.patterns.domain.Address;
-import com.baeldung.patterns.domain.Contact;
-import com.baeldung.patterns.es.repository.EventStore;
-import com.baeldung.patterns.es.service.UserService;
+import com.surya.patterns.domain.Address;
+import com.surya.patterns.domain.Contact;
+import com.surya.patterns.es.repository.EventStore;
+import com.surya.patterns.es.service.UserService;
 
 public class ApplicationUnitTest {
 

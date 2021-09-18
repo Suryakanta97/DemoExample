@@ -1,4 +1,4 @@
-package com.baeldung.jasypt;
+package com.surya.jasypt;
 
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;

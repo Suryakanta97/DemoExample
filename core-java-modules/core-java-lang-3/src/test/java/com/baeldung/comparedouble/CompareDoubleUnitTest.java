@@ -1,4 +1,4 @@
-package com.baeldung.comparedouble;
+package com.surya.comparedouble;
 
 import com.google.common.math.DoubleMath;
 import org.apache.commons.math3.util.Precision;

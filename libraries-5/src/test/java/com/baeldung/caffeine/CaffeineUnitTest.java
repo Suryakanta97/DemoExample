@@ -1,4 +1,4 @@
-package com.baeldung.caffeine;
+package com.surya.caffeine;
 
 import static org.junit.Assert.*;
 

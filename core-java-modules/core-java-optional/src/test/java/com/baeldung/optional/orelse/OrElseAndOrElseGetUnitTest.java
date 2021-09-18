@@ -1,4 +1,4 @@
-package com.baeldung.optional.orelse;
+package com.surya.optional.orelse;
 
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -15,8 +15,8 @@ public class OrElseAndOrElseGetUnitTest {
     @Test
     public void givenNonEmptyOptional_whenOrElseUsed_thenGivenStringReturned() {
         LOG.info("In givenNonEmptyOptional_whenOrElseUsed_thenGivenStringReturned()");
-        String name = orElsevsOrElseGet.getNameUsingOrElse("baeldung");
-        assertEquals(name, "baeldung");
+        String name = orElsevsOrElseGet.getNameUsingOrElse("surya");
+        assertEquals(name, "surya");
     }
 
     @Test
@@ -29,8 +29,8 @@ public class OrElseAndOrElseGetUnitTest {
     @Test
     public void givenNonEmptyOptional_whenOrElseGetUsed_thenGivenStringReturned() {
         LOG.info("In givenNonEmptyOptional_whenOrElseGetUsed_thenGivenStringReturned()");
-        String name = orElsevsOrElseGet.getNameUsingOrElseGet("baeldung");
-        assertEquals(name, "baeldung");
+        String name = orElsevsOrElseGet.getNameUsingOrElseGet("surya");
+        assertEquals(name, "surya");
     }
 
     @Test

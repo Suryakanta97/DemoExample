@@ -1,4 +1,4 @@
-package com.baeldung.jersey.client;
+package com.surya.jersey.client;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -7,9 +7,9 @@ import javax.ws.rs.core.Response;
 
 import org.glassfish.jersey.client.ClientConfig;
 
-import com.baeldung.jersey.client.filter.RequestClientFilter;
-import com.baeldung.jersey.client.filter.ResponseClientFilter;
-import com.baeldung.jersey.client.interceptor.RequestClientWriterInterceptor;
+import com.surya.jersey.client.filter.RequestClientFilter;
+import com.surya.jersey.client.filter.ResponseClientFilter;
+import com.surya.jersey.client.interceptor.RequestClientWriterInterceptor;
 
 public class JerseyClient {
 

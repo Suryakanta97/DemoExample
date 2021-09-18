@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.config;
+package com.surya.springintegration.config;
 
 import com.sun.faces.config.FacesInitializer;
 import org.slf4j.Logger;

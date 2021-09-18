@@ -1,4 +1,4 @@
-package com.baeldung.ndc.service;
+package com.surya.ndc.service;
 
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;

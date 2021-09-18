@@ -1,8 +1,8 @@
-module com.baeldung.mainppmodule {
+module com.surya.mainppmodule {
     
-    requires com.baeldung.entitymodule;
-    requires com.baeldung.daomodule;
-    requires com.baeldung.userdaomodule;
-    uses com.baeldung.userdaomodule.UserDao;
+    requires com.surya.entitymodule;
+    requires com.surya.daomodule;
+    requires com.surya.userdaomodule;
+    uses com.surya.userdaomodule.UserDao;
     
 }

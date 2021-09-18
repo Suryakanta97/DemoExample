@@ -1,4 +1,4 @@
-<%@ page import="com.baeldung.patterns.intercepting.filter.data.Book" %>
+<%@ page import="com.surya.patterns.intercepting.filter.data.Book" %>
 <%@ page import="java.util.List" %>
 <!DOCTYPE html>
 <html>

@@ -1,13 +1,13 @@
-package com.baeldung.jhipster.quotes.web.rest;
+package com.surya.jhipster.quotes.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
-import com.baeldung.jhipster.quotes.service.QuoteService;
-import com.baeldung.jhipster.quotes.web.rest.errors.BadRequestAlertException;
-import com.baeldung.jhipster.quotes.web.rest.util.HeaderUtil;
-import com.baeldung.jhipster.quotes.web.rest.util.PaginationUtil;
-import com.baeldung.jhipster.quotes.service.dto.QuoteDTO;
-import com.baeldung.jhipster.quotes.service.dto.QuoteCriteria;
-import com.baeldung.jhipster.quotes.service.QuoteQueryService;
+import com.surya.jhipster.quotes.service.QuoteService;
+import com.surya.jhipster.quotes.web.rest.errors.BadRequestAlertException;
+import com.surya.jhipster.quotes.web.rest.util.HeaderUtil;
+import com.surya.jhipster.quotes.web.rest.util.PaginationUtil;
+import com.surya.jhipster.quotes.service.dto.QuoteDTO;
+import com.surya.jhipster.quotes.service.dto.QuoteCriteria;
+import com.surya.jhipster.quotes.service.QuoteQueryService;
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.addingtext;
+package com.surya.imageprocessing.addingtext;
 
 import ij.IJ;
 import ij.ImagePlus;
@@ -18,25 +18,25 @@ public class AddText {
     public static void main(String[] args) throws IOException {
         String imagePath = AddText.class.getClassLoader().getResource("lena.jpg").getPath();
         
-        ImagePlus resultPlus= signImageImageProcessor("www.baeldung.com", imagePath);
+        ImagePlus resultPlus= signImageImageProcessor("www.surya.com", imagePath);
         resultPlus.show();
         
-        ImagePlus resultGraphics = new ImagePlus("", signImageGraphics("www.baeldung.com", imagePath));
+        ImagePlus resultGraphics = new ImagePlus("", signImageGraphics("www.surya.com", imagePath));
         resultGraphics.show();
 
-        ImagePlus resultGraphicsWithIterator = new ImagePlus("", signImageGraphicsWithIterator("www.baeldung.com", imagePath));
+        ImagePlus resultGraphicsWithIterator = new ImagePlus("", signImageGraphicsWithIterator("www.surya.com", imagePath));
         resultGraphicsWithIterator.show();
 
-        ImagePlus resultGraphicsCentered = new ImagePlus("", signImageCenter("www.baeldung.com", imagePath));
+        ImagePlus resultGraphicsCentered = new ImagePlus("", signImageCenter("www.surya.com", imagePath));
         resultGraphicsCentered.show();
 
-        ImagePlus resultGraphicsBottomRight = new ImagePlus("", signImageBottomRight("www.baeldung.com", imagePath));
+        ImagePlus resultGraphicsBottomRight = new ImagePlus("", signImageBottomRight("www.surya.com", imagePath));
         resultGraphicsBottomRight.show();
 
-        ImagePlus resultGraphicsTopLeft= new ImagePlus("", signImageTopLeft("www.baeldung.com", imagePath));
+        ImagePlus resultGraphicsTopLeft= new ImagePlus("", signImageTopLeft("www.surya.com", imagePath));
         resultGraphicsTopLeft.show();
 
-        ImagePlus resultGraphicsAdaptBasedOnImage= new ImagePlus("", signImageAdaptBasedOnImage("www.baeldung.com", imagePath));
+        ImagePlus resultGraphicsAdaptBasedOnImage= new ImagePlus("", signImageAdaptBasedOnImage("www.surya.com", imagePath));
         resultGraphicsAdaptBasedOnImage.show();
     }
 

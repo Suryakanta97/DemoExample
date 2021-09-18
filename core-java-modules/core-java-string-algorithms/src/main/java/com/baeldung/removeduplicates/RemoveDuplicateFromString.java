@@ -1,4 +1,4 @@
-package com.baeldung.removeduplicates;
+package com.surya.removeduplicates;
 
 import java.util.Arrays;
 import java.util.HashSet;

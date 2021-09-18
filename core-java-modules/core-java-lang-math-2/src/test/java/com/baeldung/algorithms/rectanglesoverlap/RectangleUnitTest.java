@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.rectanglesoverlap;
+package com.surya.algorithms.rectanglesoverlap;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;

@@ -1,4 +1,4 @@
 /**
  * Spring Security configuration.
  */
-package com.baeldung.security;
+package com.surya.security;

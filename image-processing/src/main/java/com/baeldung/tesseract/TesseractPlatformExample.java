@@ -1,4 +1,4 @@
-package com.baeldung.tesseract;
+package com.surya.tesseract;
 
 import org.bytedeco.javacpp.BytePointer;
 import org.bytedeco.leptonica.PIX;
@@ -12,7 +12,7 @@ public class TesseractPlatformExample {
             TessBaseAPI tessApi = new TessBaseAPI();
             tessApi.Init("src/main/resources/tessdata", "eng", 3);
             tessApi.SetPageSegMode(1);
-            PIX image = org.bytedeco.leptonica.global.lept.pixRead("src/main/resources/images/baeldung.png");
+            PIX image = org.bytedeco.leptonica.global.lept.pixRead("src/main/resources/images/surya.png");
             tessApi.SetImage(image);
 
             BytePointer outText = tessApi.GetUTF8Text();

@@ -1,4 +1,4 @@
-package com.baeldung.distinct;
+package com.surya.distinct;
 
 import java.util.Arrays;
 import java.util.List;

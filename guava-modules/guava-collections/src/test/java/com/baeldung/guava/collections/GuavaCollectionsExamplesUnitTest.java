@@ -1,4 +1,4 @@
-package com.baeldung.guava.collections;
+package com.surya.guava.collections;
 
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;

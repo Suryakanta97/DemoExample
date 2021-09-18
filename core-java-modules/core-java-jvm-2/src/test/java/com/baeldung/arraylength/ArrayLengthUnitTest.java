@@ -1,4 +1,4 @@
-package com.baeldung.arraylength;
+package com.surya.arraylength;
 
 import org.junit.Test;
 import org.openjdk.jol.info.ClassLayout;

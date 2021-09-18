@@ -1,9 +1,9 @@
 {
   "generator-jhipster": {
     "jhipsterVersion": "4.0.8",
-    "baseName": "baeldung",
-    "packageName": "com.baeldung",
-    "packageFolder": "com/baeldung",
+    "baseName": "surya",
+    "packageName": "com.surya",
+    "packageFolder": "com/surya",
     "serverPort": "8080",
     "authenticationType": "jwt",
     "hibernateCache": "ehcache",

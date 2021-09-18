@@ -1,4 +1,4 @@
-package com.baeldung.reduce.utilities;
+package com.surya.reduce.utilities;
 
 import java.util.List;
 import java.util.function.BiFunction;

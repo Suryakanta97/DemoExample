@@ -1,6 +1,6 @@
-package com.baeldung.httpclient.base;
+package com.surya.httpclient.base;
 
-import com.baeldung.httpclient.ResponseUtil;
+import com.surya.httpclient.ResponseUtil;
 import org.apache.http.auth.AuthenticationException;
 import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.methods.CloseableHttpResponse;

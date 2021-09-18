@@ -1,4 +1,4 @@
-package com.baeldung.prototype;
+package com.surya.prototype;
 
 public final class Position {
 

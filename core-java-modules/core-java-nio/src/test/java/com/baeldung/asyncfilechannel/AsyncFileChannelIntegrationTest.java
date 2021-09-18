@@ -1,4 +1,4 @@
-package com.baeldung.asyncfilechannel;
+package com.surya.asyncfilechannel;
 
 import org.junit.Test;
 
@@ -32,7 +32,7 @@ public class AsyncFileChannelIntegrationTest {
         final String fileContent = new String(buffer.array()).trim();
         buffer.clear();
 
-        assertEquals(fileContent, "baeldung.com");
+        assertEquals(fileContent, "surya.com");
     }
 
     @Test

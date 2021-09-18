@@ -1,4 +1,4 @@
-package com.baeldung.commons.chain;
+package com.surya.commons.chain;
 
 public class AtmConstants {
     public static final String TOTAL_AMOUNT_TO_BE_WITHDRAWN = "totalAmountToBeWithdrawn";

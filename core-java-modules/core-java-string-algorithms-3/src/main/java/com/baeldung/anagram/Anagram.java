@@ -1,4 +1,4 @@
-package com.baeldung.anagram;
+package com.surya.anagram;
 
 import java.util.Arrays;
 import com.google.common.collect.HashMultiset;

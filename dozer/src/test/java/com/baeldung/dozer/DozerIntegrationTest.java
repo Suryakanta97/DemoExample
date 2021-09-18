@@ -1,4 +1,4 @@
-package com.baeldung.dozer;
+package com.surya.dozer;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -76,18 +76,18 @@ public class DozerIntegrationTest {
 
     @Test
     public void givenSourceObjectAndDestClass_whenMapsSameNameFieldsCorrectly_thenCorrect() {
-        Source source = new Source("Baeldung", 10);
+        Source source = new Source("surya", 10);
         Dest dest = mapper.map(source, Dest.class);
-        assertEquals(dest.getName(), "Baeldung");
+        assertEquals(dest.getName(), "surya");
         assertEquals(dest.getAge(), 10);
     }
 
     @Test
     public void givenSourceObjectAndDestObject_whenMapsSameNameFieldsCorrectly_thenCorrect() {
-        Source source = new Source("Baeldung", 10);
+        Source source = new Source("surya", 10);
         Dest dest = new Dest();
         mapper.map(source, dest);
-        assertEquals(dest.getName(), "Baeldung");
+        assertEquals(dest.getName(), "surya");
         assertEquals(dest.getAge(), 10);
     }
 

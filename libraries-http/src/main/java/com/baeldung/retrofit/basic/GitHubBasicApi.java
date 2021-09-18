@@ -1,9 +1,9 @@
-package com.baeldung.retrofit.basic;
+package com.surya.retrofit.basic;
 
 import java.util.List;
 
-import com.baeldung.retrofit.models.Contributor;
-import com.baeldung.retrofit.models.Repository;
+import com.surya.retrofit.models.Contributor;
+import com.surya.retrofit.models.Repository;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

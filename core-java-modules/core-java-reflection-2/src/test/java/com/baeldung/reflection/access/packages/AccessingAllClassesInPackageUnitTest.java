@@ -1,4 +1,4 @@
-package com.baeldung.reflection.access.packages;
+package com.surya.reflection.access.packages;
 
 import java.io.IOException;
 import java.util.Set;
@@ -13,7 +13,7 @@ public class AccessingAllClassesInPackageUnitTest {
     @Rule
     public final ExpectedException exception = ExpectedException.none();
 
-    private static final String PACKAGE_NAME = "com.baeldung.reflection.access.packages.search";
+    private static final String PACKAGE_NAME = "com.surya.reflection.access.packages.search";
 
     @Test
     public void when_findAllClassesUsingClassLoader_thenSuccess() {

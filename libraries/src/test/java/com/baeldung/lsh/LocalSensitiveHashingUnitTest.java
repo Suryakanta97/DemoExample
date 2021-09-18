@@ -1,4 +1,4 @@
-package com.baeldung.lsh;
+package com.surya.lsh;
 
 import info.debatty.java.lsh.LSHMinHash;
 import org.junit.Ignore;

@@ -1,4 +1,4 @@
-package com.baeldung.handlebars;
+package com.surya.handlebars;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -31,11 +31,11 @@ public class CustomHelperUnitTest {
             }
         });
         Template template = handlebars.compile("person");
-        Person person = getPerson("Baeldung");
+        Person person = getPerson("surya");
 
         String templateString = template.apply(person);
 
-        assertThat(templateString).isEqualTo("Baeldung - busy");
+        assertThat(templateString).isEqualTo("surya - busy");
     }
 
     @Test
@@ -43,11 +43,11 @@ public class CustomHelperUnitTest {
         Handlebars handlebars = new Handlebars(templateLoader);
         handlebars.registerHelpers(new HelperSource());
         Template template = handlebars.compile("person");
-        Person person = getPerson("Baeldung");
+        Person person = getPerson("surya");
 
         String templateString = template.apply(person);
 
-        assertThat(templateString).isEqualTo("Baeldung - busy");
+        assertThat(templateString).isEqualTo("surya - busy");
     }
 
     private Person getPerson(String name) {

@@ -1,4 +1,4 @@
-package com.baeldung.mediator;
+package com.surya.mediator;
 
 import org.junit.Before;
 import org.junit.Test;

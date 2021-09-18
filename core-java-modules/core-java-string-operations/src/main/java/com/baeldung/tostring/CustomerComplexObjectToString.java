@@ -1,4 +1,4 @@
-package com.baeldung.tostring;
+package com.surya.tostring;
 
 public class CustomerComplexObjectToString extends Customer {
     private Order order;

@@ -1,4 +1,4 @@
-package com.baeldung.jooby.bean;
+package com.surya.jooby.bean;
 
 public class Employee {
 

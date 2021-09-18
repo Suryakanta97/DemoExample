@@ -1,4 +1,4 @@
-package com.baeldung.pdf.base64;
+package com.surya.pdf.base64;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

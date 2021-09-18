@@ -1,4 +1,4 @@
-package com.baeldung.jgroups;
+package com.surya.jgroups;
 
 import org.apache.commons.cli.*;
 import org.jgroups.*;

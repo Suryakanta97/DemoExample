@@ -1,4 +1,4 @@
-package com.baeldung.jaxws;
+package com.surya.jaxws;
 
 import static org.junit.Assert.assertEquals;
 
@@ -18,18 +18,18 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.baeldung.jaxws.client.Employee;
-import com.baeldung.jaxws.client.EmployeeAlreadyExists_Exception;
-import com.baeldung.jaxws.client.EmployeeNotFound_Exception;
-import com.baeldung.jaxws.client.EmployeeService;
-import com.baeldung.jaxws.client.EmployeeService_Service;
+import com.surya.jaxws.client.Employee;
+import com.surya.jaxws.client.EmployeeAlreadyExists_Exception;
+import com.surya.jaxws.client.EmployeeNotFound_Exception;
+import com.surya.jaxws.client.EmployeeService;
+import com.surya.jaxws.client.EmployeeService_Service;
 
 @RunWith(Arquillian.class)
 public class EmployeeServiceLiveTest {
 
     private static final String APP_NAME = "jee7";
     private static final String WSDL_PATH = "EmployeeService?wsdl";
-    private static QName SERVICE_NAME = new QName("http://bottomup.server.jaxws.baeldung.com/", "EmployeeService");
+    private static QName SERVICE_NAME = new QName("http://bottomup.server.jaxws.surya.com/", "EmployeeService");
     private static URL wsdlUrl;
 
     @ArquillianResource
@@ -40,10 +40,10 @@ public class EmployeeServiceLiveTest {
     @Deployment(testable = false)
     public static WebArchive createDeployment() {
         return ShrinkWrap.create(WebArchive.class, APP_NAME + ".war")
-            .addPackage(com.baeldung.jaxws.server.bottomup.EmployeeService.class.getPackage())
-            .addPackage(com.baeldung.jaxws.server.bottomup.model.Employee.class.getPackage())
-            .addPackage(com.baeldung.jaxws.server.bottomup.exception.EmployeeNotFound.class.getPackage())
-            .addPackage(com.baeldung.jaxws.server.repository.EmployeeRepository.class.getPackage())
+            .addPackage(com.surya.jaxws.server.bottomup.EmployeeService.class.getPackage())
+            .addPackage(com.surya.jaxws.server.bottomup.model.Employee.class.getPackage())
+            .addPackage(com.surya.jaxws.server.bottomup.exception.EmployeeNotFound.class.getPackage())
+            .addPackage(com.surya.jaxws.server.repository.EmployeeRepository.class.getPackage())
             .addAsWebInfResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 

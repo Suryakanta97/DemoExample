@@ -1,16 +1,16 @@
-package com.baeldung.web.rest;
+package com.surya.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
 
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.SecurityUtils;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.service.dto.UserDTO;
-import com.baeldung.web.rest.vm.KeyAndPasswordVM;
-import com.baeldung.web.rest.vm.ManagedUserVM;
-import com.baeldung.web.rest.util.HeaderUtil;
+import com.surya.domain.User;
+import com.surya.repository.UserRepository;
+import com.surya.security.SecurityUtils;
+import com.surya.service.MailService;
+import com.surya.service.UserService;
+import com.surya.service.dto.UserDTO;
+import com.surya.web.rest.vm.KeyAndPasswordVM;
+import com.surya.web.rest.vm.ManagedUserVM;
+import com.surya.web.rest.util.HeaderUtil;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.baeldung.javalin.User;
+package com.surya.javalin.User;
 
 import java.util.Arrays;
 import java.util.List;

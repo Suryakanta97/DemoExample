@@ -1,4 +1,4 @@
-package com.baeldung.streams.bigdecimals;
+package com.surya.streams.bigdecimals;
 
 import static org.junit.Assert.assertEquals;
 

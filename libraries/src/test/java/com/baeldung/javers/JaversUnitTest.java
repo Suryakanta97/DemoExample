@@ -1,4 +1,4 @@
-package com.baeldung.javers;
+package com.surya.javers;
 
 import org.javers.common.collections.Lists;
 import org.javers.core.Javers;

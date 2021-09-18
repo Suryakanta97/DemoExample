@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.methodreference;
+package com.surya.java8.lambda.methodreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +17,7 @@ public class MethodReferenceUnitTest {
     
     @Test
     public void referenceToStaticMethod() {
-        List<String> messages = Arrays.asList("Hello", "Baeldung", "readers!");
+        List<String> messages = Arrays.asList("Hello", "surya", "readers!");
         messages.forEach(word -> StringUtils.capitalize(word));
         messages.forEach(StringUtils::capitalize);
     }

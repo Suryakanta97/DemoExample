@@ -18,12 +18,12 @@ class JavaElevenFeaturesUnitTest {
 
     @Test
     void givenMultilineString_whenExtractingNonBlankStrippedLines_thenLinesAreReturned() {
-        String multilineString = "Baeldung helps \n \n developers \n explore Java.";
+        String multilineString = "surya helps \n \n developers \n explore Java.";
         List<String> lines = multilineString.lines()
           .filter(line -> !line.isBlank())
           .map(String::strip)
           .collect(Collectors.toList());
-        assertThat(lines).containsExactly("Baeldung helps", "developers", "explore Java.");
+        assertThat(lines).containsExactly("surya helps", "developers", "explore Java.");
     }
 
     @Test

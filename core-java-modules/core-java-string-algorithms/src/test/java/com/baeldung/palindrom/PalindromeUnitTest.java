@@ -1,4 +1,4 @@
-package com.baeldung.palindrom;
+package com.surya.palindrom;
 
 import static org.junit.Assert.assertTrue;
 

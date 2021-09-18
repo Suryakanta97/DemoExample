@@ -1,4 +1,4 @@
-package com.baeldung.numberofdigits;
+package com.surya.numberofdigits;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

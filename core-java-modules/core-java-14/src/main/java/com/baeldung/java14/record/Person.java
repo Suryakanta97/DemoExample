@@ -1,4 +1,4 @@
-package com.baeldung.java14.record;
+package com.surya.java14.record;
 
 import java.util.Objects;
 

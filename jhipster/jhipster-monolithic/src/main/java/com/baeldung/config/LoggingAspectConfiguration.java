@@ -1,6 +1,6 @@
-package com.baeldung.config;
+package com.surya.config;
 
-import com.baeldung.aop.logging.LoggingAspect;
+import com.surya.aop.logging.LoggingAspect;
 
 import io.github.jhipster.config.JHipsterConstants;
 

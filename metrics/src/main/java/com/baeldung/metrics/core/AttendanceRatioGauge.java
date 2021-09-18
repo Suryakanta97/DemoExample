@@ -1,4 +1,4 @@
-package com.baeldung.metrics.core;
+package com.surya.metrics.core;
 
 import com.codahale.metrics.RatioGauge;
 

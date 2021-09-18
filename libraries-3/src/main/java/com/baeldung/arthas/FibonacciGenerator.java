@@ -1,4 +1,4 @@
-package com.baeldung.arthas;
+package com.surya.arthas;
 
 import java.io.IOException;
 

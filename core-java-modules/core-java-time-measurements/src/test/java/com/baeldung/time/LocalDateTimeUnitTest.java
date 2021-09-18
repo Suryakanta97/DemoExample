@@ -1,4 +1,4 @@
-package com.baeldung.time;
+package com.surya.time;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,9 +1,9 @@
-package com.baeldung.patterns.crud.repository;
+package com.surya.patterns.crud.repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.baeldung.patterns.domain.User;
+import com.surya.patterns.domain.User;
 
 public class UserRepository {
 

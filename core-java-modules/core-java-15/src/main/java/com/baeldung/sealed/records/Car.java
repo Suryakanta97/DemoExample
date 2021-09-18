@@ -1,4 +1,4 @@
-package com.baeldung.sealed.records;
+package com.surya.sealed.records;
 
 public record Car(int numberOfSeats, String registrationNumber) implements Vehicle {
 

@@ -3,7 +3,7 @@
     <scanAnnotatedClasses/>
 
     <scoreDirectorFactory>
-        <easyScoreCalculatorClass>com.baeldung.optaplanner.ScoreCalculator</easyScoreCalculatorClass>
+        <easyScoreCalculatorClass>com.surya.optaplanner.ScoreCalculator</easyScoreCalculatorClass>
     </scoreDirectorFactory>
 
     <termination>

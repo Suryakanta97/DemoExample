@@ -1,11 +1,11 @@
-package com.baeldung.ssh;
+package com.surya.ssh;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import com.baeldung.ssh.jsch.JschDemo;
+import com.surya.ssh.jsch.JschDemo;
 
 public class JSchLiveTest {
     

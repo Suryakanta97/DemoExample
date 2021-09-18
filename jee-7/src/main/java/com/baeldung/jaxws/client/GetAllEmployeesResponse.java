@@ -1,5 +1,5 @@
 
-package com.baeldung.jaxws.client;
+package com.surya.jaxws.client;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://bottomup.server.jaxws.baeldung.com/}employee" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="return" type="{http://bottomup.server.jaxws.surya.com/}employee" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

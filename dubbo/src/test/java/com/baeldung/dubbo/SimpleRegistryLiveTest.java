@@ -1,6 +1,6 @@
-package com.baeldung.dubbo;
+package com.surya.dubbo;
 
-import com.baeldung.dubbo.remote.GreetingsService;
+import com.surya.dubbo.remote.GreetingsService;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -30,10 +30,10 @@ public class SimpleRegistryLiveTest {
         ClassPathXmlApplicationContext localContext = new ClassPathXmlApplicationContext("simple/consumer-app.xml");
         localContext.start();
         GreetingsService greetingsService = (GreetingsService) localContext.getBean("greetingsService");
-        String hiMessage = greetingsService.sayHi("baeldung");
+        String hiMessage = greetingsService.sayHi("surya");
 
         assertNotNull(hiMessage);
-        assertEquals("hi, baeldung", hiMessage);
+        assertEquals("hi, surya", hiMessage);
     }
 
 }

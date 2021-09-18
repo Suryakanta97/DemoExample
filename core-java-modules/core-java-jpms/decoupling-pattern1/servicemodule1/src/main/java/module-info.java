@@ -1,3 +1,3 @@
-module com.baeldung.servicemodule {
-    exports com.baeldung.servicemodule.external;
+module com.surya.servicemodule {
+    exports com.surya.servicemodule.external;
 }

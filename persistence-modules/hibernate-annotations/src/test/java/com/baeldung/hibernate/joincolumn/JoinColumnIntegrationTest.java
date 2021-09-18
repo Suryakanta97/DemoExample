@@ -1,6 +1,6 @@
-package com.baeldung.hibernate.joincolumn;
+package com.surya.hibernate.joincolumn;
 
-import com.baeldung.hibernate.HibernateUtil;
+import com.surya.hibernate.HibernateUtil;
 import java.io.IOException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

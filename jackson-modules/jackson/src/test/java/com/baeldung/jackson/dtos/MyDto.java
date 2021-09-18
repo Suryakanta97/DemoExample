@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dtos;
+package com.surya.jackson.dtos;
 
 public class MyDto {
 

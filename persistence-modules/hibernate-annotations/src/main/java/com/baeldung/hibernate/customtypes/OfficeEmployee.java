@@ -1,6 +1,6 @@
-package com.baeldung.hibernate.customtypes;
+package com.surya.hibernate.customtypes;
 
-import com.baeldung.hibernate.pojo.Phone;
+import com.surya.hibernate.pojo.Phone;
 import org.hibernate.annotations.Columns;
 import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.Type;
@@ -37,10 +37,10 @@ public class OfficeEmployee {
             @Column(name = "address_line_2"),
             @Column(name = "city"), @Column(name = "country"),
             @Column(name = "zip_code")})
-    @Type(type = "com.baeldung.hibernate.customtypes.AddressType")
+    @Type(type = "com.surya.hibernate.customtypes.AddressType")
     private Address empAddress;
 
-    @Type(type = "com.baeldung.hibernate.customtypes.SalaryType",
+    @Type(type = "com.surya.hibernate.customtypes.SalaryType",
             parameters = {@Parameter(name = "currency", value = "USD")})
     @Columns(columns = {@Column(name = "amount"),
             @Column(name = "currency")})

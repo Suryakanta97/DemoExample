@@ -1,4 +1,4 @@
-package com.baeldung.diamondoperator;
+package com.surya.diamondoperator;
 
 import static org.junit.Assert.assertNotNull;
 

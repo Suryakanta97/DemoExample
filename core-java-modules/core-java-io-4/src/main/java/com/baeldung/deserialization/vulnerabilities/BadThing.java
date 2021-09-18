@@ -1,4 +1,4 @@
-package com.baeldung.deserialization.vulnerabilities;
+package com.surya.deserialization.vulnerabilities;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

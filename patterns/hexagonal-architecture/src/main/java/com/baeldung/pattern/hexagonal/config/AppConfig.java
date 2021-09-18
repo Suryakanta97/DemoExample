@@ -1,8 +1,8 @@
-package com.baeldung.pattern.hexagonal.config;
+package com.surya.pattern.hexagonal.config;
 
-import com.baeldung.pattern.hexagonal.domain.services.EmployeeService;
-import com.baeldung.pattern.hexagonal.domain.services.EmployeeServiceImpl;
-import com.baeldung.pattern.hexagonal.persistence.EmployeeRepository;
+import com.surya.pattern.hexagonal.domain.services.EmployeeService;
+import com.surya.pattern.hexagonal.domain.services.EmployeeServiceImpl;
+import com.surya.pattern.hexagonal.persistence.EmployeeRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

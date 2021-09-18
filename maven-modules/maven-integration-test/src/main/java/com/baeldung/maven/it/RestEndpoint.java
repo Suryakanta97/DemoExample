@@ -1,4 +1,4 @@
-package com.baeldung.maven.it;
+package com.surya.maven.it;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -7,6 +7,6 @@ import javax.ws.rs.Path;
 public class RestEndpoint {
     @GET
     public String hello() {
-        return "Welcome to Baeldung!";
+        return "Welcome to surya!";
     }
 }

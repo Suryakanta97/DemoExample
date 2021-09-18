@@ -10,7 +10,7 @@
     # File appender
     <appender name="fout" class="ch.qos.logback.core.FileAppender">
         # Name of a log file
-        <file>log4j/target/baeldung-logback.log</file>
+        <file>log4j/target/surya-logback.log</file>
         <append>false</append>
         <encoder>
             # Pattern of log message for file appender
@@ -72,7 +72,7 @@
     </appender>
 
     # Override log level for specified package
-    <logger name="com.baeldung.slf4j.Slf4jRollingExample" level="TRACE">
+    <logger name="com.surya.slf4j.Slf4jRollingExample" level="TRACE">
         <appender-ref ref="roll-by-size"/>
         <appender-ref ref="roll-by-time"/>
         <appender-ref ref="roll-by-time-and-size"/>

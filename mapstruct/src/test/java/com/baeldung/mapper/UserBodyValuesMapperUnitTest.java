@@ -1,7 +1,7 @@
-package com.baeldung.mapper;
+package com.surya.mapper;
 
-import com.baeldung.dto.UserBodyImperialValuesDTO;
-import com.baeldung.entity.UserBodyValues;
+import com.surya.dto.UserBodyImperialValuesDTO;
+import com.surya.entity.UserBodyValues;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.surya.repository;
 
-import com.baeldung.domain.Authority;
+import com.surya.domain.Authority;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

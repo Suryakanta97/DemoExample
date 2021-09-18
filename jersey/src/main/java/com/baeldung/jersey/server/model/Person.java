@@ -1,4 +1,4 @@
-package com.baeldung.jersey.server.model;
+package com.surya.jersey.server.model;
 
 public class Person {
     String name;

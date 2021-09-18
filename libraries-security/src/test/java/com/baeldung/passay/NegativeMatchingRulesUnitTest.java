@@ -1,4 +1,4 @@
-package com.baeldung.passay;
+package com.surya.passay;
 
 import org.cryptacular.bean.EncodingHashBean;
 import org.cryptacular.spec.CodecSpec;

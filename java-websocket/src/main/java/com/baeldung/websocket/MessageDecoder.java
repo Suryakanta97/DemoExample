@@ -1,10 +1,10 @@
-package com.baeldung.websocket;
+package com.surya.websocket;
 
 import javax.websocket.DecodeException;
 import javax.websocket.Decoder;
 import javax.websocket.EndpointConfig;
 
-import com.baeldung.model.Message;
+import com.surya.model.Message;
 import com.google.gson.Gson;
 
 public class MessageDecoder implements Decoder.Text<Message> {

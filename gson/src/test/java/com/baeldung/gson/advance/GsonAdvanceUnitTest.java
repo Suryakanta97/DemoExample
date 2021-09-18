@@ -1,9 +1,9 @@
-package com.baeldung.gson.advance;
+package com.surya.gson.advance;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import com.baeldung.gson.entities.Dog;
+import com.surya.gson.entities.Dog;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -11,10 +11,10 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import com.baeldung.gson.entities.Animal;
-import com.baeldung.gson.entities.Cow;
-import com.baeldung.gson.entities.MyClass;
-import com.baeldung.gson.serialization.AnimalDeserializer;
+import com.surya.gson.entities.Animal;
+import com.surya.gson.entities.Cow;
+import com.surya.gson.entities.MyClass;
+import com.surya.gson.serialization.AnimalDeserializer;
 import org.junit.Test;
 
 public class GsonAdvanceUnitTest {

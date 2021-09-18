@@ -1,4 +1,4 @@
-package com.baeldung.optionalreturntype;
+package com.surya.optionalreturntype;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,12 +9,12 @@ public class HandleOptionalTypeExample {
     static {
         User user1 = new User();
         user1.setUserId(1l);
-        user1.setFirstName("baeldung");
-        usersByName.put("baeldung", user1);
+        user1.setFirstName("surya");
+        usersByName.put("surya", user1);
     }
 
     public static void main(String[] args) {
-        changeUserName("baeldung", "baeldung-new");
+        changeUserName("surya", "surya-new");
         changeUserName("user", "user-new");
     }
 

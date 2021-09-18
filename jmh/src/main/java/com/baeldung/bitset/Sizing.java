@@ -1,4 +1,4 @@
-package com.baeldung.bitset;
+package com.surya.bitset;
 
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.info.GraphLayout;

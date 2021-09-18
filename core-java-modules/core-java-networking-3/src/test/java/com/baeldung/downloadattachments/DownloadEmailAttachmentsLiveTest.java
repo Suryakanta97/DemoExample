@@ -1,4 +1,4 @@
-package com.baeldung.downloadattachments;
+package com.surya.downloadattachments;
 
 import static org.junit.Assert.fail;
 import org.junit.Test;

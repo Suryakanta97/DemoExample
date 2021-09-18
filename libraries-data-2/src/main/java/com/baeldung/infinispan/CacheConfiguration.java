@@ -1,6 +1,6 @@
-package com.baeldung.infinispan;
+package com.surya.infinispan;
 
-import com.baeldung.infinispan.listener.CacheListener;
+import com.surya.infinispan.listener.CacheListener;
 import org.infinispan.Cache;
 import org.infinispan.configuration.cache.Configuration;
 import org.infinispan.configuration.cache.ConfigurationBuilder;

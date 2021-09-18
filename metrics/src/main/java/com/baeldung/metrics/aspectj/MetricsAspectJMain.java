@@ -1,4 +1,4 @@
-package com.baeldung.metrics.aspectj;
+package com.surya.metrics.aspectj;
 
 import com.codahale.metrics.ConsoleReporter;
 import com.codahale.metrics.MetricRegistry;

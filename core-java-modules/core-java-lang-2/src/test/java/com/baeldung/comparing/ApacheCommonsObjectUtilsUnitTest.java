@@ -1,4 +1,4 @@
-package com.baeldung.comparing;
+package com.surya.comparing;
 
 import org.apache.commons.lang3.ObjectUtils;
 import org.junit.jupiter.api.Test;

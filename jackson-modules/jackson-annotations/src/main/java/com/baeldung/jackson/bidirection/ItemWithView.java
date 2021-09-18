@@ -1,6 +1,6 @@
-package com.baeldung.jackson.bidirection;
+package com.surya.jackson.bidirection;
 
-import com.baeldung.jackson.bidirection.jsonview.Views;
+import com.surya.jackson.bidirection.jsonview.Views;
 
 import com.fasterxml.jackson.annotation.JsonView;
 

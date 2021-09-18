@@ -1,4 +1,4 @@
-package com.baeldung.gson.serialization;
+package com.surya.gson.serialization;
 
 public class SourceClass {
     private int intValue;

@@ -1,4 +1,4 @@
-package com.baeldung.datetime;
+package com.surya.datetime;
 
 import org.junit.Test;
 

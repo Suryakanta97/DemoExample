@@ -1,4 +1,4 @@
-package com.baeldung.maven.it;
+package com.surya.maven.it;
 
 import org.glassfish.jersey.server.ResourceConfig;
 

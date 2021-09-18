@@ -1,4 +1,4 @@
-package com.baeldung.jhipster.uaa.config;
+package com.surya.jhipster.uaa.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
