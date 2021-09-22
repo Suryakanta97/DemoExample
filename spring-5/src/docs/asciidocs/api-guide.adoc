@@ -1,5 +1,5 @@
 = RESTful Notes API Guide
-Baeldung;
+surya;
 :doctype: book
 :icons: font
 :source-highlighter: highlightjs

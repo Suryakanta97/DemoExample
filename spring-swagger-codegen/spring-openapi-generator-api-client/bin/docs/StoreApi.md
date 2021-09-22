@@ -23,11 +23,11 @@ For valid response try integer IDs with positive integer value. Negative or non-
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.StoreApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.StoreApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -88,12 +88,12 @@ Returns a map of status codes to quantities
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.StoreApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.StoreApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -156,11 +156,11 @@ For valid response try integer IDs with value &gt;&#x3D; 1 and &lt;&#x3D; 10. Ot
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.StoreApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.StoreApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -221,11 +221,11 @@ Place an order for a pet
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.StoreApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.StoreApi;
 
 public class Example {
     public static void main(String[] args) {

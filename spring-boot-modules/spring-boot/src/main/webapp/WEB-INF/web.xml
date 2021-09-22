@@ -12,7 +12,7 @@
     <!-- Java EE Servlets -->
     <servlet>
         <servlet-name>EEWebXmlServlet</servlet-name>
-        <servlet-class>com.baeldung.servlets.javaee.EEWebXmlServlet</servlet-class>
+        <servlet-class>com.surya.servlets.javaee.EEWebXmlServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

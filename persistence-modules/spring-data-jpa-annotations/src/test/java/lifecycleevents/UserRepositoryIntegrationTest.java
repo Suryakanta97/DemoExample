@@ -13,9 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.baeldung.lifecycleevents.SpringBootLifecycleEventApplication;
-import com.baeldung.lifecycleevents.model.User;
-import com.baeldung.lifecycleevents.repository.UserRepository;
+import com.surya.lifecycleevents.SpringBootLifecycleEventApplication;
+import com.surya.lifecycleevents.model.User;
+import com.surya.lifecycleevents.repository.UserRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootLifecycleEventApplication.class)

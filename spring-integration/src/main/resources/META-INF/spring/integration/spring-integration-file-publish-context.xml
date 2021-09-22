@@ -20,14 +20,14 @@
         http://www.springframework.org/schema/integration/twitter/spring-integration-twitter.xsd">
 
     <file:inbound-channel-adapter id="videoFolder"
-                                  directory="C:\projects\baeldung\clean-start-tutorials\tutorials\spring-integration\src\main\resources\source"
+                                  directory="C:\projects\surya\clean-start-tutorials\tutorials\spring-integration\src\main\resources\source"
                                   channel="videoChannel"
                                   prevent-duplicates="true">
         <int:poller fixed-rate="1000"/>
     </file:inbound-channel-adapter>
 
     <file:outbound-channel-adapter id="destFileFolder"
-                                   directory="C:\projects\baeldung\clean-start-tutorials\tutorials\spring-integration\src\main\resources\destination"
+                                   directory="C:\projects\surya\clean-start-tutorials\tutorials\spring-integration\src\main\resources\destination"
 
     >
     </file:outbound-channel-adapter>

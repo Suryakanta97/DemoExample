@@ -13,12 +13,12 @@
                 <cell id="7">
                     <image id="9">
                         <property name="source">url</property>
-                        <expression name="uri">"https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-96x96.png"</expression>
+                        <expression name="uri">"https://www.surya.com/wp-content/themes/surya/favicon/favicon-96x96.png"</expression>
                     </image>
                 </cell>
                 <cell id="8">
                     <label id="10">
-                        <text-property name="text">Hello, Baeldung world!</text-property>
+                        <text-property name="text">Hello, surya world!</text-property>
                     </label>
                 </cell>
             </row>

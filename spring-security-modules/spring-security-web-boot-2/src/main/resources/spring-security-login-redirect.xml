@@ -35,12 +35,12 @@
         <security:custom-filter after="BASIC_AUTH_FILTER" ref="loginPageFilter"/>
     </security:http>
 
-    <beans:bean id="loginPageFilter" class="com.baeldung.loginredirect.LoginPageFilter"/>
+    <beans:bean id="loginPageFilter" class="com.surya.loginredirect.LoginPageFilter"/>
 
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/loginUser"/>
-            <bean class="com.baeldung.loginredirect.LoginPageInterceptor"/>
+            <bean class="com.surya.loginredirect.LoginPageInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
 </beans>

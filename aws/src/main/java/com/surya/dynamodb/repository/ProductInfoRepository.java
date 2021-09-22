@@ -1,6 +1,6 @@
-package com.baeldung.dynamodb.repository;
+package com.surya.dynamodb.repository;
 
-import com.baeldung.dynamodb.entity.ProductInfo;
+import com.surya.dynamodb.entity.ProductInfo;
 
 public class ProductInfoRepository extends AbstractRepository<ProductInfo, String> {
 }

@@ -3,9 +3,9 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
              version="2.0">
-    <persistence-unit name="com.baeldung.movie_catalog">
+    <persistence-unit name="com.surya.movie_catalog">
         <description>Hibernate EntityManager Demo</description>
-        <class>com.baeldung.hibernate.pojo.Movie</class>
+        <class>com.surya.hibernate.pojo.Movie</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
@@ -17,10 +17,10 @@
         </properties>
     </persistence-unit>
     <!-- Persistence unit for H2 -->
-    <persistence-unit name="com.baeldung.hibernate.entitymanager.game_player_h2">
+    <persistence-unit name="com.surya.hibernate.entitymanager.game_player_h2">
         <description>EntityManager getReference persistence unit</description>
-        <class>com.baeldung.hibernate.entitymanager.getreference.Game</class>
-        <class>com.baeldung.hibernate.entitymanager.getreference.Player</class>
+        <class>com.surya.hibernate.entitymanager.getreference.Game</class>
+        <class>com.surya.hibernate.entitymanager.getreference.Player</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <!-- even if we set exclude-unlisted-classes=true, strangely it's not enough to exclude defined hbm files in hibernate.cfg.xml.
@@ -41,10 +41,10 @@
         </properties>
     </persistence-unit>
     <!-- Persistence unit for MySQL -->
-    <persistence-unit name="com.baeldung.hibernate.entitymanager.game_player_mysql">
+    <persistence-unit name="com.surya.hibernate.entitymanager.game_player_mysql">
         <description>EntityManager getReference persistence unit</description>
-        <class>com.baeldung.hibernate.entitymanager.getreference.Game</class>
-        <class>com.baeldung.hibernate.entitymanager.getreference.Player</class>
+        <class>com.surya.hibernate.entitymanager.getreference.Game</class>
+        <class>com.surya.hibernate.entitymanager.getreference.Player</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <!-- even if we set exclude-unlisted-classes=true, strangely it's not enough to exclude defined hbm files in hibernate.cfg.xml.
@@ -59,7 +59,7 @@
             <property name="hibernate.generate_statistics" value="false"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/baeldung"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/surya"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="password"/>
 
@@ -71,10 +71,10 @@
         </properties>
     </persistence-unit>
     <!-- Persistence unit for PostgreSQL -->
-    <persistence-unit name="com.baeldung.hibernate.entitymanager.game_player_postgresql">
+    <persistence-unit name="com.surya.hibernate.entitymanager.game_player_postgresql">
         <description>EntityManager getReference persistence unit</description>
-        <class>com.baeldung.hibernate.entitymanager.getreference.Game</class>
-        <class>com.baeldung.hibernate.entitymanager.getreference.Player</class>
+        <class>com.surya.hibernate.entitymanager.getreference.Game</class>
+        <class>com.surya.hibernate.entitymanager.getreference.Player</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <!-- even if we set exclude-unlisted-classes=true, strangely it's not enough to exclude defined hbm files in hibernate.cfg.xml.
@@ -101,12 +101,12 @@
         </properties>
     </persistence-unit>
 
-    <persistence-unit name="com.baeldung.hibernate.serializable.h2_persistence_unit">
+    <persistence-unit name="com.surya.hibernate.serializable.h2_persistence_unit">
         <description>EntityManager serializable persistence unit</description>
-        <class>com.baeldung.hibernate.serializable.Email</class>
-        <class>com.baeldung.hibernate.serializable.Account</class>
-        <class>com.baeldung.hibernate.serializable.User</class>
-        <class>com.baeldung.hibernate.serializable.UserId</class>
+        <class>com.surya.hibernate.serializable.Email</class>
+        <class>com.surya.hibernate.serializable.Account</class>
+        <class>com.surya.hibernate.serializable.User</class>
+        <class>com.surya.hibernate.serializable.UserId</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
@@ -120,11 +120,11 @@
         </properties>
     </persistence-unit>
 
-    <persistence-unit name="com.baeldung.hibernate.entitynotfoundexception.h2_persistence_unit">
+    <persistence-unit name="com.surya.hibernate.entitynotfoundexception.h2_persistence_unit">
         <description>EntityManager EntityNotFoundException persistence unit</description>
-        <class>com.baeldung.hibernate.entitynotfoundexception.Category</class>
-        <class>com.baeldung.hibernate.entitynotfoundexception.Item</class>
-        <class>com.baeldung.hibernate.entitynotfoundexception.User</class>
+        <class>com.surya.hibernate.entitynotfoundexception.Category</class>
+        <class>com.surya.hibernate.entitynotfoundexception.Item</class>
+        <class>com.surya.hibernate.entitynotfoundexception.User</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="update"/>

@@ -1,3 +1,3 @@
 ### Relevant Articles
 
-- [Spring Data with Reactive Cassandra](https://www.baeldung.com/spring-data-cassandra-reactive)
+- [Spring Data with Reactive Cassandra](https://www.surya.com/spring-data-cassandra-reactive)

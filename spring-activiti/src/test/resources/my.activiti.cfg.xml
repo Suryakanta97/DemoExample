@@ -5,9 +5,9 @@
 
     <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
 
-        <property name="jdbcUrl" value="jdbc:h2:mem:baeldung;DB_CLOSE_DELAY=1000" />
+        <property name="jdbcUrl" value="jdbc:h2:mem:surya;DB_CLOSE_DELAY=1000" />
         <property name="jdbcDriver" value="org.h2.Driver" />
-        <property name="jdbcUsername" value="baeldung" />
+        <property name="jdbcUsername" value="surya" />
         <property name="jdbcPassword" value="" />
 
         <property name="databaseSchemaUpdate" value="true" />
@@ -15,9 +15,9 @@
     
     <bean id="myProcessEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
 
-        <property name="jdbcUrl" value="jdbc:h2:mem:baeldung;DB_CLOSE_DELAY=1000" />
+        <property name="jdbcUrl" value="jdbc:h2:mem:surya;DB_CLOSE_DELAY=1000" />
         <property name="jdbcDriver" value="org.h2.Driver" />
-        <property name="jdbcUsername" value="baeldung" />
+        <property name="jdbcUsername" value="surya" />
         <property name="jdbcPassword" value="" />
 
         <property name="databaseSchemaUpdate" value="true" />

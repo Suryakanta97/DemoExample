@@ -10,4 +10,4 @@ customer-mongodb-sink - Custom application to sink the data
 
 # Relevant Articles
 
-* [ETL with Spring Cloud Data Flow](https://www.baeldung.com/spring-cloud-data-flow-etl)
+* [ETL with Spring Cloud Data Flow](https://www.surya.com/spring-cloud-data-flow-etl)

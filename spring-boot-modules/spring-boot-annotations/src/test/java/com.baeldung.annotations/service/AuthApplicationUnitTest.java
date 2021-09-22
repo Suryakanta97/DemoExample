@@ -1,10 +1,10 @@
-package com.baeldung.annotations.service;
+package com.surya.annotations.service;
 
-import com.baeldung.annotations.service.abstracts.AbstractAuthenticationService;
-import com.baeldung.annotations.service.config.AbstractsAnnotatedTestConfiguration;
-import com.baeldung.annotations.service.config.ConcreteClassesAnnotatedTestConfiguration;
-import com.baeldung.annotations.service.config.InterfacesAnnotatedTestConfiguration;
-import com.baeldung.annotations.service.interfaces.AuthenticationService;
+import com.surya.annotations.service.abstracts.AbstractAuthenticationService;
+import com.surya.annotations.service.config.AbstractsAnnotatedTestConfiguration;
+import com.surya.annotations.service.config.ConcreteClassesAnnotatedTestConfiguration;
+import com.surya.annotations.service.config.InterfacesAnnotatedTestConfiguration;
+import com.surya.annotations.service.interfaces.AuthenticationService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

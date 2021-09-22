@@ -1,4 +1,4 @@
-package com.baeldung.s3;
+package com.surya.s3;
 
 import com.amazonaws.event.ProgressListener;
 import com.amazonaws.services.s3.AmazonS3;

@@ -1,4 +1,4 @@
-package com.baeldung
+package com.surya
 
 import scala.util._
 import io.gatling.core.Predef._

@@ -3,14 +3,14 @@
 This module contains articles about querying data using Spring Data JPA 
 
 ### Relevant Articles: 
-- [Spring Data JPA @Query](https://www.baeldung.com/spring-data-jpa-query)
-- [Use Criteria Queries in a Spring Data Application](https://www.baeldung.com/spring-data-criteria-queries)
-- [Query Entities by Dates and Times with Spring Data JPA](https://www.baeldung.com/spring-data-jpa-query-by-date)
-- [Hibernate Pagination](https://www.baeldung.com/hibernate-pagination)
-- [Sorting with Hibernate](https://www.baeldung.com/hibernate-sort)
-- [Stored Procedures with Hibernate](https://www.baeldung.com/stored-procedures-with-hibernate-tutorial)
-- [Eager/Lazy Loading In Hibernate](https://www.baeldung.com/hibernate-lazy-eager-loading)
-- [Auditing with JPA, Hibernate, and Spring Data JPA](https://www.baeldung.com/database-auditing-jpa)
+- [Spring Data JPA @Query](https://www.surya.com/spring-data-jpa-query)
+- [Use Criteria Queries in a Spring Data Application](https://www.surya.com/spring-data-criteria-queries)
+- [Query Entities by Dates and Times with Spring Data JPA](https://www.surya.com/spring-data-jpa-query-by-date)
+- [Hibernate Pagination](https://www.surya.com/hibernate-pagination)
+- [Sorting with Hibernate](https://www.surya.com/hibernate-sort)
+- [Stored Procedures with Hibernate](https://www.surya.com/stored-procedures-with-hibernate-tutorial)
+- [Eager/Lazy Loading In Hibernate](https://www.surya.com/hibernate-lazy-eager-loading)
+- [Auditing with JPA, Hibernate, and Spring Data JPA](https://www.surya.com/database-auditing-jpa)
 
 - More articles: [[<-- prev]](../spring-data-jpa-query)
 

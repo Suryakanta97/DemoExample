@@ -1,4 +1,4 @@
-package com.baeldung.intro.models;
+package com.surya.intro.models;
 
 public class UserCredentials {
 

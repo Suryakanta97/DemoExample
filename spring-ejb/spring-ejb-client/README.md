@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Introduction to EJB JNDI Lookup on WildFly Application Server](https://www.baeldung.com/wildfly-ejb-jndi)
+- [Introduction to EJB JNDI Lookup on WildFly Application Server](https://www.surya.com/wildfly-ejb-jndi)

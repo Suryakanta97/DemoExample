@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -241,7 +241,7 @@
         <javax-servlet-api.version>2.3.3</javax-servlet-api.version>
         <htmlunit.version>2.32</htmlunit.version>
         <json-path.version>2.4.0</json-path.version>
-        <start-class>com.baeldung.SpringMVCApplication</start-class>
+        <start-class>com.surya.SpringMVCApplication</start-class>
     </properties>
 
 </project>

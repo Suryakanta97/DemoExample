@@ -1,3 +1,3 @@
 ## Relevant articles:
 
-- [Introduction to MockServer](http://www.baeldung.com/mockserver)
+- [Introduction to MockServer](http://www.surya.com/mockserver)

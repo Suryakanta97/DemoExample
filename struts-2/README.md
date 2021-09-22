@@ -4,4 +4,4 @@ This module contains articles about Struts 2
 
 ### Relevant articles
 
-- [A Quick Struts 2 Intro](https://www.baeldung.com/struts-2-intro)
+- [A Quick Struts 2 Intro](https://www.surya.com/struts-2-intro)

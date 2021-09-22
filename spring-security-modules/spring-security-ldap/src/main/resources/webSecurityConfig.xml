@@ -28,7 +28,7 @@
             </ldap-authentication-provider>
     </authentication-manager>
     
-    <ldap-server root="dc=baeldung,dc=com" ldif="users.ldif"/>
+    <ldap-server root="dc=surya,dc=com" ldif="users.ldif"/>
     
 
 </beans:beans>

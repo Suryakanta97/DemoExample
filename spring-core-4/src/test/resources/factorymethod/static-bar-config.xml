@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/util/spring-util.xsd">
 
     <bean id="bar"
-      class="com.baeldung.factorymethod.SingletonBarFactory"
+      class="com.surya.factorymethod.SingletonBarFactory"
       factory-method="createInstance">
         <constructor-arg value="someName" />
     </bean>

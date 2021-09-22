@@ -5,7 +5,7 @@
         </layout>
     </appender>
 
-    <logger name="com.baeldung.tapestry" level="TRACE"/>
+    <logger name="com.surya.tapestry" level="TRACE"/>
 
     <root level="info">
         <appender-ref ref="STDOUT"/>

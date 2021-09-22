@@ -6,8 +6,8 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 import org.junit.Test;
 
-import com.baeldung.antlr.Java8Lexer;
-import com.baeldung.antlr.Java8Parser;
+import com.surya.antlr.Java8Lexer;
+import com.surya.antlr.Java8Parser;
 import com.surya.antlr.java.UppercaseMethodListener;
 
 import static org.hamcrest.CoreMatchers.is;

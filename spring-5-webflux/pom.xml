@@ -6,10 +6,10 @@
     <artifactId>spring-5-webflux</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>spring-5-webflux</name>
-    <url>http://www.baeldung.com</url>
+    <url>http://www.surya.com</url>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-boot-2</relativePath>

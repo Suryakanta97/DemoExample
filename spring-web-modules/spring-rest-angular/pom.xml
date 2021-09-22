@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -75,7 +75,7 @@
 
     <properties>
         <guava.version>19.0</guava.version>
-        <start-class>com.baeldung.web.main.Application</start-class>
+        <start-class>com.surya.web.main.Application</start-class>
     </properties>
 
 </project>

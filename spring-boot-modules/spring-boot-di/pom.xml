@@ -9,7 +9,7 @@
     <description>Module For Spring Boot DI</description>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -51,7 +51,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.SpringBootDiApplication</mainClass>
+                    <mainClass>com.surya.SpringBootDiApplication</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
@@ -59,7 +59,7 @@
     </build>
 
     <properties>
-        <start-class>com.baeldung.SpringBootDiApplication</start-class>
+        <start-class>com.surya.SpringBootDiApplication</start-class>
     </properties>
 
 </project>

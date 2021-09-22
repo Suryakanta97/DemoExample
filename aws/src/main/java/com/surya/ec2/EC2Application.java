@@ -1,4 +1,4 @@
-package com.baeldung.ec2;
+package com.surya.ec2;
 
 import java.util.Arrays;
 
@@ -46,8 +46,8 @@ public class EC2Application {
             .build();
 
         // Create a security group
-        CreateSecurityGroupRequest createSecurityGroupRequest = new CreateSecurityGroupRequest().withGroupName("BaeldungSecurityGroup")
-            .withDescription("Baeldung Security Group");
+        CreateSecurityGroupRequest createSecurityGroupRequest = new CreateSecurityGroupRequest().withGroupName("suryaSecurityGroup")
+            .withDescription("surya Security Group");
         ec2Client.createSecurityGroup(createSecurityGroupRequest);
 
         // Allow HTTP and SSH traffic
@@ -64,14 +64,14 @@ public class EC2Application {
             .withToPort(22);
 
         AuthorizeSecurityGroupIngressRequest authorizeSecurityGroupIngressRequest = new AuthorizeSecurityGroupIngressRequest()
-            .withGroupName("BaeldungSecurityGroup")
+            .withGroupName("suryaSecurityGroup")
             .withIpPermissions(ipPermission1, ipPermission2);
 
         ec2Client.authorizeSecurityGroupIngress(authorizeSecurityGroupIngressRequest);
 
         // Create KeyPair
         CreateKeyPairRequest createKeyPairRequest = new CreateKeyPairRequest()
-            .withKeyName("baeldung-key-pair");
+            .withKeyName("surya-key-pair");
         CreateKeyPairResult createKeyPairResult = ec2Client.createKeyPair(createKeyPairRequest);
         String privateKey = createKeyPairResult
             .getKeyPair()
@@ -86,8 +86,8 @@ public class EC2Application {
             .withInstanceType("t2.micro") // https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
             .withMinCount(1)
             .withMaxCount(1)
-            .withKeyName("baeldung-key-pair") // optional - if not present, can't connect to instance
-            .withSecurityGroups("BaeldungSecurityGroup");
+            .withKeyName("surya-key-pair") // optional - if not present, can't connect to instance
+            .withSecurityGroups("suryaSecurityGroup");
 
         String yourInstanceId = ec2Client.runInstances(runInstancesRequest).getReservation().getInstances().get(0).getInstanceId();
 

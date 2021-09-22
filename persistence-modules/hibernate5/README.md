@@ -4,13 +4,13 @@ This module contains articles about Hibernate 5. Let's not add more articles her
 
 ### Relevant articles:
 
-- [An Overview of Identifiers in Hibernate/JPA](https://www.baeldung.com/hibernate-identifiers)
-- [Hibernate Interceptors](https://www.baeldung.com/hibernate-interceptor)
-- [Hibernate Entity Lifecycle](https://www.baeldung.com/hibernate-entity-lifecycle)
-- [Hibernate 5 Naming Strategy Configuration](https://www.baeldung.com/hibernate-naming-strategy)
-- [Proxy in Hibernate load() Method](https://www.baeldung.com/hibernate-proxy-load-method)
-- [Hibernate 5 Bootstrapping API](https://www.baeldung.com/hibernate-5-bootstrapping-api)
-- [Guide to the Hibernate EntityManager](https://www.baeldung.com/hibernate-entitymanager)
-- [Using c3p0 with Hibernate](https://www.baeldung.com/hibernate-c3p0)
-- [Persist a JSON Object Using Hibernate](https://www.baeldung.com/hibernate-persist-json-object)
-- [What Is the Hi/Lo Algorithm?](https://www.baeldung.com/hi-lo-algorithm-hibernate)
+- [An Overview of Identifiers in Hibernate/JPA](https://www.surya.com/hibernate-identifiers)
+- [Hibernate Interceptors](https://www.surya.com/hibernate-interceptor)
+- [Hibernate Entity Lifecycle](https://www.surya.com/hibernate-entity-lifecycle)
+- [Hibernate 5 Naming Strategy Configuration](https://www.surya.com/hibernate-naming-strategy)
+- [Proxy in Hibernate load() Method](https://www.surya.com/hibernate-proxy-load-method)
+- [Hibernate 5 Bootstrapping API](https://www.surya.com/hibernate-5-bootstrapping-api)
+- [Guide to the Hibernate EntityManager](https://www.surya.com/hibernate-entitymanager)
+- [Using c3p0 with Hibernate](https://www.surya.com/hibernate-c3p0)
+- [Persist a JSON Object Using Hibernate](https://www.surya.com/hibernate-persist-json-object)
+- [What Is the Hi/Lo Algorithm?](https://www.surya.com/hi-lo-algorithm-hibernate)

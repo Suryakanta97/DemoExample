@@ -10,7 +10,7 @@
     <description>spring 5 sample project about new features</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-boot-2</relativePath>
@@ -68,7 +68,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.webclient.WebClientApplication</mainClass>
+                    <mainClass>com.surya.webclient.WebClientApplication</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

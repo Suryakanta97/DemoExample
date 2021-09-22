@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Serverless Functions with Spring Cloud Function](https://www.baeldung.com/spring-cloud-function)
+- [Serverless Functions with Spring Cloud Function](https://www.surya.com/spring-cloud-function)

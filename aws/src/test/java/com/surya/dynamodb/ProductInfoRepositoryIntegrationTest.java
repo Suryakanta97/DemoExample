@@ -1,4 +1,4 @@
-package com.baeldung.dynamodb;
+package com.surya.dynamodb;
 
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
@@ -7,9 +7,9 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.model.CreateTableRequest;
 import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
 import com.amazonaws.services.dynamodbv2.model.ResourceInUseException;
-import com.baeldung.dynamodb.entity.ProductInfo;
-import com.baeldung.dynamodb.repository.ProductInfoRepository;
-import com.baeldung.dynamodb.rule.LocalDbCreationRule;
+import com.surya.dynamodb.entity.ProductInfo;
+import com.surya.dynamodb.repository.ProductInfoRepository;
+import com.surya.dynamodb.rule.LocalDbCreationRule;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;

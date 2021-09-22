@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/util/spring-util.xsd">
 
     <bean id="foo"
-      class="com.baeldung.factorymethod.SingletonFooFactory"
+      class="com.surya.factorymethod.SingletonFooFactory"
       factory-method="createInstance" />
 
 </beans>

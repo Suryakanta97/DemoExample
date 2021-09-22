@@ -415,7 +415,7 @@ public class GoogleTruthUnitTest {
 
     @Test
     public void whenCheckingJavaOptional_thenPresent() {
-        Optional<String> anOptional = Optional.of("Baeldung");
+        Optional<String> anOptional = Optional.of("surya");
 
         assertThat(anOptional).isPresent();
     }
@@ -464,9 +464,9 @@ public class GoogleTruthUnitTest {
     @Test
     public void whenCheckingGuavaMultiset_thenExpectedCount() {
         TreeMultiset<String> aMultiset = TreeMultiset.create();
-        aMultiset.add("baeldung", 10);
+        aMultiset.add("surya", 10);
 
-        assertThat(aMultiset).hasCount("baeldung", 10);
+        assertThat(aMultiset).hasCount("surya", 10);
     }
 
     @Test
@@ -480,7 +480,7 @@ public class GoogleTruthUnitTest {
     public void whenCheckingGuavaTable_thenContainsCell() {
         Table<String, String, String> aTable = getDummyGuavaTable();
 
-        assertThat(aTable).containsCell("firstRow", "firstColumn", "baeldung");
+        assertThat(aTable).containsCell("firstRow", "firstColumn", "surya");
     }
 
     @Test
@@ -501,7 +501,7 @@ public class GoogleTruthUnitTest {
     public void whenCheckingGuavaTable_thenContainsValue() {
         Table<String, String, String> aTable = getDummyGuavaTable();
 
-        assertThat(aTable).containsValue("baeldung");
+        assertThat(aTable).containsValue("surya");
     }
 
     @Ignore
@@ -534,7 +534,7 @@ public class GoogleTruthUnitTest {
 
     private Table<String, String, String> getDummyGuavaTable() {
         Table<String, String, String> aTable = TreeBasedTable.create();
-        aTable.put("firstRow", "firstColumn", "baeldung");
+        aTable.put("firstRow", "firstColumn", "surya");
         return aTable;
     }
 

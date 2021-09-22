@@ -14,7 +14,7 @@
         <property name="hbm2ddl.auto">validate</property>
  
 		
-		<mapping class="com.baeldung.hibernate.fetching.model.UserEager" />
-        <mapping class="com.baeldung.hibernate.fetching.model.OrderDetailEager" />
+		<mapping class="com.surya.hibernate.fetching.model.UserEager" />
+        <mapping class="com.surya.hibernate.fetching.model.OrderDetailEager" />
 	</session-factory>
 </hibernate-configuration>

@@ -13,7 +13,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.baeldung.atomikos.spring.jpa.inventory", entityManagerFactoryRef = "inventoryEntityManager", transactionManagerRef = "transactionManager")
+@EnableJpaRepositories(basePackages = "com.surya.atomikos.spring.jpa.inventory", entityManagerFactoryRef = "inventoryEntityManager", transactionManagerRef = "transactionManager")
 public class InventoryConfig {
 
     @Bean(initMethod = "init", destroyMethod = "close")
@@ -35,7 +35,7 @@ public class InventoryConfig {
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan("com.baeldung.atomikos.spring.jpa.inventory");
+        factory.setPackagesToScan("com.surya.atomikos.spring.jpa.inventory");
         factory.setDataSource(inventoryDataSource());
         Properties jpaProperties = new Properties();
         //jpaProperties.put("hibernate.show_sql", "true");

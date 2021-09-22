@@ -52,9 +52,9 @@
         <hashTree/>
         <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="jp@gc - WebDriver Sampler" enabled="true">
           <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
-WDS.browser.get(&apos;http://baeldung.com&apos;)
+WDS.browser.get(&apos;http://surya.com&apos;)
 WDS.sampleResult.sampleEnd()
-WDS.log.info(&quot;successfully navigated to http://baeldung.com/&quot;);
+WDS.log.info(&quot;successfully navigated to http://surya.com/&quot;);
 </stringProp>
           <stringProp name="WebDriverSampler.parameters"></stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>

@@ -24,7 +24,7 @@
         </session-management>
     </http>
 
-    <beans:bean id="myAuthenticationSuccessHandler" class="com.baeldung.security.MySimpleUrlAuthenticationSuccessHandler"/>
+    <beans:bean id="myAuthenticationSuccessHandler" class="com.surya.security.MySimpleUrlAuthenticationSuccessHandler"/>
 
     <authentication-manager>
         <authentication-provider>

@@ -3,8 +3,8 @@ package com.surya.antlr;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-import com.baeldung.antlr.LogLexer;
-import com.baeldung.antlr.LogParser;
+import com.surya.antlr.LogLexer;
+import com.surya.antlr.LogParser;
 import com.surya.antlr.log.LogListener;
 import com.surya.antlr.log.model.LogEntry;
 import com.surya.antlr.log.model.LogLevel;

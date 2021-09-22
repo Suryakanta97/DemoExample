@@ -4,13 +4,13 @@
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
     <bean id="initMethodExampleBean"
-          class="com.baeldung.startup.InitMethodExampleBean"
+          class="com.surya.startup.InitMethodExampleBean"
           scope="prototype"
           init-method="init">
     </bean>
 
     <bean id="allStrategiesExampleBean"
-          class="com.baeldung.startup.AllStrategiesExampleBean"
+          class="com.surya.startup.AllStrategiesExampleBean"
           init-method="init">
     </bean>
 </beans>

@@ -1,4 +1,4 @@
-package com.baeldung.permissions.custom;
+package com.surya.permissions.custom;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
 
         IniRealm realm = new IniRealm();
-        Ini ini = Ini.fromResourcePath(Main.class.getResource("/com/baeldung/shiro/permissions/custom/shiro.ini").getPath());
+        Ini ini = Ini.fromResourcePath(Main.class.getResource("/com/surya/shiro/permissions/custom/shiro.ini").getPath());
         realm.setIni(ini);
         realm.setPermissionResolver(new PathPermissionResolver());
         realm.init();

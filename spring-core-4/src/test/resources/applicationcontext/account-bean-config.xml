@@ -5,9 +5,9 @@
 	  http://www.springframework.org/schema/beans 
 	  http://www.springframework.org/schema/beans/spring-beans.xsd">
 	  
-	<bean id="accountService" class="com.baeldung.applicationcontext.AccountService">
+	<bean id="accountService" class="com.surya.applicationcontext.AccountService">
 		<constructor-arg name="accountRepository" ref="accountRepository" />
 	</bean>
 	
-	<bean id="accountRepository" class="com.baeldung.applicationcontext.AccountRepository" />
+	<bean id="accountRepository" class="com.surya.applicationcontext.AccountRepository" />
 </beans>

@@ -8,12 +8,12 @@ spec:
         - name: SPRING_DATASOURCE_USER
           valueFrom:
             secretKeyRef:
-              name: baeldung-db
+              name: surya-db
               key: database-user
         - name: SPRING_DATASOURCE_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: baeldung-db
+              name: surya-db
               key: database-password
         livenessProbe:
           httpGet:

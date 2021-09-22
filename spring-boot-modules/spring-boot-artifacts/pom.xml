@@ -9,7 +9,7 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -92,7 +92,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.baeldung.webjar.WebjarsdemoApplication</mainClass>
+                            <mainClass>com.surya.webjar.WebjarsdemoApplication</mainClass>
                         </configuration>
                     </execution>
                 </executions>
@@ -187,7 +187,7 @@
 
     <properties>
         <!-- The main class to start by executing java -jar -->
-        <start-class>com.baeldung.boot.Application</start-class>
+        <start-class>com.surya.boot.Application</start-class>
         <jquery.version>3.1.1</jquery.version>
         <bootstrap.version>3.3.7-1</bootstrap.version>
         <jpa.version>2.2</jpa.version>

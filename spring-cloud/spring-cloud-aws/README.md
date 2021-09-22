@@ -1,11 +1,11 @@
 # Spring Cloud AWS
 
 # Relevant Articles
-- [Spring Cloud AWS – S3](https://www.baeldung.com/spring-cloud-aws-s3)
-- [Spring Cloud AWS – EC2](https://www.baeldung.com/spring-cloud-aws-ec2)
-- [Spring Cloud AWS – RDS](https://www.baeldung.com/spring-cloud-aws-rds)
-- [Spring Cloud AWS – Messaging Support](https://www.baeldung.com/spring-cloud-aws-messaging)
-- [Instance Profile Credentials using Spring Cloud](http://www.baeldung.com/spring-cloud-instance-profiles)
+- [Spring Cloud AWS – S3](https://www.surya.com/spring-cloud-aws-s3)
+- [Spring Cloud AWS – EC2](https://www.surya.com/spring-cloud-aws-ec2)
+- [Spring Cloud AWS – RDS](https://www.surya.com/spring-cloud-aws-rds)
+- [Spring Cloud AWS – Messaging Support](https://www.surya.com/spring-cloud-aws-messaging)
+- [Instance Profile Credentials using Spring Cloud](http://www.surya.com/spring-cloud-instance-profiles)
 
 #### Running the Integration Tests
 
@@ -28,5 +28,5 @@ cloud.aws.rds.spring-cloud-test-db.password=se3retpass
 Multiple application classes are available under this project. To launch InstanceProfileAwsApplication application, replace `start-class` under `pom.xml`:
 
 ```
-<start-class>com.baeldung.spring.cloud.aws.InstanceProfileAwsApplication</start-class>
+<start-class>com.surya.spring.cloud.aws.InstanceProfileAwsApplication</start-class>
 ```

@@ -4,10 +4,10 @@
 
 
 ### Relevant Articles: 
-- [Transaction Propagation and Isolation in Spring @Transactional](https://www.baeldung.com/spring-transactional-propagation-isolation)
-- [Transactional Annotations: Spring vs. JTA](https://www.baeldung.com/spring-vs-jta-transactional)
-- [Test a Mock JNDI Datasource with Spring](https://www.baeldung.com/spring-mock-jndi-datasource)
-- [Detecting If a Spring Transaction Is Active](https://www.baeldung.com/spring-transaction-active)
+- [Transaction Propagation and Isolation in Spring @Transactional](https://www.surya.com/spring-transactional-propagation-isolation)
+- [Transactional Annotations: Spring vs. JTA](https://www.surya.com/spring-vs-jta-transactional)
+- [Test a Mock JNDI Datasource with Spring](https://www.surya.com/spring-mock-jndi-datasource)
+- [Detecting If a Spring Transaction Is Active](https://www.surya.com/spring-transaction-active)
 
 ### Eclipse Config 
 After importing the project into Eclipse, you may see the following error:  

@@ -34,4 +34,4 @@ test {
     }
 }
 
-mainClassName = "com.baeldung.Application"
+mainClassName = "com.surya.Application"

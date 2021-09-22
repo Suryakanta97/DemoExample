@@ -1,8 +1,8 @@
  ----
- Module com.baeldung:apache-tapestry
+ Module com.surya:apache-tapestry
  ----
 
-com.baeldung:apache-tapestry Documentation
+com.surya:apache-tapestry Documentation
 
   This is where you can start to document your module.
 

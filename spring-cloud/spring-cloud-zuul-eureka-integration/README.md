@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [An Example of Load Balancing with Zuul and Eureka](http://www.baeldung.com/zuul-load-balancing)
+- [An Example of Load Balancing with Zuul and Eureka](http://www.surya.com/zuul-load-balancing)

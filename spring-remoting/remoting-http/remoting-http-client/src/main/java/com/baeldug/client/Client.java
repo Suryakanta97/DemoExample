@@ -1,7 +1,7 @@
 package com.baeldug.client;
 
-import com.baeldung.api.BookingException;
-import com.baeldung.api.CabBookingService;
+import com.surya.api.BookingException;
+import com.surya.api.CabBookingService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

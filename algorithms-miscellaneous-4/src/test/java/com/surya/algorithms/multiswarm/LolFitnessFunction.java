@@ -21,7 +21,7 @@ public class LolFitnessFunction implements FitnessFunction {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.baeldung.algorithms.multiswarm.FitnessFunction#getFitness(long[])
+	 * com.surya.algorithms.multiswarm.FitnessFunction#getFitness(long[])
 	 */
 	@Override
 	public double getFitness(long[] particlePosition) {

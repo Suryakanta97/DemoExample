@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Getting Started with jOOQ](https://www.baeldung.com/jooq-intro)
+- [Getting Started with jOOQ](https://www.surya.com/jooq-intro)

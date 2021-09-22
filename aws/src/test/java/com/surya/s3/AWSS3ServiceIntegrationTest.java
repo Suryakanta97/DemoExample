@@ -1,4 +1,4 @@
-package com.baeldung.s3;
+package com.surya.s3;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;

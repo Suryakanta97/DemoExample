@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="suite" parallel="classes" thread-count="2">
     <listeners>
-	    <listener class-name="com.baeldung.reports.CustomisedReports" />
+	    <listener class-name="com.surya.reports.CustomisedReports" />
     </listeners>
     <test name="test suite">
 	    <classes>
-	        <class name="com.baeldung.RegistrationLongRunningUnitTest" />
-            <class name="com.baeldung.SignInLongRunningUnitTest" />
-            <class name="com.baeldung.SimpleLongRunningUnitTest" />
+	        <class name="com.surya.RegistrationLongRunningUnitTest" />
+            <class name="com.surya.SignInLongRunningUnitTest" />
+            <class name="com.surya.SimpleLongRunningUnitTest" />
         </classes>
     </test>
 </suite>

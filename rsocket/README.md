@@ -4,4 +4,4 @@ This module contains articles about RSocket.
 
 ### Relevant articles
 
-- [Introduction to RSocket](https://www.baeldung.com/rsocket)
+- [Introduction to RSocket](https://www.surya.com/rsocket)

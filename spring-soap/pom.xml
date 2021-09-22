@@ -8,7 +8,7 @@
     <name>spring-soap</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-boot-2</relativePath>
@@ -72,7 +72,7 @@
                 <configuration>
                     <schemaLanguage>WSDL</schemaLanguage>
                     <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
-                    <generatePackage>com.baeldung.springsoap.client.gen</generatePackage>
+                    <generatePackage>com.surya.springsoap.client.gen</generatePackage>
                     <schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>
                     <noFileHeader>true</noFileHeader>
                     <schemaIncludes>

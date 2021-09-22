@@ -1,4 +1,4 @@
-(import com.baeldung.rules.jess.model.*)
+(import com.surya.rules.jess.model.*)
 (deftemplate Question       (declare (from-class Question)))
 (deftemplate Answer       (declare (from-class Answer)))
 

@@ -5,7 +5,7 @@
         http://xmlns.jcp.org/xml/ns/persistence
         http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
    <persistence-unit name="primary">
-      <jta-data-source>java:jboss/datasources/baeldung-jee7-seedTestDS</jta-data-source>
+      <jta-data-source>java:jboss/datasources/surya-jee7-seedTestDS</jta-data-source>
       <properties>
          <property name="hibernate.hbm2ddl.auto" value="create-drop" />
          <property name="hibernate.show_sql" value="false" />
@@ -13,7 +13,7 @@
    </persistence-unit>
 
    <persistence-unit name="secondary">
-      <jta-data-source>java:jboss/datasources/baeldung-jee7-seedTestSecondaryDS</jta-data-source>
+      <jta-data-source>java:jboss/datasources/surya-jee7-seedTestSecondaryDS</jta-data-source>
       <properties>
          <property name="hibernate.hbm2ddl.auto" value="create-drop" />
          <property name="hibernate.show_sql" value="false" />
@@ -23,8 +23,8 @@
    <persistence-unit name="pu-test" transaction-type="RESOURCE_LOCAL">
       <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
       <!-- add classes -->
-      <class>baeldung.model.User</class>
-      <class>baeldung.model.Address</class>
+      <class>surya.model.User</class>
+      <class>surya.model.Address</class>
 
       <properties>
          <!-- Configuring JDBC properties -->

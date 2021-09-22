@@ -7,7 +7,7 @@
     <name>remoting-hessian-burlap-client</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>remoting-hessian-burlap</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

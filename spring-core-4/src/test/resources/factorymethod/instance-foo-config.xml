@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/util/spring-util.xsd">
 
     <bean id="instanceFooFactory"
-      class="com.baeldung.factorymethod.InstanceFooFactory" />
+      class="com.surya.factorymethod.InstanceFooFactory" />
 
     <bean id="foo"
       factory-bean="instanceFooFactory"

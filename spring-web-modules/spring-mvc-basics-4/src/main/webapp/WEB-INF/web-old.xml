@@ -25,11 +25,11 @@
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>com.baeldung.contexts.config.RootApplicationConfig, com.baeldung.contexts.config.NormalWebAppConfig</param-value>
+        <param-value>com.surya.contexts.config.RootApplicationConfig, com.surya.contexts.config.NormalWebAppConfig</param-value>
     </context-param>-->
     <!--<context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>com.baeldung.bean.config</param-value>
+        <param-value>com.surya.bean.config</param-value>
     </context-param>-->
 
     <!-- secure web app context -->
@@ -73,7 +73,7 @@
         </init-param>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>com.baeldung.contexts.config.NormalWebAppConfig</param-value>
+            <param-value>com.surya.contexts.config.NormalWebAppConfig</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

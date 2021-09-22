@@ -4,4 +4,4 @@ This module contains articles about Spring Security with CORS (Cross Origin Requ
 
 ## Relevant Articles
 
-- [Fixing 401s with CORS Preflights and Spring Security](https://www.baeldung.com/spring-security-cors-preflight)
+- [Fixing 401s with CORS Preflights and Spring Security](https://www.surya.com/spring-security-cors-preflight)

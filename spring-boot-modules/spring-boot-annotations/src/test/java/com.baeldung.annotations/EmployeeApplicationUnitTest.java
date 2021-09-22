@@ -1,4 +1,4 @@
-package com.baeldung.annotations;
+package com.surya.annotations;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.runner.ApplicationContextRunner;

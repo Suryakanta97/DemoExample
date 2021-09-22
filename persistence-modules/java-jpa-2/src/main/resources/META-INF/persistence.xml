@@ -8,7 +8,7 @@
 	<persistence-unit name="jpa-h2-queryparams"
 		transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.queryparams.Employee</class>
+		<class>com.surya.jpa.queryparams.Employee</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -31,7 +31,7 @@
 
 	<persistence-unit name="jpa-h2-text">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.text.Exam</class>
+		<class>com.surya.jpa.text.Exam</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -51,7 +51,7 @@
 
 	<persistence-unit name="entity-default-values">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.defaultvalues.User</class>
+		<class>com.surya.jpa.defaultvalues.User</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -71,7 +71,7 @@
 
 	<persistence-unit name="jpa-query-types">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.querytypes.UserEntity</class>
+		<class>com.surya.jpa.querytypes.UserEntity</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -93,7 +93,7 @@
 
 	<persistence-unit name="jpa-projections">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.projections.Product</class>
+		<class>com.surya.jpa.projections.Product</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -115,7 +115,7 @@
 
 	<persistence-unit name="jpa-h2-criteria">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.criteria.Item</class>
+		<class>com.surya.jpa.criteria.Item</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -137,13 +137,13 @@
 
     <persistence-unit name="jpa-h2-multipltables">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.multipletables.multipleentities.MealWithMultipleEntities</class>
-        <class>com.baeldung.jpa.multipletables.multipleentities.AllergensAsEntity</class>
+        <class>com.surya.jpa.multipletables.multipleentities.MealWithMultipleEntities</class>
+        <class>com.surya.jpa.multipletables.multipleentities.AllergensAsEntity</class>
         
-        <class>com.baeldung.jpa.multipletables.secondarytable.MealAsSingleEntity</class>
+        <class>com.surya.jpa.multipletables.secondarytable.MealAsSingleEntity</class>
         
-        <class>com.baeldung.jpa.multipletables.secondarytable.embeddable.MealWithEmbeddedAllergens</class>
-        <class>com.baeldung.jpa.multipletables.secondarytable.embeddable.AllergensAsEmbeddable</class>
+        <class>com.surya.jpa.multipletables.secondarytable.embeddable.MealWithEmbeddedAllergens</class>
+        <class>com.surya.jpa.multipletables.secondarytable.embeddable.AllergensAsEmbeddable</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
@@ -165,9 +165,9 @@
     
     <persistence-unit name="jpa-h2-unrelated-entities">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.unrelated.entities.Cocktail</class>
-		<class>com.baeldung.jpa.unrelated.entities.Recipe</class>
-		<class>com.baeldung.jpa.unrelated.entities.MultipleRecipe</class>
+        <class>com.surya.jpa.unrelated.entities.Cocktail</class>
+		<class>com.surya.jpa.unrelated.entities.Recipe</class>
+		<class>com.surya.jpa.unrelated.entities.MultipleRecipe</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver"
@@ -187,11 +187,11 @@
 
     <persistence-unit name="jpa-h2-primarykey">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <class>com.baeldung.jpa.generateidvalue.Admin</class>
-        <class>com.baeldung.jpa.generateidvalue.Article</class>
-        <class>com.baeldung.jpa.generateidvalue.IdGenerator</class>
-        <class>com.baeldung.jpa.generateidvalue.Task</class>
-        <class>com.baeldung.jpa.generateidvalue.User</class>
+        <class>com.surya.jpa.generateidvalue.Admin</class>
+        <class>com.surya.jpa.generateidvalue.Article</class>
+        <class>com.surya.jpa.generateidvalue.IdGenerator</class>
+        <class>com.surya.jpa.generateidvalue.Task</class>
+        <class>com.surya.jpa.generateidvalue.User</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver"

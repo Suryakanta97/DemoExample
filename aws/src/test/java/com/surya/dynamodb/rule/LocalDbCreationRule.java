@@ -1,4 +1,4 @@
-package com.baeldung.dynamodb.rule;
+package com.surya.dynamodb.rule;
 
 import com.amazonaws.services.dynamodbv2.local.main.ServerRunner;
 import com.amazonaws.services.dynamodbv2.local.server.DynamoDBProxyServer;

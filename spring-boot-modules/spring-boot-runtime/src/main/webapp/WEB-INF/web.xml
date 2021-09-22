@@ -16,7 +16,7 @@
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>com.baeldung.sampleapp.config</param-value>
+        <param-value>com.surya.sampleapp.config</param-value>
     </context-param>
  
 <!--     <listener>

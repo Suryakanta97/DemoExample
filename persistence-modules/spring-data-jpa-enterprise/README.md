@@ -4,15 +4,15 @@ This module contains articles about Spring Data JPA used in enterprise applicati
 
 ### Relevant Articles: 
 
-- [Spring JPA – Multiple Databases](https://www.baeldung.com/spring-data-jpa-multiple-databases)
-- [Spring Data Java 8 Support](https://www.baeldung.com/spring-data-java-8)
-- [Pagination and Sorting using Spring Data JPA](https://www.baeldung.com/spring-data-jpa-pagination-sorting)
-- [DB Integration Tests with Spring Boot and Testcontainers](https://www.baeldung.com/spring-boot-testcontainers-integration-test)
-- [A Guide to Spring’s Open Session In View](https://www.baeldung.com/spring-open-session-in-view)
-- [Working with Lazy Element Collections in JPA](https://www.baeldung.com/java-jpa-lazy-collections)
-- [Custom Naming Convention with Spring Data JPA](https://www.baeldung.com/spring-data-jpa-custom-naming)
-- [Partial Data Update with Spring Data](https://www.baeldung.com/spring-data-partial-update)
-- [Spring Data JPA @Modifying Annotation](https://www.baeldung.com/spring-data-jpa-modifying-annotation)
+- [Spring JPA – Multiple Databases](https://www.surya.com/spring-data-jpa-multiple-databases)
+- [Spring Data Java 8 Support](https://www.surya.com/spring-data-java-8)
+- [Pagination and Sorting using Spring Data JPA](https://www.surya.com/spring-data-jpa-pagination-sorting)
+- [DB Integration Tests with Spring Boot and Testcontainers](https://www.surya.com/spring-boot-testcontainers-integration-test)
+- [A Guide to Spring’s Open Session In View](https://www.surya.com/spring-open-session-in-view)
+- [Working with Lazy Element Collections in JPA](https://www.surya.com/java-jpa-lazy-collections)
+- [Custom Naming Convention with Spring Data JPA](https://www.surya.com/spring-data-jpa-custom-naming)
+- [Partial Data Update with Spring Data](https://www.surya.com/spring-data-partial-update)
+- [Spring Data JPA @Modifying Annotation](https://www.surya.com/spring-data-jpa-modifying-annotation)
 
 ### Eclipse Config 
 After importing the project into Eclipse, you may see the following error:  

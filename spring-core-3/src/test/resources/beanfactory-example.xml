@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="employee" class="com.baeldung.beanfactory.Employee">
+    <bean id="employee" class="com.surya.beanfactory.Employee">
         <constructor-arg name="name" value="Hello! My name is Java"/>
         <constructor-arg name="age" value="18"/>
     </bean>

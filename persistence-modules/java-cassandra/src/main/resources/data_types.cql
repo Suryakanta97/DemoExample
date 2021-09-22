@@ -1,7 +1,7 @@
 CREATE
-    KEYSPACE baeldung
+    KEYSPACE surya
     WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};
-USE baeldung;
+USE surya;
 
 CREATE TABLE numeric_types
 (

@@ -46,7 +46,7 @@
     <int:logging-channel-adapter id="infoLogger" level="INFO"/>
     <int:logging-channel-adapter id="errorLogger" level="ERROR"/>
 
-    <bean id="serviceActivator" class="com.baeldung.tx.ServiceActivator"/>
+    <bean id="serviceActivator" class="com.surya.tx.ServiceActivator"/>
 
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>

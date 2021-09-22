@@ -1,3 +1,3 @@
 ## Relevant articles:
 
-- [Overview of JPA/Hibernate Cascade Types](https://www.baeldung.com/jpa-cascade-types)
+- [Overview of JPA/Hibernate Cascade Types](https://www.surya.com/jpa-cascade-types)

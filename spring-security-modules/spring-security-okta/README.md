@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Spring Security With Okta](https://www.baeldung.com/spring-security-okta)
+- [Spring Security With Okta](https://www.surya.com/spring-security-okta)

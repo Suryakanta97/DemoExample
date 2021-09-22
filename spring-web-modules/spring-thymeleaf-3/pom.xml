@@ -8,7 +8,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -49,7 +49,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.thymeleaf.cssandjs.CssAndJsApplication</mainClass>
+                    <mainClass>com.surya.thymeleaf.cssandjs.CssAndJsApplication</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

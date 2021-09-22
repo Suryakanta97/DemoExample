@@ -1,5 +1,5 @@
 <xs:schema attributeFormDefault="unqualified"
-	elementFormDefault="qualified" targetNamespace="http://www.jibx.xml.baeldung.com/"
+	elementFormDefault="qualified" targetNamespace="http://www.jibx.xml.surya.com/"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="Order">
 		<xs:complexType>

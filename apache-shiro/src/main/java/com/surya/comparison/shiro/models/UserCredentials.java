@@ -1,4 +1,4 @@
-package com.baeldung.comparison.shiro.models;
+package com.surya.comparison.shiro.models;
 
 public class UserCredentials {
 

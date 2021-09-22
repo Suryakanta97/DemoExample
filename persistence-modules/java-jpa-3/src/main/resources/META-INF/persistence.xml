@@ -6,9 +6,9 @@
              version="2.2">
     <persistence-unit name="jpa-h2-equality">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.equality.EqualByJavaDefault</class>
-        <class>com.baeldung.jpa.equality.EqualById</class>
-        <class>com.baeldung.jpa.equality.EqualByBusinessKey</class>
+        <class>com.surya.jpa.equality.EqualByJavaDefault</class>
+        <class>com.surya.jpa.equality.EqualById</class>
+        <class>com.surya.jpa.equality.EqualByBusinessKey</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -24,9 +24,9 @@
     </persistence-unit>
     <persistence-unit name="jpa-h2-removal">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.removal.ShipmentInfo</class>
-        <class>com.baeldung.jpa.removal.LineItem</class>
-        <class>com.baeldung.jpa.removal.OrderRequest</class>
+        <class>com.surya.jpa.removal.ShipmentInfo</class>
+        <class>com.surya.jpa.removal.LineItem</class>
+        <class>com.surya.jpa.removal.OrderRequest</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -42,7 +42,7 @@
     </persistence-unit>
     <persistence-unit name="jpa-index">
             <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-            <class>com.baeldung.jpa.index.Student</class>
+            <class>com.surya.jpa.index.Student</class>
             <exclude-unlisted-classes>true</exclude-unlisted-classes>
             <properties>
                 <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
@@ -57,13 +57,13 @@
     </persistence-unit>
     <persistence-unit name="jpa-h2-multiple-bag-fetch-exception">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.multiplebagfetchexception.Album</class>
-        <class>com.baeldung.jpa.multiplebagfetchexception.Song</class>
-        <class>com.baeldung.jpa.multiplebagfetchexception.User</class>
-        <class>com.baeldung.jpa.multiplebagfetchexception.Artist</class>
-        <class>com.baeldung.jpa.multiplebagfetchexception.Offer</class>
-        <class>com.baeldung.jpa.multiplebagfetchexception.Playlist</class>
-        <class>com.baeldung.jpa.multiplebagfetchexception.FavoriteSong</class>
+        <class>com.surya.jpa.multiplebagfetchexception.Album</class>
+        <class>com.surya.jpa.multiplebagfetchexception.Song</class>
+        <class>com.surya.jpa.multiplebagfetchexception.User</class>
+        <class>com.surya.jpa.multiplebagfetchexception.Artist</class>
+        <class>com.surya.jpa.multiplebagfetchexception.Offer</class>
+        <class>com.surya.jpa.multiplebagfetchexception.Playlist</class>
+        <class>com.surya.jpa.multiplebagfetchexception.FavoriteSong</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -79,10 +79,10 @@
     </persistence-unit>
     <persistence-unit name="jpa-h2-hibernate-unproxy">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.hibernateunproxy.Payment</class>
-        <class>com.baeldung.jpa.hibernateunproxy.CreditCardPayment</class>
-        <class>com.baeldung.jpa.hibernateunproxy.PaymentReceipt</class>
-        <class>com.baeldung.jpa.hibernateunproxy.WebUser</class>
+        <class>com.surya.jpa.hibernateunproxy.Payment</class>
+        <class>com.surya.jpa.hibernateunproxy.CreditCardPayment</class>
+        <class>com.surya.jpa.hibernateunproxy.PaymentReceipt</class>
+        <class>com.surya.jpa.hibernateunproxy.WebUser</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -100,7 +100,7 @@
 
     <persistence-unit name="jpa-h2-id-generation">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.IdGeneration.User</class>
+        <class>com.surya.jpa.IdGeneration.User</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -115,8 +115,8 @@
     </persistence-unit>
     <persistence-unit name="jpa-unique-constraints">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.uniqueconstraints.Person</class>
-        <class>com.baeldung.jpa.uniqueconstraints.Address</class>
+        <class>com.surya.jpa.uniqueconstraints.Person</class>
+        <class>com.surya.jpa.uniqueconstraints.Address</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
@@ -131,10 +131,10 @@
 	</persistence-unit>
     <persistence-unit name="jpa-h2-return-multiple-entities">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.baeldung.jpa.returnmultipleentities.Channel</class>
-        <class>com.baeldung.jpa.returnmultipleentities.Subscription</class>
-        <class>com.baeldung.jpa.returnmultipleentities.User</class>
-        <class>com.baeldung.jpa.returnmultipleentities.ReportRepository</class>
+        <class>com.surya.jpa.returnmultipleentities.Channel</class>
+        <class>com.surya.jpa.returnmultipleentities.Subscription</class>
+        <class>com.surya.jpa.returnmultipleentities.User</class>
+        <class>com.surya.jpa.returnmultipleentities.ReportRepository</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>

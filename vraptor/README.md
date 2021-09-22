@@ -4,7 +4,7 @@ This module contains articles about VRaptor
 
 ### Relevant Article:
 
-- [Introduction to VRaptor in Java](https://www.baeldung.com/vraptor)
+- [Introduction to VRaptor in Java](https://www.surya.com/vraptor)
 
 # VRaptor blank project
 

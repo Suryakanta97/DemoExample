@@ -3,10 +3,10 @@
     <include
         resource="org/springframework/boot/logging/logback/base.xml" />
     <appender name="LISTAPPENDER"
-        class="com.baeldung.webclient.utils.ListAppender">
+        class="com.surya.webclient.utils.ListAppender">
     </appender>
     <logger
-        name="com.baeldung.webclient.clientcredentials.service.WebClientChonJob">
+        name="com.surya.webclient.clientcredentials.service.WebClientChonJob">
         <appender-ref ref="LISTAPPENDER" />
     </logger>
     <root level="info">

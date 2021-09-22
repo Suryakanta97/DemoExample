@@ -75,6 +75,6 @@
 	
 	<int:service-activator input-channel="activatorChannel" method="handleMessage" ref="customActivator"/>
 	
-	<bean name="customActivator" class="com.baeldung.samples.endpoints.ActivatorImpl"/>
+	<bean name="customActivator" class="com.surya.samples.endpoints.ActivatorImpl"/>
 
 </beans>

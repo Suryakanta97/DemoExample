@@ -1,4 +1,4 @@
 ## Relevant articles:
 
-- [A Guide to Hibernate OGM](https://www.baeldung.com/hibernate-ogm)
+- [A Guide to Hibernate OGM](https://www.surya.com/hibernate-ogm)
 

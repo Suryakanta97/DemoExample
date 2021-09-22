@@ -25,12 +25,12 @@ Add a new pet to the store
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -92,12 +92,12 @@ Deletes a pet
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -164,12 +164,12 @@ Multiple status values can be provided with comma separated strings
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -235,12 +235,12 @@ Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -306,12 +306,12 @@ Returns a single pet
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -378,12 +378,12 @@ Update an existing pet
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -447,12 +447,12 @@ Updates a pet in the store with form data
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -518,12 +518,12 @@ uploads an image
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class Example {
     public static void main(String[] args) {

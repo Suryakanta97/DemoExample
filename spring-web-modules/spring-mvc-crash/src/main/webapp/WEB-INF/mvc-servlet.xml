@@ -7,14 +7,14 @@
         http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <context:component-scan base-package="com.baeldung.spring.controller"/>
+    <context:component-scan base-package="com.surya.spring.controller"/>
 
     <!-- Start: Mapping by bean name (BeanNameUrlHandlerMapping) -->
     <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping">
         <property name="order" value="1"/>
     </bean>
 
-    <bean name="/hello*.htm" class="com.baeldung.spring.controller.HelloWorldController"/>
+    <bean name="/hello*.htm" class="com.surya.spring.controller.HelloWorldController"/>
     <!-- End: Mapping by bean name (BeanNameUrlHandlerMapping) -->
 
     <!-- Start: Mapping by SimpleUrlHandlerMapping -->
@@ -35,7 +35,7 @@
         <property name="order" value="2"/>
     </bean>
 
-    <bean id="welcomeController" class="com.baeldung.spring.controller.WelcomeController"></bean>
+    <bean id="welcomeController" class="com.surya.spring.controller.WelcomeController"></bean>
 
 
     <bean class="org.crsh.spring.SpringWebBootstrap">

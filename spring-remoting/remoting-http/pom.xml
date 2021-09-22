@@ -9,7 +9,7 @@
     <description>Parent for all modules related to HTTP Spring Remoting.</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>spring-remoting</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

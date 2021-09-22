@@ -1,6 +1,6 @@
 Feature: the message can be retrieved
-  Scenario: client makes call to POST /baeldung
-    When the client calls /baeldung
+  Scenario: client makes call to POST /surya
+    When the client calls /surya
     Then the client receives status code of 200
     And the client receives server version hello
   Scenario: client makes call to GET /hello

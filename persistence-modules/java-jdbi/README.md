@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [A Guide to Jdbi](http://www.baeldung.com/jdbi)
+- [A Guide to Jdbi](http://www.surya.com/jdbi)

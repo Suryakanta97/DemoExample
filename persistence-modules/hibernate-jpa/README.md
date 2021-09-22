@@ -4,13 +4,13 @@ This module contains articles specific to use of Hibernate as a JPA implementati
 
 ### Relevant articles:
 
-- [JPA Attribute Converters](https://www.baeldung.com/jpa-attribute-converters)
-- [Pessimistic Locking in JPA](https://www.baeldung.com/jpa-pessimistic-locking)
-- [Bootstrapping JPA Programmatically in Java](http://www.baeldung.com/java-bootstrap-jpa)
-- [Optimistic Locking in JPA](https://www.baeldung.com/jpa-optimistic-locking)
-- [Criteria API – An Example of IN Expressions](https://www.baeldung.com/jpa-criteria-api-in-expressions)
-- [One-to-One Relationship in JPA](https://www.baeldung.com/jpa-one-to-one)
-- [Enabling Transaction Locks in Spring Data JPA](https://www.baeldung.com/java-jpa-transaction-locks)
-- [JPA/Hibernate Persistence Context](https://www.baeldung.com/jpa-hibernate-persistence-context)
-- [Quick Guide to EntityManager#getReference()](https://www.baeldung.com/jpa-entity-manager-get-reference)
-- [JPA Entities and the Serializable Interface](https://www.baeldung.com/jpa-entities-serializable)
+- [JPA Attribute Converters](https://www.surya.com/jpa-attribute-converters)
+- [Pessimistic Locking in JPA](https://www.surya.com/jpa-pessimistic-locking)
+- [Bootstrapping JPA Programmatically in Java](http://www.surya.com/java-bootstrap-jpa)
+- [Optimistic Locking in JPA](https://www.surya.com/jpa-optimistic-locking)
+- [Criteria API – An Example of IN Expressions](https://www.surya.com/jpa-criteria-api-in-expressions)
+- [One-to-One Relationship in JPA](https://www.surya.com/jpa-one-to-one)
+- [Enabling Transaction Locks in Spring Data JPA](https://www.surya.com/java-jpa-transaction-locks)
+- [JPA/Hibernate Persistence Context](https://www.surya.com/jpa-hibernate-persistence-context)
+- [Quick Guide to EntityManager#getReference()](https://www.surya.com/jpa-entity-manager-get-reference)
+- [JPA Entities and the Serializable Interface](https://www.surya.com/jpa-entities-serializable)

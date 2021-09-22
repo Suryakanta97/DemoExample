@@ -1,5 +1,5 @@
-<com.baeldung.pojo.Customer>
+<com.surya.pojo.Customer>
     <firstName>XStream</firstName>
     <lastName>Java</lastName>
     <dob>1986-02-14 03:46:16.381 UTC</dob>
-</com.baeldung.pojo.Customer>
+</com.surya.pojo.Customer>

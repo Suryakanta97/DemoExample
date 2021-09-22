@@ -3,12 +3,12 @@
 	xmlns="http://www.springframework.org/schema/beans"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean name="ftpReader" class="com.baeldung.beaninjection.FtpReader">
+	<bean name="ftpReader" class="com.surya.beaninjection.FtpReader">
 		<constructor-arg value="localhost" />
 		<constructor-arg value="21" />
 	</bean>
 	
-	<bean name="readerService" class="com.baeldung.beaninjection.ReaderService">
+	<bean name="readerService" class="com.surya.beaninjection.ReaderService">
 		<property name="ftpReader" ref="ftpReader" />
 	</bean>
 	

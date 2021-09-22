@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-modules</groupId>
+        <groupId>com.surya.spring-boot-modules</groupId>
         <artifactId>spring-boot-property-exp</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -71,7 +71,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.propertyexpansion.SpringBootPropertyExpansionApp</mainClass>
+                    <mainClass>com.surya.propertyexpansion.SpringBootPropertyExpansionApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>

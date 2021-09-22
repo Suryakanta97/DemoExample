@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Spring Boot With Spring Batch](https://www.baeldung.com/spring-boot-spring-batch)
+- [Spring Boot With Spring Batch](https://www.surya.com/spring-boot-spring-batch)

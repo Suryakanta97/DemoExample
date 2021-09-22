@@ -1,4 +1,4 @@
-package com.baeldung.comparison.shiro.controllers;
+package com.surya.comparison.shiro.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.baeldung.comparison.shiro.models.UserCredentials;
+import com.surya.comparison.shiro.models.UserCredentials;
 
 @Controller
 public class ShiroController {

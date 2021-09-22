@@ -9,7 +9,7 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -126,7 +126,7 @@
 
     <properties>
         <!-- The main class to start by executing java -jar -->
-        <start-class>com.baeldung.boot.Application</start-class>
+        <start-class>com.surya.boot.Application</start-class>
         <jquery.version>3.1.1</jquery.version>
         <bootstrap.version>3.3.7-1</bootstrap.version>
         <jpa.version>2.2</jpa.version>

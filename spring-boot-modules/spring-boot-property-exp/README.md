@@ -4,7 +4,7 @@ This module contains articles about Spring Boot Property Expansion
 
 ### Relevant Articles 
 
- - [Automatic Property Expansion with Spring Boot](https://www.baeldung.com/spring-boot-auto-property-expansion)
+ - [Automatic Property Expansion with Spring Boot](https://www.surya.com/spring-boot-auto-property-expansion)
  
 ## SubModules 
  

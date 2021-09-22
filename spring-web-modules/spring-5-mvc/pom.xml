@@ -9,7 +9,7 @@
     <description>spring 5 MVC sample project about new features</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -92,7 +92,7 @@
     <properties>
         <jayway-rest-assured.version>2.9.0</jayway-rest-assured.version>
         <httpclient.version>4.5.8</httpclient.version>
-        <start-class>com.baeldung.Spring5Application</start-class>
+        <start-class>com.surya.Spring5Application</start-class>
         <javafaker.version>0.18</javafaker.version>
     </properties>
 

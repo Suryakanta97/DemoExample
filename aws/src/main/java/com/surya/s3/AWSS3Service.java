@@ -1,4 +1,4 @@
-package com.baeldung.s3;
+package com.surya.s3;
 
 import java.io.File;
 import java.util.List;

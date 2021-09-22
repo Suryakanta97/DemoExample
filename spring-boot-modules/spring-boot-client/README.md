@@ -7,5 +7,5 @@ The "REST With Spring" Classes: http://bit.ly/restwithspring
 
 ### Relevant Articles:
 
-- [Quick Guide to @RestClientTest in Spring Boot](https://www.baeldung.com/restclienttest-in-spring-boot)
-- [A Java Client for a WebSockets API](https://www.baeldung.com/websockets-api-java-spring-client)
+- [Quick Guide to @RestClientTest in Spring Boot](https://www.surya.com/restclienttest-in-spring-boot)
+- [A Java Client for a WebSockets API](https://www.surya.com/websockets-api-java-spring-client)

@@ -4,5 +4,5 @@ This module contains articles about Spring Boot with Nashorn
 
 ### Relevant Articles:
 
-- [Isomorphic Application with React and Nashorn](https://www.baeldung.com/react-nashorn-isomorphic-app) 
+- [Isomorphic Application with React and Nashorn](https://www.surya.com/react-nashorn-isomorphic-app) 
 

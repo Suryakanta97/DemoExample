@@ -13,7 +13,7 @@
         >
 
     <tx:annotation-driven />
-    <context:component-scan base-package="com.baeldung" />
+    <context:component-scan base-package="com.surya" />
 
     <import resource="test-db.xml" />
 

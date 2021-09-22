@@ -7,14 +7,14 @@
     <name>remoting-hessian-burlap-server</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>remoting-hessian-burlap</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.surya</groupId>
             <artifactId>remoting-http-server</artifactId>
             <version>${project.version}</version>
         </dependency>

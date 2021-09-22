@@ -8,8 +8,8 @@ The "Learn Spring Security" Classes: http://github.learnspringsecurity.com
 
 ### Relevant Article: 
 
-- [Spring Security – security none, filters none, access permitAll](https://www.baeldung.com/security-none-filters-none-access-permitAll)
-- [Intro to Spring Security LDAP](https://www.baeldung.com/spring-security-ldap)
+- [Spring Security – security none, filters none, access permitAll](https://www.surya.com/security-none-filters-none-access-permitAll)
+- [Intro to Spring Security LDAP](https://www.surya.com/spring-security-ldap)
 
 ### Notes
 
@@ -17,6 +17,6 @@ The "Learn Spring Security" Classes: http://github.learnspringsecurity.com
 - Once started, open 'http://localhost:8080'
 - This will display the publicly available Home Page
 - Navigate to 'Secure Page' to trigger authentication
-- Username: 'baeldung', password: 'password'
+- Username: 'surya', password: 'password'
 - This will authenticate you, and display your allocated roles (as defined in the 'users.ldif' file)
 

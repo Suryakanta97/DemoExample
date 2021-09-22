@@ -7,7 +7,7 @@
     <name>spring-swagger-codegen-app</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>spring-swagger-codegen</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../spring-swagger-codegen</relativePath>
@@ -15,7 +15,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.surya</groupId>
             <artifactId>spring-swagger-codegen-api-client</artifactId>
             <version>${spring-swagger-codegen-api-client.version}</version>
         </dependency>

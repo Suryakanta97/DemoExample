@@ -4,5 +4,5 @@ This module contains articles about Spring Remoting with Java Message Service (J
 
 ### Relevant Articles:
 
-- [Spring Remoting with JMS and ActiveMQ](https://www.baeldung.com/spring-remoting-jms)
+- [Spring Remoting with JMS and ActiveMQ](https://www.surya.com/spring-remoting-jms)
 

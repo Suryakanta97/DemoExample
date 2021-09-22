@@ -1,4 +1,4 @@
-package com.baeldung.intro.controllers;
+package com.surya.intro.controllers;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.baeldung.intro.models.UserCredentials;
+import com.surya.intro.models.UserCredentials;
 
 import javax.servlet.http.HttpServletRequest;
 

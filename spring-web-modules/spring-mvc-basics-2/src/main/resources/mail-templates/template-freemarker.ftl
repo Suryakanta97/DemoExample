@@ -8,7 +8,7 @@
     <p>${text}</p>
     <p>Regards,</p>
     <p>
-      <em>${senderName} at Baeldung</em> <br />
+      <em>${senderName} at surya</em> <br />
       <img src="cid:attachment.png" />
     </p>
   </body>

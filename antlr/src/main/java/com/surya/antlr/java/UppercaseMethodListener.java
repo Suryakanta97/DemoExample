@@ -1,7 +1,7 @@
 package com.surya.antlr.java;
 
-import com.baeldung.antlr.Java8BaseListener;
-import com.baeldung.antlr.Java8Parser;
+import com.surya.antlr.Java8BaseListener;
+import com.surya.antlr.Java8Parser;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 import java.util.ArrayList;

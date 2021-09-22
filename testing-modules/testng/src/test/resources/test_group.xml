@@ -7,7 +7,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.baeldung.SummationServiceIntegrationTest"/>
+            <class name="com.surya.SummationServiceIntegrationTest"/>
         </classes>
     </test>
 </suite>

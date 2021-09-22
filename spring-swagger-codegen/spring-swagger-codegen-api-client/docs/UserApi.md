@@ -25,8 +25,8 @@ This can only be done by the logged in user.
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -69,8 +69,8 @@ Creates list of users with given input array
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -113,8 +113,8 @@ Creates list of users with given input array
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -157,8 +157,8 @@ This can only be done by the logged in user.
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -201,8 +201,8 @@ Get user by user name
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -246,8 +246,8 @@ Logs user into the system
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -293,8 +293,8 @@ Logs out current logged in user session
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();
@@ -333,8 +333,8 @@ This can only be done by the logged in user.
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.api.UserApi;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.api.UserApi;
 
 
 UserApi apiInstance = new UserApi();

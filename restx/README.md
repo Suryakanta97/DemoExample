@@ -4,5 +4,5 @@ This module contains articles about RESTX.
 
 ### Relevant Articles
 
-* [Introduction to RESTX](https://www.baeldung.com/java-restx)
+* [Introduction to RESTX](https://www.surya.com/java-restx)
 

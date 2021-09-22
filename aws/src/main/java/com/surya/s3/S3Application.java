@@ -1,4 +1,4 @@
-package com.baeldung.s3;
+package com.surya.s3;
 
 import java.io.File;
 import java.io.IOException;
@@ -41,7 +41,7 @@ public class S3Application {
         
         AWSS3Service awsService = new AWSS3Service(s3client);
 
-        bucketName = "baeldung-bucket";
+        bucketName = "surya-bucket";
 
         //creating a bucket
         if(awsService.doesBucketExist(bucketName)) {
@@ -57,7 +57,7 @@ public class S3Application {
         }
         
         //deleting bucket
-        awsService.deleteBucket("baeldung-bucket-test2");
+        awsService.deleteBucket("surya-bucket-test2");
         
         //uploading object
         awsService.putObject(
@@ -79,9 +79,9 @@ public class S3Application {
         
         //copying an object
         awsService.copyObject(
-          "baeldung-bucket", 
+          "surya-bucket", 
           "picture/pic.png", 
-          "baeldung-bucket2", 
+          "surya-bucket2", 
           "Document/picture.png"
         );
         
@@ -94,7 +94,7 @@ public class S3Application {
           "Document/picture.png"
         };
         
-        DeleteObjectsRequest delObjReq = new DeleteObjectsRequest("baeldung-bucket")
+        DeleteObjectsRequest delObjReq = new DeleteObjectsRequest("surya-bucket")
           .withKeys(objkeyArr);
         awsService.deleteObjects(delObjReq);
     }

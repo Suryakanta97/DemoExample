@@ -1,4 +1,4 @@
-package com.baeldung.intro;
+package com.surya.intro;
 
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition;

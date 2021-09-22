@@ -1,3 +1,3 @@
 ### Relevant Articles:
 
-- [Spring Bean vs. EJB – A Feature Comparison](https://www.baeldung.com/spring-bean-vs-ejb)
+- [Spring Bean vs. EJB – A Feature Comparison](https://www.surya.com/spring-bean-vs-ejb)

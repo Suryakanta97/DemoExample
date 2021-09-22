@@ -8,9 +8,9 @@ The "Learn Spring Security" Classes: http://github.learnspringsecurity.com
 
 ### Relevant Articles: 
 
-- [HttpSessionListener Example – Monitoring](https://www.baeldung.com/httpsessionlistener_with_metrics)
-- [Control the Session with Spring Security](https://www.baeldung.com/spring-security-session)
-- [The Clear-Site-Data Header in Spring Security](https://www.baeldung.com/spring-security-clear-site-data-header)
+- [HttpSessionListener Example – Monitoring](https://www.surya.com/httpsessionlistener_with_metrics)
+- [Control the Session with Spring Security](https://www.surya.com/spring-security-session)
+- [The Clear-Site-Data Header in Spring Security](https://www.surya.com/spring-security-clear-site-data-header)
 
 
 ### Build the Project

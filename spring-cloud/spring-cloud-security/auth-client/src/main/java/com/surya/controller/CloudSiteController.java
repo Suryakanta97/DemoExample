@@ -15,8 +15,8 @@ public class CloudSiteController {
 
     @GetMapping("/")
     @ResponseBody
-    public String helloFromBaeldung() {
-        return "Hello From Baeldung!";
+    public String helloFromsurya() {
+        return "Hello From surya!";
     }
 
     @GetMapping("/personInfo")

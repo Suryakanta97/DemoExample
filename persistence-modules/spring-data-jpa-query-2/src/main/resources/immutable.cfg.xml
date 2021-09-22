@@ -31,7 +31,7 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping class="com.baeldung.hibernate.immutable.entities.Event"/>
+        <mapping class="com.surya.hibernate.immutable.entities.Event"/>
 
     </session-factory>
 

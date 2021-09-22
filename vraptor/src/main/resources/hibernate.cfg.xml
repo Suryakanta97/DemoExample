@@ -25,7 +25,7 @@
           true
       </property>
 
-    <mapping class="com.baeldung.models.User" />
-    <mapping class="com.baeldung.models.Post" />
+    <mapping class="com.surya.models.User" />
+    <mapping class="com.surya.models.Post" />
   </session-factory>
 </hibernate-configuration>

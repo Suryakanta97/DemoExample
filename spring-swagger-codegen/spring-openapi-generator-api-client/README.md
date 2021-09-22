@@ -40,7 +40,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>com.baeldung</groupId>
+  <groupId>com.surya</groupId>
   <artifactId>spring-openapi-generator-api-client</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <scope>compile</scope>
@@ -52,7 +52,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.baeldung:spring-openapi-generator-api-client:0.0.1-SNAPSHOT"
+compile "com.surya:spring-openapi-generator-api-client:0.0.1-SNAPSHOT"
 ```
 
 ### Others
@@ -74,10 +74,10 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import com.baeldung.petstore.client.invoker.*;
-import com.baeldung.petstore.client.invoker.auth.*;
-import com.baeldung.petstore.client.model.*;
-import com.baeldung.petstore.client.api.PetApi;
+import com.surya.petstore.client.invoker.*;
+import com.surya.petstore.client.invoker.auth.*;
+import com.surya.petstore.client.model.*;
+import com.surya.petstore.client.api.PetApi;
 
 public class PetApiExample {
 

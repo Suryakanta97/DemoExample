@@ -62,10 +62,10 @@
                 <configuration>
                     <instrumentation>
                         <ignores>
-                            <ignore>com/baeldung/algorithms/dijkstra/*</ignore>
+                            <ignore>com/surya/algorithms/dijkstra/*</ignore>
                         </ignores>
                         <excludes>
-                            <exclude>com/baeldung/algorithms/dijkstra/*</exclude>
+                            <exclude>com/surya/algorithms/dijkstra/*</exclude>
                         </excludes>
                     </instrumentation>
                 </configuration>

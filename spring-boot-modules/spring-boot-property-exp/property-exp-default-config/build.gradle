@@ -12,7 +12,7 @@ apply plugin: 'maven'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
-group = 'com.baeldung'
+group = 'com.surya'
 version = '0.0.1-SNAPSHOT'
 
 description = """spring-boot"""

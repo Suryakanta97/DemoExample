@@ -27,11 +27,11 @@ This can only be done by the logged in user.
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -89,11 +89,11 @@ Creates list of users with given input array
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -151,11 +151,11 @@ Creates list of users with given input array
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -215,11 +215,11 @@ This can only be done by the logged in user.
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -278,11 +278,11 @@ Get user by user name
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -343,11 +343,11 @@ Logs user into the system
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -409,11 +409,11 @@ Logs out current logged in user session
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -469,11 +469,11 @@ This can only be done by the logged in user.
 
 ```java
 // Import classes:
-import com.baeldung.petstore.client.invoker.ApiClient;
-import com.baeldung.petstore.client.invoker.ApiException;
-import com.baeldung.petstore.client.invoker.Configuration;
-import com.baeldung.petstore.client.invoker.models.*;
-import com.baeldung.petstore.client.api.UserApi;
+import com.surya.petstore.client.invoker.ApiClient;
+import com.surya.petstore.client.invoker.ApiException;
+import com.surya.petstore.client.invoker.Configuration;
+import com.surya.petstore.client.invoker.models.*;
+import com.surya.petstore.client.api.UserApi;
 
 public class Example {
     public static void main(String[] args) {

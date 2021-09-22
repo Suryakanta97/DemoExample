@@ -10,7 +10,7 @@
     <description>Spring x.509 Client Authentication Demo</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>spring-security-web-x509</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

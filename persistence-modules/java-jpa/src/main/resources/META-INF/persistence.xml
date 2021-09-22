@@ -7,9 +7,9 @@
 
 	<persistence-unit name="java-jpa-scheduled-day">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.sqlresultsetmapping.ScheduledDay</class>
-		<class>com.baeldung.jpa.sqlresultsetmapping.Employee</class>
-		<class>com.baeldung.jpa.basicannotation.Course</class>
+		<class>com.surya.jpa.sqlresultsetmapping.ScheduledDay</class>
+		<class>com.surya.jpa.sqlresultsetmapping.Employee</class>
+		<class>com.surya.jpa.basicannotation.Course</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -29,9 +29,9 @@
 
 	<persistence-unit name="jpa-h2">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.stringcast.Message</class>
-		<class>com.baeldung.jpa.enums.Article</class>
-		<class>com.baeldung.jpa.enums.CategoryConverter</class>
+		<class>com.surya.jpa.stringcast.Message</class>
+		<class>com.surya.jpa.enums.Article</class>
+		<class>com.surya.jpa.enums.CategoryConverter</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -51,15 +51,15 @@
 
 	<persistence-unit name="jpa-db">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.model.Car</class>
+		<class>com.surya.jpa.model.Car</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://127.0.0.1:3306/baeldung" />
+				value="jdbc:mysql://127.0.0.1:3306/surya" />
 			<property name="javax.persistence.jdbc.user"
-				value="baeldung" />
+				value="surya" />
 			<property name="javax.persistence.jdbc.password"
 				value="YourPassword" />
 			<property name="hibernate.dialect"
@@ -70,9 +70,9 @@
 
 	<persistence-unit name="entity-graph-pu"
 		transaction-type="RESOURCE_LOCAL">
-		<class>com.baeldung.jpa.entitygraph.model.Post</class>
-		<class>com.baeldung.jpa.entitygraph.model.User</class>
-		<class>com.baeldung.jpa.entitygraph.model.Comment</class>
+		<class>com.surya.jpa.entitygraph.model.Post</class>
+		<class>com.surya.jpa.entitygraph.model.User</class>
+		<class>com.surya.jpa.entitygraph.model.Comment</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 
@@ -93,7 +93,7 @@
 	<persistence-unit name="java8-datetime-postgresql"
 		transaction-type="RESOURCE_LOCAL">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-		<class>com.baeldung.jpa.datetime.JPA22DateTimeEntity</class>
+		<class>com.surya.jpa.datetime.JPA22DateTimeEntity</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -117,11 +117,11 @@
 
 	<persistence-unit name="jpa-entity-definition">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.entity.Student</class>
-		<class>com.baeldung.jpa.primarykeys.Book</class>
-		<class>com.baeldung.jpa.primarykeys.BookId</class>
-		<class>com.baeldung.jpa.primarykeys.Account</class>
-		<class>com.baeldung.jpa.primarykeys.AccountId</class>
+		<class>com.surya.jpa.entity.Student</class>
+		<class>com.surya.jpa.primarykeys.Book</class>
+		<class>com.surya.jpa.primarykeys.BookId</class>
+		<class>com.surya.jpa.primarykeys.Account</class>
+		<class>com.surya.jpa.primarykeys.AccountId</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"

@@ -3,7 +3,7 @@
     <include
             resource="org/springframework/boot/logging/logback/base.xml" />
     <appender name="LISTAPPENDER"
-              class="com.baeldung.failureanalyzer.utils.ListAppender">
+              class="com.surya.failureanalyzer.utils.ListAppender">
     </appender>
     <logger
             name="org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter">

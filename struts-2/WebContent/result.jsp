@@ -5,7 +5,7 @@
 <title>Hello World</title>
 </head>
 <body>
-  <p> Hello Baeldung User </p>
+  <p> Hello surya User </p>
   <p>You are a <s:property value="carMessage"/></p>
 </body>
 </html>

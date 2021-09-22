@@ -7,17 +7,17 @@
    <context:annotation-config/>
 
 	<bean id="articleWithSetterInjectionBean"
-		class="com.baeldung.dependencyinjectiontypes.ArticleWithSetterInjection">
+		class="com.surya.dependencyinjectiontypes.ArticleWithSetterInjection">
 		<constructor-arg ref="textFormatterBean" />
 	</bean>
 	
 	<bean id="articleWithConstructorInjectionBean"
-		class="com.baeldung.dependencyinjectiontypes.ArticleWithConstructorInjection">
+		class="com.surya.dependencyinjectiontypes.ArticleWithConstructorInjection">
 		<constructor-arg ref="textFormatterBean" />
 	</bean>
 	
 	
-	<bean id="textFormatterBean" class="com.baeldung.dependencyinjectiontypes.TextFormatter">
+	<bean id="textFormatterBean" class="com.surya.dependencyinjectiontypes.TextFormatter">
 	</bean>
 	
 </beans>

@@ -28,6 +28,6 @@ public class AsciidoctorDemo {
     }
 
     String generateHTMLFromString(final String input) {
-        return asciidoctor.convert("Hello _Baeldung_!", new HashMap<String, Object>());
+        return asciidoctor.convert("Hello _surya_!", new HashMap<String, Object>());
     }
 }

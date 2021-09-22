@@ -1,4 +1,4 @@
-package com.baeldung.rds;
+package com.surya.rds;
 
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;

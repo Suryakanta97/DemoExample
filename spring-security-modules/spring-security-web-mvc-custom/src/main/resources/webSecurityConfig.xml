@@ -22,7 +22,7 @@
 
     </http>
 
-    <beans:bean id="myAuthenticationSuccessHandler" class="com.baeldung.security.MySimpleUrlAuthenticationSuccessHandler"/>
+    <beans:bean id="myAuthenticationSuccessHandler" class="com.surya.security.MySimpleUrlAuthenticationSuccessHandler"/>
 
     <authentication-manager id="authenticationManager">
         <authentication-provider>
@@ -34,6 +34,6 @@
     </authentication-manager>
 
     <!--     <mvc:interceptors>
-        <bean id="loggerInterceptor" class="com.baeldung.web.interceptor.LoggerInterceptor" />
+        <bean id="loggerInterceptor" class="com.surya.web.interceptor.LoggerInterceptor" />
     </mvc:interceptors> -->
 </beans:beans>

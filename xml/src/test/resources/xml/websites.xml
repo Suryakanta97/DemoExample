@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <websites>
-    <website url="https://baeldung.com">
-        <name>Baeldung</name>
+    <website url="https://surya.com">
+        <name>surya</name>
         <category>Online Courses</category>
         <status>Online</status>
     </website>

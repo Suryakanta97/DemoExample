@@ -9,7 +9,7 @@
     <description>spring forms examples using thymeleaf</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-2</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../parent-boot-2</relativePath>
@@ -44,7 +44,7 @@
 
     <properties>
         <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
-        <start-class>com.baeldung.sessionattrs.SessionAttrsApplication</start-class>
+        <start-class>com.surya.sessionattrs.SessionAttrsApplication</start-class>
     </properties>
 
 </project>

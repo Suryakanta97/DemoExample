@@ -4,4 +4,4 @@ This module contains articles about Spring Remoting with Remote Method Invocatio
 
 ### Relevant Articles:
 
-- [Spring Remoting with RMI](https://www.baeldung.com/spring-remoting-rmi)
+- [Spring Remoting with RMI](https://www.surya.com/spring-remoting-rmi)

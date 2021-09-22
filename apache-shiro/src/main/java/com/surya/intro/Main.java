@@ -1,4 +1,4 @@
-package com.baeldung.intro;
+package com.surya.intro;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;

@@ -3,19 +3,19 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="toyota" class="com.baeldung.constructordi.domain.Car">
+    <bean id="toyota" class="com.surya.constructordi.domain.Car">
         <constructor-arg index="0" ref="engine" />
         <constructor-arg index="1" ref="transmission" />
     </bean>
 
     <bean id="engine"
-        class="com.baeldung.constructordi.domain.Engine">
+        class="com.surya.constructordi.domain.Engine">
         <constructor-arg index="0" value="v4" />
         <constructor-arg index="1" value="2" />
     </bean>
 
     <bean id="transmission"
-        class="com.baeldung.constructordi.domain.Transmission">
+        class="com.surya.constructordi.domain.Transmission">
         <constructor-arg value="sliding" />
     </bean>
 

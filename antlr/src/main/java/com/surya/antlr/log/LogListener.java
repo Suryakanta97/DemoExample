@@ -1,7 +1,7 @@
 package com.surya.antlr.log;
 
-import com.baeldung.antlr.LogBaseListener;
-import com.baeldung.antlr.LogParser;
+import com.surya.antlr.LogBaseListener;
+import com.surya.antlr.LogParser;
 import com.surya.antlr.log.model.LogEntry;
 import com.surya.antlr.log.model.LogLevel;
 

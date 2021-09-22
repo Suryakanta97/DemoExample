@@ -15,7 +15,7 @@
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>com.baeldung.spring</param-value>
+        <param-value>com.surya.spring</param-value>
     </context-param>
 
     <listener>
@@ -40,7 +40,7 @@
 
     <servlet>
         <servlet-name>ExampleOne</servlet-name>
-        <servlet-class>com.baeldung.jsp.ExampleOne</servlet-class>
+        <servlet-class>com.surya.jsp.ExampleOne</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ExampleOne</servlet-name>
@@ -48,7 +48,7 @@
     </servlet-mapping>
         <servlet>
         <servlet-name>ExampleThree</servlet-name>
-        <servlet-class>com.baeldung.jsp.ExampleThree</servlet-class>
+        <servlet-class>com.surya.jsp.ExampleThree</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ExampleThree</servlet-name>

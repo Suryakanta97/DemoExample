@@ -31,7 +31,7 @@
 		</property>
 	</bean>
 
-	<bean id="welcome" class="com.baeldung.WelcomeController" />
+	<bean id="welcome" class="com.surya.WelcomeController" />
 
 
 

@@ -25,11 +25,11 @@ Add a new pet to the store
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -77,11 +77,11 @@ Deletes a pet
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -131,11 +131,11 @@ Multiple status values can be provided with comma separated strings
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -184,11 +184,11 @@ Muliple tags can be provided with comma separated strings. Use tag1, tag2, tag3 
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -237,11 +237,11 @@ Returns a single pet
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -292,11 +292,11 @@ Update an existing pet
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -344,11 +344,11 @@ Updates a pet in the store with form data
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -400,11 +400,11 @@ uploads an image
 ### Example
 ```java
 // Import classes:
-//import com.baeldung.petstore.client.invoker.ApiClient;
-//import com.baeldung.petstore.client.invoker.ApiException;
-//import com.baeldung.petstore.client.invoker.Configuration;
-//import com.baeldung.petstore.client.invoker.auth.*;
-//import com.baeldung.petstore.client.api.PetApi;
+//import com.surya.petstore.client.invoker.ApiClient;
+//import com.surya.petstore.client.invoker.ApiException;
+//import com.surya.petstore.client.invoker.Configuration;
+//import com.surya.petstore.client.invoker.auth.*;
+//import com.surya.petstore.client.api.PetApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

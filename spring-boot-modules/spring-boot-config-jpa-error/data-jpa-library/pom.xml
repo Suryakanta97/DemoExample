@@ -7,7 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <parent>
-        <groupId>com.baeldung.spring-boot-config-jpa-error</groupId>
+        <groupId>com.surya.spring-boot-config-jpa-error</groupId>
         <artifactId>spring-boot-config-jpa-error</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

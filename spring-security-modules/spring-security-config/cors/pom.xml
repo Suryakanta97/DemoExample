@@ -9,7 +9,7 @@
     <description>Spring Security CORS</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>spring-security-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../</relativePath>

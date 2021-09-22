@@ -4,6 +4,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<bean id="foo" class="com.baeldung.spring.patterns.factory.Foo" />
-	<bean id="bar" scope="prototype" class="com.baeldung.spring.patterns.factory.Bar" />
+	<bean id="foo" class="com.surya.spring.patterns.factory.Foo" />
+	<bean id="bar" scope="prototype" class="com.surya.spring.patterns.factory.Bar" />
 </beans>

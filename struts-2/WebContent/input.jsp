@@ -8,7 +8,7 @@
 </head>
 <body>
 	<form method="get" action="/MyStrutsApp/tutorial/car.action">
-		<p>Welcome to Baeldung Struts 2 app</p>
+		<p>Welcome to surya Struts 2 app</p>
 		<p>Which car do you like !!</p>
 		<p>Please choose ferrari or bmw</p>
 		<select name="carName">

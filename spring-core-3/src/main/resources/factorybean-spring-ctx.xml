@@ -3,7 +3,7 @@
   xmlns="http://www.springframework.org/schema/beans"
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="tool" class="com.baeldung.factorybean.ToolFactory">
+    <bean id="tool" class="com.surya.factorybean.ToolFactory">
         <property name="factoryId" value="9090"/>
         <property name="toolId" value="1"/>
     </bean>

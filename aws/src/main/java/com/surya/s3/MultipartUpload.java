@@ -1,4 +1,4 @@
-package com.baeldung.s3;
+package com.surya.s3;
 
 import com.amazonaws.AmazonClientException;
 import com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
@@ -17,7 +17,7 @@ import java.util.concurrent.Executors;
 public class MultipartUpload {
 
     public static void main(String[] args) throws Exception {
-        String existingBucketName = "baeldung-bucket";
+        String existingBucketName = "surya-bucket";
         String keyName = "my-picture.jpg";
         String filePath = "documents/my-picture.jpg";
 

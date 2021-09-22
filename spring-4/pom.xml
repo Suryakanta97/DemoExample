@@ -10,7 +10,7 @@
 
     <parent>
         <!-- this module uses legacy Spring features, so can't upgrade to boot-2 -->
-        <groupId>com.baeldung</groupId>
+        <groupId>com.surya</groupId>
         <artifactId>parent-boot-1</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-boot-1</relativePath>
@@ -110,7 +110,7 @@
     </build>
 
     <properties>
-        <start-class>com.baeldung.flips.ApplicationConfig</start-class>
+        <start-class>com.surya.flips.ApplicationConfig</start-class>
         <flips-web.version>1.0.1</flips-web.version>
         <easymock.version>3.6</easymock.version>
         <hsqldb.version>2.4.0</hsqldb.version>

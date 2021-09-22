@@ -60,8 +60,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.probes.ProbesApplication</mainClass>
-                    <mainClass>com.baeldung.endpoints.enabling.EndpointEnablingApplication</mainClass>
+                    <mainClass>com.surya.probes.ProbesApplication</mainClass>
+                    <mainClass>com.surya.endpoints.enabling.EndpointEnablingApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

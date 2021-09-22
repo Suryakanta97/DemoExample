@@ -24,7 +24,7 @@
         </RollingFile>
 
         <Syslog name="Syslog" format="RFC5424" host="localhost" port="514"
-            protocol="UDP" appName="baeldung" facility="LOCAL0" />
+            protocol="UDP" appName="surya" facility="LOCAL0" />
 
     </Appenders>
 
@@ -36,8 +36,8 @@
             <AppenderRef ref="Syslog" />
         </Root>
 
-        <!-- LOG "com.baeldung*" at TRACE level -->
-        <Logger name="com.baeldung" level="trace"></Logger>
+        <!-- LOG "com.surya*" at TRACE level -->
+        <Logger name="com.surya" level="trace"></Logger>
     </Loggers>
 
 </Configuration>

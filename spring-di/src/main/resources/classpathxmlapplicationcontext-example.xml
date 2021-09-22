@@ -5,14 +5,14 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <context:annotation-config/>
 
-    <bean id="student" class="com.baeldung.applicationcontext.Student" destroy-method="destroy">
+    <bean id="student" class="com.surya.applicationcontext.Student" destroy-method="destroy">
         <property name="no" value="15"/>
         <property name="name" value="Tom"/>
     </bean>
 
-    <bean id="math" class="com.baeldung.applicationcontext.Course">
+    <bean id="math" class="com.surya.applicationcontext.Course">
         <property name="name" value="math"/>
     </bean>
 
-    <bean name="teacher" class="com.baeldung.applicationcontext.Teacher"/>
+    <bean name="teacher" class="com.surya.applicationcontext.Teacher"/>
 </beans>

@@ -5,7 +5,7 @@
     <!-- Spring IO Platform is the parent of the generated application to be able to use Spring Boot
         and all its default configuration -->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung</groupId>
+    <groupId>com.surya</groupId>
     <artifactId>spring-roo</artifactId>
     <version>1.0.0.BUILD-SNAPSHOT</version>
     <name>spring-roo</name>

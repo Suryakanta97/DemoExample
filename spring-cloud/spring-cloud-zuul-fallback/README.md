@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Fallback for Zuul Route](https://www.baeldung.com/spring-zuul-fallback-route)
+- [Fallback for Zuul Route](https://www.surya.com/spring-zuul-fallback-route)

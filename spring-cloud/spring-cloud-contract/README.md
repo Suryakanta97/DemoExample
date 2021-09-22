@@ -3,4 +3,4 @@
 This module contains articles about Spring Cloud Contract
 
 ### Relevant Articles:
-- [An Intro to Spring Cloud Contract](http://www.baeldung.com/spring-cloud-contract)
+- [An Intro to Spring Cloud Contract](http://www.surya.com/spring-cloud-contract)

@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Introduction to Liquibase Rollback](http://www.baeldung.com/liquibase-rollback)
+- [Introduction to Liquibase Rollback](http://www.surya.com/liquibase-rollback)

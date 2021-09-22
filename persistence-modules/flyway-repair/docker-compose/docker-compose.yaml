@@ -8,8 +8,8 @@ services:
       - ${POSTGRES_PORT}:5432
     env_file: postgres.env
     networks:
-      - baeldung
+      - surya
 
 networks:
-  baeldung:
+  surya:
     driver: bridge

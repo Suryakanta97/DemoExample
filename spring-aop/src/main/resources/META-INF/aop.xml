@@ -1,8 +1,8 @@
 <aspectj>
     <aspects>
-        <aspect name="com.baeldung.aspectj.SecuredMethodAspect"/>
+        <aspect name="com.surya.aspectj.SecuredMethodAspect"/>
         <weaver options="-verbose -showWeaveInfo">
-            <include within="com.baeldung.aspectj.*"/>
+            <include within="com.surya.aspectj.*"/>
         </weaver>
     </aspects>
 </aspectj>

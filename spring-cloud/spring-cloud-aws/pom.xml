@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.spring.cloud</groupId>
+    <groupId>com.surya.spring.cloud</groupId>
     <artifactId>spring-cloud-aws</artifactId>
     <name>spring-cloud-aws</name>
     <packaging>jar</packaging>
@@ -61,7 +61,7 @@
     </dependencyManagement>
 
     <properties>
-        <start-class>com.baeldung.spring.cloud.aws.SpringCloudAwsApplication</start-class>
+        <start-class>com.surya.spring.cloud.aws.SpringCloudAwsApplication</start-class>
         <spring-cloud.version>Dalston.SR4</spring-cloud.version>
         <spring-cloud>2.2.1.RELEASE</spring-cloud>
     </properties>
